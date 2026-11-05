@@ -1,15 +1,13 @@
 {
-  "complete": false,
+  "complete": true,
   "official_recordings": 60,
   "captioned_recordings": 60,
   "planned_chapters": 25,
   "accepted_chapters": 25,
   "planned_animations": 73,
   "planned_illustrations": 35,
-  "github_push_verified": false,
-  "remaining": [
-    "Authorized GitHub push and actual remote/live Pages verification"
-  ],
+  "github_push_verified": true,
+  "remaining": [],
   "draft_chapters": 0,
   "source_frame_acquisition_complete": true,
   "sampled_source_frames": 3548,
@@ -94,5 +92,16 @@
     "producer": "PASS: release;0errors;0pending",
     "public": "PASS: release;0errors;0pending",
     "scope": "Integrity and evidence bindings, not human expert certification"
+  },
+  "pages_verified": true,
+  "repository_url": "https://github.com/az9713/nptel-human-physiology-iitbhu-notes",
+  "reader_url": "https://az9713.github.io/nptel-human-physiology-iitbhu-notes/",
+  "publication_verified_base_commit": "52004300fb99f0097e1c158e315965d9679d10da",
+  "publication_verification": {
+    "remote_clone_files": 410,
+    "remote_clone_hash_mismatches": 0,
+    "deployed_files_byte_compared": 35,
+    "all_compared_files_match": true,
+    "scope": "Initial complete-content release verified against fresh GitHub checkout and deployed Pages, with bounded actual browser checks; final documentation records that outcome."
   }
 }

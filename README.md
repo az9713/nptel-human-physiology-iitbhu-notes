@@ -2,7 +2,7 @@
 
 Independent study notes following **Prof. Sudip Mukherjee, IIT (BHU) Varanasi**, [NPTEL course 102106670](https://nptel.ac.in/courses/102106670).
 
-[Online reader (publication pending)](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/) · [Chapter index](index.html) · [Source map](source-map.html) · [Code lab](code-lab.html)
+[Read online](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/) · [Chapter index](index.html) · [Source map](source-map.html) · [Code lab](code-lab.html)
 
 The book contains 25 accepted chapters covering the official 60-lecture sequence, with worked problems, controlled animations, static print alternatives and reproducible teaching calculations. Every chapter received two actual independent AI scientific/editorial full reviews, necessary targeted repairs and separate bounded browser/print checks. These checks are not human expert certification or clinical validation.
 

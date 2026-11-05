@@ -3,7 +3,7 @@
 ## Scope and current state
 Independent study notes following [NPTEL102106670](https://nptel.ac.in/courses/102106670), Prof. Sudip Mukherjee, IIT (BHU) Varanasi. The NPTEL-NOC IITM channel hosts the videos. The supplied playlist is reordered, omits official lecture20 and includes a supplementary introduction. The official60-lecture order is canonical.
 
-All25 chapters are accepted after exactly two actual independent full scientific/editorial reviews each, necessary bounded repairs and separate actual browser/print assessments. Complete publisher captions and bounded source-visual audits cover all60 recordings; no continuous viewing claim is made. The plan records25 chapters,101section nodes,73animations and35supporting illustrations. Final release validation and actual remote/live publication are recorded separately in completion.json.
+All 25 chapters are accepted after exactly two actual independent full scientific/editorial reviews each, necessary bounded repairs and separate actual browser/print assessments. Complete publisher captions and bounded source-visual audits cover all 60 recordings; no continuous viewing claim is made. The plan records 25 chapters, 101 section nodes, 73 animations and 35 supporting illustrations. Final release validation and actual remote/live publication are recorded separately in completion.json.
 
 The user authorized autonomous completion and GitHub publication using the established lecture-repository workflow. Do not invent author approval or claim a review happened when it did not.
 
