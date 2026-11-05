@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark"><title>Organization across scales</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101a21;color:#e8eff0;font:17px/1.55 system-ui,sans-serif}main{max-width:1100px;margin:auto;padding:1rem}h1{font:700 clamp(1.4rem,4vw,2.1rem)/1.15 Georgia,serif;margin:.2rem 0 1rem}p{margin:.6rem 0}a{color:#9cdbd1}.controls{display:flex;align-items:center;flex-wrap:wrap;gap:.65rem;padding:.8rem 0}button,select{font:inherit;color:inherit;background:#203541;border:1px solid #8099a6;border-radius:5px;padding:.45rem .7rem}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #f7cf88;outline-offset:3px}label{display:flex;gap:.4rem;align-items:center}input{accent-color:#9cdbd1;max-width:100%}.seek{flex:1;min-width:200px}.seek input{width:100%}.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.7rem}.card{border:2px solid #485f6b;background:#182831;border-radius:9px;padding:.7rem}.card.active{border-color:#efc477;background:#253943}.card h2{font:700 1.1rem/1.3 Georgia,serif;margin:.2rem 0}.card p{font-size:.9rem}.card svg{width:100%;height:auto;display:block;background:#0f2029;border-radius:5px}.card text{fill:#e8eff0;font:14px system-ui,sans-serif}.scale{color:#f1d39d}.note{color:#bfd0d6;font-size:.91rem}#state{padding:.6rem;border-left:4px solid #efc477;min-height:5rem}svg .ink{fill:none;stroke:#8ed9cc;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}svg .tissue{fill:#446f79;stroke:#b1e1d7;stroke-width:2}
+@media(max-width:700px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.card p{font-size:.9rem}}@media(max-width:380px){.cards{grid-template-columns:1fr}}@media print{body{background:white;color:#111}.controls,#state{display:none}.cards{grid-template-columns:repeat(2,1fr)}.card{background:white;border-color:#555;break-inside:avoid}.card.active{background:white}.note,.scale{color:#222}}
+</style></head><body><main>
+<h1>Organization across scales</h1>
+<p>Follow the question from the whole body to an organ, a tissue, and a cell. Each stop changes what must be explained.</p>
+<p class="note">A 16-second presentation sequence, not biological time or development. All shapes and scale windows are illustrative. The four drawings are separate schematics; no continuous microscope zoom, registered specimen, or measured body dimensions are implied.</p>
+<div class="controls" aria-label="Presentation controls"><button id="play" type="button" aria-pressed="false">Play</button><button id="replay" type="button">Replay</button><label>Speed <select id="speed"><option value=".5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option></select></label><label class="seek">Seek <input id="seek" type="range" min="0" max="16" step=".05" value="0" aria-label="Presentation time in seconds"></label><output id="clock" for="seek">0.0 / 16 s</output></div>
+<div class="cards">
+<section class="card active" id="stage-0"><h2>1. Body / organism</h2><svg viewBox="0 0 220 190" role="img" aria-label="Organization symbol for the whole body, with highlighted skin boundary; not an anatomical rendering"><circle cx="110" cy="31" r="16" class="ink"/><path d="M110 49v68M110 66L70 95M110 66l40 29M110 117l-27 49M110 117l27 49" class="ink"/><path d="M69 54Q110 41 151 54" stroke="#efc477" stroke-width="4" fill="none"/><text x="40" y="185">Whole-body boundary</text></svg><p class="scale">Chosen scale window: 1 m</p><p>Organ systems cooperate in the living individual. Skin is considered next as one organ.</p><button type="button" data-stage="0">Explore body</button></section>
+<section class="card" id="stage-1"><h2>2. Organ / skin</h2><svg viewBox="0 0 220 190" role="img" aria-label="Schematic skin block with an upper epithelial layer and deeper connective material"><path d="M28 53Q54 35 81 48T136 48T192 48V139H28Z" fill="#99796b" stroke="#efc477" stroke-width="3"/><path d="M28 72Q54 54 81 67T136 67T192 67" class="ink"/><path d="M41 101q40-23 63 8t75-2M41 123q32-19 63 1t75-2" class="ink"/><text x="34" y="176">Multiple tissue types</text></svg><p class="scale">Chosen scale window: 10 cm</p><p>An organ combines tissue types. A block symbol exposes their arrangement; its proportions are invented.</p><button type="button" data-stage="1">Explore organ</button></section>
+<section class="card" id="stage-2"><h2>3. Tissue / matrix</h2><svg viewBox="0 0 220 190" role="img" aria-label="Schematic connective tissue with three cells amid extracellular fibres"><path d="M18 38q52 39 91 0t94 0M18 83q47-35 91 0t94 0M18 126q52 35 91 0t94 0" class="ink"/><ellipse cx="60" cy="65" rx="23" ry="11" class="tissue"/><ellipse cx="157" cy="110" rx="23" ry="11" class="tissue"/><ellipse cx="105" cy="145" rx="23" ry="11" class="tissue"/><text x="30" y="183">Cells + extracellular matrix</text></svg><p class="scale">Chosen scale window: 1 mm</p><p>Cell relationships and the surrounding matrix matter. A tissue is more than isolated cells placed together.</p><button type="button" data-stage="2">Explore tissue</button></section>
+<section class="card" id="stage-3"><h2>4. Cell / compartments</h2><svg viewBox="0 0 220 190" role="img" aria-label="Schematic nucleated cell with a plasma membrane and internal compartments"><ellipse cx="110" cy="85" rx="86" ry="58" class="tissue"/><ellipse cx="98" cy="82" rx="27" ry="23" fill="#a88762" stroke="#efc477" stroke-width="3"/><path d="M128 62q22 10 42 0M130 72q22 10 42 0M130 82q22 10 42 0M50 100l19 8" class="ink"/><text x="25" y="176">Membranes define spaces</text></svg><p class="scale">Chosen scale window: 10 μm</p><p>Selective boundaries and organelles organize transport. This is a generic cell, not the measured fibroblast below.</p><button type="button" data-stage="3">Explore cell</button></section>
+</div>
+<p id="state" role="status" aria-live="polite">Body: ask how systems cooperate to preserve the cell's environment.</p>
+<p class="note">Scale steps: 1 m → 10 cm (10× smaller window) → 1 mm (100×) → 10 μm (100×). These are synthetic teaching windows, not measurements of the depicted objects. Each panel is fitted independently. Play changes the highlighted level; it does not grow, shrink, or transform tissue.</p>
+
+<details id="planes"><summary>Explore movable anatomical section-plane locations</summary>
+<p>The bright magenta overlay is an edge-on reference plane through an exterior model. Choose a plane and slide its relative location. The fixed gold/teal reference marks remain visible. No cross-sectional anatomy is reconstructed; a plane location does not reveal the contents of a section.</p>
+<div class="controls"><label>Plane <select id="plane-type"><option value="sagittal">Sagittal · anterior view</option><option value="frontal">Frontal · right-side view</option><option value="transverse">Transverse · both views</option></select></label><label class="seek">Relative location <input id="plane-offset" type="range" min="-1" max="1" step=".01" value="0" aria-label="Relative position of reference plane"></label><button id="plane-reset" type="button">Reset plane</button></div>
+<svg viewBox="0 0 1200 1070" role="img" aria-labelledby="plane-title plane-desc" style="width:100%;height:auto"><title id="plane-title">Movable edge-on section-plane reference</title><desc id="plane-desc">Illustrative MPFB exterior with a magenta movable line. No interior organ or scan data are shown.</desc><image href="ch01-body-orientation.svg" width="1200" height="1070"/><g fill="none" stroke="#ff86e3" stroke-width="7" stroke-dasharray="15 7"><path id="plane-line" d="M275 172V822"/></g></svg>
+<p id="plane-state" role="status" aria-live="polite">Median sagittal plane: the midline divides right and left.</p>
+<p class="note">Offset is a dimensionless slider position, not millimetres in a registered body. Sagittal planes divide right and left; only the midline setting is median sagittal. Frontal planes divide anterior and posterior; transverse planes divide superior and inferior. The slider explores spatial position, not physiological time. MPFB 2.0.18 core CC0 generic male exterior and original overlays; official CC0 skin atlas and fitted brown eyes. Texture detail is not measured anatomy; close-up appearance remains visibly rendered and photorealism acceptance is pending. See the <a href="ch01-body-reference.html">body reference record</a>.</p>
+</details>
+<noscript><p>JavaScript is unavailable. Read the four panels in order; all explanations and scale limitations remain visible.</p></noscript>
+<p class="note">Original SVG and deterministic presentation code. Organization reference: <a href="https://openstax.org/books/anatomy-and-physiology-2e/pages/1-2-structural-organization-of-the-human-body">OpenStax, structural organization</a>. Drawings are original and do not reproduce its illustrations. Actual microscopy is presented separately in the chapter with specimen-specific provenance.</p>
+</main><script>
+(function(){
+'use strict';
+const duration=16, seek=document.getElementById('seek'), play=document.getElementById('play'), speed=document.getElementById('speed'), clock=document.getElementById('clock'), state=document.getElementById('state');
+const cards=[0,1,2,3].map(i=>document.getElementById('stage-'+i));
+const descriptions=[
+'Body: ask how systems cooperate to preserve the cell’s environment.',
+'Organ: ask how different tissues are arranged to perform a shared task.',
+'Tissue: ask how cells, extracellular material, and local access to fluid work together.',
+'Cell: ask which membrane separates each compartment and what can cross it.'
+];
+let time=0, running=false, previous=null, current=-1;
+const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
+function setRunning(value){running=value;previous=null;play.textContent=value?'Pause':'Play';play.setAttribute('aria-pressed',String(value));}
+function renderFrame(t){
+time=Math.max(0,Math.min(duration,Number.isFinite(t)?t:0));
+const phase=Math.min(3,Math.floor(time/4));
+cards.forEach((card,i)=>{card.classList.toggle('active',i===phase);card.querySelector('button').setAttribute('aria-pressed',String(i===phase));});
+seek.value=String(time);clock.textContent=time.toFixed(1)+' / 16 s';seek.setAttribute('aria-valuetext',time.toFixed(1)+' seconds; '+['body','organ','tissue','cell'][phase]);
+if(phase!==current){state.textContent=descriptions[phase];current=phase;}
+return {time:time,phase:phase,scaleWindowMetres:[1,.1,.001,.00001][phase]};
+}
+window.renderFrame=renderFrame;
+play.addEventListener('click',()=>{if(time>=duration)renderFrame(0);setRunning(!running);});
+document.getElementById('replay').addEventListener('click',()=>{renderFrame(0);setRunning(!reduced.matches);});
+seek.addEventListener('input',()=>{setRunning(false);renderFrame(Number(seek.value));});
+document.querySelectorAll('[data-stage]').forEach(button=>button.addEventListener('click',()=>{setRunning(false);renderFrame(Number(button.dataset.stage)*4);}));
+document.addEventListener('visibilitychange',()=>{if(document.hidden)setRunning(false);});
+reduced.addEventListener('change',()=>{if(reduced.matches)setRunning(false);});
+function frame(stamp){if(running){if(previous!==null)renderFrame(time+Math.min(.1,(stamp-previous)/1000)*Number(speed.value));previous=stamp;if(time>=duration)setRunning(false);}requestAnimationFrame(frame);}
+
+const planeType=document.getElementById('plane-type'), planeOffset=document.getElementById('plane-offset'), planeLine=document.getElementById('plane-line'), planeState=document.getElementById('plane-state');
+function renderPlane(kind,offset){
+const v=Math.max(-1,Math.min(1,Number.isFinite(offset)?offset:0));
+planeType.value=kind;planeOffset.value=String(v);
+let path,description;
+if(kind==='frontal'){const x=890+v*90;path='M'+x+' 172V822';description='Frontal plane: anterior and posterior regions; relative offset '+v.toFixed(2)+'.';}
+else if(kind==='transverse'){const y=502-v*300;path='M160 '+y+'H390M760 '+y+'H980';description='Transverse plane: superior and inferior regions; relative superior offset '+v.toFixed(2)+'.';}
+else{kind='sagittal';const x=275-v*110;path='M'+x+' 172V822';description=Math.abs(v)<.005?'Median sagittal plane: the midline divides right and left.':'Parasagittal plane: off the midline; relative body-right offset '+v.toFixed(2)+'.';}
+planeLine.setAttribute('d',path);planeState.textContent=description;planeOffset.setAttribute('aria-valuetext',description);
+return {kind:kind,offset:v,path:path};
+}
+window.renderPlane=renderPlane;
+planeType.addEventListener('change',()=>renderPlane(planeType.value,Number(planeOffset.value)));
+planeOffset.addEventListener('input',()=>renderPlane(planeType.value,Number(planeOffset.value)));
+document.getElementById('plane-reset').addEventListener('click',()=>renderPlane(planeType.value,0));
+if(location.hash==='#planes')document.getElementById('planes').open=true;
+renderPlane('sagittal',0);renderFrame(0);requestAnimationFrame(frame);
+})();
+</script></body></html>

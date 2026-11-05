@@ -1,0 +1,85 @@
+{
+  "chapter": 18,
+  "created": "2026-11-04",
+  "modality": "Verified observed microscopy paired with original source-checked separate-scale topology and controlled mechanisms; no new3D scene required by these teaching tasks.",
+  "observed_references": [
+    {
+      "path": "assets/ch18-rabbit-testis.jpg",
+      "owning_record": "https://commons.wikimedia.org/wiki/File:Rabbit_testis.jpg",
+      "creator": "James Scott / Medmyco",
+      "species": "Rabbit, per creator-submitted title and category; no independent specimen assay",
+      "preparation": "Stained section photographed with bright-field microscopy; stain chemistry, fixation, section thickness and age/condition unreported",
+      "scale": "No calibrated scale bar/physical dimensions verified; camera metadata not a tissue calibration",
+      "license": "CC0 1.0 Universal Public Domain Dedication",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "native_pixels": [
+        1000,
+        1000
+      ],
+      "bytes": 1426937,
+      "sha256": "e3a57d4480b9a468600a280e7b687cd7f1d6b49ef1589e4a9a547f2140ebd8ad",
+      "modifications": "None; native JPEG bytes preserved",
+      "appearance": "Prepared magenta/purple tissue appearance; not living color",
+      "observed": "Multiple tubule profiles with multilayered walls, pale lumens and luminal filamentous material; native pixels viewed",
+      "limits": "Supports testicular/tubular tissue context; not human, cell-specific markers, human stage timing, calibrated distances or motion",
+      "private_record": "work/ch18-research/rabbit-owning-page.html"
+    },
+    {
+      "path": "assets/ch18-bovine-sperm-tem.jpg",
+      "owning_record": "https://wellcomecollection.org/works/nmctwugq",
+      "catalogue_api": "https://api.wellcomecollection.org/catalogue/v2/works/nmctwugq?include=items,images",
+      "accession": "B0001743",
+      "creator": "Paul Sharpe",
+      "species": "Bovine",
+      "preparation": "Transmission electron micrograph; mounted sample cut randomly across sperm parts; fixative/contrast chemistry/thickness unreported",
+      "scale": "No calibrated scale established from owning record or viewed native image",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "native_pixels": [
+        1685,
+        1115
+      ],
+      "bytes": 262743,
+      "sha256": "1fbbcfd268e5d27c505449e690c311c8086018800de38cab5410f1d87b2f9a1d",
+      "modifications": "None; full-size IIIF JPEG bytes preserved",
+      "appearance": "Grayscale prepared TEM sections, not whole living sperm or natural color",
+      "observed": "Dense elongated and differently oriented transverse/oblique profiles viewed at original pixels",
+      "limits": "Bovine ultrastructural context; no human motion, chromosome census or molecular transporter/enzyme localization",
+      "private_records": [
+        "work/ch18-research/wellcome-bovine-record.json",
+        "work/ch18-research/wellcome-bovine-info.json"
+      ]
+    }
+  ],
+  "original_context": {
+    "path": "assets/ch18-context.svg",
+    "geometry": "Separate-scale topological organ map and flattened seminiferous epithelial section. Partial vaginalis covering/posterior reflection, albuginea, coiled and straight tubules, rete/efferent/epididymal/vas connections and separate accessory inputs. No metric geometry.",
+    "sources": [
+      "https://www.ncbi.nlm.nih.gov/sites/books/NBK279031/",
+      "https://training.seer.cancer.gov/anatomy/reproductive/male/duct.html",
+      "https://training.seer.cancer.gov/anatomy/reproductive/male/glands.html"
+    ],
+    "appearance": "Artificial colors; observed tissue supplied separately by species-labeled references",
+    "behavior": "Static connectivity; not fluid or sperm trajectories"
+  },
+  "mechanisms": {
+    "paths": [
+      "assets/ch18-mechanisms.html",
+      "assets/ch18-mechanisms.css",
+      "assets/ch18-mechanisms.js"
+    ],
+    "static_exports": [
+      "assets/ch18-stages.svg",
+      "assets/ch18-routes.svg",
+      "assets/ch18-feedback.svg"
+    ],
+    "state": "One pure bounded presentation-state function drives cells/counters, ordered duct token and qualitative signed graph; completed-stage table from assets/ch18-data.json",
+    "time": "0–24 presentation seconds only; no conversion to physiological days, pulses or kinetics",
+    "quantitative_scope": "Human completed n/C/chromosome/chromatid bookkeeping in ideal lineage; separate normalized algebraic equilibrium toy. Qualitative graph timing is not that equilibrium dynamics.",
+    "controls": "No autoplay; native play/pause/reset/phase buttons/speed/seek, keyboard-operable; reduced-motion change pauses. Parent static/print equivalents.",
+    "export": "node assets/ch18-checks.js --export uses same renderer for source SVG; no independent hand-drawn static topology",
+    "dependencies": [],
+    "appearance": "Flat explanatory mechanism geometry; no anatomy/atomic contact/experimental trajectory claim"
+  },
+  "visual_status": "Native microscopy pixels and representative source SVG development renders inspected; actual chapter browser/motion/print and root visual-production decision remain pending. No acceptance claimed."
+}

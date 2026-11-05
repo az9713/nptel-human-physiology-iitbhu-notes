@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700" role="img" aria-labelledby="title desc">
+<title id="title">Four regional tissue compartments and different disease processes</title>
+<desc id="desc">Original schematic sections compare bone matrix and trabecular spaces; opposing articular cartilage surfaces and lateral synovial lining; an extraarticular bursa between tendon and bone; and muscle fibers within a connective force path. Disease labels locate processes, not diagnostic image appearances.</desc>
+<style>text{font-family:system-ui,sans-serif;fill:#e7edf5;font-size:18px}.head{font-size:23px;font-weight:bold}.small{font-size:16px}.panel{fill:#122333;stroke:#657e94;stroke-width:1.5}.leader{fill:none;stroke:#e7edf5;stroke-width:1.5}</style>
+<rect width="1080" height="700" fill="#0c1824"/>
+<text x="25" y="33" class="head">Where is the process? Four separate regional sections</text>
+<text x="25" y="60" class="small">Illustrative colors, displaced sections and enlarged gaps; no patient geometry or common scale</text>
+<rect x="20" y="80" width="510" height="285" rx="10" class="panel"/>
+<text x="38" y="111" class="head">1. Bone: matrix and architecture</text>
+<circle cx="132" cy="210" r="75" fill="#d2bd88"/>
+<circle cx="132" cy="210" r="53" fill="#28384a"/>
+<path d="M96 175L156 244M94 235L163 185M114 164L132 260M79 212L183 212" stroke="#d2bd88" stroke-width="8" fill="none"/>
+<path d="M186 170L227 150H247M146 225L227 210H247" class="leader"/>
+<text x="253" y="155">Cortical shell</text>
+<text x="253" y="210">Trabeculae / marrow spaces</text>
+<text x="38" y="310" class="small">Osteoporosis: quantity / architecture / fragility</text>
+<text x="38" y="340" class="small">Osteomalacia: matrix mineralization defect</text>
+<rect x="550" y="80" width="510" height="285" rx="10" class="panel"/>
+<text x="568" y="111" class="head">2. Joint: cartilage and synovium</text>
+<path d="M605 140H716V185Q660 205 605 185ZM605 280H716V245Q660 225 605 245Z" fill="#d2bd88"/>
+<path d="M605 185Q660 205 716 185V197Q660 217 605 197ZM605 245Q660 225 716 245V233Q660 213 605 233Z" fill="#68c8bf"/>
+<path d="M595 175Q555 220 595 263M726 175Q766 220 726 263" stroke="#de8fa1" fill="none" stroke-width="8"/>
+<path d="M718 190L772 158H790M746 220H790M660 215L774 260H790" class="leader"/>
+<text x="795" y="160">Cartilage cap</text>
+<text x="795" y="211">Synovial lining</text>
+<text x="795" y="265">Joint cavity</text>
+<text x="568" y="310" class="small">OA: whole-joint tissue change; cartilage involved</text>
+<text x="568" y="340" class="small">RA: synovitis; gout: crystal-driven inflammation</text>
+<rect x="20" y="385" width="510" height="285" rx="10" class="panel"/>
+<text x="38" y="416" class="head">3. Tendon / bursa: outside the joint</text>
+<path d="M56 515Q140 485 232 520V575H56Z" fill="#d2bd88"/>
+<path d="M56 458Q143 450 232 467" stroke="#c9d4dd" stroke-width="15" fill="none"/>
+<ellipse cx="142" cy="489" rx="58" ry="15" fill="#5ebbd6" stroke="#cf91a4" stroke-width="4"/>
+<path d="M205 462H274M200 489H274M210 548H274" class="leader"/>
+<text x="282" y="467">Tendon</text>
+<text x="282" y="494">Bursa + fluid lumen</text>
+<text x="282" y="553">Bone surface</text>
+<text x="38" y="614" class="small">Tendinopathy / rupture: tendon force path</text>
+<text x="38" y="644" class="small">Bursitis ≠ intraarticular effusion / hemarthrosis</text>
+<rect x="550" y="385" width="510" height="285" rx="10" class="panel"/>
+<text x="568" y="416" class="head">4. Muscle: fibers and force transfer</text>
+<rect x="586" y="445" width="190" height="130" rx="16" fill="#273f4e" stroke="#cad3db" stroke-width="4"/>
+<g fill="#995d70" stroke="#dd9aab" stroke-width="2"><rect x="601" y="459" width="160" height="25" rx="12"/><rect x="601" y="497" width="160" height="25" rx="12"/><rect x="601" y="535" width="160" height="25" rx="12"/></g>
+<path d="M699 474H796M761 507H796M775 566H796" class="leader"/>
+<text x="803" y="473">Fiber interior</text>
+<text x="803" y="511">Sarcolemma</text>
+<text x="803" y="567">Connective path</text>
+<text x="568" y="614" class="small">DMD: dystrophin / membrane-associated linkage</text>
+<text x="568" y="644" class="small">Atrophy: fiber size / mass; several possible causes</text>
+<text x="25" y="694" class="small">Topology reconstruction, not histology: disease names locate processes, not diagnostic visual signatures.</text>
+</svg>

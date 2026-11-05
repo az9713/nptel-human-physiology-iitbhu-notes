@@ -1,0 +1,45 @@
+{
+  "accession": "CIL:39727",
+  "doi": "10.7295/W9CIL39727",
+  "owning_url": "https://www.cellimagelibrary.org/images/39727",
+  "native_url": "https://cildata.crbs.ucsd.edu/media/images/39727/39727.tif",
+  "accessed": "2026-11-04",
+  "access_depth": "Owning full accession HTML retrieved HTTP200 via native fetch; complete descriptive, attribution, preparation, license and dimensions fields read. Original OME-TIFF acquired. view_image inspection of native-resolution PNG requested; tool displayed a resized preview. No source-video inspection is attributed to author.",
+  "creators": [
+    "Dee Lauzon",
+    "Sue Lancelle",
+    "Marian Rice"
+  ],
+  "institution": "Mount Holyoke College",
+  "year": 2012,
+  "species": "Mus musculus",
+  "tissue": "ventricular cardiac muscle",
+  "modality": "transmission electron microscopy",
+  "preparation": "2.5% glutaraldehyde + 2% formaldehyde in 0.1M Na-phosphate pH7.4; 2% OsO4 postfixation; en bloc 1% uranyl acetate; graded ethanol dehydration; Spurr resin;70nm section; uranyl acetate/lead citrate post-stain; Phillips CM100 TEM at80kV",
+  "license": "Public Domain as explicitly declared by owning CIL accession; courtesy attribution retained",
+  "native_dimensions": [
+    1800,
+    1602
+  ],
+  "pixel_mode": "8-bit grayscale",
+  "scale": "Embedded1µm bar retained at lower right; accession Pixel Size field blank, no external pixel calibration invented",
+  "transformations": "TIFF first image converted to PNG at native1800x1602 without crop, recolor, resampling or added annotation; original TIFF retained",
+  "limits": [
+    "Cardiac mouse tissue, not human skeletal NMJ",
+    "Fixed/stained section; contrast is electron density, not living color",
+    "Recorded still cannot establish kinetics, muscle type prevalence or atomic protein contacts",
+    "Sarcomeric context complements controlled schematic mechanisms but does not supply regional pathology panels or atomic actomyosin reconstruction"
+  ],
+  "owning_html_sha256": "dd34e42256e2f9ee56898d8529ebf290c6f8bb5dbd6ba4a1928365192a03a444",
+  "files": [
+    {
+      "path": "assets/ch15-mouse-cardiac-cil39727.tif",
+      "sha256": "97d8aaa9698644da4725b337534be45896b1306734d98a8daaa81136897da708"
+    },
+    {
+      "path": "assets/ch15-mouse-cardiac-cil39727.png",
+      "sha256": "422fbbaf987056cf949139ea6634800447dab47d80cc7327921fc5c9e4c44d8c"
+    }
+  ],
+  "reproduction": "Download native_url, preserve original TIFF; Pillow: im=Image.open(native_path); im.save(png_path). Verify im.size==(1800,1602), mode L, and ImageChops.difference(TIFF,PNG).getbbox() is None. No resampling/color transform."
+}

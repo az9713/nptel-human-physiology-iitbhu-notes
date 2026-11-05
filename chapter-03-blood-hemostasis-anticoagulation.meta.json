@@ -1,0 +1,176 @@
+{
+  "chapter": 3,
+  "title": "Blood, hemostasis and anticoagulation",
+  "status": "accepted",
+  "coverage_complete": true,
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch01_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One full independent scientific/editorial review plus targeted changed-content checks; no repeat full review.",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "5ae3818213e5356e020df546012bd6c84cbd74f4b52b2b2f02d68eb2408f1f66",
+      "artifact_sha256": {
+        "code/ch03_blood_accounting.py": "fadd91611837a8d134e8c1b25d2e943badd83f418e3ef023d93d19ca04a657e9",
+        "assets/ch03-blood-lab.html": "6e9a3a592d39199a522f4e1648825f3cd032062556a30d2fa08d572d0961ad97",
+        "assets/ch03-blood-lab.js": "97aca2582e629b9a788d590d9a05c7514d5d791a148ed662ed86149184e33822",
+        "assets/ch03-clot-reference.jpg": "3dfac8caa3b75e6883092be01070627e690c115f2ac508c3e1be3ec6750f7084",
+        "assets/ch03-clot-reference.json": "4cb77cf6069593cc987cf2a3b5174fdb9199883196a59f57b2252314728fd1f3",
+        "assets/ch03-vessel-reference.jpg": "0ee8e787f979fbc989bd3d33390abe54604939ee88d851c0d4eca4c0fd63db6c",
+        "assets/ch03-vessel-reference.json": "0414f78203d3e12d58bf2f291388d1b10e5b8ae9ed7a871ef5e0d09afd45f27a"
+      },
+      "report_path": "work/reviews/ch03-approved-a.md",
+      "report_sha256": "559cb7e1f34818df0c7f1b84f9c0861d6ffe4529c39c280337648cf851a790e8",
+      "original_full_report": "work/reviews/ch03-review-a.md",
+      "targeted_report": "work/reviews/ch03-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch01_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One full independent scientific/editorial review plus targeted changed-content checks; no repeat full review.",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "5ae3818213e5356e020df546012bd6c84cbd74f4b52b2b2f02d68eb2408f1f66",
+      "artifact_sha256": {
+        "code/ch03_blood_accounting.py": "fadd91611837a8d134e8c1b25d2e943badd83f418e3ef023d93d19ca04a657e9",
+        "assets/ch03-blood-lab.html": "6e9a3a592d39199a522f4e1648825f3cd032062556a30d2fa08d572d0961ad97",
+        "assets/ch03-blood-lab.js": "97aca2582e629b9a788d590d9a05c7514d5d791a148ed662ed86149184e33822",
+        "assets/ch03-clot-reference.jpg": "3dfac8caa3b75e6883092be01070627e690c115f2ac508c3e1be3ec6750f7084",
+        "assets/ch03-clot-reference.json": "4cb77cf6069593cc987cf2a3b5174fdb9199883196a59f57b2252314728fd1f3",
+        "assets/ch03-vessel-reference.jpg": "0ee8e787f979fbc989bd3d33390abe54604939ee88d851c0d4eca4c0fd63db6c",
+        "assets/ch03-vessel-reference.json": "0414f78203d3e12d58bf2f291388d1b10e5b8ae9ed7a871ef5e0d09afd45f27a"
+      },
+      "report_path": "work/reviews/ch03-approved-b.md",
+      "report_sha256": "c0ed093feab8c9bf6952c1daf52582b1dc673d9bf98c058efcffac30043e3ad2",
+      "original_full_report": "work/reviews/ch03-review-b.md",
+      "targeted_report": "work/reviews/ch03-targeted-b.md"
+    }
+  ],
+  "source_recordings": [
+    7,
+    8,
+    9
+  ],
+  "source_evidence": "Publisher captions and existing bounded audit of eleven contact sheets / thirteen targeted frames; no continuous video/audio inspection claimed.",
+  "prose_status": "Accepted after two independent full scientific/editorial reviews, targeted repairs and actual specified production checks.",
+  "code": [
+    "code/ch03_blood_accounting.py"
+  ],
+  "code_validation": "Executed Python checks for units, product scaling, population throughput, whole-blood-loss/cell-free-dilution distinction and invalid inputs. Node syntax and isolated mechanism-state/control checks passed; no browser acceptance claimed.",
+  "figures": [
+    {
+      "id": "ch3-anim1",
+      "path": "assets/ch03-blood-lab.html",
+      "status": "accepted",
+      "role": "Controlled local-injury platelet capture, activation and aggregation; schematic luminal/tissue compartments."
+    },
+    {
+      "id": "ch3-anim2",
+      "path": "assets/ch03-blood-lab.html",
+      "status": "accepted",
+      "role": "Platelet-supported thrombin/fibrin reinforcement, contraction and fibrinolysis; arbitrary presentation clock, no fitted kinetics."
+    },
+    {
+      "id": "ch3-anim3",
+      "path": "assets/ch03-blood-lab.html",
+      "status": "accepted",
+      "role": "Sequential comparison of platelet, antithrombin/heparin, vitamin-K/warfarin, specimen-calcium and plasmin targets; reveal order is not treatment timing."
+    },
+    {
+      "id": "ch3-epo-extra",
+      "path": "assets/ch03-blood-lab.html",
+      "status": "accepted",
+      "role": "Controlled renal oxygen/EPO/marrow/circulating RBC feedback sequence, no physiological rate constants."
+    },
+    {
+      "id": "ch3-fig1",
+      "path": "assets/ch03-clot-reference.jpg",
+      "status": "accepted",
+      "role": "Reviewed bounded alternative: prepared clot SEM, separately identified pathological mouse-vessel SEM and original sectional mechanism. These do not establish normal human wall layers, natural tissue color or measured injury dynamics."
+    },
+    {
+      "id": "ch3-fig2",
+      "path": "chapter-03-blood-hemostasis-anticoagulation.html#lineages",
+      "status": "accepted",
+      "role": "Conventional lineage map plus distinct PT/aPTT/platelet-assay comparison in section 3.9."
+    },
+    {
+      "id": "ch3-clot-reference",
+      "path": "assets/ch03-clot-reference.jpg",
+      "provenance": "assets/ch03-clot-reference.json",
+      "anchor": "clot-micrograph",
+      "figure_number": "3.3",
+      "status": "accepted",
+      "role": "Actual colorized SEM reference for concave red-cell profiles and fibrin mesh; current Wellcome CC BY 4.0; no calibrated scale, species, vessel wall, secure platelet identification or motion/timing claims."
+    },
+    {
+      "id": "ch3-vessel-reference",
+      "path": "assets/ch03-vessel-reference.jpg",
+      "provenance": "assets/ch03-vessel-reference.json",
+      "anchor": "vessel-compartment-reference",
+      "figure_number": "3.4",
+      "status": "accepted",
+      "role": "Actual mouse-skin-melanoma freeze-fracture SEM supports lumen/boundary/surrounding-tissue distinction only; no physiological injury or normal human wall claim."
+    }
+  ],
+  "limitations": [
+    "Primary experiments were accessed only at abstract level: Orzalesi/Hay 1971 and human-blood VWF/receptor flow-chamber study 1988.",
+    "Tillman review reopen returned a browser check; prior documented project introduction-level read is disclosed. UniProt direct reopen returned JS fallback but indexed reviewed record was readable.",
+    "Legacy Reactome coagulation IDs returned 404; current initiation/amplification/fibrin/regulation pathway records were opened instead.",
+    "Numerical blood volumes/counts/MCVs and assay patterns are explicitly synthetic. Approximate 120-day normal RBC lifespan supports stationary throughput, not an exponential removal law.",
+    "No modeled coagulation rates, EPO gains/delays, fibrin mechanics or patient-specific treatment comparisons; drug mechanism categories are not prescribing recommendations.",
+    "Presentation phase timings are schematic, not measured biological kinetics.",
+    "Prepared clot species/donor unknown; vessel image is pathological mouse tissue, not normal human wall anatomy.",
+    "Source topic coverage uses captions and bounded sampled stills, not continuous audio/video review.",
+    "Private browser print proof is not a clean public PDF deliverable."
+  ],
+  "coverage_basis": "Core topic spans and justified exclusions assessed in two independent full reviews; scientific/temporal repairs and production enlargement received targeted checks. Captions plus bounded stills, not continuous recording review.",
+  "body_sha256": "5ae3818213e5356e020df546012bd6c84cbd74f4b52b2b2f02d68eb2408f1f66",
+  "reviewed_artifacts": [
+    {
+      "path": "code/ch03_blood_accounting.py",
+      "sha256": "fadd91611837a8d134e8c1b25d2e943badd83f418e3ef023d93d19ca04a657e9"
+    },
+    {
+      "path": "assets/ch03-blood-lab.html",
+      "sha256": "6e9a3a592d39199a522f4e1648825f3cd032062556a30d2fa08d572d0961ad97"
+    },
+    {
+      "path": "assets/ch03-blood-lab.js",
+      "sha256": "97aca2582e629b9a788d590d9a05c7514d5d791a148ed662ed86149184e33822"
+    },
+    {
+      "path": "assets/ch03-clot-reference.jpg",
+      "sha256": "3dfac8caa3b75e6883092be01070627e690c115f2ac508c3e1be3ec6750f7084"
+    },
+    {
+      "path": "assets/ch03-clot-reference.json",
+      "sha256": "4cb77cf6069593cc987cf2a3b5174fdb9199883196a59f57b2252314728fd1f3"
+    },
+    {
+      "path": "assets/ch03-vessel-reference.jpg",
+      "sha256": "0ee8e787f979fbc989bd3d33390abe54604939ee88d851c0d4eca4c0fd63db6c"
+    },
+    {
+      "path": "assets/ch03-vessel-reference.json",
+      "sha256": "0414f78203d3e12d58bf2f291388d1b10e5b8ae9ed7a871ef5e0d09afd45f27a"
+    }
+  ],
+  "production_validation": {
+    "report_path": "work/browser/ch03-production.json",
+    "report_sha256": "ab1d4bb39314df3eb1c79fd42b4adfe888b6590cac755a8c15f10aa7d3e2e22d",
+    "scope": "Actual responsive reader, all mechanism phases, keyboard pan, playback, reduced-motion and print-proof checks with explicit limits."
+  },
+  "accepted_at_utc": "2026-11-04T19:03:28.319Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-03.json",
+    "sha256": "18a0c1afdd629e8623384910f073abfe50663f12459d96009d0782774ebafa8d"
+  }
+}

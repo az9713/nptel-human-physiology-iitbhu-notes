@@ -1,0 +1,1046 @@
+{
+  "chapter": 21,
+  "title": "Contraception, assisted reproduction and reproductive health",
+  "status": "accepted",
+  "coverage_complete": true,
+  "source_recordings": [
+    48,
+    49,
+    50
+  ],
+  "source_evidence": "Complete L48through33:14, L49through23:31 andL50through28:03 captions, all50assigned spans and bounded handoff read. Inherited10sheets/172samples/28native repeats attributed, no continuousvideo/audio or author repeat-frame inspection. Late48ambiguous first prompt and50emerging prompt caption-only;49screening prompt visible in inherited audit.",
+  "source_files": [
+    {
+      "path": "sources/transcripts/48-IwzN99wLLcw.txt",
+      "sha256": "c6e7b98a4fc2d166fcc8bc12192b953850f128fed7bd7874c294c06cf0705f55"
+    },
+    {
+      "path": "sources/transcripts/49-5JOJs4F9K8I.txt",
+      "sha256": "f923e2401a2c376caf04dd56bc02f494dbb340de2d8e69dd9403cc0a8d244b31"
+    },
+    {
+      "path": "sources/transcripts/50-yhBzohk_WwE.txt",
+      "sha256": "8ee8889d834dec69469dc8c5102aaa93faac2bfd8d2f83b2c10ed7e59d078496"
+    }
+  ],
+  "coverage_topics": [
+    {
+      "id": "L48-T01",
+      "source_topic_anchor": "01:49",
+      "disposition": "Teach method categories by site and mechanism: ovulation, sperm transport/function, cervical access, reproductive ducts. Keep ongoing contraception, emergency contraception and abortion as distinct intents/times.",
+      "anchor": "method-targets",
+      "caption_anchors": [
+        {
+          "anchor": "01:49",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T02",
+      "source_topic_anchor": "02:56",
+      "disposition": "Teach fertility awareness as cycle-observation-dependent and vulnerable to timing variability. Caption's “first 7–10 days safe” is not an invariant. State failure-rate denominator and typical versus correct use if numbers appear.",
+      "anchor": "method-targets",
+      "caption_anchors": [
+        {
+          "anchor": "02:56",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T03",
+      "source_topic_anchor": "04:15",
+      "disposition": "Teach condoms/diaphragms as physical barriers with differing STI protection. Native f0010 supports the barrier slide; spoken silicone/toxic-metal/cancer link is unsupported by that graphic and should be omitted absent material-specific evidence.",
+      "anchor": "method-targets",
+      "caption_anchors": [
+        {
+          "anchor": "04:15",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T04",
+      "source_topic_anchor": "05:34",
+      "disposition": "Teach spermicide as a local chemical method with formulation-dependent irritation and limited stand-alone effectiveness; avoid blanket toxicity or STI-protection promises.",
+      "anchor": "method-targets",
+      "caption_anchors": [
+        {
+          "anchor": "05:34",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T05",
+      "source_topic_anchor": "06:16",
+      "disposition": "Teach depot medroxyprogesterone as an injectable progestin method: ovulation suppression and delayed return of fertility can occur. Native f0014 actually says “sterility”; do not equate delay with permanent sterility. No regimen/dose.",
+      "anchor": "hormonal-methods",
+      "caption_anchors": [
+        {
+          "anchor": "06:16",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T06",
+      "source_topic_anchor": "08:42",
+      "disposition": "Teach hormonal ring's absorption and endocrine effects; product schedules differ. Remove the mechanical fiction that it must be taken out to let blood escape. No individualized schedule.",
+      "anchor": "hormonal-methods",
+      "caption_anchors": [
+        {
+          "anchor": "08:42",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T07",
+      "source_topic_anchor": "09:45",
+      "disposition": "Teach routine oral pills separately from levonorgestrel emergency contraception. Native f0022 blends them and shows “100%”/implantation claims. Avoid fixed age-35 cutoff, universal 100% efficacy, and unstratified metabolic/cancer claims; use eligibility and endpoint context.",
+      "anchor": "hormonal-methods",
+      "caption_anchors": [
+        {
+          "anchor": "09:45",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T08",
+      "source_topic_anchor": "12:25",
+      "disposition": "Teach copper IUD as a copper-ion/sperm-function and fertilization mechanism, with emergency use as a separate indication. Native f0027 depicts endometrial inflammation/implantation and caption adds cancer; do not promote either as the main established mechanism or a universal cancer risk.",
+      "anchor": "iud-permanent",
+      "caption_anchors": [
+        {
+          "anchor": "12:25",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T09",
+      "source_topic_anchor": "14:19",
+      "disposition": "Teach tubal sterilization as interrupting sperm–oocyte meeting, not removal of ovaries or guaranteed failure-free outcome; distinguish surgical techniques.",
+      "anchor": "iud-permanent",
+      "caption_anchors": [
+        {
+          "anchor": "14:19",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T10",
+      "source_topic_anchor": "15:46",
+      "disposition": "Teach why male contraceptive development targets sperm production/transport; distinguish available condoms/vasectomy from experimental endocrine and duct approaches.",
+      "anchor": "iud-permanent",
+      "caption_anchors": [
+        {
+          "anchor": "15:46",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T11",
+      "source_topic_anchor": "17:11",
+      "disposition": "Teach external/internal condom barrier concepts and STI reduction, with correct use versus typical use distinguished; no universal complete protection.",
+      "anchor": "method-targets",
+      "caption_anchors": [
+        {
+          "anchor": "17:11",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T12",
+      "source_topic_anchor": "17:46",
+      "disposition": "Native f0038 lists testosterone dose and nifedipine as male contraception. Treat endocrine suppression, danazol and calcium-channel blockade as historical/research examples, not routine approved methods, and remove dose instruction.",
+      "anchor": "iud-permanent",
+      "caption_anchors": [
+        {
+          "anchor": "17:46",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T13",
+      "source_topic_anchor": "19:51",
+      "disposition": "Teach vasectomy as vas-duct occlusion, leaving testicular sperm production and testosterone physiology intact. Native f0043/caption call it 100% and immediate; require postprocedure semen-clearance boundary.",
+      "anchor": "iud-permanent",
+      "caption_anchors": [
+        {
+          "anchor": "19:51",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T14",
+      "source_topic_anchor": "21:02",
+      "disposition": "Teach polymer/vas-occlusive research separately from no-scalpel vasectomy, which is an access technique. “100%” and reversibility are product/trial dependent, not established general performance.",
+      "anchor": "iud-permanent",
+      "caption_anchors": [
+        {
+          "anchor": "21:02",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T15",
+      "source_topic_anchor": "22:09",
+      "disposition": "Explicit transition: contraception prevents pregnancy; abortion terminates an established pregnancy. Do not describe routine contraception as a way to terminate pregnancy weeks later.",
+      "anchor": "ec-versus-abortion",
+      "caption_anchors": [
+        {
+          "anchor": "22:09",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s4"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T16",
+      "source_topic_anchor": "23:11",
+      "disposition": "Caption/native f0048 present India's MTP legal framework. Retain as a dated India example only, check operative statute/rules and categories before publication, and omit simplified universal permissions or self-directed guidance.",
+      "anchor": "india-law",
+      "caption_anchors": [
+        {
+          "anchor": "23:11",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s4"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T17",
+      "source_topic_anchor": "24:00",
+      "disposition": "Teach medication abortion mechanism and clinician-managed gestational/context boundaries at a conceptual level. Native f0051 shows a ≤70-day/94–98% slide, while caption at 27:26 asserts nothing chemical works beyond 10–12 weeks; the latter contradicts WHO ≥12-week guidance. No drugs/doses/protocol.",
+      "anchor": "ec-versus-abortion",
+      "caption_anchors": [
+        {
+          "anchor": "24:00",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s4"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T18",
+      "source_topic_anchor": "28:00",
+      "disposition": "Teach surgical abortion as a different class with gestation-dependent procedures, safety and legal setting; native f0056 is graphic D&E illustration, not a procedural tutorial or evidence of outcomes. A non-graphic diagram suffices.",
+      "anchor": "ec-versus-abortion",
+      "caption_anchors": [
+        {
+          "anchor": "28:00",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s4"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T19",
+      "source_topic_anchor": "28:59",
+      "disposition": "Teach IVF as in-vitro gamete fertilization followed by embryo culture/transfer. Native f0061 says ordinary fertilization is in the uterus; correct to usual tubal ampulla. Historical priority names/dates need archival checking or omission.",
+      "anchor": "ivf-route",
+      "caption_anchors": [
+        {
+          "anchor": "28:59",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s2"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L48-T20",
+      "source_topic_anchor": "30:22",
+      "disposition": "Teach stimulation → retrieval → sperm preparation → insemination/ICSI as appropriate → culture → transfer, with implantation and live birth separate downstream events. Native f0063/f0065 protocol slides and captions mix fertilized-egg, transfer, pregnancy and “70–80% success” denominators; do not give that number as a live-birth probability. Donor gametes are possible, not required. Late L48 caption-only exercise at 32:14 asks “name one pregnancy,” one emergency method and one IVF challenge; first wording is ambiguous, likely a caption slip, so reframe explicitly rather than inventing the visible prompt.",
+      "anchor": "art-cohort",
+      "caption_anchors": [
+        {
+          "anchor": "30:22",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s2"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L49-T01",
+      "source_topic_anchor": "02:39",
+      "disposition": "Teach ED as a symptom involving vascular, neural, endocrine and psychosocial pathways. Caption reverses some risk/effect arrows; distinguish vacuum devices from implants.",
+      "anchor": "male-disorders",
+      "caption_anchors": [
+        {
+          "anchor": "02:39",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L49-T02",
+      "source_topic_anchor": "04:02",
+      "disposition": "Teach BPH as benign transition-zone growth producing possible urethral resistance, not prostate cancer. Native f0012 shows walnut→golf-ball→tennis-ball age chart; reject as a universal age-size trajectory.",
+      "anchor": "male-disorders",
+      "caption_anchors": [
+        {
+          "anchor": "04:02",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L49-T03",
+      "source_topic_anchor": "07:10",
+      "disposition": "Teach inflammatory/infectious and other prostatitis categories, without equating PSA elevation to cancer or one antibiotic course to all cases.",
+      "anchor": "male-disorders",
+      "caption_anchors": [
+        {
+          "anchor": "07:10",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L49-T04",
+      "source_topic_anchor": "08:10",
+      "disposition": "Teach neoplastic prostate tissue, local invasion and metastasis as distinct from BPH/prostatitis. Native f0018 is a stylized staging schematic; don't infer actual patient stage from drawing. Screening is separate from diagnosis.",
+      "anchor": "male-disorders",
+      "caption_anchors": [
+        {
+          "anchor": "08:10",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L49-T05",
+      "source_topic_anchor": "10:25",
+      "disposition": "Teach epididymal inflammation and possible infectious/noninfectious causes, anatomy-specific versus prostate/testis lesions; native f0024 identifies the epididymal region.",
+      "anchor": "male-disorders",
+      "caption_anchors": [
+        {
+          "anchor": "10:25",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L49-T06",
+      "source_topic_anchor": "11:47",
+      "disposition": "Teach gradual and variable age-related androgen changes; “andropause” is not a universal abrupt male menopause. Separate symptoms, measured deficiency, fertility and treatment.",
+      "anchor": "androgen-fertility",
+      "caption_anchors": [
+        {
+          "anchor": "11:47",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5",
+        "ch21-s3"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L49-T07",
+      "source_topic_anchor": "12:59",
+      "disposition": "Teach STI transmission prevention and screening as pathogen/site/exposure dependent; condoms reduce risk, not abolish all skin-contact transmission.",
+      "anchor": "sti-matrix",
+      "caption_anchors": [
+        {
+          "anchor": "12:59",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L49-T08",
+      "source_topic_anchor": "13:56",
+      "disposition": "Teach *Chlamydia trachomatis* as often asymptomatic with urethral/reproductive consequences; no symptom-only diagnosis or generic regimen.",
+      "anchor": "sti-matrix",
+      "caption_anchors": [
+        {
+          "anchor": "13:56",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L49-T09",
+      "source_topic_anchor": "14:44",
+      "disposition": "Teach *N. gonorrhoeae* infection and resistance as public-health concerns; treatment recommendations change, so cite current jurisdictional guideline rather than lecture drug claims.",
+      "anchor": "sti-matrix",
+      "caption_anchors": [
+        {
+          "anchor": "14:44",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L49-T10",
+      "source_topic_anchor": "15:33",
+      "disposition": "Teach syphilis as *T. pallidum* with stage-dependent manifestations/latency; native f0034 is slide illustration, not a diagnostic image. Avoid assuming an ulcer is present at every stage.",
+      "anchor": "sti-matrix",
+      "caption_anchors": [
+        {
+          "anchor": "15:33",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L49-T11",
+      "source_topic_anchor": "16:43",
+      "disposition": "Teach HPV type/site distinctions and vaccine prevention; not all HPV infections cause cancer, and vaccine is prevention rather than treatment of an existing lesion.",
+      "anchor": "sti-matrix",
+      "caption_anchors": [
+        {
+          "anchor": "16:43",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L49-T12",
+      "source_topic_anchor": "18:02",
+      "disposition": "Teach HSV latency/reactivation and suppressive antiviral concept; caption's “no virus can be treated” is false if interpreted as symptom/replication management. Do not imply eradication.",
+      "anchor": "sti-matrix",
+      "caption_anchors": [
+        {
+          "anchor": "18:02",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L49-T13",
+      "source_topic_anchor": "19:00",
+      "disposition": "Teach HIV infection versus AIDS clinical syndrome and suppressive ART concept; distinguish treatment from cure and from prevention.",
+      "anchor": "sti-matrix",
+      "caption_anchors": [
+        {
+          "anchor": "19:00",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L49-T14",
+      "source_topic_anchor": "20:29",
+      "disposition": "Teach male-factor infertility through semen, endocrine, ductal and genetic possibilities. Native f0042 shows a one-third attribution claim without population/denominator. Caption suggesting testosterone therapy conflicts with spermatogenic suppression; do not suggest it as generic fertility treatment.",
+      "anchor": "androgen-fertility",
+      "caption_anchors": [
+        {
+          "anchor": "20:29",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5",
+        "ch21-s3"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L49-T15",
+      "source_topic_anchor": "22:58",
+      "disposition": "Late activity visibly confirmed in f0047: prostate cancer risk factors/prevention and current screening recommendations. Turn into an evidence-comparison exercise with country, date, eligibility, harms, screening versus diagnostic PSA and no personal directive.",
+      "anchor": "screening-evidence",
+      "caption_anchors": [
+        {
+          "anchor": "22:58",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L50-T01",
+      "source_topic_anchor": "04:16",
+      "disposition": "Teach PMS as recurrent luteal-phase symptoms with interindividual variation; avoid treating all menstrual symptoms as the same syndrome.",
+      "anchor": "menstrual-disorders",
+      "caption_anchors": [
+        {
+          "anchor": "04:16",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L50-T02",
+      "source_topic_anchor": "05:28",
+      "disposition": "Teach primary/secondary dysmenorrhea and prostaglandin-linked uterine contractions; severe symptoms can have structural causes. No one-size therapy.",
+      "anchor": "menstrual-disorders",
+      "caption_anchors": [
+        {
+          "anchor": "05:28",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L50-T03",
+      "source_topic_anchor": "07:04",
+      "disposition": "Teach amenorrhea as absence of expected bleeding with pregnancy, developmental, hypothalamic, ovarian, endocrine and outflow differentials; thresholds depend on age/history.",
+      "anchor": "menstrual-disorders",
+      "caption_anchors": [
+        {
+          "anchor": "07:04",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L50-T04",
+      "source_topic_anchor": "09:10",
+      "disposition": "Teach abnormal uterine bleeding as a pattern with structural and nonstructural causes; native f0022 is a classification slide, not evidence that a given cause is present.",
+      "anchor": "menstrual-disorders",
+      "caption_anchors": [
+        {
+          "anchor": "09:10",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L50-T05",
+      "source_topic_anchor": "10:43",
+      "disposition": "Teach endometriosis as endometrium-like tissue outside the uterine cavity and chronic inflammatory/pain/fertility consequences. Native f0027 is a schematic; do not require laparoscopy for every clinical diagnosis.",
+      "anchor": "endometriosis-pcos",
+      "caption_anchors": [
+        {
+          "anchor": "10:43",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L50-T06",
+      "source_topic_anchor": "13:14",
+      "disposition": "Teach PCOS as ovulatory, androgenic and metabolic syndrome with diagnostic criteria and exclusion of mimics; “cysts” are neither necessary nor enough in adults, and adolescent rules differ.",
+      "anchor": "endometriosis-pcos",
+      "caption_anchors": [
+        {
+          "anchor": "13:14",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L50-T07",
+      "source_topic_anchor": "14:57",
+      "disposition": "Teach leiomyomas by myometrial origin and location-dependent bleeding/pressure/fertility effects; prevalence and symptoms are not interchangeable.",
+      "anchor": "fibroid-pid",
+      "caption_anchors": [
+        {
+          "anchor": "14:57",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L50-T08",
+      "source_topic_anchor": "16:30",
+      "disposition": "Teach PID as upper genital-tract inflammation, frequently related to ascending STI pathogens; native f0034 identifies reproductive compartments. Do not equate it with UTI or infer pathogen from appearance.",
+      "anchor": "fibroid-pid",
+      "caption_anchors": [
+        {
+          "anchor": "16:30",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L50-T09",
+      "source_topic_anchor": "18:48",
+      "disposition": "Teach pelvic support, prolapse compartments and symptom variability. Native f0041 stage chart is schematic, not population prevalence proof; source's 50–60% needs definition/cohort before use.",
+      "anchor": "pelvic-support",
+      "caption_anchors": [
+        {
+          "anchor": "18:48",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L50-T10",
+      "source_topic_anchor": "20:49",
+      "disposition": "Distinguish pelvic-floor muscle training, a pessary device, native-tissue repair and mesh route/material. Native f0043 annotates support anatomy; caption confuses Kegels with pessaries. Spider-silk material is a research concept, not established clinical standard. U.S. transvaginal POP mesh market withdrawal must not be generalized to all abdominal mesh procedures.",
+      "anchor": "pelvic-support",
+      "caption_anchors": [
+        {
+          "anchor": "20:49",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L50-T11",
+      "source_topic_anchor": "22:39",
+      "disposition": "Teach cervical cancer's high-risk HPV relationship and distinguish prevention (vaccination), screening, diagnostic follow-up and treatment. Native f0046 site sketch cannot establish a lesion or stage.",
+      "anchor": "reproductive-cancers",
+      "caption_anchors": [
+        {
+          "anchor": "22:39",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L50-T12",
+      "source_topic_anchor": "23:41",
+      "disposition": "Teach endometrial versus other uterine cancers and symptom/risk context. Native f0050 labels a uterine site; avoid implying one therapy covers all histologies.",
+      "anchor": "reproductive-cancers",
+      "caption_anchors": [
+        {
+          "anchor": "23:41",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L50-T13",
+      "source_topic_anchor": "24:36",
+      "disposition": "Teach ovarian/tubal/peritoneal epithelial malignancies with histologic/site distinction; source's “most common female cancer” is false as a general ranking. CA-125 can inform selected diagnostic/monitoring contexts; do not offer it as a general population screening test.",
+      "anchor": "reproductive-cancers",
+      "caption_anchors": [
+        {
+          "anchor": "24:36",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L50-T14",
+      "source_topic_anchor": "25:38",
+      "disposition": "Teach menopause as retrospective cessation of menses from ovarian follicle decline, with variable timing and symptoms. Native f0053/caption's 40–45 age interval is too narrow/early as a general population statement. Do not conflate menopause hormone therapy with contraception.",
+      "anchor": "menopause-ecology",
+      "caption_anchors": [
+        {
+          "anchor": "25:38",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5",
+        "ch21-s3"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L50-T15",
+      "source_topic_anchor": "26:32",
+      "disposition": "Teach vaginal microbial ecology as a dynamic association with estrogen, pH, life stage and infection risk; native f0056 is a generic slide, not species or causal microscopy. Reject caption's fixed “only 3–4 drugs” resistant-infection claim without pathogen/date/context. Late L50 caption-only question at 27:36 asks for an emerging uterine-prolapse intervention: answer as a research-evidence comparison, not as patient recommendation.",
+      "anchor": "menopause-ecology",
+      "caption_anchors": [
+        {
+          "anchor": "26:32",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch21-s5",
+        "ch21-s3"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    }
+  ],
+  "body_sha256": "009a2381fcdc21350e02fdc777a602639d8c0468fd0bca9d296656877d13cce0",
+  "body_hash_definition": "SHA256 of exact raw bytes strictly between unique BEGIN/END CHAPTER BODY markers, preserving all newlines without trim or DOM normalization.",
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch21-context.svg",
+      "sha256": "1d6a6068bceb58c74741f2d7a40216d18447b4ebc55393fb4aac663b736209fa"
+    },
+    {
+      "path": "assets/ch21-human-ivf-embryo.jpg",
+      "sha256": "deaa9480458866478b510a61feb074097e5f5e89fe2927f2de7157a882b32917"
+    },
+    {
+      "path": "assets/ch21-imaging-LICENSE.txt",
+      "sha256": "fdabfd78fd1f4fcf0b2e430bd93a3b3b29c2dd59120f54399cb1c982b8910799"
+    },
+    {
+      "path": "assets/ch21-imaging-provenance.json",
+      "sha256": "dead0ec4b96b96ffc4e83aee6e03d78fd5c22e7346ab36ac5fe8bc91d253ffb7"
+    },
+    {
+      "path": "assets/ch21-ivf.svg",
+      "sha256": "1bca01d25448b1b771c529f619ab8ae30b61f305f44b3f209c193678e5951d90"
+    },
+    {
+      "path": "assets/ch21-mechanisms.html",
+      "sha256": "deed975f0e7f8e325fca8ff6151fffd4a54849ddde485b756d77008a5416a152"
+    },
+    {
+      "path": "assets/ch21-methods.svg",
+      "sha256": "6fd61fbfa576eae87b3a1b35e11ce08fe7bfa4c27fffcfde210ece1a3abf8277"
+    },
+    {
+      "path": "assets/ch21-model.js",
+      "sha256": "b80bddc3783ac740181846d4a44297d1191de69bd0d4a71d2020d5f2e255816d"
+    },
+    {
+      "path": "assets/ch21-outcome-state.json",
+      "sha256": "0441b5f491c120f329685ce1d72bc4050ec16fd6cba2da4460dfc00635dd78e0"
+    },
+    {
+      "path": "assets/ch21-pid.svg",
+      "sha256": "ab50bf52fa0d25e3b1338c41ee4e537fcb7911204b3c92ce9aaf958500a43fa2"
+    },
+    {
+      "path": "code/ch21_check.cjs",
+      "sha256": "c8e3eda055ef88ae0d98eb082eadd8ae2f5c24486b8b373b6019dd1e3f3daed3"
+    },
+    {
+      "path": "code/ch21_export.cjs",
+      "sha256": "21436f2af5bacb8bd1e4b9edbe5b9294e0bbdb7635a5946b1f9e6e7e4ed0ded4"
+    },
+    {
+      "path": "code/ch21_outcomes.py",
+      "sha256": "93861a28b13929e04fa88d8020dacc691c2b36c2b27e0613c302036569619f09"
+    }
+  ],
+  "artifact_sha256": {
+    "assets/ch21-context.svg": "1d6a6068bceb58c74741f2d7a40216d18447b4ebc55393fb4aac663b736209fa",
+    "assets/ch21-human-ivf-embryo.jpg": "deaa9480458866478b510a61feb074097e5f5e89fe2927f2de7157a882b32917",
+    "assets/ch21-imaging-LICENSE.txt": "fdabfd78fd1f4fcf0b2e430bd93a3b3b29c2dd59120f54399cb1c982b8910799",
+    "assets/ch21-imaging-provenance.json": "dead0ec4b96b96ffc4e83aee6e03d78fd5c22e7346ab36ac5fe8bc91d253ffb7",
+    "assets/ch21-ivf.svg": "1bca01d25448b1b771c529f619ab8ae30b61f305f44b3f209c193678e5951d90",
+    "assets/ch21-mechanisms.html": "deed975f0e7f8e325fca8ff6151fffd4a54849ddde485b756d77008a5416a152",
+    "assets/ch21-methods.svg": "6fd61fbfa576eae87b3a1b35e11ce08fe7bfa4c27fffcfde210ece1a3abf8277",
+    "assets/ch21-model.js": "b80bddc3783ac740181846d4a44297d1191de69bd0d4a71d2020d5f2e255816d",
+    "assets/ch21-outcome-state.json": "0441b5f491c120f329685ce1d72bc4050ec16fd6cba2da4460dfc00635dd78e0",
+    "assets/ch21-pid.svg": "ab50bf52fa0d25e3b1338c41ee4e537fcb7911204b3c92ce9aaf958500a43fa2",
+    "code/ch21_check.cjs": "c8e3eda055ef88ae0d98eb082eadd8ae2f5c24486b8b373b6019dd1e3f3daed3",
+    "code/ch21_export.cjs": "21436f2af5bacb8bd1e4b9edbe5b9294e0bbdb7635a5946b1f9e6e7e4ed0ded4",
+    "code/ch21_outcomes.py": "93861a28b13929e04fa88d8020dacc691c2b36c2b27e0613c302036569619f09"
+  },
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch17_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "009a2381fcdc21350e02fdc777a602639d8c0468fd0bca9d296656877d13cce0",
+      "artifact_sha256": {
+        "assets/ch21-context.svg": "1d6a6068bceb58c74741f2d7a40216d18447b4ebc55393fb4aac663b736209fa",
+        "assets/ch21-human-ivf-embryo.jpg": "deaa9480458866478b510a61feb074097e5f5e89fe2927f2de7157a882b32917",
+        "assets/ch21-imaging-LICENSE.txt": "fdabfd78fd1f4fcf0b2e430bd93a3b3b29c2dd59120f54399cb1c982b8910799",
+        "assets/ch21-imaging-provenance.json": "dead0ec4b96b96ffc4e83aee6e03d78fd5c22e7346ab36ac5fe8bc91d253ffb7",
+        "assets/ch21-ivf.svg": "1bca01d25448b1b771c529f619ab8ae30b61f305f44b3f209c193678e5951d90",
+        "assets/ch21-mechanisms.html": "deed975f0e7f8e325fca8ff6151fffd4a54849ddde485b756d77008a5416a152",
+        "assets/ch21-methods.svg": "6fd61fbfa576eae87b3a1b35e11ce08fe7bfa4c27fffcfde210ece1a3abf8277",
+        "assets/ch21-model.js": "b80bddc3783ac740181846d4a44297d1191de69bd0d4a71d2020d5f2e255816d",
+        "assets/ch21-outcome-state.json": "0441b5f491c120f329685ce1d72bc4050ec16fd6cba2da4460dfc00635dd78e0",
+        "assets/ch21-pid.svg": "ab50bf52fa0d25e3b1338c41ee4e537fcb7911204b3c92ce9aaf958500a43fa2",
+        "code/ch21_check.cjs": "c8e3eda055ef88ae0d98eb082eadd8ae2f5c24486b8b373b6019dd1e3f3daed3",
+        "code/ch21_export.cjs": "21436f2af5bacb8bd1e4b9edbe5b9294e0bbdb7635a5946b1f9e6e7e4ed0ded4",
+        "code/ch21_outcomes.py": "93861a28b13929e04fa88d8020dacc691c2b36c2b27e0613c302036569619f09"
+      },
+      "report_path": "work/reviews/ch21-approved-a.md",
+      "report_sha256": "0985c5f0ac88fd3961d4245134bb88f2d121b0e09442ef7e0112fab3b44a5820",
+      "original_full_report": "work/reviews/ch21-review-a.md",
+      "targeted_report": "work/reviews/ch21-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch17_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "009a2381fcdc21350e02fdc777a602639d8c0468fd0bca9d296656877d13cce0",
+      "artifact_sha256": {
+        "assets/ch21-context.svg": "1d6a6068bceb58c74741f2d7a40216d18447b4ebc55393fb4aac663b736209fa",
+        "assets/ch21-human-ivf-embryo.jpg": "deaa9480458866478b510a61feb074097e5f5e89fe2927f2de7157a882b32917",
+        "assets/ch21-imaging-LICENSE.txt": "fdabfd78fd1f4fcf0b2e430bd93a3b3b29c2dd59120f54399cb1c982b8910799",
+        "assets/ch21-imaging-provenance.json": "dead0ec4b96b96ffc4e83aee6e03d78fd5c22e7346ab36ac5fe8bc91d253ffb7",
+        "assets/ch21-ivf.svg": "1bca01d25448b1b771c529f619ab8ae30b61f305f44b3f209c193678e5951d90",
+        "assets/ch21-mechanisms.html": "deed975f0e7f8e325fca8ff6151fffd4a54849ddde485b756d77008a5416a152",
+        "assets/ch21-methods.svg": "6fd61fbfa576eae87b3a1b35e11ce08fe7bfa4c27fffcfde210ece1a3abf8277",
+        "assets/ch21-model.js": "b80bddc3783ac740181846d4a44297d1191de69bd0d4a71d2020d5f2e255816d",
+        "assets/ch21-outcome-state.json": "0441b5f491c120f329685ce1d72bc4050ec16fd6cba2da4460dfc00635dd78e0",
+        "assets/ch21-pid.svg": "ab50bf52fa0d25e3b1338c41ee4e537fcb7911204b3c92ce9aaf958500a43fa2",
+        "code/ch21_check.cjs": "c8e3eda055ef88ae0d98eb082eadd8ae2f5c24486b8b373b6019dd1e3f3daed3",
+        "code/ch21_export.cjs": "21436f2af5bacb8bd1e4b9edbe5b9294e0bbdb7635a5946b1f9e6e7e4ed0ded4",
+        "code/ch21_outcomes.py": "93861a28b13929e04fa88d8020dacc691c2b36c2b27e0613c302036569619f09"
+      },
+      "report_path": "work/reviews/ch21-approved-b.md",
+      "report_sha256": "c4520a85ec0563cc447a1f55e528cf2a87e6a61833339201720d9310c90351d1",
+      "original_full_report": "work/reviews/ch21-review-b.md",
+      "targeted_report": "work/reviews/ch21-targeted-b.md"
+    }
+  ],
+  "code": [
+    "code/ch21_outcomes.py",
+    "code/ch21_check.cjs",
+    "code/ch21_export.cjs"
+  ],
+  "code_validation": "Python918 nested-count/conservation/chain/zero-denominator/domain/mixture and printed-example checks; Node1799 state/domain/parity/deterministic-source-SVG/mock-DOM control checks; structure39uniqueIDs/22localrefs/50anchors/6solutions/10inline1display math/SVG XML pass. No actual browser/clinical/MathJax/motion/print validation. Bounded union repair:6ordinaryPPV outputs exactly unchanged;4tiny/boundary cases and15invalid inputs eachruntime; Python/JS exactresult parity;50topics/6solutions/source hidden-scroll-containment checks pass. Existing918Python/1799Node checks rerunPASS.",
+  "figures": [
+    {
+      "id": "ch21-fig1",
+      "path": "assets/ch21-context.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch21-embryo",
+      "path": "assets/ch21-human-ivf-embryo.jpg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch21-anim1",
+      "path": "chapter-21-reproductive-health-technologies.html#ch21-anim1",
+      "embedded_panel": "assets/ch21-mechanisms.html?mode=methods",
+      "status": "accepted"
+    },
+    {
+      "id": "ch21-anim2",
+      "path": "chapter-21-reproductive-health-technologies.html#ch21-anim2",
+      "embedded_panel": "assets/ch21-mechanisms.html?mode=ivf",
+      "status": "accepted"
+    },
+    {
+      "id": "ch21-anim3",
+      "path": "chapter-21-reproductive-health-technologies.html#ch21-anim3",
+      "embedded_panel": "assets/ch21-mechanisms.html?mode=pid",
+      "status": "accepted"
+    }
+  ],
+  "realistic_asset_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Reproductive method targets, ART denominators, pelvic compartments and conditional disease pathways",
+    "rationale": "Verified recorded human IVF embryo supplies directly relevant prepared appearance. Original controlled route/denominator explanations and separate pelvic/outlet context answer distinct questions without inventing observed cleavage or individual treatment outcomes.",
+    "appearance_references": [
+      "assets/ch21-human-ivf-embryo.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch21-mechanisms.html",
+      "assets/ch21-model.js"
+    ],
+    "report_path": "work/browser/ch21-visual-modality.json",
+    "report_sha256": "f6e3350b78aa65d5c1db480e160cb2394d3f8f658be87c12f1db997135bcfcbb"
+  },
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
+    "browser": "Actual root current reader,6method endpoints/6IVF/fourPID states, live conditional sequence/end-stop and explicit Play/Pause, settled reduced-motion pause, desktop/390px/650px keyboard panning and24page print proof",
+    "coverage": "All50 L48–50 topics and closing activities dispositioned using full captions and attributed bounded10contact sheets172samples28native repeats; exactly two actual independent full reviews plus bounded union/type-domain targets."
+  },
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "author_report": "work/ch21-author-report.md",
+  "research_ledger": "work/ch21-research-ledger.md",
+  "production_validation": {
+    "report_path": "work/browser/ch21-production-final.json",
+    "report_sha256": "24440bedbcadb4eadfa421fef0184570be544cab22375b743ea14d4e66806235",
+    "scope": "Actual root current reader,6method endpoints/6IVF/fourPID states, live conditional sequence/end-stop and explicit Play/Pause, settled reduced-motion pause, desktop/390px/650px keyboard panning and24page print proof"
+  },
+  "limitations": [
+    "Medical/regulatory checks dated2026-11-04; no individualized dosing, procedure, diagnosis, fertility/contraceptive recommendation or legal eligibility decision.",
+    "India legal passage reports directly read officialNHM2021amendment summary only. ConsolidatedIndiaCodeAct timed out and formerMoHFWrulesURLs returned404; no complete current statute/rules/case-law audit claimed.",
+    "AUA2024amended testosterone warning appears in owning search excerpt; directPDFblocked. AccessibleASRM2021guideline directly read, no2024full-text claim.",
+    "ARTcycle counts and screen/mixture parameters are explicitly synthetic, not clinical rates; one linked transfer pathway and complete followup assumed. No independent-identical-cycle assumption.",
+    "Human IVF native4003x2664JPEG has unspecified physical scale/optical method/precise age; catalogue grade description is historical, not validated prognosis. Whole tool display reduced plus native crop checked.",
+    "Emerging pelvic meshes supported by independently read ovine primary abstracts, not human efficacy/approval; no verified spider-silk clinical standard.",
+    "No empiricalART70–80%success estimate or source universal100%contraception/cancer/legal claim adopted; pathway/endpoints/denominators kept distinct.",
+    "PPV binary64 domain requires every mathematically positive TP/FP product to remain positive after rounding; underflow raises explicit ValueError/RangeError. Mathematical PPV remains defined beyond this implementation domain."
+  ],
+  "repair_report": "work/ch21-repair-report.md",
+  "coverage_basis": "All50 L48–50 topics and closing activities dispositioned using full captions and attributed bounded10contact sheets172samples28native repeats; exactly two actual independent full reviews plus bounded union/type-domain targets.",
+  "accepted_at_utc": "2026-11-05T04:21:14.450Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-21.json",
+    "sha256": "7b42abf08d13cf56064b71ee242977aee26f2618cc53c2f039236f487f0c17db"
+  }
+}

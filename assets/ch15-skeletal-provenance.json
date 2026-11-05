@@ -1,0 +1,42 @@
+{
+  "title": "Wild-type mouse diaphragm skeletal muscle, thin-section TEM",
+  "creator": "Hanna Osinska",
+  "accession": "CIL:256",
+  "doi": "https://doi.org/10.7295/W9CIL256",
+  "owning_record": "https://www.cellimagelibrary.org/images/256",
+  "download_url": "https://cildata.crbs.ucsd.edu/media/images/256/256.tif",
+  "license": {
+    "name": "Public domain",
+    "basis": "Actual owning accession explicitly declares public domain; courtesy scientific credit retained."
+  },
+  "species": "Mus musculus",
+  "tissue": "diaphragm skeletal muscle",
+  "condition": "Wild-type control from a delta-sarcoglycan-knockout study; not a human sample or a universal normal-state atlas.",
+  "modality": "Thin-section transmission electron microscopy",
+  "preparation": [
+    "glutaraldehyde fixation",
+    "osmium tetroxide fixation",
+    "microtome-sectioned tissue",
+    "uranyl/lead contrast"
+  ],
+  "instrument": "Hitachi 7600,80 kV,AMT digital camera; owning catalogue nominal30,000×",
+  "native_dimensions": [
+    1696,
+    2016
+  ],
+  "catalogue_pixel_spacing_nm_approx": 3.03,
+  "original_scale_bar_nm": 500,
+  "files": [
+    {
+      "path": "assets/ch15-skeletal-cil256.tif",
+      "sha256": "7ba8a1b764fe7ee403ccccc4f9ec2fe85a11edeb2d57d309b23b6ef2f1c322ba"
+    },
+    {
+      "path": "assets/ch15-skeletal-cil256.png",
+      "sha256": "b8501f97eba4f079c6c1d304b3870e6d9e092cdb8ef002bcf691cd4d688a21a4"
+    }
+  ],
+  "modifications": "Pixel-identical TIFF-to-PNG container conversion verified with Pillow; no crop, resize, recolor or added annotation. Original instrument footer and500 nm bar retained.",
+  "actual_access": "Owning HTML read through web and saved direct HTTP; native TIFF acquired and actual PNG pixels inspected. Web tool TIFF preview was unsupported, not an acquisition success; direct native byte fetch and Pillow verification succeeded.",
+  "limits": "Prepared skeletal myofibrils/mitochondria in this field, not a skeletal NMJ, atomic actomyosin contacts, whole-muscle hierarchy, live colors or a measured shortening trajectory. Preparation contrast and sectioning influence appearance."
+}

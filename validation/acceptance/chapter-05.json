@@ -1,0 +1,96 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 5,
+  "manuscript": "chapter-05-heart-electrical-mechanical-pump.html",
+  "body_sha256": "83f927b0e155b3f13c30cd56e8a1564ef2ed3c363583d6d769453e4e4c084e43",
+  "artifact_sha256": {
+    "assets/ch05-cardiac-lab.html": "e1990798e520e3444df6e33921a0de58d7cfaae4ab24151d60676c40370ef5ac",
+    "assets/ch05-cardiac-lab.js": "edcdff5b1393394b5a03338c8e2246cf32ef5e779ea497a4b21046f4630572a2",
+    "code/ch05_cardiac_cycle.py": "ee51707191da073db54895a910c58e69bd58119a0fa3334e0436bc2b65e11429",
+    "assets/ch05-heart-render-anterior-oblique.png": "72ad04d1087c27c0ad4cafe04aabac85286f4c50cdd0ecbb35dce5d29d5df494",
+    "assets/ch05-heart-render-left-anterior-oblique.png": "1d2ee9abcd1f482e8244be5dd3590af71ddb869be2286f2f9b7ec14a255c0c3d",
+    "assets/ch05-heart-render-provenance.json": "661a896465c12ff5d8d6ca7529930053f7ea692edae6e233d37238168aab1f34",
+    "assets/ch05-heart-reference-autopsy.jpg": "414ac3098c464add9586a6561387b40bf59b3b1635445e3cc6a247f0b5e3baf5",
+    "assets/ch05-heart-reference-provenance.json": "858b19dfdbfa5ad6826eee067937208a2618a47b1ae95144a6ffc4d90382137d",
+    "assets/ch05-heart-reference.html": "fbeeeedbc76d0f0feb1669f1390b391aef1ce393352e4c9704763e68441f66f1",
+    "figures/ch05_heart_render.py": "e593b82a62e9794e624e2201160c801ea6005a1e7d08a166f062d63da3910171"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "All22 topic dispositions and six worked solutions assessed by both full reviewers; complete captions plus bounded source still evidence, not continuous recording inspection.",
+  "source_recordings": [
+    13,
+    14
+  ],
+  "source_evidence": [
+    {
+      "number": 13,
+      "video_id": "WZA2i69Hcjk",
+      "url": "https://www.youtube.com/watch?v=WZA2i69Hcjk",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "29f2186f68c30a185fe7b7d35be2ad3170da3b90a021637a8041b5adc294d015",
+      "caption_cues": 161,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 59,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 59,
+        "native_still_views": 3,
+        "report_sha256": "e94dc50269e7716026c6d1ec5cd02bab70a1f2ab1af865a4465a7a3bc7b1cfde"
+      },
+      "visual_review_scope": "All contact sheets and specifically listed targeted frames actually viewed; bounded still sampling, not continuous audio/video."
+    },
+    {
+      "number": 14,
+      "video_id": "b05SfBJerWg",
+      "url": "https://www.youtube.com/watch?v=b05SfBJerWg",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "ba591344644014158d2efde942234553fbe61344a24370b51bd5702619fec0f4",
+      "caption_cues": 183,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 67,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 4,
+        "sampled_stills": 67,
+        "native_still_views": 4,
+        "report_sha256": "e94dc50269e7716026c6d1ec5cd02bab70a1f2ab1af865a4465a7a3bc7b1cfde"
+      },
+      "visual_review_scope": "All contact sheets and specifically listed targeted frames actually viewed; bounded still sampling, not continuous audio/video."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch01_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "9952189ed3b96db5ed65eac525ed1464657fb39458819f6fd6347451a1b80a31",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted prose repairs; production acceptance separate."
+    },
+    {
+      "reviewer_id": "/root/ch01_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "91d06f2f3f2e2ae6537e96ef04705c999d902bc833608b1171551321b601bad8",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted prose repairs; production acceptance separate."
+    }
+  ],
+  "production": {
+    "scope": "Historical actual production evidence plus current scientific-artifact identity and a separate bounded current reader reinspection.",
+    "report_sha256": "3bb1aa9bca813a2614c3f35f0acddb8885a23d368c8671dad496f8e85baf9eff"
+  },
+  "visual_modality": {},
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

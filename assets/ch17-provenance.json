@@ -1,0 +1,59 @@
+{
+  "chapter": 17,
+  "created": "2026-11-04",
+  "modality": "Verified observed microscopy plus separately source-checked original segment reconstruction and controlled SVG mechanisms; no new realistic3D required for these learning tasks.",
+  "anatomical_reference": {
+    "path": "assets/ch17-nephron.svg",
+    "geometry": "Topological long-loop reconstruction; cortex/medulla,continuous urinary path,distinct bloodvessels andcollectingduct. No metric scale or tissueappearanceclaim.",
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+      "https://pathologia.ed.ac.uk/topic/renal-normal-histology/"
+    ],
+    "behavior": "Static topology,not experimental trajectories.",
+    "appearance": "Artificial explanatory colors,not livingtissue."
+  },
+  "observed_reference": {
+    "path": "assets/ch16-glomerulus-sem.jpg",
+    "source_record": "assets/ch16-provenance.json",
+    "source_license": "assets/ch16-LICENSE.txt",
+    "creator": "David Gregory & Debbie Marshall",
+    "catalogue": "https://wellcomecollection.org/works/h2parxes",
+    "license": "CC BY4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "access_basis": "Acquired and ownercatalogue verified byCh16author; this author read saved owningcatalogue JSON and viewednativeJPEG. FreshwebAPIrequestfailed.",
+    "modification": "None; shared original native3800x2822JPEG.",
+    "species_preparation_scale": "Species/fixation/drying/coating/state not supplied. Instrument10.0U retained withoutcalibration.",
+    "scope": "Observed glomerular tuft surface only; no observed PCT or loop epithelial appearance, registered barrier cross-section, transporter localization or kinetics supplied. This asset does not satisfy a segment-specific microscopy objective.",
+    "sha256": "c0e94632237a66e8aadf9641741eb5fbfd20797973b0d9b4cc6fca14c6336f33"
+  },
+  "mechanisms": {
+    "path": "assets/ch17-mechanisms.html",
+    "implementation": [
+      "assets/ch17-mechanisms.js",
+      "assets/ch17-mechanisms.css"
+    ],
+    "geometry": "Simplified epithelial compartments; four ordered outer-medullary paired-flow levels with every ascending bin an active TAL surrogate; branching RAAS reaction/control graph; separate dialyzer paths.",
+    "behavior": "Pure deterministicphasefunction; loopnumericframesfromPython; dialysisdiffusioncurveeq17.8; othersequencesqualitative.",
+    "appearance": "Symbolicparticles/colors,nomolecularcount,poregeometry,physiologicalkinetics orrealistictissueclaim.",
+    "controls": "Noautoplay;nativeplay/pause/reset/speed/seek;selector;keyboardcontrols;reducedmotionstartsstatic;parentprinttextalternatives.",
+    "library_dependencies": [],
+    "graph": "assets/ch17-raas.svg is exported from the same JS graph renderer and state used interactively by node assets/ch17-checks.js --export; no separate hand-drawn control topology."
+  },
+  "lab": {
+    "path": "code/ch17_renal_balance.py",
+    "model": "Synthetic fixed-volume four-level outer-medullary TAL-surrogate paired-flow balance. All ascending bins represent active TAL; no thin ascending segment or anatomical bend is simulated. Deepest D-to-A connection is a lumped no-exchange boundary.",
+    "units": "Arbitrary water,osmoles andmodeltime; no patientcalibration.",
+    "omissions": [
+      "resolvedvasarecta",
+      "urearecycling",
+      "inner-medullaryarchitecture",
+      "ionidentity/charge",
+      "oxygen/ATPcostmodel",
+      "hormonalrates",
+      "measuredmembranepermeabilities",
+      "thin ascending limb transport",
+      "anatomical bend and metric depth"
+    ]
+  },
+  "visual_status": "Native observed photo inspection inherited from original author. Repair graph source-render preflight is separate from actual chapter browser/motion/print inspection, which remains pending root; no acceptance claimed."
+}

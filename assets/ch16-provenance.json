@@ -1,0 +1,51 @@
+{
+  "asset": "ch16-glomerulus-sem.jpg",
+  "title": "Glomerulus, SEM",
+  "creator": "David Gregory & Debbie Marshall",
+  "source_page": "https://wellcomecollection.org/works/h2parxes",
+  "catalogue_api": "https://api.wellcomecollection.org/catalogue/v2/works/h2parxes?include=items,images",
+  "catalogue_item": "h2parxes",
+  "image_identifier": "B0000699",
+  "source_download": "https://iiif.wellcomecollection.org/image/B0000699/full/full/0/default.jpg",
+  "iiif_info": "https://iiif.wellcomecollection.org/image/B0000699/info.json",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_version_verified": true,
+  "license_basis": "Owning catalogue item digital location explicitly provides license label and URL; owning work page independently states CC BY 4.0.",
+  "accessed": "2026-11-04",
+  "width": 3800,
+  "height": 2822,
+  "bytes": 1770555,
+  "sha256": "c0e94632237a66e8aadf9641741eb5fbfd20797973b0d9b4cc6fca14c6336f33",
+  "catalogue_response_sha256": "9ad30d93d7928d75fac5e2d333a5cbb637a92888dd79ce95e7c57f258e79f37b",
+  "iiif_info_sha256": "6bb578cdb93e158f703edd54367e3599cd67e4ade0817e15d4942eac3c88163e",
+  "modifications": "None: full-resolution catalogue JPEG retained with instrument footer. This is the IIIF full-size download, not a claim to raw microscope-acquisition data.",
+  "species": "Unreported in owning catalogue. No human/rat/mouse specimen identity inferred.",
+  "preparation": "SEM identified by owning catalogue; fixation, drying, coating, section/exposure preparation and specimen state unreported.",
+  "scale": "Native instrument footer includes bar and literal 10.0U annotation; unit and calibration not independently documented in catalogue, so no physical dimensions measured or inferred here.",
+  "appearance_evidence": "Actually inspected grayscale surface micrograph of exposed convoluted glomerular tuft, with fine branching/process patterns. SEM contrast reflects prepared specimen/electron detection, not living tissue color.",
+  "geometry_evidence": "Observed tuft surface morphology. Not a registered gross-organ section, complete nephron connection graph or layer-by-layer wall section.",
+  "behavior_evidence": "None: static prepared image, not filtration dynamics or molecular trajectories.",
+  "reconstructions": [
+    {
+      "path": "assets/ch16-context.svg",
+      "method": "Original source-checked sectional kidney and separate-scale nephron arrangement; hand-authored vector coordinates, not atlas segmentation or specimen measurement.",
+      "geometry_sources": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-3-gross-anatomy-of-the-kidney",
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney"
+      ],
+      "limits": "Gross organ and nephron panels have separate scales. Both corpuscles are cortical; long loop extends further into medulla. Cortical columns are continuous with and use the same fill as outer cortex. The unfilled sinus cavity surrounds a separate gold renal pelvis/drainage path; pale branches summarize calyces without resolving individual cups. Counts, shapes, distances, colors and proportions illustrative."
+    },
+    {
+      "path": "assets/ch16-barrier-section.svg",
+      "method": "Original unscaled locally flattened filtration-wall reconstruction; lumen→surface layer/fenestrated endothelium→continuous GBM→podocyte slit→capsular space.",
+      "geometry_sources": [
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK554544/",
+        "https://pubmed.ncbi.nlm.nih.gov/10550324/",
+        "https://pubmed.ncbi.nlm.nih.gov/14709398/"
+      ],
+      "limits": "Exaggerated glycocalyx and fenestra/slit widths. Two endothelial fragments depict one fenestrated sheet, not a junction gap. Matrix remains continuous. Foot processes belong to distinct podocytes. Arrow indicates direction only; no sieve cutoff or measured kinetics."
+    }
+  ],
+  "inspection": "Native-dimension source file inspected with view_image. Both original SVG reconstructions rendered to private PNG previews and inspected for labeling and compartment geometry; barrier label/arrow overlap and contact gaps were repaired. Actual chapter responsive/control/print/browser production inspection remains separate."
+}

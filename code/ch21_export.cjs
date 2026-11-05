@@ -1,0 +1,1 @@
+const fs=require('node:fs'),path=require('node:path'),r=path.resolve(__dirname,'..'),m=require(path.join(r,'assets/ch21-model.js'));for(const[f,v]of [['ch21-methods.svg',m.mechanismSVG(2,'copper')],['ch21-ivf.svg',m.ivfSVG(5)],['ch21-pid.svg',m.pidSVG(3)]])fs.writeFileSync(path.join(r,'assets',f),v);

@@ -1,0 +1,156 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 15,
+  "manuscript": "chapter-15-muscle-neuromuscular-transmission.html",
+  "body_sha256": "beface4d43c70bc6729ede6a952e1df3fdc7e60098b5831cfc7b01a60674ba89",
+  "artifact_sha256": {
+    "assets/ch15-checks.js": "306c13fb9faccf144642c8caea7e1d05344e0adf7b6a3e931aa25c061cf044bc",
+    "assets/ch15-coupling-phase-0.svg": "fd59a7cc87512b5440ad1413407e9fffdf81420c23c25da1d1b1cd60b376a3c9",
+    "assets/ch15-coupling-phase-100.svg": "c8a2c00d4ab15672295fae72bd8a05ac4c53053923cf96f3ae4e61e22fbd1f2c",
+    "assets/ch15-coupling-phase-25.svg": "3b94d56dca5fbaa2e43b51210ca302d25c2eb6f740740b7e1c7a6078c84d7751",
+    "assets/ch15-coupling-phase-50.svg": "d695cd9f5425d69ed4e9f6b9b4ac0a978424e5faefee9c24f4256e66178746d8",
+    "assets/ch15-coupling-phase-75.svg": "eb96f5ae1fcfa1706710e90ce5847d8216849d2c8245674e34aaeb5471b79190",
+    "assets/ch15-microscopy-provenance.json": "ce8706fe9e32adebfb9143dcdbb19ee821384a392a881c40aefb4521c9d90303",
+    "assets/ch15-models.css": "6424465ee325496919430aa89335760dd74f28e99aedfb61b642f71d7bd1eb74",
+    "assets/ch15-models.js": "d099dada33526f410782f4c1ee662eb12667dcd23cb6534c49a86e4e7dd8fa13",
+    "assets/ch15-mouse-cardiac-cil39727.png": "422fbbaf987056cf949139ea6634800447dab47d80cc7327921fc5c9e4c44d8c",
+    "assets/ch15-mouse-cardiac-cil39727.tif": "97d8aaa9698644da4725b337534be45896b1306734d98a8daaa81136897da708",
+    "assets/ch15-nmj-phase-0.svg": "4834fb1ec28b17f7cebb0c350e525a2249b68df790f2674a61ffa3caeb46de3d",
+    "assets/ch15-nmj-phase-100.svg": "aa5e0c26b76d74e4ff8caf09a3d4bba36d22009cbc5aab0bea2d2a94ec9dbc24",
+    "assets/ch15-nmj-phase-25.svg": "aee29ecaa24ff8252ffcbd9cb7a1ebca7c29227a333de612e9a03bb48211fbea",
+    "assets/ch15-nmj-phase-50.svg": "6bc3e7bdb365e7222ca70f0d61c2190518f05900815a16b499d30c56593c206e",
+    "assets/ch15-nmj-phase-75.svg": "353faaa06dcb7d1c4edd530a1d9d7371554f992bb67ea244d1b118e1e985d0d5",
+    "assets/ch15-regional-compartments.svg": "deb7b31391e53f02a3176ac6b3cdcf92b45d5d5f4f9a50d6400d4a8a559726f5",
+    "assets/ch15-regional-provenance.json": "db727ee72fd5c02c2fe5515093de1e6585d9b4d52ca5512ac5955b7891e2e275",
+    "assets/ch15-sliding-phase-0.svg": "cf122a9e6a787be5dbe5e726e9b80ec2e25c29f0f61bf5a08597dea95b2ed75e",
+    "assets/ch15-sliding-phase-100.svg": "c361bc6016d7a024a1b797dcc1fc49071a4bbf07bc8e8217a0190321e541adee",
+    "assets/ch15-sliding-phase-25.svg": "a0c0c8eb9fffb095d99116633d7cea2b1fbe245874a3f5557db9e81a4e5dae7f",
+    "assets/ch15-sliding-phase-50.svg": "56135af5b83d40ca12bd91d670c884cde193c70bbfb5fed82b0173754c10e8a0",
+    "assets/ch15-sliding-phase-75.svg": "2aa26460f300c2e4c5af3e7487622580ed682b34d06a5cc7531059895f4c7582",
+    "code/ch15_checks.py": "5809dc3afab1408f3a515f0f0952a183db35309f9ad95517a87f56e6eea16474",
+    "code/ch15_validate.py": "c0e120e17de4f19fb80c1f11ef673aa4e7897e8775ecf489c478b2dd50925af9",
+    "assets/ch15-skeletal-cil256.tif": "7ba8a1b764fe7ee403ccccc4f9ec2fe85a11edeb2d57d309b23b6ef2f1c322ba",
+    "assets/ch15-skeletal-cil256.png": "b8501f97eba4f079c6c1d304b3870e6d9e092cdb8ef002bcf691cd4d688a21a4",
+    "assets/ch15-skeletal-provenance.json": "d6fc25336a7b76bd866d16e37296aaf1ae55aede08df6ba5a1c13d45bd72f4b1"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "All58 L33–35 topics and complete late disease/toxin/exercise content assessed by two actual original full reviews; bounded still audit remains attributed, not continuous viewing. Union repairs and added source-verified skeletal reference independently checked by separately identified fresh scoped checkers; actual reader production pending.",
+  "source_recordings": [
+    33,
+    34,
+    35
+  ],
+  "source_evidence": [
+    {
+      "number": 33,
+      "video_id": "mTYyXae4b6g",
+      "url": "https://www.youtube.com/watch?v=mTYyXae4b6g",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "22ead99d1ae176789791aa9cce9baf763fb86c55d1c3cea4ce33d6f8ac1c5b56",
+      "caption_cues": 235,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 66,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 4,
+        "sampled_stills": 66,
+        "native_still_views": 4,
+        "report_sha256": "2faf48b4479139fc30b763e2dcf49f25735b7292d2dff70ebd8b44e57b458415"
+      },
+      "visual_review_scope": "All contact sheets and named native stills inspected; full captions and all58 topics across L33–35 mapped. Inherited dossier attributed; slide/caption conflicts and unverified clinical assertions flagged. No continuous audio/video or new external research claim."
+    },
+    {
+      "number": 34,
+      "video_id": "_6Fh8bcopxs",
+      "url": "https://www.youtube.com/watch?v=_6Fh8bcopxs",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "605bb4513af3b5fc1e018efad064644a953e2e36057c69f77e694fbfa4791cd5",
+      "caption_cues": 267,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 82,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 5,
+        "sampled_stills": 82,
+        "native_still_views": 6,
+        "report_sha256": "2faf48b4479139fc30b763e2dcf49f25735b7292d2dff70ebd8b44e57b458415"
+      },
+      "visual_review_scope": "All contact sheets and named native stills inspected; full captions and all58 topics across L33–35 mapped. Inherited dossier attributed; slide/caption conflicts and unverified clinical assertions flagged. No continuous audio/video or new external research claim."
+    },
+    {
+      "number": 35,
+      "video_id": "zuInASj5mQw",
+      "url": "https://www.youtube.com/watch?v=zuInASj5mQw",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "22afd7b1e96af32a6e1b95f4b0f019d23e7d4c447b9714526aa614a9bf002140",
+      "caption_cues": 142,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 54,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 54,
+        "native_still_views": 6,
+        "report_sha256": "2faf48b4479139fc30b763e2dcf49f25735b7292d2dff70ebd8b44e57b458415"
+      },
+      "visual_review_scope": "All contact sheets and named native stills inspected; full captions and all58 topics across L33–35 mapped. Inherited dossier attributed; slide/caption conflicts and unverified clinical assertions flagged. No continuous audio/video or new external research claim."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch15_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "7e3529aaf8ee2049b41323b97eae1e668f2b0af1e0305b2882140439c5215726",
+      "review_basis": "Original actual independent full review by /root/ch15_review_a plus current targeted changed-content verification by separately identified /root/ch17_review_a; aggregate approval, no additional full review",
+      "targeted_reviewer_id": "/root/ch17_review_a",
+      "targeted_reviewer_model": "gpt-6.1-sol",
+      "targeted_checker_is_separate": true,
+      "original_full_review_body_sha256": "b25c8be13ab229365deb62d935e3708bcb0520d86f6c180e59e74a9f39f28406"
+    },
+    {
+      "reviewer_id": "/root/ch15_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "4d331250d53d89664ea62e70382f25b2efb7c0243591ed37518563b6da55f9d0",
+      "review_basis": "Original actual independent full review by /root/ch15_review_b plus current targeted changed-content verification by separately identified /root/ch17_review_b; aggregate approval, no additional full review",
+      "targeted_reviewer_id": "/root/ch17_review_b",
+      "targeted_reviewer_model": "gpt-6-sol",
+      "targeted_checker_is_separate": true,
+      "original_full_review_body_sha256": "b25c8be13ab229365deb62d935e3708bcb0520d86f6c180e59e74a9f39f28406"
+    }
+  ],
+  "production": {
+    "scope": "Actual root current-body desktop,650px,390px reader and mechanism controls; live motion, reduced-motion pause, print generation and subsequent PDF/pixel inspection",
+    "report_sha256": "4f43b65210ca48314c924f538a6dbc80c905d40ba5cc0936aa10b15a85561d0d"
+  },
+  "visual_modality": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Striated muscle ultrastructure, neuromuscular junction and skeletal coupling",
+    "rationale": "Recorded mouse ventricular TEM and directly relevant mouse diaphragm skeletal TEM provide prepared ultrastructural appearance; original source-checked separate-scale NMJ,calcium,motor and filament mechanisms explain sequence. Regional compartments are labeled original topology. Neither reference demonstrates an NMJ or live molecular trajectory.",
+    "appearance_references": [
+      "assets/ch15-mouse-cardiac-cil39727.png",
+      "assets/ch15-skeletal-cil256.png"
+    ],
+    "mechanism_files": [
+      "assets/ch15-models.js"
+    ],
+    "report_sha256": "eef0eed94f37413d61d58d850099b9b5485322806483fa2851d1aad497ff465e"
+  },
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

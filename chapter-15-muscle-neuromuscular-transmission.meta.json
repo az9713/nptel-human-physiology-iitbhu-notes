@@ -1,0 +1,651 @@
+{
+  "chapter": 15,
+  "title": "Muscle contraction and neuromuscular transmission",
+  "status": "accepted",
+  "coverage_complete": true,
+  "source_recordings": [
+    33,
+    34,
+    35
+  ],
+  "source_evidence": "Complete captions read through L33 32:30, L34 40:29 and L35 26:34; all58 dispositions and complete visual-review-ch15.md read. Bounded source-still audit attributed, no author continuous-video or source-frame inspection claim.",
+  "source_files": [
+    {
+      "path": "sources/transcripts/33-mTYyXae4b6g.txt",
+      "sha256": "6b85881702a8e03cba7fd2e2c72f17ab90df9fe77078df012be1c67ce5f56a2e"
+    },
+    {
+      "path": "sources/transcripts/34-_6Fh8bcopxs.txt",
+      "sha256": "461d4fb1bc54bfe16bc1d5c30a027d25007cf81868ed80b17f3c3c5afbd7808b"
+    },
+    {
+      "path": "sources/transcripts/35-zuInASj5mQw.txt",
+      "sha256": "821acef2b257d7542d117454740869ce989d94e4a18cde92046298010f4a2fea"
+    }
+  ],
+  "coverage_topics": [
+    {
+      "id": "L33-T01",
+      "anchor": "ch15-s1",
+      "disposition": "Retained functions/energy/posture/heat/propulsion; omitted unneeded fixed muscle count and mandatory sensory-spinal-brain chain."
+    },
+    {
+      "id": "L33-T02",
+      "anchor": "ch15-s1",
+      "disposition": "Retained independent striation/control classifications; reflex/autonomic/intrinsic qualifications."
+    },
+    {
+      "id": "L33-T03",
+      "anchor": "hierarchy",
+      "disposition": "Corrected whole muscle–fascicle–fiber–myofibril–sarcomere–myofilament and connective sheath identities."
+    },
+    {
+      "id": "L33-T04",
+      "anchor": "hierarchy",
+      "disposition": "Corrected sarcolemma internal to endomysium; rejected universal3cm average."
+    },
+    {
+      "id": "L33-T05",
+      "anchor": "hierarchy",
+      "disposition": "Retained sarcoplasm/SR; explicitly separated SR lumen and muscle cytosol."
+    },
+    {
+      "id": "L33-T06",
+      "anchor": "hierarchy",
+      "disposition": "Retained actin/thin versus myosin/thick and regulatory proteins."
+    },
+    {
+      "id": "L33-T07",
+      "anchor": "hierarchy",
+      "disposition": "Two heads per myosin molecule, many molecules per thick filament; approximate300 not invariant input."
+    },
+    {
+      "id": "L33-T08",
+      "anchor": "crossbridge",
+      "disposition": "Retained thin-filament actin sites and troponin/tropomyosin."
+    },
+    {
+      "id": "L33-T09",
+      "anchor": "ch15-s3",
+      "disposition": "Retained tropomyosin regulation without literal universal binary steric cartoon."
+    },
+    {
+      "id": "L33-T10",
+      "anchor": "ch15-s3",
+      "disposition": "Calcium binding assigned to troponinC and regulatory conformation, not initial myosin shape switch."
+    },
+    {
+      "id": "L33-T11",
+      "anchor": "crossbridge",
+      "disposition": "Separated ATP binding/detachment/hydrolysis/priming/attachment/product release; coarse-grained Pi timing stated."
+    },
+    {
+      "id": "L33-T12",
+      "anchor": "crossbridge",
+      "disposition": "Retained titin/alpha-actinin/nebulin/dystrophin with scale and force-path qualifications."
+    },
+    {
+      "id": "L33-T13",
+      "anchor": "sliding",
+      "disposition": "Z-to-Z sarcomere, fixed A, decreasing I/H, preserved filament lengths; no fusion or unit-cell identity."
+    },
+    {
+      "id": "L33-T14",
+      "anchor": "ch15-s1",
+      "disposition": "Smooth normally single central nucleus; rejected slide/caption binucleated generalization; no unsupported size input."
+    },
+    {
+      "id": "L33-T15",
+      "anchor": "ch15-s1",
+      "disposition": "Single/multiunit tendencies and gap junctions; no rigid universal organ binary."
+    },
+    {
+      "id": "L33-T16",
+      "anchor": "ch15-s1",
+      "disposition": "Cardiac striation and intercalated mechanical/electrical junctions."
+    },
+    {
+      "id": "L33-T17",
+      "anchor": "energetics",
+      "disposition": "Duration difference contextualized; excluded invariant10–15ratio; skeletal summation corrected."
+    },
+    {
+      "id": "L33-T18",
+      "anchor": "ch15-s1",
+      "disposition": "Cardiac relaxation preserved; human primary isotope study supports lactate oxidation; no fixed75rate or switched subject."
+    },
+    {
+      "id": "L33-T19",
+      "anchor": "ch15-s1",
+      "disposition": "Closing single-unit smooth versus cardiac question answered by coupling while retaining regulatory differences."
+    },
+    {
+      "id": "L34-T01",
+      "anchor": "ch15-s2",
+      "disposition": "Nerve terminal and specialized muscle endplate separated."
+    },
+    {
+      "id": "L34-T02",
+      "anchor": "ch15-s2",
+      "disposition": "Terminal lacks myelin at release site but terminal Schwann cells retained."
+    },
+    {
+      "id": "L34-T03",
+      "anchor": "ch15-s2",
+      "disposition": "ACh vesicle lumen distinguished from terminal cytosol; no invariant100vesicle count."
+    },
+    {
+      "id": "L34-T04",
+      "anchor": "ch15-s2",
+      "disposition": "Motor endplate on muscle, mitochondrial ChAT synthesis label corrected."
+    },
+    {
+      "id": "L34-T05",
+      "anchor": "ch15-s2",
+      "disposition": "Extracellular cleft/basal lamina/AChE and postsynaptic folds located."
+    },
+    {
+      "id": "L34-T06",
+      "anchor": "ach-handling",
+      "disposition": "ChAT cytosolic choline+acetylCoA reaction."
+    },
+    {
+      "id": "L34-T07",
+      "anchor": "ach-handling",
+      "disposition": "Choline high-affinity uptake, not receptor/free diffusion; dietary and recycled sources distinguished."
+    },
+    {
+      "id": "L34-T08",
+      "anchor": "ach-handling",
+      "disposition": "ChAT enzyme versus acetylCoA substrate separated; no direct mitochondrial synthesis."
+    },
+    {
+      "id": "L34-T09",
+      "anchor": "ach-handling",
+      "disposition": "VAChT vesicle accumulation described without unsupported stoichiometry."
+    },
+    {
+      "id": "L34-T10",
+      "anchor": "ach-handling",
+      "disposition": "ATP-driven H+ movement terminal cytosol→vesicle lumen."
+    },
+    {
+      "id": "L34-T11",
+      "anchor": "ach-handling",
+      "disposition": "H+ lumen→cytosol coupled to ACh cytosol→lumen; no proton exit into cleft."
+    },
+    {
+      "id": "L34-T12",
+      "anchor": "release",
+      "disposition": "Regenerative nerve AP uses channels, not sodium pumps; no fixed universal voltage."
+    },
+    {
+      "id": "L34-T13",
+      "anchor": "release",
+      "disposition": "Extracellular calcium enters nerve terminal; different from skeletal SR release."
+    },
+    {
+      "id": "L34-T14",
+      "anchor": "release",
+      "disposition": "Priming/sensor/SNARE-supported fusion not bursting or arbitrary calcium crosslink."
+    },
+    {
+      "id": "L34-T15",
+      "anchor": "epp",
+      "disposition": "nAChR mixed cation current, not sodium-only channel."
+    },
+    {
+      "id": "L34-T16",
+      "anchor": "epp",
+      "disposition": "Graded EPP distinguished from voltage threshold; synthetic passive example explicitly bounded."
+    },
+    {
+      "id": "L34-T17",
+      "anchor": "epp",
+      "disposition": "Regenerative muscle AP and both directions away from central endplate; refractory local relation."
+    },
+    {
+      "id": "L34-T18",
+      "anchor": "ch15-s3",
+      "disposition": "T-tubule extracellular lumen, CaV1.1 coupling; K efflux/repolarization; tetanus source error corrected."
+    },
+    {
+      "id": "L34-T19",
+      "anchor": "ch15-s3",
+      "disposition": "SR lumen→muscle cytosol calcium via RyR1, troponinC, ATP-dependent SERCA; no imported cardiac trigger."
+    },
+    {
+      "id": "L34-T20",
+      "anchor": "termination",
+      "disposition": "Cleft AChE hydrolysis/recycled choline separated from SERCA."
+    },
+    {
+      "id": "L34-T21",
+      "anchor": "termination",
+      "disposition": "Curare/botulinum/AChE/TTX/conotoxin classes/hypocalcemia/hypermagnesemia retained; no universal toxin targets, doses or broad safe pH/temp claim."
+    },
+    {
+      "id": "L34-T22",
+      "anchor": "termination",
+      "disposition": "MG receptor dysfunction/organization and MuSK heterogeneity; primary botulinum flaccid weakness corrected."
+    },
+    {
+      "id": "L34-T23",
+      "anchor": "problem-1",
+      "disposition": "Both closing question perturbations preserved with proximal measurements and common downstream weakness."
+    },
+    {
+      "id": "L35-T01",
+      "anchor": "bone-disease",
+      "disposition": "Low bone quantity/architecture and fracture/DXA context; often silent; no inevitable old-age cell switch; management categories qualified."
+    },
+    {
+      "id": "L35-T02",
+      "anchor": "bone-disease",
+      "disposition": "Defective mineralization/growth plate distinction; cause-specificCa/P/vitD; winter pain and automatic sun treatment rejected."
+    },
+    {
+      "id": "L35-T03",
+      "anchor": "joint-disease",
+      "disposition": "Whole-joint OA, clinical/joint imaging versus DXA; management scoped, no blanket systemic steroid/reversal claim."
+    },
+    {
+      "id": "L35-T04",
+      "anchor": "joint-disease",
+      "disposition": "Autoimmune synovitis/systemic RA and test limits; disease modification versus analgesia; unsupported IL2list/universal fatality excluded."
+    },
+    {
+      "id": "L35-T05",
+      "anchor": "joint-disease",
+      "disposition": "Monosodium urate crystal gout, serum urate not sufficient; rejected dryness/lowfluid diagnosis/hydrogel causal treatment."
+    },
+    {
+      "id": "L35-T06",
+      "anchor": "joint-disease",
+      "disposition": "Bone infection including nonbacterial possibility; adult vertebral guideline scope/prolonged therapy/debridement; rapid generic recovery rejected."
+    },
+    {
+      "id": "L35-T07",
+      "anchor": "spine",
+      "disposition": "Disc material herniation, not adjacent disc merger; nonsurgical improvement/selected surgery."
+    },
+    {
+      "id": "L35-T08",
+      "anchor": "spine",
+      "disposition": "Lateral/rotational scoliosis, idiopathic/congenital/neuromuscular distinctions; no slouching universal cause/cure."
+    },
+    {
+      "id": "L35-T09",
+      "anchor": "spine",
+      "disposition": "Inflammatory axial disease/entheses/fusion and HLAB27 association, not deterministic gene/no-treatment claim."
+    },
+    {
+      "id": "L35-T10",
+      "anchor": "muscle-disease",
+      "disposition": "Xlinked dystrophin DMD with proximal limb onset/respiratory-cardiac implications; brain not contractile; no rarity reversal or unverified current therapy count/price/access/approval."
+    },
+    {
+      "id": "L35-T11",
+      "anchor": "muscle-disease",
+      "disposition": "Atrophy phenotype: disuse/denervation/cachexia/malnutrition/aging/systemic disease; no blanket untreatable disease."
+    },
+    {
+      "id": "L35-T12",
+      "anchor": "periarticular",
+      "disposition": "Tendon inflammation versus broader tendinopathy/rupture; mechanism not blanket steroid/antibiotic advice."
+    },
+    {
+      "id": "L35-T13",
+      "anchor": "periarticular",
+      "disposition": "Pre-existing extraarticular bursa versus joint effusion/hemarthrosis; aspiration not automatic."
+    },
+    {
+      "id": "L35-T14",
+      "anchor": "periarticular",
+      "disposition": "Named athlete anecdote omitted as unverified private clinical history; rationale stated, not used as causal evidence."
+    },
+    {
+      "id": "L35-T15",
+      "anchor": "cancer",
+      "disposition": "Osteosarcoma/chondrosarcoma/Ewing and primary/metastatic distinctions; biopsy/histology; copied bursitis causes explicitly rejected; no generic immunotherapy standard/cardiac-cancer speculation."
+    },
+    {
+      "id": "L35-T16",
+      "anchor": "problem-6",
+      "disposition": "Hypothetical football mechanism retained as underdetermined inverse problem; swelling not exact diagnosis/required aspiration."
+    }
+  ],
+  "body_sha256": "beface4d43c70bc6729ede6a952e1df3fdc7e60098b5831cfc7b01a60674ba89",
+  "body_digest_convention": "SHA256 of raw bytes strictly between exact body markers, preserving enclosed newlines",
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch15_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "Original actual independent full review by /root/ch15_review_a plus current targeted changed-content verification by separately identified /root/ch17_review_a; aggregate approval, no additional full review",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "beface4d43c70bc6729ede6a952e1df3fdc7e60098b5831cfc7b01a60674ba89",
+      "artifact_sha256": {
+        "assets/ch15-checks.js": "306c13fb9faccf144642c8caea7e1d05344e0adf7b6a3e931aa25c061cf044bc",
+        "assets/ch15-coupling-phase-0.svg": "fd59a7cc87512b5440ad1413407e9fffdf81420c23c25da1d1b1cd60b376a3c9",
+        "assets/ch15-coupling-phase-100.svg": "c8a2c00d4ab15672295fae72bd8a05ac4c53053923cf96f3ae4e61e22fbd1f2c",
+        "assets/ch15-coupling-phase-25.svg": "3b94d56dca5fbaa2e43b51210ca302d25c2eb6f740740b7e1c7a6078c84d7751",
+        "assets/ch15-coupling-phase-50.svg": "d695cd9f5425d69ed4e9f6b9b4ac0a978424e5faefee9c24f4256e66178746d8",
+        "assets/ch15-coupling-phase-75.svg": "eb96f5ae1fcfa1706710e90ce5847d8216849d2c8245674e34aaeb5471b79190",
+        "assets/ch15-microscopy-provenance.json": "ce8706fe9e32adebfb9143dcdbb19ee821384a392a881c40aefb4521c9d90303",
+        "assets/ch15-models.css": "6424465ee325496919430aa89335760dd74f28e99aedfb61b642f71d7bd1eb74",
+        "assets/ch15-models.js": "d099dada33526f410782f4c1ee662eb12667dcd23cb6534c49a86e4e7dd8fa13",
+        "assets/ch15-mouse-cardiac-cil39727.png": "422fbbaf987056cf949139ea6634800447dab47d80cc7327921fc5c9e4c44d8c",
+        "assets/ch15-mouse-cardiac-cil39727.tif": "97d8aaa9698644da4725b337534be45896b1306734d98a8daaa81136897da708",
+        "assets/ch15-nmj-phase-0.svg": "4834fb1ec28b17f7cebb0c350e525a2249b68df790f2674a61ffa3caeb46de3d",
+        "assets/ch15-nmj-phase-100.svg": "aa5e0c26b76d74e4ff8caf09a3d4bba36d22009cbc5aab0bea2d2a94ec9dbc24",
+        "assets/ch15-nmj-phase-25.svg": "aee29ecaa24ff8252ffcbd9cb7a1ebca7c29227a333de612e9a03bb48211fbea",
+        "assets/ch15-nmj-phase-50.svg": "6bc3e7bdb365e7222ca70f0d61c2190518f05900815a16b499d30c56593c206e",
+        "assets/ch15-nmj-phase-75.svg": "353faaa06dcb7d1c4edd530a1d9d7371554f992bb67ea244d1b118e1e985d0d5",
+        "assets/ch15-regional-compartments.svg": "deb7b31391e53f02a3176ac6b3cdcf92b45d5d5f4f9a50d6400d4a8a559726f5",
+        "assets/ch15-regional-provenance.json": "db727ee72fd5c02c2fe5515093de1e6585d9b4d52ca5512ac5955b7891e2e275",
+        "assets/ch15-sliding-phase-0.svg": "cf122a9e6a787be5dbe5e726e9b80ec2e25c29f0f61bf5a08597dea95b2ed75e",
+        "assets/ch15-sliding-phase-100.svg": "c361bc6016d7a024a1b797dcc1fc49071a4bbf07bc8e8217a0190321e541adee",
+        "assets/ch15-sliding-phase-25.svg": "a0c0c8eb9fffb095d99116633d7cea2b1fbe245874a3f5557db9e81a4e5dae7f",
+        "assets/ch15-sliding-phase-50.svg": "56135af5b83d40ca12bd91d670c884cde193c70bbfb5fed82b0173754c10e8a0",
+        "assets/ch15-sliding-phase-75.svg": "2aa26460f300c2e4c5af3e7487622580ed682b34d06a5cc7531059895f4c7582",
+        "code/ch15_checks.py": "5809dc3afab1408f3a515f0f0952a183db35309f9ad95517a87f56e6eea16474",
+        "code/ch15_validate.py": "c0e120e17de4f19fb80c1f11ef673aa4e7897e8775ecf489c478b2dd50925af9",
+        "assets/ch15-skeletal-cil256.tif": "7ba8a1b764fe7ee403ccccc4f9ec2fe85a11edeb2d57d309b23b6ef2f1c322ba",
+        "assets/ch15-skeletal-cil256.png": "b8501f97eba4f079c6c1d304b3870e6d9e092cdb8ef002bcf691cd4d688a21a4",
+        "assets/ch15-skeletal-provenance.json": "d6fc25336a7b76bd866d16e37296aaf1ae55aede08df6ba5a1c13d45bd72f4b1"
+      },
+      "report_path": "work/reviews/ch15-approved-a.md",
+      "report_sha256": "7e3529aaf8ee2049b41323b97eae1e668f2b0af1e0305b2882140439c5215726",
+      "original_full_report": "work/reviews/ch15-review-a.md",
+      "targeted_report": "work/reviews/ch15-targeted-a.md",
+      "targeted_reviewer_id": "/root/ch17_review_a",
+      "targeted_reviewer_model": "gpt-6.1-sol",
+      "targeted_checker_is_separate": true,
+      "original_full_review_body_sha256": "b25c8be13ab229365deb62d935e3708bcb0520d86f6c180e59e74a9f39f28406"
+    },
+    {
+      "reviewer_id": "/root/ch15_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "Original actual independent full review by /root/ch15_review_b plus current targeted changed-content verification by separately identified /root/ch17_review_b; aggregate approval, no additional full review",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "beface4d43c70bc6729ede6a952e1df3fdc7e60098b5831cfc7b01a60674ba89",
+      "artifact_sha256": {
+        "assets/ch15-checks.js": "306c13fb9faccf144642c8caea7e1d05344e0adf7b6a3e931aa25c061cf044bc",
+        "assets/ch15-coupling-phase-0.svg": "fd59a7cc87512b5440ad1413407e9fffdf81420c23c25da1d1b1cd60b376a3c9",
+        "assets/ch15-coupling-phase-100.svg": "c8a2c00d4ab15672295fae72bd8a05ac4c53053923cf96f3ae4e61e22fbd1f2c",
+        "assets/ch15-coupling-phase-25.svg": "3b94d56dca5fbaa2e43b51210ca302d25c2eb6f740740b7e1c7a6078c84d7751",
+        "assets/ch15-coupling-phase-50.svg": "d695cd9f5425d69ed4e9f6b9b4ac0a978424e5faefee9c24f4256e66178746d8",
+        "assets/ch15-coupling-phase-75.svg": "eb96f5ae1fcfa1706710e90ce5847d8216849d2c8245674e34aaeb5471b79190",
+        "assets/ch15-microscopy-provenance.json": "ce8706fe9e32adebfb9143dcdbb19ee821384a392a881c40aefb4521c9d90303",
+        "assets/ch15-models.css": "6424465ee325496919430aa89335760dd74f28e99aedfb61b642f71d7bd1eb74",
+        "assets/ch15-models.js": "d099dada33526f410782f4c1ee662eb12667dcd23cb6534c49a86e4e7dd8fa13",
+        "assets/ch15-mouse-cardiac-cil39727.png": "422fbbaf987056cf949139ea6634800447dab47d80cc7327921fc5c9e4c44d8c",
+        "assets/ch15-mouse-cardiac-cil39727.tif": "97d8aaa9698644da4725b337534be45896b1306734d98a8daaa81136897da708",
+        "assets/ch15-nmj-phase-0.svg": "4834fb1ec28b17f7cebb0c350e525a2249b68df790f2674a61ffa3caeb46de3d",
+        "assets/ch15-nmj-phase-100.svg": "aa5e0c26b76d74e4ff8caf09a3d4bba36d22009cbc5aab0bea2d2a94ec9dbc24",
+        "assets/ch15-nmj-phase-25.svg": "aee29ecaa24ff8252ffcbd9cb7a1ebca7c29227a333de612e9a03bb48211fbea",
+        "assets/ch15-nmj-phase-50.svg": "6bc3e7bdb365e7222ca70f0d61c2190518f05900815a16b499d30c56593c206e",
+        "assets/ch15-nmj-phase-75.svg": "353faaa06dcb7d1c4edd530a1d9d7371554f992bb67ea244d1b118e1e985d0d5",
+        "assets/ch15-regional-compartments.svg": "deb7b31391e53f02a3176ac6b3cdcf92b45d5d5f4f9a50d6400d4a8a559726f5",
+        "assets/ch15-regional-provenance.json": "db727ee72fd5c02c2fe5515093de1e6585d9b4d52ca5512ac5955b7891e2e275",
+        "assets/ch15-sliding-phase-0.svg": "cf122a9e6a787be5dbe5e726e9b80ec2e25c29f0f61bf5a08597dea95b2ed75e",
+        "assets/ch15-sliding-phase-100.svg": "c361bc6016d7a024a1b797dcc1fc49071a4bbf07bc8e8217a0190321e541adee",
+        "assets/ch15-sliding-phase-25.svg": "a0c0c8eb9fffb095d99116633d7cea2b1fbe245874a3f5557db9e81a4e5dae7f",
+        "assets/ch15-sliding-phase-50.svg": "56135af5b83d40ca12bd91d670c884cde193c70bbfb5fed82b0173754c10e8a0",
+        "assets/ch15-sliding-phase-75.svg": "2aa26460f300c2e4c5af3e7487622580ed682b34d06a5cc7531059895f4c7582",
+        "code/ch15_checks.py": "5809dc3afab1408f3a515f0f0952a183db35309f9ad95517a87f56e6eea16474",
+        "code/ch15_validate.py": "c0e120e17de4f19fb80c1f11ef673aa4e7897e8775ecf489c478b2dd50925af9",
+        "assets/ch15-skeletal-cil256.tif": "7ba8a1b764fe7ee403ccccc4f9ec2fe85a11edeb2d57d309b23b6ef2f1c322ba",
+        "assets/ch15-skeletal-cil256.png": "b8501f97eba4f079c6c1d304b3870e6d9e092cdb8ef002bcf691cd4d688a21a4",
+        "assets/ch15-skeletal-provenance.json": "d6fc25336a7b76bd866d16e37296aaf1ae55aede08df6ba5a1c13d45bd72f4b1"
+      },
+      "report_path": "work/reviews/ch15-approved-b.md",
+      "report_sha256": "4d331250d53d89664ea62e70382f25b2efb7c0243591ed37518563b6da55f9d0",
+      "original_full_report": "work/reviews/ch15-review-b.md",
+      "targeted_report": "work/reviews/ch15-targeted-b.md",
+      "targeted_reviewer_id": "/root/ch17_review_b",
+      "targeted_reviewer_model": "gpt-6-sol",
+      "targeted_checker_is_separate": true,
+      "original_full_review_body_sha256": "b25c8be13ab229365deb62d935e3708bcb0520d86f6c180e59e74a9f39f28406"
+    }
+  ],
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch15-checks.js",
+      "sha256": "306c13fb9faccf144642c8caea7e1d05344e0adf7b6a3e931aa25c061cf044bc"
+    },
+    {
+      "path": "assets/ch15-coupling-phase-0.svg",
+      "sha256": "fd59a7cc87512b5440ad1413407e9fffdf81420c23c25da1d1b1cd60b376a3c9"
+    },
+    {
+      "path": "assets/ch15-coupling-phase-100.svg",
+      "sha256": "c8a2c00d4ab15672295fae72bd8a05ac4c53053923cf96f3ae4e61e22fbd1f2c"
+    },
+    {
+      "path": "assets/ch15-coupling-phase-25.svg",
+      "sha256": "3b94d56dca5fbaa2e43b51210ca302d25c2eb6f740740b7e1c7a6078c84d7751"
+    },
+    {
+      "path": "assets/ch15-coupling-phase-50.svg",
+      "sha256": "d695cd9f5425d69ed4e9f6b9b4ac0a978424e5faefee9c24f4256e66178746d8"
+    },
+    {
+      "path": "assets/ch15-coupling-phase-75.svg",
+      "sha256": "eb96f5ae1fcfa1706710e90ce5847d8216849d2c8245674e34aaeb5471b79190"
+    },
+    {
+      "path": "assets/ch15-microscopy-provenance.json",
+      "sha256": "ce8706fe9e32adebfb9143dcdbb19ee821384a392a881c40aefb4521c9d90303"
+    },
+    {
+      "path": "assets/ch15-models.css",
+      "sha256": "6424465ee325496919430aa89335760dd74f28e99aedfb61b642f71d7bd1eb74"
+    },
+    {
+      "path": "assets/ch15-models.js",
+      "sha256": "d099dada33526f410782f4c1ee662eb12667dcd23cb6534c49a86e4e7dd8fa13"
+    },
+    {
+      "path": "assets/ch15-mouse-cardiac-cil39727.png",
+      "sha256": "422fbbaf987056cf949139ea6634800447dab47d80cc7327921fc5c9e4c44d8c"
+    },
+    {
+      "path": "assets/ch15-mouse-cardiac-cil39727.tif",
+      "sha256": "97d8aaa9698644da4725b337534be45896b1306734d98a8daaa81136897da708"
+    },
+    {
+      "path": "assets/ch15-nmj-phase-0.svg",
+      "sha256": "4834fb1ec28b17f7cebb0c350e525a2249b68df790f2674a61ffa3caeb46de3d"
+    },
+    {
+      "path": "assets/ch15-nmj-phase-100.svg",
+      "sha256": "aa5e0c26b76d74e4ff8caf09a3d4bba36d22009cbc5aab0bea2d2a94ec9dbc24"
+    },
+    {
+      "path": "assets/ch15-nmj-phase-25.svg",
+      "sha256": "aee29ecaa24ff8252ffcbd9cb7a1ebca7c29227a333de612e9a03bb48211fbea"
+    },
+    {
+      "path": "assets/ch15-nmj-phase-50.svg",
+      "sha256": "6bc3e7bdb365e7222ca70f0d61c2190518f05900815a16b499d30c56593c206e"
+    },
+    {
+      "path": "assets/ch15-nmj-phase-75.svg",
+      "sha256": "353faaa06dcb7d1c4edd530a1d9d7371554f992bb67ea244d1b118e1e985d0d5"
+    },
+    {
+      "path": "assets/ch15-regional-compartments.svg",
+      "sha256": "deb7b31391e53f02a3176ac6b3cdcf92b45d5d5f4f9a50d6400d4a8a559726f5"
+    },
+    {
+      "path": "assets/ch15-regional-provenance.json",
+      "sha256": "db727ee72fd5c02c2fe5515093de1e6585d9b4d52ca5512ac5955b7891e2e275"
+    },
+    {
+      "path": "assets/ch15-sliding-phase-0.svg",
+      "sha256": "cf122a9e6a787be5dbe5e726e9b80ec2e25c29f0f61bf5a08597dea95b2ed75e"
+    },
+    {
+      "path": "assets/ch15-sliding-phase-100.svg",
+      "sha256": "c361bc6016d7a024a1b797dcc1fc49071a4bbf07bc8e8217a0190321e541adee"
+    },
+    {
+      "path": "assets/ch15-sliding-phase-25.svg",
+      "sha256": "a0c0c8eb9fffb095d99116633d7cea2b1fbe245874a3f5557db9e81a4e5dae7f"
+    },
+    {
+      "path": "assets/ch15-sliding-phase-50.svg",
+      "sha256": "56135af5b83d40ca12bd91d670c884cde193c70bbfb5fed82b0173754c10e8a0"
+    },
+    {
+      "path": "assets/ch15-sliding-phase-75.svg",
+      "sha256": "2aa26460f300c2e4c5af3e7487622580ed682b34d06a5cc7531059895f4c7582"
+    },
+    {
+      "path": "code/ch15_checks.py",
+      "sha256": "5809dc3afab1408f3a515f0f0952a183db35309f9ad95517a87f56e6eea16474"
+    },
+    {
+      "path": "code/ch15_validate.py",
+      "sha256": "c0e120e17de4f19fb80c1f11ef673aa4e7897e8775ecf489c478b2dd50925af9"
+    },
+    {
+      "path": "assets/ch15-skeletal-cil256.tif",
+      "sha256": "7ba8a1b764fe7ee403ccccc4f9ec2fe85a11edeb2d57d309b23b6ef2f1c322ba"
+    },
+    {
+      "path": "assets/ch15-skeletal-cil256.png",
+      "sha256": "b8501f97eba4f079c6c1d304b3870e6d9e092cdb8ef002bcf691cd4d688a21a4"
+    },
+    {
+      "path": "assets/ch15-skeletal-provenance.json",
+      "sha256": "d6fc25336a7b76bd866d16e37296aaf1ae55aede08df6ba5a1c13d45bd72f4b1"
+    }
+  ],
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "code": [
+    "code/ch15_checks.py",
+    "code/ch15_validate.py"
+  ],
+  "code_validation": "Bounded union-repair checks: unchanged ordinary numerical stdout; finite positive geometry max(b,2a)<=L<=b+2a,default/nondefault endpoints/nonfinite rejection; rendered pore/membrane path clearance; SR flux presence/direction by phase; AP shafts/fronts on sarcolemma; existing deterministic/force/snapshot checks pass. Actual UI/visual verdict remains separate.",
+  "figures": [
+    {
+      "id": "ch15-anim1",
+      "path": "chapter-15-muscle-neuromuscular-transmission.html#ch15-anim1",
+      "anchor": "ch15-anim1",
+      "status": "accepted",
+      "role": "NMJ compartment/causal sequence; phase geometry and text share state, two fronts",
+      "script": "assets/ch15-models.js"
+    },
+    {
+      "id": "ch15-anim2",
+      "path": "chapter-15-muscle-neuromuscular-transmission.html#ch15-anim2",
+      "anchor": "ch15-anim2",
+      "status": "accepted",
+      "role": "SR release, regulation and coarse motor-state sequence; not molecular trajectory",
+      "script": "assets/ch15-models.js"
+    },
+    {
+      "id": "ch15-anim3",
+      "path": "chapter-15-muscle-neuromuscular-transmission.html#ch15-anim3",
+      "anchor": "ch15-anim3",
+      "status": "accepted",
+      "role": "Fixed-length sliding with synchronized prescribed L and selected active-force capacities; integer0–10equal-unit recruitment selector; primary frog force-length and cat recruitment evidence distinguished from synthetic parameters.",
+      "script": "assets/ch15-models.js"
+    },
+    {
+      "id": "ch15-fig1",
+      "path": "chapter-15-muscle-neuromuscular-transmission.html#ch15-fig1",
+      "anchor": "ch15-microscopy",
+      "status": "accepted",
+      "role": "Distinct recorded cardiac and skeletal preparations with original scale bars, paired with controlled filament organization; not atomic/NMJ/motion evidence."
+    },
+    {
+      "id": "ch15-fig2",
+      "anchor": "ch15-s1",
+      "status": "accepted",
+      "role": "Original source-checked regional compartment comparison, paired with muscle-type table, locates bone/mineral,cartilage/synovium,tendon/bursa and muscle disease mechanisms; not diagnostic pathology photographs.",
+      "path": "assets/ch15-regional-compartments.svg",
+      "provenance": "assets/ch15-regional-provenance.json"
+    }
+  ],
+  "realistic_asset_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Striated muscle ultrastructure, neuromuscular junction and skeletal coupling",
+    "rationale": "Recorded mouse ventricular TEM and directly relevant mouse diaphragm skeletal TEM provide prepared ultrastructural appearance; original source-checked separate-scale NMJ,calcium,motor and filament mechanisms explain sequence. Regional compartments are labeled original topology. Neither reference demonstrates an NMJ or live molecular trajectory.",
+    "appearance_references": [
+      "assets/ch15-mouse-cardiac-cil39727.png",
+      "assets/ch15-skeletal-cil256.png"
+    ],
+    "mechanism_files": [
+      "assets/ch15-models.js"
+    ],
+    "report_path": "work/browser/ch15-visual-modality.json",
+    "report_sha256": "eef0eed94f37413d61d58d850099b9b5485322806483fa2851d1aad497ff465e"
+  },
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
+    "browser": "Actual root current-body desktop,650px,390px reader and mechanism controls; live motion, reduced-motion pause, print generation and subsequent PDF/pixel inspection",
+    "coverage": "All58 L33–35 topics and complete late disease/toxin/exercise content assessed by two actual original full reviews; bounded still audit remains attributed, not continuous viewing. Union repairs and added source-verified skeletal reference independently checked by separately identified fresh scoped checkers; actual reader production pending."
+  },
+  "limitations": [
+    "Passive patch only before regenerative AP onset; selected parameters not measured physiological latency.",
+    "Energy example uses explicitly selected accounting efficiency and ATP free energy; no isometric energy inference.",
+    "CIL39727 is fixed/stained mouse cardiac tissue, not skeletal NMJ or atomic actomyosin anatomy.",
+    "Current regulatory approvals,prices,regional availability and detailed clinical algorithms excluded with rationale.",
+    "Force capacity on selected long-length limb adds a synthetic overlap-proportional law and equal-unit recruitment; not measured total dynamic tension.",
+    "Regional figure is a topology reconstruction with illustrative colors and no diagnostic tissue appearance."
+  ],
+  "author_report": "work/ch15-author-report.md",
+  "lab": {
+    "status": "validated",
+    "anchor": "force-length-lab",
+    "code": "code/ch15_checks.py",
+    "question": "Separate filament overlap,active force per unit and motor-unit recruitment",
+    "parameters": "Selected ten equal units,F*=100N,L*=2.2µm,shared imposed L2.2–3.6µm; q=n/10,phi=min(1,O/.7),F=qF*phi",
+    "evidence": "Gordon/Huxley/Julian1966frog isometric length-tension abstract; Henneman/Somjen/Carpenter1965cat methods/results; no fitted human parameters",
+    "omissions": "Passive force,velocity/history,calcium kinetics,ratecoding,fatigue,heterogeneous units,tendon compliance,pennation",
+    "clock": "Dimensionless quasi-static length sequence;10presentation seconds,not biologicaltime"
+  },
+  "repair": {
+    "scope": "One bounded union repair of completed independent full reviews A and B; no third full review or acceptance claim",
+    "findings": [
+      "A1open-fusion-pore",
+      "A2finite-band-domain",
+      "A3motor-unit-first-use",
+      "Btriggered-SR-flux-state",
+      "Bsarcolemmal-AP/labels",
+      "Bbounded-micrograph-pointer"
+    ],
+    "status": "implemented;author numerical/static/semantic checks passed;independent targeted changed-content verification pending",
+    "report": "work/ch15-repair-report.md",
+    "ordinary_output_parity": "Python ordinary output exactly equals pre-repair stdout,including all printed numerical examples",
+    "production": "Root owns actual UI/motion/appearance/print checks; cardiacTEM remains mousecardiac only"
+  },
+  "root_skeletal_reference": {
+    "previous_repaired_body": "06169a68842d5b56330012ba0248635742c9c3b049eb31bf8f0d0e1f22d4b21a",
+    "source": "CIL:256",
+    "purpose": "Direct skeletal appearance reference addresses reviewB production concern without relabeling cardiac tissue or adding a fabricated realistic render."
+  },
+  "coverage_basis": "All58 L33–35 topics and complete late disease/toxin/exercise content assessed by two actual original full reviews; bounded still audit remains attributed, not continuous viewing. Union repairs and added source-verified skeletal reference independently checked by separately identified fresh scoped checkers; actual reader production pending.",
+  "production_validation": {
+    "report_path": "work/browser/ch15-production-final.json",
+    "report_sha256": "4f43b65210ca48314c924f538a6dbc80c905d40ba5cc0936aa10b15a85561d0d",
+    "scope": "Actual root current-body desktop,650px,390px reader and mechanism controls; live motion, reduced-motion pause, print generation and subsequent PDF/pixel inspection"
+  },
+  "accepted_at_utc": "2026-11-05T01:34:56.854Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-15.json",
+    "sha256": "ad4df3144403871c9cdf5a63098df0590d2eec867d97de1ad88559565a6a60f5"
+  }
+}

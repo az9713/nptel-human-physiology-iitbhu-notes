@@ -1,0 +1,149 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 13,
+  "manuscript": "chapter-13-protein-lipid-digestion.html",
+  "body_sha256": "8af425c947f798fca4e8e9f7301a06f05bff3526f22c67af2f378c2c370e413c",
+  "artifact_sha256": {
+    "code/ch13_compartments.py": "45767631e777fe06dc3aaecf4f4fc72ce99d90ac4fe01896e2f67044cecd54de",
+    "assets/ch13-models.js": "94c7b4e2bdd3929106c39e752d986d902ee8a78112b622d372a4451148f53be1",
+    "assets/ch13-checks.js": "1aa79268bc02552ce2a4f7f428bdc69df34c5a8684fa74a6f439213d5c333e9e",
+    "assets/ch13-mechanisms.css": "f1ea2d971dca62097a4b3d80c0335ed829a986bf2ca4ff81ee90d97d280b99fe",
+    "assets/ch13-protein.html": "eed587c3ccb0db9043c5d37a5132644d093e6f1ce2e720d8d108675bd06655bb",
+    "assets/ch13-lipid.html": "e1502514b36bd770a1dd4524180be5fa7c5520a078c3f53caa81e058dc696506",
+    "assets/ch13-failure.html": "2400ab1938dd307ac604fa5098143add8be154b189259048c338c8d03dd5946f",
+    "assets/ch13-context.svg": "6ce4a8d4cae49dbe2dc6abe1ab67e08954f8409ef2de6c47741d530772122d12",
+    "assets/ch12-villi-reference.jpg": "4cf0be725da031e221ff8f43fe75c64fcc5a98eb18a96eb717bfc9d0b479dc8a",
+    "assets/ch12-villi-reference.json": "160931d2bd17491aef5452d0f3acfa1413c83710d066ad6d63175166a7da1c4d"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "All56 L28–30 topics dispositioned using full captions and attributed bounded still audit; two actual independent full reviews plus localized repair/notation checks. Added context separately checked by two explicitly identified targeted reviewers, with actual root production inspection.",
+  "source_recordings": [
+    28,
+    29,
+    30
+  ],
+  "source_evidence": [
+    {
+      "number": 28,
+      "video_id": "X3Yyu-k8X3g",
+      "url": "https://www.youtube.com/watch?v=X3Yyu-k8X3g",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "7d0c78111a31d117857cc3a691c1f46a0ae88ca1a2dd5a2fed224100aad69732",
+      "caption_cues": 158,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 50,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 50,
+        "native_still_views": 5,
+        "report_sha256": "ca66298b333a6e8d05be40ae2db9abb54042ef116f436dfb99aed583da2fd375"
+      },
+      "visual_review_scope": "All contact sheets and named native stills inspected; complete captions read. Existing verification dossier attributed; additional mechanism and clinical assertions require independent checking. No continuous audio/video claim."
+    },
+    {
+      "number": 29,
+      "video_id": "Ae5PcC_bFfA",
+      "url": "https://www.youtube.com/watch?v=Ae5PcC_bFfA",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "15c59fc85a3030151c622416ae730ac5a4a1a59709fcb3b20343a80c0d1ffa11",
+      "caption_cues": 167,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 55,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 55,
+        "native_still_views": 6,
+        "report_sha256": "ca66298b333a6e8d05be40ae2db9abb54042ef116f436dfb99aed583da2fd375"
+      },
+      "visual_review_scope": "All contact sheets and named native stills inspected; complete captions read. Existing verification dossier attributed; additional mechanism and clinical assertions require independent checking. No continuous audio/video claim."
+    },
+    {
+      "number": 30,
+      "video_id": "b58hKqJ-V8s",
+      "url": "https://www.youtube.com/watch?v=b58hKqJ-V8s",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "24b4b7d2ac6838194e5ce3d5fd46850cd56feac9ea4cb46eb5f6b46707fd4306",
+      "caption_cues": 171,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 58,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 58,
+        "native_still_views": 8,
+        "report_sha256": "ca66298b333a6e8d05be40ae2db9abb54042ef116f436dfb99aed583da2fd375"
+      },
+      "visual_review_scope": "All contact sheets and named native stills inspected; complete captions read. Existing verification dossier attributed; additional mechanism and clinical assertions require independent checking. No continuous audio/video claim."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch13_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "81d94c1f2be4d1da399b6754f8c560d0299b44013c9e6647a496f3642e6c3076",
+      "review_basis": "One actual original full review plus original repair checks and separately attributed scoped context supplement; original full reviewer did not inspect added context",
+      "separately_attributed_checks": {
+        "supplemental_context_checker": {
+          "reviewer_id": "/root/ch13_context_a",
+          "reviewer_model": "gpt-6.1-sol",
+          "reasoning_effort": "medium",
+          "scope": "Added context figure, provenance, numbering and exact change boundary only",
+          "report_sha256": "d5b4d2a7a066f1a11fb0cfa9f753b66a43e27c89020e814142ef641f5d565d42"
+        }
+      }
+    },
+    {
+      "reviewer_id": "/root/ch13_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "e114a1ca95c0c82208d7babd595dc7c75c88c2c9820a5b9eafe06d55a5eaa570",
+      "review_basis": "One actual original full review plus original repair checks and separately attributed scoped context supplement; original full reviewer did not inspect added context",
+      "separately_attributed_checks": {
+        "supplemental_context_checker": {
+          "reviewer_id": "/root/ch13_context_b",
+          "reviewer_model": "gpt-6-sol",
+          "reasoning_effort": "medium",
+          "scope": "Added context figure, provenance, numbering and exact change boundary only",
+          "report_sha256": "c2f890761c73a9bbcba0dcb6c8ad88be81597dd6c89dd143bdbaf55e945b252f"
+        }
+      }
+    }
+  ],
+  "production": {
+    "scope": "Actual Chrome reader390/650/1440,68 math containers/0errors, required images/native dimensions, all3 mechanisms/control/phase/phone checks, active reduced-motion pause and24-page print proof with6 worked solutions and no outside-text blocks; separately attributed context supplements.",
+    "report_sha256": "d79685005713a0691216043781bd592925956ccf1daafbf0dcdefe2aeedfea6a"
+  },
+  "visual_modality": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Pancreatic-biliary connections and small-intestinal mucosal transport",
+    "rationale": "Observed human mucosal cryosection supplies prepared villus/crypt appearance. Original source-checked duct connectivity and controlled protein/lipid/compartment mechanisms explain distinct scales and causal sequences. Preparation colors, unknown physical calibration and unresolved molecular/lacteal identities are explicit. No measured organ shape, continuous zoom or photographed transport trajectory is claimed.",
+    "appearance_references": [
+      "assets/ch12-villi-reference.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch13-protein.html",
+      "assets/ch13-lipid.html",
+      "assets/ch13-failure.html"
+    ],
+    "report_sha256": "3511b3a2ff1bb3fa42b5f2f3a7ceccfdd14e06c66846faa10b2da5afa92eb76e"
+  },
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-label="A neuron is not a whole peripheral nerve">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#dce7f4"/></marker></defs>
+<rect width="1100" height="620" fill="#112033"/>
+<text x="32" y="48" fill="#f2f6fc" font-family="system-ui" font-size="27" font-weight="700">A neuron is not a whole peripheral nerve</text>
+<rect x="30" y="135" width="175" height="105" rx="11" fill="#244563" stroke="#9dbbd1"/>
+<text x="117.5" y="193.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">Dendrites</text>
+<rect x="275" y="135" width="180" height="105" rx="11" fill="#244563" stroke="#9dbbd1"/>
+<text x="365.0" y="181.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">Soma nucleus</text>
+<text x="365.0" y="205.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">RER Golgi</text>
+<rect x="520" y="135" width="165" height="105" rx="11" fill="#244563" stroke="#9dbbd1"/>
+<text x="602.5" y="181.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">Axon initial</text>
+<text x="602.5" y="205.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">segment</text>
+<rect x="755" y="135" width="165" height="105" rx="11" fill="#244563" stroke="#9dbbd1"/>
+<text x="837.5" y="193.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">Axon terminal</text>
+<path d="M205 187L275 187" fill="none" stroke="#dce7f4" stroke-width="3" marker-end="url(#arr)"/>
+<path d="M455 187L520 187" fill="none" stroke="#dce7f4" stroke-width="3" marker-end="url(#arr)"/>
+<path d="M685 187L755 187" fill="none" stroke="#dce7f4" stroke-width="3" marker-end="url(#arr)"/>
+<text x="40" y="278" fill="#b9d3e6" text-anchor="start" font-family="system-ui" font-size="17">Synaptic input → initial-segment trigger → propagating axonal event</text>
+<text x="40" y="325" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="22">Separate scale: cross-section of a peripheral nerve</text>
+<circle cx="275" cy="440" r="110" fill="#344b67" stroke="#e2b877" stroke-width="8"/>
+<circle cx="260" cy="440" r="65" fill="#263c57" stroke="#8fd1c8" stroke-width="7"/>
+<circle cx="230" cy="415" r="14" fill="#f2c56b" stroke="#eaf4ff" stroke-width="3"/>
+<circle cx="275" cy="410" r="14" fill="#f2c56b" stroke="#eaf4ff" stroke-width="3"/>
+<circle cx="230" cy="455" r="14" fill="#f2c56b" stroke="#eaf4ff" stroke-width="3"/>
+<circle cx="285" cy="460" r="14" fill="#f2c56b" stroke="#eaf4ff" stroke-width="3"/>
+<text x="480" y="390" fill="#e2b877" text-anchor="start" font-family="system-ui" font-size="19">Epineurium: around nerve</text>
+<text x="480" y="430" fill="#8fd1c8" text-anchor="start" font-family="system-ui" font-size="19">Perineurium: around fascicle</text>
+<text x="480" y="470" fill="#f2c56b" text-anchor="start" font-family="system-ui" font-size="19">Endoneurium: individual axon environment</text>
+<text x="40" y="585" fill="#b9d3e6" text-anchor="start" font-family="system-ui" font-size="16">Cross-section contains axons, Schwann cells, vessels and connective tissue; neuron somata are elsewhere.</text>
+</svg>

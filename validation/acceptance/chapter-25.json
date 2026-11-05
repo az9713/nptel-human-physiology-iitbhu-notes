@@ -1,0 +1,137 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 25,
+  "manuscript": "chapter-25-glia-barriers-sensation.html",
+  "body_sha256": "a50a6e89374e7b794c4676ae6b29a9f84e470e3c77b1de2d7f29b58ae7d6b106",
+  "artifact_sha256": {
+    "assets/ch25-barrier.svg": "d8770c42ca150239372f1634e51c901e94bd146e3f922f452014882c3c68dd63",
+    "assets/ch25-conduction.svg": "9ad88eeded290229eb981815c7f31cad7f36234c4b8c9f2a304509e2b1ed22f6",
+    "assets/ch25-data.json": "fd504860332b04d97e44af7e1991a49b05a862010ad03a2b6eec776c4081538b",
+    "assets/ch25-eye-ear.svg": "4bbb441f218e28045aac239b716dc45556da7eb9dc048e9a0996229a91441b67",
+    "assets/ch25-field.svg": "16ffa4c6d7cad4753cc42ef8d94ba534daefcab8e1bbdbcd370efed2ed1854b0",
+    "assets/ch25-mechanisms.css": "acae87efe347a503c58d4d1d4660872c647c8b998c00889e92c5437b5ba78303",
+    "assets/ch25-mechanisms.html": "9c5a3604793b4dc0b6eecb132dba396b3c09bd9ed58217381845a1c483b2ff05",
+    "assets/ch25-mechanisms.js": "2323b35bb0ad8d4b06933ef55d562abce0a6cd13d7d081257a13a784fc399307",
+    "assets/ch25-microscopy-LICENSE.txt": "63a967baf2f39481a2a2b6695cce4fb73349844c8a266c4df2208a7c74104287",
+    "assets/ch25-microscopy-provenance.json": "3d62d6ea951ee628551384160b7bf39208282da9b0ac274522b27436fa6b826c",
+    "assets/ch25-mouse-retinal-astrocytes.jpg": "a849cdffcc0291f2b26a0a8ae283aefa8b2c3c7b3c37e18e8647050aaa20a67d",
+    "assets/ch25-photo.svg": "3fa9066a3f221af1b7f185c3607db9d5a990104f5b764ca5e2e0958d6bb23e63",
+    "assets/ch25-recycling.svg": "63cd5f1fda373eea2db5230061a4f9bb070c95718d683e87308f207f31411ef7",
+    "assets/ch25-render.js": "d366b8b2440271c1c5a72cb4785717d021066eda82ee16cd3eae43bf8be3a7e4",
+    "code/ch25_checks.cjs": "fac119f7432219f496179de41eb6e6a5a52236f6f3c9bb95bac0676d6c54a260",
+    "code/ch25_models.py": "84da95434b4771dbafa562c76ebbbba17fac6638a75d5e18c1f19fba550db430",
+    "code/ch25_visuals.cjs": "e62af01bc009a20e9bd163ffea5dec9163845eaeb942171b9b7b41490dd23bb4"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "All52 L58–60 topics/closings from full captions and attributed bounded10sheets176samples26native repeats; two actual independent full reviews, targeted scientific union and bounded production access repairs.",
+  "source_recordings": [
+    58,
+    59,
+    60
+  ],
+  "source_evidence": [
+    {
+      "number": 58,
+      "video_id": "jD_4-JcWwyw",
+      "url": "https://www.youtube.com/watch?v=jD_4-JcWwyw",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "696fb697da7fca695a23b3b469ae7e93c35acef28f4ef98dc94e2369384addc9",
+      "caption_cues": 240,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 74,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 4,
+        "sampled_stills": 74,
+        "native_still_views": 11,
+        "report_sha256": "3a57ce977ce7df7fc8ca27c7c6da4296251e89269d3f5f2fbc511c8cc51ee045"
+      },
+      "visual_review_scope": "All52 assigned topics/full publisher captions/closing activities;10contact sheets176sampled stills plus26native still views. Partial visual coverage,not continuous video/audio; source-caption/slide conflicts and actual clinical source access limits recorded."
+    },
+    {
+      "number": 59,
+      "video_id": "bOQhpzc5k_8",
+      "url": "https://www.youtube.com/watch?v=bOQhpzc5k_8",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "7877e4d4d41803201a71e8c0df4ea7ce711d7bf4f0b10523e66c535449cba11d",
+      "caption_cues": 164,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 49,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 49,
+        "native_still_views": 7,
+        "report_sha256": "3a57ce977ce7df7fc8ca27c7c6da4296251e89269d3f5f2fbc511c8cc51ee045"
+      },
+      "visual_review_scope": "All52 assigned topics/full publisher captions/closing activities;10contact sheets176sampled stills plus26native still views. Partial visual coverage,not continuous video/audio; source-caption/slide conflicts and actual clinical source access limits recorded."
+    },
+    {
+      "number": 60,
+      "video_id": "Z1OMjMRoOys",
+      "url": "https://www.youtube.com/watch?v=Z1OMjMRoOys",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "1cf162169ac85e2df7232429de42f7da9c45959b0d747f2d1a68c9b2d359efeb",
+      "caption_cues": 186,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 53,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 53,
+        "native_still_views": 8,
+        "report_sha256": "3a57ce977ce7df7fc8ca27c7c6da4296251e89269d3f5f2fbc511c8cc51ee045"
+      },
+      "visual_review_scope": "All52 assigned topics/full publisher captions/closing activities;10contact sheets176sampled stills plus26native still views. Partial visual coverage,not continuous video/audio; source-caption/slide conflicts and actual clinical source access limits recorded."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch17_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "eb005d7c050444e41b2f3cffcc88c90d73f4323135ef256881f21a3f2ee39436",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    },
+    {
+      "reviewer_id": "/root/ch17_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "6816b37e1d8ea2aff763f612649366b4a37acf3fbe6ef38360384a0c43f4d2a9",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    }
+  ],
+  "production": {
+    "scope": "Actual agent browser control/responsive/motion/access checks plus independent root source-pixel and complete print-contact assessment; two original independent scientific reviews and bounded repairs separately recorded",
+    "report_sha256": "7aee38909365652cc502322cdde089d9c8b11e4c0c0541762403fc9cda81f2d9"
+  },
+  "visual_modality": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Glial interfaces, retinal networks and sensory mechanisms",
+    "rationale": "Verified prepared mouse confocal context supplies recorded glial/vessel appearance; hidden barriers and eye/ear relationships use source-checked explicitly nonmetric sections. Temporal mechanisms use controlled animations and declared artificial models.",
+    "appearance_references": [
+      "assets/ch25-mouse-retinal-astrocytes.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch25-mechanisms.html",
+      "assets/ch25-mechanisms.js"
+    ],
+    "report_sha256": "bf622488cbaa50ec5fc4c476f6e94f2f117d307ffdc9085989b54de6b6657add"
+  },
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

@@ -1,0 +1,54 @@
+{
+  "scope": "Synthetic linked-cycle cohort, one transfer pathway and complete followup; no clinical rate",
+  "counts": [
+    100,
+    90,
+    72,
+    54,
+    36,
+    27
+  ],
+  "states": [
+    {
+      "n": 100,
+      "perStart": 1.0,
+      "conditional": 1,
+      "notProgressed": 0
+    },
+    {
+      "n": 90,
+      "perStart": 0.9,
+      "conditional": 0.9,
+      "notProgressed": 10
+    },
+    {
+      "n": 72,
+      "perStart": 0.72,
+      "conditional": 0.8,
+      "notProgressed": 18
+    },
+    {
+      "n": 54,
+      "perStart": 0.54,
+      "conditional": 0.75,
+      "notProgressed": 18
+    },
+    {
+      "n": 36,
+      "perStart": 0.36,
+      "conditional": 0.6666666666666666,
+      "notProgressed": 18
+    },
+    {
+      "n": 27,
+      "perStart": 0.27,
+      "conditional": 0.75,
+      "notProgressed": 9
+    }
+  ],
+  "screen": {
+    "tp": 0.009000000000000001,
+    "fp": 0.049500000000000044,
+    "ppv": 0.15384615384615374
+  }
+}

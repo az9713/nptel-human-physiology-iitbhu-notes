@@ -1,0 +1,960 @@
+{
+  "chapter": 19,
+  "title": "Female anatomy, ovarian cycles and lactation",
+  "status": "accepted",
+  "coverage_complete": true,
+  "source_recordings": [
+    43,
+    44,
+    45
+  ],
+  "source_evidence": "Complete L43–45 captions and all44 assigned spans read, including closing material. Bounded inherited audit:11contact sheets179samples and21native repeats; no continuous audio/video or author repeat source-frame viewing claimed. Independently acquired and inspected two Wellcome mouse microscopy references.",
+  "source_files": [
+    {
+      "path": "sources/transcripts/43-rkOITddqR9A.txt",
+      "sha256": "7df8a555e23d490450ac8c19046957d38c1e02df1d7190c666c0b6ddac5e6a0e"
+    },
+    {
+      "path": "sources/transcripts/44-FVHWSb2GP4M.txt",
+      "sha256": "27569eea69bc823e6a3b897c2ea827a0ff3bf7113d310ade600423c8607e8874"
+    },
+    {
+      "path": "sources/transcripts/45-ahYqeUF1AJw.txt",
+      "sha256": "42e1afd0e45f95ddc2cc5549ad8896b4d8b19470e408fe268a43c90959336bf4"
+    }
+  ],
+  "coverage_topics": [
+    {
+      "id": "L43-T01",
+      "source_topic_anchor": "02:48",
+      "disposition": "Retain organ map; distinguish ovary, tubes, uterus/cervix, vagina, vulva, and mammary tissue.",
+      "anchor": "pelvic-route",
+      "caption_anchors": [
+        {
+          "anchor": "02:48",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s1"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L43-T02",
+      "source_topic_anchor": "03:37",
+      "disposition": "Retain ovary's gamete and endocrine roles; avoid equating follicle and oocyte.",
+      "anchor": "pelvic-route",
+      "caption_anchors": [
+        {
+          "anchor": "03:37",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s1"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L43-T03",
+      "source_topic_anchor": "04:25",
+      "disposition": "Retain fimbriae/infundibulum anatomy; replace “electrical pulses”/suction-pump claim at 04:49 with ciliary, fluid and smooth-muscle contributions. Native f0009 labels the structures, not transport kinetics.",
+      "anchor": "pelvic-route",
+      "caption_anchors": [
+        {
+          "anchor": "04:25",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s1"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L43-T04",
+      "source_topic_anchor": "06:22",
+      "disposition": "Retain uterine implantation site; distinguish endometrial preparation before conception from placental exchange after implantation.",
+      "anchor": "pelvic-route",
+      "caption_anchors": [
+        {
+          "anchor": "06:22",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s1"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L43-T05",
+      "source_topic_anchor": "07:03",
+      "disposition": "Retain cervical canal; “cervix contracts causing dilation” at 07:15 is a poor mechanism for labor.",
+      "anchor": "uterine-wall",
+      "caption_anchors": [
+        {
+          "anchor": "07:03",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s1"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L43-T06",
+      "source_topic_anchor": "07:43",
+      "disposition": "Retain vagina as distinct canal; avoid reducing it to intercourse alone.",
+      "anchor": "uterine-wall",
+      "caption_anchors": [
+        {
+          "anchor": "07:43",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s1"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L43-T07",
+      "source_topic_anchor": "11:30",
+      "disposition": "Retain ovarian cortex/medulla and follicles. Native f0024 shows a stylized labelled stage map, not microscopy evidence for stage duration.",
+      "anchor": "ovarian-context",
+      "caption_anchors": [
+        {
+          "anchor": "11:30",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s1"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L43-T08",
+      "source_topic_anchor": "15:59",
+      "disposition": "Retain tubal capture/transport and ampullary fertilization as typical sites; tube is not directly continuous with ovarian tissue. Do not draw a sealed ovary-to-tube pipe.",
+      "anchor": "pelvic-route",
+      "caption_anchors": [
+        {
+          "anchor": "15:59",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s1"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L43-T09",
+      "source_topic_anchor": "18:10",
+      "disposition": "Retain endometrium, myometrium, perimetrium in lumen-to-exterior order; caption around 20:08 risks reversing nesting.",
+      "anchor": "uterine-wall",
+      "caption_anchors": [
+        {
+          "anchor": "18:10",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s1"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L43-T10",
+      "source_topic_anchor": "21:57",
+      "disposition": "Retain cervix's support/mucus roles, and hormonally changing mucus; avoid an invariant closed/open gate.",
+      "anchor": "uterine-wall",
+      "caption_anchors": [
+        {
+          "anchor": "21:57",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s1"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L43-T11",
+      "source_topic_anchor": "23:22",
+      "disposition": "Retain vaginal microbial ecology with age/estrogen/community variability; do not universalize one microbe, pH, or glycogen route.",
+      "anchor": "vaginal-ecology",
+      "caption_anchors": [
+        {
+          "anchor": "23:22",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s1"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L43-T12",
+      "source_topic_anchor": "24:32",
+      "disposition": "Retain vulva as external anatomy and distinguish urethral from vaginal opening.",
+      "anchor": "uterine-wall",
+      "caption_anchors": [
+        {
+          "anchor": "24:32",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s1"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L43-T13",
+      "source_topic_anchor": "25:13",
+      "disposition": "Retain alveoli, myoepithelium and ductal transport. Native f0052 explicitly depicts 15–25 lobes and lactiferous sinuses as storage; the latter is an obsolete/unreliable universal anatomical claim.",
+      "anchor": "mammary-compartments",
+      "caption_anchors": [
+        {
+          "anchor": "25:13",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s4"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L43-T14",
+      "source_topic_anchor": "26:43",
+      "disposition": "Retain suckling afferents and two efferent endocrine pathways: anterior-pituitary prolactin supports synthesis; posterior-pituitary oxytocin drives myoepithelial ejection. Native f0061 draws an unqualified hypothalamic “PRF” pathway; replace with dominant dopamine inhibition/disinhibition. Do not draw oxytocin moving down sensory afferents.",
+      "anchor": "lactation-pathways",
+      "caption_anchors": [
+        {
+          "anchor": "26:43",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s4"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L43-T15",
+      "source_topic_anchor": "34:08",
+      "disposition": "Retain late activity. Native f0069: if both tubes are completely blocked, sperm–oocyte encounter/ordinary tubal conception is prevented; one-sided obstruction, other routes, and fertility treatment are separate cases. Its ledger assignment to s4 is a course-map placement, not a lactation topic.",
+      "anchor": "blocked-tubes",
+      "caption_anchors": [
+        {
+          "anchor": "34:08",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s4"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L44-T01",
+      "source_topic_anchor": "01:27",
+      "disposition": "Retain oogenesis as germ-cell/oocyte development, distinct from folliculogenesis of somatic support.",
+      "anchor": "prenatal-reserve",
+      "caption_anchors": [
+        {
+          "anchor": "01:27",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L44-T02",
+      "source_topic_anchor": "02:20",
+      "disposition": "Retain prenatal origin of the primary-oocyte pool; distinguish gestational from postfertilization week convention.",
+      "anchor": "prenatal-reserve",
+      "caption_anchors": [
+        {
+          "anchor": "02:20",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L44-T03",
+      "source_topic_anchor": "03:37",
+      "disposition": "Retain primordial-germ-cell migration concept. Native f0009 illustrates “week 4”; do not use its 3–5-week chronology as a precise human migration/ovary-formation claim without developmental source and age convention.",
+      "anchor": "prenatal-reserve",
+      "caption_anchors": [
+        {
+          "anchor": "03:37",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L44-T04",
+      "source_topic_anchor": "04:59",
+      "disposition": "Retain oogonia as mitotic germ-cell precursors; normalize caption variants “agonia/agonal.”",
+      "anchor": "prenatal-reserve",
+      "caption_anchors": [
+        {
+          "anchor": "04:59",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L44-T05",
+      "source_topic_anchor": "06:00",
+      "disposition": "Retain mitotic expansion/cysts, then attrition; source has no quantitative proof of exact surviving cells.",
+      "anchor": "prenatal-reserve",
+      "caption_anchors": [
+        {
+          "anchor": "06:00",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L44-T06",
+      "source_topic_anchor": "06:25",
+      "disposition": "Retain somatic enclosure; treat “OMI” as historical shorthand, not a single known secreted factor or arrest of follicular cells.",
+      "anchor": "arrest-signals",
+      "caption_anchors": [
+        {
+          "anchor": "06:25",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L44-T07",
+      "source_topic_anchor": "08:29",
+      "disposition": "Retain primary oocyte entry into meiosis I and asymmetric later division; no claim that a primary oocyte is a primary follicle.",
+      "anchor": "meiotic-bookkeeping",
+      "caption_anchors": [
+        {
+          "anchor": "08:29",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L44-T08",
+      "source_topic_anchor": "09:59",
+      "disposition": "Retain diplotene/prophase-I arrest in oocyte. Native f0021 labels follicular cells and OMI; modern account needs granulosa–oocyte gap junction/cGMP–cAMP regulation, with species and evidence boundaries.",
+      "anchor": "arrest-signals",
+      "caption_anchors": [
+        {
+          "anchor": "09:59",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L44-T09",
+      "source_topic_anchor": "11:15",
+      "disposition": "Retain primordial follicle = primary oocyte enclosed by flattened pregranulosa cells; separately name oocyte and follicle.",
+      "anchor": "prenatal-reserve",
+      "caption_anchors": [
+        {
+          "anchor": "11:15",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L44-T10",
+      "source_topic_anchor": "14:07",
+      "disposition": "Retain finite-reserve/atresia history, not 14 million fetal and 4 million newborn as fixed facts. Native f0030 explicitly writes 7 million *per ovary* at fetal month 5, then f0032 2 million *per ovary* at birth. Estimates depend on sampling, cell/follicle definitions, gestational age, and bilateral denominator.",
+      "anchor": "prenatal-reserve",
+      "caption_anchors": [
+        {
+          "anchor": "14:07",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L44-T11",
+      "source_topic_anchor": "19:16",
+      "disposition": "Retain continual primordial activation versus cycle-specific selection of antral follicles. Do not state 15–20 primordial follicles *per ovary per 28-day cycle* as a measured cohort.",
+      "anchor": "separate-clocks",
+      "caption_anchors": [
+        {
+          "anchor": "19:16",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L44-T12",
+      "source_topic_anchor": "20:26",
+      "disposition": "Retain ovarian-cycle overview as a second, short clock. Native f0042/f0043 are schematic stage illustrations, not proof primordial-to-ovulation completes in 28 days. SCI-017: 20:56 egg “waits another 14 days” is biologically wrong; released oocyte's fertilizable interval is under about 24 hours.",
+      "anchor": "egg-lifetime",
+      "caption_anchors": [
+        {
+          "anchor": "20:26",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L44-T13",
+      "source_topic_anchor": "21:45",
+      "disposition": "Retain all late questions: name ovarian phases, identify ovulation relative to them, define primordial follicle. Ending material extends to 22:16 farewell.",
+      "anchor": "separate-clocks",
+      "caption_anchors": [
+        {
+          "anchor": "21:45",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L45-T01",
+      "source_topic_anchor": "03:26",
+      "disposition": "Retain atresia and usually single dominant follicle, but discard numeric 15–20 primordial-per-ovary cycle cohort. Native f0007 contains that number.",
+      "anchor": "separate-clocks",
+      "caption_anchors": [
+        {
+          "anchor": "03:26",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L45-T02",
+      "source_topic_anchor": "04:32",
+      "disposition": "Retain day numbering as a stylized 28-day cycle (day 1 convention should be first menstrual bleeding, not universal “day 0”); draw early primordial activation on a months-long track.",
+      "anchor": "separate-clocks",
+      "caption_anchors": [
+        {
+          "anchor": "04:32",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L45-T03",
+      "source_topic_anchor": "04:58",
+      "disposition": "Retain flattened-to-cuboidal granulosa transition defining primary follicle; not a universal day 0–2 event in the ovulating cohort.",
+      "anchor": "follicle-morphology",
+      "caption_anchors": [
+        {
+          "anchor": "04:58",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L45-T04",
+      "source_topic_anchor": "07:05",
+      "disposition": "Retain growth of multilayer granulosa and oocyte before antrum; stage names vary across classification schemes, so show morphology.",
+      "anchor": "follicle-morphology",
+      "caption_anchors": [
+        {
+          "anchor": "07:05",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L45-T05",
+      "source_topic_anchor": "08:23",
+      "disposition": "Retain zona pellucida extracellular matrix; avoid a single receptor or absolute “human sperm only” claim.",
+      "anchor": "follicle-morphology",
+      "caption_anchors": [
+        {
+          "anchor": "08:23",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L45-T06",
+      "source_topic_anchor": "10:18",
+      "disposition": "Retain transzonal cell projections and gap-junction communication. Projections originate from granulosa/cumulus cells and traverse the zona, rather than being fingers of the zona. Native f0017 is a schematic.",
+      "anchor": "follicle-morphology",
+      "caption_anchors": [
+        {
+          "anchor": "10:18",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L45-T07",
+      "source_topic_anchor": "11:42",
+      "disposition": "Retain theca development around granulosa basement membrane; do not merge theca with oocyte or zona.",
+      "anchor": "follicle-morphology",
+      "caption_anchors": [
+        {
+          "anchor": "11:42",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L45-T08",
+      "source_topic_anchor": "12:18",
+      "disposition": "Retain antral cavity, cumulus, and granulosa differentiation. Native f0027 shows antrum, theca and “day” markings; morphology is useful, 28-day chronology is not.",
+      "anchor": "follicle-morphology",
+      "caption_anchors": [
+        {
+          "anchor": "12:18",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L45-T09",
+      "source_topic_anchor": "14:07",
+      "disposition": "Retain vascular/endocrine theca interna and outer fibromuscular theca externa; “contractile = sole ejector” is overcausal.",
+      "anchor": "follicle-morphology",
+      "caption_anchors": [
+        {
+          "anchor": "14:07",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L45-T10",
+      "source_topic_anchor": "16:20",
+      "disposition": "Retain LH-linked preovulatory meiosis-I completion/first polar body; native f0035 incorrectly labels it a generic late-secondary stage. Distinguish stage competence from actual trigger.",
+      "anchor": "separate-clocks",
+      "caption_anchors": [
+        {
+          "anchor": "16:20",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L45-T11",
+      "source_topic_anchor": "18:56",
+      "disposition": "Retain secondary oocyte arrest at metaphase II until fertilization/activation, with oocyte versus polar-body fates explicit.",
+      "anchor": "meiotic-bookkeeping",
+      "caption_anchors": [
+        {
+          "anchor": "18:56",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L45-T12",
+      "source_topic_anchor": "21:10",
+      "disposition": "Retain preovulatory/Graafian follicle, cumulus and corona radiata. Native f0043 shows their spatial relationship but calls oocyte/cumulus detached and floating as a universal state; qualify.",
+      "anchor": "follicle-morphology",
+      "caption_anchors": [
+        {
+          "anchor": "21:10",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s2"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L45-T13",
+      "source_topic_anchor": "23:25",
+      "disposition": "Retain follicular-wall rupture/release of cumulus–oocyte complex and tubal pickup. Native f0048 shows wall rupture; spoken “egg membrane fuses with ovarian membrane” is wrong topology.",
+      "anchor": "ovulation-topology",
+      "caption_anchors": [
+        {
+          "anchor": "23:25",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s3"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L45-T14",
+      "source_topic_anchor": "24:32",
+      "disposition": "Retain granulosa/theca luteinization and progesterone-rich corpus luteum; native f0052 correctly locates postovulatory ovarian structure.",
+      "anchor": "luteal-fate",
+      "caption_anchors": [
+        {
+          "anchor": "24:32",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s3"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L45-T15",
+      "source_topic_anchor": "25:39",
+      "disposition": "Retain 21/28/35-day cycles only as illustrative arithmetic, not exact day 7/14/21 predictions or contraception rule. Native f0054 marks day 7/14/21. Ovulation timing and luteal length vary.",
+      "anchor": "cycle-clock",
+      "caption_anchors": [
+        {
+          "anchor": "25:39",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s3"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    },
+    {
+      "id": "L45-T16",
+      "source_topic_anchor": "28:09",
+      "disposition": "Retain luteolysis versus rescue by implanting conceptus hCG, not fertilization alone. Native f0057 says “if fertilization occurs” corpus luteum persists. At 30:54 retain all three closing prompts: zona pellucida, corpus luteum in pregnancy, fimbriae; f0063 confirms them. L45 closes with L46 preview and farewell by 31:42.",
+      "anchor": "luteal-fate",
+      "caption_anchors": [
+        {
+          "anchor": "28:09",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch19-s3"
+      ],
+      "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
+    }
+  ],
+  "body_sha256": "9a452bb7fdc9a2b763e184ce2ec8067726cc12668c9ba0238eec972c9e538d67",
+  "body_hash_definition": "SHA256 of exact raw bytes strictly between unique BEGIN/END CHAPTER BODY markers; all newlines retained, no trim or DOM normalization.",
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch19-context.svg",
+      "sha256": "64d253a2e2bd6ee5d2793280324a5b495a66faaf4dd4188cc737bc3b328ec5b3"
+    },
+    {
+      "path": "assets/ch19-cycle-state.json",
+      "sha256": "4964367fe6b9c180f4ebd57fbeb96b1b506b067acefad9e98551b22d3724ca65"
+    },
+    {
+      "path": "assets/ch19-cycle.svg",
+      "sha256": "bccef412a05b53a3c8ad97a854c100dd0129301dd73700f8c78530b1ae51db45"
+    },
+    {
+      "path": "assets/ch19-lactation.svg",
+      "sha256": "f7939d86e5c89becd585c0c504c84c474776acada0b270c1b39c035ccb4fc592"
+    },
+    {
+      "path": "assets/ch19-mechanisms.html",
+      "sha256": "94fe5048b49552a054ed4fd152239844fda11cec052c5881765a483d5b3792c2"
+    },
+    {
+      "path": "assets/ch19-microscopy-LICENSE.txt",
+      "sha256": "032c5ffda8207782ec2cc6afb5efc39b7b3afd10229fc80b1d4d6acd5b2c5b5d"
+    },
+    {
+      "path": "assets/ch19-microscopy-provenance.json",
+      "sha256": "dd95a0d6f982f8463b5a64cf1ce1dfada6ce438e20f6876c91a9a49b076564ff"
+    },
+    {
+      "path": "assets/ch19-model.js",
+      "sha256": "98e1a1de1b61e590eb4aaed28b457fbfa6d6c24b2e5af56f94abf236ca660741"
+    },
+    {
+      "path": "assets/ch19-mouse-follicles.jpg",
+      "sha256": "4878451b6152fcd0107244e48e430e15a16a0f4aa19117913c57ca3a4970cd15"
+    },
+    {
+      "path": "assets/ch19-mouse-mammary-confocal.jpg",
+      "sha256": "878cc9cf1a1aa100c8ceeff02241e6e9b5ad8e0ef810eaf07061d41be8a65578"
+    },
+    {
+      "path": "assets/ch19-stages.svg",
+      "sha256": "611656c63330fadda630472d2ba9b5d638cec111e514a13f292d1eafc4349810"
+    },
+    {
+      "path": "code/ch19_check.cjs",
+      "sha256": "d7bcd8f740815f3da662b5d12a65c54b5699bdf5b1d3d7464c472440cd1ab32d"
+    },
+    {
+      "path": "code/ch19_export.cjs",
+      "sha256": "a783b096e0bb1bae07aa31f0e669f98d1e6de230d979c4fd80f9a27b0af35170"
+    },
+    {
+      "path": "code/ch19_reproduction.py",
+      "sha256": "2e5d4ae6171fa8346e4830517735a92387ae3cd9dcc272e91b0f4bccd2aab9df"
+    }
+  ],
+  "artifact_sha256": {
+    "assets/ch19-context.svg": "64d253a2e2bd6ee5d2793280324a5b495a66faaf4dd4188cc737bc3b328ec5b3",
+    "assets/ch19-cycle-state.json": "4964367fe6b9c180f4ebd57fbeb96b1b506b067acefad9e98551b22d3724ca65",
+    "assets/ch19-cycle.svg": "bccef412a05b53a3c8ad97a854c100dd0129301dd73700f8c78530b1ae51db45",
+    "assets/ch19-lactation.svg": "f7939d86e5c89becd585c0c504c84c474776acada0b270c1b39c035ccb4fc592",
+    "assets/ch19-mechanisms.html": "94fe5048b49552a054ed4fd152239844fda11cec052c5881765a483d5b3792c2",
+    "assets/ch19-microscopy-LICENSE.txt": "032c5ffda8207782ec2cc6afb5efc39b7b3afd10229fc80b1d4d6acd5b2c5b5d",
+    "assets/ch19-microscopy-provenance.json": "dd95a0d6f982f8463b5a64cf1ce1dfada6ce438e20f6876c91a9a49b076564ff",
+    "assets/ch19-model.js": "98e1a1de1b61e590eb4aaed28b457fbfa6d6c24b2e5af56f94abf236ca660741",
+    "assets/ch19-mouse-follicles.jpg": "4878451b6152fcd0107244e48e430e15a16a0f4aa19117913c57ca3a4970cd15",
+    "assets/ch19-mouse-mammary-confocal.jpg": "878cc9cf1a1aa100c8ceeff02241e6e9b5ad8e0ef810eaf07061d41be8a65578",
+    "assets/ch19-stages.svg": "611656c63330fadda630472d2ba9b5d638cec111e514a13f292d1eafc4349810",
+    "code/ch19_check.cjs": "d7bcd8f740815f3da662b5d12a65c54b5699bdf5b1d3d7464c472440cd1ab32d",
+    "code/ch19_export.cjs": "a783b096e0bb1bae07aa31f0e669f98d1e6de230d979c4fd80f9a27b0af35170",
+    "code/ch19_reproduction.py": "2e5d4ae6171fa8346e4830517735a92387ae3cd9dcc272e91b0f4bccd2aab9df"
+  },
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch17_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "9a452bb7fdc9a2b763e184ce2ec8067726cc12668c9ba0238eec972c9e538d67",
+      "artifact_sha256": {
+        "assets/ch19-context.svg": "64d253a2e2bd6ee5d2793280324a5b495a66faaf4dd4188cc737bc3b328ec5b3",
+        "assets/ch19-cycle-state.json": "4964367fe6b9c180f4ebd57fbeb96b1b506b067acefad9e98551b22d3724ca65",
+        "assets/ch19-cycle.svg": "bccef412a05b53a3c8ad97a854c100dd0129301dd73700f8c78530b1ae51db45",
+        "assets/ch19-lactation.svg": "f7939d86e5c89becd585c0c504c84c474776acada0b270c1b39c035ccb4fc592",
+        "assets/ch19-mechanisms.html": "94fe5048b49552a054ed4fd152239844fda11cec052c5881765a483d5b3792c2",
+        "assets/ch19-microscopy-LICENSE.txt": "032c5ffda8207782ec2cc6afb5efc39b7b3afd10229fc80b1d4d6acd5b2c5b5d",
+        "assets/ch19-microscopy-provenance.json": "dd95a0d6f982f8463b5a64cf1ce1dfada6ce438e20f6876c91a9a49b076564ff",
+        "assets/ch19-model.js": "98e1a1de1b61e590eb4aaed28b457fbfa6d6c24b2e5af56f94abf236ca660741",
+        "assets/ch19-mouse-follicles.jpg": "4878451b6152fcd0107244e48e430e15a16a0f4aa19117913c57ca3a4970cd15",
+        "assets/ch19-mouse-mammary-confocal.jpg": "878cc9cf1a1aa100c8ceeff02241e6e9b5ad8e0ef810eaf07061d41be8a65578",
+        "assets/ch19-stages.svg": "611656c63330fadda630472d2ba9b5d638cec111e514a13f292d1eafc4349810",
+        "code/ch19_check.cjs": "d7bcd8f740815f3da662b5d12a65c54b5699bdf5b1d3d7464c472440cd1ab32d",
+        "code/ch19_export.cjs": "a783b096e0bb1bae07aa31f0e669f98d1e6de230d979c4fd80f9a27b0af35170",
+        "code/ch19_reproduction.py": "2e5d4ae6171fa8346e4830517735a92387ae3cd9dcc272e91b0f4bccd2aab9df"
+      },
+      "report_path": "work/reviews/ch19-approved-a.md",
+      "report_sha256": "b0a9abcdb7d9da7984d1aeb1f8a548af9f7b3a2205e739241668cef4af5fec8e",
+      "original_full_report": "work/reviews/ch19-review-a.md",
+      "targeted_report": "work/reviews/ch19-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch17_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "9a452bb7fdc9a2b763e184ce2ec8067726cc12668c9ba0238eec972c9e538d67",
+      "artifact_sha256": {
+        "assets/ch19-context.svg": "64d253a2e2bd6ee5d2793280324a5b495a66faaf4dd4188cc737bc3b328ec5b3",
+        "assets/ch19-cycle-state.json": "4964367fe6b9c180f4ebd57fbeb96b1b506b067acefad9e98551b22d3724ca65",
+        "assets/ch19-cycle.svg": "bccef412a05b53a3c8ad97a854c100dd0129301dd73700f8c78530b1ae51db45",
+        "assets/ch19-lactation.svg": "f7939d86e5c89becd585c0c504c84c474776acada0b270c1b39c035ccb4fc592",
+        "assets/ch19-mechanisms.html": "94fe5048b49552a054ed4fd152239844fda11cec052c5881765a483d5b3792c2",
+        "assets/ch19-microscopy-LICENSE.txt": "032c5ffda8207782ec2cc6afb5efc39b7b3afd10229fc80b1d4d6acd5b2c5b5d",
+        "assets/ch19-microscopy-provenance.json": "dd95a0d6f982f8463b5a64cf1ce1dfada6ce438e20f6876c91a9a49b076564ff",
+        "assets/ch19-model.js": "98e1a1de1b61e590eb4aaed28b457fbfa6d6c24b2e5af56f94abf236ca660741",
+        "assets/ch19-mouse-follicles.jpg": "4878451b6152fcd0107244e48e430e15a16a0f4aa19117913c57ca3a4970cd15",
+        "assets/ch19-mouse-mammary-confocal.jpg": "878cc9cf1a1aa100c8ceeff02241e6e9b5ad8e0ef810eaf07061d41be8a65578",
+        "assets/ch19-stages.svg": "611656c63330fadda630472d2ba9b5d638cec111e514a13f292d1eafc4349810",
+        "code/ch19_check.cjs": "d7bcd8f740815f3da662b5d12a65c54b5699bdf5b1d3d7464c472440cd1ab32d",
+        "code/ch19_export.cjs": "a783b096e0bb1bae07aa31f0e669f98d1e6de230d979c4fd80f9a27b0af35170",
+        "code/ch19_reproduction.py": "2e5d4ae6171fa8346e4830517735a92387ae3cd9dcc272e91b0f4bccd2aab9df"
+      },
+      "report_path": "work/reviews/ch19-approved-b.md",
+      "report_sha256": "6ff32ded679506cd86f058b6b3095e1c945c91e1fd69f3af95b4ea6a6d24136c",
+      "original_full_report": "work/reviews/ch19-review-b.md",
+      "targeted_report": "work/reviews/ch19-targeted-b.md"
+    }
+  ],
+  "code": [
+    "code/ch19_reproduction.py",
+    "code/ch19_check.cjs",
+    "code/ch19_export.cjs"
+  ],
+  "code_validation": "Post-union Python431 numerical/domain/derivative/composition/subnormal/overflow checks and Node3129 state/domain/parity/actual-SVG-containment/mock-DOM checks pass. Half-open cycle280states0through27.9;28is unsampled boundary. Structure37uniqueIDs/25localrefs/44topicanchors/6solutions/79inline4display delimiters/SVG XML pass. No actual UI/MathJax/motion/print claim.",
+  "figures": [
+    {
+      "id": "ch19-fig1",
+      "path": "assets/ch19-context.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch19-follicle-observation",
+      "path": "assets/ch19-mouse-follicles.jpg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch19-mammary-observation",
+      "path": "assets/ch19-mouse-mammary-confocal.jpg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch19-anim1",
+      "path": "chapter-19-female-reproduction-ovarian-cycle.html#ch19-anim1",
+      "embedded_panel": "assets/ch19-mechanisms.html?mode=stages",
+      "status": "accepted"
+    },
+    {
+      "id": "ch19-anim2",
+      "path": "chapter-19-female-reproduction-ovarian-cycle.html#ch19-anim2",
+      "embedded_panel": "assets/ch19-mechanisms.html?mode=cycle",
+      "status": "accepted"
+    },
+    {
+      "id": "ch19-anim3",
+      "path": "chapter-19-female-reproduction-ovarian-cycle.html#ch19-anim3",
+      "embedded_panel": "assets/ch19-mechanisms.html?mode=milk",
+      "status": "accepted"
+    }
+  ],
+  "realistic_asset_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Ovarian compartments, meiotic counters, ovarian cycle and lactation routes",
+    "rationale": "Source-verified mouse follicle fluorescence and cleared mammary confocal preparations supply directly relevant prepared appearance. Original separate-scale topology and controlled deterministic stages/cycle/inventory explain mechanism without invented realistic tissue motion.",
+    "appearance_references": [
+      "assets/ch19-mouse-follicles.jpg",
+      "assets/ch19-mouse-mammary-confocal.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch19-mechanisms.html",
+      "assets/ch19-model.js"
+    ],
+    "report_path": "work/browser/ch19-visual-modality.json",
+    "report_sha256": "31886283bac26d15ec9d90591c723ee97ea35ed070f6d1db01360047a837de3a"
+  },
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
+    "browser": "Actual root current reader, all eight selectable oocyte states, cycle/lactation cases, live cycle playback and settled reduced-motion pause, desktop/650px/390px access and keyboard diagram panning, 24-page browser print proof",
+    "coverage": "All44 L43–45 topics and closing prompts dispositioned using full captions; bounded11 contact sheets179 sampled stills21 native repeats, not continuous video/audio; two actual full reviews plus targeted scientific and production containment repairs."
+  },
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "author_report": "work/ch19-author-report.md",
+  "research_ledger": "work/ch19-research-ledger.md",
+  "production_validation": {
+    "report_path": "work/browser/ch19-production-final.json",
+    "report_sha256": "9cc33287a64b241a281c268ea71699e970d45d77ed543b2036de660daab8b401",
+    "scope": "Actual root current reader, all eight selectable oocyte states, cycle/lactation cases, live cycle playback and settled reduced-motion pause, desktop/650px/390px access and keyboard diagram panning, 24-page browser print proof"
+  },
+  "limitations": [
+    "Mouse images are prepared cross-species observations, not human stage kinetics; follicle physical scale/stage/preparation details absent; mammary full width331µm per catalogue.",
+    "Growth/cycle/oocyte clocks distinct; synthetic hormone traces are prescribed qualitative states, not feedback equations, reserve forecast or clinical ovulation prediction.",
+    "Milk inventory is a single accessible compartment with constant synthetic inputs and linear effective removal; no hormone kinetics/infant transfer model.",
+    "Primordial reserve exact per-ovary slide counts discarded; no replacement individual human reserve count or deterministic age model.",
+    "Primary abstracts retrieved via EuropePMC after blocked direct pages; no claimed full-methods access to those papers.",
+    "No acceptance, real browser validation or publication status claimed; futureChapter20 navigation left plain text until its canonical file exists.",
+    "Half-open prescribed cycle domain0≤elapsed<28;280samples through27.9. The28tick denotes an unsampled next-onset boundary, not a state of the old oocyte or a predicted new lineage.",
+    "Inventory implementation uses stable small-z source gain; finite parameters with an unrepresentable total input/output are rejected. Last-bit roundoff is bounded to the analytical content interval."
+  ],
+  "repair_report": "work/ch19-repair-report.md",
+  "repair_scope": "One bounded union of actual independent full reports A/B; original reports/packet/snapshot/author handoff preserved. Targeted reviewer checks and production remain root-owned; no acceptance.",
+  "coverage_basis": "All44 L43–45 topics and closing prompts dispositioned using full captions; bounded11 contact sheets179 sampled stills21 native repeats, not continuous video/audio; two actual full reviews plus targeted scientific and production containment repairs.",
+  "accepted_at_utc": "2026-11-05T03:34:33.395Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-19.json",
+    "sha256": "a367203e522d692e2f43647d90c480dba709c1669b279dc283c4992872b221ee"
+  }
+}

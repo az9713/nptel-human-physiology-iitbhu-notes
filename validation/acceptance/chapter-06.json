@@ -1,0 +1,73 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 6,
+  "manuscript": "chapter-06-vessels-microvascular-exchange.html",
+  "body_sha256": "083b0d32d035eb2e017b8c96e08915c770073f288bfe845b9788e1310c655573",
+  "artifact_sha256": {
+    "code/ch06_flow_exchange.py": "4a1c455bea68e50cd679a49201af6ae31d370c51c7cf5fbd293875a799407bfe",
+    "assets/ch06-models.js": "ebbe1b149baa9701bf91eb38144dea82d0d33da6f2afa943b8a18a1c79899575",
+    "assets/ch06-radius.html": "42dc9e68dd60573573346bc1126e8010ef3337f11dc332e70322b6f466eb7a93",
+    "assets/ch06-exchange.html": "1a29acd4039a647b78e20f389dcf85871a5978c78be3eecf6ba8e21bdf4a4713",
+    "assets/ch06-control.html": "80458efde516f0a85a220df25d0add6a6b6224b66adc092627c99e9f058cae18",
+    "assets/ch06-vessels.svg": "83849a07ef8e3e05afa4ef9d927ef44da21b8c48163715fa7bcca1533dccea49",
+    "assets/ch06-vessel-reference.jpg": "eca2d1e6be9bb6e87dc3c1994411ebb574a29d718263a81248e11079ad58ddcc",
+    "assets/ch06-vessel-reference.json": "939d3c8bdece1ef432767c06c7a6087484e397fce0f34663ccc75e861830d73d"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "All13 topic dispositions and six worked solutions assessed by both full reviewers; complete captions plus bounded source still evidence, not continuous recording inspection.",
+  "source_recordings": [
+    15
+  ],
+  "source_evidence": [
+    {
+      "number": 15,
+      "video_id": "oqkXZJtqjEU",
+      "url": "https://www.youtube.com/watch?v=oqkXZJtqjEU",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "e6ede18ccc380c8be71fd3ecb9695a8662e0ba573b4861f663cb589bc5960765",
+      "caption_cues": 214,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 71,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 4,
+        "sampled_stills": 71,
+        "native_still_views": 5,
+        "report_sha256": "fe6f68280e33817dabf5f7eae85a1f0c2afc0005e6464eb553aa98ea070c4496"
+      },
+      "visual_review_scope": "All contact sheets plus listed targeted frames actually viewed; bounded still sampling, not continuous audio/video."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch01_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "aa3d0505670a6d73a8395d6e7b6c78fdf4b32de9b5425b3c0012c13f27403291",
+      "review_basis": "One actual full independent scientific/editorial review plus targeted label-only repair check"
+    },
+    {
+      "reviewer_id": "/root/ch01_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "71a876f9224567d10755d16651bce81d8ae3dc2f26d837b140ee1f4448be547b",
+      "review_basis": "One actual full independent scientific/editorial review plus targeted label-only repair check"
+    }
+  ],
+  "production": {
+    "scope": "Historical actual production evidence plus current scientific-artifact identity and a separate bounded current reader reinspection.",
+    "report_sha256": "f5680cbaacb28377e589e3c849f84a451448638164f76b3fae1a182d58911731"
+  },
+  "visual_modality": {},
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

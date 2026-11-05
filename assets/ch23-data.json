@@ -1,0 +1,246 @@
+{
+  "schema": "ch23-symbolic-v1",
+  "clock": "presentation seconds per phase only; no shared biological rate",
+  "modes": {
+    "voltage": {
+      "title": "Membrane voltage propagation",
+      "image": "ch23-transport.svg",
+      "viewBox": "0 0 1100 620",
+      "scope": "Presentation cursor marks local current and nodal regeneration. It is not a moving cargo particle or a measured propagation recording.",
+      "phases": [
+        {
+          "label": "Initial segment trigger",
+          "detail": "Integrated depolarization can initiate an action potential at the axon initial segment; no vesicle has to travel the axon for each spike.",
+          "from": [
+            245,
+            268
+          ],
+          "to": [
+            360,
+            268
+          ],
+          "tag": "AP front"
+        },
+        {
+          "label": "Internodal current",
+          "detail": "Local electrical current spreads under myelin; it is not a leap of the membrane itself across empty space.",
+          "from": [
+            360,
+            268
+          ],
+          "to": [
+            550,
+            268
+          ],
+          "tag": "current"
+        },
+        {
+          "label": "Next exposed node",
+          "detail": "Voltage-gated channels at a node regenerate the action potential. Axon diameter, myelin and temperature affect speed.",
+          "from": [
+            550,
+            268
+          ],
+          "to": [
+            735,
+            268
+          ],
+          "tag": "node"
+        },
+        {
+          "label": "Terminal arrival",
+          "detail": "Terminal depolarization can open voltage-gated calcium channels before transmitter release. Detailed excitability follows in the next chapter.",
+          "from": [
+            735,
+            268
+          ],
+          "to": [
+            835,
+            268
+          ],
+          "tag": "terminal"
+        }
+      ]
+    },
+    "cargo": {
+      "title": "Physical axonal cargo traffic",
+      "image": "ch23-transport.svg",
+      "viewBox": "0 0 1100 620",
+      "scope": "The cursor follows representative tracks, not a single molecule or measured trajectory; kinesin/dynein labels are cargo-specific exemplars.",
+      "phases": [
+        {
+          "label": "Soma sorting",
+          "detail": "Transcription makes mRNA; ribosomes translate selected proteins. Sorting/loading need not imply DNA replication, and some local axonal translation occurs.",
+          "from": [
+            100,
+            335
+          ],
+          "to": [
+            245,
+            335
+          ],
+          "tag": "sort"
+        },
+        {
+          "label": "Anterograde delivery",
+          "detail": "Plus-end-directed kinesin-family motors carry selected cargo toward distal axon on polarized microtubules.",
+          "from": [
+            245,
+            335
+          ],
+          "to": [
+            835,
+            335
+          ],
+          "tag": "KIF →"
+        },
+        {
+          "label": "Terminal use and recycling",
+          "detail": "Cargo may be used, recycled locally or enter endosomal pathways; not every transmitter molecule returns to the soma.",
+          "from": [
+            835,
+            335
+          ],
+          "to": [
+            835,
+            402
+          ],
+          "tag": "sort"
+        },
+        {
+          "label": "Retrograde signaling",
+          "detail": "Minus-end-directed dynein–dynactin carries selected endosomes and organelles toward the soma; this includes some injury signals.",
+          "from": [
+            835,
+            402
+          ],
+          "to": [
+            245,
+            402
+          ],
+          "tag": "← dynein"
+        }
+      ]
+    },
+    "injury": {
+      "title": "Injury classes: compare structures",
+      "image": "ch23-injury.svg",
+      "viewBox": "0 0 1100 620",
+      "scope": "These are alternative classes, not successive states of one injured axon. Seeking changes the comparison row.",
+      "phases": [
+        {
+          "label": "Neurapraxia",
+          "detail": "Axonal continuity is preserved; local conduction block may involve myelin. Distal Wallerian axon degeneration does not follow from this class.",
+          "from": [
+            35,
+            105
+          ],
+          "to": [
+            1050,
+            105
+          ],
+          "tag": "intact axon"
+        },
+        {
+          "label": "Axonotmesis",
+          "detail": "Axon is interrupted; distal Wallerian degeneration follows. Connective guidance may be preserved to differing Sunderland degrees.",
+          "from": [
+            35,
+            250
+          ],
+          "to": [
+            1050,
+            250
+          ],
+          "tag": "axon loss"
+        },
+        {
+          "label": "Neurotmesis",
+          "detail": "Complete nerve disruption includes axon and guidance structures in the canonical class; distal Wallerian degeneration follows.",
+          "from": [
+            35,
+            395
+          ],
+          "to": [
+            1050,
+            395
+          ],
+          "tag": "disruption"
+        }
+      ]
+    },
+    "repair": {
+      "title": "Conditional peripheral repair sequence",
+      "image": "ch23-repair.svg",
+      "viewBox": "0 0 1100 620",
+      "scope": "A conceptual axon-disconnection branch. Presentation seconds do not map to days, growth rate, remyelination rate or functional recovery.",
+      "phases": [
+        {
+          "label": "Proximal survival",
+          "detail": "A viable cell body and its proximal stump are prerequisites for extension from that neuron; proximal retraction can coexist with distal breakdown.",
+          "from": [
+            40,
+            160
+          ],
+          "to": [
+            200,
+            160
+          ],
+          "tag": "proximal"
+        },
+        {
+          "label": "Distal Wallerian change",
+          "detail": "Disconnected distal axon and myelin fragment; degeneration is not a neurapraxia event.",
+          "from": [
+            225,
+            160
+          ],
+          "to": [
+            415,
+            160
+          ],
+          "tag": "distal"
+        },
+        {
+          "label": "Repair-cell response",
+          "detail": "Schwann cells change state, organize guidance tracks and cooperate with macrophages in debris clearance. Mouse c-Jun evidence is mechanistic, not a human timetable.",
+          "from": [
+            440,
+            160
+          ],
+          "to": [
+            630,
+            160
+          ],
+          "tag": "Schwann"
+        },
+        {
+          "label": "Proximal sprout",
+          "detail": "New extension arises from the surviving proximal neuron into a permissive path; alignment, distance and target viability matter.",
+          "from": [
+            655,
+            160
+          ],
+          "to": [
+            845,
+            160
+          ],
+          "tag": "sprout"
+        },
+        {
+          "label": "Later distinct outcomes",
+          "detail": "Remyelination and target-specific reconnection are separate from axon extension; neither guarantees normal function.",
+          "from": [
+            870,
+            160
+          ],
+          "to": [
+            1040,
+            160
+          ],
+          "tag": "outcome"
+        }
+      ]
+    }
+  }
+}

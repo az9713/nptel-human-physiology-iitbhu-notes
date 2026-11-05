@@ -1,0 +1,148 @@
+{
+  "chapter": 4,
+  "title": "Blood groups, lymph and immune defense",
+  "status": "accepted",
+  "coverage_complete": true,
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch01_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One full independent scientific/editorial review plus targeted repairs and photograph integration check; no repeated full review.",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "e6c42d678a2dc40aa32c00d793cd27c6a2204f16b92682aef34f9c579b996d50",
+      "artifact_sha256": {
+        "assets/ch04-mechanisms.js": "0c6d66edf7a066ac8d7ea4bbabe1a91c6ce27000a5f1d946be720c821d9beb0f",
+        "code/ch04_compatibility.py": "6b834bbd2b1cd3aad533fbfee93fbe4f02e3bc8ac8f149411079cdaecf576366",
+        "assets/ch04-node-architecture-reference.jpg": "37500c19446c903677afd337c92170ebfb8cf762163861db4c1845399229d3ed",
+        "assets/ch04-node-architecture-reference.json": "621c4c745f71df0807234bde1aa7393e6834db8aadbe23210ae6f32649816153"
+      },
+      "report_path": "work/reviews/ch04-approved-a.md",
+      "report_sha256": "8d67a59192f684f22b7a81f63df5ea4f0131b9f08d48ca7f4ecf6d31b14f984f",
+      "original_full_report": "work/reviews/ch04-review-a.md",
+      "targeted_report": "work/reviews/ch04-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch01_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One full independent scientific/editorial review plus targeted repairs and photograph integration check; no repeated full review.",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "e6c42d678a2dc40aa32c00d793cd27c6a2204f16b92682aef34f9c579b996d50",
+      "artifact_sha256": {
+        "assets/ch04-mechanisms.js": "0c6d66edf7a066ac8d7ea4bbabe1a91c6ce27000a5f1d946be720c821d9beb0f",
+        "code/ch04_compatibility.py": "6b834bbd2b1cd3aad533fbfee93fbe4f02e3bc8ac8f149411079cdaecf576366",
+        "assets/ch04-node-architecture-reference.jpg": "37500c19446c903677afd337c92170ebfb8cf762163861db4c1845399229d3ed",
+        "assets/ch04-node-architecture-reference.json": "621c4c745f71df0807234bde1aa7393e6834db8aadbe23210ae6f32649816153"
+      },
+      "report_path": "work/reviews/ch04-approved-b.md",
+      "report_sha256": "0f930d94beb8177bebc1d58f8005ea4737b80beb41fae9cc6bad075fb91d4d96",
+      "original_full_report": "work/reviews/ch04-review-b.md",
+      "targeted_report": "work/reviews/ch04-targeted-b.md"
+    }
+  ],
+  "source_recordings": [
+    10,
+    11,
+    12
+  ],
+  "source_evidence": "All L10–12 caption texts, ten actually viewed contact sheets and nine targeted individual frames. No continuous video/audio inspection claimed.",
+  "prose_status": "Accepted after two independent full scientific/editorial reviews, targeted repairs and specified actual production checks.",
+  "code": [
+    "code/ch04_compatibility.py"
+  ],
+  "code_validation": "Executed: full red-cell/plasma matrices, 16 transpose pairs, 9/16 directed compatible pairs per component, O-to-AB component counterexample, invalid input rejection; synthetic accumulations 8.00, 2.00, 0.00 mL. Node syntax and isolated model/control checks passed; browser inspection not claimed.",
+  "figures": [
+    {
+      "id": "ch4-anim1",
+      "path": "chapter-04-blood-groups-lymph-immunity.html#ch4-anim1",
+      "script": "assets/ch04-mechanisms.js",
+      "status": "accepted",
+      "role": "Controlled component-specific antigen–antibody bridge abstraction, donor/recipient/component controls."
+    },
+    {
+      "id": "ch4-anim2",
+      "path": "chapter-04-blood-groups-lymph-immunity.html#ch4-anim2",
+      "script": "assets/ch04-mechanisms.js",
+      "status": "accepted",
+      "role": "Fluid-marker entry only through overlapping endothelial flap, collector-valve passage and open venous outlet; arbitrary phase clock."
+    },
+    {
+      "id": "ch4-anim3",
+      "path": "chapter-04-blood-groups-lymph-immunity.html#ch4-anim3",
+      "script": "assets/ch04-mechanisms.js",
+      "status": "accepted",
+      "role": "Named peptide–MHC-II/TCR and CD80/86-CD28 contacts, conventional CD4 activation branch, expansion and memory symbols; no fitted kinetics."
+    },
+    {
+      "id": "ch4-fig1",
+      "path": "chapter-04-blood-groups-lymph-immunity.html#ch4-fig1",
+      "status": "accepted",
+      "role": "Reference-informed conceptual normal-node sectional organization, with connected separate blood and lymph routes; photographic context supplied separately, without a measured geometry or B/T-cell identification claim."
+    },
+    {
+      "id": "ch4-fig2",
+      "path": "chapter-04-blood-groups-lymph-immunity.html#ch4-fig2",
+      "status": "accepted",
+      "role": "Conventional B/antibody, CD4, CD8, NK recognition comparison."
+    },
+    {
+      "id": "ch4-node-photo",
+      "path": "assets/ch04-node-architecture-reference.jpg",
+      "provenance": "assets/ch04-node-architecture-reference.json",
+      "status": "accepted",
+      "role": "Observed normal-designated node section from colectomy, capsule/subcapsular sinus and peripheral follicle context; stated specimen, species, scale and cell-identity limits retained."
+    }
+  ],
+  "body_sha256": "e6c42d678a2dc40aa32c00d793cd27c6a2204f16b92682aef34f9c579b996d50",
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews plus targeted current-digest approvals",
+    "browser": "Actual supported HTTP browser checks recorded",
+    "responsive_print_reduced_motion": "Specified actual checks passed, with limits in production report",
+    "photorealistic_anatomy": "Conceptual SVG and actual stained-tissue photograph paired for distinct roles; no photorealistic 3D or living natural-color claim."
+  },
+  "limitations": [
+    "ABO logic is restricted and not clinical selection software; no platelet/whole-blood, unusual-phenotype or RhD allocation algorithm.",
+    "RhD-negative status does not imply pre-existing anti-D; prevention context checked against FDA insert, no regimen/dose instructions.",
+    "No universal 90:10 exchange partition, whole-body lymph flow or fabricated immune kinetic law.",
+    "All animation timing, geometry, symbols and colors are explanatory abstractions; clinical calibration and photorealism are absent.",
+    "Partial external access: indexed passages identified in source appendix; failed NIAID/NHLBI requests not claimed read.",
+    "Normal designation of the node photograph comes from the photographer; explicit species and physical calibration are unavailable; no whole-node or cell-identity inference.",
+    "Private browser print proof is not a clean public PDF deliverable."
+  ],
+  "coverage_basis": "All42topicspan dispositions and six solutions assessed in two independent full scientific/editorial reviews; core source coverage uses captions plus bounded sampled stills, not continuous recording review.",
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch04-mechanisms.js",
+      "sha256": "0c6d66edf7a066ac8d7ea4bbabe1a91c6ce27000a5f1d946be720c821d9beb0f"
+    },
+    {
+      "path": "code/ch04_compatibility.py",
+      "sha256": "6b834bbd2b1cd3aad533fbfee93fbe4f02e3bc8ac8f149411079cdaecf576366"
+    },
+    {
+      "path": "assets/ch04-node-architecture-reference.jpg",
+      "sha256": "37500c19446c903677afd337c92170ebfb8cf762163861db4c1845399229d3ed"
+    },
+    {
+      "path": "assets/ch04-node-architecture-reference.json",
+      "sha256": "621c4c745f71df0807234bde1aa7393e6834db8aadbe23210ae6f32649816153"
+    }
+  ],
+  "production_validation": {
+    "report_path": "work/browser/ch04-production.json",
+    "report_sha256": "353f4cac351f01086ca9da8527dd3469e63cf50c72dbd34c6b1e4674c38894f6",
+    "scope": "Actual responsive reader, specified controls/phase and motion-preference change, keyboard pan, repaired topology and print-proof checks; exact limits retained."
+  },
+  "accepted_at_utc": "2026-11-04T19:20:27.995Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-04.json",
+    "sha256": "814aeeadbbe9218ec1dab3e4f78bddf8f53258e636f5f9780b1cb77494f2973f"
+  }
+}

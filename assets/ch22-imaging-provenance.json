@@ -1,0 +1,86 @@
+{
+  "accessed": "2026-11-04",
+  "images": [
+    {
+      "path": "assets/ch22-brain-mri.jpg",
+      "title": "Normal brain. 6. Sagittal MRI scan",
+      "source_url": "https://wellcomecollection.org/works/cxzcadnc",
+      "download_url": "https://iiif.wellcomecollection.org/image/N0023480/full/max/0/default.jpg",
+      "creator_credit": "Wellcome Collection",
+      "license": {
+        "id": "cc-by",
+        "type": "License",
+        "label": "Attribution 4.0 International (CC BY 4.0)",
+        "url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "source_description": "Magnetic resonance image (MRI) T1 weighted scan,\nside view, mid line, to show normal anatomy.",
+      "sha256": "05c36e3420b462ba544133b8cb3362e23e8fdd2e8a74442f9c13198ad97f532e",
+      "dimensions": [
+        1443,
+        1448
+      ],
+      "modifications": "None: native IIIF full/max JPEG retained",
+      "limits": "No kinetics or signal directions inferred; species/age/preparation limited to source description. MRI record does not explicitly identify species, age or sex; rat field does not establish human cord anatomy."
+    },
+    {
+      "path": "assets/ch22-rat-spinal-lm.jpg",
+      "title": "Rat spinal cord, LM",
+      "source_url": "https://wellcomecollection.org/works/w4fkst57",
+      "download_url": "https://iiif.wellcomecollection.org/image/B0009877/full/max/0/default.jpg",
+      "creator_credit": "Kevin Mackenzie, University of Aberdeen",
+      "license": {
+        "id": "cc-by",
+        "type": "License",
+        "label": "Attribution 4.0 International (CC BY 4.0)",
+        "url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "source_description": "Section of spinal cord from a rat stained with silver stain. Large nerve cells (neurones; brown/yellow) as well as the network of dendrites and nerve fibres within the spinal cord are visible here. The spinal cord connects the brain with the peripheral nervous system and is a pathway for sharing information between the two. Width of image is 600 micrometres.",
+      "sha256": "ba9f0eab4fbc4785ca04c5f72547a5b7d491a371db46c93201de6d3e7b850b6e",
+      "dimensions": [
+        2742,
+        1978
+      ],
+      "modifications": "None: native IIIF full/max JPEG retained",
+      "limits": "No kinetics or signal directions inferred; species/age/preparation limited to source description. MRI record does not explicitly identify species, age or sex; rat field does not establish human cord anatomy."
+    }
+  ],
+  "geometry": "Original nonmetric diagrams checked against cited gross anatomy; no mesh segmentation or image registration",
+  "behavior": "Original prescribed phase graph and synthetic constant-delay bookkeeping, not observed kinetics",
+  "appearance": "MRI contrast and prepared silver-stained tissue; no natural-color or live-activity claim",
+  "original_diagrams": [
+    {
+      "path": "assets/ch22-brain-map.svg",
+      "creator": "Original chapter author construction",
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+        "https://wellcomecollection.org/works/cxzcadnc"
+      ],
+      "verified_relationships": [
+        "Anterior/posterior/superior orientation",
+        "Frontal/parietal/temporal/occipital surface territories",
+        "Separate midline thalamus/hypothalamus, midbrain/pons/medulla and cerebellum"
+      ],
+      "limits": "Hand-authored nonmetric reference-derived map, not segmentation or image registration; original simplified paths, no copied lecture artwork."
+    },
+    {
+      "path": "assets/ch22-cord-roots.svg",
+      "creator": "Original chapter author construction",
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system",
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK547755/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4614133/"
+      ],
+      "verified_relationships": [
+        "Dorsal sensory root and ganglion, ventral efferent root joining mixed nerve",
+        "Both rami mixed; dorsal-up thoracic gray horns/white exterior",
+        "Potential subdural interface versus normal CSF subarachnoid space",
+        "Adult-human midline canal patency not presumed"
+      ],
+      "limits": "One side root pair drawn, no patient side labels, tract positions or metric tissue geometry; meningeal layer order shown separately."
+    }
+  ],
+  "behavior_sources": [
+    "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-3-motor-responses"
+  ],
+  "behavior_limits": "Both abstract pathways are qualitative teaching networks. All latency parameters original and synthetic; local integration lumped, antagonist inhibition and descending modulation omitted from animation, discussed in prose. No source kinetics, natural tissue movement, clinical latency or activation data are inferred from the images."
+}

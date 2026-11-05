@@ -1,0 +1,553 @@
+{
+  "chapter": 18,
+  "title": "Male reproduction and spermatogenesis",
+  "status": "accepted",
+  "coverage_complete": true,
+  "source_recordings": [
+    41,
+    42
+  ],
+  "source_evidence": "Author read complete L41 through21:49 andL42 through23:48, all26topic spans and bounded visual audit. Audit92samples/16native repeats are attributed; no author continuousvideo/audio or repeatedsourceframe viewing claimed.",
+  "source_files": [
+    {
+      "path": "sources/transcripts/41-3kpFyNW-DoQ.txt",
+      "sha256": "9046538418abd633d2e3b18485b962880c7148668c0f75f2c6249823f7821867"
+    },
+    {
+      "path": "sources/transcripts/42-J1sKWBJsKHs.txt",
+      "sha256": "7442727efc1fc2ac4d84e74cf7ac4f09f6a32371c31af8856f03841e064edb22"
+    }
+  ],
+  "coverage_topics": [
+    {
+      "id": "L41-T01",
+      "source_topic_anchor": "01:06",
+      "caption_anchors": [
+        {
+          "anchor": "01:06",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch18-s1",
+      "disposition": "Retain production, support, maturation and delivery as separate functions; distinguish semen from sperm and duct route from endocrine output."
+    },
+    {
+      "id": "L41-T02",
+      "source_topic_anchor": "02:14",
+      "caption_anchors": [
+        {
+          "anchor": "02:14",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch18-s1",
+      "disposition": "Retain penis/scrotum/testes/epididymis/vas/gland inventory; explain scrotal testes versus main body-cavity convention instead of treating internal-organ label as location evidence."
+    },
+    {
+      "id": "L41-T03",
+      "source_topic_anchor": "03:43",
+      "caption_anchors": [
+        {
+          "anchor": "03:43",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "testis-layers",
+      "disposition": "Retain albuginea and vaginalis; correct rough membrane to serous visceral/parietal covering with posterior reflection. Original unscaled section checked against owning anatomy; no copied permission-limited figures."
+    },
+    {
+      "id": "L41-T04",
+      "source_topic_anchor": "05:05",
+      "caption_anchors": [
+        {
+          "anchor": "05:05",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "testis-layers",
+      "disposition": "Retain coiled seminiferous tubules, germ/Sertoli cells; locate development in epithelium before release into lumen, Leydig in interstitium. Basal/adluminal barrier added as checked extension."
+    },
+    {
+      "id": "L41-T05",
+      "source_topic_anchor": "05:43",
+      "caption_anchors": [
+        {
+          "anchor": "05:43",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch18-s3",
+      "disposition": "Retain testicular sperm and testosterone outputs, reproductive/secondary-characteristic/libido/bone/red-cell roles; local versus circulating androgen distinguished."
+    },
+    {
+      "id": "L41-T06",
+      "source_topic_anchor": "06:54",
+      "caption_anchors": [
+        {
+          "anchor": "06:54",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "duct-route",
+      "disposition": "Retain epididymal head/body/tail, membrane remodeling, maturation and storage. Separate capacitation; omit fixed storage lifetime and exact6–7m claim in favor of verified several-meter context."
+    },
+    {
+      "id": "L41-T07",
+      "source_topic_anchor": "08:46",
+      "caption_anchors": [
+        {
+          "anchor": "08:46",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "duct-route",
+      "disposition": "Retain muscular vas transport and spermatic cord/inguinal/pelvic route. Correct ambiguous transported-back wording; blood vessels and vas have separate lumens."
+    },
+    {
+      "id": "L41-T08",
+      "source_topic_anchor": "09:59",
+      "caption_anchors": [
+        {
+          "anchor": "09:59",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "secretions",
+      "disposition": "Retain paired vesicles, fructose, prostaglandins and coagulating proteins. Duct secretion joins route; approximate70% not imposed as universal exact fraction; no fertility or female-tract transport guarantee."
+    },
+    {
+      "id": "L41-T09",
+      "source_topic_anchor": "12:05",
+      "caption_anchors": [
+        {
+          "anchor": "12:05",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "secretions",
+      "disposition": "Correct two prostate/all paired claims to singular prostate surrounding proximal urethra. Retain PSA/PAP/citrate/zinc and liquefaction; PAP-choline motility chain explicitly a2023 proposed mechanism. No exact20–30% partition or isolated-fluid pH diagnosis adopted."
+    },
+    {
+      "id": "L41-T10",
+      "source_topic_anchor": "14:26",
+      "caption_anchors": [
+        {
+          "anchor": "14:26",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "secretions",
+      "disposition": "Retain paired bulbourethral mucoprotein-rich arousal-associated lubrication and spongy urethral entry. No sperm-free pre-ejaculate/contraceptive/STI protection inference."
+    },
+    {
+      "id": "L41-T11",
+      "source_topic_anchor": "16:46",
+      "caption_anchors": [
+        {
+          "anchor": "16:46",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "erection-temperature",
+      "disposition": "Retain root/shaft/glans/foreskin, paired cavernosa and single spongiosum around penile urethra; urinary and reproductive functions distinguished."
+    },
+    {
+      "id": "L41-T12",
+      "source_topic_anchor": "17:45",
+      "caption_anchors": [
+        {
+          "anchor": "17:45",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "erection-temperature",
+      "disposition": "Retain NO-linked smooth-muscle/vascular erection, add cGMP and venous restriction from physiological source. Distinguish erection, emission and expulsive ejaculation; no treatment/dose."
+    },
+    {
+      "id": "L41-T13",
+      "source_topic_anchor": "18:07",
+      "caption_anchors": [
+        {
+          "anchor": "18:07",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "erection-temperature",
+      "disposition": "Retain scrotal thermal regulation, named dartos/cremaster and vascular exchange; separate skin/core/intratesticular/ambient temperatures. Reject universal34–35°C optimum/threshold; human heating abstract supports bounded exposure effects only."
+    },
+    {
+      "id": "L41-T14",
+      "source_topic_anchor": "19:22",
+      "caption_anchors": [
+        {
+          "anchor": "19:22",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "forensic-limits",
+      "disposition": "Dispose of caption fructose-alone proves-assault claim and unverified unique-fructose specificity. Attribute bounded slide warning; explain assay identity versus semen/DNA/context/consent with owning forensic laboratory andNIJ sources."
+    },
+    {
+      "id": "L41-T15",
+      "source_topic_anchor": "20:49",
+      "caption_anchors": [
+        {
+          "anchor": "20:49",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch18-ex5",
+      "disposition": "Retain both closing questions: why outside cavity and sustained normal/elevated core-like temperature effects; conditional exposure/stage/duration answer, no challenge or personal infertility prediction. Captions read through21:49 closing."
+    },
+    {
+      "id": "L42-T01",
+      "source_topic_anchor": "01:13",
+      "caption_anchors": [
+        {
+          "anchor": "01:13",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch18-s2",
+      "disposition": "Retain mitosis/meiosis/differentiation and Sertoli support; correct luminal-development wording to epithelial development with spermiation into lumen."
+    },
+    {
+      "id": "L42-T02",
+      "source_topic_anchor": "02:25",
+      "caption_anchors": [
+        {
+          "anchor": "02:25",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch18-s2",
+      "disposition": "Retain overall stage sequence; separate precursor renewal/commitment from meiotic lineage, shaping, release and epididymal maturation. No equal stage durations."
+    },
+    {
+      "id": "L42-T03",
+      "source_topic_anchor": "04:15",
+      "caption_anchors": [
+        {
+          "anchor": "04:15",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch18-s2",
+      "disposition": "Retain basal spermatogonia and proliferative roles; qualify human A-dark/A-pale/B versus rodent nomenclature and unsettled fate equivalence. No fixed asymmetric stem-cell division yield."
+    },
+    {
+      "id": "L42-T04",
+      "source_topic_anchor": "05:12",
+      "caption_anchors": [
+        {
+          "anchor": "05:12",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ploidy",
+      "disposition": "Retain prophase-I crossing over, homolog segregation and sister separation. Verify premeioticS and separate2n/2C→2n/4C→n/2C→n/1C; no intervening replication. Actual human46/92/23 counts in shared-state counters; four ideal products per completed primary only."
+    },
+    {
+      "id": "L42-T05",
+      "source_topic_anchor": "06:45",
+      "caption_anchors": [
+        {
+          "anchor": "06:45",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "spermiogenesis",
+      "disposition": "Retain acrosome, condensation/elongation, flagellum, mitochondrial midpiece and cytoplasm removal. Distinguish spermiogenesis, spermiation and later functional maturation; no new ploidy change."
+    },
+    {
+      "id": "L42-T06",
+      "source_topic_anchor": "08:23",
+      "caption_anchors": [
+        {
+          "anchor": "08:23",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch18-s3",
+      "disposition": "Retain hypothalamicGnRH→anterior pituitary→parallelFSH/LH; separateSertoli/Leydig targets and androgen action. Correct later pituitary-GnRH error and sequential FSH-then-LH implication."
+    },
+    {
+      "id": "L42-T07",
+      "source_topic_anchor": "11:26",
+      "caption_anchors": [
+        {
+          "anchor": "11:26",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch18-s3",
+      "disposition": "Correct storage-full10million/100million all-gonadotropin stop switch. InhibinB inhibitsFSH principally; steroid/estradiol feedback separately affects upstream signaling; normal feedback is not an endocrine disruptor."
+    },
+    {
+      "id": "L42-T08",
+      "source_topic_anchor": "13:32",
+      "caption_anchors": [
+        {
+          "anchor": "13:32",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "sperm-structure",
+      "disposition": "Retain head nucleus/acrosome, midpiece mitochondria, microtubular flagellum. Acrosin zona penetration evidence bounded by human study/two brothers and hamster experiments; no dissolve-all-layers account, mitochondrial-onlyATP or measured swimming kinetics. BovineTEM clearly separate from human schematic."
+    },
+    {
+      "id": "L42-T09",
+      "source_topic_anchor": "17:00",
+      "caption_anchors": [
+        {
+          "anchor": "17:00",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "production-factors",
+      "disposition": "Retain exogenous androgen suppression, hypothalamic/pituitary/thyroid context, XXY/Y-deletions/CFTR absent vas distinctions, infection/chlamydia/gonorrhea/mumps/varicocele context. Table18.2 explicitly disposes of universal quantitative causal claims for metals/radiation/BPA/pesticides/air pollution/hot tubs/saunas/clothing/sitting/smoking/heavy alcohol/obesity/stress/diet/age; dose/species/endpoints/confounding limits kept. No new treatment or risk coefficient."
+    },
+    {
+      "id": "L42-T10",
+      "source_topic_anchor": "22:34",
+      "caption_anchors": [
+        {
+          "anchor": "22:34",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "duration",
+      "disposition": "Retain approximately74day conventional human interval with committed-start/spermiation endpoint and classic limited evidence; contrast1963abstract64day accounting and later4.6×16discussion. Separate epididymal transit/storage and delayed cohort effects; no universal recovery deadline."
+    },
+    {
+      "id": "L42-T11",
+      "source_topic_anchor": "22:54",
+      "caption_anchors": [
+        {
+          "anchor": "22:54",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch18-ex6",
+      "disposition": "Answer impairedSertoli support/inhibin activity conditionally: impaired germ support,FSH disinhibition if other influences intact, no obligatoryLH/testosterone direction. Toy counterexample isolatesb froma; no implied Leydig destruction. Full captions through23:48 closing read."
+    }
+  ],
+  "body_sha256": "6d4751c253d6ec7c93bb868fd6a256015efd0ef368abf56d4f2891c0521fa603",
+  "body_hash_definition": "SHA256 of exact raw bytes strictly between unique BEGIN/END CHAPTER BODY markers; all newlines retained, no trim or DOM normalization.",
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch18-bovine-sperm-tem.jpg",
+      "sha256": "1fbbcfd268e5d27c505449e690c311c8086018800de38cab5410f1d87b2f9a1d"
+    },
+    {
+      "path": "assets/ch18-checks.js",
+      "sha256": "7770d01221cb4b1326ec2bea83593ad8804ac233bc29f954bbf3cf353a5ba4fd"
+    },
+    {
+      "path": "assets/ch18-context.svg",
+      "sha256": "3688e504c3bcd9a0a3d69d0c9d3d796e1630e473857cdf44a4488c98e4435427"
+    },
+    {
+      "path": "assets/ch18-data.json",
+      "sha256": "e6143055d127a2cef84d3e0c84f8a3416755f74cbf8283e7914119770e191912"
+    },
+    {
+      "path": "assets/ch18-feedback.svg",
+      "sha256": "8d1586f7676938f613ca456d074aeeed726e3f0555f587aa81024c547dfee6ba"
+    },
+    {
+      "path": "assets/ch18-LICENSE.txt",
+      "sha256": "1a9240141a15c72bde5336b4f3ce96bfd551a23d5c41db7038f9bd21670883fa"
+    },
+    {
+      "path": "assets/ch18-mechanisms.css",
+      "sha256": "c4a11a81aecc310d263adfac8e0d5ef656ede2624ba1c4013ebdefc0cd3416f0"
+    },
+    {
+      "path": "assets/ch18-mechanisms.html",
+      "sha256": "c3db8a52a867ac936cc8596f5052d729803b176af9268c5fc8b123cd8041f1cb"
+    },
+    {
+      "path": "assets/ch18-mechanisms.js",
+      "sha256": "66f05ce2424d9604ea4c8fd8d900003ac83957cf7ae6d5cd07a1d9d472767baf"
+    },
+    {
+      "path": "assets/ch18-provenance.json",
+      "sha256": "670f1e6d9af72ea9534d3437724d6f8035b144e710f858de5c93290524c951c1"
+    },
+    {
+      "path": "assets/ch18-rabbit-testis.jpg",
+      "sha256": "e3a57d4480b9a468600a280e7b687cd7f1d6b49ef1589e4a9a547f2140ebd8ad"
+    },
+    {
+      "path": "assets/ch18-routes.svg",
+      "sha256": "00a1519f856f044c9d26e7ba851d673d3b4c0e7d4b597aa9cd1717f7c1ec00d7"
+    },
+    {
+      "path": "assets/ch18-stages.svg",
+      "sha256": "a816a99da63d8dfb7d9e6c825ed57f1d54987bb2b8696d5600d7749feeb866b0"
+    },
+    {
+      "path": "code/ch18_reproduction.py",
+      "sha256": "8b9619ba84e0d11e6315995d105628b69c370ffc1b43f9887f6d08cb6c7d085f"
+    }
+  ],
+  "artifact_sha256": {
+    "assets/ch18-bovine-sperm-tem.jpg": "1fbbcfd268e5d27c505449e690c311c8086018800de38cab5410f1d87b2f9a1d",
+    "assets/ch18-checks.js": "7770d01221cb4b1326ec2bea83593ad8804ac233bc29f954bbf3cf353a5ba4fd",
+    "assets/ch18-context.svg": "3688e504c3bcd9a0a3d69d0c9d3d796e1630e473857cdf44a4488c98e4435427",
+    "assets/ch18-data.json": "e6143055d127a2cef84d3e0c84f8a3416755f74cbf8283e7914119770e191912",
+    "assets/ch18-feedback.svg": "8d1586f7676938f613ca456d074aeeed726e3f0555f587aa81024c547dfee6ba",
+    "assets/ch18-LICENSE.txt": "1a9240141a15c72bde5336b4f3ce96bfd551a23d5c41db7038f9bd21670883fa",
+    "assets/ch18-mechanisms.css": "c4a11a81aecc310d263adfac8e0d5ef656ede2624ba1c4013ebdefc0cd3416f0",
+    "assets/ch18-mechanisms.html": "c3db8a52a867ac936cc8596f5052d729803b176af9268c5fc8b123cd8041f1cb",
+    "assets/ch18-mechanisms.js": "66f05ce2424d9604ea4c8fd8d900003ac83957cf7ae6d5cd07a1d9d472767baf",
+    "assets/ch18-provenance.json": "670f1e6d9af72ea9534d3437724d6f8035b144e710f858de5c93290524c951c1",
+    "assets/ch18-rabbit-testis.jpg": "e3a57d4480b9a468600a280e7b687cd7f1d6b49ef1589e4a9a547f2140ebd8ad",
+    "assets/ch18-routes.svg": "00a1519f856f044c9d26e7ba851d673d3b4c0e7d4b597aa9cd1717f7c1ec00d7",
+    "assets/ch18-stages.svg": "a816a99da63d8dfb7d9e6c825ed57f1d54987bb2b8696d5600d7749feeb866b0",
+    "code/ch18_reproduction.py": "8b9619ba84e0d11e6315995d105628b69c370ffc1b43f9887f6d08cb6c7d085f"
+  },
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch17_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "6d4751c253d6ec7c93bb868fd6a256015efd0ef368abf56d4f2891c0521fa603",
+      "artifact_sha256": {
+        "assets/ch18-bovine-sperm-tem.jpg": "1fbbcfd268e5d27c505449e690c311c8086018800de38cab5410f1d87b2f9a1d",
+        "assets/ch18-checks.js": "7770d01221cb4b1326ec2bea83593ad8804ac233bc29f954bbf3cf353a5ba4fd",
+        "assets/ch18-context.svg": "3688e504c3bcd9a0a3d69d0c9d3d796e1630e473857cdf44a4488c98e4435427",
+        "assets/ch18-data.json": "e6143055d127a2cef84d3e0c84f8a3416755f74cbf8283e7914119770e191912",
+        "assets/ch18-feedback.svg": "8d1586f7676938f613ca456d074aeeed726e3f0555f587aa81024c547dfee6ba",
+        "assets/ch18-LICENSE.txt": "1a9240141a15c72bde5336b4f3ce96bfd551a23d5c41db7038f9bd21670883fa",
+        "assets/ch18-mechanisms.css": "c4a11a81aecc310d263adfac8e0d5ef656ede2624ba1c4013ebdefc0cd3416f0",
+        "assets/ch18-mechanisms.html": "c3db8a52a867ac936cc8596f5052d729803b176af9268c5fc8b123cd8041f1cb",
+        "assets/ch18-mechanisms.js": "66f05ce2424d9604ea4c8fd8d900003ac83957cf7ae6d5cd07a1d9d472767baf",
+        "assets/ch18-provenance.json": "670f1e6d9af72ea9534d3437724d6f8035b144e710f858de5c93290524c951c1",
+        "assets/ch18-rabbit-testis.jpg": "e3a57d4480b9a468600a280e7b687cd7f1d6b49ef1589e4a9a547f2140ebd8ad",
+        "assets/ch18-routes.svg": "00a1519f856f044c9d26e7ba851d673d3b4c0e7d4b597aa9cd1717f7c1ec00d7",
+        "assets/ch18-stages.svg": "a816a99da63d8dfb7d9e6c825ed57f1d54987bb2b8696d5600d7749feeb866b0",
+        "code/ch18_reproduction.py": "8b9619ba84e0d11e6315995d105628b69c370ffc1b43f9887f6d08cb6c7d085f"
+      },
+      "report_path": "work/reviews/ch18-approved-a.md",
+      "report_sha256": "19ecb1dad97af075e374f291e13e9a2c4ab5076648b31e13b042dc7cd51b9657",
+      "original_full_report": "work/reviews/ch18-review-a.md",
+      "targeted_report": "work/reviews/ch18-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch17_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "6d4751c253d6ec7c93bb868fd6a256015efd0ef368abf56d4f2891c0521fa603",
+      "artifact_sha256": {
+        "assets/ch18-bovine-sperm-tem.jpg": "1fbbcfd268e5d27c505449e690c311c8086018800de38cab5410f1d87b2f9a1d",
+        "assets/ch18-checks.js": "7770d01221cb4b1326ec2bea83593ad8804ac233bc29f954bbf3cf353a5ba4fd",
+        "assets/ch18-context.svg": "3688e504c3bcd9a0a3d69d0c9d3d796e1630e473857cdf44a4488c98e4435427",
+        "assets/ch18-data.json": "e6143055d127a2cef84d3e0c84f8a3416755f74cbf8283e7914119770e191912",
+        "assets/ch18-feedback.svg": "8d1586f7676938f613ca456d074aeeed726e3f0555f587aa81024c547dfee6ba",
+        "assets/ch18-LICENSE.txt": "1a9240141a15c72bde5336b4f3ce96bfd551a23d5c41db7038f9bd21670883fa",
+        "assets/ch18-mechanisms.css": "c4a11a81aecc310d263adfac8e0d5ef656ede2624ba1c4013ebdefc0cd3416f0",
+        "assets/ch18-mechanisms.html": "c3db8a52a867ac936cc8596f5052d729803b176af9268c5fc8b123cd8041f1cb",
+        "assets/ch18-mechanisms.js": "66f05ce2424d9604ea4c8fd8d900003ac83957cf7ae6d5cd07a1d9d472767baf",
+        "assets/ch18-provenance.json": "670f1e6d9af72ea9534d3437724d6f8035b144e710f858de5c93290524c951c1",
+        "assets/ch18-rabbit-testis.jpg": "e3a57d4480b9a468600a280e7b687cd7f1d6b49ef1589e4a9a547f2140ebd8ad",
+        "assets/ch18-routes.svg": "00a1519f856f044c9d26e7ba851d673d3b4c0e7d4b597aa9cd1717f7c1ec00d7",
+        "assets/ch18-stages.svg": "a816a99da63d8dfb7d9e6c825ed57f1d54987bb2b8696d5600d7749feeb866b0",
+        "code/ch18_reproduction.py": "8b9619ba84e0d11e6315995d105628b69c370ffc1b43f9887f6d08cb6c7d085f"
+      },
+      "report_path": "work/reviews/ch18-approved-b.md",
+      "report_sha256": "c3296eaeca7a798e3fcc8e4c6d00df425df06c54f51818a6039256563698e224",
+      "original_full_report": "work/reviews/ch18-review-b.md",
+      "targeted_report": "work/reviews/ch18-targeted-b.md"
+    }
+  ],
+  "code": [
+    "code/ch18_reproduction.py"
+  ],
+  "code_validation": "Python completed-stage/cohortDNA/zero limits/domain/equilibrium checks and Node mock-DOM shared counters/topology/determinism/reset/seek checks run. No production browser/motion/print claim.",
+  "figures": [
+    {
+      "id": "ch18-fig1",
+      "path": "assets/ch18-context.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch18-tissue",
+      "path": "assets/ch18-rabbit-testis.jpg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch18-ultrastructure",
+      "path": "assets/ch18-bovine-sperm-tem.jpg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch18-anim1",
+      "path": "chapter-18-male-reproduction-spermatogenesis.html#ch18-anim1",
+      "embedded_panel": "assets/ch18-mechanisms.html?mode=stages",
+      "status": "accepted"
+    },
+    {
+      "id": "ch18-anim2",
+      "path": "chapter-18-male-reproduction-spermatogenesis.html#ch18-anim2",
+      "embedded_panel": "assets/ch18-mechanisms.html?mode=routes",
+      "equivalent_views": [
+        "assets/ch18-mechanisms.html?mode=feedback"
+      ],
+      "status": "accepted"
+    }
+  ],
+  "realistic_asset_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Seminiferous tissue, germ-cell chromosome/DNA states, reproductive ducts and endocrine feedback",
+    "rationale": "Verified rabbit bright-field tissue and bovine sperm TEM supply prepared microscopic appearance. Original source-checked, separate-scale connectivity and sectional reconstructions plus controlled cell, duct and hormone views explain causal relationships. The prepared images do not demonstrate human timing, molecule identity or live trajectories.",
+    "appearance_references": [
+      "assets/ch18-rabbit-testis.jpg",
+      "assets/ch18-bovine-sperm-tem.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch18-mechanisms.html",
+      "assets/ch18-mechanisms.js"
+    ],
+    "report_path": "work/browser/ch18-visual-modality.json",
+    "report_sha256": "f9a6b688b8ae03d33b7204a97310a1369c68ed17330f3b567e9847914c71c24f"
+  },
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
+    "browser": "Actual root current reader, three controlled views, all six completed cell states, selected duct/hormone cases, active playback and reduced-motion pause, desktop/650px/390px access, print generation and 22-page PDF inspection",
+    "coverage": "All26 assigned L41–42 topics and both closing activities disposed; full publisher captions; bounded6contact sheets92sampled stills plus16native frame repeats, not continuous video/audio."
+  },
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "author_report": "work/ch18-author-report.md",
+  "research_ledger": "work/ch18-research-ledger.md",
+  "production_validation": {
+    "report_path": "work/browser/ch18-production-final.json",
+    "report_sha256": "d8c1febcf9d6fb09bad12a6a572f7f0617c7d245822ded0fcd7b733dd4d77606",
+    "scope": "Actual root current reader, three controlled views, all six completed cell states, selected duct/hormone cases, active playback and reduced-motion pause, desktop/650px/390px access, print generation and 22-page PDF inspection"
+  },
+  "limitations": [
+    "n/C table reports completed euploid states; no literal chromosome count from drawn one-pair glyphs or human stage kinetics.",
+    "Cohort attrition and equilibrium parameters are synthetic; separate feedback loops omit steroid influence onFSH and all temporal dynamics, no patient model.",
+    "Observed rabbit/bovine images are prepared cross-species references with unverified physical scale, not human sperm/tissue trajectories.",
+    "Forensic fructose specificity unverified; chemical/DNA findings do not alone establish consent/assault.",
+    "No uniform risk coefficient or causal magnitude verified for every named exposure/lifestyle factor; clinical descriptions are conceptual, no dose/diagnostic algorithm."
+  ],
+  "coverage_basis": "All26 assigned L41–42 topics and both closing activities disposed; full publisher captions; bounded6contact sheets92sampled stills plus16native frame repeats, not continuous video/audio.",
+  "accepted_at_utc": "2026-11-05T02:05:57.232Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-18.json",
+    "sha256": "5d09ac7c78a565e7f3a6ca8f5a9816ddebe0a4d611d7b974b4fdf5391056d85f"
+  }
+}

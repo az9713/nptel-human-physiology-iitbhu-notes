@@ -1,0 +1,570 @@
+{
+  "chapter": 16,
+  "title": "Kidney organization and glomerular filtration",
+  "status": "accepted",
+  "coverage_complete": true,
+  "source_recordings": [
+    36,
+    37
+  ],
+  "source_evidence": "Both complete caption texts and all 40 topic ledger entries read. Bounded source-visual audit attributed to work/visual-review-ch16.md: 115 temporal samples plus 13 repeat native views; no continuous audio/video claim.",
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "body_sha256": "2bdd5eb9148fc43054819866fd11871b4a2093bdd16e18370c0f4d81901a2ac4",
+  "body_digest_convention": "SHA256 of raw bytes strictly between exact body markers, preserving enclosed newlines",
+  "artifact_sha256": {
+    "assets/ch16-LICENSE.txt": "b4d13a1da44051f95697dfcf14e9e67f9e7edd3af02dce93d3a82baa76951e8b",
+    "assets/ch16-barrier-section.svg": "f242742cc0be290b8603a38463832e624668e2ef27093d766977d50c23f06b78",
+    "assets/ch16-checks.js": "7e635d28adc88344dcb7a8cbac9889f2951fdc1ce944863f723426a4b77a49f6",
+    "assets/ch16-context.svg": "5eddfda2477a85cdd43a64b4e32c78d0966bb96c65901560e3d0c3b110af9769",
+    "assets/ch16-controls.js": "14743956e41972f38a70f78a20fdb9622862f9ce63cf8555d94cac81c9e59368",
+    "assets/ch16-filtration.html": "32656458860c6a809b33b20dcf0fe321be690e33fc9ce5f868438c1b3ddcbcb5",
+    "assets/ch16-glomerulus-sem.jpg": "c0e94632237a66e8aadf9641741eb5fbfd20797973b0d9b4cc6fca14c6336f33",
+    "assets/ch16-mechanisms.css": "b90ccb15f73e4347adbb07030e9d010323e0d7e42679999096941cc643ad2e7a",
+    "assets/ch16-models.js": "249a755ae933e7ed049acceafa1e13ef9328f851d856cdce09ae2b33102d8b5c",
+    "assets/ch16-provenance.json": "1f4e73e35bbded947a220717e9d034febd34e2577fcd5c801ef0cf3f4baa1ed7",
+    "assets/ch16-resistance.html": "f759bd8cbb55af428a31f4f15f86b2ec04f59d3ebb1400629cc102b1eee47cce",
+    "assets/ch16-routes.html": "64b646120958e3d5863a2d59452322ba2101f46fd66618bf8e760363527f068a",
+    "code/ch16_renal_bookkeeping.py": "f575ff88998bc791c84b608ceb948792c6a212ecc31af4cafb54a285a4a71625"
+  },
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch16-LICENSE.txt",
+      "sha256": "b4d13a1da44051f95697dfcf14e9e67f9e7edd3af02dce93d3a82baa76951e8b"
+    },
+    {
+      "path": "assets/ch16-barrier-section.svg",
+      "sha256": "f242742cc0be290b8603a38463832e624668e2ef27093d766977d50c23f06b78"
+    },
+    {
+      "path": "assets/ch16-checks.js",
+      "sha256": "7e635d28adc88344dcb7a8cbac9889f2951fdc1ce944863f723426a4b77a49f6"
+    },
+    {
+      "path": "assets/ch16-context.svg",
+      "sha256": "5eddfda2477a85cdd43a64b4e32c78d0966bb96c65901560e3d0c3b110af9769"
+    },
+    {
+      "path": "assets/ch16-controls.js",
+      "sha256": "14743956e41972f38a70f78a20fdb9622862f9ce63cf8555d94cac81c9e59368"
+    },
+    {
+      "path": "assets/ch16-filtration.html",
+      "sha256": "32656458860c6a809b33b20dcf0fe321be690e33fc9ce5f868438c1b3ddcbcb5"
+    },
+    {
+      "path": "assets/ch16-glomerulus-sem.jpg",
+      "sha256": "c0e94632237a66e8aadf9641741eb5fbfd20797973b0d9b4cc6fca14c6336f33"
+    },
+    {
+      "path": "assets/ch16-mechanisms.css",
+      "sha256": "b90ccb15f73e4347adbb07030e9d010323e0d7e42679999096941cc643ad2e7a"
+    },
+    {
+      "path": "assets/ch16-models.js",
+      "sha256": "249a755ae933e7ed049acceafa1e13ef9328f851d856cdce09ae2b33102d8b5c"
+    },
+    {
+      "path": "assets/ch16-provenance.json",
+      "sha256": "1f4e73e35bbded947a220717e9d034febd34e2577fcd5c801ef0cf3f4baa1ed7"
+    },
+    {
+      "path": "assets/ch16-resistance.html",
+      "sha256": "f759bd8cbb55af428a31f4f15f86b2ec04f59d3ebb1400629cc102b1eee47cce"
+    },
+    {
+      "path": "assets/ch16-routes.html",
+      "sha256": "64b646120958e3d5863a2d59452322ba2101f46fd66618bf8e760363527f068a"
+    },
+    {
+      "path": "code/ch16_renal_bookkeeping.py",
+      "sha256": "f575ff88998bc791c84b608ceb948792c6a212ecc31af4cafb54a285a4a71625"
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch16_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "Original actual independent full review by /root/ch16_review_a plus current targeted changed-content verification by separately identified /root/ch17_review_a; aggregate approval, no additional full review",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "2bdd5eb9148fc43054819866fd11871b4a2093bdd16e18370c0f4d81901a2ac4",
+      "artifact_sha256": {
+        "assets/ch16-LICENSE.txt": "b4d13a1da44051f95697dfcf14e9e67f9e7edd3af02dce93d3a82baa76951e8b",
+        "assets/ch16-barrier-section.svg": "f242742cc0be290b8603a38463832e624668e2ef27093d766977d50c23f06b78",
+        "assets/ch16-checks.js": "7e635d28adc88344dcb7a8cbac9889f2951fdc1ce944863f723426a4b77a49f6",
+        "assets/ch16-context.svg": "5eddfda2477a85cdd43a64b4e32c78d0966bb96c65901560e3d0c3b110af9769",
+        "assets/ch16-controls.js": "14743956e41972f38a70f78a20fdb9622862f9ce63cf8555d94cac81c9e59368",
+        "assets/ch16-filtration.html": "32656458860c6a809b33b20dcf0fe321be690e33fc9ce5f868438c1b3ddcbcb5",
+        "assets/ch16-glomerulus-sem.jpg": "c0e94632237a66e8aadf9641741eb5fbfd20797973b0d9b4cc6fca14c6336f33",
+        "assets/ch16-mechanisms.css": "b90ccb15f73e4347adbb07030e9d010323e0d7e42679999096941cc643ad2e7a",
+        "assets/ch16-models.js": "249a755ae933e7ed049acceafa1e13ef9328f851d856cdce09ae2b33102d8b5c",
+        "assets/ch16-provenance.json": "1f4e73e35bbded947a220717e9d034febd34e2577fcd5c801ef0cf3f4baa1ed7",
+        "assets/ch16-resistance.html": "f759bd8cbb55af428a31f4f15f86b2ec04f59d3ebb1400629cc102b1eee47cce",
+        "assets/ch16-routes.html": "64b646120958e3d5863a2d59452322ba2101f46fd66618bf8e760363527f068a",
+        "code/ch16_renal_bookkeeping.py": "f575ff88998bc791c84b608ceb948792c6a212ecc31af4cafb54a285a4a71625"
+      },
+      "report_path": "work/reviews/ch16-approved-a.md",
+      "report_sha256": "417bb1be4feee530e1362a465e7f571636aa516b179f5ac32b29198a19e0df41",
+      "original_full_report": "work/reviews/ch16-review-a.md",
+      "targeted_report": "work/reviews/ch16-targeted-a.md",
+      "targeted_reviewer_id": "/root/ch17_review_a",
+      "targeted_reviewer_model": "gpt-6.1-sol",
+      "targeted_checker_is_separate": true,
+      "original_full_review_body_sha256": "85df7e7285d0d2309a1711490c7503e48d5df0cdc9a0cb8b037f4518c7084c53"
+    },
+    {
+      "reviewer_id": "/root/ch16_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "Original actual independent full review by /root/ch16_review_b plus current targeted changed-content verification by separately identified /root/ch17_review_b; aggregate approval, no additional full review",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "2bdd5eb9148fc43054819866fd11871b4a2093bdd16e18370c0f4d81901a2ac4",
+      "artifact_sha256": {
+        "assets/ch16-LICENSE.txt": "b4d13a1da44051f95697dfcf14e9e67f9e7edd3af02dce93d3a82baa76951e8b",
+        "assets/ch16-barrier-section.svg": "f242742cc0be290b8603a38463832e624668e2ef27093d766977d50c23f06b78",
+        "assets/ch16-checks.js": "7e635d28adc88344dcb7a8cbac9889f2951fdc1ce944863f723426a4b77a49f6",
+        "assets/ch16-context.svg": "5eddfda2477a85cdd43a64b4e32c78d0966bb96c65901560e3d0c3b110af9769",
+        "assets/ch16-controls.js": "14743956e41972f38a70f78a20fdb9622862f9ce63cf8555d94cac81c9e59368",
+        "assets/ch16-filtration.html": "32656458860c6a809b33b20dcf0fe321be690e33fc9ce5f868438c1b3ddcbcb5",
+        "assets/ch16-glomerulus-sem.jpg": "c0e94632237a66e8aadf9641741eb5fbfd20797973b0d9b4cc6fca14c6336f33",
+        "assets/ch16-mechanisms.css": "b90ccb15f73e4347adbb07030e9d010323e0d7e42679999096941cc643ad2e7a",
+        "assets/ch16-models.js": "249a755ae933e7ed049acceafa1e13ef9328f851d856cdce09ae2b33102d8b5c",
+        "assets/ch16-provenance.json": "1f4e73e35bbded947a220717e9d034febd34e2577fcd5c801ef0cf3f4baa1ed7",
+        "assets/ch16-resistance.html": "f759bd8cbb55af428a31f4f15f86b2ec04f59d3ebb1400629cc102b1eee47cce",
+        "assets/ch16-routes.html": "64b646120958e3d5863a2d59452322ba2101f46fd66618bf8e760363527f068a",
+        "code/ch16_renal_bookkeeping.py": "f575ff88998bc791c84b608ceb948792c6a212ecc31af4cafb54a285a4a71625"
+      },
+      "report_path": "work/reviews/ch16-approved-b.md",
+      "report_sha256": "145ff61378f115bb24881c964d265c754d2de00adfd2d0afc24faad45bae8133",
+      "original_full_report": "work/reviews/ch16-review-b.md",
+      "targeted_report": "work/reviews/ch16-targeted-b.md",
+      "targeted_reviewer_id": "/root/ch17_review_b",
+      "targeted_reviewer_model": "gpt-6-sol",
+      "targeted_checker_is_separate": true,
+      "original_full_review_body_sha256": "85df7e7285d0d2309a1711490c7503e48d5df0cdc9a0cb8b037f4518c7084c53"
+    }
+  ],
+  "source_topic_count": 40,
+  "topic_dispositions": [
+    {
+      "id": "L36-T01",
+      "source_anchor": "01:59",
+      "topic": "[01:59] excretion",
+      "planned_section": "ch16-s1",
+      "anchor": "excretion",
+      "disposition": "Retain excretion versus egestion and systemic homeostasis."
+    },
+    {
+      "id": "L36-T02",
+      "source_anchor": "03:14",
+      "topic": "[03:14] organ roles",
+      "planned_section": "ch16-s1",
+      "anchor": "excretion",
+      "disposition": "Retain organ cooperation; correct carbon dioxide to metabolic waste and distinguish sweat from renal nitrogen handling."
+    },
+    {
+      "id": "L36-T03",
+      "source_anchor": "06:36",
+      "topic": "[06:36] wastes",
+      "planned_section": "ch16-s1",
+      "anchor": "wastes",
+      "disposition": "Retain waste classes; correct adult water claim and distinguish dietary salt loads from metabolic generation."
+    },
+    {
+      "id": "L36-T04",
+      "source_anchor": "07:41",
+      "topic": "[07:41] ammonia",
+      "planned_section": "ch16-s1",
+      "anchor": "wastes",
+      "disposition": "Retain ammonia/ammonium and toxicity; hepatic detoxification replaces the erroneous ammonia-to-uric-acid chain."
+    },
+    {
+      "id": "L36-T05",
+      "source_anchor": "08:51",
+      "topic": "[08:51] urea",
+      "planned_section": "ch16-s1",
+      "anchor": "wastes",
+      "disposition": "Retain hepatic urea cycle and renal excretion; qualify nitrogen transport hazard and toxicity."
+    },
+    {
+      "id": "L36-T06",
+      "source_anchor": "09:57",
+      "topic": "[09:57] uric acid",
+      "planned_section": "ch16-s1",
+      "anchor": "wastes",
+      "disposition": "Correct uric acid to purine metabolism and limited, pH-dependent solubility; reject complete insolubility."
+    },
+    {
+      "id": "L36-T07",
+      "source_anchor": "11:22",
+      "topic": "[11:22] creatinine and confounding",
+      "planned_section": "ch16-s1",
+      "anchor": "wastes",
+      "disposition": "Retain creatinine/muscle confounding; omit routine crystallization and unsupported sex-specific production ranges; BUN alone is not confirmatory."
+    },
+    {
+      "id": "L36-T08",
+      "source_anchor": "12:43",
+      "topic": "[12:43] urinary tract",
+      "planned_section": "ch16-s1",
+      "anchor": "gross",
+      "disposition": "Correct urethra to ureter in kidney-to-bladder route; retain the full urinary tract."
+    },
+    {
+      "id": "L36-T09",
+      "source_anchor": "13:23",
+      "topic": "[13:23] kidney dimensions",
+      "planned_section": "ch16-s1",
+      "anchor": "gross",
+      "disposition": "Retain bean shape and approximate 10–12 cm adult example; omit fixed mass/width/thickness diagnostic ranges."
+    },
+    {
+      "id": "L36-T10",
+      "source_anchor": "13:40",
+      "topic": "[13:40] cortex/medulla",
+      "planned_section": "ch16-s1",
+      "anchor": "gross",
+      "disposition": "Separate cortex and medulla from sinus; retain cortical columns and papilla/calyx drainage."
+    },
+    {
+      "id": "L36-T11",
+      "source_anchor": "14:18",
+      "topic": "[14:18] nephron and number",
+      "planned_section": "ch16-s1",
+      "anchor": "nephron",
+      "disposition": "Define a multicellular nephron, with variable order-of-million counts; narrow inconsistent counts are not constants."
+    },
+    {
+      "id": "L36-T12",
+      "source_anchor": "14:58",
+      "topic": "[14:58] injury",
+      "planned_section": "ch16-s1",
+      "anchor": "endocrine",
+      "disposition": "Distinguish reversible injury, permanent nephron loss and renal reserve; reject inevitable immediate total failure."
+    },
+    {
+      "id": "L36-T13",
+      "source_anchor": "17:17",
+      "topic": "[17:17] sinus",
+      "planned_section": "ch16-s1",
+      "anchor": "gross",
+      "disposition": "Define sinus contents and distinguish the collecting space from functional tissue layers."
+    },
+    {
+      "id": "L36-T14",
+      "source_anchor": "17:43",
+      "topic": "[17:43] tubular anatomy",
+      "planned_section": "ch16-s1",
+      "anchor": "nephron",
+      "disposition": "Retain corpuscle, proximal tubule, loop, distal tubule and collecting routes, including Bellini ducts and calyces."
+    },
+    {
+      "id": "L36-T15",
+      "source_anchor": "18:42",
+      "topic": "[18:42] excretory/homeostatic functions",
+      "planned_section": "ch16-s1",
+      "anchor": "endocrine",
+      "disposition": "Retain volume, electrolytes, osmolality, acid-base and waste functions; qualify bilirubin routes and molecular forms."
+    },
+    {
+      "id": "L36-T16",
+      "source_anchor": "20:06",
+      "topic": "[20:06] EPO",
+      "planned_section": "ch16-s1",
+      "anchor": "endocrine",
+      "disposition": "EPO responds to oxygen-sensitive signaling, not direct RBC counting; correct thrombopoietin source using liver-primary evidence."
+    },
+    {
+      "id": "L36-T17",
+      "source_anchor": "20:37",
+      "topic": "[20:37] RAAS",
+      "planned_section": "ch16-s1",
+      "anchor": "jga",
+      "disposition": "Renin is an enzyme distinct from angiotensin; RAAS does not automatically prevent hypertension."
+    },
+    {
+      "id": "L36-T18",
+      "source_anchor": "21:40",
+      "topic": "[21:40] vitamin D",
+      "planned_section": "ch16-s1",
+      "anchor": "endocrine",
+      "disposition": "Correct activation direction from 25-hydroxyvitamin D to active 1,25-dihydroxyvitamin D."
+    },
+    {
+      "id": "L36-T19",
+      "source_anchor": "23:18",
+      "topic": "[23:18] right-kidney position",
+      "planned_section": "ch16-s1",
+      "anchor": "gross",
+      "disposition": "Retain the usual lower right kidney position and liver relationship."
+    },
+    {
+      "id": "L36-T20",
+      "source_anchor": "23:35",
+      "topic": "[23:35] uromodulin question.",
+      "planned_section": "ch16-s1",
+      "anchor": "ex16-6",
+      "disposition": "Answer uromodulin synthesis, defense and salt handling with species limits; omit undefined 60–70% gene statistic."
+    },
+    {
+      "id": "L37-T01",
+      "source_anchor": "01:14",
+      "topic": "[01:14] nephron types",
+      "planned_section": "ch16-s1",
+      "anchor": "nephron",
+      "disposition": "Place all corpuscles in cortex, including juxtamedullary ones; qualify counts and omit a fixed 85% proportion."
+    },
+    {
+      "id": "L37-T02",
+      "source_anchor": "03:14",
+      "topic": "[03:14] glomerulus and arterioles",
+      "planned_section": "ch16-s1",
+      "anchor": "nephron",
+      "disposition": "Separate afferent→glomerular lumen→efferent blood route from the filtered branch."
+    },
+    {
+      "id": "L37-T03",
+      "source_anchor": "04:45",
+      "topic": "[04:45] fenestrations",
+      "planned_section": "ch16-s1",
+      "anchor": "barrier",
+      "disposition": "Explain fenestrated endothelium plus glycocalyx; reject blood-cell passage and a universal molecular cutoff."
+    },
+    {
+      "id": "L37-T04",
+      "source_anchor": "05:45",
+      "topic": "[05:45] GBM layers",
+      "planned_section": "ch16-s1",
+      "anchor": "barrier",
+      "disposition": "Retain collagen IV/laminin and conventional EM layer orientation; distinguish preparation contrast from independent filters."
+    },
+    {
+      "id": "L37-T05",
+      "source_anchor": "07:01",
+      "topic": "[07:01] charge",
+      "planned_section": "ch16-s1",
+      "anchor": "barrier",
+      "disposition": "Reject all-proteins-negative and charge-only explanations; include mouse agrin/perlecan counterexample with limits."
+    },
+    {
+      "id": "L37-T06",
+      "source_anchor": "09:40",
+      "topic": "[09:40] filtration membrane",
+      "planned_section": "ch16-s1",
+      "anchor": "barrier",
+      "disposition": "Explain the integrated barrier and binding limits for lipid and hemoglobin claims; bridge small-solute filtration to reabsorption."
+    },
+    {
+      "id": "L37-T07",
+      "source_anchor": "10:29",
+      "topic": "[10:29] Bowman capsule",
+      "planned_section": "ch16-s1",
+      "anchor": "barrier",
+      "disposition": "Separate parietal/visceral capsule layers and capsular space."
+    },
+    {
+      "id": "L37-T08",
+      "source_anchor": "11:11",
+      "topic": "[11:11] podocytes/nephrin",
+      "planned_section": "ch16-s1",
+      "anchor": "barrier",
+      "disposition": "Distinguish podocytes from their foot processes and nephrin-containing slit diaphragms; reject a universal 10 nm sieve."
+    },
+    {
+      "id": "L37-T09",
+      "source_anchor": "13:39",
+      "topic": "[13:39] mesangial account",
+      "planned_section": "ch16-s1",
+      "anchor": "barrier",
+      "disposition": "Retain mesangial support/local clearance; reject unsupported slit-patrolling protein-chopping behavior."
+    },
+    {
+      "id": "L37-T10",
+      "source_anchor": "16:18",
+      "topic": "[16:18] GFR",
+      "planned_section": "ch16-s3",
+      "anchor": "ch16-s2",
+      "disposition": "Define GFR as bilateral ultrafiltrate volume/time, distinct from whole-blood flow and urine flow."
+    },
+    {
+      "id": "L37-T11",
+      "source_anchor": "16:42",
+      "topic": "[16:42] blood/plasma/filtrate flows",
+      "planned_section": "ch16-s3",
+      "anchor": "ch16-s3",
+      "disposition": "Correct actual slide plasma label and nonconserving flow diagram: 1,200=1,075+125, with 500 efferent plasma and 575 retained cells."
+    },
+    {
+      "id": "L37-T12",
+      "source_anchor": "17:44",
+      "topic": "[17:44] determinants",
+      "planned_section": "ch16-s2",
+      "anchor": "ch16-s2",
+      "disposition": "Define coefficient, area/permeability and explicit reflection assumption; reject universal flow/systemic-pressure proportionality."
+    },
+    {
+      "id": "L37-T13",
+      "source_anchor": "18:40",
+      "topic": "[18:40] net pressure",
+      "planned_section": "ch16-s2",
+      "anchor": "ch16-s2",
+      "disposition": "Choose capillary-to-capsular positive direction and derive hydrostatic/oncotic signs separately."
+    },
+    {
+      "id": "L37-T14",
+      "source_anchor": "19:39",
+      "topic": "[19:39] pressure values",
+      "planned_section": "ch16-s2",
+      "anchor": "ch16-s2",
+      "disposition": "Calculate illustrative 55−15−30=10 mmHg; distinguish capsular hydrostatic pressure from plasma oncotic pressure and reject Hz."
+    },
+    {
+      "id": "L37-T15",
+      "source_anchor": "22:59",
+      "topic": "[22:59] resistance/flow factors",
+      "planned_section": "ch16-s2",
+      "anchor": "resistance",
+      "disposition": "Explain afferent versus moderate/severe efferent effects; keep the two-resistor analogy separate from a nephron/GFR model."
+    },
+    {
+      "id": "L37-T16",
+      "source_anchor": "24:36",
+      "topic": "[24:36] hormones",
+      "planned_section": "ch16-s2",
+      "anchor": "jga",
+      "disposition": "Disposition every mediator name; distinguish intracellular cAMP, PGE₂/PGF₂ slide wording and caption error; omit a universal drug/direction table."
+    },
+    {
+      "id": "L37-T17",
+      "source_anchor": "25:54",
+      "topic": "[25:54] JGA",
+      "planned_section": "ch16-s2",
+      "anchor": "jga",
+      "disposition": "Separate tubular macula-densa salt sensing, vascular granular renin cells and lacis region; JGA is outside the GBM."
+    },
+    {
+      "id": "L37-T18",
+      "source_anchor": "27:13",
+      "topic": "[27:13] granular cells/renin",
+      "planned_section": "ch16-s2",
+      "anchor": "jga",
+      "disposition": "Explain renin enzymatic processing and rabbit macula-densa PGE₂ evidence; omit the unqualified amino-acid count."
+    },
+    {
+      "id": "L37-T19",
+      "source_anchor": "28:55",
+      "topic": "[28:55] proteinuria",
+      "planned_section": "ch16-s2",
+      "anchor": "proteinuria",
+      "disposition": "Qualify proteinuria/edema: foam is not diagnostic, protein leakage need not raise GFR, and other variables change."
+    },
+    {
+      "id": "L37-T20",
+      "source_anchor": "29:39",
+      "topic": "[29:39] barrier questions.",
+      "planned_section": "ch16-s2",
+      "anchor": "ex16-2",
+      "disposition": "Solve both barrier questions and the slide-only right ureter obstruction question, including capsular pressure, one-kidney scaling and contralateral/time assumptions."
+    }
+  ],
+  "scientific_issue_dispositions": [
+    {
+      "id": "SCI-014",
+      "status": "corrected in draft; independent review pending",
+      "anchor": "ch16-s3",
+      "detail": "The actual slide labels 1,200 mL plasma/min and uses nonconserving 1,200/575/125 routes. The draft explicitly corrects both with RPF=RBF(1−H), FF=GFR/RPF, and 500 mL/min efferent plasma +575 retained cells=1,075 efferent blood. No caption-only error claim."
+    }
+  ],
+  "exercises": {
+    "count": 6,
+    "solutions": "fully worked"
+  },
+  "code": [
+    "code/ch16_renal_bookkeeping.py"
+  ],
+  "code_validation": "Union repair checks pass: forward pressure-domain equality/reversal/nonfinite inputs rejected in Python and JS; ordinary Python JSON byte-for-byte and 101 sampled JavaScript state arrays are unchanged. Marker storage identity checked separately. Final backslash math, local targets, six solutions and SVG topology pass. Two original full reviews preserved; targeted checks and actual production inspection remain root-owned.",
+  "figures": [
+    {
+      "id": "ch16-anim1",
+      "path": "assets/ch16-routes.html",
+      "status": "accepted",
+      "role": "Original gross kidney/cortex–medulla context and separately scaled nephron arrangements paired with controlled vascular/tubular route sequence."
+    },
+    {
+      "id": "ch16-anim2",
+      "path": "assets/ch16-filtration.html",
+      "status": "accepted",
+      "role": "Unscaled accurate sectional reconstruction from lumen through surface layer, endothelium, continuous GBM and podocyte slit to capsular space, paired with bounded pressure sweep."
+    },
+    {
+      "id": "ch16-anim3",
+      "path": "assets/ch16-resistance.html",
+      "status": "accepted",
+      "role": "Independent two-resistor pressure/flow sweep; no fitted GFR/nephron response."
+    },
+    {
+      "id": "ch16-fig1",
+      "path": "assets/ch16-glomerulus-sem.jpg",
+      "status": "accepted",
+      "role": "Actual Wellcome glomerular SEM with explicit CC BY 4.0; source-checked original section/context reconstructions in ch16-context.svg and ch16-barrier-section.svg are separately scaled and not registered to the observation."
+    }
+  ],
+  "realistic_asset_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Kidney regional organization and integrated glomerular filtration wall",
+    "rationale": "Owning-source verified nativeWellcomeSEM providespreparedglomerularsurfaceappearance. Originalsource-checkedseparatescale kidney/nephron andbarriersectionspluscontrolledroute/pressure/resistanceanimationsprovide spatial/causalexplanations. SurfaceSEM isnot registered sectionormoleculartrajectory.",
+    "appearance_references": [
+      "assets/ch16-glomerulus-sem.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch16-routes.html",
+      "assets/ch16-filtration.html",
+      "assets/ch16-resistance.html"
+    ],
+    "report_path": "work/browser/ch16-visual-modality.json",
+    "report_sha256": "fca2f32f0eb521ec1fa271051c016f4f4f2a1fae8ba35653597e303c3e114db7"
+  },
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
+    "browser": "Actual root current reader, desktop/650px/390px controls and containment, native microscope/sectional pixels, active pressure playback, reduced-motion initial state and print/PDF inspection",
+    "coverage": "All40 L36–37 topics/full captions and closing questions assessed in two actual independent full reviews; attributed bounded source still audit remains partial visualcoverage. Union clearance/domain/anatomy repairs independently targeted by separately identified fresh checkers; actual reader production pending."
+  },
+  "limitations": [
+    "No patient calibration or diagnosis.",
+    "Pressure relation assumes a fully effective oncotic difference, fixed Kf and normal-low-protein capsular fluid; no longitudinal capillary concentration or feedback dynamics.",
+    "Two-resistor analogy has no filtration side branch and is not combined into a nephron prediction.",
+    "Observed SEM species and detailed preparation are unreported; the literal instrument 10.0U annotation is retained without independently calibrated physical dimensions.",
+    "Original gross/nephron/barrier panels have separate illustrative scales, colors and proportions; they are not registered to the SEM or claimed as specimen measurements.",
+    "No independent full review or actual chapter browser/control/print production acceptance yet."
+  ],
+  "author_report": "work/ch16-author-report.md",
+  "anatomical_context_illustration": {
+    "id": "ch16-fig1",
+    "status": "implemented-scientific-draft",
+    "paths": [
+      "assets/ch16-context.svg",
+      "assets/ch16-barrier-section.svg",
+      "assets/ch16-glomerulus-sem.jpg"
+    ],
+    "provenance": "assets/ch16-provenance.json"
+  },
+  "repair_report": "work/ch16-repair-report.md",
+  "coverage_basis": "All40 L36–37 topics/full captions and closing questions assessed in two actual independent full reviews; attributed bounded source still audit remains partial visualcoverage. Union clearance/domain/anatomy repairs independently targeted by separately identified fresh checkers; actual reader production pending.",
+  "production_validation": {
+    "report_path": "work/browser/ch16-production-final.json",
+    "report_sha256": "3695f50f3473c76aa797036262ba497b6aa467610d804243913d813e69e9ed36",
+    "scope": "Actual root current reader, desktop/650px/390px controls and containment, native microscope/sectional pixels, active pressure playback, reduced-motion initial state and print/PDF inspection"
+  },
+  "accepted_at_utc": "2026-11-05T01:40:18.489Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-16.json",
+    "sha256": "fb6f34af6dc5bfdf9720233ebb44f2ec870599c2ff5aed88bc175fc5c5e16949"
+  }
+}

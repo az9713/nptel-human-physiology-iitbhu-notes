@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-label="After axonal disconnection: separate repair events">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#dce7f4"/></marker></defs>
+<rect width="1100" height="620" fill="#112033"/>
+<text x="32" y="48" fill="#f2f6fc" font-family="system-ui" font-size="27" font-weight="700">After axonal disconnection: separate repair events</text>
+<rect x="28" y="190" width="185" height="140" rx="11" fill="#285268" stroke="#9dbbd1"/>
+<text x="120.5" y="242.0" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="17">Surviving</text>
+<text x="120.5" y="266.0" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="17">proximal soma</text>
+<text x="120.5" y="290.0" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="17">and stump</text>
+<path d="M213 260L242 260" fill="none" stroke="#dce7f4" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="242" y="190" width="185" height="140" rx="11" fill="#285268" stroke="#9dbbd1"/>
+<text x="334.5" y="242.0" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="17">Distal</text>
+<text x="334.5" y="266.0" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="17">axon/myelin</text>
+<text x="334.5" y="290.0" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="17">breakdown</text>
+<path d="M427 260L456 260" fill="none" stroke="#dce7f4" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="456" y="190" width="185" height="140" rx="11" fill="#3f5962" stroke="#9dbbd1"/>
+<text x="548.5" y="230.0" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="17">Schwann repair</text>
+<text x="548.5" y="254.0" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="17">cells and</text>
+<text x="548.5" y="278.0" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="17">debris</text>
+<text x="548.5" y="302.0" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="17">clearance</text>
+<path d="M641 260L670 260" fill="none" stroke="#dce7f4" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="670" y="190" width="185" height="140" rx="11" fill="#3f5962" stroke="#9dbbd1"/>
+<text x="762.5" y="242.0" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="17">Proximal sprout</text>
+<text x="762.5" y="266.0" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="17">enters</text>
+<text x="762.5" y="290.0" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="17">permissive path</text>
+<path d="M855 260L884 260" fill="none" stroke="#dce7f4" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="884" y="190" width="185" height="140" rx="11" fill="#4b4768" stroke="#9dbbd1"/>
+<text x="976.5" y="242.0" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="17">Remyelination</text>
+<text x="976.5" y="266.0" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="17">and target</text>
+<text x="976.5" y="290.0" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="17">reconnection</text>
+<text x="42" y="400" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="18">Events may overlap. A surviving distal axon does not grow backward; new extension comes from the proximal neuron.</text>
+<text x="42" y="447" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="18">A guide path and myelin repair do not by themselves prove target-specific function has returned.</text>
+<text x="42" y="500" fill="#f1c474" text-anchor="start" font-family="system-ui" font-size="18">Neurapraxia with intact axon does not enter this distal-degeneration sequence.</text>
+<text x="42" y="555" fill="#b9d3e6" text-anchor="start" font-family="system-ui" font-size="16">Sequence is conceptual, not a human recovery clock or prediction of surgery.</text>
+</svg>

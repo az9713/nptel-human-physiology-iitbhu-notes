@@ -1,0 +1,135 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 19,
+  "manuscript": "chapter-19-female-reproduction-ovarian-cycle.html",
+  "body_sha256": "9a452bb7fdc9a2b763e184ce2ec8067726cc12668c9ba0238eec972c9e538d67",
+  "artifact_sha256": {
+    "assets/ch19-context.svg": "64d253a2e2bd6ee5d2793280324a5b495a66faaf4dd4188cc737bc3b328ec5b3",
+    "assets/ch19-cycle-state.json": "4964367fe6b9c180f4ebd57fbeb96b1b506b067acefad9e98551b22d3724ca65",
+    "assets/ch19-cycle.svg": "bccef412a05b53a3c8ad97a854c100dd0129301dd73700f8c78530b1ae51db45",
+    "assets/ch19-lactation.svg": "f7939d86e5c89becd585c0c504c84c474776acada0b270c1b39c035ccb4fc592",
+    "assets/ch19-mechanisms.html": "94fe5048b49552a054ed4fd152239844fda11cec052c5881765a483d5b3792c2",
+    "assets/ch19-microscopy-LICENSE.txt": "032c5ffda8207782ec2cc6afb5efc39b7b3afd10229fc80b1d4d6acd5b2c5b5d",
+    "assets/ch19-microscopy-provenance.json": "dd95a0d6f982f8463b5a64cf1ce1dfada6ce438e20f6876c91a9a49b076564ff",
+    "assets/ch19-model.js": "98e1a1de1b61e590eb4aaed28b457fbfa6d6c24b2e5af56f94abf236ca660741",
+    "assets/ch19-mouse-follicles.jpg": "4878451b6152fcd0107244e48e430e15a16a0f4aa19117913c57ca3a4970cd15",
+    "assets/ch19-mouse-mammary-confocal.jpg": "878cc9cf1a1aa100c8ceeff02241e6e9b5ad8e0ef810eaf07061d41be8a65578",
+    "assets/ch19-stages.svg": "611656c63330fadda630472d2ba9b5d638cec111e514a13f292d1eafc4349810",
+    "code/ch19_check.cjs": "d7bcd8f740815f3da662b5d12a65c54b5699bdf5b1d3d7464c472440cd1ab32d",
+    "code/ch19_export.cjs": "a783b096e0bb1bae07aa31f0e669f98d1e6de230d979c4fd80f9a27b0af35170",
+    "code/ch19_reproduction.py": "2e5d4ae6171fa8346e4830517735a92387ae3cd9dcc272e91b0f4bccd2aab9df"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "All44 L43–45 topics and closing prompts dispositioned using full captions; bounded11 contact sheets179 sampled stills21 native repeats, not continuous video/audio; two actual full reviews plus targeted scientific and production containment repairs.",
+  "source_recordings": [
+    43,
+    44,
+    45
+  ],
+  "source_evidence": [
+    {
+      "number": 43,
+      "video_id": "rkOITddqR9A",
+      "url": "https://www.youtube.com/watch?v=rkOITddqR9A",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "245221c4c61d9652b7a7b19ccdb856d0dcda6038567a2627869572149b0817f2",
+      "caption_cues": 219,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 70,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 4,
+        "sampled_stills": 70,
+        "native_still_views": 5,
+        "report_sha256": "66f5c2fe7035c8a9e8b2990527efe5cec61e44e44fe3068da23c7a1ba805ec9e"
+      },
+      "visual_review_scope": "Complete publisher captions and all44assigned topics; all11contact sheets179sampled stills plus21repeat native frames. Bounded source/scientific handoff, no continuousvideo/audio or microscopy provenance claim."
+    },
+    {
+      "number": 44,
+      "video_id": "FVHWSb2GP4M",
+      "url": "https://www.youtube.com/watch?v=FVHWSb2GP4M",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "f5267726fb4aab5787a4a6eb5e6e08009224e36c578a269e510f8602a45e9071",
+      "caption_cues": 108,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 45,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 45,
+        "native_still_views": 6,
+        "report_sha256": "66f5c2fe7035c8a9e8b2990527efe5cec61e44e44fe3068da23c7a1ba805ec9e"
+      },
+      "visual_review_scope": "Complete publisher captions and all44assigned topics; all11contact sheets179sampled stills plus21repeat native frames. Bounded source/scientific handoff, no continuousvideo/audio or microscopy provenance claim."
+    },
+    {
+      "number": 45,
+      "video_id": "ahYqeUF1AJw",
+      "url": "https://www.youtube.com/watch?v=ahYqeUF1AJw",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "2a5d42767de8eb88c496cf47dd24d27800f5954bdc720c4beb04b0031d176964",
+      "caption_cues": 170,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 64,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 4,
+        "sampled_stills": 64,
+        "native_still_views": 10,
+        "report_sha256": "66f5c2fe7035c8a9e8b2990527efe5cec61e44e44fe3068da23c7a1ba805ec9e"
+      },
+      "visual_review_scope": "Complete publisher captions and all44assigned topics; all11contact sheets179sampled stills plus21repeat native frames. Bounded source/scientific handoff, no continuousvideo/audio or microscopy provenance claim."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch17_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "b0a9abcdb7d9da7984d1aeb1f8a548af9f7b3a2205e739241668cef4af5fec8e",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    },
+    {
+      "reviewer_id": "/root/ch17_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "6ff32ded679506cd86f058b6b3095e1c945c91e1fd69f3af95b4ea6a6d24136c",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    }
+  ],
+  "production": {
+    "scope": "Actual root current reader, all eight selectable oocyte states, cycle/lactation cases, live cycle playback and settled reduced-motion pause, desktop/650px/390px access and keyboard diagram panning, 24-page browser print proof",
+    "report_sha256": "9cc33287a64b241a281c268ea71699e970d45d77ed543b2036de660daab8b401"
+  },
+  "visual_modality": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Ovarian compartments, meiotic counters, ovarian cycle and lactation routes",
+    "rationale": "Source-verified mouse follicle fluorescence and cleared mammary confocal preparations supply directly relevant prepared appearance. Original separate-scale topology and controlled deterministic stages/cycle/inventory explain mechanism without invented realistic tissue motion.",
+    "appearance_references": [
+      "assets/ch19-mouse-follicles.jpg",
+      "assets/ch19-mouse-mammary-confocal.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch19-mechanisms.html",
+      "assets/ch19-model.js"
+    ],
+    "report_sha256": "31886283bac26d15ec9d90591c723ee97ea35ed070f6d1db01360047a837de3a"
+  },
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

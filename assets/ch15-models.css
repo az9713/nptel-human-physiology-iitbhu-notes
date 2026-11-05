@@ -1,0 +1,17 @@
+.ch15-canvas{overflow-x:auto;border:1px solid var(--line);border-radius:8px}
+.ch15-canvas svg{display:block;min-width:660px;width:100%;height:auto}
+.ch15-controls{display:flex;flex-wrap:wrap;gap:.65rem;align-items:center;margin:.8rem 0}
+.ch15-controls input{flex:1;min-width:140px;accent-color:#69d7c5}
+.ch15-controls select{color:inherit;background:var(--panel,#17212b);padding:.4rem}
+.ch15-controls button:focus-visible,.ch15-controls input:focus-visible,.ch15-controls select:focus-visible{outline:3px solid #e7ba70;outline-offset:3px}
+.ch15-state{min-height:3em;font-family:system-ui,sans-serif;font-size:.95rem}
+.ch15-static{border-left:3px solid #69d7c5;padding:.7rem 1rem}
+@media print{.ch15-model .ch15-canvas,.ch15-controls,.ch15-state{display:none}.ch15-static{display:block}details.solution{display:block}figure img{max-height:19cm;object-fit:contain}}
+
+#ch15-fig2 .ch15-canvas img{display:block;min-width:900px;width:100%;height:auto}
+@media print{#ch15-fig2 .ch15-canvas{overflow:visible}#ch15-fig2 .ch15-canvas img{min-width:0;width:100%;height:auto}}
+
+/* Separate recorded preparations, not a continuous zoom. */
+#ch15-fig1 figure{break-inside:avoid}
+#ch15-fig1 img{display:block;max-width:100%;width:auto;max-height:790px;height:auto;object-fit:contain;margin-inline:auto}
+@media print{#ch15-fig1{break-inside:auto}#ch15-fig1 img{max-height:13cm;width:auto;max-width:100%}}

@@ -1,0 +1,3416 @@
+{
+  "time_unit": "artificial model unit",
+  "states": [
+    {
+      "time": 0.0,
+      "recycling": {
+        "extracellular_glu": 1.0,
+        "astrocyte_glu": 0.0,
+        "astrocyte_gln": 0.0,
+        "returned_neuronal": 0.0
+      },
+      "slower": {
+        "extracellular_glu": 1.0,
+        "astrocyte_glu": 0.0,
+        "astrocyte_gln": 0.0,
+        "returned_neuronal": 0.0
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.05,
+      "recycling": {
+        "extracellular_glu": 0.951229424500714,
+        "astrocyte_glu": 0.047561471225035706,
+        "astrocyte_gln": 0.0011890367806258928,
+        "returned_neuronal": 2.0067493624376098e-05
+      },
+      "slower": {
+        "extracellular_glu": 0.9875778004938814,
+        "astrocyte_glu": 0.012344722506173519,
+        "astrocyte_gln": 7.71545156635845e-05,
+        "returned_neuronal": 3.224842815008344e-07
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.1,
+      "recycling": {
+        "extracellular_glu": 0.9048374180359595,
+        "astrocyte_glu": 0.09048374180359596,
+        "astrocyte_gln": 0.004524187090179798,
+        "returned_neuronal": 0.00015465307026474306
+      },
+      "slower": {
+        "extracellular_glu": 0.9753099120283326,
+        "astrocyte_glu": 0.024382747800708315,
+        "astrocyte_gln": 0.000304784347508854,
+        "returned_neuronal": 2.5558234502121024e-06
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.15,
+      "recycling": {
+        "extracellular_glu": 0.8607079764250578,
+        "astrocyte_glu": 0.12910619646375868,
+        "astrocyte_gln": 0.0096829647347819,
+        "returned_neuronal": 0.0005028623764016249
+      },
+      "slower": {
+        "extracellular_glu": 0.9631944177208218,
+        "astrocyte_glu": 0.03611979066453082,
+        "astrocyte_gln": 0.0006772460749599528,
+        "returned_neuronal": 8.545539687432324e-06
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.2,
+      "recycling": {
+        "extracellular_glu": 0.8187307530779818,
+        "astrocyte_glu": 0.1637461506155964,
+        "astrocyte_gln": 0.016374615061559638,
+        "returned_neuronal": 0.0011484812448621096
+      },
+      "slower": {
+        "extracellular_glu": 0.951229424500714,
+        "astrocyte_glu": 0.047561471225035706,
+        "astrocyte_gln": 0.0011890367806258928,
+        "returned_neuronal": 2.0067493624376098e-05
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.25,
+      "recycling": {
+        "extracellular_glu": 0.7788007830714049,
+        "astrocyte_glu": 0.19470019576785122,
+        "astrocyte_gln": 0.024337524470981402,
+        "returned_neuronal": 0.00216149668976251
+      },
+      "slower": {
+        "extracellular_glu": 0.9394130628134758,
+        "astrocyte_glu": 0.05871331642584224,
+        "astrocyte_gln": 0.00183479113830757,
+        "returned_neuronal": 3.8829622374336736e-05
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.3,
+      "recycling": {
+        "extracellular_glu": 0.7408182206817179,
+        "astrocyte_glu": 0.22224546620451535,
+        "astrocyte_gln": 0.0333368199306773,
+        "returned_neuronal": 0.003599493183089497
+      },
+      "slower": {
+        "extracellular_glu": 0.9277434863285529,
+        "astrocyte_glu": 0.06958076147464146,
+        "astrocyte_gln": 0.0026092785552990546,
+        "returned_neuronal": 6.647364150658142e-05
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.35,
+      "recycling": {
+        "extracellular_glu": 0.7046880897187134,
+        "astrocyte_glu": 0.2466408314015497,
+        "astrocyte_gln": 0.04316214549527119,
+        "returned_neuronal": 0.005508933384465675
+      },
+      "slower": {
+        "extracellular_glu": 0.9162188716508777,
+        "astrocyte_glu": 0.08016915126945179,
+        "astrocyte_gln": 0.003507400368038516,
+        "returned_neuronal": 0.00010457671163199844
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.4,
+      "recycling": {
+        "extracellular_glu": 0.6703200460356393,
+        "astrocyte_glu": 0.26812801841425576,
+        "astrocyte_gln": 0.05362560368285116,
+        "returned_neuronal": 0.007926331867253777
+      },
+      "slower": {
+        "extracellular_glu": 0.9048374180359595,
+        "astrocyte_glu": 0.09048374180359596,
+        "astrocyte_gln": 0.004524187090179798,
+        "returned_neuronal": 0.00015465307026474306
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.45,
+      "recycling": {
+        "extracellular_glu": 0.6376281516217733,
+        "astrocyte_glu": 0.286932668229798,
+        "astrocyte_gln": 0.06455985035170456,
+        "returned_neuronal": 0.010879329796724124
+      },
+      "slower": {
+        "extracellular_glu": 0.8935973471085157,
+        "astrocyte_glu": 0.10052970154970801,
+        "astrocyte_gln": 0.005654795712171076,
+        "returned_neuronal": 0.00021815562960525448
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.5,
+      "recycling": {
+        "extracellular_glu": 0.6065306597126334,
+        "astrocyte_glu": 0.3032653298563167,
+        "astrocyte_gln": 0.07581633246407918,
+        "returned_neuronal": 0.014387677966970713
+      },
+      "slower": {
+        "extracellular_glu": 0.8824969025845955,
+        "astrocyte_glu": 0.11031211282307443,
+        "astrocyte_gln": 0.006894507051442152,
+        "returned_neuronal": 0.00029647754088790723
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.55,
+      "recycling": {
+        "extracellular_glu": 0.5769498103804866,
+        "astrocyte_glu": 0.3173223957092677,
+        "astrocyte_gln": 0.08726365882004862,
+        "returned_neuronal": 0.018464135090197065
+      },
+      "slower": {
+        "extracellular_glu": 0.8715343499971578,
+        "astrocyte_glu": 0.11983597312460921,
+        "astrocyte_gln": 0.008238723152316885,
+        "returned_neuronal": 0.0003909537259160212
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.6,
+      "recycling": {
+        "extracellular_glu": 0.5488116360940265,
+        "astrocyte_glu": 0.3292869816564159,
+        "astrocyte_gln": 0.09878609449692477,
+        "returned_neuronal": 0.02311528775263283
+      },
+      "slower": {
+        "extracellular_glu": 0.8607079764250578,
+        "astrocyte_glu": 0.12910619646375868,
+        "astrocyte_gln": 0.0096829647347819,
+        "returned_neuronal": 0.0005028623764016249
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.65,
+      "recycling": {
+        "extracellular_glu": 0.522045776761016,
+        "astrocyte_glu": 0.33932975489466044,
+        "astrocyte_gln": 0.11028217034076465,
+        "returned_neuronal": 0.028342298003558808
+      },
+      "slower": {
+        "extracellular_glu": 0.8500160902253981,
+        "astrocyte_glu": 0.1381276146616272,
+        "astrocyte_gln": 0.011222868691257212,
+        "returned_neuronal": 0.0006334264217174868
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.7,
+      "recycling": {
+        "extracellular_glu": 0.4965853037914095,
+        "astrocyte_glu": 0.34760971265398666,
+        "astrocyte_gln": 0.12166339942889531,
+        "returned_neuronal": 0.034141584125708446
+      },
+      "slower": {
+        "extracellular_glu": 0.8394570207692074,
+        "astrocyte_glu": 0.14690497863461127,
+        "astrocyte_gln": 0.012854185630528486,
+        "returned_neuronal": 0.0007838149656528293
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.75,
+      "recycling": {
+        "extracellular_glu": 0.4723665527410147,
+        "astrocyte_glu": 0.354274914555761,
+        "astrocyte_gln": 0.13285309295841038,
+        "returned_neuronal": 0.04050543974481391
+      },
+      "slower": {
+        "extracellular_glu": 0.8290291181804004,
+        "astrocyte_glu": 0.15544295965882507,
+        "astrocyte_gln": 0.014572777468014851,
+        "returned_neuronal": 0.0009551446927597018
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.8,
+      "recycling": {
+        "extracellular_glu": 0.44932896411722156,
+        "astrocyte_glu": 0.35946317129377725,
+        "astrocyte_gln": 0.14378526851751092,
+        "returned_neuronal": 0.04742259607149024
+      },
+      "slower": {
+        "extracellular_glu": 0.8187307530779818,
+        "astrocyte_glu": 0.1637461506155964,
+        "astrocyte_gln": 0.016374615061559638,
+        "returned_neuronal": 0.0011484812448621096
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.85,
+      "recycling": {
+        "extracellular_glu": 0.4274149319487267,
+        "astrocyte_glu": 0.3633026921564177,
+        "astrocyte_gln": 0.1544036441664775,
+        "returned_neuronal": 0.054878731728378094
+      },
+      "slower": {
+        "extracellular_glu": 0.8085603163214524,
+        "astrocyte_glu": 0.17181906721830864,
+        "astrocyte_gln": 0.01825577589194529,
+        "returned_neuronal": 0.0013648405682936682
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.9,
+      "recycling": {
+        "extracellular_glu": 0.4065696597405991,
+        "astrocyte_glu": 0.36591269376653923,
+        "astrocyte_gln": 0.16466071219494266,
+        "returned_neuronal": 0.06285693429791905
+      },
+      "slower": {
+        "extracellular_glu": 0.7985162187593771,
+        "astrocyte_glu": 0.17966614922085986,
+        "astrocyte_gln": 0.020212441787346734,
+        "returned_neuronal": 0.0016051902324163425
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 0.95,
+      "recycling": {
+        "extracellular_glu": 0.38674102345450123,
+        "astrocyte_glu": 0.3674039722817761,
+        "astrocyte_gln": 0.17451688683384367,
+        "returned_neuronal": 0.07133811742987894
+      },
+      "slower": {
+        "extracellular_glu": 0.7885968909810767,
+        "astrocyte_glu": 0.1872917616080057,
+        "astrocyte_gln": 0.022240896690950678,
+        "returned_neuronal": 0.001870450719966943
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 1.0,
+      "recycling": {
+        "extracellular_glu": 0.36787944117144233,
+        "astrocyte_glu": 0.36787944117144233,
+        "astrocyte_gln": 0.18393972058572117,
+        "returned_neuronal": 0.08030139707139416
+      },
+      "slower": {
+        "extracellular_glu": 0.7788007830714049,
+        "astrocyte_glu": 0.19470019576785122,
+        "astrocyte_gln": 0.024337524470981402,
+        "returned_neuronal": 0.00216149668976251
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.0,
+        "open_fraction": 1.0,
+        "release_proxy": 1.0
+      }
+    },
+    {
+      "time": 1.05,
+      "recycling": {
+        "extracellular_glu": 0.3499377491111553,
+        "astrocyte_glu": 0.3674346365667131,
+        "astrocyte_gln": 0.1929031841975244,
+        "returned_neuronal": 0.08972443012460718
+      },
+      "slower": {
+        "extracellular_glu": 0.7691263643685705,
+        "astrocyte_glu": 0.20189567064674976,
+        "astrocyte_gln": 0.02649880677238591,
+        "returned_neuronal": 0.0024791582122938305
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.04877057549928603,
+        "open_fraction": 0.951229424500714,
+        "release_proxy": 0.951229424500714
+      }
+    },
+    {
+      "time": 1.1,
+      "recycling": {
+        "extracellular_glu": 0.33287108369807955,
+        "astrocyte_glu": 0.3661581920678875,
+        "astrocyte_gln": 0.20138700563733816,
+        "returned_neuronal": 0.09958371859669479
+      },
+      "slower": {
+        "extracellular_glu": 0.7595721232249685,
+        "astrocyte_glu": 0.20888233388686636,
+        "astrocyte_gln": 0.028721320909444126,
+        "returned_neuronal": 0.0028242219787210088
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.0951625819640405,
+        "open_fraction": 0.9048374180359595,
+        "release_proxy": 0.9048374180359595
+      }
+    },
+    {
+      "time": 1.15,
+      "recycling": {
+        "extracellular_glu": 0.3166367693790533,
+        "astrocyte_glu": 0.36413228478591125,
+        "astrocyte_gln": 0.20937606375189893,
+        "returned_neuronal": 0.10985488208313654
+      },
+      "slower": {
+        "extracellular_glu": 0.7501365667709818,
+        "astrocyte_glu": 0.21566426294665725,
+        "astrocyte_gln": 0.03100173779858198,
+        "returned_neuronal": 0.003197432483778906
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.1392920235749421,
+        "open_fraction": 0.8607079764250579,
+        "release_proxy": 0.8607079764250579
+      }
+    },
+    {
+      "time": 1.2,
+      "recycling": {
+        "extracellular_glu": 0.30119421191220214,
+        "astrocyte_glu": 0.36143305429464256,
+        "astrocyte_gln": 0.21685983257678554,
+        "returned_neuronal": 0.1205129012163697
+      },
+      "slower": {
+        "extracellular_glu": 0.7408182206817179,
+        "astrocyte_glu": 0.22224546620451535,
+        "astrocyte_gln": 0.0333368199306773,
+        "returned_neuronal": 0.003599493183089497
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.18126924692201812,
+        "open_fraction": 0.8187307530779819,
+        "release_proxy": 0.8187307530779819
+      }
+    },
+    {
+      "time": 1.25,
+      "recycling": {
+        "extracellular_glu": 0.2865047968601901,
+        "astrocyte_glu": 0.35813099607523763,
+        "astrocyte_gln": 0.2238318725470235,
+        "returned_neuronal": 0.13153233451754875
+      },
+      "slower": {
+        "extracellular_glu": 0.7316156289466418,
+        "astrocyte_glu": 0.22862988404582557,
+        "astrocyte_gln": 0.03572341938216024,
+        "returned_neuronal": 0.00403106762537242
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.22119921692859512,
+        "open_fraction": 0.7788007830714049,
+        "release_proxy": 0.7788007830714049
+      }
+    },
+    {
+      "time": 1.3,
+      "recycling": {
+        "extracellular_glu": 0.2725317930340126,
+        "astrocyte_glu": 0.3542913309442164,
+        "astrocyte_gln": 0.23028936511374065,
+        "returned_neuronal": 0.1428875109080303
+      },
+      "slower": {
+        "extracellular_glu": 0.7225273536420722,
+        "astrocyte_glu": 0.23482138993367346,
+        "astrocyte_gln": 0.03815847586422194,
+        "returned_neuronal": 0.004492780560032328
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.2591817793182822,
+        "open_fraction": 0.7408182206817178,
+        "release_proxy": 0.7408182206817178
+      }
+    },
+    {
+      "time": 1.35,
+      "recycling": {
+        "extracellular_glu": 0.2592402606458915,
+        "astrocyte_glu": 0.3499743518719536,
+        "astrocyte_gln": 0.23623268751356866,
+        "returned_neuronal": 0.15455269996858623
+      },
+      "slower": {
+        "extracellular_glu": 0.7135519747065024,
+        "astrocyte_glu": 0.2408237914634446,
+        "astrocyte_gln": 0.040639014809456274,
+        "returned_neuronal": 0.004985219020596676
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.2953119102812866,
+        "open_fraction": 0.7046880897187133,
+        "release_proxy": 0.7046880897187133
+      }
+    },
+    {
+      "time": 1.4,
+      "recycling": {
+        "extracellular_glu": 0.2465969639416065,
+        "astrocyte_glu": 0.3452357495182491,
+        "astrocyte_gln": 0.24166502466277434,
+        "returned_neuronal": 0.16650226187737005
+      },
+      "slower": {
+        "extracellular_glu": 0.7046880897187134,
+        "astrocyte_glu": 0.2466408314015497,
+        "astrocyte_gln": 0.04316214549527119,
+        "returned_neuronal": 0.005508933384465675
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.3296799539643607,
+        "open_fraction": 0.6703200460356393,
+        "release_proxy": 0.6703200460356393
+      }
+    },
+    {
+      "time": 1.45,
+      "recycling": {
+        "extracellular_glu": 0.23457028809379765,
+        "astrocyte_glu": 0.34012691773600656,
+        "astrocyte_gln": 0.24659201535860478,
+        "returned_neuronal": 0.17871077881159103
+      },
+      "slower": {
+        "extracellular_glu": 0.695934313678642,
+        "astrocyte_glu": 0.2522761887085077,
+        "astrocyte_gln": 0.045725059203417025,
+        "returned_neuronal": 0.00606443840943327
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.3623718483782266,
+        "open_fraction": 0.6376281516217734,
+        "release_proxy": 0.6376281516217734
+      }
+    },
+    {
+      "time": 1.5,
+      "recycling": {
+        "extracellular_glu": 0.22313016014842982,
+        "astrocyte_glu": 0.33469524022264474,
+        "astrocyte_gln": 0.25102143016698353,
+        "returned_neuronal": 0.19115316946194194
+      },
+      "slower": {
+        "extracellular_glu": 0.6872892787909722,
+        "astrocyte_glu": 0.2577334795466146,
+        "astrocyte_gln": 0.048325027414990236,
+        "returned_neuronal": 0.006652214247422905
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.39346934028736663,
+        "open_fraction": 0.6065306597126334,
+        "release_proxy": 0.6065306597126334
+      }
+    },
+    {
+      "time": 1.55,
+      "recycling": {
+        "extracellular_glu": 0.21224797382674304,
+        "astrocyte_glu": 0.3289843594314517,
+        "astrocyte_gln": 0.2549628785593751,
+        "returned_neuronal": 0.20380478818243009
+      },
+      "slower": {
+        "extracellular_glu": 0.6787516342514144,
+        "astrocyte_glu": 0.2630162582724231,
+        "astrocyte_gln": 0.050959400040281974,
+        "returned_neuronal": 0.007272707435880599
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.4230501896195133,
+        "open_fraction": 0.5769498103804866,
+        "release_proxy": 0.5769498103804866
+      }
+    },
+    {
+      "time": 1.6,
+      "recycling": {
+        "extracellular_glu": 0.20189651799465538,
+        "astrocyte_glu": 0.3230344287914486,
+        "astrocyte_gln": 0.25842754303315896,
+        "returned_neuronal": 0.21664151018073707
+      },
+      "slower": {
+        "extracellular_glu": 0.6703200460356393,
+        "astrocyte_glu": 0.26812801841425576,
+        "astrocyte_gln": 0.05362560368285116,
+        "returned_neuronal": 0.007926331867253777
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.45118836390597356,
+        "open_fraction": 0.5488116360940265,
+        "release_proxy": 0.5488116360940265
+      }
+    },
+    {
+      "time": 1.65,
+      "recycling": {
+        "extracellular_glu": 0.19204990862075413,
+        "astrocyte_glu": 0.3168823492242443,
+        "astrocyte_gln": 0.26142793811000153,
+        "returned_neuronal": 0.22963980404500006
+      },
+      "slower": {
+        "extracellular_glu": 0.661993196690834,
+        "astrocyte_glu": 0.27307219363496904,
+        "astrocyte_gln": 0.056321139937212356,
+        "returned_neuronal": 0.008613469736984625
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.4779542232389839,
+        "open_fraction": 0.522045776761016,
+        "release_proxy": 0.522045776761016
+      }
+    },
+    {
+      "time": 1.7,
+      "recycling": {
+        "extracellular_glu": 0.18268352405273466,
+        "astrocyte_glu": 0.3105619908896489,
+        "astrocyte_gln": 0.26397769225620155,
+        "returned_neuronal": 0.24277679280141484
+      },
+      "slower": {
+        "extracellular_glu": 0.6537697851298473,
+        "astrocyte_glu": 0.2778521586801851,
+        "astrocyte_gln": 0.05904358371953933,
+        "returned_neuronal": 0.00933447247042829
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.5034146962085905,
+        "open_fraction": 0.4965853037914095,
+        "release_proxy": 0.4965853037914095
+      }
+    },
+    {
+      "time": 1.75,
+      "recycling": {
+        "extracellular_glu": 0.17377394345044514,
+        "astrocyte_glu": 0.304104401038279,
+        "astrocyte_gln": 0.2660913509084941,
+        "returned_neuronal": 0.25603030460278176
+      },
+      "slower": {
+        "extracellular_glu": 0.645648526427892,
+        "astrocyte_glu": 0.2824712303122028,
+        "astrocyte_gln": 0.06179058163079436,
+        "returned_neuronal": 0.010089661629110847
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.5276334472589853,
+        "open_fraction": 0.4723665527410147,
+        "release_proxy": 0.4723665527410147
+      }
+    },
+    {
+      "time": 1.8,
+      "recycling": {
+        "extracellular_glu": 0.16529888822158653,
+        "astrocyte_glu": 0.2975379987988558,
+        "astrocyte_gln": 0.2677841989189702,
+        "returned_neuronal": 0.26937891406058745
+      },
+      "slower": {
+        "extracellular_glu": 0.6376281516217733,
+        "astrocyte_glu": 0.286932668229798,
+        "astrocyte_gln": 0.06455985035170456,
+        "returned_neuronal": 0.010879329796724124
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.5506710358827784,
+        "open_fraction": 0.44932896411722156,
+        "release_proxy": 0.44932896411722156
+      }
+    },
+    {
+      "time": 1.85,
+      "recycling": {
+        "extracellular_glu": 0.1572371663136276,
+        "astrocyte_glu": 0.2908887576802111,
+        "astrocyte_gln": 0.26907210085419525,
+        "returned_neuronal": 0.28280197515196603
+      },
+      "slower": {
+        "extracellular_glu": 0.62970740751161,
+        "astrocyte_glu": 0.29123967597411965,
+        "astrocyte_gln": 0.06734917506901517,
+        "returned_neuronal": 0.011703741445255211
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.5725850680512734,
+        "open_fraction": 0.4274149319487266,
+        "release_proxy": 0.4274149319487266
+      }
+    },
+    {
+      "time": 1.9,
+      "recycling": {
+        "extracellular_glu": 0.14956861922263506,
+        "astrocyte_glu": 0.2841803765230066,
+        "astrocyte_gln": 0.26997135769685626,
+        "returned_neuronal": 0.29627964655750205
+      },
+      "slower": {
+        "extracellular_glu": 0.6218850564650201,
+        "astrocyte_glu": 0.29539540182088453,
+        "astrocyte_gln": 0.07015640793246009,
+        "returned_neuronal": 0.012563133781635205
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.5934303402594008,
+        "open_fraction": 0.4065696597405992,
+        "release_proxy": 0.4065696597405992
+      }
+    },
+    {
+      "time": 1.95,
+      "recycling": {
+        "extracellular_glu": 0.1422740715865136,
+        "astrocyte_glu": 0.2774344395937015,
+        "astrocyte_gln": 0.27049857860385895,
+        "returned_neuronal": 0.3097929102159259
+      },
+      "slower": {
+        "extracellular_glu": 0.6141598762237378,
+        "astrocyte_glu": 0.29940293965907216,
+        "astrocyte_gln": 0.07297946654189884,
+        "returned_neuronal": 0.01345771757529124
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.6132589765454988,
+        "open_fraction": 0.38674102345450123,
+        "release_proxy": 0.38674102345450123
+      }
+    },
+    {
+      "time": 2.0,
+      "recycling": {
+        "extracellular_glu": 0.1353352832366127,
+        "astrocyte_glu": 0.2706705664732254,
+        "astrocyte_gln": 0.2706705664732254,
+        "returned_neuronal": 0.3233235838169365
+      },
+      "slower": {
+        "extracellular_glu": 0.6065306597126334,
+        "astrocyte_glu": 0.3032653298563167,
+        "astrocyte_gln": 0.07581633246407918,
+        "returned_neuronal": 0.014387677966970713
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.6321205588285577,
+        "open_fraction": 0.36787944117144233,
+        "release_proxy": 0.36787944117144233
+      }
+    },
+    {
+      "time": 2.05,
+      "recycling": {
+        "extracellular_glu": 0.12873490358780423,
+        "astrocyte_glu": 0.26390655235499866,
+        "astrocyte_gln": 0.2705042161638736,
+        "returned_neuronal": 0.3368543278933235
+      },
+      "slower": {
+        "extracellular_glu": 0.5989962148511054,
+        "astrocyte_glu": 0.3069855601111915,
+        "astrocyte_gln": 0.07866504977849283,
+        "returned_neuronal": 0.015353175259210206
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.6500622508888445,
+        "open_fraction": 0.3499377491111555,
+        "release_proxy": 0.3499377491111555
+      }
+    },
+    {
+      "time": 2.1,
+      "recycling": {
+        "extracellular_glu": 0.1224564282529819,
+        "astrocyte_glu": 0.257158499331262,
+        "astrocyte_gln": 0.27001642429782513,
+        "returned_neuronal": 0.350368648117931
+      },
+      "slower": {
+        "extracellular_glu": 0.5915553643668151,
+        "astrocyte_glu": 0.31056656629257795,
+        "astrocyte_gln": 0.08152372365180172,
+        "returned_neuronal": 0.016354345688805227
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.6671289163019205,
+        "open_fraction": 0.3328710836980795,
+        "release_proxy": 0.3328710836980795
+      }
+    },
+    {
+      "time": 2.15,
+      "recycling": {
+        "extracellular_glu": 0.11648415777349697,
+        "astrocyte_glu": 0.25044093921301847,
+        "astrocyte_gln": 0.26922400965399484,
+        "returned_neuronal": 0.3638508933594897
+      },
+      "slower": {
+        "extracellular_glu": 0.5842069456117358,
+        "astrocyte_glu": 0.314011233266308,
+        "astrocyte_gln": 0.08439051894032026,
+        "returned_neuronal": 0.01739130218163598
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.6833632306209467,
+        "open_fraction": 0.3166367693790533,
+        "release_proxy": 0.3166367693790533
+      }
+    },
+    {
+      "time": 2.2,
+      "recycling": {
+        "extracellular_glu": 0.11080315836233387,
+        "astrocyte_glu": 0.24376694839713453,
+        "astrocyte_gln": 0.26814364323684803,
+        "returned_neuronal": 0.37728625000368354
+      },
+      "slower": {
+        "extracellular_glu": 0.5769498103804866,
+        "astrocyte_glu": 0.3173223957092677,
+        "astrocyte_gln": 0.08726365882004862,
+        "returned_neuronal": 0.018464135090197065
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.698805788087798,
+        "open_fraction": 0.30119421191220197,
+        "release_proxy": 0.30119421191220197
+      }
+    },
+    {
+      "time": 2.25,
+      "recycling": {
+        "extracellular_glu": 0.10539922456186433,
+        "astrocyte_glu": 0.23714825526419475,
+        "astrocyte_gln": 0.2667917871722191,
+        "returned_neuronal": 0.3906607330017219
+      },
+      "slower": {
+        "extracellular_glu": 0.569782824730923,
+        "astrocyte_glu": 0.32050283891114417,
+        "astrocyte_gln": 0.0901414234437593,
+        "returned_neuronal": 0.019572912914173513
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.7134952031398099,
+        "open_fraction": 0.28650479686019015,
+        "release_proxy": 0.28650479686019015
+      }
+    },
+    {
+      "time": 2.3,
+      "recycling": {
+        "extracellular_glu": 0.10025884372280375,
+        "astrocyte_glu": 0.2305953405624486,
+        "astrocyte_gln": 0.2651846416468159,
+        "returned_neuronal": 0.40396117406793175
+      },
+      "slower": {
+        "extracellular_glu": 0.5627048688069557,
+        "astrocyte_glu": 0.3235552995639995,
+        "astrocyte_gln": 0.09302214862464984,
+        "returned_neuronal": 0.020717683004395027
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.7274682069659874,
+        "open_fraction": 0.27253179303401265,
+        "release_proxy": 0.27253179303401265
+      }
+    },
+    {
+      "time": 2.35,
+      "recycling": {
+        "extracellular_glu": 0.09536916221554961,
+        "astrocyte_glu": 0.2241175312065416,
+        "astrocyte_gln": 0.2633380991676864,
+        "returned_neuronal": 0.4171752074102224
+      },
+      "slower": {
+        "extracellular_glu": 0.5557148366635714,
+        "astrocyte_glu": 0.3264824665398482,
+        "astrocyte_gln": 0.09590422454608041,
+        "returned_neuronal": 0.021898472250500012
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.7407597393541085,
+        "open_fraction": 0.25924026064589145,
+        "release_proxy": 0.25924026064589145
+      }
+    },
+    {
+      "time": 2.4,
+      "recycling": {
+        "extracellular_glu": 0.09071795328941251,
+        "astrocyte_glu": 0.21772308789459002,
+        "astrocyte_gln": 0.261267705473508,
+        "returned_neuronal": 0.4302912533424894
+      },
+      "slower": {
+        "extracellular_glu": 0.5488116360940265,
+        "astrocyte_glu": 0.3292869816564159,
+        "astrocyte_gln": 0.09878609449692477,
+        "returned_neuronal": 0.02311528775263283
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.7534030360583935,
+        "open_fraction": 0.24659696394160646,
+        "release_proxy": 0.24659696394160646
+      }
+    },
+    {
+      "time": 2.45,
+      "recycling": {
+        "extracellular_glu": 0.0862935864993705,
+        "astrocyte_glu": 0.21141928692345774,
+        "astrocyte_gln": 0.2589886264812358,
+        "returned_neuronal": 0.44329850009593597
+      },
+      "slower": {
+        "extracellular_glu": 0.5419941884591871,
+        "astrocyte_glu": 0.33197144043125215,
+        "astrocyte_gln": 0.10166625363207098,
+        "returned_neuronal": 0.024368117477489792
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.7654297119062023,
+        "open_fraction": 0.23457028809379765,
+        "release_proxy": 0.23457028809379765
+      }
+    },
+    {
+      "time": 2.5,
+      "recycling": {
+        "extracellular_glu": 0.0820849986238988,
+        "astrocyte_glu": 0.205212496559747,
+        "astrocyte_gln": 0.25651562069968376,
+        "returned_neuronal": 0.4561868841166704
+      },
+      "slower": {
+        "extracellular_glu": 0.5352614285189903,
+        "astrocyte_glu": 0.3345383928243689,
+        "astrocyte_gln": 0.10454324775761528,
+        "returned_neuronal": 0.025656930899025543
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.7768698398515702,
+        "open_fraction": 0.2231301601484298,
+        "release_proxy": 0.2231301601484298
+      }
+    },
+    {
+      "time": 2.55,
+      "recycling": {
+        "extracellular_glu": 0.07808166600115317,
+        "astrocyte_glu": 0.19910824830294058,
+        "astrocyte_gln": 0.2538630165862492,
+        "returned_neuronal": 0.468947069109657
+      },
+      "slower": {
+        "extracellular_glu": 0.5286123042659974,
+        "astrocyte_glu": 0.3369903439695733,
+        "astrocyte_gln": 0.10741567214030148,
+        "returned_neuronal": 0.026981679624127897
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.7877520261732569,
+        "open_fraction": 0.2122479738267431,
+        "release_proxy": 0.2122479738267431
+      }
+    },
+    {
+      "time": 2.6,
+      "recycling": {
+        "extracellular_glu": 0.07427357821433388,
+        "astrocyte_glu": 0.1931113033572681,
+        "astrocyte_gln": 0.25104469436444854,
+        "returned_neuronal": 0.48157042406394945
+      },
+      "slower": {
+        "extracellular_glu": 0.522045776761016,
+        "astrocyte_glu": 0.33932975489466044,
+        "astrocyte_gln": 0.11028217034076465,
+        "returned_neuronal": 0.028342298003558808
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.7981034820053446,
+        "open_fraction": 0.20189651799465536,
+        "release_proxy": 0.20189651799465536
+      }
+    },
+    {
+      "time": 2.65,
+      "recycling": {
+        "extracellular_glu": 0.0706512130604296,
+        "astrocyte_glu": 0.18722571461013843,
+        "astrocyte_gln": 0.24807407185843341,
+        "returned_neuronal": 0.49404900047099853
+      },
+      "slower": {
+        "extracellular_glu": 0.5155608199707641,
+        "astrocyte_glu": 0.3415590432306312,
+        "astrocyte_gln": 0.11314143307014658,
+        "returned_neuronal": 0.029738703728458105
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.8079500913792459,
+        "open_fraction": 0.1920499086207541,
+        "release_proxy": 0.1920499086207541
+      }
+    },
+    {
+      "time": 2.7,
+      "recycling": {
+        "extracellular_glu": 0.06720551273974976,
+        "astrocyte_glu": 0.18145488439732435,
+        "astrocyte_gln": 0.2449640939363879,
+        "returned_neuronal": 0.506375508926538
+      },
+      "slower": {
+        "extracellular_glu": 0.5091564206075492,
+        "astrocyte_glu": 0.3436805839100957,
+        "astrocyte_gln": 0.11599219706965731,
+        "returned_neuronal": 0.031170798412697764
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.8173164759472654,
+        "open_fraction": 0.18268352405273458,
+        "release_proxy": 0.18268352405273458
+      }
+    },
+    {
+      "time": 2.75,
+      "recycling": {
+        "extracellular_glu": 0.06392786120670757,
+        "astrocyte_glu": 0.17580161831844582,
+        "astrocyte_gln": 0.241727225187863,
+        "returned_neuronal": 0.5185432952869836
+      },
+      "slower": {
+        "extracellular_glu": 0.5028315779709409,
+        "astrocyte_glu": 0.3456967098550219,
+        "astrocyte_gln": 0.11883324401266376,
+        "returned_neuronal": 0.03263846816137339
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.8262260565495548,
+        "open_fraction": 0.17377394345044517,
+        "release_proxy": 0.17377394345044517
+      }
+    },
+    {
+      "time": 2.8,
+      "recycling": {
+        "extracellular_glu": 0.06081006262521797,
+        "astrocyte_glu": 0.1702681753506103,
+        "astrocyte_gln": 0.23837544549085443,
+        "returned_neuronal": 0.5305463165333173
+      },
+      "slower": {
+        "extracellular_glu": 0.4965853037914095,
+        "astrocyte_glu": 0.34760971265398666,
+        "astrocyte_gln": 0.12166339942889531,
+        "returned_neuronal": 0.034141584125708446
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.8347011117784134,
+        "open_fraction": 0.16529888822158656,
+        "release_proxy": 0.16529888822158656
+      }
+    },
+    {
+      "time": 2.85,
+      "recycling": {
+        "extracellular_glu": 0.057844320874838456,
+        "astrocyte_glu": 0.1648563144932896,
+        "astrocyte_gln": 0.2349202481529377,
+        "returned_neuronal": 0.5423791164789342
+      },
+      "slower": {
+        "extracellular_glu": 0.49041662207590614,
+        "astrocyte_glu": 0.34942184322908315,
+        "astrocyte_gln": 0.12448153165036087,
+        "returned_neuronal": 0.0356800030446498
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.8427628336863724,
+        "open_fraction": 0.1572371663136276,
+        "release_proxy": 0.1572371663136276
+      }
+    },
+    {
+      "time": 2.9,
+      "recycling": {
+        "extracellular_glu": 0.05502322005640723,
+        "astrocyte_glu": 0.15956733816358096,
+        "astrocyte_gln": 0.2313726403371924,
+        "returned_neuronal": 0.5540368014428194
+      },
+      "slower": {
+        "extracellular_glu": 0.48432456895536247,
+        "astrocyte_glu": 0.3511353124926378,
+        "astrocyte_gln": 0.1272865507785812,
+        "returned_neuronal": 0.03725356777341848
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.8504313807773649,
+        "open_fraction": 0.1495686192226351,
+        "release_proxy": 0.1495686192226351
+      }
+    },
+    {
+      "time": 2.95,
+      "recycling": {
+        "extracellular_glu": 0.05233970594843238,
+        "astrocyte_glu": 0.15440213254787555,
+        "astrocyte_gln": 0.22774314550811642,
+        "returned_neuronal": 0.5655150159955756
+      },
+      "slower": {
+        "extracellular_glu": 0.4783081925340841,
+        "astrocyte_glu": 0.352752291993887,
+        "astrocyte_gln": 0.13007740767274584,
+        "returned_neuronal": 0.03886210779928301
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.8577259284134865,
+        "open_fraction": 0.1422740715865135,
+        "release_proxy": 0.1422740715865135
+      }
+    },
+    {
+      "time": 3.0,
+      "recycling": {
+        "extracellular_glu": 0.049787068367863944,
+        "astrocyte_glu": 0.14936120510359183,
+        "astrocyte_gln": 0.22404180765538775,
+        "returned_neuronal": 0.5768099188731565
+      },
+      "slower": {
+        "extracellular_glu": 0.4723665527410147,
+        "astrocyte_glu": 0.354274914555761,
+        "astrocyte_gln": 0.13285309295841038,
+        "returned_neuronal": 0.04050543974481391
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.8646647167633873,
+        "open_fraction": 0.1353352832366127,
+        "release_proxy": 0.1353352832366127
+      }
+    },
+    {
+      "time": 3.05,
+      "recycling": {
+        "extracellular_glu": 0.04735892439114093,
+        "astrocyte_glu": 0.14444471939297981,
+        "astrocyte_gln": 0.22027819707429422,
+        "returned_neuronal": 0.587918159141585
+      },
+      "slower": {
+        "extracellular_glu": 0.46649872118284835,
+        "astrocyte_glu": 0.35570527490192183,
+        "astrocyte_gln": 0.13561263605635768,
+        "returned_neuronal": 0.04218336785887211
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.8712650964121957,
+        "open_fraction": 0.12873490358780426,
+        "release_proxy": 0.12873490358780426
+      }
+    },
+    {
+      "time": 3.1,
+      "recycling": {
+        "extracellular_glu": 0.0450492023935578,
+        "astrocyte_glu": 0.13965252742002918,
+        "astrocyte_gln": 0.21646141750104525,
+        "returned_neuronal": 0.5988368526853678
+      },
+      "slower": {
+        "extracellular_glu": 0.4607037809989658,
+        "astrocyte_glu": 0.3570454302741985,
+        "astrocyte_gln": 0.13835510423125194,
+        "returned_neuronal": 0.04389568449558379
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.8775435717470181,
+        "open_fraction": 0.12245642825298186,
+        "release_proxy": 0.12245642825298186
+      }
+    },
+    {
+      "time": 3.15,
+      "recycling": {
+        "extracellular_glu": 0.04285212686704019,
+        "astrocyte_glu": 0.13498419963117658,
+        "astrocyte_gln": 0.21260011441910312,
+        "returned_neuronal": 0.6095635590826801
+      },
+      "slower": {
+        "extracellular_glu": 0.4549808267181735,
+        "astrocyte_glu": 0.3582974010405616,
+        "astrocyte_gln": 0.14107960165972114,
+        "returned_neuronal": 0.04564217058154374
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.883515842226503,
+        "open_fraction": 0.11648415777349697,
+        "release_proxy": 0.11648415777349697
+      }
+    },
+    {
+      "time": 3.2,
+      "recycling": {
+        "extracellular_glu": 0.04076220397836621,
+        "astrocyte_glu": 0.1304390527307719,
+        "astrocyte_gln": 0.20870248436923505,
+        "returned_neuronal": 0.6200962589216268
+      },
+      "slower": {
+        "extracellular_glu": 0.44932896411722156,
+        "astrocyte_glu": 0.35946317129377725,
+        "astrocyte_gln": 0.14378526851751092,
+        "returned_neuronal": 0.04742259607149024
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.8891968416376661,
+        "open_fraction": 0.1108031583623339,
+        "release_proxy": 0.1108031583623339
+      }
+    },
+    {
+      "time": 3.25,
+      "recycling": {
+        "extracellular_glu": 0.03877420783172201,
+        "astrocyte_glu": 0.12601617545309654,
+        "astrocyte_gln": 0.20477628511128185,
+        "returned_neuronal": 0.6304333316038996
+      },
+      "slower": {
+        "extracellular_glu": 0.44374731008107987,
+        "astrocyte_glu": 0.3605446894408774,
+        "astrocyte_gln": 0.14647128008535645,
+        "returned_neuronal": 0.04923672039268623
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.8946007754381357,
+        "open_fraction": 0.10539922456186435,
+        "release_proxy": 0.10539922456186435
+      }
+    },
+    {
+      "time": 3.3,
+      "recycling": {
+        "extracellular_glu": 0.036883167401240015,
+        "astrocyte_glu": 0.12171445242409204,
+        "astrocyte_gln": 0.20082884649975186,
+        "returned_neuronal": 0.6405735336749161
+      },
+      "slower": {
+        "extracellular_glu": 0.43823499246494924,
+        "astrocyte_glu": 0.3615438687835831,
+        "astrocyte_gln": 0.149136845873228,
+        "returned_neuronal": 0.05108429287823968
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.8997411562771962,
+        "open_fraction": 0.1002588437228038,
+        "release_proxy": 0.1002588437228038
+      }
+    },
+    {
+      "time": 3.35,
+      "recycling": {
+        "extracellular_glu": 0.035084354100845025,
+        "astrocyte_glu": 0.11753258623783083,
+        "astrocyte_gln": 0.19686708194836666,
+        "returned_neuronal": 0.6505159777129574
+      },
+      "slower": {
+        "extracellular_glu": 0.43279114995798723,
+        "astrocyte_glu": 0.3624625880898143,
+        "astrocyte_gln": 0.15178120876260975,
+        "returned_neuronal": 0.05296505318958866
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.9046308377844504,
+        "open_fraction": 0.09536916221554959,
+        "release_proxy": 0.09536916221554959
+      }
+    },
+    {
+      "time": 3.4,
+      "recycling": {
+        "extracellular_glu": 0.03337326996032608,
+        "astrocyte_glu": 0.11346911786510867,
+        "astrocyte_gln": 0.19289750037068473,
+        "returned_neuronal": 0.6602601118038804
+      },
+      "slower": {
+        "extracellular_glu": 0.4274149319487267,
+        "astrocyte_glu": 0.3633026921564177,
+        "astrocyte_gln": 0.1544036441664775,
+        "returned_neuronal": 0.054878731728378094
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.9092820467105875,
+        "open_fraction": 0.09071795328941246,
+        "release_proxy": 0.09071795328941246
+      }
+    },
+    {
+      "time": 3.45,
+      "recycling": {
+        "extracellular_glu": 0.03174563637806794,
+        "astrocyte_glu": 0.10952244550433439,
+        "astrocyte_gln": 0.18892621849497684,
+        "returned_neuronal": 0.6698056996226208
+      },
+      "slower": {
+        "extracellular_glu": 0.4221054983921655,
+        "astrocyte_glu": 0.3640659923632428,
+        "astrocyte_gln": 0.15700345920664846,
+        "returned_neuronal": 0.05682505003794325
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.9137064135006295,
+        "open_fraction": 0.08629358649937047,
+        "release_proxy": 0.08629358649937047
+      }
+    },
+    {
+      "time": 3.5,
+      "recycling": {
+        "extracellular_glu": 0.0301973834223185,
+        "astrocyte_glu": 0.10569084197811475,
+        "astrocyte_gln": 0.18495897346170082,
+        "returned_neuronal": 0.6791528011378659
+      },
+      "slower": {
+        "extracellular_glu": 0.4168620196785084,
+        "astrocyte_glu": 0.36475426721869486,
+        "astrocyte_gln": 0.15957999190817898,
+        "returned_neuronal": 0.05880372119461774
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.9179150013761012,
+        "open_fraction": 0.08208499862389884,
+        "release_proxy": 0.08208499862389884
+      }
+    },
+    {
+      "time": 3.55,
+      "recycling": {
+        "extracellular_glu": 0.028724639654239433,
+        "astrocyte_glu": 0.10197247077254998,
+        "astrocyte_gln": 0.1810011356212762,
+        "returned_neuronal": 0.6883017539519344
+      },
+      "slower": {
+        "extracellular_glu": 0.4116836765035385,
+        "astrocyte_glu": 0.36536926289689037,
+        "astrocyte_gln": 0.16213261041049512,
+        "returned_neuronal": 0.06081445018907605
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.9219183339988468,
+        "open_fraction": 0.07808166600115318,
+        "release_proxy": 0.07808166600115318
+      }
+    },
+    {
+      "time": 3.6,
+      "recycling": {
+        "extracellular_glu": 0.02732372244729256,
+        "astrocyte_glu": 0.09836540081025322,
+        "astrocyte_gln": 0.1770577214584558,
+        "returned_neuronal": 0.6972531552839984
+      },
+      "slower": {
+        "extracellular_glu": 0.4065696597405991,
+        "astrocyte_glu": 0.36591269376653923,
+        "astrocyte_gln": 0.16466071219494266,
+        "returned_neuronal": 0.06285693429791905
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.9257264217856661,
+        "open_fraction": 0.07427357821433389,
+        "release_proxy": 0.07427357821433389
+      }
+    },
+    {
+      "time": 3.65,
+      "recycling": {
+        "extracellular_glu": 0.025991128778755347,
+        "astrocyte_glu": 0.09486762004245701,
+        "astrocyte_gln": 0.17313340657748405,
+        "returned_neuronal": 0.7060078446013036
+      },
+      "slower": {
+        "extracellular_glu": 0.4015191703141667,
+        "astrocyte_glu": 0.3663862429116771,
+        "astrocyte_gln": 0.16716372332845267,
+        "returned_neuronal": 0.06493086344570353
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.9293487869395705,
+        "open_fraction": 0.07065121306042954,
+        "release_proxy": 0.07065121306042954
+      }
+    },
+    {
+      "time": 3.7,
+      "recycling": {
+        "extracellular_glu": 0.024723526470339388,
+        "astrocyte_glu": 0.09147704794025574,
+        "astrocyte_gln": 0.16923253868947313,
+        "returned_neuronal": 0.7145668868999318
+      },
+      "slower": {
+        "extracellular_glu": 0.39653141907499284,
+        "astrocyte_glu": 0.3667915626443684,
+        "astrocyte_gln": 0.16964109772302038,
+        "returned_neuronal": 0.06703592055761831
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.9327944872602503,
+        "open_fraction": 0.06720551273974973,
+        "release_proxy": 0.06720551273974973
+      }
+    },
+    {
+      "time": 3.75,
+      "recycling": {
+        "extracellular_glu": 0.023517745856009107,
+        "astrocyte_glu": 0.08819154696003415,
+        "astrocyte_gln": 0.16535915055006403,
+        "returned_neuronal": 0.7229315566338927
+      },
+      "slower": {
+        "extracellular_glu": 0.391605626676799,
+        "astrocyte_glu": 0.3671302750094991,
+        "astrocyte_gln": 0.1720923164107027,
+        "returned_neuronal": 0.06917178190299922
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.9360721387932924,
+        "open_fraction": 0.06392786120670757,
+        "release_proxy": 0.06392786120670757
+      }
+    },
+    {
+      "time": 3.8,
+      "recycling": {
+        "extracellular_glu": 0.0223707718561656,
+        "astrocyte_glu": 0.08500893305342928,
+        "astrocyte_gln": 0.16151697280151564,
+        "returned_neuronal": 0.7311033222888894
+      },
+      "slower": {
+        "extracellular_glu": 0.38674102345450123,
+        "astrocyte_glu": 0.3674039722817761,
+        "astrocyte_gln": 0.17451688683384367,
+        "returned_neuronal": 0.07133811742987894
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.9391899373747821,
+        "open_fraction": 0.06081006262521793,
+        "release_proxy": 0.06081006262521793
+      }
+    },
+    {
+      "time": 3.85,
+      "recycling": {
+        "extracellular_glu": 0.02127973643837717,
+        "astrocyte_glu": 0.0819269852877521,
+        "astrocyte_gln": 0.1577094466789228,
+        "returned_neuronal": 0.739083831594948
+      },
+      "slower": {
+        "extracellular_glu": 0.3819368493039489,
+        "astrocyte_glu": 0.3676142174550508,
+        "astrocyte_gln": 0.1769143421502432,
+        "returned_neuronal": 0.0735345910907571
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.9421556791251615,
+        "open_fraction": 0.057844320874838484,
+        "release_proxy": 0.057844320874838484
+      }
+    },
+    {
+      "time": 3.9,
+      "recycling": {
+        "extracellular_glu": 0.02024191144580439,
+        "astrocyte_glu": 0.07894345463863713,
+        "astrocyte_gln": 0.15393973654534238,
+        "returned_neuronal": 0.7468748973702162
+      },
+      "slower": {
+        "extracellular_glu": 0.37719235356315695,
+        "astrocyte_glu": 0.367762544724078,
+        "astrocyte_gln": 0.17928424055298803,
+        "returned_neuronal": 0.0757608611597771
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.9449767799435927,
+        "open_fraction": 0.05502322005640725,
+        "release_proxy": 0.05502322005640725
+      }
+    },
+    {
+      "time": 3.95,
+      "recycling": {
+        "extracellular_glu": 0.01925470177538692,
+        "astrocyte_glu": 0.07605607201277834,
+        "astrocyte_gln": 0.15021074222523723,
+        "returned_neuronal": 0.7544784839865974
+      },
+      "slower": {
+        "extracellular_glu": 0.3725067948950129,
+        "astrocyte_glu": 0.36785045995882526,
+        "astrocyte_gln": 0.18162616460467,
+        "returned_neuronal": 0.07801658054149185
+      },
+      "photo": {
+        "light": 1,
+        "closure": 0.9476602940515676,
+        "open_fraction": 0.0523397059484324,
+        "release_proxy": 0.0523397059484324
+      }
+    },
+    {
+      "time": 4.0,
+      "recycling": {
+        "extracellular_glu": 0.01831563888873418,
+        "astrocyte_glu": 0.07326255555493671,
+        "astrocyte_gln": 0.14652511110987343,
+        "returned_neuronal": 0.7618966944464557
+      },
+      "slower": {
+        "extracellular_glu": 0.36787944117144233,
+        "astrocyte_glu": 0.36787944117144233,
+        "astrocyte_gln": 0.18393972058572117,
+        "returned_neuronal": 0.08030139707139416
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.950212931632136,
+        "open_fraction": 0.04978706836786395,
+        "release_proxy": 0.04978706836786395
+      }
+    },
+    {
+      "time": 4.05,
+      "recycling": {
+        "extracellular_glu": 0.017422374639493515,
+        "astrocyte_glu": 0.07056061728994874,
+        "astrocyte_gln": 0.1428852500121462,
+        "returned_neuronal": 0.7691317580584116
+      },
+      "slower": {
+        "extracellular_glu": 0.36330956935901126,
+        "astrocyte_glu": 0.3678509389759989,
+        "astrocyte_gln": 0.18622453785659945,
+        "returned_neuronal": 0.08261495380839035
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.9038705001095731,
+        "open_fraction": 0.09612949989042685,
+        "release_proxy": 0.09612949989042685
+      }
+    },
+    {
+      "time": 4.1,
+      "recycling": {
+        "extracellular_glu": 0.016572675401761255,
+        "astrocyte_glu": 0.06794796914722114,
+        "astrocyte_gln": 0.13929333675180333,
+        "returned_neuronal": 0.7761860186992142
+      },
+      "slower": {
+        "extracellular_glu": 0.3587964654059516,
+        "astrocyte_glu": 0.3677663770411004,
+        "astrocyte_gln": 0.18848026823356395,
+        "returned_neuronal": 0.08495688931938405
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.859788215642402,
+        "open_fraction": 0.14021178435759796,
+        "release_proxy": 0.14021178435759796
+      }
+    },
+    {
+      "time": 4.15,
+      "recycling": {
+        "extracellular_glu": 0.015764416484854486,
+        "astrocyte_glu": 0.06542232841214612,
+        "astrocyte_gln": 0.1357513314552032,
+        "returned_neuronal": 0.7830619236477961
+      },
+      "slower": {
+        "extracellular_glu": 0.35433942413058866,
+        "astrocyte_glu": 0.3676271525354858,
+        "astrocyte_gln": 0.19070658537778326,
+        "returned_neuronal": 0.08732683795614227
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.8178558495580173,
+        "open_fraction": 0.18214415044198273,
+        "release_proxy": 0.18214415044198273
+      }
+    },
+    {
+      "time": 4.2,
+      "recycling": {
+        "extracellular_glu": 0.014995576820477703,
+        "astrocyte_glu": 0.06298142264600635,
+        "astrocyte_gln": 0.13226098755661334,
+        "returned_neuronal": 0.7897620129769026
+      },
+      "slower": {
+        "extracellular_glu": 0.3499377491111553,
+        "astrocyte_glu": 0.3674346365667131,
+        "astrocyte_gln": 0.1929031841975244,
+        "returned_neuronal": 0.08972443012460718
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.7779685490996155,
+        "open_fraction": 0.22203145090038445,
+        "release_proxy": 0.22203145090038445
+      }
+    },
+    {
+      "time": 4.25,
+      "recycling": {
+        "extracellular_glu": 0.014264233908999256,
+        "astrocyte_glu": 0.060622994113246835,
+        "astrocyte_gln": 0.12882386249064953,
+        "returned_neuronal": 0.7962889094871044
+      },
+      "slower": {
+        "extracellular_glu": 0.3455907525769745,
+        "astrocyte_glu": 0.36719017461303544,
+        "astrocyte_gln": 0.19506978026317506,
+        "returned_neuronal": 0.09214929254681503
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.7400265752396828,
+        "open_fraction": 0.25997342476031715,
+        "release_proxy": 0.25997342476031715
+      }
+    },
+    {
+      "time": 4.3,
+      "recycling": {
+        "extracellular_glu": 0.013568559012200934,
+        "astrocyte_glu": 0.058344803752464015,
+        "astrocyte_gln": 0.12544132806779762,
+        "returned_neuronal": 0.8026453091675374
+      },
+      "slower": {
+        "extracellular_glu": 0.3412977553009937,
+        "astrocyte_glu": 0.3668950869485682,
+        "astrocyte_gln": 0.1972061092348554,
+        "returned_neuronal": 0.09460104851558271
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.703935053280478,
+        "open_fraction": 0.296064946719522,
+        "release_proxy": 0.296064946719522
+      }
+    },
+    {
+      "time": 4.35,
+      "recycling": {
+        "extracellular_glu": 0.012906812580479873,
+        "astrocyte_glu": 0.05614463472508744,
+        "astrocyte_gln": 0.12211458052706517,
+        "returned_neuronal": 0.8088339721673675
+      },
+      "slower": {
+        "extracellular_glu": 0.3370580864936543,
+        "astrocyte_glu": 0.366550669061849,
+        "astrocyte_gln": 0.1993119263023804,
+        "returned_neuronal": 0.09707931814211623
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.6696037356178686,
+        "open_fraction": 0.33039626438213143,
+        "release_proxy": 0.33039626438213143
+      }
+    },
+    {
+      "time": 4.4,
+      "recycling": {
+        "extracellular_glu": 0.012277339903068436,
+        "astrocyte_glu": 0.054020295573501124,
+        "astrocyte_gln": 0.11884465026170248,
+        "returned_neuronal": 0.8148577142617279
+      },
+      "slower": {
+        "extracellular_glu": 0.33287108369807955,
+        "astrocyte_glu": 0.3661581920678875,
+        "astrocyte_gln": 0.20138700563733816,
+        "returned_neuronal": 0.09958371859669479
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.636946776075313,
+        "open_fraction": 0.363053223924687,
+        "release_proxy": 0.363053223924687
+      }
+    },
+    {
+      "time": 4.45,
+      "recycling": {
+        "extracellular_glu": 0.011678566970395442,
+        "astrocyte_glu": 0.05196962301825972,
+        "astrocyte_gln": 0.11563241121562788,
+        "returned_neuronal": 0.820719398795717
+      },
+      "slower": {
+        "extracellular_glu": 0.3287360926865641,
+        "astrocyte_glu": 0.3657189031138026,
+        "astrocyte_gln": 0.20343113985705272,
+        "returned_neuronal": 0.10211386434258052
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.6058825152437053,
+        "open_fraction": 0.3941174847562947,
+        "release_proxy": 0.3941174847562947
+      }
+    },
+    {
+      "time": 4.5,
+      "recycling": {
+        "extracellular_glu": 0.011108996538242306,
+        "astrocyte_glu": 0.04999048442209038,
+        "astrocyte_gln": 0.11247858994970335,
+        "returned_neuronal": 0.8264219290899639
+      },
+      "slower": {
+        "extracellular_glu": 0.32465246735834974,
+        "astrocyte_glu": 0.36523402577814346,
+        "astrocyte_gln": 0.20544413950020568,
+        "returned_neuronal": 0.10466936736330112
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.5763332762903149,
+        "open_fraction": 0.42366672370968506,
+        "release_proxy": 0.42366672370968506
+      }
+    },
+    {
+      "time": 4.55,
+      "recycling": {
+        "extracellular_glu": 0.010567204383852655,
+        "astrocyte_glu": 0.048080779946529574,
+        "astrocyte_gln": 0.10938377437835478,
+        "returned_neuronal": 0.831968241291263
+      },
+      "slower": {
+        "extracellular_glu": 0.32061956963867067,
+        "astrocyte_glu": 0.36470476046398786,
+        "astrocyte_gln": 0.20742583251389307,
+        "returned_neuronal": 0.1072498373834484
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.5482251707262473,
+        "open_fraction": 0.4517748292737527,
+        "release_proxy": 0.4517748292737527
+      }
+    },
+    {
+      "time": 4.6,
+      "recycling": {
+        "extracellular_glu": 0.010051835744633586,
+        "astrocyte_glu": 0.04623844442531449,
+        "astrocyte_gln": 0.10634842217822332,
+        "returned_neuronal": 0.8373612976518285
+      },
+      "slower": {
+        "extracellular_glu": 0.3166367693790533,
+        "astrocyte_glu": 0.36413228478591125,
+        "astrocyte_gln": 0.20937606375189893,
+        "returned_neuronal": 0.10985488208313654
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.5214879136467341,
+        "open_fraction": 0.4785120863532659,
+        "release_proxy": 0.4785120863532659
+      }
+    },
+    {
+      "time": 4.65,
+      "recycling": {
+        "extracellular_glu": 0.009561601930543505,
+        "astrocyte_glu": 0.0444614489770273,
+        "astrocyte_gln": 0.10337286887158847,
+        "returned_neuronal": 0.8426040802208408
+      },
+      "slower": {
+        "extracellular_glu": 0.3127034442588537,
+        "astrocyte_glu": 0.36351775395091745,
+        "astrocyte_gln": 0.21129469448397079,
+        "returned_neuronal": 0.11248410730625802
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.4960546479822605,
+        "open_fraction": 0.5039453520177395,
+        "release_proxy": 0.5039453520177395
+      }
+    },
+    {
+      "time": 4.7,
+      "recycling": {
+        "extracellular_glu": 0.009095277101695816,
+        "astrocyte_glu": 0.04274780237797034,
+        "astrocyte_gln": 0.10045733558823029,
+        "returned_neuronal": 0.8476995849321036
+      },
+      "slower": {
+        "extracellular_glu": 0.30881897968801986,
+        "astrocyte_glu": 0.3628623011334233,
+        "astrocyte_gln": 0.21318160191588625,
+        "returned_neuronal": 0.11513711726267051
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.47186177732107004,
+        "open_fraction": 0.52813822267893,
+        "release_proxy": 0.52813822267893
+      }
+    },
+    {
+      "time": 4.75,
+      "recycling": {
+        "extracellular_glu": 0.008651695203120634,
+        "astrocyte_glu": 0.041095552214823014,
+        "astrocyte_gln": 0.09760193651020466,
+        "returned_neuronal": 0.8526508160718517
+      },
+      "slower": {
+        "extracellular_glu": 0.3049827687110593,
+        "astrocyte_glu": 0.3621670378443829,
+        "astrocyte_gln": 0.21503667872010235,
+        "returned_neuronal": 0.11781351472445545
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.44884880688500556,
+        "open_fraction": 0.5511511931149944,
+        "release_proxy": 0.5511511931149944
+      }
+    },
+    {
+      "time": 4.8,
+      "recycling": {
+        "extracellular_glu": 0.00822974704902003,
+        "astrocyte_glu": 0.03950278583529614,
+        "astrocyte_gln": 0.09480668600471075,
+        "returned_neuronal": 0.8574607811109731
+      },
+      "slower": {
+        "extracellular_glu": 0.30119421191220214,
+        "astrocyte_glu": 0.36143305429464256,
+        "astrocyte_gln": 0.21685983257678554,
+        "returned_neuronal": 0.1205129012163697
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.4269581922610561,
+        "open_fraction": 0.5730418077389439,
+        "release_proxy": 0.5730418077389439
+      }
+    },
+    {
+      "time": 4.85,
+      "recycling": {
+        "extracellular_glu": 0.007828377549225773,
+        "astrocyte_glu": 0.037967631113745,
+        "astrocyte_gln": 0.09207150545083162,
+        "returned_neuronal": 0.8621324858861976
+      },
+      "slower": {
+        "extracellular_glu": 0.2974527173217406,
+        "astrocyte_glu": 0.36066141975261046,
+        "astrocyte_gln": 0.2186509857250201,
+        "returned_neuronal": 0.12323487720062887
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.40613519551034966,
+        "open_fraction": 0.5938648044896504,
+        "release_proxy": 0.5938648044896504
+      }
+    },
+    {
+      "time": 4.9,
+      "recycling": {
+        "extracellular_glu": 0.007446583070924338,
+        "astrocyte_glu": 0.03648825704752926,
+        "astrocyte_gln": 0.08939622976644669,
+        "returned_neuronal": 0.8666689301150997
+      },
+      "slower": {
+        "extracellular_glu": 0.29375770032353277,
+        "astrocyte_glu": 0.3598531828963277,
+        "astrocyte_gln": 0.22041007452400072,
+        "returned_neuronal": 0.12597904225613887
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.38632774829479455,
+        "open_fraction": 0.6136722517052055,
+        "release_proxy": 0.6136722517052055
+      }
+    },
+    {
+      "time": 4.95,
+      "recycling": {
+        "extracellular_glu": 0.0070834089290521185,
+        "astrocyte_glu": 0.035062874198807985,
+        "astrocyte_gln": 0.08678061364204977,
+        "returned_neuronal": 0.8710731032300901
+      },
+      "slower": {
+        "extracellular_glu": 0.29010858356365526,
+        "astrocyte_glu": 0.3590093721600234,
+        "astrocyte_gln": 0.2221370490240145,
+        "returned_neuronal": 0.12874499525230687
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.3674863216791142,
+        "open_fraction": 0.6325136783208858,
+        "release_proxy": 0.6325136783208858
+      }
+    },
+    {
+      "time": 5.0,
+      "recycling": {
+        "extracellular_glu": 0.006737946999085467,
+        "astrocyte_glu": 0.03368973499542734,
+        "astrocyte_gln": 0.08422433748856833,
+        "returned_neuronal": 0.8753479805169189
+      },
+      "slower": {
+        "extracellular_glu": 0.2865047968601901,
+        "astrocyte_glu": 0.35813099607523763,
+        "astrocyte_gln": 0.2238318725470235,
+        "returned_neuronal": 0.13153233451754875
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.34956380228270817,
+        "open_fraction": 0.6504361977172919,
+        "release_proxy": 0.6504361977172919
+      }
+    },
+    {
+      "time": 5.05,
+      "recycling": {
+        "extracellular_glu": 0.006409333446256383,
+        "astrocyte_glu": 0.03236713390359473,
+        "astrocyte_gln": 0.08172701310657669,
+        "returned_neuronal": 0.8794965195435722
+      },
+      "slower": {
+        "extracellular_glu": 0.2829457771141329,
+        "astrocyte_glu": 0.35721904360659273,
+        "astrocyte_gln": 0.22549452127666167,
+        "returned_neuronal": 0.13434065800261275
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.3325153744716619,
+        "open_fraction": 0.6674846255283381,
+        "release_proxy": 0.6674846255283381
+      }
+    },
+    {
+      "time": 5.1,
+      "recycling": {
+        "extracellular_glu": 0.006096746565515638,
+        "astrocyte_glu": 0.03109340748412975,
+        "astrocyte_gln": 0.07928818908453086,
+        "returned_neuronal": 0.8835216568658237
+      },
+      "slower": {
+        "extracellular_glu": 0.27943096822140734,
+        "astrocyte_glu": 0.3562744844822943,
+        "astrocyte_gln": 0.22712498385746263,
+        "returned_neuronal": 0.13716956343883568
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.3162984082963184,
+        "open_fraction": 0.6837015917036816,
+        "release_proxy": 0.6837015917036816
+      }
+    },
+    {
+      "time": 5.15,
+      "recycling": {
+        "extracellular_glu": 0.005799404726842141,
+        "astrocyte_glu": 0.02986693434323703,
+        "astrocyte_gln": 0.07690735593383535,
+        "returned_neuronal": 0.8874263049960854
+      },
+      "slower": {
+        "extracellular_glu": 0.2759598209859731,
+        "astrocyte_glu": 0.3552982695194404,
+        "astrocyte_gln": 0.22872326100313978,
+        "returned_neuronal": 0.14001864849144674
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.3008723528941986,
+        "open_fraction": 0.6991276471058014,
+        "release_proxy": 0.6991276471058014
+      }
+    },
+    {
+      "time": 5.2,
+      "recycling": {
+        "extracellular_glu": 0.0055165644207607716,
+        "astrocyte_glu": 0.028686134987956014,
+        "astrocyte_gln": 0.07458395096868564,
+        "returned_neuronal": 0.8912133496225976
+      },
+      "slower": {
+        "extracellular_glu": 0.2725317930340126,
+        "astrocyte_glu": 0.3542913309442164,
+        "astrocyte_gln": 0.23028936511374065,
+        "returned_neuronal": 0.1428875109080303
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.28619863509172433,
+        "open_fraction": 0.7138013649082757,
+        "release_proxy": 0.7138013649082757
+      }
+    },
+    {
+      "time": 5.25,
+      "recycling": {
+        "extracellular_glu": 0.005247518399181385,
+        "astrocyte_glu": 0.027549471595702268,
+        "astrocyte_gln": 0.07231736293871846,
+        "returned_neuronal": 0.894885647066398
+      },
+      "slower": {
+        "extracellular_glu": 0.26914634872918386,
+        "astrocyte_glu": 0.3532545827070538,
+        "astrocyte_gln": 0.23182331990150407,
+        "returned_neuronal": 0.1457757486622583
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.2722405629511908,
+        "open_fraction": 0.7277594370488092,
+        "release_proxy": 0.7277594370488092
+      }
+    },
+    {
+      "time": 5.3,
+      "recycling": {
+        "extracellular_glu": 0.004991593906910217,
+        "astrocyte_glu": 0.026455447706624148,
+        "astrocyte_gln": 0.070106936422554,
+        "returned_neuronal": 0.8984460219639117
+      },
+      "slower": {
+        "extracellular_glu": 0.2658029590889266,
+        "astrocyte_glu": 0.3521889207928277,
+        "astrocyte_gln": 0.23332516002524836,
+        "returned_neuronal": 0.1486829600929973
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.2589632340218117,
+        "open_fraction": 0.7410367659781882,
+        "release_proxy": 0.7410367659781882
+      }
+    },
+    {
+      "time": 5.35,
+      "recycling": {
+        "extracellular_glu": 0.004748150999411478,
+        "astrocyte_glu": 0.025402607846851402,
+        "astrocyte_gln": 0.0679519759903275,
+        "returned_neuronal": 0.9018972651634096
+      },
+      "slower": {
+        "extracellular_glu": 0.2625011017018073,
+        "astrocyte_glu": 0.35109522352616723,
+        "astrocyte_gln": 0.23479493073312432,
+        "returned_neuronal": 0.15160874403890112
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.24633344806541174,
+        "open_fraction": 0.7536665519345882,
+        "release_proxy": 0.7536665519345882
+      }
+    },
+    {
+      "time": 5.4,
+      "recycling": {
+        "extracellular_glu": 0.004516580942612666,
+        "astrocyte_glu": 0.0243895370901084,
+        "astrocyte_gln": 0.06585175014329268,
+        "returned_neuronal": 0.9052421318239863
+      },
+      "slower": {
+        "extracellular_glu": 0.2592402606458915,
+        "astrocyte_glu": 0.3499743518719536,
+        "astrocyte_gln": 0.23623268751356866,
+        "returned_neuronal": 0.15455269996858623
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.23431962403853793,
+        "open_fraction": 0.7656803759614621,
+        "release_proxy": 0.7656803759614621
+      }
+    },
+    {
+      "time": 5.45,
+      "recycling": {
+        "extracellular_glu": 0.00429630469075234,
+        "astrocyte_glu": 0.02341486056460025,
+        "astrocyte_gln": 0.06380549503853569,
+        "returned_neuronal": 0.9084833397061117
+      },
+      "slower": {
+        "extracellular_glu": 0.25601992640813004,
+        "astrocyte_glu": 0.3488271497310772,
+        "astrocyte_gln": 0.23763849575429632,
+        "returned_neuronal": 0.1575144281064964
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.2228917211234022,
+        "open_fraction": 0.7771082788765978,
+        "release_proxy": 0.7771082788765978
+      }
+    },
+    {
+      "time": 5.5,
+      "recycling": {
+        "extracellular_glu": 0.004086771438464067,
+        "astrocyte_glu": 0.022477242911552366,
+        "astrocyte_gln": 0.06181241800676901,
+        "returned_neuronal": 0.9116235676432145
+      },
+      "slower": {
+        "extracellular_glu": 0.25283959580474646,
+        "astrocyte_glu": 0.34765444423152636,
+        "astrocyte_gln": 0.2390124304091744,
+        "returned_neuronal": 0.16049352955455276
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.2120211636101875,
+        "open_fraction": 0.7879788363898125,
+        "release_proxy": 0.7879788363898125
+      }
+    },
+    {
+      "time": 5.55,
+      "recycling": {
+        "extracellular_glu": 0.0038874572434761303,
+        "astrocyte_glu": 0.021575387701292522,
+        "astrocyte_gln": 0.05987170087108675,
+        "returned_neuronal": 0.9146654541841446
+      },
+      "slower": {
+        "extracellular_glu": 0.24969877190261355,
+        "astrocyte_glu": 0.3464570460148763,
+        "astrocyte_gln": 0.24035457567282043,
+        "returned_neuronal": 0.16348960640968968
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.20168076944289043,
+        "open_fraction": 0.7983192305571096,
+        "release_proxy": 0.7983192305571096
+      }
+    },
+    {
+      "time": 5.6,
+      "recycling": {
+        "extracellular_glu": 0.003697863716482932,
+        "astrocyte_glu": 0.020708036812304417,
+        "astrocyte_gln": 0.057982503074452366,
+        "returned_neuronal": 0.9176115963967603
+      },
+      "slower": {
+        "extracellular_glu": 0.2465969639416065,
+        "astrocyte_glu": 0.3452357495182491,
+        "astrocyte_gln": 0.24166502466277434,
+        "returned_neuronal": 0.16650226187737005
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.19184468225002188,
+        "open_fraction": 0.8081553177499781,
+        "release_proxy": 0.8081553177499781
+      }
+    },
+    {
+      "time": 5.65,
+      "recycling": {
+        "extracellular_glu": 0.0035175167749121284,
+        "astrocyte_glu": 0.019873969778253526,
+        "astrocyte_gln": 0.05614396462356622,
+        "returned_neuronal": 0.9204645488232681
+      },
+      "slower": {
+        "extracellular_glu": 0.24353368725792068,
+        "astrocyte_glu": 0.34399133325181297,
+        "astrocyte_gln": 0.24294387910909293,
+        "returned_neuronal": 0.16953110038117347
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.18248830669021054,
+        "open_fraction": 0.8175116933097895,
+        "release_proxy": 0.8175116933097895
+      }
+    },
+    {
+      "time": 5.7,
+      "recycling": {
+        "extracellular_glu": 0.003345965457471272,
+        "astrocyte_glu": 0.01907200310758625,
+        "astrocyte_gln": 0.05435520885662082,
+        "returned_neuronal": 0.9232268225783217
+      },
+      "slower": {
+        "extracellular_glu": 0.24050846320834213,
+        "astrocyte_glu": 0.34272456007188756,
+        "astrocyte_gln": 0.2441912490512199,
+        "returned_neuronal": 0.17257572766855045
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.1735882469510388,
+        "open_fraction": 0.8264117530489612,
+        "release_proxy": 0.8264117530489612
+      }
+    },
+    {
+      "time": 5.75,
+      "recycling": {
+        "extracellular_glu": 0.003182780796509667,
+        "astrocyte_glu": 0.018300989579930586,
+        "astrocyte_gln": 0.05261534504230043,
+        "returned_neuronal": 0.9259008845812593
+      },
+      "slower": {
+        "extracellular_glu": 0.23752081909545814,
+        "astrocyte_glu": 0.34143617744972105,
+        "astrocyte_gln": 0.24540725254198703,
+        "returned_neuronal": 0.1756357509128338
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.1651222482473245,
+        "open_fraction": 0.8348777517526755,
+        "release_proxy": 0.8348777517526755
+      }
+    },
+    {
+      "time": 5.8,
+      "recycling": {
+        "extracellular_glu": 0.0030275547453758153,
+        "astrocyte_glu": 0.017559817523179727,
+        "astrocyte_gln": 0.05092347081722121,
+        "returned_neuronal": 0.9284891569142233
+      },
+      "slower": {
+        "extracellular_glu": 0.23457028809379765,
+        "astrocyte_glu": 0.34012691773600656,
+        "astrocyte_gln": 0.24659201535860478,
+        "returned_neuronal": 0.17871077881159103
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.15706914117256654,
+        "open_fraction": 0.8429308588274335,
+        "release_proxy": 0.8429308588274335
+      }
+    },
+    {
+      "time": 5.85,
+      "recycling": {
+        "extracellular_glu": 0.002879899158088243,
+        "astrocyte_glu": 0.01684741007481622,
+        "astrocyte_gln": 0.04927867446883744,
+        "returned_neuronal": 0.9309940162982581
+      },
+      "slower": {
+        "extracellular_glu": 0.23165640917688882,
+        "astrocyte_glu": 0.3387974984211999,
+        "astrocyte_gln": 0.2477456707205024,
+        "returned_neuronal": 0.18180042168140886
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.1494087887644019,
+        "open_fraction": 0.8505912112355981,
+        "release_proxy": 0.8505912112355981
+      }
+    },
+    {
+      "time": 5.9,
+      "recycling": {
+        "extracellular_glu": 0.0027394448187683684,
+        "astrocyte_glu": 0.016162724430733376,
+        "astrocyte_gln": 0.047680037070663456,
+        "returned_neuronal": 0.9334177936798348
+      },
+      "slower": {
+        "extracellular_glu": 0.22877872704522242,
+        "astrocyte_glu": 0.3374486223917031,
+        "astrocyte_gln": 0.24886835901388105,
+        "returned_neuronal": 0.1849042915491934
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.14212203615171068,
+        "open_fraction": 0.8578779638482893,
+        "release_proxy": 0.8578779638482893
+      }
+    },
+    {
+      "time": 5.95,
+      "recycling": {
+        "extracellular_glu": 0.0026058405184084983,
+        "astrocyte_glu": 0.015504751084530565,
+        "astrocyte_gln": 0.04612663447647843,
+        "returned_neuronal": 0.9357627739205825
+      },
+      "slower": {
+        "extracellular_glu": 0.22593679205511083,
+        "astrocyte_glu": 0.33608097818197735,
+        "astrocyte_gln": 0.2499602275228457,
+        "returned_neuronal": 0.18802200224006616
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.1351906626574614,
+        "open_fraction": 0.8648093373425386,
+        "release_proxy": 0.8648093373425386
+      }
+    },
+    {
+      "time": 6.0,
+      "recycling": {
+        "extracellular_glu": 0.0024787521766663585,
+        "astrocyte_glu": 0.014872513059998151,
+        "astrocyte_gln": 0.044617539179994455,
+        "returned_neuronal": 0.938031195583341
+      },
+      "slower": {
+        "extracellular_glu": 0.22313016014842982,
+        "astrocyte_glu": 0.33469524022264474,
+        "astrocyte_gln": 0.25102143016698353,
+        "returned_neuronal": 0.19115316946194194
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.12859733623752723,
+        "open_fraction": 0.8714026637624728,
+        "release_proxy": 0.8714026637624728
+      }
+    },
+    {
+      "time": 6.05,
+      "recycling": {
+        "extracellular_glu": 0.002357862006490233,
+        "astrocyte_glu": 0.014265065139265908,
+        "astrocyte_gln": 0.043151822046279376,
+        "returned_neuronal": 0.9402252508079645
+      },
+      "slower": {
+        "extracellular_glu": 0.22035839278323385,
+        "astrocyte_glu": 0.3332920690846412,
+        "astrocyte_gln": 0.2520521272452599,
+        "returned_neuronal": 0.19429741088686503
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.12232557014154785,
+        "open_fraction": 0.8776744298584521,
+        "release_proxy": 0.8776744298584521
+      }
+    },
+    {
+      "time": 6.1,
+      "recycling": {
+        "extracellular_glu": 0.0022428677194858034,
+        "astrocyte_glu": 0.0136814930888634,
+        "astrocyte_gln": 0.04172855392103336,
+        "returned_neuronal": 0.9423470852706174
+      },
+      "slower": {
+        "extracellular_glu": 0.2176210568652329,
+        "astrocyte_glu": 0.33187211171948017,
+        "astrocyte_gln": 0.25305248518610357,
+        "returned_neuronal": 0.19745434622918334
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.11635968168746631,
+        "open_fraction": 0.8836403183125336,
+        "release_proxy": 0.8836403183125336
+      }
+    },
+    {
+      "time": 6.15,
+      "recycling": {
+        "extracellular_glu": 0.002133481770037708,
+        "astrocyte_glu": 0.013120912885731905,
+        "astrocyte_gln": 0.040346807123625615,
+        "returned_neuronal": 0.9443987982206048
+      },
+      "slower": {
+        "extracellular_glu": 0.21491772468012055,
+        "astrocyte_glu": 0.3304360016956854,
+        "astrocyte_gln": 0.2540226763035581,
+        "returned_neuronal": 0.20062359732063595
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.11068475304665477,
+        "open_fraction": 0.8893152469533452,
+        "release_proxy": 0.8893152469533452
+      }
+    },
+    {
+      "time": 6.2,
+      "recycling": {
+        "extracellular_glu": 0.002029430636295734,
+        "astrocyte_glu": 0.012582469945033552,
+        "astrocyte_gln": 0.03900565682960401,
+        "returned_neuronal": 0.9463824425890667
+      },
+      "slower": {
+        "extracellular_glu": 0.21224797382674304,
+        "astrocyte_glu": 0.3289843594314517,
+        "astrocyte_gln": 0.2549628785593751,
+        "returned_neuronal": 0.20380478818243009
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.1052865939415731,
+        "open_fraction": 0.8947134060584269,
+        "release_proxy": 0.8947134060584269
+      }
+    },
+    {
+      "time": 6.25,
+      "recycling": {
+        "extracellular_glu": 0.0019304541362277093,
+        "astrocyte_glu": 0.012065338351423182,
+        "astrocyte_gln": 0.037704182348197446,
+        "returned_neuronal": 0.9483000251641517
+      },
+      "slower": {
+        "extracellular_glu": 0.2096113871510978,
+        "astrocyte_glu": 0.3275177924235903,
+        "astrocyte_gln": 0.25587327533092996,
+        "returned_neuronal": 0.20699754509438195
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.10015170616268294,
+        "open_fraction": 0.899848293837317,
+        "release_proxy": 0.899848293837317
+      }
+    },
+    {
+      "time": 6.3,
+      "recycling": {
+        "extracellular_glu": 0.0018363047770289071,
+        "astrocyte_glu": 0.011568720095282115,
+        "astrocyte_gln": 0.03644146830013866,
+        "returned_neuronal": 0.9501535068275503
+      },
+      "slower": {
+        "extracellular_glu": 0.20700755268115265,
+        "astrocyte_glu": 0.3260368954728154,
+        "astrocyte_gln": 0.2567540551848421,
+        "returned_neuronal": 0.2102014966611898
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.09526724981589353,
+        "open_fraction": 0.9047327501841065,
+        "release_proxy": 0.9047327501841065
+      }
+    },
+    {
+      "time": 6.35,
+      "recycling": {
+        "extracellular_glu": 0.0017467471362611197,
+        "astrocyte_glu": 0.01109184431525811,
+        "astrocyte_gln": 0.035216605700944495,
+        "returned_neuronal": 0.9519448028475362
+      },
+      "slower": {
+        "extracellular_glu": 0.204436063562474,
+        "astrocyte_glu": 0.3245422509054275,
+        "astrocyte_gln": 0.25760541165618306,
+        "returned_neuronal": 0.21341627387591544
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.09062101121613818,
+        "open_fraction": 0.9093789887838618,
+        "release_proxy": 0.9093789887838618
+      }
+    },
+    {
+      "time": 6.4,
+      "recycling": {
+        "extracellular_glu": 0.001661557273173934,
+        "astrocyte_glu": 0.010633966548313178,
+        "astrocyte_gln": 0.034028692954602174,
+        "returned_neuronal": 0.9536757832239107
+      },
+      "slower": {
+        "extracellular_glu": 0.20189651799465538,
+        "astrocyte_glu": 0.3230344287914486,
+        "astrocyte_gln": 0.25842754303315896,
+        "returned_neuronal": 0.21664151018073707
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.08620137234679981,
+        "open_fraction": 0.9137986276532002,
+        "release_proxy": 0.9137986276532002
+      }
+    },
+    {
+      "time": 6.45,
+      "recycling": {
+        "extracellular_glu": 0.001580522168736217,
+        "astrocyte_glu": 0.0101943679883486,
+        "astrocyte_gln": 0.032876836762424234,
+        "returned_neuronal": 0.955348273080491
+      },
+      "slower": {
+        "extracellular_glu": 0.19938851916853514,
+        "astrocyte_glu": 0.32151398715926294,
+        "astrocyte_gln": 0.25922065214715573,
+        "returned_neuronal": 0.21987684152504616
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.08199728180861815,
+        "open_fraction": 0.9180027181913819,
+        "release_proxy": 0.9180027181913819
+      }
+    },
+    {
+      "time": 6.5,
+      "recycling": {
+        "extracellular_glu": 0.0015034391929775724,
+        "astrocyte_glu": 0.00977235475435422,
+        "astrocyte_gln": 0.031760152951651216,
+        "returned_neuronal": 0.956964053101017
+      },
+      "slower": {
+        "extracellular_glu": 0.19691167520419406,
+        "astrocyte_glu": 0.31998147220681533,
+        "astrocyte_gln": 0.25998494616803747,
+        "returned_neuronal": 0.2231219064209531
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.07799822718543473,
+        "open_fraction": 0.9220017728145653,
+        "release_proxy": 0.9220017728145653
+      }
+    },
+    {
+      "time": 6.55,
+      "recycling": {
+        "extracellular_glu": 0.0014301155983078744,
+        "astrocyte_glu": 0.009367257168916577,
+        "astrocyte_gln": 0.03067776722820179,
+        "returned_neuronal": 0.9585248600045737
+      },
+      "slower": {
+        "extracellular_glu": 0.19446559908972355,
+        "astrocyte_glu": 0.3184374185094223,
+        "astrocyte_gln": 0.2607206364045895,
+        "returned_neuronal": 0.22637634599626466
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.07419420875767704,
+        "open_fraction": 0.925805791242323,
+        "release_proxy": 0.925805791242323
+      }
+    },
+    {
+      "time": 6.6,
+      "recycling": {
+        "extracellular_glu": 0.0013603680375478939,
+        "astrocyte_glu": 0.0089784290478161,
+        "astrocyte_gln": 0.029628815857793124,
+        "returned_neuronal": 0.9600323870568429
+      },
+      "slower": {
+        "extracellular_glu": 0.19204990862075413,
+        "astrocyte_glu": 0.3168823492242443,
+        "astrocyte_gln": 0.26142793811000153,
+        "returned_neuronal": 0.22963980404500006
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.07057571449785097,
+        "open_fraction": 0.9294242855021491,
+        "release_proxy": 0.9294242855021491
+      }
+    },
+    {
+      "time": 6.65,
+      "recycling": {
+        "extracellular_glu": 0.001294022105465848,
+        "astrocyte_glu": 0.00860524700134789,
+        "astrocyte_gln": 0.028612446279481733,
+        "returned_neuronal": 0.9614882846137045
+      },
+      "slower": {
+        "extracellular_glu": 0.18966422634073524,
+        "astrocyte_glu": 0.31531677629147237,
+        "astrocyte_gln": 0.2621070702922864,
+        "returned_neuronal": 0.232911927075506
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.06713369628551744,
+        "open_fraction": 0.9328663037144825,
+        "release_proxy": 0.9328663037144825
+      }
+    },
+    {
+      "time": 6.7,
+      "recycling": {
+        "extracellular_glu": 0.001230911902673481,
+        "astrocyte_glu": 0.008247109747912323,
+        "astrocyte_gln": 0.02762781765550628,
+        "returned_neuronal": 0.9628941606939079
+      },
+      "slower": {
+        "extracellular_glu": 0.18730817948195702,
+        "astrocyte_glu": 0.313741200632278,
+        "astrocyte_gln": 0.26275825552953286,
+        "returned_neuronal": 0.23619236435623214
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.06385954728227848,
+        "open_fraction": 0.9361404527177215,
+        "release_proxy": 0.9361404527177215
+      }
+    },
+    {
+      "time": 6.75,
+      "recycling": {
+        "extracellular_glu": 0.0011708796207911744,
+        "astrocyte_glu": 0.007903437440340427,
+        "astrocyte_gln": 0.026674101361148943,
+        "returned_neuronal": 0.9642515815777195
+      },
+      "slower": {
+        "extracellular_glu": 0.18498139990730428,
+        "astrocyte_glu": 0.312156112343576,
+        "astrocyte_gln": 0.2633817197898922,
+        "returned_neuronal": 0.23948076795922746
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0607450804101979,
+        "open_fraction": 0.9392549195898021,
+        "release_proxy": 0.9392549195898021
+      }
+    },
+    {
+      "time": 6.8,
+      "recycling": {
+        "extracellular_glu": 0.0011137751478448032,
+        "astrocyte_glu": 0.007573671005344662,
+        "astrocyte_gln": 0.025750481418171847,
+        "returned_neuronal": 0.9655620724286387
+      },
+      "slower": {
+        "extracellular_glu": 0.18268352405273466,
+        "astrocyte_glu": 0.3105619908896489,
+        "astrocyte_gln": 0.26397769225620155,
+        "returned_neuronal": 0.24277679280141484
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.057782507879842154,
+        "open_fraction": 0.9422174921201578,
+        "release_proxy": 0.9422174921201578
+      }
+    },
+    {
+      "time": 6.85,
+      "recycling": {
+        "extracellular_glu": 0.0010594556929076101,
+        "astrocyte_glu": 0.007257271496417129,
+        "astrocyte_gln": 0.024856154875228666,
+        "returned_neuronal": 0.9668271179354466
+      },
+      "slower": {
+        "extracellular_glu": 0.18041419287047078,
+        "astrocyte_glu": 0.3089593052906812,
+        "astrocyte_gln": 0.26454640515514577,
+        "returned_neuronal": 0.24608009668370223
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.05496442171675024,
+        "open_fraction": 0.9450355782832498,
+        "release_proxy": 0.9450355782832498
+      }
+    },
+    {
+      "time": 6.9,
+      "recycling": {
+        "extracellular_glu": 0.0010077854290485105,
+        "astrocyte_glu": 0.006953719460434722,
+        "astrocyte_gln": 0.023990332138499795,
+        "returned_neuronal": 0.968048162972017
+      },
+      "slower": {
+        "extracellular_glu": 0.1781730517728984,
+        "astrocyte_glu": 0.3073485143082498,
+        "astrocyte_gln": 0.26508809359086544,
+        "returned_neuronal": 0.24939034032798635
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.052283775237638844,
+        "open_fraction": 0.9477162247623612,
+        "release_proxy": 0.9477162247623612
+      }
+    },
+    {
+      "time": 6.95,
+      "recycling": {
+        "extracellular_glu": 0.0009586351536940199,
+        "astrocyte_glu": 0.006662514318173439,
+        "astrocyte_gln": 0.0231522372556527,
+        "returned_neuronal": 0.9692266132724798
+      },
+      "slower": {
+        "extracellular_glu": 0.17595975057716148,
+        "astrocyte_glu": 0.3057300666278181,
+        "astrocyte_gln": 0.265602995382917,
+        "returned_neuronal": 0.2527071874121034
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.04973386543002388,
+        "open_fraction": 0.9502661345699761,
+        "release_proxy": 0.9502661345699761
+      }
+    },
+    {
+      "time": 7.0,
+      "recycling": {
+        "extracellular_glu": 0.0009118819655545162,
+        "astrocyte_glu": 0.006383173758881614,
+        "astrocyte_gln": 0.022341108156085646,
+        "returned_neuronal": 0.9703638361194782
+      },
+      "slower": {
+        "extracellular_glu": 0.17377394345044514,
+        "astrocyte_glu": 0.304104401038279,
+        "astrocyte_gln": 0.2660913509084941,
+        "returned_neuronal": 0.25603030460278176
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.04730831619119759,
+        "open_fraction": 0.9526916838088024,
+        "release_proxy": 0.9526916838088024
+      }
+    },
+    {
+      "time": 7.05,
+      "recycling": {
+        "extracellular_glu": 0.0008674089573070025,
+        "astrocyte_glu": 0.006115233149014367,
+        "astrocyte_gln": 0.021556196850275645,
+        "returned_neuronal": 0.971461161043403
+      },
+      "slower": {
+        "extracellular_glu": 0.17161528885593874,
+        "astrocyte_glu": 0.302471946608592,
+        "astrocyte_gln": 0.26655340294882174,
+        "returned_neuronal": 0.2593593615866475
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.045001062384650695,
+        "open_fraction": 0.9549989376153493,
+        "release_proxy": 0.9549989376153493
+      }
+    },
+    {
+      "time": 7.1,
+      "recycling": {
+        "extracellular_glu": 0.0008251049232659046,
+        "astrocyte_glu": 0.005858244955187922,
+        "astrocyte_gln": 0.020796769590917124,
+        "returned_neuronal": 0.9725198805306291
+      },
+      "slower": {
+        "extracellular_glu": 0.1694834494994701,
+        "astrocyte_glu": 0.30083312286155944,
+        "astrocyte_gln": 0.266989396539634,
+        "returned_neuronal": 0.2626940310993364
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.042806334674072015,
+        "open_fraction": 0.957193665325928,
+        "release_proxy": 0.957193665325928
+      }
+    },
+    {
+      "time": 7.15,
+      "recycling": {
+        "extracellular_glu": 0.0007848640813109316,
+        "astrocyte_glu": 0.005611778181373162,
+        "astrocyte_gln": 0.020062106998409053,
+        "returned_neuronal": 0.9735412507389068
+      },
+      "slower": {
+        "extracellular_glu": 0.16737809227680248,
+        "astrocyte_glu": 0.29918833994478444,
+        "astrocyte_gln": 0.2673995788256511,
+        "returned_neuronal": 0.266033988952762
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.04071864509700246,
+        "open_fraction": 0.9592813549029975,
+        "release_proxy": 0.9592813549029975
+      }
+    },
+    {
+      "time": 7.2,
+      "recycling": {
+        "extracellular_glu": 0.0007465858083766792,
+        "astrocyte_glu": 0.00537541782031209,
+        "astrocyte_gln": 0.019351504153123526,
+        "returned_neuronal": 0.9745264922181877
+      },
+      "slower": {
+        "extracellular_glu": 0.16529888822158653,
+        "astrocyte_glu": 0.2975379987988558,
+        "astrocyte_gln": 0.2677841989189702,
+        "returned_neuronal": 0.26937891406058745
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.038732773342070474,
+        "open_fraction": 0.9612672266579295,
+        "release_proxy": 0.9612672266579295
+      }
+    },
+    {
+      "time": 7.25,
+      "recycling": {
+        "extracellular_glu": 0.000710174388842549,
+        "astrocyte_glu": 0.00514876431910848,
+        "astrocyte_gln": 0.01866427065676824,
+        "returned_neuronal": 0.9754767906352807
+      },
+      "slower": {
+        "extracellular_glu": 0.1632455124539584,
+        "astrocyte_glu": 0.2958824913227996,
+        "astrocyte_gln": 0.26814350776128715,
+        "returned_neuronal": 0.27272848846195485
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.0368437536954943,
+        "open_fraction": 0.9631562463045057,
+        "release_proxy": 0.9631562463045057
+      }
+    },
+    {
+      "time": 7.3,
+      "recycling": {
+        "extracellular_glu": 0.0006755387751938444,
+        "astrocyte_glu": 0.004931433058915064,
+        "astrocyte_gln": 0.017999730665039983,
+        "returned_neuronal": 0.9763932975008511
+      },
+      "slower": {
+        "extracellular_glu": 0.16121764412977677,
+        "astrocyte_glu": 0.2942222005368426,
+        "astrocyte_gln": 0.2684777579898689,
+        "returned_neuronal": 0.2760823973435117
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.035046862624211104,
+        "open_fraction": 0.9649531373757889,
+        "release_proxy": 0.9649531373757889
+      }
+    },
+    {
+      "time": 7.35,
+      "recycling": {
+        "extracellular_glu": 0.0006425923603555579,
+        "astrocyte_glu": 0.00472305384861335,
+        "astrocyte_gln": 0.017357222893654062,
+        "returned_neuronal": 0.977277130897377
+      },
+      "slower": {
+        "extracellular_glu": 0.15921496639049026,
+        "astrocyte_glu": 0.29255750074252584,
+        "astrocyte_gln": 0.2687872038071956,
+        "returned_neuronal": 0.2794403290597882
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.03333760696458392,
+        "open_fraction": 0.9666623930354161,
+        "release_proxy": 0.9666623930354161
+      }
+    },
+    {
+      "time": 7.4,
+      "recycling": {
+        "extracellular_glu": 0.0006112527611295723,
+        "astrocyte_glu": 0.004523270432358836,
+        "astrocyte_gln": 0.01673610059972769,
+        "returned_neuronal": 0.9781293762067839
+      },
+      "slower": {
+        "extracellular_glu": 0.1572371663136276,
+        "astrocyte_glu": 0.2908887576802111,
+        "astrocyte_gln": 0.26907210085419525,
+        "returned_neuronal": 0.28280197515196603
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.03171171268715213,
+        "open_fraction": 0.9682882873128479,
+        "release_proxy": 0.9682882873128479
+      }
+    },
+    {
+      "time": 7.45,
+      "recycling": {
+        "extracellular_glu": 0.0005814416121937556,
+        "astrocyte_glu": 0.0043317400108434795,
+        "astrocyte_gln": 0.01613573154039196,
+        "returned_neuronal": 0.9789510868365708
+      },
+      "slower": {
+        "extracellular_glu": 0.155283934863903,
+        "astrocyte_glu": 0.2892163286840193,
+        "astrocyte_gln": 0.269332706086993,
+        "returned_neuronal": 0.28616703036508473
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.030165114209331722,
+        "open_fraction": 0.9698348857906682,
+        "release_proxy": 0.9698348857906682
+      }
+    },
+    {
+      "time": 7.5,
+      "recycling": {
+        "extracellular_glu": 0.0005530843701478336,
+        "astrocyte_glu": 0.0041481327761087525,
+        "astrocyte_gln": 0.01555549791040782,
+        "returned_neuronal": 0.9797432849433356
+      },
+      "slower": {
+        "extracellular_glu": 0.15335496684492847,
+        "astrocyte_glu": 0.2875405628342409,
+        "astrocyte_gln": 0.2695692776571008,
+        "returned_neuronal": 0.28953519266372985
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.028693944229340927,
+        "open_fraction": 0.9713060557706591,
+        "release_proxy": 0.9713060557706591
+      }
+    },
+    {
+      "time": 7.55,
+      "recycling": {
+        "extracellular_glu": 0.0005261101271160638,
+        "astrocyte_glu": 0.003972131459726282,
+        "astrocyte_gln": 0.014994796260466712,
+        "returned_neuronal": 0.980506962152691
+      },
+      "slower": {
+        "extracellular_glu": 0.15144996085152657,
+        "astrocyte_glu": 0.2858618011072564,
+        "astrocyte_gln": 0.26978207479497324,
+        "returned_neuronal": 0.29290616324624374
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.02729452405593156,
+        "open_fraction": 0.9727054759440684,
+        "release_proxy": 0.9727054759440684
+      }
+    },
+    {
+      "time": 7.6,
+      "recycling": {
+        "extracellular_glu": 0.0005004514334406108,
+        "astrocyte_glu": 0.0038034308941486423,
+        "astrocyte_gln": 0.01445303739776484,
+        "returned_neuronal": 0.9812430802746459
+      },
+      "slower": {
+        "extracellular_glu": 0.14956861922263506,
+        "astrocyte_glu": 0.2841803765230066,
+        "astrocyte_gln": 0.26997135769685626,
+        "returned_neuronal": 0.29627964655750205
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.025963354409744677,
+        "open_fraction": 0.9740366455902554,
+        "release_proxy": 0.9740366455902554
+      }
+    },
+    {
+      "time": 7.65,
+      "recycling": {
+        "extracellular_glu": 0.00047604412902226933,
+        "astrocyte_glu": 0.0036417375870203606,
+        "astrocyte_gln": 0.013929646270352881,
+        "returned_neuronal": 0.9819525720136045
+      },
+      "slower": {
+        "extracellular_glu": 0.14771064799479677,
+        "astrocyte_glu": 0.28249661429004885,
+        "astrocyte_gln": 0.2701373874148592,
+        "returned_neuronal": 0.2996553503002952
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.024697106673289487,
+        "open_fraction": 0.9753028933267105,
+        "release_proxy": 0.9753028933267105
+      }
+    },
+    {
+      "time": 7.7,
+      "recycling": {
+        "extracellular_glu": 0.00045282718288679695,
+        "astrocyte_glu": 0.0034867693082283368,
+        "astrocyte_gln": 0.013424061836679097,
+        "returned_neuronal": 0.9826363416722058
+      },
+      "slower": {
+        "extracellular_glu": 0.14587575685622736,
+        "astrocyte_glu": 0.2808108319482377,
+        "astrocyte_gln": 0.2702804257501788,
+        "returned_neuronal": 0.3030329854453562
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.023492614567665906,
+        "open_fraction": 0.9765073854323341,
+        "release_proxy": 0.9765073854323341
+      }
+    },
+    {
+      "time": 7.75,
+      "recycling": {
+        "extracellular_glu": 0.00043074254057568753,
+        "astrocyte_glu": 0.0033382546894615782,
+        "astrocyte_gln": 0.012935736921663617,
+        "returned_neuronal": 0.9832952658482991
+      },
+      "slower": {
+        "extracellular_glu": 0.14406365910145327,
+        "astrocyte_glu": 0.2791233395090657,
+        "astrocyte_gln": 0.27040073514940743,
+        "returned_neuronal": 0.30641226624007356
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.022346866235217932,
+        "open_fraction": 0.977653133764782,
+        "release_proxy": 0.977653133764782
+      }
+    },
+    {
+      "time": 7.8,
+      "recycling": {
+        "extracellular_glu": 0.0004097349789797868,
+        "astrocyte_glu": 0.003195932836042337,
+        "astrocyte_gln": 0.012464138060565113,
+        "returned_neuronal": 0.9839301941244127
+      },
+      "slower": {
+        "extracellular_glu": 0.1422740715865136,
+        "astrocyte_glu": 0.2774344395937015,
+        "astrocyte_gln": 0.27049857860385895,
+        "returned_neuronal": 0.3097929102159259
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.021256996708320798,
+        "open_fraction": 0.9787430032916792,
+        "release_proxy": 0.9787430032916792
+      }
+    },
+    {
+      "time": 7.85,
+      "recycling": {
+        "extracellular_glu": 0.0003897519682527548,
+        "astrocyte_glu": 0.003059552950784125,
+        "astrocyte_gln": 0.01200874533182769,
+        "returned_neuronal": 0.9845419497491354
+      },
+      "slower": {
+        "extracellular_glu": 0.14050671468471812,
+        "astrocyte_glu": 0.2757444275687593,
+        "astrocyte_gln": 0.2705742195518451,
+        "returned_neuronal": 0.3131746381946775
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.020220280745469565,
+        "open_fraction": 0.9797797192545304,
+        "release_proxy": 0.9797797192545304
+      }
+    },
+    {
+      "time": 7.9,
+      "recycling": {
+        "extracellular_glu": 0.0003707435404590882,
+        "astrocyte_glu": 0.002928873969626797,
+        "astrocyte_gln": 0.011569052180025848,
+        "returned_neuronal": 0.9851313303098883
+      },
+      "slower": {
+        "extracellular_glu": 0.13876131224295524,
+        "astrocyte_glu": 0.2740535916798366,
+        "astrocyte_gln": 0.27062792178383865,
+        "returned_neuronal": 0.3165571742933695
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.01923412601675587,
+        "open_fraction": 0.9807658739832441,
+        "release_proxy": 0.9807658739832441
+      }
+    },
+    {
+      "time": 7.95,
+      "recycling": {
+        "extracellular_glu": 0.00035266216462825575,
+        "astrocyte_glu": 0.0028036642087946335,
+        "astrocyte_gln": 0.011144565229958667,
+        "returned_neuronal": 0.9856991083966185
+      },
+      "slower": {
+        "extracellular_glu": 0.13703759153854245,
+        "astrocyte_glu": 0.27236221318285314,
+        "astrocyte_gln": 0.2706599493504603,
+        "returned_neuronal": 0.3199402459281442
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.018296066621692902,
+        "open_fraction": 0.9817039333783071,
+        "release_proxy": 0.9817039333783071
+      }
+    },
+    {
+      "time": 8.0,
+      "recycling": {
+        "extracellular_glu": 0.00033546262790251185,
+        "astrocyte_glu": 0.002683701023220095,
+        "astrocyte_gln": 0.01073480409288038,
+        "returned_neuronal": 0.986246032255997
+      },
+      "slower": {
+        "extracellular_glu": 0.1353352832366127,
+        "astrocyte_glu": 0.2706705664732254,
+        "astrocyte_gln": 0.2706705664732254,
+        "returned_neuronal": 0.3233235838169365
+      },
+      "photo": {
+        "light": 0,
+        "closure": 0.017403756923179664,
+        "open_fraction": 0.9825962430768204,
+        "release_proxy": 0.9825962430768204
+      }
+    }
+  ],
+  "routes": [
+    {
+      "field": "right",
+      "eye": "left",
+      "retina": "temporal",
+      "crosses": false,
+      "hemisphere": "left"
+    },
+    {
+      "field": "right",
+      "eye": "right",
+      "retina": "nasal",
+      "crosses": true,
+      "hemisphere": "left"
+    },
+    {
+      "field": "left",
+      "eye": "left",
+      "retina": "nasal",
+      "crosses": true,
+      "hemisphere": "right"
+    },
+    {
+      "field": "left",
+      "eye": "right",
+      "retina": "temporal",
+      "crosses": false,
+      "hemisphere": "right"
+    }
+  ]
+}

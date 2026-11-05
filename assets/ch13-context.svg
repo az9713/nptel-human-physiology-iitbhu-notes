@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="840" viewBox="0 0 1000 840" role="img" aria-labelledby="title desc">
+<title id="title">Pancreatic and biliary connections to the duodenum</title>
+<desc id="desc">Connection diagram, not anatomical geometry. Liver bile drains through hepatic ducts into the common hepatic duct. The gallbladder connects by the cystic duct; below their junction is the common bile duct. A separately drawn main pancreatic duct joins a short common terminal passage that opens into the duodenal lumen. One common arrangement is shown; variants exist. Lines identify connections rather than simultaneous flow.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#eef2f8;font-size:25px} .small{font-size:21px;fill:#becbdb}.heading{font-size:32px;font-weight:700}.organ{fill:#202f43;stroke:#95a6bb;stroke-width:2}.duct{fill:none;stroke:#f3ce78;stroke-width:12;stroke-linecap:round;stroke-linejoin:round}.pancreatic{fill:none;stroke:#96d8ed;stroke-width:9;stroke-linecap:round;stroke-dasharray:16 8}.leader{fill:none;stroke:#becbdb;stroke-width:2}</style>
+<rect width="1000" height="840" fill="#101925"/>
+<text x="40" y="52" class="heading">Where digestive secretions enter the gut</text>
+<text x="40" y="88" class="small">Connections only • lengths, positions and organ sizes are not anatomical</text>
+<rect x="350" y="120" width="260" height="98" rx="12" class="organ"/>
+<text x="480" y="159" text-anchor="middle">Liver</text>
+<text x="480" y="191" text-anchor="middle" class="small">produces bile</text>
+<path class="duct" d="M440 218 L480 251 L520 218 M480 251 V450"/>
+<text x="590" y="251" class="small">Hepatic ducts</text><path d="M578 246 H535 L508 231" class="leader"/>
+<text x="530" y="312">Common hepatic duct</text>
+<rect x="45" y="295" width="235" height="110" rx="12" class="organ"/>
+<text x="162" y="339" text-anchor="middle">Gallbladder</text>
+<text x="162" y="374" text-anchor="middle" class="small">stores / releases bile</text>
+<path class="duct" d="M280 353 H365 L480 404"/>
+<text x="300" y="331">Cystic duct</text>
+<circle cx="480" cy="404" r="8" fill="#f3ce78"/>
+<text x="530" y="449">Common bile duct</text>
+<path class="duct" d="M480 450 V530 L550 575"/>
+<rect x="650" y="482" width="305" height="112" rx="12" class="organ"/>
+<text x="803" y="520" text-anchor="middle">Pancreatic tissue</text>
+<text x="803" y="550" text-anchor="middle" class="small">exocrine secretions → duct</text>
+<path class="pancreatic" d="M915 575 H550"/>
+<text x="658" y="626">Main pancreatic duct</text>
+<path class="leader" d="M825 604 V587"/>
+<rect x="46" y="666" width="908" height="105" rx="14" fill="#243d49" stroke="#b5d6dd" stroke-width="3"/>
+<text x="735" y="709" text-anchor="middle">Duodenal lumen</text>
+<text x="735" y="744" text-anchor="middle" class="small">inside the first small-intestinal segment</text>
+<path d="M550 575 V704" fill="none" stroke="#eef2f8" stroke-width="12" stroke-linecap="round"/>
+<path d="M540 694 L550 710 L560 694" fill="none" stroke="#eef2f8" stroke-width="3"/>
+<text x="50" y="536">Common terminal passage</text>
+<text x="50" y="568" class="small">(ampullary region, shown schematically)</text>
+<path class="leader" d="M435 561 L528 599 L540 615"/>
+<text x="50" y="630" class="small">Opens through the duodenal wall</text>
+<path class="leader" d="M365 625 L535 676"/>
+<text x="40" y="808" class="small">One common junction arrangement shown; variants exist. Connections ≠ simultaneous flow.</text>
+</svg>

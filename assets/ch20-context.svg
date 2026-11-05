@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700" role="img" aria-label="Term placenta: uterine attachment and separate blood circuits">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d5e8f6"/></marker></defs>
+<rect width="1100" height="700" fill="#102032"/>
+<text x="35" y="48" fill="#f1f6fc" font-family="system-ui" font-size="28" font-weight="700">Term placenta: uterine attachment and separate blood circuits</text>
+<text x="40" y="92" fill="#bdd4e5" font-family="system-ui" font-size="18">A. Uterine/placental section (schematic)</text>
+<text x="610" y="92" fill="#bdd4e5" font-family="system-ui" font-size="18">B. One villus (separate scale)</text>
+<rect x="36" y="115" width="500" height="565" rx="12" fill="#172b41" stroke="#718da8"/>
+<rect x="56" y="150" width="460" height="105" fill="#233e61" stroke="#97b7d0"/>
+<text x="72" y="185" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="17">Amniotic space</text>
+<path d="M260 160L260 265" stroke="#8ac8ed" stroke-width="25"/>
+<text x="288" y="210" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="16">umbilical cord: fetal vessels</text>
+<rect x="56" y="255" width="460" height="42" fill="#314c72"/>
+<text x="72" y="282" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="16">chorionic plate: fetal vessel branches</text>
+<rect x="56" y="297" width="460" height="206" fill="#6a3545"/>
+<text x="72" y="323" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="18">maternal intervillous blood</text>
+<path d="M260 245L260 310" fill="none" stroke="#9dd8ee" stroke-width="18" stroke-linecap="round"/>
+<path d="M260 297L260 445 M260 345L190 405 M260 350L345 410 M260 385L310 455" fill="none" stroke="#9dd8ee" stroke-width="20" stroke-linecap="round"/>
+<path d="M260 297L260 445 M260 345L190 405 M260 350L345 410 M260 385L310 455" fill="none" stroke="#e4d4ef" stroke-width="31" stroke-linecap="round"/>
+<path d="M260 297L260 445 M260 345L190 405 M260 350L345 410 M260 385L310 455" fill="none" stroke="#9dd8ee" stroke-width="18" stroke-linecap="round"/>
+<text x="350" y="465" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="16">villous tree</text>
+<rect x="56" y="503" width="460" height="45" fill="#7d5b64"/>
+<text x="175" y="532" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="16">decidua basalis: maternal endometrium</text>
+<rect x="56" y="548" width="460" height="104" fill="#5d444d"/>
+<text x="70" y="626" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="17">myometrium</text>
+<path d="M145 630L145 552L145 497" fill="none" stroke="#f5b0a7" stroke-width="10"/>
+<path d="M145 487L136 504L154 504Z" fill="#f5b0a7"/>
+<text x="74" y="576" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="15">spiral artery ↑</text>
+<path d="M450 490L450 552L450 630" fill="none" stroke="#e9a49c" stroke-width="10"/>
+<path d="M450 640L441 623L459 623Z" fill="#e9a49c"/>
+<text x="375" y="576" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="15">uterine vein ↓</text>
+<rect x="590" y="115" width="475" height="565" rx="12" fill="#6a3545" stroke="#718da8"/>
+<text x="618" y="165" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="17">Maternal intervillous blood (outside villus)</text>
+<ellipse cx="859" cy="390" rx="155" ry="180" fill="#d6bfdc" stroke="#f2d9e5" stroke-width="4"/>
+<text x="859" y="248" fill="#1a2535" text-anchor="middle" font-family="system-ui" font-size="16">trophoblast / villous boundary</text>
+<ellipse cx="859" cy="400" rx="82" ry="112" fill="#255875" stroke="#9dd8ee" stroke-width="5"/>
+<text x="859" y="387" fill="#ffffff" text-anchor="middle" font-family="system-ui" font-size="18">fetal capillary</text>
+<text x="859" y="414" fill="#ffffff" text-anchor="middle" font-family="system-ui" font-size="17">blood (inside)</text>
+<path d="M615 458L800 455" stroke="#e3d7f3" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="610" y="480" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="15">O₂ / nutrients →</text>
+<path d="M815 480L615 545" stroke="#e3d7f3" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="610" y="575" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="15">← CO₂ / wastes</text>
+<text x="620" y="640" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="16">No whole-blood mixing or measured flux inferred</text>
+<text x="37" y="687" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="15">Term topology only; first-week implantation differs. Panel B is not a continuous zoom of panel A.</text>
+</svg>

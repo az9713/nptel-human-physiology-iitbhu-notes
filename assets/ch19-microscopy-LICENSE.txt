@@ -1,0 +1,9 @@
+Chapter 19 observed microscopy credits
+
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+The owning catalogue explicitly links the versioned license above (original owning link uses http). No license version inferred from an unversioned label.
+
+B0004125, Isolated ovarian follicles from the mouse. Tania Vitalis and Linda Sharp. Wellcome Collection https://wellcomecollection.org/works/sh9zzswg
+B0010899, 3D depth-coloured transparent mouse mammary gland. Felicity Davis, Bethan Lloyd-Lewis and Christine Watson, University of Cambridge. Wellcome Collection https://wellcomecollection.org/works/q9y8685a
+
+Native JPEG bytes are unchanged. Browser sizing is display only. Private mammary inspection crop is not the public reference asset. Colors are assigned staining/depth codes, not living appearance. Both specimens are mouse. See ch19-microscopy-provenance.json for preparation, scale, hashes and limits. Original chapter diagrams and controlled mechanisms are separate teaching constructions, not modifications claimed to be observed microscopy.

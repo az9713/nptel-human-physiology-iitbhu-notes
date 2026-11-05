@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+<title id="title">A generic synovial joint: separate cartilage, capsule, lining and cavity</title>
+<desc id="desc">Opposed bone ends have separate articular cartilage caps. An outer fibrous capsule joins the bones outside those surfaces; synovial membrane lines its inner nonarticular surface and does not cover the cartilage. A fluid-containing joint cavity lies between the surfaces. One extrinsic ligament is shown outside the capsule. This original unscaled section is not an MRI segmentation or the Open Knee(s) specimen.</desc>
+<style>text{font:23px system-ui,sans-serif;fill:#eaf1f6}.small{font-size:18px}.leader{fill:none;stroke:#cddce6;stroke-width:1.5}</style>
+<rect width="1100" height="650" rx="12" fill="#112333"/>
+<text x="28" y="40" font-weight="bold">One joint cavity, several different tissue boundaries</text>
+<text x="28" y="72" class="small">Generic section; enlarged gap and linings; illustrative colors, no common scale with the MRI</text>
+<path d="M200 224Q320 260 440 224C530 250 530 440 440 466Q320 430 200 466C110 440 110 250 200 224Z" fill="#224a5a"/>
+<path d="M200 95H440V220Q320 255 200 220Z" fill="#d7bd89"/>
+<path d="M200 470Q320 435 440 470V560H200Z" fill="#d7bd89"/>
+<path d="M200 220Q320 255 440 220V238Q320 273 200 238Z" fill="#69cbbf"/>
+<path d="M200 470Q320 435 440 470V452Q320 417 200 452Z" fill="#69cbbf"/>
+<path d="M200 205C80 230 80 450 200 485M440 205C560 230 560 450 440 485" fill="none" stroke="#b78299" stroke-width="15"/>
+<path d="M200 238C120 260 120 430 200 452M440 238C520 260 520 430 440 452" fill="none" stroke="#f0c56f" stroke-width="5"/>
+<path d="M200 175C15 230 15 450 200 515" fill="none" stroke="#acb8c8" stroke-width="9"/>
+<path d="M440 150H615M442 232H615M530 325H615M500 370H615M320 340L570 450H615" class="leader"/>
+<text x="630" y="157">Bone</text>
+<text x="630" y="239">Articular cartilage</text>
+<text x="630" y="310">Outer fibrous capsule</text>
+<text x="630" y="338" class="small">Attached outside articular surfaces</text>
+<text x="630" y="377">Synovial membrane</text>
+<text x="630" y="405" class="small">Inner nonarticular lining</text>
+<text x="630" y="457">Joint cavity + synovial fluid</text>
+<text x="28" y="592" class="small">Gray band: one extrinsic ligament. Menisci and other joint-specific structures are omitted.</text>
+<text x="28" y="622" class="small">Topology checked against OpenStax A&amp;P 2e §9.4; original geometry, not copied source artwork.</text>
+</svg>

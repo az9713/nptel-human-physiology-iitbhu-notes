@@ -1,0 +1,22 @@
+{
+  "title": "Human heart male adult autopsy.jpg",
+  "creator": "Jebulon",
+  "date": "2017-03-13",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Human_heart_male_adult_autopsy.jpg",
+  "source_page_revision": 1181812618,
+  "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Human_heart_male_adult_autopsy.jpg",
+  "license": "CC0 1.0 Universal",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "accessed_utc": "2026-11-04T19:19:10.415989+00:00",
+  "sha256": "414ac3098c464add9586a6561387b40bf59b3b1635445e3cc6a247f0b5e3baf5",
+  "bytes": 1319252,
+  "original_dimensions": [
+    1988,
+    2304
+  ],
+  "modifications": "None; original JPEG bytes retained.",
+  "identity": "Actual photograph of an adult male human heart from an autopsy, per author description and visual inspection.",
+  "preparation_limits": "Postmortem; fixation, lighting calibration, medical history and healthy/pathological status not supplied. Not living-heart tissue evidence.",
+  "observations": "Yellow lobulated epicardial covering, brown exposed tissue, fine vessels and wet highlights. These are qualitative image observations, not measured optical parameters.",
+  "comparison_limits": "Different donor from HRA mesh. No registration, texture projection or use as geometric ground truth. HRA source exterior lacks this photograph\u2019s explicit fat geometry."
+}

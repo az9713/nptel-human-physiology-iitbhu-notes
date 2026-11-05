@@ -1,0 +1,115 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 11,
+  "manuscript": "chapter-11-thyroid-endocrine-disorders.html",
+  "body_sha256": "b1b5b72273568ce320b9e3c2e06a41352175dc67d75de8f9aea8d243e83cad2e",
+  "artifact_sha256": {
+    "assets/ch11-follicle.html": "243371d49d2db27f8e183a82f724d864ec8abd0279c699eafcbd11f454f3e640",
+    "assets/ch11-feedback.html": "f101a714a55d89fe5a11b981ca31f717e71dcbe57209d2c0cf64c9191f441509",
+    "assets/ch11-models.js": "000b7e6ac25ce726682946dc5219554bf573bf97f2f1ea40c33e534c03252c71",
+    "assets/ch11-views.js": "db558b128ff86a09a7594ea0e449b1c18c5354ba1ab0c610d44509711b12e9e5",
+    "assets/ch11-thyroid-reference.jpg": "f2d5eabd7250951683e6c6ac761d43465bfe576bb6df99a430717fe486494558",
+    "assets/ch11-thyroid-reference.json": "caaf52a48d35597dee9c12e860a4c2f3d562dd81cb4010833572e5f9ace16246",
+    "code/ch11_feedback.py": "fd64fef44ecee72babff1c5516c760399f0c3ce80274bd9fb7028fc1a8950fe3"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "All 40 L24–25 dispositions, substantive late endocrine/diagnostic topics and six solutions assessed in two actual independent full reviews. Localized repairs independently checked by separately identified target checkers; bounded still/caption evidence is not continuous source viewing.",
+  "source_recordings": [
+    24,
+    25
+  ],
+  "source_evidence": [
+    {
+      "number": 24,
+      "video_id": "5mme77HgbA8",
+      "url": "https://www.youtube.com/watch?v=5mme77HgbA8",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "acd0d56aaf490cbeb6bdd9494048c67e7d4cf8c52014544c4b7921cd813bf0bb",
+      "caption_cues": 177,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 57,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 57,
+        "native_still_views": 3,
+        "report_sha256": "33d71431bf843138a168e8e76aa61f31e62a942eb9e6eabb65304f7e4a6a9428"
+      },
+      "visual_review_scope": "All contact sheets and named native stills inspected; complete captions read. Prior verification dossier attributed, no fresh clinical research or continuous audio/video claim."
+    },
+    {
+      "number": 25,
+      "video_id": "ZN1mfsW4Dso",
+      "url": "https://www.youtube.com/watch?v=ZN1mfsW4Dso",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "5a5ff107c62f5ff3714207917856aeeda1ff3719c25a22bce099b49dbea51721",
+      "caption_cues": 168,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 55,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 55,
+        "native_still_views": 6,
+        "report_sha256": "33d71431bf843138a168e8e76aa61f31e62a942eb9e6eabb65304f7e4a6a9428"
+      },
+      "visual_review_scope": "All contact sheets and named native stills inspected; complete captions read. Prior verification dossier attributed, no fresh clinical research or continuous audio/video claim."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch11_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "6b7843c6b1eb16d76a63603443221ebd1e24a9a72ed9dbd30b6be1f89205bc5b",
+      "review_basis": "Original actual independent full review by /root/ch11_review_a plus current targeted changed-content verification by separately identified /root/ch11_target_a; aggregate approval, no additional full review",
+      "targeted_reviewer_id": "/root/ch11_target_a",
+      "targeted_reviewer_model": "gpt-6.1-sol",
+      "targeted_checker_is_separate": true,
+      "original_full_review_body_sha256": "c6bf8d5c20a14edc49fd5709a311ff4aa8fc2b07d8968b98c8bea51980635b4e"
+    },
+    {
+      "reviewer_id": "/root/ch11_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "709ccee6ab822b13c9cd28a02d1b28cb374de600a874be1670510957aba7e498",
+      "review_basis": "Original actual independent full review by /root/ch11_review_b plus current targeted changed-content verification by separately identified /root/ch11_target_b; aggregate approval, no additional full review",
+      "targeted_reviewer_id": "/root/ch11_target_b",
+      "targeted_reviewer_model": "gpt-6-sol",
+      "targeted_checker_is_separate": true,
+      "original_full_review_body_sha256": "c6bf8d5c20a14edc49fd5709a311ff4aa8fc2b07d8968b98c8bea51980635b4e"
+    }
+  ],
+  "production": {
+    "scope": "Actual browser/control/responsive/reduced-motion checks and bounded root print inspection; relevant observed imagery or justified conceptual diagrams, with source limits and separate failed CG prototypes preserved.",
+    "report_sha256": "fe267ec423fd45cf7a15977664e4006eeb91b04263ce40664b342fa28e9b7653"
+  },
+  "visual_modality": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Human thyroid follicular organization and compartment mechanisms",
+    "rationale": "Observed human thyroid H&E directly supplies follicular tissue organization. Controlled topology snapshots and transport/feedback animations explain membrane sides and causal sequence with synthetic presentation time. Two new 3D prototypes failed appearance inspection and are excluded; observed tissue plus checked schematics is the selected final modality.",
+    "appearance_references": [
+      "assets/ch11-thyroid-reference.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch11-follicle.html",
+      "assets/ch11-feedback.html"
+    ],
+    "no_anatomical_appearance_claim": false,
+    "report_sha256": "c0f3153c6867f4b4145772975c4fb85858d6709c390334966fcdccba4b4f01c9"
+  },
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

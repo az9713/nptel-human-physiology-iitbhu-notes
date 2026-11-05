@@ -1,0 +1,21 @@
+Observed microscopy
+
+Glomerulus, SEM. David Gregory & Debbie Marshall. Source: Wellcome Collection.
+Work: https://wellcomecollection.org/works/h2parxes
+Image identifier: B0000699
+License: Creative Commons Attribution 4.0 International (CC BY 4.0).
+License URL: https://creativecommons.org/licenses/by/4.0/
+The owning catalogue API and work page explicitly provide this version.
+Download: https://iiif.wellcomecollection.org/image/B0000699/full/full/0/default.jpg
+Local file: ch16-glomerulus-sem.jpg, full-resolution catalogue JPEG, unchanged.
+No resizing, recoloring, cropping, retouching or new annotation. Instrument footer retained.
+The download is not represented as raw microscope acquisition data.
+Exact bytes, hash and scientific limits: ch16-provenance.json.
+
+Original reconstructions and mechanisms
+
+ch16-context.svg and ch16-barrier-section.svg are original anatomical teaching reconstructions, source-checked against the references in ch16-provenance.json; no third-party drawing, mesh or segmentation was copied. Their coordinates, colors and proportions are illustrative. The chapter-specific numerical/animation code is an original teaching construction, with no copied third-party animation library.
+
+Replacement disposition
+
+The former Pathologia H&E reference was removed from public chapter assets because its owning page did not specify a CC BY-SA version. It is not included in this delivered image set.

@@ -1,0 +1,185 @@
+{
+  "chapter": 12,
+  "title": "Digestive organization and carbohydrate absorption",
+  "status": "accepted",
+  "coverage_complete": true,
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch12_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "ed73d6825a59f16893fc5697adb3f0da28420a86cbc8111cfe27c1bba1457cfa",
+      "artifact_sha256": {
+        "code/ch12_absorption.py": "a96478b9e88ef2734be7d9ff47374e593ab5f5c04f5b7f91c9a1aa68fd539595",
+        "assets/ch12-models.js": "4c83dd9f3f75977f1dc914b5d72e04f83b708ecef3792740f08c0ce6dcc18c7d",
+        "assets/ch12-checks.js": "079e5cc384209fcdd14c8163725c4ea4c68b39a5e292e1d17debad8ec6b37970",
+        "assets/ch12-peristalsis.html": "6289c4f6820b85040f68dd364fb4bf94444870027cf8c535bd87173d8c2bf3b8",
+        "assets/ch12-hydrolysis.html": "21d5ecc4c55577436301140ab1dd0e74ceb2dfab4ff6a4cdac3c711fa936d736",
+        "assets/ch12-absorption.html": "14444fcf4d7367c515c580f86a6a8c8bf943db08e8e87cd4f549f01b7bfc8a1c",
+        "assets/ch12-villi-reference.jpg": "4cf0be725da031e221ff8f43fe75c64fcc5a98eb18a96eb717bfc9d0b479dc8a",
+        "assets/ch12-villi-reference.json": "160931d2bd17491aef5452d0f3acfa1413c83710d066ad6d63175166a7da1c4d"
+      },
+      "report_path": "work/reviews/ch12-approved-a.md",
+      "report_sha256": "0434232373e38a0ecfa85299286746688d75c7491351c969d9327a7057dffd4b",
+      "original_full_report": "work/reviews/ch12-review-a.md",
+      "targeted_report": "work/reviews/ch12-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch12_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "ed73d6825a59f16893fc5697adb3f0da28420a86cbc8111cfe27c1bba1457cfa",
+      "artifact_sha256": {
+        "code/ch12_absorption.py": "a96478b9e88ef2734be7d9ff47374e593ab5f5c04f5b7f91c9a1aa68fd539595",
+        "assets/ch12-models.js": "4c83dd9f3f75977f1dc914b5d72e04f83b708ecef3792740f08c0ce6dcc18c7d",
+        "assets/ch12-checks.js": "079e5cc384209fcdd14c8163725c4ea4c68b39a5e292e1d17debad8ec6b37970",
+        "assets/ch12-peristalsis.html": "6289c4f6820b85040f68dd364fb4bf94444870027cf8c535bd87173d8c2bf3b8",
+        "assets/ch12-hydrolysis.html": "21d5ecc4c55577436301140ab1dd0e74ceb2dfab4ff6a4cdac3c711fa936d736",
+        "assets/ch12-absorption.html": "14444fcf4d7367c515c580f86a6a8c8bf943db08e8e87cd4f549f01b7bfc8a1c",
+        "assets/ch12-villi-reference.jpg": "4cf0be725da031e221ff8f43fe75c64fcc5a98eb18a96eb717bfc9d0b479dc8a",
+        "assets/ch12-villi-reference.json": "160931d2bd17491aef5452d0f3acfa1413c83710d066ad6d63175166a7da1c4d"
+      },
+      "report_path": "work/reviews/ch12-approved-b.md",
+      "report_sha256": "30ec5e7302f28e90e35e7d3d517140dc9fe6f6075047253daba58b8de8123175",
+      "original_full_report": "work/reviews/ch12-review-b.md",
+      "targeted_report": "work/reviews/ch12-targeted-b.md"
+    }
+  ],
+  "source_recordings": [
+    26,
+    27
+  ],
+  "source_evidence": "Complete captions through L26 19:48 and L27 24:43, all37 topic-ledger entries and SCI-011 read. Relies on attributed work/visual-review-ch12.md bounded audit of five sheets90 sampled stills and five repeat native frames; author does not claim continuous or inherited viewing.",
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "code": [
+    "code/ch12_absorption.py"
+  ],
+  "code_validation": "Python synthetic depletion/rate/conservation/unit-scaling/limits/invalid-input checks executed. JS syntax plus reproducible1001-phase topology checks passed. Math body delimiters/braces/local-target checks passed. No actual UI, reduced-motion interaction or print test claimed.",
+  "figures": [
+    {
+      "id": "ch12-fig1",
+      "path": "chapter-12-digestion-carbohydrate-absorption.html#ch12-routes",
+      "status": "accepted",
+      "role": "Original inline connectivity map; bound by body digest."
+    },
+    {
+      "id": "ch12-villus-photo",
+      "path": "assets/ch12-villi-reference.jpg",
+      "provenance": "assets/ch12-villi-reference.json",
+      "status": "accepted",
+      "role": "Unchanged actual human cryosection, S.Schuller, CC BY4.0; no scale, donor condition or transporter identity inferred."
+    },
+    {
+      "id": "ch12-anim1",
+      "path": "assets/ch12-peristalsis.html",
+      "script": "assets/ch12-models.js",
+      "status": "accepted",
+      "role": "One local unrolled tube segment, synthetic phase; bolus remains luminal."
+    },
+    {
+      "id": "ch12-anim2",
+      "path": "assets/ch12-hydrolysis.html",
+      "script": "assets/ch12-models.js",
+      "status": "accepted",
+      "role": "Ten tracked glucose residues; α1,4 amylase cut separated from branch, α1,6 remains until brush-border step."
+    },
+    {
+      "id": "ch12-anim3",
+      "path": "assets/ch12-absorption.html",
+      "script": "assets/ch12-models.js",
+      "status": "accepted",
+      "role": "Staged polarized sugar entry/exit; pump-maintenance directions. No measured kinetics."
+    }
+  ],
+  "body_sha256": "ed73d6825a59f16893fc5697adb3f0da28420a86cbc8111cfe27c1bba1457cfa",
+  "reviewed_artifacts": [
+    {
+      "path": "code/ch12_absorption.py",
+      "sha256": "a96478b9e88ef2734be7d9ff47374e593ab5f5c04f5b7f91c9a1aa68fd539595"
+    },
+    {
+      "path": "assets/ch12-models.js",
+      "sha256": "4c83dd9f3f75977f1dc914b5d72e04f83b708ecef3792740f08c0ce6dcc18c7d"
+    },
+    {
+      "path": "assets/ch12-checks.js",
+      "sha256": "079e5cc384209fcdd14c8163725c4ea4c68b39a5e292e1d17debad8ec6b37970"
+    },
+    {
+      "path": "assets/ch12-peristalsis.html",
+      "sha256": "6289c4f6820b85040f68dd364fb4bf94444870027cf8c535bd87173d8c2bf3b8"
+    },
+    {
+      "path": "assets/ch12-hydrolysis.html",
+      "sha256": "21d5ecc4c55577436301140ab1dd0e74ceb2dfab4ff6a4cdac3c711fa936d736"
+    },
+    {
+      "path": "assets/ch12-absorption.html",
+      "sha256": "14444fcf4d7367c515c580f86a6a8c8bf943db08e8e87cd4f549f01b7bfc8a1c"
+    },
+    {
+      "path": "assets/ch12-villi-reference.jpg",
+      "sha256": "4cf0be725da031e221ff8f43fe75c64fcc5a98eb18a96eb717bfc9d0b479dc8a"
+    },
+    {
+      "path": "assets/ch12-villi-reference.json",
+      "sha256": "160931d2bd17491aef5452d0f3acfa1413c83710d066ad6d63175166a7da1c4d"
+    }
+  ],
+  "body_digest_convention": "SHA256 of raw bytes strictly between exact body markers, preserving enclosed newlines",
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
+    "browser": "Actual browser/control/responsive/reduced-motion checks and bounded root print inspection; relevant observed imagery or justified conceptual diagrams, with source limits and separate failed CG prototypes preserved.",
+    "anatomical_reference": "Author inspected delivered native1024x1024 JPEG; root owning catalogue API/IIIF/rights access attributed; schematic mechanisms separate from microscopy.",
+    "coverage": "All37 L26–27 source topics dispositioned using complete captions and bounded source-still audit; exactly two full scientific reviews plus targeted localized repair checks. Continuous video viewing is not claimed."
+  },
+  "limitations": [
+    "No actual CUA/browser/print QA performed by author; static and pure-state tests are not UI validation.",
+    "Source-visual audit is bounded and attributed;90 stills at30-second sampling and five repeat native frames, no continuous video/audio review.",
+    "Saturation model uses selected fixed-volume parameters, maintained sodium driving, matched exit and no metabolism, secretion or transit.",
+    "Energy boundary assumes ideal reversible two-sodium coupling; selected ATP accounting omits all other cell work.",
+    "Animations are staged presentation, not measured molecular or gut kinetics; sodium-pump arrows express directions rather than a time-synchronized ion census.",
+    "Original primary source access varied: Patel2015 sections accessible; brush-border and gastric original Results/Table indexed with direct challenges; original coupling PubMed abstract accessible on first check, later re-opening incomplete; Jang2018 indexed original abstract/captions with incomplete direct opening.",
+    "Observed mucosa image is prepared tissue with assigned colors, no calibrated scale or established donor condition."
+  ],
+  "author_report": "work/ch12-author-report.md",
+  "coverage_basis": "All37 L26–27 source topics dispositioned using complete captions and bounded source-still audit; exactly two full scientific reviews plus targeted localized repair checks. Continuous video viewing is not claimed.",
+  "realistic_asset_gate": {
+    "status": "accepted",
+    "reason": "Chapter-specific visual modality and delivered artifacts inspected under the user-selected workflow.",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Small-intestinal mucosa and digestion/epithelial transport",
+    "rationale": "Observed human intestinal mucosal cryosection supplies actual villus/crypt tissue context; controlled schematics explain propulsion, residue-preserving hydrolysis and polarized uptake/exit. Preparation colors and unresolved microvilli/transporter/physical-scale limits are explicit. The schematics are not presented as photographed tissue or measured molecular kinetics.",
+    "appearance_references": [
+      "assets/ch12-villi-reference.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch12-peristalsis.html",
+      "assets/ch12-hydrolysis.html",
+      "assets/ch12-absorption.html"
+    ],
+    "no_anatomical_appearance_claim": false,
+    "report_path": "work/browser/ch12-visual-modality.json",
+    "report_sha256": "8e5b19d593910fcc862d5e7323c6088d68b316f3a0789f8f5c6288edf3f0159a"
+  },
+  "production_validation": {
+    "report_path": "work/browser/ch12-production-final.json",
+    "report_sha256": "19a58e87e2550a86206ca33147bcae3664f9ad6fa116a3d1895c735adfc29440",
+    "scope": "Actual browser/control/responsive/reduced-motion checks and bounded root print inspection; relevant observed imagery or justified conceptual diagrams, with source limits and separate failed CG prototypes preserved."
+  },
+  "accepted_at_utc": "2026-11-04T22:48:15.246Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-12.json",
+    "sha256": "bcda69d005b3754df1bcad5899fcc7ea1b119f6f89c14a47cf22d248cc122f06"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "chapter": 7,
+  "title": "Airways, ventilation and hemoglobin",
+  "status": "accepted",
+  "coverage_complete": true,
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch01_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full review followed by targeted checks of four localized repairs",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "c3a5167a7af55c90da181fad7ecb5e844d621b622c5b482aaa9156109f3a86ad",
+      "artifact_sha256": {
+        "assets/ch07-respiratory-lab.html": "aa071afe67d93d1f03e512c1b49304798bc8983a5fb1ba09ef408bab5d69c7e8",
+        "assets/ch07-respiratory-lab.js": "8af493c26782b16ade105a0d28bfd354e842164cf7a6bf9f48b1f82a43e2f2a5",
+        "code/ch07_respiration.py": "4b8c22de1e301951cccbea49b9f69962a08027f9946bcaebd6c0549c92aae5c3",
+        "assets/ch07-lung-reference.jpg": "0a6f94cc98284a308661dd0a59732786860d1f471fe2d2e4dd9c4ff1a422429d",
+        "assets/ch07-lung-reference.json": "7ff2c2199ad503aece61860520bfcb7e47209b096dcbea786e39ff93527a1aa2"
+      },
+      "report_path": "work/reviews/ch07-approved-a.md",
+      "report_sha256": "11587e58ac5697d548e21f64183d6cdebfda862c88690afa5c7f790ea223b888",
+      "original_full_report": "work/reviews/ch07-review-a.md",
+      "targeted_report": "work/reviews/ch07-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch01_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full review followed by targeted checks of four localized repairs",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "c3a5167a7af55c90da181fad7ecb5e844d621b622c5b482aaa9156109f3a86ad",
+      "artifact_sha256": {
+        "assets/ch07-respiratory-lab.html": "aa071afe67d93d1f03e512c1b49304798bc8983a5fb1ba09ef408bab5d69c7e8",
+        "assets/ch07-respiratory-lab.js": "8af493c26782b16ade105a0d28bfd354e842164cf7a6bf9f48b1f82a43e2f2a5",
+        "code/ch07_respiration.py": "4b8c22de1e301951cccbea49b9f69962a08027f9946bcaebd6c0549c92aae5c3",
+        "assets/ch07-lung-reference.jpg": "0a6f94cc98284a308661dd0a59732786860d1f471fe2d2e4dd9c4ff1a422429d",
+        "assets/ch07-lung-reference.json": "7ff2c2199ad503aece61860520bfcb7e47209b096dcbea786e39ff93527a1aa2"
+      },
+      "report_path": "work/reviews/ch07-approved-b.md",
+      "report_sha256": "8fd7858e808f7d8f36cd7c612c84ae03dc1fb463bded8a47b0d6e0c2e3b6bd67",
+      "original_full_report": "work/reviews/ch07-review-b.md",
+      "targeted_report": "work/reviews/ch07-targeted-b.md"
+    }
+  ],
+  "source_recordings": [
+    16,
+    17
+  ],
+  "source_evidence": "Complete L16–17 captions and reused routine-agent bounded visual audit: seven contact sheets,119 sampled stills,eight individual640x360frames. Author did not duplicate visual audit or claim continuous audio/video review.",
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, targeted repairs and separate actual browser/print validation.",
+  "code": [
+    "code/ch07_respiration.py"
+  ],
+  "lab": {
+    "path": "assets/ch07-respiratory-lab.html",
+    "javascript": "assets/ch07-respiratory-lab.js",
+    "model": "Prescribed smooth single-compartment volume with derived conserved airflow and alveolar/pleural pressures; relative steady gas conductance; empirical equilibrium Hill curves.",
+    "parameters": "Explicit synthetic teaching values and capacity conventions; no patient fit.",
+    "status": "validated"
+  },
+  "code_validation": {
+    "python": "1001states; max finite-difference mass-balance residual3.8071268360084787e-11L/s; pressure/bounds/periodicity/zero/limit/shift/invalid-input checks passed.",
+    "parity": "1001-state Python–JavaScript maximum absolute difference8.881784197001252e-16.",
+    "controls": "All3views isolated DOM/RAF-stub initial pause,play,seek,replay,step,speed/preference/parameter/visibility pause,clock advance and endpoint checks; not actual browser playback.",
+    "markup": "BothHTMLfiles passed shared Page-parser unique IDs,no duplicate attributes,local resource and anchor checks; JavaScript node --check passed."
+  },
+  "figures": [
+    {
+      "id": "ch7-fig1",
+      "path": "chapter-07-airways-ventilation-hemoglobin.html#ch7-fig1",
+      "figure_number": "7.1",
+      "status": "accepted",
+      "role": "Original unscaled lobar/bronchial/pleural/diaphragm schematic with separate alveolar magnification; OpenStax textual anatomy relationships, no copied artwork."
+    },
+    {
+      "id": "ch7-fig2",
+      "path": "chapter-07-airways-ventilation-hemoglobin.html#ch7-fig2",
+      "figure_number": "7.2",
+      "status": "accepted",
+      "role": "Alveolar gas barrier and surfactant cross-section; layers exaggerated, blood cells vascular, gas permeation distinct from cell migration."
+    },
+    {
+      "id": "ch7-anim1",
+      "path": "assets/ch07-respiratory-lab.html?view=mechanics",
+      "figure_number": "7.3",
+      "status": "accepted",
+      "role": "Shared volume/pressure/flow state; diaphragm/rib displacement schematic; no effort-response prediction."
+    },
+    {
+      "id": "ch7-anim2",
+      "path": "assets/ch07-respiratory-lab.html?view=barrier",
+      "figure_number": "7.4",
+      "status": "accepted",
+      "role": "Explicit regional-to-barrier scale transition, conducting mucociliary transport and gas paths; normalized presentation time, no physiological transit claim."
+    },
+    {
+      "id": "ch7-anim3",
+      "path": "assets/ch07-respiratory-lab.html?view=binding",
+      "figure_number": "7.5",
+      "status": "accepted",
+      "role": "Pressure-parameter sweep on equilibrium Hill curves, adjustable comparison P50, four-site mean occupancy and one-site myoglobin; not kinetics."
+    },
+    {
+      "id": "ch7-lung-photo",
+      "path": "assets/ch07-lung-reference.jpg",
+      "provenance": "assets/ch07-lung-reference.json",
+      "status": "accepted",
+      "role": "Observed prepared alveolar SEM context; species, condition, scale and detailed preparation unknown; no cell-layer or transport-rate inference."
+    }
+  ],
+  "body_sha256": "c3a5167a7af55c90da181fad7ecb5e844d621b622c5b482aaa9156109f3a86ad",
+  "body_digest_convention": "SHA256 over raw file bytes strictly between BEGIN/END CHAPTER BODY marker bytes; no newline normalization.",
+  "artifact_sha256": {
+    "assets/ch07-respiratory-lab.html": "aa071afe67d93d1f03e512c1b49304798bc8983a5fb1ba09ef408bab5d69c7e8",
+    "assets/ch07-respiratory-lab.js": "8af493c26782b16ade105a0d28bfd354e842164cf7a6bf9f48b1f82a43e2f2a5",
+    "code/ch07_respiration.py": "4b8c22de1e301951cccbea49b9f69962a08027f9946bcaebd6c0549c92aae5c3",
+    "assets/ch07-lung-reference.jpg": "0a6f94cc98284a308661dd0a59732786860d1f471fe2d2e4dd9c4ff1a422429d",
+    "assets/ch07-lung-reference.json": "7ff2c2199ad503aece61860520bfcb7e47209b096dcbea786e39ff93527a1aa2"
+  },
+  "quality": {
+    "scientific_reviews": "Two actual full independent reviews and targeted current-digest approvals passed",
+    "browser": "Actual specified reader, controls, parameter, responsive, motion-preference and inspected print checks passed; limits in production reports",
+    "photographic_context": "Actual prepared alveolar SEM accepted for observed morphology, paired with separate original layer/path schematics; no natural-color, species or physical-scale inference",
+    "coverage": "All23 dispositions and six worked solutions accepted within stated source-evidence limits"
+  },
+  "limitations": [
+    "Volume is prescribed; changes in R/C change required pressure, not predicted tidal-volume response to fixed muscle effort.",
+    "Symmetric imposed cycle is not a quantitative passive-expiration or chest-wall model.",
+    "Gas conductance uses relative units and initial gradients; no transient blood equilibration or patient flux is calculated.",
+    "Hill relation is empirical equilibrium, not kinetic binding; presentation clock sweeps pressure.",
+    "Full oxygen content/delivery and carbon dioxide integration deferred to Chapter8; no clinical SpO2 algorithm or treatment advice.",
+    "FeIII source label is real visible slide content; mixed electronic descriptions distinguished from methemoglobin formation using primary spectroscopy.",
+    "Original schematics are uncalibrated; separate actual SEM supplies prepared-tissue context without measured airway geometry or photorealistic-render validation.",
+    "Blocked/partial NCBI endpoints not counted as full reads; actual alternatives and limits stated in source appendix."
+  ],
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch07-respiratory-lab.html",
+      "sha256": "aa071afe67d93d1f03e512c1b49304798bc8983a5fb1ba09ef408bab5d69c7e8"
+    },
+    {
+      "path": "assets/ch07-respiratory-lab.js",
+      "sha256": "8af493c26782b16ade105a0d28bfd354e842164cf7a6bf9f48b1f82a43e2f2a5"
+    },
+    {
+      "path": "code/ch07_respiration.py",
+      "sha256": "4b8c22de1e301951cccbea49b9f69962a08027f9946bcaebd6c0549c92aae5c3"
+    },
+    {
+      "path": "assets/ch07-lung-reference.jpg",
+      "sha256": "0a6f94cc98284a308661dd0a59732786860d1f471fe2d2e4dd9c4ff1a422429d"
+    },
+    {
+      "path": "assets/ch07-lung-reference.json",
+      "sha256": "7ff2c2199ad503aece61860520bfcb7e47209b096dcbea786e39ff93527a1aa2"
+    }
+  ],
+  "coverage_basis": "All23 mapped topic dispositions plus substantive later lung functions and six solutions assessed in both full reviews. Source evidence is complete captions plus attributed bounded still audit, not continuous video/audio.",
+  "production_validation": {
+    "report_path": "work/browser/ch07-production-bridge.json",
+    "report_sha256": "bb4da85beb2b43c7b6347599278acfa095c4bd372a8583f5f45bc56dd90caa63",
+    "scope": "Historical actual production evidence plus current scientific-artifact identity and a separate bounded current reader reinspection."
+  },
+  "accepted_at_utc": "2026-11-04T20:37:17.840Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-07.json",
+    "sha256": "86a0262466e3a008925159be6bd4d4993cb121fa8706b4ab6a579e0e551922b1"
+  }
+}

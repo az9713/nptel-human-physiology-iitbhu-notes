@@ -1,0 +1,66 @@
+{
+  "record": "https://wellcomecollection.org/works/fmsmxyyh",
+  "asset_id": "B0007852",
+  "title": "Primary human fibroblast",
+  "creator": "Matthew Daniels / University of Oxford",
+  "source": "Wellcome Collection",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "species": "Homo sapiens (human, as described by owning record)",
+  "cell_type": "primary fibroblast",
+  "modality": "confocal micrograph",
+  "preparation_known": "stained mitochondria (red), nucleus (yellow)",
+  "preparation_unknown": [
+    "dyes",
+    "live or fixed",
+    "culture protocol"
+  ],
+  "physical_scale": null,
+  "download_url": "https://iiif.wellcomecollection.org/image/B0007852/full/760%2C/0/default.jpg",
+  "file": "wellcome-B0007852-760.jpg",
+  "bytes": 37820,
+  "dimensions_px": [
+    760,
+    492
+  ],
+  "sha256": "B91B04039956A7763C044386CE64D7B94B1A52CC959817877130BDEC6A5696C7",
+  "verified": "2026-11-04",
+  "inspection": "Downloaded and visually inspected; no visible scale bar; not a volume",
+  "public_file": "ch01-cell-reference.jpg",
+  "modifications": "None to JPEG; displayed at reduced resolution with separate labels.",
+  "tissue_reference": {
+    "record": "https://wellcomecollection.org/works/pbfv4uhw",
+    "asset_id": "B0009427",
+    "title": "Human skin section, histology",
+    "creator": "Kevin Mackenzie, University of Aberdeen",
+    "source": "Wellcome Collection",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "species": "human",
+    "tissue": "skin section",
+    "preparation": "aldehyde fuchsin, Orange G and Light Green histology dyes",
+    "archive_colour_mapping": {
+      "elastic_fibres": "purple",
+      "collagen": "green to yellow"
+    },
+    "field_width_micrometres": 400,
+    "optical_modality": "not explicitly specified by record; stained histology image",
+    "unknown": [
+      "fixation",
+      "section thickness",
+      "body site",
+      "donor",
+      "objective",
+      "instrument"
+    ],
+    "download_url": "https://iiif.wellcomecollection.org/image/B0009427/full/760%2C/0/default.jpg",
+    "file": "wellcome-B0009427-760.jpg",
+    "bytes": 188059,
+    "width_px": 760,
+    "sha256": "3179080646BBEAA391234196628EFDDCAA0B5D9ADE8FC85B55FAA326AA63F85C",
+    "verified": "2026-11-04",
+    "inspection": "Downloaded and visually inspected; no visible scale bar; surface epithelial layer above fibrous tissue is visual interpretation",
+    "public_file": "ch01-cell-tissue-reference.jpg",
+    "modifications": "None to JPEG; displayed at reduced resolution, full field retained."
+  }
+}

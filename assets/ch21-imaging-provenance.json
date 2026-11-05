@@ -1,0 +1,23 @@
+{
+  "access_date": "2026-11-04",
+  "asset": "assets/ch21-human-ivf-embryo.jpg",
+  "title": "Human embryo from IVF",
+  "catalogue": "https://wellcomecollection.org/works/ergc92jn",
+  "accession": "B0000030",
+  "creator": "K. Hardy",
+  "species": "Human, per owning catalogue",
+  "preparation": "Human eight-cell IVF embryo; exact age, optical technique, staining/fixation unspecified",
+  "scale": "No calibrated physical scale specified",
+  "license": "CC BY 4.0",
+  "owning_license": "http://creativecommons.org/licenses/by/4.0/",
+  "native_url": "https://iiif.wellcomecollection.org/image/B0000030/full/full/0/default.jpg",
+  "native_dimensions": [
+    4003,
+    2664
+  ],
+  "bytes": 1238531,
+  "sha256": "deaa9480458866478b510a61feb074097e5f5e89fe2927f2de7157a882b32917",
+  "modified": false,
+  "actual_inspection": "Whole display resized by tool to1923x1280; separate unresized1200x1200 crop at x1200,y700 viewed. Rounded cell profiles and granular appearance observed; not every cell independently resolved in one plane.",
+  "limits": "Catalogue grade-one/selection wording is historical metadata, not current validated prognosis. No live cleavage, chromosome count, implantation or live-birth probability inferred. Not pelvic support anatomy or policy evidence."
+}

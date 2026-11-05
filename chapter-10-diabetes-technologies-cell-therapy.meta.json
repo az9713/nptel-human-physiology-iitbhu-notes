@@ -1,0 +1,208 @@
+{
+  "chapter": 10,
+  "title": "Diabetes technologies and experimental cell therapy",
+  "status": "accepted",
+  "coverage_complete": true,
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch10_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "cdc04801bfdced23fea1907a7f8d493b041ba8c618c79007eb9ff0513ebf4e3c",
+      "artifact_sha256": {
+        "assets/ch10-transport.html": "2bd0881930a44dd3d41efac6e77add8eb9753f3d1dd7e7f91a24a6495d76bfa1",
+        "assets/ch10-sensing.html": "ad42097ec46435c5b1ccec4234a4880f544c7147330ca5900d17f57a37599f30",
+        "assets/ch10-control.html": "16d74f8751ca63693d03035f453e27d95e87361ddaf916a61c3180c29ff94a59",
+        "assets/ch10-models.js": "a59a67c32eef52b6716d10dda87f5d7877dc80ba4b64fd640d09972cc7fcd8da",
+        "assets/ch10-controls.js": "149fb43ce83fccc46aa627b0d1183a50b88133b4ad042845c7da8c47fc8768ce",
+        "assets/ch10-device.svg": "c12e44d484a82018c6cefd9acc0930c12419945871386aa9e45fbd7d88085806",
+        "code/ch10_transport_control.py": "9f7774594dbb91e0f31794524fbec1d250cd259eac78ccbf1f62bb871f9efada"
+      },
+      "report_path": "work/reviews/ch10-approved-a.md",
+      "report_sha256": "8f203a3b4f617a8dea8738f8bb456351200716404900c08b7688aefcc034e9bc",
+      "original_full_report": "work/reviews/ch10-review-a.md",
+      "targeted_report": "work/reviews/ch10-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch01_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "cdc04801bfdced23fea1907a7f8d493b041ba8c618c79007eb9ff0513ebf4e3c",
+      "artifact_sha256": {
+        "assets/ch10-transport.html": "2bd0881930a44dd3d41efac6e77add8eb9753f3d1dd7e7f91a24a6495d76bfa1",
+        "assets/ch10-sensing.html": "ad42097ec46435c5b1ccec4234a4880f544c7147330ca5900d17f57a37599f30",
+        "assets/ch10-control.html": "16d74f8751ca63693d03035f453e27d95e87361ddaf916a61c3180c29ff94a59",
+        "assets/ch10-models.js": "a59a67c32eef52b6716d10dda87f5d7877dc80ba4b64fd640d09972cc7fcd8da",
+        "assets/ch10-controls.js": "149fb43ce83fccc46aa627b0d1183a50b88133b4ad042845c7da8c47fc8768ce",
+        "assets/ch10-device.svg": "c12e44d484a82018c6cefd9acc0930c12419945871386aa9e45fbd7d88085806",
+        "code/ch10_transport_control.py": "9f7774594dbb91e0f31794524fbec1d250cd259eac78ccbf1f62bb871f9efada"
+      },
+      "report_path": "work/reviews/ch10-approved-b.md",
+      "report_sha256": "a24678e9493db54b6ae2a06103fae319a85571d1fdc2f5213c46796fbcf6be82",
+      "original_full_report": "work/reviews/ch10-review-b.md",
+      "targeted_report": "work/reviews/ch10-targeted-b.md"
+    }
+  ],
+  "source_recordings": [
+    22,
+    23
+  ],
+  "source_issue_ids": [
+    "SCI-009"
+  ],
+  "source_evidence": "Complete L22–L23 caption texts read; all43 topic dispositions recorded. Reused bounded L22 and L23 visual reports; no new author image inspection or continuous audio/video claim.",
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "body_sha256": "cdc04801bfdced23fea1907a7f8d493b041ba8c618c79007eb9ff0513ebf4e3c",
+  "body_digest_convention": "SHA256 over raw file bytes strictly between BEGIN/END CHAPTER BODY marker bytes; no newline normalization.",
+  "artifact_sha256": {
+    "assets/ch10-transport.html": "2bd0881930a44dd3d41efac6e77add8eb9753f3d1dd7e7f91a24a6495d76bfa1",
+    "assets/ch10-sensing.html": "ad42097ec46435c5b1ccec4234a4880f544c7147330ca5900d17f57a37599f30",
+    "assets/ch10-control.html": "16d74f8751ca63693d03035f453e27d95e87361ddaf916a61c3180c29ff94a59",
+    "assets/ch10-models.js": "a59a67c32eef52b6716d10dda87f5d7877dc80ba4b64fd640d09972cc7fcd8da",
+    "assets/ch10-controls.js": "149fb43ce83fccc46aa627b0d1183a50b88133b4ad042845c7da8c47fc8768ce",
+    "assets/ch10-device.svg": "c12e44d484a82018c6cefd9acc0930c12419945871386aa9e45fbd7d88085806",
+    "code/ch10_transport_control.py": "9f7774594dbb91e0f31794524fbec1d250cd259eac78ccbf1f62bb871f9efada"
+  },
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch10-transport.html",
+      "sha256": "2bd0881930a44dd3d41efac6e77add8eb9753f3d1dd7e7f91a24a6495d76bfa1"
+    },
+    {
+      "path": "assets/ch10-sensing.html",
+      "sha256": "ad42097ec46435c5b1ccec4234a4880f544c7147330ca5900d17f57a37599f30"
+    },
+    {
+      "path": "assets/ch10-control.html",
+      "sha256": "16d74f8751ca63693d03035f453e27d95e87361ddaf916a61c3180c29ff94a59"
+    },
+    {
+      "path": "assets/ch10-models.js",
+      "sha256": "a59a67c32eef52b6716d10dda87f5d7877dc80ba4b64fd640d09972cc7fcd8da"
+    },
+    {
+      "path": "assets/ch10-controls.js",
+      "sha256": "149fb43ce83fccc46aa627b0d1183a50b88133b4ad042845c7da8c47fc8768ce"
+    },
+    {
+      "path": "assets/ch10-device.svg",
+      "sha256": "c12e44d484a82018c6cefd9acc0930c12419945871386aa9e45fbd7d88085806"
+    },
+    {
+      "path": "code/ch10_transport_control.py",
+      "sha256": "9f7774594dbb91e0f31794524fbec1d250cd259eac78ccbf1f62bb871f9efada"
+    }
+  ],
+  "code": [
+    "code/ch10_transport_control.py"
+  ],
+  "lab": {
+    "path": "code/ch10_transport_control.py",
+    "javascript": "assets/ch10-models.js",
+    "status": "validated",
+    "model": "Exact linear exchange and two-stage lag; step-split bounded nonclinical glucose-removal feedback with amount accounting.",
+    "parameters": "Explicit synthetic parameters; no patient calibration,insulin doses or clinical controller.",
+    "omitted_processes": [
+      "spatial oxygen gradients",
+      "immune kinetics",
+      "vascular growth",
+      "insulin pharmacokinetics",
+      "patient glucose counterregulation",
+      "stochastic noise and calibration fitting"
+    ]
+  },
+  "code_validation": {
+    "python": "404 exchange balance states,8 invalid-input cases,2001 feedback states; amount residual≤1.75e-12; step-halving endpoint difference0.000292mmol/L.",
+    "parity": "Final-digest four Python–JavaScript output objects compared to1e-10;maximum difference8.67e-18;zero-clearance positive-source edge correctly reports no steady state.",
+    "controls": "Three isolated DOM/RAF harnesses checked paused start,step,play advance,seek,replay,reduced-motion change pause,visibility pause,keyboard pan and six deterministic times. This is not actual browser QA.",
+    "markup": "Shared Page parser checks passed main chapter,3HTMLviews andSVG for unique IDs,no duplicate attributes,local files/anchors. Math delimiters balanced;six solutions. Skill checktex/checklt/check_links/check_svg passed within their limited patterns."
+  },
+  "figures": [
+    {
+      "id": "ch10-anim1",
+      "path": "assets/ch10-transport.html",
+      "figure_number": "10.1",
+      "status": "accepted",
+      "role": "Separate oxygen/glucose consumption and insulin source/export balances across a selective boundary; synthetic minutes."
+    },
+    {
+      "id": "ch10-anim2",
+      "path": "assets/ch10-sensing.html",
+      "figure_number": "10.3",
+      "status": "accepted",
+      "role": "Forced-reservoir blood/interstitial/processed sensor delay; synthetic minutes."
+    },
+    {
+      "id": "ch10-anim3",
+      "path": "assets/ch10-control.html",
+      "figure_number": "10.4",
+      "status": "accepted",
+      "role": "Bounded dimensionless command and delayed glucose-removal effector; no insulin dose."
+    },
+    {
+      "id": "ch10-fig1",
+      "path": "assets/ch10-device.svg",
+      "figure_number": "10.2",
+      "status": "accepted",
+      "role": "Original sectional capsule and source-proposed rectangular macrodevice; distinct vascular/protected regions."
+    }
+  ],
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
+    "browser": "Actual browser/control/responsive/reduced-motion checks and bounded root print inspection; relevant observed imagery or justified conceptual diagrams, with source limits and separate failed CG prototypes preserved.",
+    "coverage": "All 43 L22–23 topic dispositions, late drug/device material and six solutions assessed in two actual full reviews; complete captions plus attributed bounded still evidence, not continuous source viewing."
+  },
+  "limitations": [
+    "No continuous source playback or fresh author image inspection.",
+    "Unresolved Parkhideh study detail is not used to claim efficacy or kinetics.",
+    "No exhaustive November2026 therapy/device approval inventory.",
+    "Noise experiment replaced by exact lag isolation;the additive bias/noise problem is explained conceptually without manufactured calibrated data.",
+    "No clinical recommendation,diagnosis,dose or treatment algorithm.",
+    "2023primarypaper directPMC HTML retrieved;targeted relevant result/method/figure-caption passages read,not full-paper or source-image inspection."
+  ],
+  "author_report": "work/ch10-author-report.md",
+  "coverage_basis": "All 43 L22–23 topic dispositions, late drug/device material and six solutions assessed in two actual full reviews; complete captions plus attributed bounded still evidence, not continuous source viewing.",
+  "production_validation": {
+    "report_path": "work/browser/ch10-production-final.json",
+    "report_sha256": "e5865265c44dec552a265f4d03e39edce71348c2360fa92d6540a10ad926763c",
+    "scope": "Actual browser/control/responsive/reduced-motion checks and bounded root print inspection; relevant observed imagery or justified conceptual diagrams, with source limits and separate failed CG prototypes preserved."
+  },
+  "accepted_at_utc": "2026-11-04T22:48:15.149Z",
+  "acceptance_reopened": {
+    "reason": "Explicit WORKFLOW.md Chapters9–25 realistic new-scene still/motion inspection has no bound acceptance record. Scientific approvals and actual UI/print evidence preserved.",
+    "previous_status": "accepted",
+    "recorded_at_utc": "2026-11-04T21:58:27.910Z",
+    "resolved_by": "Explicit user-selected modality and hash-bound chapter-specific visual inspection."
+  },
+  "realistic_asset_gate": {
+    "status": "accepted",
+    "reason": "Chapter-specific visual modality and delivered artifacts inspected under the user-selected workflow.",
+    "mode": "conceptual-quantitative",
+    "scene_family": "Investigational encapsulation and synthetic sensing/control models",
+    "rationale": "This chapter teaches an explicitly proposed device and quantitative transport/sensing/control constructions. The sectional design is a schematic engineering proposal with illustrative dimensions and no observed anatomy, manufactured product or clinical-performance claim. Photorealistic imagery of a nonexistent proposed device would suggest unsupported physical evidence.",
+    "appearance_references": [],
+    "mechanism_files": [
+      "assets/ch10-device.svg",
+      "assets/ch10-transport.html",
+      "assets/ch10-sensing.html",
+      "assets/ch10-control.html"
+    ],
+    "no_anatomical_appearance_claim": true,
+    "report_path": "work/browser/ch10-visual-modality.json",
+    "report_sha256": "2f400957083de2bd9e31e1576a74b663d104b73f9d1ab7cd6403d497c1e26c9a"
+  },
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-10.json",
+    "sha256": "bc35af5261711aa6bc55ad630eaeb60276a9928830cf1667817c001f977ae64a"
+  }
+}

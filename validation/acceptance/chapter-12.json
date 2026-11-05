@@ -1,0 +1,109 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 12,
+  "manuscript": "chapter-12-digestion-carbohydrate-absorption.html",
+  "body_sha256": "ed73d6825a59f16893fc5697adb3f0da28420a86cbc8111cfe27c1bba1457cfa",
+  "artifact_sha256": {
+    "code/ch12_absorption.py": "a96478b9e88ef2734be7d9ff47374e593ab5f5c04f5b7f91c9a1aa68fd539595",
+    "assets/ch12-models.js": "4c83dd9f3f75977f1dc914b5d72e04f83b708ecef3792740f08c0ce6dcc18c7d",
+    "assets/ch12-checks.js": "079e5cc384209fcdd14c8163725c4ea4c68b39a5e292e1d17debad8ec6b37970",
+    "assets/ch12-peristalsis.html": "6289c4f6820b85040f68dd364fb4bf94444870027cf8c535bd87173d8c2bf3b8",
+    "assets/ch12-hydrolysis.html": "21d5ecc4c55577436301140ab1dd0e74ceb2dfab4ff6a4cdac3c711fa936d736",
+    "assets/ch12-absorption.html": "14444fcf4d7367c515c580f86a6a8c8bf943db08e8e87cd4f549f01b7bfc8a1c",
+    "assets/ch12-villi-reference.jpg": "4cf0be725da031e221ff8f43fe75c64fcc5a98eb18a96eb717bfc9d0b479dc8a",
+    "assets/ch12-villi-reference.json": "160931d2bd17491aef5452d0f3acfa1413c83710d066ad6d63175166a7da1c4d"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "All37 L26–27 source topics dispositioned using complete captions and bounded source-still audit; exactly two full scientific reviews plus targeted localized repair checks. Continuous video viewing is not claimed.",
+  "source_recordings": [
+    26,
+    27
+  ],
+  "source_evidence": [
+    {
+      "number": 26,
+      "video_id": "dYnZul_jTGo",
+      "url": "https://www.youtube.com/watch?v=dYnZul_jTGo",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "5d49a7e3672314c15242a5ce19343ec50f87637d832bbe126a962475c6f890b8",
+      "caption_cues": 164,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 40,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 2,
+        "sampled_stills": 40,
+        "native_still_views": 2,
+        "report_sha256": "710c3c5538b900b8cbe73746736d06a6eace6f63169bb1f6b9f36ed811619e96"
+      },
+      "visual_review_scope": "All contact sheets and named native stills inspected; complete captions read. Enzyme and transporter source discrepancies flagged for later independent verification; no continuous audio/video or new external-source claim."
+    },
+    {
+      "number": 27,
+      "video_id": "PSRcT3JcLUg",
+      "url": "https://www.youtube.com/watch?v=PSRcT3JcLUg",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "e754eb9b299e9ebd47bd967f2728f6cf5285c0ed056f1f7c64524ee16ab5d23b",
+      "caption_cues": 146,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 50,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 50,
+        "native_still_views": 3,
+        "report_sha256": "710c3c5538b900b8cbe73746736d06a6eace6f63169bb1f6b9f36ed811619e96"
+      },
+      "visual_review_scope": "All contact sheets and named native stills inspected; complete captions read. Enzyme and transporter source discrepancies flagged for later independent verification; no continuous audio/video or new external-source claim."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch12_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "0434232373e38a0ecfa85299286746688d75c7491351c969d9327a7057dffd4b",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    },
+    {
+      "reviewer_id": "/root/ch12_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "30ec5e7302f28e90e35e7d3d517140dc9fe6f6075047253daba58b8de8123175",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    }
+  ],
+  "production": {
+    "scope": "Actual browser/control/responsive/reduced-motion checks and bounded root print inspection; relevant observed imagery or justified conceptual diagrams, with source limits and separate failed CG prototypes preserved.",
+    "report_sha256": "19a58e87e2550a86206ca33147bcae3664f9ad6fa116a3d1895c735adfc29440"
+  },
+  "visual_modality": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Small-intestinal mucosa and digestion/epithelial transport",
+    "rationale": "Observed human intestinal mucosal cryosection supplies actual villus/crypt tissue context; controlled schematics explain propulsion, residue-preserving hydrolysis and polarized uptake/exit. Preparation colors and unresolved microvilli/transporter/physical-scale limits are explicit. The schematics are not presented as photographed tissue or measured molecular kinetics.",
+    "appearance_references": [
+      "assets/ch12-villi-reference.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch12-peristalsis.html",
+      "assets/ch12-hydrolysis.html",
+      "assets/ch12-absorption.html"
+    ],
+    "no_anatomical_appearance_claim": false,
+    "report_sha256": "8e5b19d593910fcc862d5e7323c6088d68b316f3a0789f8f5c6288edf3f0159a"
+  },
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

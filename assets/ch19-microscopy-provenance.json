@@ -1,0 +1,58 @@
+{
+  "scope": "Observed prepared specimens; original native JPEG bytes retained; no image editing or generated microscopy.",
+  "access_date": "2026-11-04",
+  "items": [
+    {
+      "asset": "assets/ch19-mouse-follicles.jpg",
+      "catalogue": "https://wellcomecollection.org/works/sh9zzswg",
+      "api": "https://api.wellcomecollection.org/catalogue/v2/works/sh9zzswg?include=items,images",
+      "accession": "B0004125",
+      "title": "Isolated ovarian follicles from the mouse",
+      "creators": [
+        "Tania Vitalis",
+        "Linda Sharp"
+      ],
+      "species": "Mouse; strain, sex age and precise follicle stages unreported",
+      "preparation": "Isolated follicles; actin cytoskeleton stained green, nuclei red; fixation and imaging modality unreported",
+      "scale": "No calibrated physical scale specified; thin bottom line not interpreted as a scale bar",
+      "license": "CC BY 4.0",
+      "owning_license": "http://creativecommons.org/licenses/by/4.0/",
+      "native_url": "https://iiif.wellcomecollection.org/image/B0004125/full/full/0/default.jpg",
+      "native_dimensions": [
+        959,
+        906
+      ],
+      "bytes": 129747,
+      "sha256": "4878451b6152fcd0107244e48e430e15a16a0f4aa19117913c57ca3a4970cd15",
+      "modified": false,
+      "inspection": "Full native JPEG viewed; two follicles with red/green staining. No claimed stage, ploidy, human appearance or live temporal evidence."
+    },
+    {
+      "asset": "assets/ch19-mouse-mammary-confocal.jpg",
+      "catalogue": "https://wellcomecollection.org/works/q9y8685a",
+      "api": "https://api.wellcomecollection.org/catalogue/v2/works/q9y8685a?include=items,images",
+      "accession": "B0010899",
+      "title": "3D depth-coloured transparent mouse mammary gland",
+      "creators": [
+        "Felicity Davis",
+        "Bethan Lloyd-Lewis",
+        "Christine Watson"
+      ],
+      "institution": "University of Cambridge",
+      "species": "Lactating mouse; strain and age unreported",
+      "preparation": "Isolated mammary gland; CUBIC clearing; smooth-muscle-actin antibody labels myoepithelial basket cells; confocal3D depth assigned red at top to blue/purple deeper",
+      "scale": "Owning record reports full image width331 micrometres; no fabricated scale bar",
+      "license": "CC BY 4.0",
+      "owning_license": "http://creativecommons.org/licenses/by/4.0/",
+      "native_url": "https://iiif.wellcomecollection.org/image/B0010899/full/full/0/default.jpg",
+      "native_dimensions": [
+        4266,
+        4266
+      ],
+      "bytes": 2087552,
+      "sha256": "878cc9cf1a1aa100c8ceeff02241e6e9b5ad8e0ef810eaf07061d41be8a65578",
+      "modified": false,
+      "inspection": "Whole file display resized by tool to3200x3200; separately inspected unresized1200x1200 crop at x1000,y1000. Basket networks observed; no contraction, milk flow or human anatomical measurement claimed."
+    }
+  ]
+}

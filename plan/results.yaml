@@ -1,0 +1,1821 @@
+{
+  "results": [
+    {
+      "id": "ch1-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Anatomy describes structure; physiology explains function across cellular, tissue, organ, system and organism scales.",
+      "planned_chapter": 1,
+      "depends_on": [],
+      "prerequisite_chapters": [],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ch1-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Directional terms and section planes refer to a specified anatomical position; adjacent cavities and fluid compartments are distinct.",
+      "planned_chapter": 1,
+      "depends_on": [
+        "ch1-s1"
+      ],
+      "prerequisite_chapters": [],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ch1-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Organelle function depends on compartmentalization and regulated traffic; endoplasmic-reticulum synthesis and Golgi sorting are distinct steps.",
+      "planned_chapter": 1,
+      "depends_on": [
+        "ch1-s2"
+      ],
+      "prerequisite_chapters": [],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ch1-s4",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Historical accounts of physiology are separated from current mechanisms; unsupported superlatives and cell-count/type conflations are corrected rather than repeated.",
+      "planned_chapter": 1,
+      "depends_on": [
+        "ch1-s3"
+      ],
+      "prerequisite_chapters": [],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "ch1-s5",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Epithelial, connective, muscle and nervous tissues are distinguished; cell shape, organelle complement and extracellular matrix relate to tissue function.",
+      "planned_chapter": 1,
+      "depends_on": [
+        "ch1-s4"
+      ],
+      "prerequisite_chapters": [],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "ch2-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Net diffusive transport depends on a driving gradient and permeability; ionic transport depends on both chemical and electrical contributions.",
+      "planned_chapter": 2,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        1
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "ch2-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Primary active transport uses an energy source directly; secondary active transport couples one downhill process to another uphill process.",
+      "planned_chapter": 2,
+      "depends_on": [
+        "ch2-s1"
+      ],
+      "prerequisite_chapters": [
+        1
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "ch2-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Negative feedback opposes a sensed deviation, whereas positive feedback reinforces a process until a terminating event; these architectures must be distinguished.",
+      "planned_chapter": 2,
+      "depends_on": [
+        "ch2-s2"
+      ],
+      "prerequisite_chapters": [
+        1
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "ch3-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Plasma and formed elements have distinct transport, immune and hemostatic roles; reference intervals depend on their population and measurement context.",
+      "planned_chapter": 3,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        1,
+        2
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "ch3-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Platelet adhesion/activation and coagulation cooperate at an injury; simplified pathway diagrams do not by themselves reproduce the full in-vivo process.",
+      "planned_chapter": 3,
+      "depends_on": [
+        "ch3-s1"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "ch3-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Fibrinolysis, endogenous regulation and anticoagulant targets are distinct mechanisms; laboratory assay context must accompany interpretation.",
+      "planned_chapter": 3,
+      "depends_on": [
+        "ch3-s2"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "ch4-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Red-cell and plasma compatibility use different antigen/antibody relationships; ABO labels alone do not replace crossmatching or clinical protocols.",
+      "planned_chapter": 4,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        1,
+        3
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "ch4-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Lymphatic vessels return interstitial fluid and support immune-cell traffic; one-way valves and external forces assist collecting-vessel flow.",
+      "planned_chapter": 4,
+      "depends_on": [
+        "ch4-s1"
+      ],
+      "prerequisite_chapters": [
+        1,
+        3
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "ch4-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Innate recognition, antigen presentation, lymphocyte activation and immune memory have different cellular mechanisms and timescales.",
+      "planned_chapter": 4,
+      "depends_on": [
+        "ch4-s2"
+      ],
+      "prerequisite_chapters": [
+        1,
+        3
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "ch5-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Cardiac valves permit flow according to pressure differences; pulmonary and systemic circuits are connected in series.",
+      "planned_chapter": 5,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        1,
+        2
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "ch5-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Pacemaker activity and conduction coordinate contraction; a cellular action potential, surface ECG and pressure waveform represent different measurements.",
+      "planned_chapter": 5,
+      "depends_on": [
+        "ch5-s1"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "ch5-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Cardiac output is heart rate multiplied by stroke volume; pressure/flow relations depend on the vascular system and cannot be inferred from ECG alone.",
+      "planned_chapter": 5,
+      "depends_on": [
+        "ch5-s2"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "ch6-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Vessel structure changes along the circulation; ideal tube-flow predictions require assumptions about geometry, viscosity and flow.",
+      "planned_chapter": 6,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        2,
+        5
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        15
+      ]
+    },
+    {
+      "id": "ch6-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Hydrostatic, oncotic, barrier and lymphatic properties jointly determine fluid balance; the classical Starling cartoon needs its revised-model limits.",
+      "planned_chapter": 6,
+      "depends_on": [
+        "ch6-s1"
+      ],
+      "prerequisite_chapters": [
+        2,
+        5
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        15
+      ]
+    },
+    {
+      "id": "ch6-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Local chemical and myogenic responses can alter resistance within a bounded physiological operating range.",
+      "planned_chapter": 6,
+      "depends_on": [
+        "ch6-s2"
+      ],
+      "prerequisite_chapters": [
+        2,
+        5
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        15
+      ]
+    },
+    {
+      "id": "ch7-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Conducting airways, respiratory surfaces and their epithelial specializations serve different functions.",
+      "planned_chapter": 7,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        1,
+        2,
+        5
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        16,
+        17
+      ]
+    },
+    {
+      "id": "ch7-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Changes in thoracic volume and pressure gradients drive airflow; tissue elasticity and surface tension influence the mechanical response.",
+      "planned_chapter": 7,
+      "depends_on": [
+        "ch7-s1"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2,
+        5
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        16,
+        17
+      ]
+    },
+    {
+      "id": "ch7-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Hemoglobin cooperativity and shifts in oxygen affinity affect loading/unloading; affinity is distinct from oxygen content and delivery.",
+      "planned_chapter": 7,
+      "depends_on": [
+        "ch7-s2"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2,
+        5
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        16,
+        17
+      ]
+    },
+    {
+      "id": "ch8-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Lung capacities combine defined volumes; basic spirometry cannot directly measure every volume.",
+      "planned_chapter": 8,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        3,
+        5,
+        7
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": "ch8-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Blood oxygen content includes hemoglobin-bound and dissolved components; multiplying content by blood flow gives delivery with consistent units.",
+      "planned_chapter": 8,
+      "depends_on": [
+        "ch8-s1"
+      ],
+      "prerequisite_chapters": [
+        3,
+        5,
+        7
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": "ch8-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Carbon monoxide disrupts oxygen transport, and ordinary two-wavelength pulse oximetry has relevant measurement limitations; treatment claims require current evidence.",
+      "planned_chapter": 8,
+      "depends_on": [
+        "ch8-s2"
+      ],
+      "prerequisite_chapters": [
+        3,
+        5,
+        7
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": "ch9-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Hormones act through receptors and downstream responses; endocrine axes have different control architectures.",
+      "planned_chapter": 9,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        1,
+        2
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        20,
+        21
+      ]
+    },
+    {
+      "id": "ch9-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Insulin is a signal that changes cellular processes, not a molecule that physically carries glucose into every cell.",
+      "planned_chapter": 9,
+      "depends_on": [
+        "ch9-s1"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        20,
+        21
+      ]
+    },
+    {
+      "id": "ch9-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Type1 and type2 diabetes differ in pathophysiology; associations and individual anecdotes do not establish disease causation.",
+      "planned_chapter": 9,
+      "depends_on": [
+        "ch9-s2"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        20,
+        21
+      ]
+    },
+    {
+      "id": "ch9-s4",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Parathyroid hormone, renal handling and vitamin-D-dependent intestinal effects participate in calcium regulation; the direction of each effect must agree with the feedback model.",
+      "planned_chapter": 9,
+      "depends_on": [
+        "ch9-s3"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        20
+      ]
+    },
+    {
+      "id": "ch9-s5",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Hormone synthesis, release location and target effects differ between pituitary regions, adrenal zones and other glands; a map of gland positions does not replace the mechanism.",
+      "planned_chapter": 9,
+      "depends_on": [
+        "ch9-s4"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        20
+      ]
+    },
+    {
+      "id": "ch10-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Preclinical experiments, clinical trials and authorized therapies are distinct evidence states and must be dated.",
+      "planned_chapter": 10,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        2,
+        9
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        22,
+        23
+      ]
+    },
+    {
+      "id": "ch10-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "A measurement device observes a defined compartment with calibration and delay; a displayed concentration is not a perfect instantaneous state.",
+      "planned_chapter": 10,
+      "depends_on": [
+        "ch10-s1"
+      ],
+      "prerequisite_chapters": [
+        2,
+        9
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        22,
+        23
+      ]
+    },
+    {
+      "id": "ch10-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "A controller combines sensing and actuation under constraints; a teaching simulation does not establish safe clinical dosing.",
+      "planned_chapter": 10,
+      "depends_on": [
+        "ch10-s2"
+      ],
+      "prerequisite_chapters": [
+        2,
+        9
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        22,
+        23
+      ]
+    },
+    {
+      "id": "ch10-s4",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "The source research is traced to the actual paper, material identifiers, islet-equivalent units, species, experimental durations and outcomes; animal results are not presented as human cures.",
+      "planned_chapter": 10,
+      "depends_on": [
+        "ch10-s3"
+      ],
+      "prerequisite_chapters": [
+        2,
+        9
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        22
+      ]
+    },
+    {
+      "id": "ch10-s5",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Encapsulation permeability, oxygen supply, foreign-body response and retrieval impose distinct design constraints; renderings must match the published device geometry and evidence.",
+      "planned_chapter": 10,
+      "depends_on": [
+        "ch10-s4"
+      ],
+      "prerequisite_chapters": [
+        2,
+        9
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        22
+      ]
+    },
+    {
+      "id": "ch10-s6",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "HbA1c and contemporaneous glucose measurements describe different time windows; therapy mechanisms and current regulatory status are treated separately from experimental cell replacement.",
+      "planned_chapter": 10,
+      "depends_on": [
+        "ch10-s5"
+      ],
+      "prerequisite_chapters": [
+        2,
+        9
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        23
+      ]
+    },
+    {
+      "id": "ch11-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Iodide handling, thyroglobulin processing and hormone release are distinct steps in a compartmental pathway.",
+      "planned_chapter": 11,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        2,
+        9
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        24,
+        25
+      ]
+    },
+    {
+      "id": "ch11-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Thyroid hormones feed back on the hypothalamic\u2013pituitary axis; primary gland dysfunction differs from central dysfunction.",
+      "planned_chapter": 11,
+      "depends_on": [
+        "ch11-s1"
+      ],
+      "prerequisite_chapters": [
+        2,
+        9
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        24,
+        25
+      ]
+    },
+    {
+      "id": "ch11-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Disease labels require a specified excess/deficiency, site of failure and evidence context rather than an isolated symptom.",
+      "planned_chapter": 11,
+      "depends_on": [
+        "ch11-s2"
+      ],
+      "prerequisite_chapters": [
+        2,
+        9
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        24,
+        25
+      ]
+    },
+    {
+      "id": "ch11-s4",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Pituitary, adrenal, parathyroid and other endocrine disorders receive a named source-topic mechanism matrix with site of failure, hormone change, downstream effect and evidence limits.",
+      "planned_chapter": 11,
+      "depends_on": [
+        "ch11-s3"
+      ],
+      "prerequisite_chapters": [
+        2,
+        9
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        25
+      ]
+    },
+    {
+      "id": "ch12-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Mechanical processing, secretion, enzymatic digestion and absorption occur in distinct locations and compartments.",
+      "planned_chapter": 12,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        1,
+        2
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        26,
+        27
+      ]
+    },
+    {
+      "id": "ch12-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Specific enzymes hydrolyze specific substrates; brush-border reactions are distinct from luminal starch digestion.",
+      "planned_chapter": 12,
+      "depends_on": [
+        "ch12-s1"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        26,
+        27
+      ]
+    },
+    {
+      "id": "ch12-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Apical uptake and basolateral exit use different transport mechanisms; polarity is essential to net absorption.",
+      "planned_chapter": 12,
+      "depends_on": [
+        "ch12-s2"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        26,
+        27
+      ]
+    },
+    {
+      "id": "ch13-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Proteases and peptidases transform proteins into absorbable products; enterocyte handling and transport have compartment-specific mechanisms.",
+      "planned_chapter": 13,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        2,
+        12
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "id": "ch13-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Emulsification, lipase activity, mixed micelles and chylomicrons are distinct stages with different structures and transport roles.",
+      "planned_chapter": 13,
+      "depends_on": [
+        "ch13-s1"
+      ],
+      "prerequisite_chapters": [
+        2,
+        12
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "id": "ch13-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Inflammatory bowel disease, irritable bowel syndrome and gluten-related disorders must not be treated as interchangeable diagnoses.",
+      "planned_chapter": 13,
+      "depends_on": [
+        "ch13-s2"
+      ],
+      "prerequisite_chapters": [
+        2,
+        12
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "id": "ch13-s4",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "GERD/ulcer, IBS/IBD, celiac/lactose-related conditions and biliary/pancreatic disease are assigned distinct anatomical and physiological mechanisms; source errors and current therapy claims are verified.",
+      "planned_chapter": 13,
+      "depends_on": [
+        "ch13-s3"
+      ],
+      "prerequisite_chapters": [
+        2,
+        12
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        30
+      ]
+    },
+    {
+      "id": "ch14-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Bone is a living composite with cortical/trabecular organization, cells and matrix; macroscopic form and microscopic structure have different scales.",
+      "planned_chapter": 14,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        1,
+        9
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        31,
+        32
+      ]
+    },
+    {
+      "id": "ch14-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Formation and resorption are coupled but distinct processes whose balance changes tissue mass and architecture.",
+      "planned_chapter": 14,
+      "depends_on": [
+        "ch14-s1"
+      ],
+      "prerequisite_chapters": [
+        1,
+        9
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        31,
+        32
+      ]
+    },
+    {
+      "id": "ch14-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Joint geometry, cartilage, ligaments and surrounding muscles constrain motion; a simple hinge captures only part of a real joint.",
+      "planned_chapter": 14,
+      "depends_on": [
+        "ch14-s2"
+      ],
+      "prerequisite_chapters": [
+        1,
+        9
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        31,
+        32
+      ]
+    },
+    {
+      "id": "ch15-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Skeletal, cardiac and smooth muscle differ in structure, control and excitation\u2013contraction coupling.",
+      "planned_chapter": 15,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        1,
+        2,
+        14
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "id": "ch15-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Motor-neuron signaling, acetylcholine release and muscle-membrane excitation are distinct events with specified locations.",
+      "planned_chapter": 15,
+      "depends_on": [
+        "ch15-s1"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2,
+        14
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "id": "ch15-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Calcium regulation and cross-bridge cycling link excitation to contraction; skeletal disease mechanisms require tissue-specific distinctions.",
+      "planned_chapter": 15,
+      "depends_on": [
+        "ch15-s2"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2,
+        14
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "id": "ch15-s4",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Osteoporosis, osteomalacia, osteoarthritis, immune/crystal/infectious joint disease and Duchenne muscular dystrophy affect different tissue processes; classification and current therapy claims require evidence.",
+      "planned_chapter": 15,
+      "depends_on": [
+        "ch15-s3"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2,
+        14
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        35
+      ]
+    },
+    {
+      "id": "ch16-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Nephrons connect filtration to segmental processing within a defined vascular and tubular arrangement.",
+      "planned_chapter": 16,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        36,
+        37
+      ]
+    },
+    {
+      "id": "ch16-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Pressure differences and barrier properties govern filtration; ideal net-pressure calculations require explicit conventions.",
+      "planned_chapter": 16,
+      "depends_on": [
+        "ch16-s1"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        36,
+        37
+      ]
+    },
+    {
+      "id": "ch16-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Renal blood flow, renal plasma flow and glomerular filtration rate are different quantities; their ratios require compatible units and definitions.",
+      "planned_chapter": 16,
+      "depends_on": [
+        "ch16-s2"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        36,
+        37
+      ]
+    },
+    {
+      "id": "ch17-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Apical and basolateral transport work together to reabsorb substances; bicarbonate recovery involves coupled reactions and transport.",
+      "planned_chapter": 17,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        2,
+        9,
+        16
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "id": "ch17-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Segment-specific permeability and active transport permit a medullary gradient; a loop drawing alone does not explain concentration.",
+      "planned_chapter": 17,
+      "depends_on": [
+        "ch17-s1"
+      ],
+      "prerequisite_chapters": [
+        2,
+        9,
+        16
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "id": "ch17-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "ADH, aldosterone and renin\u2013angiotensin signaling act at different sites and through different control mechanisms.",
+      "planned_chapter": 17,
+      "depends_on": [
+        "ch17-s2"
+      ],
+      "prerequisite_chapters": [
+        2,
+        9,
+        16
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "id": "ch17-s4",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Chronic renal dysfunction, glomerular injury, obstruction and urinary infection have distinct mechanisms and evaluation contexts; symptoms or reserve estimates alone do not establish disease severity.",
+      "planned_chapter": 17,
+      "depends_on": [
+        "ch17-s3"
+      ],
+      "prerequisite_chapters": [
+        2,
+        9,
+        16
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        40
+      ]
+    },
+    {
+      "id": "ch17-s5",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Blood and dialysate remain separated by a membrane; diffusion and ultrafiltration remove selected solutes and water, while replacing only part of living renal function.",
+      "planned_chapter": 17,
+      "depends_on": [
+        "ch17-s4"
+      ],
+      "prerequisite_chapters": [
+        2,
+        9,
+        16
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        40
+      ]
+    },
+    {
+      "id": "ch18-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Sperm production, maturation, transport and accessory secretions occur in different anatomical structures.",
+      "planned_chapter": 18,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        1,
+        9
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        41,
+        42
+      ]
+    },
+    {
+      "id": "ch18-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Meiosis changes ploidy through defined stages; spermatogenesis and sperm maturation are distinct processes.",
+      "planned_chapter": 18,
+      "depends_on": [
+        "ch18-s1"
+      ],
+      "prerequisite_chapters": [
+        1,
+        9
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        41,
+        42
+      ]
+    },
+    {
+      "id": "ch18-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Hypothalamic\u2013pituitary\u2013gonadal feedback regulates testicular function; exogenous hormones can alter the axis rather than simply adding reproductive capacity.",
+      "planned_chapter": 18,
+      "depends_on": [
+        "ch18-s2"
+      ],
+      "prerequisite_chapters": [
+        1,
+        9
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        41,
+        42
+      ]
+    },
+    {
+      "id": "ch19-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Ovarian, tubal and uterine structures have distinct reproductive roles; a follicle is not an isolated oocyte.",
+      "planned_chapter": 19,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        1,
+        9,
+        18
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "id": "ch19-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Oocyte meiotic stage and follicular developmental stage are related but different classifications.",
+      "planned_chapter": 19,
+      "depends_on": [
+        "ch19-s1"
+      ],
+      "prerequisite_chapters": [
+        1,
+        9,
+        18
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "id": "ch19-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Follicular growth, the ovulatory event and corpus-luteum development follow regulated sequences; long folliculogenesis must not be compressed into one cycle without disclosure.",
+      "planned_chapter": 19,
+      "depends_on": [
+        "ch19-s2"
+      ],
+      "prerequisite_chapters": [
+        1,
+        9,
+        18
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "id": "ch19-s4",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Milk synthesis and milk ejection are different processes; prolactin and oxytocin participate in different parts of the lactation circuit.",
+      "planned_chapter": 19,
+      "depends_on": [
+        "ch19-s3"
+      ],
+      "prerequisite_chapters": [
+        1,
+        9,
+        18
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        43
+      ]
+    },
+    {
+      "id": "ch20-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Ovarian hormones coordinate endometrial change, but cycle duration and phase timing vary between individuals and cycles.",
+      "planned_chapter": 20,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        9,
+        19
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        46,
+        47
+      ]
+    },
+    {
+      "id": "ch20-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Gamete interaction, cleavage, blastocyst development and implantation are distinct events at different locations and times.",
+      "planned_chapter": 20,
+      "depends_on": [
+        "ch20-s1"
+      ],
+      "prerequisite_chapters": [
+        9,
+        19
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        46,
+        47
+      ]
+    },
+    {
+      "id": "ch20-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Embryonic/placental signaling alters endocrine support; diagrams must distinguish maternal and fetal compartments.",
+      "planned_chapter": 20,
+      "depends_on": [
+        "ch20-s2"
+      ],
+      "prerequisite_chapters": [
+        9,
+        19
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        46,
+        47
+      ]
+    },
+    {
+      "id": "ch20-s4",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Gestational and post-fertilization clocks differ; pregnancy testing measures a defined biomarker and must be interpreted in timing/context.",
+      "planned_chapter": 20,
+      "depends_on": [
+        "ch20-s3"
+      ],
+      "prerequisite_chapters": [
+        9,
+        19
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        47
+      ]
+    },
+    {
+      "id": "ch20-s5",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Late gestational changes, cervical effacement/dilation and delivery of infant and placenta are distinct events; the source timeline is explained without portraying one universal duration.",
+      "planned_chapter": 20,
+      "depends_on": [
+        "ch20-s4"
+      ],
+      "prerequisite_chapters": [
+        9,
+        19
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        47
+      ]
+    },
+    {
+      "id": "ch21-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Barrier, intrauterine and hormonal methods act through different mechanisms; effectiveness depends on method and use context.",
+      "planned_chapter": 21,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        18,
+        19,
+        20
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "id": "ch21-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Controlled stimulation, fertilization, embryo culture and transfer are distinct procedural stages whose outcomes cannot be guaranteed.",
+      "planned_chapter": 21,
+      "depends_on": [
+        "ch21-s1"
+      ],
+      "prerequisite_chapters": [
+        18,
+        19,
+        20
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "id": "ch21-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Infertility and pelvic/reproductive disorders require cause-specific evidence; a lecture anecdote or investigational material does not establish routine treatment.",
+      "planned_chapter": 21,
+      "depends_on": [
+        "ch21-s2"
+      ],
+      "prerequisite_chapters": [
+        18,
+        19,
+        20
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "id": "ch21-s4",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "These interventions are distinguished by mechanism and timing; unsupported cancer, efficacy, gestational-limit and legal generalizations are corrected or excluded with an explicit disposition.",
+      "planned_chapter": 21,
+      "depends_on": [
+        "ch21-s3"
+      ],
+      "prerequisite_chapters": [
+        18,
+        19,
+        20
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        48
+      ]
+    },
+    {
+      "id": "ch21-s5",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Named source topics including infection, infertility, menopause and pelvic-support disorders receive distinct mechanism and evidence entries; investigational materials are identified as such.",
+      "planned_chapter": 21,
+      "depends_on": [
+        "ch21-s4"
+      ],
+      "prerequisite_chapters": [
+        18,
+        19,
+        20
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        49,
+        50
+      ]
+    },
+    {
+      "id": "ch22-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Central/peripheral and somatic/autonomic divisions classify different aspects of neural organization.",
+      "planned_chapter": 22,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        1,
+        2
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "id": "ch22-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Brain regions and pathways support distributed functions; simplified regional labels do not establish exclusive one-to-one function.",
+      "planned_chapter": 22,
+      "depends_on": [
+        "ch22-s1"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "id": "ch22-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Afferent/efferent routes, roots, nerves and tracts are different structures with direction defined relative to a specified reference.",
+      "planned_chapter": 22,
+      "depends_on": [
+        "ch22-s2"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "id": "ch23-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Dendrites, soma, axon, peripheral nerve sheaths and supporting cells serve distinct structural roles; transport along an axon differs from propagation of an electrical signal.",
+      "planned_chapter": 23,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        1,
+        2,
+        22
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        54,
+        55
+      ]
+    },
+    {
+      "id": "ch23-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Motor-driven intracellular cargo transport and membrane-signal propagation operate by different mechanisms; myelin organization is introduced morphologically before detailed excitability.",
+      "planned_chapter": 23,
+      "depends_on": [
+        "ch23-s1"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2,
+        22
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        54,
+        55
+      ]
+    },
+    {
+      "id": "ch23-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Conduction block, axonal disruption, distal degeneration and repair must be distinguished; neurapraxia is not equated with axonal transection.",
+      "planned_chapter": 23,
+      "depends_on": [
+        "ch23-s2"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2,
+        22
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        54,
+        55
+      ]
+    },
+    {
+      "id": "ch23-s4",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Central and peripheral repair environments differ; limitations in regeneration or remyelination must not be stated as universal impossibility.",
+      "planned_chapter": 23,
+      "depends_on": [
+        "ch23-s3"
+      ],
+      "prerequisite_chapters": [
+        1,
+        2,
+        22
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        54,
+        55
+      ]
+    },
+    {
+      "id": "ch24-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Resting potential is a maintained multi-ion steady state; ongoing ion transport is distinct from zero net flux of every ion.",
+      "planned_chapter": 24,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        2,
+        22,
+        23
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        56,
+        57
+      ]
+    },
+    {
+      "id": "ch24-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "For a specified ion in the equilibrium model, its electrical and chemical contributions balance and net electrochemical flux vanishes; one-ion equilibrium is not the complete resting-state model.",
+      "planned_chapter": 24,
+      "depends_on": [
+        "ch24-s1"
+      ],
+      "prerequisite_chapters": [
+        2,
+        22,
+        23
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        56,
+        57
+      ]
+    },
+    {
+      "id": "ch24-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Graded inputs vary in amplitude and decay over space/time; their combination depends on conductances and membrane state rather than fixed universal voltage increments.",
+      "planned_chapter": 24,
+      "depends_on": [
+        "ch24-s2"
+      ],
+      "prerequisite_chapters": [
+        2,
+        22,
+        23
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        56,
+        57
+      ]
+    },
+    {
+      "id": "ch24-s4",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Voltage-dependent activation and inactivation with different kinetics generate a regenerative waveform; the states of sodium and potassium conductances must be distinguished.",
+      "planned_chapter": 24,
+      "depends_on": [
+        "ch24-s3"
+      ],
+      "prerequisite_chapters": [
+        2,
+        22,
+        23
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        56,
+        57
+      ]
+    },
+    {
+      "id": "ch24-s5",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Channel availability and membrane state constrain re-excitation and influence propagation; absolute and relative refractory periods have different mechanisms.",
+      "planned_chapter": 24,
+      "depends_on": [
+        "ch24-s4"
+      ],
+      "prerequisite_chapters": [
+        2,
+        22,
+        23
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        56,
+        57
+      ]
+    },
+    {
+      "id": "ch24-s6",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Calcium-dependent release, receptor activation and clearance are separate stages; the sign/effect of a response depends on receptor conductance, reversal potential and membrane state.",
+      "planned_chapter": 24,
+      "depends_on": [
+        "ch24-s5"
+      ],
+      "prerequisite_chapters": [
+        2,
+        22,
+        23
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        56,
+        57
+      ]
+    },
+    {
+      "id": "ch25-s1",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Barrier selectivity depends on neurovascular organization; glial support and endothelial barrier function must be distinguished.",
+      "planned_chapter": 25,
+      "depends_on": [],
+      "prerequisite_chapters": [
+        2,
+        22,
+        23,
+        24
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "id": "ch25-s2",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Different sensory organs convert physical or chemical stimuli into signals through distinct receptor mechanisms.",
+      "planned_chapter": 25,
+      "depends_on": [
+        "ch25-s1"
+      ],
+      "prerequisite_chapters": [
+        2,
+        22,
+        23,
+        24
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "id": "ch25-s3",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Different neurological disorders affect different cells, pathways and processes; symptoms alone do not establish a diagnosis or therapy.",
+      "planned_chapter": 25,
+      "depends_on": [
+        "ch25-s2"
+      ],
+      "prerequisite_chapters": [
+        2,
+        22,
+        23,
+        24
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "id": "ch25-s4",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Astrocytic ion buffering and transmitter recycling, myelin production and microglial functions involve distinct cells and mechanisms; lysosomal degradation is not substituted for transmitter recycling.",
+      "planned_chapter": 25,
+      "depends_on": [
+        "ch25-s3"
+      ],
+      "prerequisite_chapters": [
+        2,
+        22,
+        23,
+        24
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        58
+      ]
+    },
+    {
+      "id": "ch25-s5",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Ventricular/ependymal and cerebrospinal-fluid structures are distinguished from blood\u2013brain barrier endothelium and described at the appropriate anatomical scale.",
+      "planned_chapter": 25,
+      "depends_on": [
+        "ch25-s4"
+      ],
+      "prerequisite_chapters": [
+        2,
+        22,
+        23,
+        24
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        58
+      ]
+    },
+    {
+      "id": "ch25-s6",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Retinal transduction and visual-field pathways, cochlear transduction and vestibular sensing are distinct transformations; the actual decussation geometry must be represented.",
+      "planned_chapter": 25,
+      "depends_on": [
+        "ch25-s5"
+      ],
+      "prerequisite_chapters": [
+        2,
+        22,
+        23,
+        24
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        59
+      ]
+    },
+    {
+      "id": "ch25-s7",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Taste, smell and somatic sensory modalities receive source-topic coverage with receptors, stimulus conversion and pathways; misleading exclusive tongue maps are corrected.",
+      "planned_chapter": 25,
+      "depends_on": [
+        "ch25-s6"
+      ],
+      "prerequisite_chapters": [
+        2,
+        22,
+        23,
+        24
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        59
+      ]
+    },
+    {
+      "id": "ch25-s8",
+      "kind": "empirical/model claim; classify in section evidence ledger",
+      "statement": "Each disease named in the source receives a specific cells/pathway/mechanism entry; current approved therapies are separated from genetic/cell-therapy research and dated.",
+      "planned_chapter": 25,
+      "depends_on": [
+        "ch25-s7"
+      ],
+      "prerequisite_chapters": [
+        2,
+        22,
+        23,
+        24
+      ],
+      "status": "section-specific evidence and numerical/causal checks pending",
+      "source_recordings": [
+        60
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "chapter": 1,
+  "title": "From cells to organ systems",
+  "status": "accepted",
+  "coverage_complete": true,
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch01_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One full independent scientific/editorial review plus targeted checks of subsequent changes; no repeat full review.",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "806a09adfb0088dfbae7df1403b8b2c33be6e83964c2d94905e5d8f7aea8633e",
+      "artifact_sha256": {
+        "code/ch01_cell_geometry.py": "b9bb28dfd99844ec8ed812aed3fcb482fe7fb8e1ad405d727aa7669baa37c9d9",
+        "assets/secretory-traffic-pilot.html": "09af4c08c38095398984f48b7e9682e36254701778963c31d6b9faca0d0836b7",
+        "assets/ch01-scale-hierarchy.html": "9d21762ef658e4186d6523a3fb562efb21e3f5b621488a260c18fae06654bd0b",
+        "assets/ch01-body-orientation.svg": "da4c3c42ee0a5af5fe27d4829b6ab27451f234852a8a93cff6f760d94e16ff53",
+        "assets/ch01-body-cavities.svg": "48b04a89ce07a7ecbd1b9f75e616835340edb14faa426195f9887c81542569b5",
+        "assets/ch01-body-reference.html": "9c860eafbcd779be1a142a36ff2d34d0bb36ca0905ed820d602ea76d22434666",
+        "assets/ch01-body-front.png": "4da36676426c299c2cfe3505168ff18f8b8405e40c1576a61f96946e77dda976",
+        "assets/ch01-body-side.png": "f9276dd2818fc7f49c07b488fec09cd3aa38d3da271635660dbdc20e62fa5ad8",
+        "assets/ch01-cell-panel.html": "45bcade43fee2eee79ae8a262c96a3696a43d81304b6f79fdb9dbe17a5b82861",
+        "assets/ch01-cell-schematic.svg": "75eb6aa22f6889033a80bcc538cc6933596e56dbe0890a34ab4d17642fe9336f",
+        "assets/ch01-cell-reference.jpg": "b91b04039956a7763c044386ce64d7b94b1a52cc959817877130bdec6a5696c7",
+        "assets/ch01-cell-tissue-reference.jpg": "3179080646bbeaa391234196628efddcaa0b5d9ade8fc85b55faa326aa63f85c",
+        "assets/ch01-cell-reference.json": "56d93337bf3ddc438cf8dcab593106d1ad759f71fb547b21dac8fda2f6ea159d",
+        "figures/ch01_body_orientation.py": "a10320425862e18ff030ec05a289cdcec2225a090b53388be5b4d5c658d5d87c",
+        "figures/ch01_cell_panel.py": "7978dd32d611b3d071896564314a2a0d5eebccad4ba829bfdeec56388068b09c",
+        "assets/ch01-anatomical-photo.jpg": "1b91adc388d3c8c1a5f3ae38b1742533e0642e26847e9b84793a976755d22cd2",
+        "assets/ch01-anatomical-photo.json": "aff35f5385c62f8844bfdc413747fa121d96bd17e62c754d187aa144f2bd49dd",
+        "assets/ch01-ATTRIBUTION.md": "08ec07e793c211283ec8c7d00cb3bf12a4cbccfb6de80624b344eeb41527e53a"
+      },
+      "report_path": "work/reviews/ch01-approved-a.md",
+      "report_sha256": "56a44151fba461ec2cb0fc2690933274f5b4c4cc6911ab2e7376a3208862d808",
+      "original_full_report": "work/reviews/ch01-review-a.md",
+      "targeted_report": "work/reviews/ch01-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch01_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One full independent scientific/editorial review plus targeted checks of subsequent changes; no repeat full review.",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "806a09adfb0088dfbae7df1403b8b2c33be6e83964c2d94905e5d8f7aea8633e",
+      "artifact_sha256": {
+        "code/ch01_cell_geometry.py": "b9bb28dfd99844ec8ed812aed3fcb482fe7fb8e1ad405d727aa7669baa37c9d9",
+        "assets/secretory-traffic-pilot.html": "09af4c08c38095398984f48b7e9682e36254701778963c31d6b9faca0d0836b7",
+        "assets/ch01-scale-hierarchy.html": "9d21762ef658e4186d6523a3fb562efb21e3f5b621488a260c18fae06654bd0b",
+        "assets/ch01-body-orientation.svg": "da4c3c42ee0a5af5fe27d4829b6ab27451f234852a8a93cff6f760d94e16ff53",
+        "assets/ch01-body-cavities.svg": "48b04a89ce07a7ecbd1b9f75e616835340edb14faa426195f9887c81542569b5",
+        "assets/ch01-body-reference.html": "9c860eafbcd779be1a142a36ff2d34d0bb36ca0905ed820d602ea76d22434666",
+        "assets/ch01-body-front.png": "4da36676426c299c2cfe3505168ff18f8b8405e40c1576a61f96946e77dda976",
+        "assets/ch01-body-side.png": "f9276dd2818fc7f49c07b488fec09cd3aa38d3da271635660dbdc20e62fa5ad8",
+        "assets/ch01-cell-panel.html": "45bcade43fee2eee79ae8a262c96a3696a43d81304b6f79fdb9dbe17a5b82861",
+        "assets/ch01-cell-schematic.svg": "75eb6aa22f6889033a80bcc538cc6933596e56dbe0890a34ab4d17642fe9336f",
+        "assets/ch01-cell-reference.jpg": "b91b04039956a7763c044386ce64d7b94b1a52cc959817877130bdec6a5696c7",
+        "assets/ch01-cell-tissue-reference.jpg": "3179080646bbeaa391234196628efddcaa0b5d9ade8fc85b55faa326aa63f85c",
+        "assets/ch01-cell-reference.json": "56d93337bf3ddc438cf8dcab593106d1ad759f71fb547b21dac8fda2f6ea159d",
+        "figures/ch01_body_orientation.py": "a10320425862e18ff030ec05a289cdcec2225a090b53388be5b4d5c658d5d87c",
+        "figures/ch01_cell_panel.py": "7978dd32d611b3d071896564314a2a0d5eebccad4ba829bfdeec56388068b09c",
+        "assets/ch01-anatomical-photo.jpg": "1b91adc388d3c8c1a5f3ae38b1742533e0642e26847e9b84793a976755d22cd2",
+        "assets/ch01-anatomical-photo.json": "aff35f5385c62f8844bfdc413747fa121d96bd17e62c754d187aa144f2bd49dd",
+        "assets/ch01-ATTRIBUTION.md": "08ec07e793c211283ec8c7d00cb3bf12a4cbccfb6de80624b344eeb41527e53a"
+      },
+      "report_path": "work/reviews/ch01-approved-b.md",
+      "report_sha256": "859e2a91fb35d6b6852d0567aeb6d1f13f05876089b2858f68eb1061433e0d12",
+      "original_full_report": "work/reviews/ch01-review-b.md",
+      "targeted_report": "work/reviews/ch01-targeted-b.md"
+    }
+  ],
+  "source_recordings": [
+    1,
+    2,
+    3
+  ],
+  "source_evidence": "Timestamped publisher captions and selected video contact sheets; no claim of full recording inspection.",
+  "prose_status": "Accepted manuscript after two independent full scientific/editorial reviews, targeted repairs and specified production checks.",
+  "code": [
+    "code/ch01_cell_geometry.py"
+  ],
+  "code_validation": "Program ran successfully; geometry, scaling, critical concentration, interior PDE residual and invalid-input checks passed. All printed computed numerical examples derive from this program.",
+  "figures": [
+    {
+      "id": "ch1-anim2",
+      "path": "assets/secretory-traffic-pilot.html",
+      "status": "accepted",
+      "role": "Controlled selected ER-Golgi-secretory route with textual static/print fallback; schematic phase sequence without biological timing calibration."
+    },
+    {
+      "id": "ch1-fig1",
+      "status": "accepted",
+      "role": "Exterior orientation plus original cavity topology SVGs; movable sagittal/frontal/transverse reference overlays in hierarchy explorer use dimensionless offsets, with no reconstructed internal section.",
+      "path": "assets/ch01-body-reference.html",
+      "assets": [
+        "assets/ch01-body-orientation.svg",
+        "assets/ch01-body-cavities.svg"
+      ]
+    },
+    {
+      "id": "ch1-fig2",
+      "status": "accepted",
+      "role": "Original conceptual compartment map plus actual Wellcome fibroblast confocal image and separate skin section, with attribution, specimen limitations and print fallback.",
+      "path": "assets/ch01-cell-panel.html",
+      "assets": [
+        "assets/ch01-cell-schematic.svg",
+        "assets/ch01-cell-reference.jpg",
+        "assets/ch01-cell-tissue-reference.jpg",
+        "assets/ch01-cell-reference.json"
+      ]
+    },
+    {
+      "id": "ch1-anim1",
+      "status": "accepted",
+      "role": "Deterministic controlled presentation sequence through body, organ, tissue and cell; synthetic scale windows, no continuous specimen zoom or biological time. Separate controlled movable anatomical plane overlay.",
+      "path": "assets/ch01-scale-hierarchy.html"
+    }
+  ],
+  "limitations": [
+    "The parametric MPFB exterior remains visibly rendered and is used for spatial exploration. The actual studio photograph supplies observed exterior appearance; the two are not registered and neither is a population-normal template.",
+    "The fibroblast and skin micrographs are different prepared specimens; fluorescence/stain colors are not natural tissue colors. Only the skin full-field width is calibrated by its archive.",
+    "Secretory itineraries and fusion topology are schematic with presentation time; no molecular geometry, fitted kinetics, coats, retrieval or detailed pore nucleation is modeled.",
+    "The consuming sphere and slab use synthetic values, uniform zero-order demand and maintained surface concentration; they are not clinical tissue viability models.",
+    "Free-diffusion RMS times do not describe deterministic arrival, first passage or vesicle transport.",
+    "Cooper and the original NCBI retroperitoneum pages were available at indexed-excerpt depth during authoring; Blobel–Dobberstein evidence was abstract-level, not a complete scanned-article review.",
+    "Source-frame inspection is bounded sampling, not continuous video/audio. Private browser PDF proofs include an installed extension overlay and are not clean public PDF deliverables."
+  ],
+  "additional_assets": [
+    "assets/ch01-anatomical-photo.jpg",
+    "assets/ch01-anatomical-photo.json"
+  ],
+  "coverage_basis": "Core source-topic spans and reasoned exclusions checked in the two independent full reviews; evidence is publisher captions plus bounded sampled-still audits, not continuous audio/video inspection.",
+  "body_sha256": "806a09adfb0088dfbae7df1403b8b2c33be6e83964c2d94905e5d8f7aea8633e",
+  "reviewed_artifacts": [
+    {
+      "path": "code/ch01_cell_geometry.py",
+      "sha256": "b9bb28dfd99844ec8ed812aed3fcb482fe7fb8e1ad405d727aa7669baa37c9d9"
+    },
+    {
+      "path": "assets/secretory-traffic-pilot.html",
+      "sha256": "09af4c08c38095398984f48b7e9682e36254701778963c31d6b9faca0d0836b7"
+    },
+    {
+      "path": "assets/ch01-scale-hierarchy.html",
+      "sha256": "9d21762ef658e4186d6523a3fb562efb21e3f5b621488a260c18fae06654bd0b"
+    },
+    {
+      "path": "assets/ch01-body-orientation.svg",
+      "sha256": "da4c3c42ee0a5af5fe27d4829b6ab27451f234852a8a93cff6f760d94e16ff53"
+    },
+    {
+      "path": "assets/ch01-body-cavities.svg",
+      "sha256": "48b04a89ce07a7ecbd1b9f75e616835340edb14faa426195f9887c81542569b5"
+    },
+    {
+      "path": "assets/ch01-body-reference.html",
+      "sha256": "9c860eafbcd779be1a142a36ff2d34d0bb36ca0905ed820d602ea76d22434666"
+    },
+    {
+      "path": "assets/ch01-body-front.png",
+      "sha256": "4da36676426c299c2cfe3505168ff18f8b8405e40c1576a61f96946e77dda976"
+    },
+    {
+      "path": "assets/ch01-body-side.png",
+      "sha256": "f9276dd2818fc7f49c07b488fec09cd3aa38d3da271635660dbdc20e62fa5ad8"
+    },
+    {
+      "path": "assets/ch01-cell-panel.html",
+      "sha256": "45bcade43fee2eee79ae8a262c96a3696a43d81304b6f79fdb9dbe17a5b82861"
+    },
+    {
+      "path": "assets/ch01-cell-schematic.svg",
+      "sha256": "75eb6aa22f6889033a80bcc538cc6933596e56dbe0890a34ab4d17642fe9336f"
+    },
+    {
+      "path": "assets/ch01-cell-reference.jpg",
+      "sha256": "b91b04039956a7763c044386ce64d7b94b1a52cc959817877130bdec6a5696c7"
+    },
+    {
+      "path": "assets/ch01-cell-tissue-reference.jpg",
+      "sha256": "3179080646bbeaa391234196628efddcaa0b5d9ade8fc85b55faa326aa63f85c"
+    },
+    {
+      "path": "assets/ch01-cell-reference.json",
+      "sha256": "56d93337bf3ddc438cf8dcab593106d1ad759f71fb547b21dac8fda2f6ea159d"
+    },
+    {
+      "path": "figures/ch01_body_orientation.py",
+      "sha256": "a10320425862e18ff030ec05a289cdcec2225a090b53388be5b4d5c658d5d87c"
+    },
+    {
+      "path": "figures/ch01_cell_panel.py",
+      "sha256": "7978dd32d611b3d071896564314a2a0d5eebccad4ba829bfdeec56388068b09c"
+    },
+    {
+      "path": "assets/ch01-anatomical-photo.jpg",
+      "sha256": "1b91adc388d3c8c1a5f3ae38b1742533e0642e26847e9b84793a976755d22cd2"
+    },
+    {
+      "path": "assets/ch01-anatomical-photo.json",
+      "sha256": "aff35f5385c62f8844bfdc413747fa121d96bd17e62c754d187aa144f2bd49dd"
+    },
+    {
+      "path": "assets/ch01-ATTRIBUTION.md",
+      "sha256": "08ec07e793c211283ec8c7d00cb3bf12a4cbccfb6de80624b344eeb41527e53a"
+    }
+  ],
+  "production_validation": {
+    "report_path": "work/browser/ch01-production-bridge.json",
+    "report_sha256": "957aa623ef7d01ecfc46312c6b13574b6532dd715e66777c0fac42eb2631353e",
+    "scope": "Historical actual production evidence plus current scientific-artifact identity and a separate bounded current reader reinspection."
+  },
+  "accepted_at_utc": "2026-11-04T18:53:31.212Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-01.json",
+    "sha256": "8877e97e515a1be8251dcf96a1c31ae8b10c634446828e97e6149bcf27b1ed7c"
+  }
+}

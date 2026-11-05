@@ -1,0 +1,412 @@
+{
+  "chapter": 24,
+  "title": "Membrane excitability and synaptic transmission",
+  "status": "accepted",
+  "coverage_complete": true,
+  "source_recordings": [
+    56,
+    57
+  ],
+  "source_evidence": "Full official L56–57 publisher captions through closing activities and all29 assigned topics; bounded visual audit of8 contact sheets,133 sampled stills,15 native reopens. No continuous video/audio.",
+  "source_files": [
+    {
+      "path": "sources/transcripts/56-izupF0TyBPQ.txt",
+      "sha256": "387d7ac65bfbb1138deff6c50b08c9519827a40a9cf9ebbd59f7386dd757595a"
+    },
+    {
+      "path": "sources/transcripts/57-iqPAx7M4LYM.txt",
+      "sha256": "ff336b5e72373e49540a769141881129f4577c32b21ed606f60bbf212d6e8b15"
+    }
+  ],
+  "coverage_topics": [
+    {
+      "id": "L56-T01",
+      "source_topic_anchor": "03:06",
+      "disposition": "Define membrane voltage as inside minus outside, with compartment/site and no-signaling assumption; −70 mV is an illustrative neuron, not every cell or compartment.",
+      "anchor": "ch24-s1",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L56-T02",
+      "source_topic_anchor": "04:40",
+      "disposition": "Keep pump/leak mechanisms, reject literal universal time sequence 0→−5→−90→−70 mV. The slide itself labels a starting −70 mV while captions call 0 mV hypothetical.",
+      "anchor": "ch24-s1",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L56-T03",
+      "source_topic_anchor": "05:49",
+      "disposition": "Keep ATPase stoichiometry 3 Na out/2 K in per cycle and electrogenic current; −5 mV is not a fixed voltage made by one pump cycle. Distinguish direct pump current from long-term gradient maintenance; osmotic water follows total osmolarity, not a slogan that Na alone bursts cells.",
+      "anchor": "ch24-s1",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L56-T04",
+      "source_topic_anchor": "09:22",
+      "disposition": "Keep K-selective resting conductance and outward K driving force for a specified resting state; −90 mV is an approximate K equilibrium example, not an automatic second stage. Do not call Cl universally impermeant/fixed merely because some intracellular anions are impermeant.",
+      "anchor": "ch24-s1",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L56-T05",
+      "source_topic_anchor": "10:44",
+      "disposition": "Keep Na leak inward under a typical gradient. Mixed-ion conductance and active restoration determine steady rest; channel number alone is not conductance and Na entry does not invariably contribute an exact +20 mV.",
+      "anchor": "ch24-s1",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L56-T06",
+      "source_topic_anchor": "14:27",
+      "disposition": "Keep a **single-ion** electrochemical equilibrium/reversal-potential construction; zero net flux of that permeant ion at equilibrium does not mean all ions cease moving or pumps stop at physiological rest.",
+      "anchor": "ch24-s2",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L56-T07",
+      "source_topic_anchor": "16:48",
+      "disposition": "Native slide visibly gives `E_X=(RT/zF) ln([X]out/[X]in)`; specify V_inside−V_outside, signed valence, positive activities or ideal dilute concentration approximation, absolute Kelvin T, and volts-to-mV conversion. For K, out/in<1 gives negative E_K; for Na, out/in>1 gives positive E_Na.",
+      "anchor": "ch24-s2",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L56-T08",
+      "source_topic_anchor": "18:01",
+      "disposition": "Graded response amplitude/location/time depend on stimulus and conductance; passive spread decays, unlike regenerated axonal AP. Slide-only text explicitly names local amplitude and receptor binding.",
+      "anchor": "ch24-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L56-T09",
+      "source_topic_anchor": "20:30",
+      "disposition": "Ligand-gated channels are one common postsynaptic route; mechanically gated and other graded inputs also exist. Presynaptic release precedes postsynaptic channel action; do not conflate a channel and the transmitter.",
+      "anchor": "ch24-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L56-T10",
+      "source_topic_anchor": "21:35",
+      "disposition": "Define EPSP/IPSP by effect on spike likelihood in stated state, not fixed −55/−90 mV endpoints or by transmitter name alone. Slide calls balance important.",
+      "anchor": "ch24-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L56-T11",
+      "source_topic_anchor": "22:38",
+      "disposition": "Keep a concrete excitatory ligand-gated conductance example, with receptor identity and reversal potential; Na/Ca influx depends on channel permeability and driving force, so no universal one-EPSP-to-threshold jump.",
+      "anchor": "ch24-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L56-T12",
+      "source_topic_anchor": "24:54",
+      "disposition": "GABA can activate GABA-A anion conductance or GABA-B G-protein pathways; inhibition may be hyperpolarizing or shunting, sometimes depolarizing without excitation. Do not force every inhibitory response to Cl influx, K efflux or −90 mV.",
+      "anchor": "ch24-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L56-T13",
+      "source_topic_anchor": "27:24",
+      "disposition": "Integrate excitatory and inhibitory conductances at a specified trigger region with decay and membrane state; not simple addition of universal voltage increments.",
+      "anchor": "ch24-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L56-T14",
+      "source_topic_anchor": "29:34",
+      "disposition": "Retain temporal and spatial summation with differing time constants, dendritic location and sign; native 30:30 shows repeated inputs before decay and threshold illustration. Do not claim simultaneous distinct sources must make a faster AP.",
+      "anchor": "ch24-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L56-T15",
+      "source_topic_anchor": "32:12",
+      "disposition": "Answer the pump-stop closing activity in two timescales: immediate loss of electrogenic pump current versus subsequent Na/K-gradient dissipation and voltage change under continued conductances. Neither instant −5 mV subtraction nor instant 0 mV is general. Native 32:00 plasticity slide is a qualitative aside, not a quantified practice-to-memory law.",
+      "anchor": "ch24-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L57-T01",
+      "source_topic_anchor": "01:45",
+      "disposition": "AP is a locally regenerative membrane-voltage event with threshold in specified cell/state; all-or-none amplitude is not fixed across all axons/conditions. Native 03:00 banner explicitly says slide/caption use of **IPSP for EPSP is mistaken**.",
+      "anchor": "ch24-s4",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L57-T02",
+      "source_topic_anchor": "03:39",
+      "disposition": "Fast inward Na current can drive axonal upstroke under typical gradients; −55 and +30 mV are schematic values, not exact activation/peak switches.",
+      "anchor": "ch24-s4",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L57-T03",
+      "source_topic_anchor": "04:38",
+      "disposition": "Separate voltage-gated Na activation and availability/inactivation. Do not make channels fully open only at one voltage, or treat the inactivation gate as slowly opening after activation.",
+      "anchor": "ch24-s4",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L57-T04",
+      "source_topic_anchor": "07:29",
+      "disposition": "Local axial current depolarizes adjacent membrane; a propagating front has spatially different upstroke/recovery regions. Distinguish within-membrane conduction from transfer across a chemical synapse.",
+      "anchor": "ch24-s4",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L57-T05",
+      "source_topic_anchor": "09:25",
+      "disposition": "Terminal depolarization opens voltage-gated Ca channels and Ca enters from extracellular fluid under typical conditions; caption 15:19 says Ca “comes outside,” contradicted by its own earlier influx description and native synapse slide.",
+      "anchor": "ch24-s6",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L57-T06",
+      "source_topic_anchor": "10:20",
+      "disposition": "Delayed K conductance contributes to repolarization; its kinetics overlap Na inactivation, not a switch triggered exactly at +30 mV. Native 12:00 slide itself calls K channels slower.",
+      "anchor": "ch24-s4",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L57-T07",
+      "source_topic_anchor": "11:26",
+      "disposition": "Na inactivation develops with voltage and time; K activation has its own delay. The available Na inactivation gate is already permissive at rest; subsequent recovery requires repolarization.",
+      "anchor": "ch24-s4",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L57-T08",
+      "source_topic_anchor": "16:11",
+      "disposition": "Afterhyperpolarization can occur while K conductance persists; −90 mV is not a mandatory endpoint or identical to every K reversal potential.",
+      "anchor": "ch24-s4",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L57-T09",
+      "source_topic_anchor": "17:32",
+      "disposition": "Ca entry triggers a primed fusion apparatus via Ca-sensing proteins including synaptotagmin; Ca does not simply become a physical bridge between vesicle and membrane SNAREs. Separate docking/priming, fusion pore and transmitter release.",
+      "anchor": "ch24-s6",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L57-T10",
+      "source_topic_anchor": "22:58",
+      "disposition": "Rebuild voltage-versus-time trace with explicit ms/mV axes, resting/threshold labels as illustrative, locally sequential upstroke/repolarization/afterhyperpolarization; native 23:00 curve has these labels.",
+      "anchor": "ch24-s4",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L57-T11",
+      "source_topic_anchor": "24:14",
+      "disposition": "Two-gate Na cartoon is a pedagogical channel-state idealization. Rest: activation closed/inactivation available; depolarization activates then inactivates; repolarization recovers availability. Native 26:00 annotated gate scheme and captions wrongly say inactivation opens slowly after activation.",
+      "anchor": "ch24-s4",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L57-T12",
+      "source_topic_anchor": "28:40",
+      "disposition": "Absolute refractoriness begins during the spike while enough Na channels are unavailable, not only at peak or a fixed one-third waveform. Relative refractoriness depends on partial Na recovery and persistent K conductance/state; “extra EPSP” may work, IPSP is not excitatory stimulation.",
+      "anchor": "ch24-s5",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L57-T13",
+      "source_topic_anchor": "31:04",
+      "disposition": "Native synaptic slide names vesicle synaptobrevin/v-SNARE, plasma-membrane syntaxin and SNAP-25/t-SNARE; retain locations but distinguish SNARE assembly from Ca sensing by synaptotagmin. Do not imply transmitter clearance occurs automatically at fusion.",
+      "anchor": "ch24-s6",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L57-T14",
+      "source_topic_anchor": "32:38",
+      "disposition": "Answer closing channel-perturbation activity with a specified channel, tissue/preparation and causal path. Example: blocked axonal Na channels impair AP propagation, reducing terminal depolarization/Ca entry and release; a terminal Ca-channel perturbation can impair release despite an arriving AP. Avoid drug dosing or individual prediction. Native 32:30 slide adds APs in some muscle/endocrine cells and illustrates frequency 10 versus 100 s⁻¹; these are slide-only illustrative rates, not sourced measurements or universal coding law.",
+      "anchor": "ch24-s6",
+      "coverage_status": "located in author draft; independent review pending"
+    }
+  ],
+  "body_sha256": "601137d8bddf4a40b7c0dffb39486f8bd7ea96c1f58a503910789a2d39e2b743",
+  "body_hash_definition": "Raw on-disk bytes between unique BEGIN/END CHAPTER BODY markers; no newline normalization",
+  "artifact_sha256": {
+    "assets/ch24-ap.svg": "a1e563f3f446927890e3fd918062836e8d30cef7cb63df373a526fb8666362fb",
+    "assets/ch24-context.svg": "3b65cf2d6eb7659e810b10f78c8ff25f3c6dbc6fb04a1b0d01af944318708cbc",
+    "assets/ch24-mechanisms.css": "75e67433518230502247f9a7dc7aec14e1680168defc567cc7082f2879e9d967",
+    "assets/ch24-mechanisms.html": "1d6981a5a2949518757dcc29b54ea07044be9caffc67f5aacbdb869b6cfe5dc6",
+    "assets/ch24-mechanisms.js": "af7fadaa3894a7930d631f8bec7957dd5dc53398690ed6f68841bf038c7b9c6f",
+    "assets/ch24-model.json": "9320181908b67dca8bdf408b74912a8c2eee4f156e0d510daf9c45f97ef8a83f",
+    "assets/ch24-rest.svg": "4de956f8d8edcaf3bceae37f23ea4301911c9a62d28327cfdff2981fcc94f478",
+    "assets/ch24-synapse.svg": "4809b7f0704cf6ba1a79a482f4f07e9b4369c47c1d362a377308e5ac84be4c54",
+    "code/ch24_membrane.py": "daa670169a9df4667e76fa51999d41ceae37094206ccd7c5521234c4c0e3fb95",
+    "code/ch24_visuals.py": "a9985c32d76087bfc0db8c08cbaf5f1b39289fcbab976db59f2ec4a766ff4e48"
+  },
+  "code": [
+    "code/ch24_membrane.py",
+    "code/ch24_visuals.py"
+  ],
+  "lab": {
+    "path": "code/ch24_membrane.py",
+    "status": "validated"
+  },
+  "figures": [
+    {
+      "id": "ch24-anim1",
+      "path": "chapter-24-membrane-excitability-synapses.html#ch24-anim1",
+      "embedded_panel": "assets/ch24-mechanisms.html?mode=rest",
+      "print_fallback": "assets/ch24-rest.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch24-anim2",
+      "path": "chapter-24-membrane-excitability-synapses.html#ch24-anim2",
+      "embedded_panel": "assets/ch24-mechanisms.html?mode=ap",
+      "print_fallback": "assets/ch24-ap.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch24-fig1",
+      "path": "assets/ch24-context.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch24-anim3",
+      "path": "chapter-24-membrane-excitability-synapses.html#ch24-anim3",
+      "embedded_panel": "assets/ch24-mechanisms.html?mode=synapse",
+      "print_fallback": "assets/ch24-synapse.svg",
+      "status": "accepted"
+    }
+  ],
+  "realistic_asset_gate": {
+    "status": "accepted",
+    "mode": "conceptual-quantitative",
+    "scene_family": "Membrane voltage, Hodgkin–Huxley gating/conductance and synthetic RC synapses",
+    "rationale": "The central subject is quantitative state evolution and compartment topology. Controlled saved-state animations and shared plots expose voltage/current/gating relationships; arbitrary tissue photorealism would not validate a numerical law. Anatomy/kinetic limitations are explicit.",
+    "no_anatomical_appearance_claim": true,
+    "mechanism_files": [
+      "assets/ch24-mechanisms.html",
+      "assets/ch24-mechanisms.js",
+      "assets/ch24-model.json"
+    ],
+    "report_path": "work/browser/ch24-visual-modality.json",
+    "report_sha256": "7fda57f9a815f4d6e5d669ba53591d91ddf74bfec1f90b3e7b2455a7e75a24ea"
+  },
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
+    "browser": "Actual agent CUA reader/control/motion/responsive/access checks plus independent root all-page print-contact and quantitative/topological visual assessment; exactly two original scientific reviews and bounded targets separately recorded",
+    "coverage": "Complete L56–57 captions and29topic/closing dispositions, attributed bounded source still audit; exactly two actual independent full reviews and bounded union/domain/access checks. Root original HH52 table/rates and numerical comparison scope retained; no continuous lecture viewing claim."
+  },
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "author_report": "work/ch24-author-report.md",
+  "research_ledger": "work/ch24-research-ledger.md",
+  "limitations": [
+    "Publisher captions/sampled stills are not continuous audio/video evidence.",
+    "Classic squid HH parameters at6.3 C are not human-neuron fits or spatial conduction.",
+    "Rest and RC examples are synthetic; plots are neither recordings nor clinical predictions."
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch17_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "601137d8bddf4a40b7c0dffb39486f8bd7ea96c1f58a503910789a2d39e2b743",
+      "artifact_sha256": {
+        "assets/ch24-ap.svg": "a1e563f3f446927890e3fd918062836e8d30cef7cb63df373a526fb8666362fb",
+        "assets/ch24-context.svg": "3b65cf2d6eb7659e810b10f78c8ff25f3c6dbc6fb04a1b0d01af944318708cbc",
+        "assets/ch24-mechanisms.css": "75e67433518230502247f9a7dc7aec14e1680168defc567cc7082f2879e9d967",
+        "assets/ch24-mechanisms.html": "1d6981a5a2949518757dcc29b54ea07044be9caffc67f5aacbdb869b6cfe5dc6",
+        "assets/ch24-mechanisms.js": "af7fadaa3894a7930d631f8bec7957dd5dc53398690ed6f68841bf038c7b9c6f",
+        "assets/ch24-model.json": "9320181908b67dca8bdf408b74912a8c2eee4f156e0d510daf9c45f97ef8a83f",
+        "assets/ch24-rest.svg": "4de956f8d8edcaf3bceae37f23ea4301911c9a62d28327cfdff2981fcc94f478",
+        "assets/ch24-synapse.svg": "4809b7f0704cf6ba1a79a482f4f07e9b4369c47c1d362a377308e5ac84be4c54",
+        "code/ch24_membrane.py": "daa670169a9df4667e76fa51999d41ceae37094206ccd7c5521234c4c0e3fb95",
+        "code/ch24_visuals.py": "a9985c32d76087bfc0db8c08cbaf5f1b39289fcbab976db59f2ec4a766ff4e48"
+      },
+      "report_path": "work/reviews/ch24-approved-a.md",
+      "report_sha256": "2f670acbe89ca8396e537840b4a8e6ec898ca8e2fed075f36cf1f8acbc36ea7e",
+      "original_full_report": "work/reviews/ch24-review-a.md",
+      "targeted_report": "work/reviews/ch24-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root",
+      "reviewer_model": "Codex primary; exact SDK model not exposed",
+      "reasoning_effort": "Primary orchestration setting not exposed; no inferred medium attribution",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "601137d8bddf4a40b7c0dffb39486f8bd7ea96c1f58a503910789a2d39e2b743",
+      "artifact_sha256": {
+        "assets/ch24-ap.svg": "a1e563f3f446927890e3fd918062836e8d30cef7cb63df373a526fb8666362fb",
+        "assets/ch24-context.svg": "3b65cf2d6eb7659e810b10f78c8ff25f3c6dbc6fb04a1b0d01af944318708cbc",
+        "assets/ch24-mechanisms.css": "75e67433518230502247f9a7dc7aec14e1680168defc567cc7082f2879e9d967",
+        "assets/ch24-mechanisms.html": "1d6981a5a2949518757dcc29b54ea07044be9caffc67f5aacbdb869b6cfe5dc6",
+        "assets/ch24-mechanisms.js": "af7fadaa3894a7930d631f8bec7957dd5dc53398690ed6f68841bf038c7b9c6f",
+        "assets/ch24-model.json": "9320181908b67dca8bdf408b74912a8c2eee4f156e0d510daf9c45f97ef8a83f",
+        "assets/ch24-rest.svg": "4de956f8d8edcaf3bceae37f23ea4301911c9a62d28327cfdff2981fcc94f478",
+        "assets/ch24-synapse.svg": "4809b7f0704cf6ba1a79a482f4f07e9b4369c47c1d362a377308e5ac84be4c54",
+        "code/ch24_membrane.py": "daa670169a9df4667e76fa51999d41ceae37094206ccd7c5521234c4c0e3fb95",
+        "code/ch24_visuals.py": "a9985c32d76087bfc0db8c08cbaf5f1b39289fcbab976db59f2ec4a766ff4e48"
+      },
+      "report_path": "work/reviews/ch24-approved-b.md",
+      "report_sha256": "5155fe41f6268e8cf5675e3335457f72753536030deaad83f1ac433109015262",
+      "original_full_report": "work/reviews/ch24-review-b.md",
+      "targeted_report": "work/reviews/ch24-targeted-b.md"
+    }
+  ],
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch24-ap.svg",
+      "sha256": "a1e563f3f446927890e3fd918062836e8d30cef7cb63df373a526fb8666362fb"
+    },
+    {
+      "path": "assets/ch24-context.svg",
+      "sha256": "3b65cf2d6eb7659e810b10f78c8ff25f3c6dbc6fb04a1b0d01af944318708cbc"
+    },
+    {
+      "path": "assets/ch24-mechanisms.css",
+      "sha256": "75e67433518230502247f9a7dc7aec14e1680168defc567cc7082f2879e9d967"
+    },
+    {
+      "path": "assets/ch24-mechanisms.html",
+      "sha256": "1d6981a5a2949518757dcc29b54ea07044be9caffc67f5aacbdb869b6cfe5dc6"
+    },
+    {
+      "path": "assets/ch24-mechanisms.js",
+      "sha256": "af7fadaa3894a7930d631f8bec7957dd5dc53398690ed6f68841bf038c7b9c6f"
+    },
+    {
+      "path": "assets/ch24-model.json",
+      "sha256": "9320181908b67dca8bdf408b74912a8c2eee4f156e0d510daf9c45f97ef8a83f"
+    },
+    {
+      "path": "assets/ch24-rest.svg",
+      "sha256": "4de956f8d8edcaf3bceae37f23ea4301911c9a62d28327cfdff2981fcc94f478"
+    },
+    {
+      "path": "assets/ch24-synapse.svg",
+      "sha256": "4809b7f0704cf6ba1a79a482f4f07e9b4369c47c1d362a377308e5ac84be4c54"
+    },
+    {
+      "path": "code/ch24_membrane.py",
+      "sha256": "daa670169a9df4667e76fa51999d41ceae37094206ccd7c5521234c4c0e3fb95"
+    },
+    {
+      "path": "code/ch24_visuals.py",
+      "sha256": "a9985c32d76087bfc0db8c08cbaf5f1b39289fcbab976db59f2ec4a766ff4e48"
+    }
+  ],
+  "coverage_basis": "Complete L56–57 captions and29topic/closing dispositions, attributed bounded source still audit; exactly two actual independent full reviews and bounded union/domain/access checks. Root original HH52 table/rates and numerical comparison scope retained; no continuous lecture viewing claim.",
+  "production_validation": {
+    "report_path": "work/browser/ch24-production-final.json",
+    "report_sha256": "56ec1a8c0ae33e84c2ff550a5cc39d3385ce6701ffee60a9016cb3a146c470d7",
+    "scope": "Actual agent CUA reader/control/motion/responsive/access checks plus independent root all-page print-contact and quantitative/topological visual assessment; exactly two original scientific reviews and bounded targets separately recorded"
+  },
+  "accepted_at_utc": "2026-11-05T05:29:55.569Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-24.json",
+    "sha256": "722381d2877ace230b3ec02e964b83dcb5ffddab88673797f399786aad448ea4"
+  }
+}

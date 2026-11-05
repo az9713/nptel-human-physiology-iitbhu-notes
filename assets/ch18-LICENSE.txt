@@ -1,0 +1,7 @@
+Observed image credits
+
+Rabbit testis: James Scott/Medmyco, creator-submitted Wikimedia Commons record https://commons.wikimedia.org/wiki/File:Rabbit_testis.jpg . CC0 1.0 Universal Public Domain Dedication https://creativecommons.org/publicdomain/zero/1.0/ . Native1000x1000 JPEG unchanged. Rabbit stained bright-field section; exact stain/fixation/physical scale unknown.
+
+Normal bovine sperm: Paul Sharpe, Wellcome Collection B0001743, work nmctwugq https://wellcomecollection.org/works/nmctwugq . Creative Commons Attribution4.0 International https://creativecommons.org/licenses/by/4.0/ . Native1685x1115 IIIF JPEG unchanged. Bovine mounted randomly cut TEM; physical calibration and detailed preparation unreported.
+
+Original Chapter18 SVG/JavaScript/Python are original explanatory work for these notes, not copied atlas diagrams. Artificial geometry/colors/timing do not establish appearance or mechanism evidence. See ch18-provenance.json.

@@ -1,0 +1,9 @@
+Chapter 23 observed microscopy credits
+
+All three native JPEGs are unchanged Wellcome Collection items with an explicit owning CC BY 4.0 licence: https://creativecommons.org/licenses/by/4.0/ . Cite each creator, owning record and licence when displayed.
+
+B0003729 Peripheral nerve showing Schwann cells. Prof. Peter Brophy. https://wellcomecollection.org/works/bbfdr9ye .
+B0004207 TEM - myelin sheath - detailed structure. Mike Kayser. https://wellcomecollection.org/works/nhckcg7w .
+B0010858 Myelinated nerves in a mouse brain, TEM. Mikaela Laine, University of Helsinki. https://wellcomecollection.org/works/nren3agm .
+
+Preparation, species, scale, native pixels, source bytes and limitations are in ch23-microscopy-provenance.json. Images do not establish live voltage, cargo motion, degeneration or remyelination kinetics.

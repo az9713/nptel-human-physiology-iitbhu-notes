@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1080" role="img" aria-labelledby="t d"><title id="t">Pelvic connectivity and separate-scale follicle section</title><desc id="d">Original nonmetric frontal topology. Both uterine tubes open near their ovaries into peritoneal space, not into sealed ovarian ducts. Uterus connects via cervix to vagina. Separate ovarian and antral follicle sections locate cortex, medulla, vascular theca, granulosa basement membrane, antrum, cumulus, zona and oocyte.</desc><rect width="1100" height="1080" fill="#101927"/><style>text{font:19px system-ui;fill:#edf2fb}.head{font-size:25px;font-weight:700}.small{font-size:16px}.path{fill:none;stroke:#83c8ff;stroke-width:17;stroke-linecap:round}.lead{fill:none;stroke:#b6c6db;stroke-width:2}</style>
+<text x="25" y="38" class="head">A. Frontal pelvic connectivity · unscaled, nonmetric topology</text>
+<path d="M450 150 Q370 65 230 115L175 160 M650 150Q730 65 870 115L925 160" class="path"/>
+<path d="M175 150L145 165M175 150L155 185M175 150L178 190M925 150L955 165M925 150L945 185M925 150L922 190" stroke="#83c8ff" stroke-width="5"/>
+<ellipse cx="130" cy="225" rx="58" ry="35" fill="#5d496c" stroke="#ffbf76" stroke-width="3"/><ellipse cx="970" cy="225" rx="58" ry="35" fill="#5d496c" stroke="#ffbf76" stroke-width="3"/>
+<path d="M450 140Q550 190 650 140Q665 240 585 310L585 350L515 350L515 310Q435 240 450 140Z" fill="#684358" stroke="#ffbf76" stroke-width="4"/>
+<path d="M475 160Q550 200 625 160L550 285Z" fill="#152c40" stroke="#7be4b1" stroke-width="4"/><path d="M550 285L550 365" stroke="#83c8ff" stroke-width="12"/>
+<path d="M515 350L505 440L595 440L585 350" fill="#443156" stroke="#b5a2ff" stroke-width="3"/>
+<text x="25" y="100">Ampulla: typical fertilization site</text><path d="M260 106L300 102" class="lead"/>
+<text x="25" y="300">Ovary</text><path d="M85 286L115 258" class="lead"/><text x="25" y="340">Open peritoneal interval</text><path d="M220 325L190 211" class="lead"/>
+<text x="700" y="290">Uterine cavity / endometrium</text><path d="M695 282L600 227" class="lead"/>
+<text x="700" y="330">Myometrium outside endometrium</text><path d="M695 322L605 277" class="lead"/>
+<text x="700" y="370">Cervix and cervical canal</text><path d="M695 362L575 330" class="lead"/>
+<text x="700" y="425">Vagina → external vestibule</text><path d="M695 417L593 401" class="lead"/>
+<text x="25" y="395">Fimbriae aid pickup; no sealed</text><text x="25" y="420">ovary-to-tube pipe or suction pump.</text>
+<text x="25" y="482" class="small">Tube order from ovary side: infundibulum → ampulla → isthmus → uterine part. Blood vessels omitted.</text>
+<path d="M20 510H1080" stroke="#51667c"/>
+<text x="25" y="550" class="head">B. Ovary section · separate scale</text>
+<ellipse cx="245" cy="755" rx="205" ry="150" fill="#493b56" stroke="#ffbf76" stroke-width="4"/><ellipse cx="245" cy="755" rx="105" ry="85" fill="#6a3b4e"/>
+<circle cx="120" cy="690" r="14" fill="#7be4b1"/><circle cx="180" cy="650" r="23" fill="#7be4b1"/><circle cx="345" cy="690" r="42" fill="#1d4661" stroke="#7be4b1" stroke-width="8"/>
+<text x="25" y="940">Cortex: follicles in stromal tissue</text><path d="M135 915L115 800" class="lead"/>
+<text x="25" y="980">Medulla: vessels, nerves, connective tissue</text><path d="M235 952L235 800" class="lead"/>
+<text x="25" y="1035" class="small">Follicle symbols show coexistence, not a measured distribution.</text>
+<text x="530" y="550" class="head">C. Antral follicle · another scale</text>
+<circle cx="765" cy="755" r="150" fill="#5d3d51" stroke="#ffbf76" stroke-width="18"/><circle cx="765" cy="755" r="135" fill="#27534f" stroke="#e3e9f0" stroke-width="4"/><circle cx="790" cy="745" r="94" fill="#163650"/>
+<g transform="translate(30 0)"><circle cx="680" cy="785" r="57" fill="#27534f" stroke="#7be4b1" stroke-width="8"/><circle cx="680" cy="785" r="37" fill="#54376a" stroke="#b5a2ff" stroke-width="9"/>
+<path d="M648 766L663 777M651 809L664 800M697 755L692 771" stroke="#7be4b1" stroke-width="3"/>
+</g><text x="935" y="605" class="small">Vascular theca</text><path d="M960 615L880 665" class="lead"/>
+<text x="535" y="590" class="small">Granulosa basement membrane</text><path d="M680 598L700 635" class="lead"/>
+<text x="940" y="730" class="small">Antrum</text><path d="M933 725L830 737" class="lead"/>
+<text x="930" y="800" class="small">Mural granulosa</text><path d="M925 795L890 795" class="lead"/>
+<text x="535" y="950" class="small">Oocyte → zona → corona/cumulus → antrum</text><path d="M710 925L710 825" class="lead"/>
+<text x="535" y="985" class="small">Transzonal projections arise from granulosa cells.</text>
+<text x="535" y="1020" class="small">Avascular granulosa lies inside basement membrane;</text><text x="535" y="1048" class="small">theca blood is outside. No quantitative geometry.</text></svg>

@@ -1,0 +1,7 @@
+Chapter 20 observed-image credits and reuse
+
+Human blastocyst hatching. K. Hardy. Wellcome Collection, accession B0000035. https://wellcomecollection.org/works/scfp2gf2 . CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ . Original native JPEG retained without edits.
+
+Histology of chorionic villus at term, annotated. Mikael Häggström, 2026. https://commons.wikimedia.org/wiki/File:Histology_of_chorionic_villus_at_term,_annotated.jpg . CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/ . Original native JPEG retained without edits.
+
+The first is a prepared human light micrograph, the second a human term H&E histology section. Neither establishes live timing, embryo viability, implantation mechanics, whole-blood mixing, or solute flux. See ch20-microscopy-provenance.json for native pixels and hashes.

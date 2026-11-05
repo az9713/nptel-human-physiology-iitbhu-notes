@@ -1,0 +1,26 @@
+{
+  "title": "Follicular Arrangement of the Human Thyroid Gland",
+  "creator": "Berkshire Community College Bioscience Image Library",
+  "source_url": "https://www.flickr.com/photos/146824358@N03/47435785522/",
+  "commons_url": "https://commons.wikimedia.org/wiki/File:Follicular_Arrangement_of_the_Human_Thyroid_Gland_(47435785522).jpg",
+  "source_revision_url": "https://commons.wikimedia.org/w/index.php?title=File:Follicular_Arrangement_of_the_Human_Thyroid_Gland_(47435785522).jpg&oldid=1144535274",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Follicular_Arrangement_of_the_Human_Thyroid_Gland_%2847435785522%29.jpg",
+  "license": "CC0 1.0 Universal",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "acquired_at_utc": "2026-11-04T20:45:25.836Z",
+  "local_file": "assets/ch11-thyroid-reference.jpg",
+  "width": 3264,
+  "height": 1840,
+  "bytes": 5416736,
+  "sha256": "f2d5eabd7250951683e6c6ac761d43465bfe576bb6df99a430717fe486494558",
+  "changes": "None; original file bytes preserved",
+  "identification_basis": "Owning Flickr and Commons records identify human thyroid cross section, hematoxylin-eosin stain, nominal100x.",
+  "root_observation": "Multiple round/oval luminal profiles with pale contents and dark cellular borders; fissures and optical color fringes are visible.",
+  "limits": [
+    "Donor age, disease/normal status, exact preparation and calibrated physical scale not established.",
+    "Nominal magnification is not a scale bar at arbitrary display size.",
+    "Prepared stain/optical appearance is not natural living tissue color; visible gaps or fissures do not by themselves establish pathology.",
+    "No individual C-cell identification, hormone concentration, membrane transport or secretion trajectory inferred from this photo."
+  ],
+  "acquisition_status": "Acquired and root visually inspected; Chapter11 review and production separate"
+}

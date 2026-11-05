@@ -1,0 +1,116 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 20,
+  "manuscript": "chapter-20-menstrual-cycle-pregnancy.html",
+  "body_sha256": "b88411192ec3b3b9e25b10e69cb179fc29194e47cb14f7300c9c4b4f0477ca54",
+  "artifact_sha256": {
+    "assets/ch20-chorionic-villus-term.jpg": "dd885787ec8bdfe2e57201ab269edc704acec8f0206a3fae43b1aef19903f80c",
+    "assets/ch20-clocks.svg": "ed1d29e3be61a37fe059841373caa4fdd36a507e5f984531c24dd9e62ee4bd70",
+    "assets/ch20-context.svg": "848e23afa61e31c381a41420f00ad3bbbc00b80950708d49f3cb0d19fb2e355b",
+    "assets/ch20-cycle.svg": "e4a3a3caa03548c86cc5e97768cf7643870dae492473ff767a483f73760c09eb",
+    "assets/ch20-data.json": "7d274860c6540a30d83b81064f03ac696573ff637f17f434cc5da48475c62683",
+    "assets/ch20-fertilization.svg": "a0b464f4e9dcd88118e03371afbc1e79fb361b2fb818dff767bcb2588bdd9fa9",
+    "assets/ch20-human-blastocyst.jpg": "64dce1a8ca9f82da0d1ba8092f3c60af00056ec76b3179b2b29f3af453e9f8c7",
+    "assets/ch20-labor.svg": "6889c5c8704e9e8cd5aa64d132068f87412e1c385511548e96f682459802ebe0",
+    "assets/ch20-mechanisms.css": "c6a9fe8261cc444431997b81f8ef7ded510e1286be4dbb94c1d0eba65bb4f3d7",
+    "assets/ch20-mechanisms.html": "44a53a3d5a6f10d22fbf2470ee3865fc8f91a8dd783c5db6282128d48fd7c166",
+    "assets/ch20-mechanisms.js": "4203ff83d5f975bb2f9b43b7256cede972e4bb46c7b2521c332597cee5c52672",
+    "assets/ch20-microscopy-LICENSE.txt": "0baa4648821a73c5a150453f9e31c3f218f2c17b327897a20e25350ab6524431",
+    "assets/ch20-microscopy-provenance.json": "23c35ed6657d2d3bcd9aab54514713cac9be5aba07870b797c0dd61576548651",
+    "assets/ch20-placenta.svg": "82fd8461a8991be34c0a911649a2fe61a346511b439c12678259419e9242b1fc",
+    "code/ch20_timeline.py": "5b29431259d1d3cc339cfee3325ed34a6493e2d4a3319dc4b856964fa6f3986d",
+    "code/ch20_visuals.py": "d013a7d66d3df6a861397043222802af0a2bffac3375af1f8b41a923fc01b9fa"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "All36 L46–47 topics dispositioned using full captions and attributed bounded source still audit; exactly two actual independent full reviews and targeted union repair checks.",
+  "source_recordings": [
+    46,
+    47
+  ],
+  "source_evidence": [
+    {
+      "number": 46,
+      "video_id": "L9UAdYjVX9c",
+      "url": "https://www.youtube.com/watch?v=L9UAdYjVX9c",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "3f8b7add63fc4c7437fa096e4de0bc50ddd4d0c2af5fb8ac6823d87de0e67a26",
+      "caption_cues": 173,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 59,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 59,
+        "native_still_views": 9,
+        "report_sha256": "04cd0d9f106c57279213f6ce2ca21f92ff1c017bcdc3c87614046fee55c51718"
+      },
+      "visual_review_scope": "Complete publisher captions and all36assigned topics/closingquestions; all7contact sheets129sampled stills plus29repeat native frames. Bounded source/scientific handoff, no continuousvideo/audio; source BioRender credit is not reuse permission."
+    },
+    {
+      "number": 47,
+      "video_id": "hegw88_Mc7A",
+      "url": "https://www.youtube.com/watch?v=hegw88_Mc7A",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "a389b0f796858064edb35009352f24199ce5f19f5a32707cca0535886ab36a81",
+      "caption_cues": 210,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 70,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 4,
+        "sampled_stills": 70,
+        "native_still_views": 20,
+        "report_sha256": "04cd0d9f106c57279213f6ce2ca21f92ff1c017bcdc3c87614046fee55c51718"
+      },
+      "visual_review_scope": "Complete publisher captions and all36assigned topics/closingquestions; all7contact sheets129sampled stills plus29repeat native frames. Bounded source/scientific handoff, no continuousvideo/audio; source BioRender credit is not reuse permission."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch16_author",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "2213b3ed0c506995097e6c9e08e6350bddb2338024d26652b3787233b4739569",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    },
+    {
+      "reviewer_id": "/root/ch17_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "67295c04ee9bad33f442de3c017a63d76add2d4f50ec292ab350c7471fd1d7da",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    }
+  ],
+  "production": {
+    "scope": "Actual root current reader and all18 selectable phases across4controlled modes, live placental exchange playback/Pause, settled reduced-motion pause, desktop/390px/650px and keyboard panning, 16-page browser print proof",
+    "report_sha256": "56264a4219c7062730656ef78d3e0149cd3dab5e5c454f1dbebb9b181f125761"
+  },
+  "visual_modality": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Endocrine cycle, fertilization/implantation, term placental compartments and labor sequence",
+    "rationale": "Verified human hatching blastocyst light micrograph and human term-villus H&E supply directly relevant prepared appearance. Separate source-checked topology diagrams and controlled causal sequences preserve gamete/embryo locations and separate blood compartments without inventing photographic transport or labor timing.",
+    "appearance_references": [
+      "assets/ch20-human-blastocyst.jpg",
+      "assets/ch20-chorionic-villus-term.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch20-mechanisms.html",
+      "assets/ch20-mechanisms.js"
+    ],
+    "report_sha256": "d9fb2ac5c82b23dce4630d330f2d8a6114e5def46370858f14a510dd0d360d59"
+  },
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

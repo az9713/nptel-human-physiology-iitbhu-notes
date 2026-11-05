@@ -1,0 +1,42 @@
+{
+  "title": "Alveoli. SEM",
+  "creators": [
+    "David Gregory",
+    "Debbie Marshall"
+  ],
+  "source": "Wellcome Collection",
+  "record": "https://wellcomecollection.org/works/md3e2shq",
+  "image_record": "https://wellcomecollection.org/works/md3e2shq/images?id=hh9y39pg",
+  "source_api": "https://api.wellcomecollection.org/catalogue/v2/works/md3e2shq?include=items",
+  "accession": "B0000716",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "download_url": "https://iiif.wellcomecollection.org/image/B0000716/full/1200,/0/default.jpg",
+  "file": "ch07-lung-reference.jpg",
+  "modifications": "Archive-generated reduced-resolution JPEG downloaded unchanged; no local crop, annotations or color changes",
+  "bytes": 164052,
+  "width": 1200,
+  "height": 833,
+  "sha256": "0a6f94cc98284a308661dd0a59732786860d1f471fe2d2e4dd9c4ff1a422429d",
+  "species": "not supplied",
+  "specimen_context": "Archive identifies alveoli; normal/pathological state, organ donor and sampling context not supplied",
+  "modality_preparation": "Scanning electron microscopy per archive. Fixation, dehydration, coating, fracture/section method and imaging settings not supplied.",
+  "color": "Grayscale SEM appearance; not natural tissue color. Archive does not specify color processing.",
+  "calibration": "No scale bar visible; no numerical magnification or physical field calibration supplied. Pixel dimensions do not establish tissue scale.",
+  "observed_content": "Actual JPEG inspected: textured sheet-like tissue surfaces and septal-appearing bridges around open recesses, with several small rounded or irregular openings. Morphology is consistent with the archive alveolar SEM designation; no individual cell type or capillary is identified here.",
+  "unknown": [
+    "species",
+    "normal/pathological state",
+    "donor age/sex",
+    "exact preparation",
+    "numerical magnification",
+    "physical field size",
+    "cell-type identity",
+    "capillary boundary"
+  ],
+  "purpose": "Observed alveolar tissue surface context beside original separately identified airway and alveolar-barrier teaching schematics",
+  "limits": "Does not establish the full airway tree, epithelial/endothelial layers, surfactant film, cell identities, barrier thickness, live alveolar size, gas diffusion rate or breathing mechanics. Fixed prepared SEM appearance is distinct from living geometry.",
+  "verified": "2026-11-04",
+  "source_access": "Owning work page, image-specific license page, catalogue API and IIIF metadata/download accessed. Actual downloaded JPEG visually inspected.",
+  "acquisition_status": "downloaded unchanged; actual JPEG inspected; SHA256 recorded"
+}

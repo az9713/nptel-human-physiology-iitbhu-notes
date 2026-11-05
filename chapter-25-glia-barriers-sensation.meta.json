@@ -1,0 +1,1135 @@
+{
+  "chapter": 25,
+  "title": "Glia, barriers and sensory information",
+  "status": "accepted",
+  "coverage_complete": true,
+  "source_recordings": [
+    58,
+    59,
+    60
+  ],
+  "source_evidence": "Full three captions including closing questions/sign-offs and all52assigned spans read. Intake10contact sheets/176samples/26native reopens attributed to work/visual-review-ch25.md; no author repeat-frame or continuous video/audio claim.",
+  "source_files": [
+    {
+      "path": "sources/transcripts/58-jD_4-JcWwyw.txt",
+      "sha256": "2acf5576f64da67480aefdf3eef61de6dde094d17c8ed5ea6ee99d8530e7e2c1"
+    },
+    {
+      "path": "sources/transcripts/59-bOQhpzc5k_8.txt",
+      "sha256": "7cce7f53d2ef229c5824adc4659af42fe6a89149e5a574a5ef3ff999db2f2cee"
+    },
+    {
+      "path": "sources/transcripts/60-Z1OMjMRoOys.txt",
+      "sha256": "50688394be57308753eae149859e08f688332379adeb879087a8c3dfdeb9f9a5"
+    }
+  ],
+  "coverage_topics": [
+    {
+      "id": "L58-T01",
+      "source_topic_anchor": "01:06",
+      "caption_anchors": [
+        {
+          "anchor": "01:06",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s1"
+      ],
+      "anchor": "ch25-s1",
+      "disposition": "Define neurons/glia and distinguish active supporting functions from literal glue.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L58-T02",
+      "source_topic_anchor": "03:51",
+      "caption_anchors": [
+        {
+          "anchor": "03:51",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s1"
+      ],
+      "anchor": "ch25-s1",
+      "disposition": "Develop astrocyte support without a blanket all-glia action-potential claim.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L58-T03",
+      "source_topic_anchor": "05:03",
+      "caption_anchors": [
+        {
+          "anchor": "05:03",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s1"
+      ],
+      "anchor": "ch25-s1",
+      "disposition": "Locate BBB at endothelial cells with pericyte/matrix/endfoot relationships.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L58-T04",
+      "source_topic_anchor": "06:43",
+      "caption_anchors": [
+        {
+          "anchor": "06:43",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s1"
+      ],
+      "anchor": "ch25-s1",
+      "disposition": "Correct spoken abundant-fenestration claim; distinguish passage between/through cells.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L58-T05",
+      "source_topic_anchor": "10:47",
+      "caption_anchors": [
+        {
+          "anchor": "10:47",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s1"
+      ],
+      "anchor": "ch25-s1",
+      "disposition": "Explain selective diffusion and GLUT1 transporter, not GLUT4 receptor or unrestricted drug access.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L58-T06",
+      "source_topic_anchor": "13:04",
+      "caption_anchors": [
+        {
+          "anchor": "13:04",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s1"
+      ],
+      "anchor": "ch25-s1",
+      "disposition": "Qualify astrocytic barrier maintenance; reject universal toxin→endothelial proliferation law.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L58-T07",
+      "source_topic_anchor": "16:08",
+      "caption_anchors": [
+        {
+          "anchor": "16:08",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s4"
+      ],
+      "anchor": "ch25-s4",
+      "disposition": "Explain extracellular K clearance/spatial redistribution; reject5-ion capacity and gradient-reversal fiction.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L58-T08",
+      "source_topic_anchor": "19:39",
+      "caption_anchors": [
+        {
+          "anchor": "19:39",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s4"
+      ],
+      "anchor": "ch25-recycling-model",
+      "disposition": "Develop astrocytic uptake/glutamine return and correct glutamine synthetase.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L58-T09",
+      "source_topic_anchor": "23:19",
+      "caption_anchors": [
+        {
+          "anchor": "23:19",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s4"
+      ],
+      "anchor": "ch25-recycling-model",
+      "disposition": "Separate cycle from lysosomal destruction; source molecule fractions remain hypothetical, new closed model explicitly synthetic.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L58-T10",
+      "source_topic_anchor": "25:33",
+      "caption_anchors": [
+        {
+          "anchor": "25:33",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s4"
+      ],
+      "anchor": "ch25-s4",
+      "disposition": "Explain CNS/PNS myelin and internode/cell distinctions.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L58-T11",
+      "source_topic_anchor": "26:47",
+      "caption_anchors": [
+        {
+          "anchor": "26:47",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s4"
+      ],
+      "anchor": "ch25-s4",
+      "disposition": "Explain node regeneration/current spread without literal teleporting charges.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L58-T12",
+      "source_topic_anchor": "28:04",
+      "caption_anchors": [
+        {
+          "anchor": "28:04",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s4"
+      ],
+      "anchor": "ch25-s4",
+      "disposition": "Reject fixed30–60whole axons and no-CNS-remyelination claim; qualified repair differs from axon replacement.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L58-T13",
+      "source_topic_anchor": "29:48",
+      "caption_anchors": [
+        {
+          "anchor": "29:48",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s5"
+      ],
+      "anchor": "ch25-s5",
+      "disposition": "Distinguish ordinary ependyma/cilia from specialized choroid-plexus epithelial secretion and barrier.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L58-T14",
+      "source_topic_anchor": "31:04",
+      "caption_anchors": [
+        {
+          "anchor": "31:04",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s4"
+      ],
+      "anchor": "ch25-s4",
+      "disposition": "Explain resident mouse-supported microglial lineage versus recruited monocytes.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L58-T15",
+      "source_topic_anchor": "32:14",
+      "caption_anchors": [
+        {
+          "anchor": "32:14",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s4"
+      ],
+      "anchor": "ch25-s4",
+      "disposition": "Explain phagocytosis/contextual states; reject exhaustiveM1/M2, LPS-as-cytokine and glial/T-cell antibody synthesis.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L58-T16",
+      "source_topic_anchor": "35:16",
+      "caption_anchors": [
+        {
+          "anchor": "35:16",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s4"
+      ],
+      "anchor": "ch25-s4",
+      "disposition": "Teach context-dependent plasticity/pruning and closing adult-glial division; psychiatric associations not single causes.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T01",
+      "source_topic_anchor": "01:06",
+      "caption_anchors": [
+        {
+          "anchor": "01:06",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s2"
+      ],
+      "anchor": "ch25-s2",
+      "disposition": "Define stimulus/transduction/afferent coding/integration, not five exhaustive modalities.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T02",
+      "source_topic_anchor": "03:07",
+      "caption_anchors": [
+        {
+          "anchor": "03:07",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s2"
+      ],
+      "anchor": "ch25-s2",
+      "disposition": "Distinguish receptor potential/action potential/conscious perception and early reflex circuits.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T03",
+      "source_topic_anchor": "04:26",
+      "caption_anchors": [
+        {
+          "anchor": "04:26",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s6"
+      ],
+      "anchor": "ch25-optics",
+      "disposition": "Locate eye coats, cornea/iris/pupil/lens; aperture differs from focusing.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T04",
+      "source_topic_anchor": "06:19",
+      "caption_anchors": [
+        {
+          "anchor": "06:19",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s6"
+      ],
+      "anchor": "ch25-optics",
+      "disposition": "Correct ciliary contraction→less zonular tension→rounder lens, not direct light-quantity regulation.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T05",
+      "source_topic_anchor": "07:45",
+      "caption_anchors": [
+        {
+          "anchor": "07:45",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s6"
+      ],
+      "anchor": "ch25-optics",
+      "disposition": "Explain retina/RPE/layers/fovea/rods/cones and ganglion output; correct peripheral-cones monochrome slip.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T06",
+      "source_topic_anchor": "10:22",
+      "caption_anchors": [
+        {
+          "anchor": "10:22",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s6"
+      ],
+      "anchor": "ch25-optics",
+      "disposition": "Develop light→transducin/PDE→cGMPdown→CNGclosure/hyperpolarization/reduced release; synthetic recovery model separate.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T07",
+      "source_topic_anchor": "11:49",
+      "caption_anchors": [
+        {
+          "anchor": "11:49",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s6"
+      ],
+      "anchor": "ch25-field-pathway",
+      "disposition": "Draw four explicit field/eye/retina routes and nasal-only crossing; no whole-eye swap.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T08",
+      "source_topic_anchor": "13:45",
+      "caption_anchors": [
+        {
+          "anchor": "13:45",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s6"
+      ],
+      "anchor": "ch25-auditory",
+      "disposition": "Teach outer/middle/inner ear mechanical connectivity and tympanic membrane.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T09",
+      "source_topic_anchor": "15:39",
+      "caption_anchors": [
+        {
+          "anchor": "15:39",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s6"
+      ],
+      "anchor": "ch25-auditory",
+      "disposition": "Explain cochlear hair-cell mechanotransduction and distinct endolymph/perilymph compartments.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T10",
+      "source_topic_anchor": "16:26",
+      "caption_anchors": [
+        {
+          "anchor": "16:26",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s6"
+      ],
+      "anchor": "ch25-auditory",
+      "disposition": "Distinguish semicircular angular acceleration from utricle/saccule linear acceleration/tilt.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T11",
+      "source_topic_anchor": "16:57",
+      "caption_anchors": [
+        {
+          "anchor": "16:57",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s7"
+      ],
+      "anchor": "ch25-s7",
+      "disposition": "Trace mucus/olfactory-neuron/cilia/cAMP/bulb route with mammalian scope.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T12",
+      "source_topic_anchor": "18:41",
+      "caption_anchors": [
+        {
+          "anchor": "18:41",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s7"
+      ],
+      "anchor": "ch25-s7",
+      "disposition": "Define taste cells/buds/oral sites and flavor contribution of smell.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T13",
+      "source_topic_anchor": "19:30",
+      "caption_anchors": [
+        {
+          "anchor": "19:30",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s7"
+      ],
+      "anchor": "ch25-s7",
+      "disposition": "Reject exclusive taste-zone map; distinguish5qualities with distributed cells.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T14",
+      "source_topic_anchor": "20:53",
+      "caption_anchors": [
+        {
+          "anchor": "20:53",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s7"
+      ],
+      "anchor": "ch25-s7",
+      "disposition": "TraceVII/IX/X→brainstem/thalamus/cortex; pathway not quality sectors.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T15",
+      "source_topic_anchor": "21:33",
+      "caption_anchors": [
+        {
+          "anchor": "21:33",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s7"
+      ],
+      "anchor": "ch25-s7",
+      "disposition": "Locate skin layers and Merkel/Meissner/Pacinian endings; depth and adaptation distinctions.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T16",
+      "source_topic_anchor": "22:16",
+      "caption_anchors": [
+        {
+          "anchor": "22:16",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s7"
+      ],
+      "anchor": "ch25-s7",
+      "disposition": "Distinguish nociception/perception and spinal withdrawal before conscious cortex.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T17",
+      "source_topic_anchor": "23:00",
+      "caption_anchors": [
+        {
+          "anchor": "23:00",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s7"
+      ],
+      "anchor": "ch25-s7",
+      "disposition": "Dispose precise trillions-of-odors census as unsupported extrapolation; no decorative trivia substitute.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L59-T18",
+      "source_topic_anchor": "23:13",
+      "caption_anchors": [
+        {
+          "anchor": "23:13",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s7"
+      ],
+      "anchor": "ch25-ex5",
+      "disposition": "Answer right-field closing activity using both eyes/left pathway; distinguish right-eye and motor-side claims.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T01",
+      "source_topic_anchor": "01:19",
+      "caption_anchors": [
+        {
+          "anchor": "01:19",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s3"
+      ],
+      "anchor": "ch25-s3",
+      "disposition": "Develop heterogeneous causal categories without diagnostic algorithm.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T02",
+      "source_topic_anchor": "02:28",
+      "caption_anchors": [
+        {
+          "anchor": "02:28",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s3"
+      ],
+      "anchor": "ch25-s3",
+      "disposition": "Explain symptom categories and overlap without symptom→single disease inference.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T03",
+      "source_topic_anchor": "03:41",
+      "caption_anchors": [
+        {
+          "anchor": "03:41",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s8"
+      ],
+      "anchor": "ch25-alzheimer",
+      "disposition": "Define dementia/Alzheimer disease with functional impairment and multifactorial risk.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T04",
+      "source_topic_anchor": "05:12",
+      "caption_anchors": [
+        {
+          "anchor": "05:12",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s8"
+      ],
+      "anchor": "ch25-alzheimer",
+      "disposition": "Explain APP cleavage/amyloid and tau pathology; avoid universal plaque-only causal chain.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T05",
+      "source_topic_anchor": "07:14",
+      "caption_anchors": [
+        {
+          "anchor": "07:14",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s8"
+      ],
+      "anchor": "ch25-alzheimer",
+      "disposition": "Correct no-treatment claim with selected earlyAD USanti-amyloid indications and risks; no dosing/catalogue.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T06",
+      "source_topic_anchor": "07:54",
+      "caption_anchors": [
+        {
+          "anchor": "07:54",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s8"
+      ],
+      "anchor": "ch25-vascular",
+      "disposition": "Distinguish ischemic occlusion/hemorrhage and emergency evaluation; no reperfusion prescription for hemorrhage.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T07",
+      "source_topic_anchor": "10:19",
+      "caption_anchors": [
+        {
+          "anchor": "10:19",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s8"
+      ],
+      "anchor": "ch25-vascular",
+      "disposition": "Explain migraine neurological syndrome, not only vasodilation.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T08",
+      "source_topic_anchor": "11:01",
+      "caption_anchors": [
+        {
+          "anchor": "11:01",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s8"
+      ],
+      "anchor": "ch25-vascular",
+      "disposition": "Distinguish seizure/epilepsy, variable manifestations and qualifiedILAEcriteria.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T09",
+      "source_topic_anchor": "11:46",
+      "caption_anchors": [
+        {
+          "anchor": "11:46",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s8"
+      ],
+      "anchor": "ch25-movement",
+      "disposition": "Explain dopamine-producing substantia-nigra neurons/basal-ganglia disease, not dopamine-receptor-neuron slip.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T10",
+      "source_topic_anchor": "13:30",
+      "caption_anchors": [
+        {
+          "anchor": "13:30",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s8"
+      ],
+      "anchor": "ch25-movement",
+      "disposition": "Distinguish normal presynaptic α-synuclein from aggregation; not one universal causal pathway.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T11",
+      "source_topic_anchor": "16:02",
+      "caption_anchors": [
+        {
+          "anchor": "16:02",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s8"
+      ],
+      "anchor": "ch25-movement",
+      "disposition": "ExplainTBI mechanical/secondary injury, variable severity and no universal surgery.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T12",
+      "source_topic_anchor": "16:32",
+      "caption_anchors": [
+        {
+          "anchor": "16:32",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s8"
+      ],
+      "anchor": "ch25-movement",
+      "disposition": "Explain immuneCNSmyelin/axon injury, disease-modification versus cure; B-lineage antibody correction.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T13",
+      "source_topic_anchor": "18:12",
+      "caption_anchors": [
+        {
+          "anchor": "18:12",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s8"
+      ],
+      "anchor": "ch25-als",
+      "disposition": "Explain heterogeneous motor-neuron disease/genetic/glial mechanisms, notMSsynonym.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T14",
+      "source_topic_anchor": "20:03",
+      "caption_anchors": [
+        {
+          "anchor": "20:03",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s8"
+      ],
+      "anchor": "ch25-als",
+      "disposition": "Check currentSOD1adulttofersen RNA/acceleratedbiomarker scope, noDNAediting/allALS cure; experimental examples not established therapies.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T15",
+      "source_topic_anchor": "22:09",
+      "caption_anchors": [
+        {
+          "anchor": "22:09",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s8"
+      ],
+      "anchor": "ch25-development",
+      "disposition": "ExplainHTTCAGexpansion/changedprotein and boundedMendelian segregation, no personal prediction.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T16",
+      "source_topic_anchor": "23:07",
+      "caption_anchors": [
+        {
+          "anchor": "23:07",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s8"
+      ],
+      "anchor": "ch25-development",
+      "disposition": "DistinguishCPdeveloping-brain nonprogressive initiating lesion from changing manifestations; function-focused care.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T17",
+      "source_topic_anchor": "23:40",
+      "caption_anchors": [
+        {
+          "anchor": "23:40",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s8"
+      ],
+      "anchor": "ch25-vascular",
+      "disposition": "Correctadult lifetime-stroke risk versus current prevalence; dementia is not any memory lapse.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    },
+    {
+      "id": "L60-T18",
+      "source_topic_anchor": "24:26",
+      "caption_anchors": [
+        {
+          "anchor": "24:26",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch25-s8"
+      ],
+      "anchor": "ch25-development",
+      "disposition": "Answer limited-treatment closing question with heterogeneity/delivery/late loss/circuit reconstruction/endpoints and real treatment counterexamples.",
+      "coverage_status": "located in developed draft; author evidence, not acceptance"
+    }
+  ],
+  "body_sha256": "a50a6e89374e7b794c4676ae6b29a9f84e470e3c77b1de2d7f29b58ae7d6b106",
+  "body_hash_definition": "SHA256 of raw read_bytes strictly between exact BEGIN/END CHAPTER BODY marker byte sequences; preserve leading/trailing newlines, no normalization.",
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch25-barrier.svg",
+      "sha256": "d8770c42ca150239372f1634e51c901e94bd146e3f922f452014882c3c68dd63"
+    },
+    {
+      "path": "assets/ch25-conduction.svg",
+      "sha256": "9ad88eeded290229eb981815c7f31cad7f36234c4b8c9f2a304509e2b1ed22f6"
+    },
+    {
+      "path": "assets/ch25-data.json",
+      "sha256": "fd504860332b04d97e44af7e1991a49b05a862010ad03a2b6eec776c4081538b"
+    },
+    {
+      "path": "assets/ch25-eye-ear.svg",
+      "sha256": "4bbb441f218e28045aac239b716dc45556da7eb9dc048e9a0996229a91441b67"
+    },
+    {
+      "path": "assets/ch25-field.svg",
+      "sha256": "16ffa4c6d7cad4753cc42ef8d94ba534daefcab8e1bbdbcd370efed2ed1854b0"
+    },
+    {
+      "path": "assets/ch25-mechanisms.css",
+      "sha256": "acae87efe347a503c58d4d1d4660872c647c8b998c00889e92c5437b5ba78303"
+    },
+    {
+      "path": "assets/ch25-mechanisms.html",
+      "sha256": "9c5a3604793b4dc0b6eecb132dba396b3c09bd9ed58217381845a1c483b2ff05"
+    },
+    {
+      "path": "assets/ch25-mechanisms.js",
+      "sha256": "2323b35bb0ad8d4b06933ef55d562abce0a6cd13d7d081257a13a784fc399307"
+    },
+    {
+      "path": "assets/ch25-microscopy-LICENSE.txt",
+      "sha256": "63a967baf2f39481a2a2b6695cce4fb73349844c8a266c4df2208a7c74104287"
+    },
+    {
+      "path": "assets/ch25-microscopy-provenance.json",
+      "sha256": "3d62d6ea951ee628551384160b7bf39208282da9b0ac274522b27436fa6b826c"
+    },
+    {
+      "path": "assets/ch25-mouse-retinal-astrocytes.jpg",
+      "sha256": "a849cdffcc0291f2b26a0a8ae283aefa8b2c3c7b3c37e18e8647050aaa20a67d"
+    },
+    {
+      "path": "assets/ch25-photo.svg",
+      "sha256": "3fa9066a3f221af1b7f185c3607db9d5a990104f5b764ca5e2e0958d6bb23e63"
+    },
+    {
+      "path": "assets/ch25-recycling.svg",
+      "sha256": "63cd5f1fda373eea2db5230061a4f9bb070c95718d683e87308f207f31411ef7"
+    },
+    {
+      "path": "assets/ch25-render.js",
+      "sha256": "d366b8b2440271c1c5a72cb4785717d021066eda82ee16cd3eae43bf8be3a7e4"
+    },
+    {
+      "path": "code/ch25_checks.cjs",
+      "sha256": "fac119f7432219f496179de41eb6e6a5a52236f6f3c9bb95bac0676d6c54a260"
+    },
+    {
+      "path": "code/ch25_models.py",
+      "sha256": "84da95434b4771dbafa562c76ebbbba17fac6638a75d5e18c1f19fba550db430"
+    },
+    {
+      "path": "code/ch25_visuals.cjs",
+      "sha256": "e62af01bc009a20e9bd163ffea5dec9163845eaeb942171b9b7b41490dd23bb4"
+    }
+  ],
+  "artifact_sha256": {
+    "assets/ch25-barrier.svg": "d8770c42ca150239372f1634e51c901e94bd146e3f922f452014882c3c68dd63",
+    "assets/ch25-conduction.svg": "9ad88eeded290229eb981815c7f31cad7f36234c4b8c9f2a304509e2b1ed22f6",
+    "assets/ch25-data.json": "fd504860332b04d97e44af7e1991a49b05a862010ad03a2b6eec776c4081538b",
+    "assets/ch25-eye-ear.svg": "4bbb441f218e28045aac239b716dc45556da7eb9dc048e9a0996229a91441b67",
+    "assets/ch25-field.svg": "16ffa4c6d7cad4753cc42ef8d94ba534daefcab8e1bbdbcd370efed2ed1854b0",
+    "assets/ch25-mechanisms.css": "acae87efe347a503c58d4d1d4660872c647c8b998c00889e92c5437b5ba78303",
+    "assets/ch25-mechanisms.html": "9c5a3604793b4dc0b6eecb132dba396b3c09bd9ed58217381845a1c483b2ff05",
+    "assets/ch25-mechanisms.js": "2323b35bb0ad8d4b06933ef55d562abce0a6cd13d7d081257a13a784fc399307",
+    "assets/ch25-microscopy-LICENSE.txt": "63a967baf2f39481a2a2b6695cce4fb73349844c8a266c4df2208a7c74104287",
+    "assets/ch25-microscopy-provenance.json": "3d62d6ea951ee628551384160b7bf39208282da9b0ac274522b27436fa6b826c",
+    "assets/ch25-mouse-retinal-astrocytes.jpg": "a849cdffcc0291f2b26a0a8ae283aefa8b2c3c7b3c37e18e8647050aaa20a67d",
+    "assets/ch25-photo.svg": "3fa9066a3f221af1b7f185c3607db9d5a990104f5b764ca5e2e0958d6bb23e63",
+    "assets/ch25-recycling.svg": "63cd5f1fda373eea2db5230061a4f9bb070c95718d683e87308f207f31411ef7",
+    "assets/ch25-render.js": "d366b8b2440271c1c5a72cb4785717d021066eda82ee16cd3eae43bf8be3a7e4",
+    "code/ch25_checks.cjs": "fac119f7432219f496179de41eb6e6a5a52236f6f3c9bb95bac0676d6c54a260",
+    "code/ch25_models.py": "84da95434b4771dbafa562c76ebbbba17fac6638a75d5e18c1f19fba550db430",
+    "code/ch25_visuals.cjs": "e62af01bc009a20e9bd163ffea5dec9163845eaeb942171b9b7b41490dd23bb4"
+  },
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch17_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "a50a6e89374e7b794c4676ae6b29a9f84e470e3c77b1de2d7f29b58ae7d6b106",
+      "artifact_sha256": {
+        "assets/ch25-barrier.svg": "d8770c42ca150239372f1634e51c901e94bd146e3f922f452014882c3c68dd63",
+        "assets/ch25-conduction.svg": "9ad88eeded290229eb981815c7f31cad7f36234c4b8c9f2a304509e2b1ed22f6",
+        "assets/ch25-data.json": "fd504860332b04d97e44af7e1991a49b05a862010ad03a2b6eec776c4081538b",
+        "assets/ch25-eye-ear.svg": "4bbb441f218e28045aac239b716dc45556da7eb9dc048e9a0996229a91441b67",
+        "assets/ch25-field.svg": "16ffa4c6d7cad4753cc42ef8d94ba534daefcab8e1bbdbcd370efed2ed1854b0",
+        "assets/ch25-mechanisms.css": "acae87efe347a503c58d4d1d4660872c647c8b998c00889e92c5437b5ba78303",
+        "assets/ch25-mechanisms.html": "9c5a3604793b4dc0b6eecb132dba396b3c09bd9ed58217381845a1c483b2ff05",
+        "assets/ch25-mechanisms.js": "2323b35bb0ad8d4b06933ef55d562abce0a6cd13d7d081257a13a784fc399307",
+        "assets/ch25-microscopy-LICENSE.txt": "63a967baf2f39481a2a2b6695cce4fb73349844c8a266c4df2208a7c74104287",
+        "assets/ch25-microscopy-provenance.json": "3d62d6ea951ee628551384160b7bf39208282da9b0ac274522b27436fa6b826c",
+        "assets/ch25-mouse-retinal-astrocytes.jpg": "a849cdffcc0291f2b26a0a8ae283aefa8b2c3c7b3c37e18e8647050aaa20a67d",
+        "assets/ch25-photo.svg": "3fa9066a3f221af1b7f185c3607db9d5a990104f5b764ca5e2e0958d6bb23e63",
+        "assets/ch25-recycling.svg": "63cd5f1fda373eea2db5230061a4f9bb070c95718d683e87308f207f31411ef7",
+        "assets/ch25-render.js": "d366b8b2440271c1c5a72cb4785717d021066eda82ee16cd3eae43bf8be3a7e4",
+        "code/ch25_checks.cjs": "fac119f7432219f496179de41eb6e6a5a52236f6f3c9bb95bac0676d6c54a260",
+        "code/ch25_models.py": "84da95434b4771dbafa562c76ebbbba17fac6638a75d5e18c1f19fba550db430",
+        "code/ch25_visuals.cjs": "e62af01bc009a20e9bd163ffea5dec9163845eaeb942171b9b7b41490dd23bb4"
+      },
+      "report_path": "work/reviews/ch25-approved-a.md",
+      "report_sha256": "eb005d7c050444e41b2f3cffcc88c90d73f4323135ef256881f21a3f2ee39436",
+      "original_full_report": "work/reviews/ch25-review-a.md",
+      "targeted_report": "work/reviews/ch25-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch17_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "a50a6e89374e7b794c4676ae6b29a9f84e470e3c77b1de2d7f29b58ae7d6b106",
+      "artifact_sha256": {
+        "assets/ch25-barrier.svg": "d8770c42ca150239372f1634e51c901e94bd146e3f922f452014882c3c68dd63",
+        "assets/ch25-conduction.svg": "9ad88eeded290229eb981815c7f31cad7f36234c4b8c9f2a304509e2b1ed22f6",
+        "assets/ch25-data.json": "fd504860332b04d97e44af7e1991a49b05a862010ad03a2b6eec776c4081538b",
+        "assets/ch25-eye-ear.svg": "4bbb441f218e28045aac239b716dc45556da7eb9dc048e9a0996229a91441b67",
+        "assets/ch25-field.svg": "16ffa4c6d7cad4753cc42ef8d94ba534daefcab8e1bbdbcd370efed2ed1854b0",
+        "assets/ch25-mechanisms.css": "acae87efe347a503c58d4d1d4660872c647c8b998c00889e92c5437b5ba78303",
+        "assets/ch25-mechanisms.html": "9c5a3604793b4dc0b6eecb132dba396b3c09bd9ed58217381845a1c483b2ff05",
+        "assets/ch25-mechanisms.js": "2323b35bb0ad8d4b06933ef55d562abce0a6cd13d7d081257a13a784fc399307",
+        "assets/ch25-microscopy-LICENSE.txt": "63a967baf2f39481a2a2b6695cce4fb73349844c8a266c4df2208a7c74104287",
+        "assets/ch25-microscopy-provenance.json": "3d62d6ea951ee628551384160b7bf39208282da9b0ac274522b27436fa6b826c",
+        "assets/ch25-mouse-retinal-astrocytes.jpg": "a849cdffcc0291f2b26a0a8ae283aefa8b2c3c7b3c37e18e8647050aaa20a67d",
+        "assets/ch25-photo.svg": "3fa9066a3f221af1b7f185c3607db9d5a990104f5b764ca5e2e0958d6bb23e63",
+        "assets/ch25-recycling.svg": "63cd5f1fda373eea2db5230061a4f9bb070c95718d683e87308f207f31411ef7",
+        "assets/ch25-render.js": "d366b8b2440271c1c5a72cb4785717d021066eda82ee16cd3eae43bf8be3a7e4",
+        "code/ch25_checks.cjs": "fac119f7432219f496179de41eb6e6a5a52236f6f3c9bb95bac0676d6c54a260",
+        "code/ch25_models.py": "84da95434b4771dbafa562c76ebbbba17fac6638a75d5e18c1f19fba550db430",
+        "code/ch25_visuals.cjs": "e62af01bc009a20e9bd163ffea5dec9163845eaeb942171b9b7b41490dd23bb4"
+      },
+      "report_path": "work/reviews/ch25-approved-b.md",
+      "report_sha256": "6816b37e1d8ea2aff763f612649366b4a37acf3fbe6ef38360384a0c43f4d2a9",
+      "original_full_report": "work/reviews/ch25-review-b.md",
+      "targeted_report": "work/reviews/ch25-targeted-b.md"
+    }
+  ],
+  "code": [
+    "code/ch25_models.py",
+    "code/ch25_checks.cjs",
+    "code/ch25_visuals.cjs"
+  ],
+  "code_validation": "Python 69 focused checks; ordinary 161 saved rows unchanged; eight nondefault Python/JS cases agree with relative conservation; bounded source geometry and six shared static exports pass. Source raster and isolated control checks only, no actual browser/motion/print claim.",
+  "figures": [
+    {
+      "id": "ch25-fig1",
+      "path": "assets/ch25-barrier.svg",
+      "companion_path": "assets/ch25-eye-ear.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch25-eye-context",
+      "path": "assets/ch25-eye-ear.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch25-microscopy",
+      "path": "assets/ch25-mouse-retinal-astrocytes.jpg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch25-anim1",
+      "path": "chapter-25-glia-barriers-sensation.html#ch25-anim1",
+      "embedded_panel": "assets/ch25-mechanisms.html?mode=barrier",
+      "static_path": "assets/ch25-barrier.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch25-anim2",
+      "path": "chapter-25-glia-barriers-sensation.html#ch25-anim2",
+      "embedded_panel": "assets/ch25-mechanisms.html?mode=photo",
+      "static_path": "assets/ch25-photo.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch25-anim3",
+      "path": "chapter-25-glia-barriers-sensation.html#ch25-anim3",
+      "embedded_panel": "assets/ch25-mechanisms.html?mode=conduction",
+      "static_path": "assets/ch25-conduction.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch25-anim4",
+      "path": "chapter-25-glia-barriers-sensation.html#ch25-anim4",
+      "embedded_panel": "assets/ch25-mechanisms.html?mode=recycling",
+      "static_path": "assets/ch25-recycling.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch25-anim5",
+      "path": "chapter-25-glia-barriers-sensation.html#ch25-anim5",
+      "embedded_panel": "assets/ch25-mechanisms.html?mode=field",
+      "static_path": "assets/ch25-field.svg",
+      "status": "accepted"
+    }
+  ],
+  "lab": {
+    "path": "code/ch25_models.py",
+    "data_path": "assets/ch25-data.json",
+    "validation_path": "code/ch25_checks.cjs",
+    "description": "Closed equal-rate glutamate skeleton pulse with conservation and synthetic light-pulse first-order response; inference exercises separate physiology from mechanism demonstration.",
+    "parameter_provenance": "All rates/amounts/time constants artificial; no fitted human or patient values",
+    "omitted_processes": [
+      "nitrogen/ATP and oxidative carbon balance",
+      "continued release/spatial diffusion/saturable uptake",
+      "full phototransduction nonlinearities/retinal adaptation",
+      "patient disease progression or clinical outcomes"
+    ],
+    "status": "validated"
+  },
+  "realistic_asset_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Glial interfaces, retinal networks and sensory mechanisms",
+    "rationale": "Verified prepared mouse confocal context supplies recorded glial/vessel appearance; hidden barriers and eye/ear relationships use source-checked explicitly nonmetric sections. Temporal mechanisms use controlled animations and declared artificial models.",
+    "appearance_references": [
+      "assets/ch25-mouse-retinal-astrocytes.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch25-mechanisms.html",
+      "assets/ch25-mechanisms.js"
+    ],
+    "report_path": "work/browser/ch25-visual-modality.json",
+    "report_sha256": "bf622488cbaa50ec5fc4c476f6e94f2f117d307ffdc9085989b54de6b6657add"
+  },
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
+    "browser": "Actual agent browser control/responsive/motion/access checks plus independent root source-pixel and complete print-contact assessment; two original independent scientific reviews and bounded repairs separately recorded",
+    "coverage": "All52 L58–60 topics/closings from full captions and attributed bounded10sheets176samples26native repeats; two actual independent full reviews, targeted scientific union and bounded production access repairs."
+  },
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "author_report": "work/ch25-author-report.md",
+  "research_ledger": "work/ch25-research-ledger.md",
+  "production_validation": {
+    "report_path": "work/browser/ch25-production-final.json",
+    "report_sha256": "7aee38909365652cc502322cdde089d9c8b11e4c0c0541762403fc9cda81f2d9",
+    "scope": "Actual agent browser control/responsive/motion/access checks plus independent root source-pixel and complete print-contact assessment; two original independent scientific reviews and bounded repairs separately recorded"
+  },
+  "limitations": [
+    "All clinical/regulatory source access dated2026-11-04; USproduct/indication-specific examples, no global drug catalogue or individualized diagnosis/dose/procedure.",
+    "Remyelination and molecular taste sources limited to retrieved abstracts/excerpts after full-page restrictions; bounded summaries retain this limit publicly.",
+    "Mouse microglial lineage study is not direct human embryonic fate mapping; observed retinal image is preparedmouseconfocal montage not human BBB ultrastructure or live dynamics.",
+    "161saved artificial model states;20presentation seconds at1x not physiological time. Potassium/route/conduction stages qualitative; recycling/photo numerical laws explicitly synthetic.",
+    "Source captions and bounded still handoff do not establish continuous viewing or lecture figure reuse rights; no original lecture image copied."
+  ],
+  "coverage_basis": "All52 L58–60 topics/closings from full captions and attributed bounded10sheets176samples26native repeats; two actual independent full reviews, targeted scientific union and bounded production access repairs.",
+  "accepted_at_utc": "2026-11-05T05:12:08.705Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-25.json",
+    "sha256": "7ec10448871108be5794f922668a2c57059105dbaa5d9b09642157816b2c09f6"
+  }
+}

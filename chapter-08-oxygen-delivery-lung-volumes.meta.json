@@ -1,0 +1,176 @@
+{
+  "chapter": 8,
+  "title": "Oxygen delivery, lung volumes and measurement",
+  "status": "accepted",
+  "coverage_complete": true,
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch01_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full review and targeted checks of three localized repairs",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "4b782fc0bf70d8cb740b5e954d64b09009cf45bb5a89a0b1861aa03c86c87d98",
+      "artifact_sha256": {
+        "assets/ch08-lung-volumes.html": "9b5fed57da61dde7af7fa84c135249ca3dc3b0f646071744499cb559ddc7b4cd",
+        "assets/ch08-oxygen-accounting.html": "bbbc14fd8c9b5afe621eb9e47d6c6ff606de8e3099d8da87d3b5dead00caeb58",
+        "assets/ch08-optical-comparison.html": "7d95e63f00e711d34f03eb2c6a8ccd4d975bdfcd378c59b772611c57718e24b5",
+        "assets/ch08-models.js": "f47ce20be72ee276aa61032c0b9af61c365f3ffe0b639e083db570d4c4e31b78",
+        "assets/ch08-controls.js": "10e88eef53988d0a2bf374ec55b91444a858e91775941b6806030240e00f9d97",
+        "assets/ch08-disease-pathways.svg": "484b6d6f7c2a52814ca50daa51841a75885896e408f2f724041f473921dce03e",
+        "code/ch08_oxygen_accounting.py": "7673218fdac35893a7cba2171cf749bce7a404f58ad8a057546490b3f5f65b4e"
+      },
+      "report_path": "work/reviews/ch08-approved-a.md",
+      "report_sha256": "095460a95a8a7051ffb5a9ac242d84c700a34f04266adcec71307df939e6208b",
+      "original_full_report": "work/reviews/ch08-review-a.md",
+      "targeted_report": "work/reviews/ch08-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch01_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full review and targeted checks of three localized repairs",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "4b782fc0bf70d8cb740b5e954d64b09009cf45bb5a89a0b1861aa03c86c87d98",
+      "artifact_sha256": {
+        "assets/ch08-lung-volumes.html": "9b5fed57da61dde7af7fa84c135249ca3dc3b0f646071744499cb559ddc7b4cd",
+        "assets/ch08-oxygen-accounting.html": "bbbc14fd8c9b5afe621eb9e47d6c6ff606de8e3099d8da87d3b5dead00caeb58",
+        "assets/ch08-optical-comparison.html": "7d95e63f00e711d34f03eb2c6a8ccd4d975bdfcd378c59b772611c57718e24b5",
+        "assets/ch08-models.js": "f47ce20be72ee276aa61032c0b9af61c365f3ffe0b639e083db570d4c4e31b78",
+        "assets/ch08-controls.js": "10e88eef53988d0a2bf374ec55b91444a858e91775941b6806030240e00f9d97",
+        "assets/ch08-disease-pathways.svg": "484b6d6f7c2a52814ca50daa51841a75885896e408f2f724041f473921dce03e",
+        "code/ch08_oxygen_accounting.py": "7673218fdac35893a7cba2171cf749bce7a404f58ad8a057546490b3f5f65b4e"
+      },
+      "report_path": "work/reviews/ch08-approved-b.md",
+      "report_sha256": "f421be58df683a2b22a971b058e58c567cffabb4fedf4351c8e8faf6c0f19c4a",
+      "original_full_report": "work/reviews/ch08-review-b.md",
+      "targeted_report": "work/reviews/ch08-targeted-b.md"
+    }
+  ],
+  "source_recordings": [
+    18,
+    19
+  ],
+  "source_evidence": "Complete L18–19 caption texts read; root-owned bounded audit reused (seven contact sheets,122 stills,eleven targeted frames). No continuous video/audio or author reinspection of images claimed.",
+  "prose_status": "Accepted after two actual independent full reviews, targeted repairs and separate actual browser/print validation.",
+  "code": [
+    "code/ch08_oxygen_accounting.py"
+  ],
+  "lab": {
+    "path": "code/ch08_oxygen_accounting.py",
+    "javascript": "assets/ch08-models.js",
+    "status": "validated",
+    "model": "Coherent lung partitions; oxygen amount and flow conservation; synthetic signal ratio and independent Hb occupancy accounting.",
+    "parameters": "Explicit synthetic teaching inputs; Hb capacity1.31 convention except named1.34 examples; alpha0.003/mmHg and unit-converted kPa equivalent."
+  },
+  "code_validation": {
+    "python": "144 mass-balance states plus unit equivalence/capacity/occupancy/invalid-input/zero-delivery checks passed.",
+    "parity": "Six Python–JavaScript output objects compared to1e-10;1001 lung maneuver states within RV/TLC bounds.",
+    "controls": "Three-view isolated DOM/RAF harness: paused start,next/back,advancing play,visibility pause,replay reset,seek,reduced-motion change pause passed. Not actual browser playback.",
+    "markup": "Main chapter,three standaloneHTMLfiles andSVG passed shared Page-parser unique IDs,no duplicate attributes,local resource and anchor checks. JS node --check passed. Slash-delimiter brace checks supplemented skill scripts."
+  },
+  "figures": [
+    {
+      "id": "ch8-anim1",
+      "path": "assets/ch08-lung-volumes.html",
+      "figure_number": "8.1",
+      "status": "accepted",
+      "role": "Prescribed maneuver phase,not measured time; coherent partition and capacity sums."
+    },
+    {
+      "id": "ch8-anim2",
+      "path": "assets/ch08-oxygen-accounting.html",
+      "figure_number": "8.2",
+      "status": "accepted",
+      "role": "Hb parameter sweep,not disease-time; content,delivery,consumption and return conserved."
+    },
+    {
+      "id": "ch8-anim3",
+      "path": "assets/ch08-optical-comparison.html",
+      "figure_number": "8.3",
+      "status": "accepted",
+      "role": "Synthetic pulse signals and separately controlled Hb site pool; no device or CO-specific saturation prediction."
+    },
+    {
+      "id": "ch8-fig1",
+      "path": "assets/ch08-disease-pathways.svg",
+      "figure_number": "8.4",
+      "status": "accepted",
+      "role": "Abstract airway,barrier and vascular route diagrams based on linked NHLBI descriptions; no measured anatomy or copied source figure."
+    }
+  ],
+  "body_sha256": "4b782fc0bf70d8cb740b5e954d64b09009cf45bb5a89a0b1861aa03c86c87d98",
+  "body_digest_convention": "SHA256 over raw file bytes strictly between BEGIN/END CHAPTER BODY marker bytes; no newline normalization.",
+  "artifact_sha256": {
+    "assets/ch08-lung-volumes.html": "9b5fed57da61dde7af7fa84c135249ca3dc3b0f646071744499cb559ddc7b4cd",
+    "assets/ch08-oxygen-accounting.html": "bbbc14fd8c9b5afe621eb9e47d6c6ff606de8e3099d8da87d3b5dead00caeb58",
+    "assets/ch08-optical-comparison.html": "7d95e63f00e711d34f03eb2c6a8ccd4d975bdfcd378c59b772611c57718e24b5",
+    "assets/ch08-models.js": "f47ce20be72ee276aa61032c0b9af61c365f3ffe0b639e083db570d4c4e31b78",
+    "assets/ch08-controls.js": "10e88eef53988d0a2bf374ec55b91444a858e91775941b6806030240e00f9d97",
+    "assets/ch08-disease-pathways.svg": "484b6d6f7c2a52814ca50daa51841a75885896e408f2f724041f473921dce03e",
+    "code/ch08_oxygen_accounting.py": "7673218fdac35893a7cba2171cf749bce7a404f58ad8a057546490b3f5f65b4e"
+  },
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch08-lung-volumes.html",
+      "sha256": "9b5fed57da61dde7af7fa84c135249ca3dc3b0f646071744499cb559ddc7b4cd"
+    },
+    {
+      "path": "assets/ch08-oxygen-accounting.html",
+      "sha256": "bbbc14fd8c9b5afe621eb9e47d6c6ff606de8e3099d8da87d3b5dead00caeb58"
+    },
+    {
+      "path": "assets/ch08-optical-comparison.html",
+      "sha256": "7d95e63f00e711d34f03eb2c6a8ccd4d975bdfcd378c59b772611c57718e24b5"
+    },
+    {
+      "path": "assets/ch08-models.js",
+      "sha256": "f47ce20be72ee276aa61032c0b9af61c365f3ffe0b639e083db570d4c4e31b78"
+    },
+    {
+      "path": "assets/ch08-controls.js",
+      "sha256": "10e88eef53988d0a2bf374ec55b91444a858e91775941b6806030240e00f9d97"
+    },
+    {
+      "path": "assets/ch08-disease-pathways.svg",
+      "sha256": "484b6d6f7c2a52814ca50daa51841a75885896e408f2f724041f473921dce03e"
+    },
+    {
+      "path": "code/ch08_oxygen_accounting.py",
+      "sha256": "7673218fdac35893a7cba2171cf749bce7a404f58ad8a057546490b3f5f65b4e"
+    }
+  ],
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews plus targeted current-digest approvals passed",
+    "browser": "Actual low-cost sampled controls/responsive/motion checks plus root solution/figure/pulse-motion/print completion and inspected final table proof; limits in production reports",
+    "photographic_context": "Not delivered by author; ch08-*-reference.jpg/.json reserved for later acquisition. Original diagrams supply explanatory routes,not observed tissue appearance.",
+    "coverage": "All27 L18–19 topic dispositions, late disease material and all six solutions assessed in both full reviews. Source evidence remains complete captions plus attributed bounded still audit, not continuous video/audio."
+  },
+  "limitations": [
+    "No patient fitting,clinical decision calculator,universal optical calibration or treatment prediction.",
+    "Capacity vector and control values are synthetic; ordinary spirometry does not directly measure RV/FRC/TLC.",
+    "Steady Fick balance requires representative mixed-venous return,equal blood flows and negligible storage change.",
+    "Two-wavelength signal ratio is independent of the synthetic occupancy pool; no CO-specific display is predicted.",
+    "No CO pharmacokinetics,unloading kinetics,ventilatory mechanics,shunt or tissue utilization model.",
+    "ERS/ATS accessed as substantial indexed full text; direct endpoint403. HO review read at abstract depth only.",
+    "Current FDA January2025 guidance is draft as accessed4November2026.",
+    "Historical2020 cancer numbers not used as current burden; broad therapy lists and ppm/time/treatment prescriptions excluded."
+  ],
+  "coverage_basis": "All27 L18–19 topic dispositions, late disease material and all six solutions assessed in both full reviews. Source evidence remains complete captions plus attributed bounded still audit, not continuous video/audio.",
+  "production_validation": {
+    "report_path": "work/browser/ch08-production-bridge.json",
+    "report_sha256": "63120ec72cde07dc6c48c86fce49c651051a4d1f3c3cdc04b6912ffdb4f350f9",
+    "scope": "Historical actual production evidence plus current scientific-artifact identity and a separate bounded current reader reinspection."
+  },
+  "accepted_at_utc": "2026-11-04T20:45:25.848Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-08.json",
+    "sha256": "77261f35e1863763c234656b06ffc87c301f2e0d1f47a6707d361de19e622e80"
+  }
+}

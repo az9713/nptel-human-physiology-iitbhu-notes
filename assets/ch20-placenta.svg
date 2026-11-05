@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" role="img" aria-label="Term villus: exchange across separate blood compartments">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d5e8f6"/></marker></defs>
+<rect width="1000" height="650" fill="#102032"/>
+<text x="35" y="48" fill="#f1f6fc" font-family="system-ui" font-size="28" font-weight="700">Term villus: exchange across separate blood compartments</text>
+<rect x="50" y="145" width="330" height="170" rx="12" fill="#6b3345" stroke="#a9c4d9"/>
+<text x="215.0" y="236.0" text-anchor="middle" fill="white" font-family="system-ui" font-size="21">Maternal intervillous blood</text>
+<rect x="600" y="145" width="330" height="170" rx="12" fill="#284f75" stroke="#a9c4d9"/>
+<text x="765.0" y="236.0" text-anchor="middle" fill="white" font-family="system-ui" font-size="21">Fetal capillary blood</text>
+<rect x="412" y="130" width="155" height="210" rx="12" fill="#514061" stroke="#a9c4d9"/>
+<text x="424" y="330" fill="#bdd4e5" font-family="system-ui" font-size="18">Villous barrier</text>
+<path d="M380 200 L600 200" stroke="#d5e8f6" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="490" y="190" text-anchor="middle" fill="#c8d9e6" font-family="system-ui" font-size="16">O₂, nutrients</text>
+<path d="M600 265 L380 265" stroke="#d5e8f6" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="490" y="255" text-anchor="middle" fill="#c8d9e6" font-family="system-ui" font-size="16">CO₂, wastes</text>
+<text x="58" y="408" fill="#bdd4e5" font-family="system-ui" font-size="18">Maternal red cells remain outside the villus in the illustrated section.</text>
+<text x="58" y="450" fill="#bdd4e5" font-family="system-ui" font-size="18">Fetal red cells remain inside villous capillaries.</text>
+<text x="58" y="535" fill="#bdd4e5" font-family="system-ui" font-size="18">Net solute exchange is not wholesale mixing of the two blood streams.</text>
+</svg>

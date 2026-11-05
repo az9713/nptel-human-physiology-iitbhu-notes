@@ -1,0 +1,493 @@
+{
+  "schema": "oks003-source-surface-viewer-v1",
+  "binary": "ch14-knee-viewer-meshes.bin",
+  "binary_sha256": "5771f92f33b2c18c79fce57b1bfb13e74dc90621cc3e1e1f20829d085984a32c",
+  "layout": "little endian; vertices xyz+area-weighted surface normals float32, stride24; local indices uint16; no coordinate decimation/recentering",
+  "meshes": [
+    {
+      "id": "ACL",
+      "name": "Anterior cruciate ligament",
+      "bone": false,
+      "color": "#e4bf65",
+      "vertex_offset": 0,
+      "vertex_count": 6752,
+      "index_offset": 162048,
+      "index_count": 40500,
+      "triangles": 13500,
+      "bounds_mm": [
+        [
+          -12.672943115234375,
+          -15.4697904586792,
+          -31.478681564331055
+        ],
+        [
+          1.9530233144760132,
+          10.393571853637695,
+          4.942411422729492
+        ]
+      ],
+      "native_file": "oks003/geometry/oks003_ACL_AGS_LVTIT.stl",
+      "native_sha256": "a9baece1f90e73a8fed3fb2c3cbca0fbea0ea242bdb94805d93af318a04e70e8"
+    },
+    {
+      "id": "FBB",
+      "name": "Fibula bone",
+      "bone": true,
+      "color": "#75abb8",
+      "vertex_offset": 243048,
+      "vertex_count": 3794,
+      "index_offset": 334104,
+      "index_count": 22752,
+      "triangles": 7584,
+      "bounds_mm": [
+        [
+          -49.84465026855469,
+          -27.35869598388672,
+          -89.82689666748047
+        ],
+        [
+          -26.522480010986328,
+          -2.7745542526245117,
+          -45.12655258178711
+        ]
+      ],
+      "native_file": "oks003/geometry/oks003_FBB_AGS_LVTIT.stl",
+      "native_sha256": "2243d0afe287c20cd49cfd044356c7c75b38464c598cbc4de1a6bb97e56db712"
+    },
+    {
+      "id": "FMB",
+      "name": "Femur bone",
+      "bone": true,
+      "color": "#e6dbb8",
+      "vertex_offset": 379608,
+      "vertex_count": 20171,
+      "index_offset": 863712,
+      "index_count": 121014,
+      "triangles": 40338,
+      "bounds_mm": [
+        [
+          -38.7481575012207,
+          -31.0543270111084,
+          -30.882362365722656
+        ],
+        [
+          38.54369354248047,
+          38.67793655395508,
+          90.1867904663086
+        ]
+      ],
+      "native_file": "oks003/geometry/oks003_FMB_AGS_LVTIT.stl",
+      "native_sha256": "fab64705d9e780f3fd7e0c0a1835d0f8096592f3a27d583b7566baa3b1cef122"
+    },
+    {
+      "id": "FMC",
+      "name": "Femoral cartilage",
+      "bone": false,
+      "color": "#7ebaa4",
+      "vertex_offset": 1105740,
+      "vertex_count": 20413,
+      "index_offset": 1595652,
+      "index_count": 122472,
+      "triangles": 40824,
+      "bounds_mm": [
+        [
+          -33.94571304321289,
+          -33.192718505859375,
+          -31.639591217041016
+        ],
+        [
+          28.92770767211914,
+          40.02745056152344,
+          7.800375938415527
+        ]
+      ],
+      "native_file": "oks003/geometry/oks003_FMC_AGS_03_LVTIT.stl",
+      "native_sha256": "8b8f848310eccb40da8b40ab581cd5283799bc0753635f04ffd795690961a0b5"
+    },
+    {
+      "id": "LCL",
+      "name": "Lateral collateral ligament",
+      "bone": false,
+      "color": "#b5a5d3",
+      "vertex_offset": 1840596,
+      "vertex_count": 2321,
+      "index_offset": 1896300,
+      "index_count": 13914,
+      "triangles": 4638,
+      "bounds_mm": [
+        [
+          -50.551822662353516,
+          -15.082759857177734,
+          -57.02665710449219
+        ],
+        [
+          -37.33163833618164,
+          -5.527237415313721,
+          -4.805458068847656
+        ]
+      ],
+      "native_file": "oks003/geometry/oks003_LCL_AGS_LIT.stl",
+      "native_sha256": "2d664c17fb4c0f377ef203854b0c8b24f54657107ec782ad3067508c9a43cc02"
+    },
+    {
+      "id": "MCL",
+      "name": "Medial collateral ligament",
+      "bone": false,
+      "color": "#9d8bc5",
+      "vertex_offset": 1924128,
+      "vertex_count": 9722,
+      "index_offset": 2157456,
+      "index_count": 58320,
+      "triangles": 19440,
+      "bounds_mm": [
+        [
+          21.021780014038086,
+          -15.480631828308105,
+          -58.36286163330078
+        ],
+        [
+          41.60095977783203,
+          0.9599067568778992,
+          -2.326035976409912
+        ]
+      ],
+      "native_file": "oks003/geometry/oks003_MCL_AGS_02_LVIT.stl",
+      "native_sha256": "5ba0807e7b269ee30b612e052e7a0b27c46437fea98aef0f319afbec5f6c5afc"
+    },
+    {
+      "id": "MNS-L",
+      "name": "Lateral meniscus",
+      "bone": false,
+      "color": "#c89aaf",
+      "vertex_offset": 2274096,
+      "vertex_count": 6226,
+      "index_offset": 2423520,
+      "index_count": 37344,
+      "triangles": 12448,
+      "bounds_mm": [
+        [
+          -38.470123291015625,
+          -20.679122924804688,
+          -32.282440185546875
+        ],
+        [
+          -2.6874916553497314,
+          12.942492485046387,
+          -20.498350143432617
+        ]
+      ],
+      "native_file": "oks003/geometry/oks003_MNS-L_AGS_02_LVTIT.stl",
+      "native_sha256": "5b2771eb28f28b5e614e05449e48d7209970b9f70ebee20878df3c28132638a0"
+    },
+    {
+      "id": "MNS-M",
+      "name": "Medial meniscus",
+      "bone": false,
+      "color": "#ae7899",
+      "vertex_offset": 2498208,
+      "vertex_count": 5834,
+      "index_offset": 2638224,
+      "index_count": 34992,
+      "triangles": 11664,
+      "bounds_mm": [
+        [
+          -1.802655577659607,
+          -26.039453506469727,
+          -34.481964111328125
+        ],
+        [
+          31.48378562927246,
+          15.474037170410156,
+          -25.500011444091797
+        ]
+      ],
+      "native_file": "oks003/geometry/oks003_MNS-M_AGS_02_LVTIT.stl",
+      "native_sha256": "a3be9d2fef8cde2078b19637fd5a3bdc7f9f8b3ad4de4d871b7ac8b227a4b975"
+    },
+    {
+      "id": "PCL",
+      "name": "Posterior cruciate ligament",
+      "bone": false,
+      "color": "#d7a251",
+      "vertex_offset": 2708208,
+      "vertex_count": 2351,
+      "index_offset": 2764632,
+      "index_count": 14094,
+      "triangles": 4698,
+      "bounds_mm": [
+        [
+          -4.980999946594238,
+          -23.439411163330078,
+          -36.720760345458984
+        ],
+        [
+          6.4665846824646,
+          3.6992709636688232,
+          -10.803484916687012
+        ]
+      ],
+      "native_file": "oks003/geometry/oks003_PCL_AGS_LVTIT.stl",
+      "native_sha256": "8c0c1cb4f6b3af56cc95b4d6e2faf9bca8e73b5572fb178cb6682a6c846bf4f4"
+    },
+    {
+      "id": "PTB",
+      "name": "Patella bone",
+      "bone": true,
+      "color": "#f1c493",
+      "vertex_offset": 2792820,
+      "vertex_count": 8642,
+      "index_offset": 3000228,
+      "index_count": 51840,
+      "triangles": 17280,
+      "bounds_mm": [
+        [
+          -18.342439651489258,
+          34.10493087768555,
+          -17.91095733642578
+        ],
+        [
+          25.899099349975586,
+          56.878047943115234,
+          27.03446388244629
+        ]
+      ],
+      "native_file": "oks003/geometry/oks003_PTB_AGS_LVTIT.stl",
+      "native_sha256": "3a60216d6af40c44306487763cc25176ddfe9f467497a4f64cbaa36df7e246f9"
+    },
+    {
+      "id": "PTC",
+      "name": "Patellar cartilage",
+      "bone": false,
+      "color": "#65a891",
+      "vertex_offset": 3103908,
+      "vertex_count": 10880,
+      "index_offset": 3365028,
+      "index_count": 65268,
+      "triangles": 21756,
+      "bounds_mm": [
+        [
+          -18.010677337646484,
+          31.317129135131836,
+          -7.798521041870117
+        ],
+        [
+          24.632478713989258,
+          44.851802825927734,
+          25.815324783325195
+        ]
+      ],
+      "native_file": "oks003/geometry/oks003_PTC_AGS_LVTIT.stl",
+      "native_sha256": "c3f3c0e4b05a8a9d90677e8ab82b31be3b97346172ca4dcef40dd9f1d84f737f"
+    },
+    {
+      "id": "PTL",
+      "name": "Patellar ligament",
+      "bone": false,
+      "color": "#e89e82",
+      "vertex_offset": 3495564,
+      "vertex_count": 6302,
+      "index_offset": 3646812,
+      "index_count": 37800,
+      "triangles": 12600,
+      "bounds_mm": [
+        [
+          -23.480480194091797,
+          20.77757453918457,
+          -73.79238891601562
+        ],
+        [
+          13.295919418334961,
+          55.178009033203125,
+          -6.63900899887085
+        ]
+      ],
+      "native_file": "oks003/geometry/oks003_PTL_AGS_LVTIT.stl",
+      "native_sha256": "f73fe84522611bdd3e49e1582d19f1f7c06f1a88f62b76ded0318636407830d4"
+    },
+    {
+      "id": "QAT",
+      "name": "Quadriceps tendon",
+      "bone": false,
+      "color": "#d38772",
+      "vertex_offset": 3722412,
+      "vertex_count": 6152,
+      "index_offset": 3870060,
+      "index_count": 36900,
+      "triangles": 12300,
+      "bounds_mm": [
+        [
+          -13.397819519042969,
+          33.521305084228516,
+          13.518096923828125
+        ],
+        [
+          16.47551918029785,
+          58.617000579833984,
+          90.2025146484375
+        ]
+      ],
+      "native_file": "oks003/geometry/oks003_QAT_AGS_LVTIT.stl",
+      "native_sha256": "db78c31f4616e43f8cee3ef82b0fe849206d019bd0c426dd5456bd9c5f8bba34"
+    },
+    {
+      "id": "TBB",
+      "name": "Tibia bone",
+      "bone": true,
+      "color": "#a3c8e0",
+      "vertex_offset": 3943860,
+      "vertex_count": 20900,
+      "index_offset": 4445460,
+      "index_count": 125388,
+      "triangles": 41796,
+      "bounds_mm": [
+        [
+          -41.24225997924805,
+          -28.15751838684082,
+          -89.83003997802734
+        ],
+        [
+          29.42345428466797,
+          25.864009857177734,
+          -24.470640182495117
+        ]
+      ],
+      "native_file": "oks003/geometry/oks003_TBB_AGS_LVTIT.stl",
+      "native_sha256": "90e2a2de0853637a1af8829bff924e265df2d37ecb5ee81cc9f9173020f66cca"
+    },
+    {
+      "id": "TBC-L",
+      "name": "Lateral tibial cartilage",
+      "bone": false,
+      "color": "#79aa9d",
+      "vertex_offset": 4696236,
+      "vertex_count": 12791,
+      "index_offset": 5003220,
+      "index_count": 76734,
+      "triangles": 25578,
+      "bounds_mm": [
+        [
+          -36.29191970825195,
+          -22.044675827026367,
+          -33.750144958496094
+        ],
+        [
+          -7.5553669929504395,
+          9.12546157836914,
+          -24.953527450561523
+        ]
+      ],
+      "native_file": "oks003/geometry/oks003_TBC-L_AGS_LVTTIT_02.stl",
+      "native_sha256": "298f2bf3c8225a3125ed2fee2226d837b578deb3f1385c49eaf9319ac58e864e"
+    },
+    {
+      "id": "TBC-M",
+      "name": "Medial tibial cartilage",
+      "bone": false,
+      "color": "#8fc4b0",
+      "vertex_offset": 5156688,
+      "vertex_count": 10292,
+      "index_offset": 5403696,
+      "index_count": 61740,
+      "triangles": 20580,
+      "bounds_mm": [
+        [
+          -0.15208563208580017,
+          -28.671260833740234,
+          -35.31916046142578
+        ],
+        [
+          29.95985221862793,
+          11.259228706359863,
+          -24.59468650817871
+        ]
+      ],
+      "native_file": "oks003/geometry/oks003_TBC-M_AGS_LVTIT_02.stl",
+      "native_sha256": "cb45845df56e1d0c22db6eaf780282b904fdbcb65e1e2e5fe57e0235f1800b4d"
+    }
+  ],
+  "view_bounds_mm": [
+    [
+      -54.04760003330497,
+      -116.4691630410575,
+      -89.83003997802734
+    ],
+    [
+      41.60095977783203,
+      59.84058401815132,
+      101.39213988299366
+    ]
+  ],
+  "units": "mm",
+  "axes": "Native source XYZ; anatomical direction signs unverified",
+  "registration": "CONDITIONAL: shared STL/FEBio reference registration not independently proven; Geometry_custom.feb absent",
+  "surface_policy": "All 16 source surfaces only in static reference; rigid-bone replay hides all12 soft tissues",
+  "source": {
+    "title": "Open Knee(s) oks003 selected smoothed surface geometries",
+    "creators": [
+      "Snehal Chokhandre",
+      "Ariel Schwartz",
+      "Ellen Klonowski",
+      "Benjamin Landis",
+      "Ahmet Erdemir"
+    ],
+    "source_project": "https://simtk.org/projects/openknee",
+    "dataset_doi": "https://doi.org/10.18735/b0zv-n395",
+    "primary_description": "https://doi.org/10.1007/s10439-022-03074-0",
+    "specimen": {
+      "id": "oks003",
+      "side": "left",
+      "sex": "female",
+      "age_years": 25,
+      "source": "Actual owning metadata.xml preview; original clinical/pathology status not established here."
+    },
+    "coordinate_units": "Millimetres, verified from owning article Appendix A1 Image Segmentation (printed pp3\u20134); Geometry Generation (printed p6) preserves the raw/imaging coordinate system. No anatomical axis/sign convention or experiment registration verified yet.",
+    "license_evidence": {
+      "archive_notice": "CC BY4.0 stated in actual root license.txt preview; notice transcribed in ch14-knee-LICENSE.txt",
+      "download_screen": "Cleveland Clinic2021 MIT License Agreement explicitly accepted following user action-time confirmation for16 selected geometries. Preserve both notices; do not infer that download-screen text replaces data attribution requirements."
+    },
+    "coordinate_unit_source": "https://static-content.springer.com/esm/art:10.1007%2Fs10439-022-03074-0/MediaObjects/10439_2022_3074_MOESM1_ESM.pdf"
+  },
+  "native_archive_sha256": "d994e8bfac04cdc0563bca754d4e5151cf06ec952c95f58daed307be3a81979f",
+  "native_motion_input_sha256": {
+    "audit.json": "6d014cca2cd569126ca7626fdfc27e4c9c7d6e293219ef6b438aaf21e7184055",
+    "FeBio_custom.feb": "00b6efb53ad7e7330296cbb9569d358d48ed60819e22732e6149db6fb98a158a",
+    "FeBio_custom.log": "d47631c09ce7fc93154c7d6c84caa299aab03709abe9ab7d2a41a60a1b78e426",
+    "ModelProperties.xml": "0ac446ce098b9a09505992eb4f4419c7b944cd57a4afbf6392b137f4806603c1",
+    "Patella_Translation.csv": "92014e47d9f68b19c3bb5f575b4f9fef7d94ce1c62da4bb1453d4f1443be708a",
+    "Patella_Translation.png": "07c7c4c4a7207080aebd120221a76f229e4f62832e1ba353775f7a9a5abe686b",
+    "Patellofemoral_Kinematics.csv": "d96a6c33abe628cfb0fc1287310c46edd559c1793d4e56f958bc9617a60c3704",
+    "Patellofemoral_Kinematics.png": "2db08630627fb643fa95509504de9ed6aacaa7173b4a3e85d36da3f361cbb01d",
+    "Tibia_Translation.csv": "dbfd0b09b75c700f66f3078a16f6cfd01d76974f430da555ea864f1d5dd9f703",
+    "Tibia_Translation.png": "9b04a23f340cfe3fc574ba0e4dad872baa37263d1e857cbd80f843a43233f3a2",
+    "Tibiofemoral_Kinematics.csv": "cb74b43a3d80ebf81da7a25664ea7e1aaede652ddf6bea89b6fa5f37aceb09e9",
+    "Tibiofemoral_Kinematics.png": "5b626c11d80a1e51d483cb8329abbbec5f5f6cce3f35e0f33a2043213f996219",
+    "Tibiofemoral_Kinetics.csv": "fd539b6e3b41a2a7f2bf44355644022322372f28d89a9a973a58b9f8adfa1732",
+    "Tibiofemoral_Kinetics.png": "fa5d62e5bbfc36407f3bee9d722522d94398893fe170538e62dbedf295b50eb4"
+  },
+  "decoded_pose_sha256": "0e7598d8b84f8a3913cbfa3ea6a463694e815b5af98da1676a8eb8bd86d9ce7a",
+  "decoder_sha256": "46b0197a0e551e5ba8663a940a75148f3eb3cf9bbe32da868381272e32994dec",
+  "decoder_convention_checks": {
+    "native_frames": 140,
+    "constructed_t0": true,
+    "initial_input_log_header_agree_within_mm": 0.0001,
+    "max_raw_quaternion_norm_error": 6.2789705712607e-07,
+    "max_rotation_orthogonality_error": 4.440892098500626e-16,
+    "max_rotation_determinant_error": 4.440892098500626e-16,
+    "max_pair_distance_error_mm": 4.263256414560601e-14,
+    "max_pivot_mapping_error_mm": 0.0,
+    "fixed_body_max_displacement_mm": 8.881784197001252e-16,
+    "fixed_body_max_quaternion_change": 0.0
+  },
+  "pose_source": "Native FeBio_custom.log COM/quaternion; t0 constructed from input",
+  "limits": [
+    "T0 constructed from input COM and reference identity, not logged.",
+    "JCS CSV rotations are reported quantities, not world Euler angles.",
+    "Tibia_Translation.csv is not absolute world tibia motion: native tibia is fixed.",
+    "No soft tissue deformation/contact/photorealistic appearance/experimental validation.",
+    "Geometry_custom.feb is not acquired; exact volume-mesh to smoothed-STL registration not independently established.",
+    "Exact FEBio2.9.1 source/binary not acquired; source convention checked against owning manual and v3.0 source.",
+    "No natural-color tissue material, contact/collision solution, force direction, deformation or experimental/patient validation.",
+    "Other MRI/SEM references are separate specimens, not registered to this geometry.",
+    "Surface normals are recomputed for artificial lighting; vertex coordinates and triangles unchanged."
+  ]
+}

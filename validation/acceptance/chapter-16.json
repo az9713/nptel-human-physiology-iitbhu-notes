@@ -1,0 +1,121 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 16,
+  "manuscript": "chapter-16-kidney-glomerular-filtration.html",
+  "body_sha256": "2bdd5eb9148fc43054819866fd11871b4a2093bdd16e18370c0f4d81901a2ac4",
+  "artifact_sha256": {
+    "assets/ch16-LICENSE.txt": "b4d13a1da44051f95697dfcf14e9e67f9e7edd3af02dce93d3a82baa76951e8b",
+    "assets/ch16-barrier-section.svg": "f242742cc0be290b8603a38463832e624668e2ef27093d766977d50c23f06b78",
+    "assets/ch16-checks.js": "7e635d28adc88344dcb7a8cbac9889f2951fdc1ce944863f723426a4b77a49f6",
+    "assets/ch16-context.svg": "5eddfda2477a85cdd43a64b4e32c78d0966bb96c65901560e3d0c3b110af9769",
+    "assets/ch16-controls.js": "14743956e41972f38a70f78a20fdb9622862f9ce63cf8555d94cac81c9e59368",
+    "assets/ch16-filtration.html": "32656458860c6a809b33b20dcf0fe321be690e33fc9ce5f868438c1b3ddcbcb5",
+    "assets/ch16-glomerulus-sem.jpg": "c0e94632237a66e8aadf9641741eb5fbfd20797973b0d9b4cc6fca14c6336f33",
+    "assets/ch16-mechanisms.css": "b90ccb15f73e4347adbb07030e9d010323e0d7e42679999096941cc643ad2e7a",
+    "assets/ch16-models.js": "249a755ae933e7ed049acceafa1e13ef9328f851d856cdce09ae2b33102d8b5c",
+    "assets/ch16-provenance.json": "1f4e73e35bbded947a220717e9d034febd34e2577fcd5c801ef0cf3f4baa1ed7",
+    "assets/ch16-resistance.html": "f759bd8cbb55af428a31f4f15f86b2ec04f59d3ebb1400629cc102b1eee47cce",
+    "assets/ch16-routes.html": "64b646120958e3d5863a2d59452322ba2101f46fd66618bf8e760363527f068a",
+    "code/ch16_renal_bookkeeping.py": "f575ff88998bc791c84b608ceb948792c6a212ecc31af4cafb54a285a4a71625"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "All40 L36–37 topics/full captions and closing questions assessed in two actual independent full reviews; attributed bounded source still audit remains partial visualcoverage. Union clearance/domain/anatomy repairs independently targeted by separately identified fresh checkers; actual reader production pending.",
+  "source_recordings": [
+    36,
+    37
+  ],
+  "source_evidence": [
+    {
+      "number": 36,
+      "video_id": "f4uC3V7-hnw",
+      "url": "https://www.youtube.com/watch?v=f4uC3V7-hnw",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "a88c3a9a9de8287bde477215e4a9550962a859933e0ca99d7d14f58c8e9bd1c6",
+      "caption_cues": 149,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 51,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 51,
+        "native_still_views": 4,
+        "report_sha256": "585ad36a6eb3958599dad5a4043fb7decab7ea29a8d3b72d6fb82b0f55c5c20a"
+      },
+      "visual_review_scope": "All contact sheets and named native stills inspected; complete captions and40topics mapped. Source slide-level flow/pressure/endocrine defects and third closing exercise flagged; inherited dossier attributed. No continuous audio/video or fresh external research claim."
+    },
+    {
+      "number": 37,
+      "video_id": "rFHB_acqloI",
+      "url": "https://www.youtube.com/watch?v=rFHB_acqloI",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "9669a02e30b83b9e81a4eda47141aca47739a5ccdf4cb05b1c6cf7726a544548",
+      "caption_cues": 193,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 64,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 4,
+        "sampled_stills": 64,
+        "native_still_views": 9,
+        "report_sha256": "585ad36a6eb3958599dad5a4043fb7decab7ea29a8d3b72d6fb82b0f55c5c20a"
+      },
+      "visual_review_scope": "All contact sheets and named native stills inspected; complete captions and40topics mapped. Source slide-level flow/pressure/endocrine defects and third closing exercise flagged; inherited dossier attributed. No continuous audio/video or fresh external research claim."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch16_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "417bb1be4feee530e1362a465e7f571636aa516b179f5ac32b29198a19e0df41",
+      "review_basis": "Original actual independent full review by /root/ch16_review_a plus current targeted changed-content verification by separately identified /root/ch17_review_a; aggregate approval, no additional full review",
+      "targeted_reviewer_id": "/root/ch17_review_a",
+      "targeted_reviewer_model": "gpt-6.1-sol",
+      "targeted_checker_is_separate": true,
+      "original_full_review_body_sha256": "85df7e7285d0d2309a1711490c7503e48d5df0cdc9a0cb8b037f4518c7084c53"
+    },
+    {
+      "reviewer_id": "/root/ch16_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "145ff61378f115bb24881c964d265c754d2de00adfd2d0afc24faad45bae8133",
+      "review_basis": "Original actual independent full review by /root/ch16_review_b plus current targeted changed-content verification by separately identified /root/ch17_review_b; aggregate approval, no additional full review",
+      "targeted_reviewer_id": "/root/ch17_review_b",
+      "targeted_reviewer_model": "gpt-6-sol",
+      "targeted_checker_is_separate": true,
+      "original_full_review_body_sha256": "85df7e7285d0d2309a1711490c7503e48d5df0cdc9a0cb8b037f4518c7084c53"
+    }
+  ],
+  "production": {
+    "scope": "Actual root current reader, desktop/650px/390px controls and containment, native microscope/sectional pixels, active pressure playback, reduced-motion initial state and print/PDF inspection",
+    "report_sha256": "3695f50f3473c76aa797036262ba497b6aa467610d804243913d813e69e9ed36"
+  },
+  "visual_modality": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Kidney regional organization and integrated glomerular filtration wall",
+    "rationale": "Owning-source verified nativeWellcomeSEM providespreparedglomerularsurfaceappearance. Originalsource-checkedseparatescale kidney/nephron andbarriersectionspluscontrolledroute/pressure/resistanceanimationsprovide spatial/causalexplanations. SurfaceSEM isnot registered sectionormoleculartrajectory.",
+    "appearance_references": [
+      "assets/ch16-glomerulus-sem.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch16-routes.html",
+      "assets/ch16-filtration.html",
+      "assets/ch16-resistance.html"
+    ],
+    "report_sha256": "fca2f32f0eb521ec1fa271051c016f4f4f2a1fae8ba35653597e303c3e114db7"
+  },
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

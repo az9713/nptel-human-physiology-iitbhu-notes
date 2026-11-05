@@ -1,0 +1,111 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 4,
+  "manuscript": "chapter-04-blood-groups-lymph-immunity.html",
+  "body_sha256": "e6c42d678a2dc40aa32c00d793cd27c6a2204f16b92682aef34f9c579b996d50",
+  "artifact_sha256": {
+    "assets/ch04-mechanisms.js": "0c6d66edf7a066ac8d7ea4bbabe1a91c6ce27000a5f1d946be720c821d9beb0f",
+    "code/ch04_compatibility.py": "6b834bbd2b1cd3aad533fbfee93fbe4f02e3bc8ac8f149411079cdaecf576366",
+    "assets/ch04-node-architecture-reference.jpg": "37500c19446c903677afd337c92170ebfb8cf762163861db4c1845399229d3ed",
+    "assets/ch04-node-architecture-reference.json": "621c4c745f71df0807234bde1aa7393e6834db8aadbe23210ae6f32649816153"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "All42topicspan dispositions and six solutions assessed in two independent full scientific/editorial reviews; core source coverage uses captions plus bounded sampled stills, not continuous recording review.",
+  "source_recordings": [
+    10,
+    11,
+    12
+  ],
+  "source_evidence": [
+    {
+      "number": 10,
+      "video_id": "Cjiw16R53ww",
+      "url": "https://www.youtube.com/watch?v=Cjiw16R53ww",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "3e636dc0a77ee853c869659c33b34b991a6eb5ded24b4f3c697972f2939743ed",
+      "caption_cues": 106,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 56,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 56,
+        "native_still_views": 3,
+        "report_sha256": "f3fa87e482754c9824c8b9a1b14fb569379f50b8d461e1e18aae0d5d564f59d8"
+      },
+      "visual_review_scope": "All contact sheets and specifically listed targeted frames actually viewed by chapter author; bounded still sampling, not continuous audio/video."
+    },
+    {
+      "number": 11,
+      "video_id": "56uEKm6ac24",
+      "url": "https://www.youtube.com/watch?v=56uEKm6ac24",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "7a3b379a019c8aa14764a8f5db8f21a01b59f66d08a8ff0d61eb7e9acf72e8b0",
+      "caption_cues": 169,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 58,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 58,
+        "native_still_views": 3,
+        "report_sha256": "f3fa87e482754c9824c8b9a1b14fb569379f50b8d461e1e18aae0d5d564f59d8"
+      },
+      "visual_review_scope": "All contact sheets and specifically listed targeted frames actually viewed by chapter author; bounded still sampling, not continuous audio/video."
+    },
+    {
+      "number": 12,
+      "video_id": "n9h5R2ZmKMA",
+      "url": "https://www.youtube.com/watch?v=n9h5R2ZmKMA",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "c3784e81474bf95738156c4c165d8949fb4c365e897d7b4489e5207fde207dc2",
+      "caption_cues": 236,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 67,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 4,
+        "sampled_stills": 67,
+        "native_still_views": 3,
+        "report_sha256": "f3fa87e482754c9824c8b9a1b14fb569379f50b8d461e1e18aae0d5d564f59d8"
+      },
+      "visual_review_scope": "All contact sheets and specifically listed targeted frames actually viewed by chapter author; bounded still sampling, not continuous audio/video."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch01_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "8d67a59192f684f22b7a81f63df5ea4f0131b9f08d48ca7f4ecf6d31b14f984f",
+      "review_basis": "One full independent scientific/editorial review plus targeted repairs and photograph integration check; no repeated full review."
+    },
+    {
+      "reviewer_id": "/root/ch01_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "0f930d94beb8177bebc1d58f8005ea4737b80beb41fae9cc6bad075fb91d4d96",
+      "review_basis": "One full independent scientific/editorial review plus targeted repairs and photograph integration check; no repeated full review."
+    }
+  ],
+  "production": {
+    "scope": "Actual responsive reader, specified controls/phase and motion-preference change, keyboard pan, repaired topology and print-proof checks; exact limits retained.",
+    "report_sha256": "353f4cac351f01086ca9da8527dd3469e63cf50c72dbd34c6b1e4674c38894f6"
+  },
+  "visual_modality": {},
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

@@ -1,0 +1,638 @@
+{
+  "chapter": 20,
+  "title": "Menstrual regulation, fertilization and pregnancy",
+  "status": "accepted",
+  "coverage_complete": true,
+  "source_recordings": [
+    46,
+    47
+  ],
+  "source_evidence": "Complete L46–47 publisher captions and all 36 assigned topics, including late exercises, read. Prior bounded source intake: seven contact sheets, 129 sampled stills and 29 native reopens; no continuous audio/video or claim of a new author frame audit.",
+  "source_files": [
+    {
+      "path": "sources/transcripts/46-L9UAdYjVX9c.txt",
+      "sha256": "53858a60ae5aef44c65bdcdefd015cce9e1c556815a6a6a822d9532e33b9967d"
+    },
+    {
+      "path": "sources/transcripts/47-hegw88_Mc7A.txt",
+      "sha256": "cd8dc0aebeab3fa1ca5195061fcb41d65a8590c56816f937a2403dc35a8f2fdb"
+    }
+  ],
+  "coverage_topics": [
+    {
+      "id": "L46-T01",
+      "source_topic_anchor": "01:17",
+      "disposition": "Retain ovarian versus uterine events with two synchronized tracks. Caption says a 21-day total at 01:33 and “day 18 or day 14” at 02:11, while later slides use a model 28-day cycle. Correct the inconsistency; day 1 is first menstrual bleeding.",
+      "anchor": "ch20-s1",
+      "section_assignments": [
+        "ch20-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L46-T02",
+      "source_topic_anchor": "03:37",
+      "disposition": "Retain follicular/ovulatory/luteal partition. Native `f0009` visibly writes “luteal phase always 14 days”; treat ~14 days as an approximation, not an invariant or exact day-7/14/21 predictor.",
+      "anchor": "ch20-s1",
+      "section_assignments": [
+        "ch20-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L46-T03",
+      "source_topic_anchor": "05:39",
+      "disposition": "Retain GnRH, FSH, LH, estradiol, progesterone and inhibin as distinct signals. The slide calls five “main” hormones before adding inhibin. GnRH is a releasing signal, not a molecular precursor of FSH/LH.",
+      "anchor": "ch20-s1",
+      "section_assignments": [
+        "ch20-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L46-T04",
+      "source_topic_anchor": "09:10",
+      "disposition": "Retain pulsatile hypothalamic GnRH through portal circulation to **anterior-pituitary gonadotropes**. Native `f0020` labels the route correctly; caption at 09:39 says GnRH is produced in anterior pituitary, a spoken contradiction.",
+      "anchor": "ch20-s1",
+      "section_assignments": [
+        "ch20-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L46-T05",
+      "source_topic_anchor": "10:51",
+      "disposition": "Retain FSH support of **already growing** follicles/granulosa; do not let one 28-day panel imply FSH initiates each primordial follicle's months-long development.",
+      "anchor": "ch20-s1",
+      "section_assignments": [
+        "ch20-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L46-T06",
+      "source_topic_anchor": "11:29",
+      "disposition": "Retain LH stimulation of theca interna androgen production; native `f0024` labels theca interna and androstenedione. Source arrows are schematic, not concentrations or flux measurements.",
+      "anchor": "ch20-s1",
+      "section_assignments": [
+        "ch20-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L46-T07",
+      "source_topic_anchor": "12:15",
+      "disposition": "Retain two-cell/two-gonadotropin mechanism: theca androgen diffuses to granulosa, FSH-supported aromatase produces estradiol. Native `f0026` has this compartment layout; differentiate ovarian follicle from uterus.",
+      "anchor": "ch20-s1",
+      "section_assignments": [
+        "ch20-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L46-T08",
+      "source_topic_anchor": "15:11",
+      "disposition": "Retain estradiol negative feedback and inhibin contribution; source's low LH/FSH chart has no units or patient dataset. Do not claim absolute shutdown of secretion.",
+      "anchor": "ch20-s1",
+      "section_assignments": [
+        "ch20-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L46-T09",
+      "source_topic_anchor": "16:23",
+      "disposition": "Retain sustained high estradiol-dependent positive feedback with pituitary/hypothalamic context, not a universal instantaneous scalar “threshold.” Native `f0038` illustrates a stylized switch; do not copy its curve as quantitative.",
+      "anchor": "ch20-s1",
+      "section_assignments": [
+        "ch20-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L46-T10",
+      "source_topic_anchor": "18:34",
+      "disposition": "Retain LH surge → meiotic resumption, ovulation and luteinization. “36 h before” is approximate and depends on surge-onset/peak versus ovulation definition; day 14 is an example.",
+      "anchor": "ch20-s1",
+      "section_assignments": [
+        "ch20-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L46-T11",
+      "source_topic_anchor": "19:49",
+      "disposition": "Retain granulosa inhibin suppression of FSH, but do not make it the sole cause of every FSH/LH amplitude difference. Caption “inevin” means inhibin.",
+      "anchor": "ch20-s1",
+      "section_assignments": [
+        "ch20-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L46-T12",
+      "source_topic_anchor": "20:52",
+      "disposition": "Retain corpus luteum as luteinized granulosa **and theca** cells. Caption at 21:19 “no more granulosa cells” is biologically misleading; native `f0043` actually says granulosa become lutein cells. Luteal estradiol need not vanish.",
+      "anchor": "ch20-s1",
+      "section_assignments": [
+        "ch20-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L46-T13",
+      "source_topic_anchor": "21:38",
+      "disposition": "Retain progesterone-rich luteal secretory endometrium; distinguish estradiol proliferation from progesterone differentiation, spiral-artery remodeling, and later placentation. “Endoneurium” at 22:41 is a caption error.",
+      "anchor": "ch20-s1",
+      "section_assignments": [
+        "ch20-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L46-T14",
+      "source_topic_anchor": "25:02",
+      "disposition": "Retain implantation/placental trophoblast hCG rescue of corpus luteum. Native `f0051` and captions say “if fertilization occurs, embryo secretes hCG”; fertilization alone does not instantly produce a detectable urine hCG signal or guarantee rescue.",
+      "anchor": "ch20-s3",
+      "section_assignments": [
+        "ch20-s3"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L46-T15",
+      "source_topic_anchor": "26:15",
+      "disposition": "Retain secondary luteal estradiol rise; corpus luteum secretes both progesterone and estrogen. Source graph lacks axes/units, so teach direction and compartment, not measured amplitude.",
+      "anchor": "ch20-s1",
+      "section_assignments": [
+        "ch20-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L46-T16",
+      "source_topic_anchor": "27:27",
+      "disposition": "Retain steroid withdrawal and shedding of endometrial functionalis. Avoid “no progesterone or estrogen” and universal heavy bleeding. **Retain late L46 exercise** at 28:50/native `f0059`: typical cycle duration, corpus-luteum role, and why the cycle matters.",
+      "anchor": "ch20-s1",
+      "section_assignments": [
+        "ch20-s1"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T01",
+      "source_topic_anchor": "01:26",
+      "disposition": "Retain fertilization as gamete interaction and zygote formation; source's “mononucleated immediately” skips oocyte activation, meiosis-II completion and pronuclei. Native `f0007` shows a simplified gamete→zygote→fetus sequence, not the nuclear kinetics.",
+      "anchor": "ch20-s2",
+      "section_assignments": [
+        "ch20-s2"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T02",
+      "source_topic_anchor": "02:43",
+      "disposition": "Retain ampulla as the **usual** human fertilization site; caption “always/every time” and direct ovary–tube uptake are overabsolute. Tubal ectopic location and assisted reproduction make “always” false.",
+      "anchor": "ch20-s2",
+      "section_assignments": [
+        "ch20-s2"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T03",
+      "source_topic_anchor": "03:43",
+      "disposition": "Retain short oocyte fertilizable lifespan (roughly 12–24 h) and multi-day sperm survival with conditions; it contradicts L44's 14-day waiting claim (SCI-017). Native `f0011` says 48–72 h sperm, not a universal ceiling.",
+      "anchor": "ch20-s2",
+      "section_assignments": [
+        "ch20-s2"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T04",
+      "source_topic_anchor": "04:11",
+      "disposition": "Retain severe sperm attrition as qualitative. Source switches “uterine cavity” and “uterine tube” and alleges the **uterine cavity** is highly acidic at 05:30; do not use that explanation or fixed 300–500 count. Vaginal acidity and cervical/tubal selection are different compartments.",
+      "anchor": "ch20-s2",
+      "section_assignments": [
+        "ch20-s2"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T05",
+      "source_topic_anchor": "06:07",
+      "disposition": "Retain capacitation, cumulus/zona interaction and acrosome reaction in coherent order; source's egg-wide “chemoattraction,” hyaluronidase-only dissolution and enzymatic destruction of egg membranes are oversimplified. Native `f0014` confirms slide wording; species and in-vitro evidence should be labelled.",
+      "anchor": "ch20-s2",
+      "section_assignments": [
+        "ch20-s2"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T06",
+      "source_topic_anchor": "08:04",
+      "disposition": "Retain sperm–oolemma fusion, Ca²⁺-linked activation, completion of oocyte meiosis II, pronuclear stages and diploid embryo; “sperm carries one egg” is a caption error. Do not draw membranes or nuclei as instantly fused without intermediate states.",
+      "anchor": "ch20-s2",
+      "section_assignments": [
+        "ch20-s2"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T07",
+      "source_topic_anchor": "08:31",
+      "disposition": "Retain mammalian polyspermy barriers including cortical granule/zona modification and membrane-level change; the slide's “zona simply gets thicker and harder” is incomplete. Native `f0018` shows the drawn envelopes; it is not microscopy.",
+      "anchor": "ch20-s2",
+      "section_assignments": [
+        "ch20-s2"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T08",
+      "source_topic_anchor": "09:35",
+      "disposition": "Retain cleavage → morula → blastocyst (trophoblast, inner cell mass, blastocoel) → hatching and endometrial apposition/adhesion/invasion. Native `f0025` and `f0028` show 8-cell versus 16–32-cell morula and days-after-fertilization labels. Caption “blastocyst diffuses into endometrium” at 13:23 is wrong mechanism. Cycle day ~14 and embryo age day 0 must be separate axes.",
+      "anchor": "ch20-s2",
+      "section_assignments": [
+        "ch20-s2"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T09",
+      "source_topic_anchor": "15:02",
+      "disposition": "Retain usual 23+23 chromosomes, fertilization-related meiosis-II completion, and typical XX/XY chromosomal pattern, with exceptions to chromosomal development/phenotype. Do not call sex chromosomes a deterministic account of all sex development. Native `f0031` is black.",
+      "anchor": "ch20-s2",
+      "section_assignments": [
+        "ch20-s2"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T10",
+      "source_topic_anchor": "17:26",
+      "disposition": "Retain amenorrhea, nausea, breast symptoms etc as **presumptive**, not diagnostic signs. Source's “pregnancy is 9 months and 7 days” mixes a dating convention with biological duration.",
+      "anchor": "ch20-s4",
+      "section_assignments": [
+        "ch20-s4"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T11",
+      "source_topic_anchor": "18:06",
+      "disposition": "Retain ultrasound, appropriate cardiac-activity evaluation and hCG as differing tests at differing times. Native `f0038` calls Doppler 10–12 weeks and cardiac movement 4–8 weeks; the numbers require gestational-age and modality context, not an absolute milestone.",
+      "anchor": "ch20-s4",
+      "section_assignments": [
+        "ch20-s4"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T12",
+      "source_topic_anchor": "18:48",
+      "disposition": "Retain urine hCG lateral-flow control/test lines. Native `f0040` sketches control + test versus blank; **missing control = invalid**, early control-only can be false negative. “All tests positive at 3–4 weeks” at 20:12 is untenable without gestational/fertilization clock and assay sensitivity. Trophoblast/placenta, not a free preimplantation embryo, is the clinically relevant hCG source.",
+      "anchor": "ch20-s4",
+      "section_assignments": [
+        "ch20-s4"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T13",
+      "source_topic_anchor": "20:25",
+      "disposition": "Retain maternal cardiovascular, respiratory, renal, nutritional and breast adaptations with variable timing/magnitude. Avoid “kidney/bladder size” as a single uniform growth claim or a nutritional dose prescription.",
+      "anchor": "ch20-s4",
+      "section_assignments": [
+        "ch20-s4"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T14",
+      "source_topic_anchor": "20:56",
+      "disposition": "Retain trimester overview with gestational-week axis and developmental variability. Native `f0047`/`f0051` slide says “37 weeks full term”: **37–38+6 is early term; 39–40+6 full term**. It also contains obvious “first trimester” text under third-trimester heading, so literal slide text is not reliable. Do not equate fetal position with head weight or make all 12-week sex visibility certain.",
+      "anchor": "ch20-s5",
+      "section_assignments": [
+        "ch20-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T15",
+      "source_topic_anchor": "25:06",
+      "disposition": "Retain Naegele as approximate **LMP-based** estimate, separate from fertilization age. Native `f0052` gives LMP 8 May 2009 → 15 Feb 2010 via +1 year −3 calendar months +7 days. Explain that calendar-month arithmetic is approximate relative to 280-day convention and assumes a regular 28-day cycle; dating ultrasound can revise it.",
+      "anchor": "ch20-s4",
+      "section_assignments": [
+        "ch20-s4"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T16",
+      "source_topic_anchor": "25:50",
+      "disposition": "Retain uterine contractions, cervical effacement and dilation as distinct; native `f0054` shows 0 to 10 cm. Caption at 27:42 says “more than 10 to 15 centimeters”; **10 cm** is full dilation in standard obstetric staging.",
+      "anchor": "ch20-s5",
+      "section_assignments": [
+        "ch20-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T17",
+      "source_topic_anchor": "26:42",
+      "disposition": "Retain oxytocin/prostaglandin roles and cervical ripening; source's placental CRH/relaxin/estrogen as an exact human labor initiation chain is too deterministic. Native `f0056` labels roles, not direct causal proof; specify maternal–fetal–placental compartments if drawn.",
+      "anchor": "ch20-s5",
+      "section_assignments": [
+        "ch20-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T18",
+      "source_topic_anchor": "28:20",
+      "disposition": "Retain cord, placental separation/delivery and concern for retained tissue. Caption's placenta fragments “form a uterine tumor” at 28:49 is unsupported and should be removed; bleeding/infection are material risks. The source mixes cord clamping and third-stage placenta delivery sequence.",
+      "anchor": "ch20-s5",
+      "section_assignments": [
+        "ch20-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T19",
+      "source_topic_anchor": "29:19",
+      "disposition": "Retain cesarean as delivery through uterine and abdominal incisions, not just abdominal incision. Native `f0058`/`f0060` show a four-step stylized image; no surgical-procedure detail should be inferred from it.",
+      "anchor": "ch20-s5",
+      "section_assignments": [
+        "ch20-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    },
+    {
+      "id": "L47-T20",
+      "source_topic_anchor": "31:13",
+      "disposition": "Retain condition-specific indications (e.g. placenta previa, selected fetal compromise/breech), and individualized previous-cesarean counseling. Native `f0064`/`f0068` include the list. Do not assert every prior cesarean, multiple pregnancy, diabetes/BP problem needs surgery; or fixed 24–48 h labor, 30–60 min operation, 2–3 versus 10–14 d recovery, “equally safe” for all patients. Caption head-molding recovery in 30–40 min is too short. **Retain all five late L47 questions** at 33:45/native `f0069`: usual fertilization site; implantation; name of development in womb; final stage of pregnancy; colostrum. The last is a deliberate cross-chapter lactation bridge, despite no earlier L47 colostrum explanation. `f0070` is the closing credit/license statement.",
+      "anchor": "ch20-s5",
+      "section_assignments": [
+        "ch20-s5"
+      ],
+      "coverage_status": "located in developed draft; author evidence, not review acceptance"
+    }
+  ],
+  "body_sha256": "b88411192ec3b3b9e25b10e69cb179fc29194e47cb14f7300c9c4b4f0477ca54",
+  "body_hash_definition": "Raw on-disk bytes between BEGIN CHAPTER BODY and END CHAPTER BODY markers; no newline normalization",
+  "artifact_sha256": {
+    "assets/ch20-chorionic-villus-term.jpg": "dd885787ec8bdfe2e57201ab269edc704acec8f0206a3fae43b1aef19903f80c",
+    "assets/ch20-clocks.svg": "ed1d29e3be61a37fe059841373caa4fdd36a507e5f984531c24dd9e62ee4bd70",
+    "assets/ch20-context.svg": "848e23afa61e31c381a41420f00ad3bbbc00b80950708d49f3cb0d19fb2e355b",
+    "assets/ch20-cycle.svg": "e4a3a3caa03548c86cc5e97768cf7643870dae492473ff767a483f73760c09eb",
+    "assets/ch20-data.json": "7d274860c6540a30d83b81064f03ac696573ff637f17f434cc5da48475c62683",
+    "assets/ch20-fertilization.svg": "a0b464f4e9dcd88118e03371afbc1e79fb361b2fb818dff767bcb2588bdd9fa9",
+    "assets/ch20-human-blastocyst.jpg": "64dce1a8ca9f82da0d1ba8092f3c60af00056ec76b3179b2b29f3af453e9f8c7",
+    "assets/ch20-labor.svg": "6889c5c8704e9e8cd5aa64d132068f87412e1c385511548e96f682459802ebe0",
+    "assets/ch20-mechanisms.css": "c6a9fe8261cc444431997b81f8ef7ded510e1286be4dbb94c1d0eba65bb4f3d7",
+    "assets/ch20-mechanisms.html": "44a53a3d5a6f10d22fbf2470ee3865fc8f91a8dd783c5db6282128d48fd7c166",
+    "assets/ch20-mechanisms.js": "4203ff83d5f975bb2f9b43b7256cede972e4bb46c7b2521c332597cee5c52672",
+    "assets/ch20-microscopy-LICENSE.txt": "0baa4648821a73c5a150453f9e31c3f218f2c17b327897a20e25350ab6524431",
+    "assets/ch20-microscopy-provenance.json": "23c35ed6657d2d3bcd9aab54514713cac9be5aba07870b797c0dd61576548651",
+    "assets/ch20-placenta.svg": "82fd8461a8991be34c0a911649a2fe61a346511b439c12678259419e9242b1fc",
+    "code/ch20_timeline.py": "5b29431259d1d3cc339cfee3325ed34a6493e2d4a3319dc4b856964fa6f3986d",
+    "code/ch20_visuals.py": "d013a7d66d3df6a861397043222802af0a2bffac3375af1f8b41a923fc01b9fa"
+  },
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch16_author",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "b88411192ec3b3b9e25b10e69cb179fc29194e47cb14f7300c9c4b4f0477ca54",
+      "artifact_sha256": {
+        "assets/ch20-chorionic-villus-term.jpg": "dd885787ec8bdfe2e57201ab269edc704acec8f0206a3fae43b1aef19903f80c",
+        "assets/ch20-clocks.svg": "ed1d29e3be61a37fe059841373caa4fdd36a507e5f984531c24dd9e62ee4bd70",
+        "assets/ch20-context.svg": "848e23afa61e31c381a41420f00ad3bbbc00b80950708d49f3cb0d19fb2e355b",
+        "assets/ch20-cycle.svg": "e4a3a3caa03548c86cc5e97768cf7643870dae492473ff767a483f73760c09eb",
+        "assets/ch20-data.json": "7d274860c6540a30d83b81064f03ac696573ff637f17f434cc5da48475c62683",
+        "assets/ch20-fertilization.svg": "a0b464f4e9dcd88118e03371afbc1e79fb361b2fb818dff767bcb2588bdd9fa9",
+        "assets/ch20-human-blastocyst.jpg": "64dce1a8ca9f82da0d1ba8092f3c60af00056ec76b3179b2b29f3af453e9f8c7",
+        "assets/ch20-labor.svg": "6889c5c8704e9e8cd5aa64d132068f87412e1c385511548e96f682459802ebe0",
+        "assets/ch20-mechanisms.css": "c6a9fe8261cc444431997b81f8ef7ded510e1286be4dbb94c1d0eba65bb4f3d7",
+        "assets/ch20-mechanisms.html": "44a53a3d5a6f10d22fbf2470ee3865fc8f91a8dd783c5db6282128d48fd7c166",
+        "assets/ch20-mechanisms.js": "4203ff83d5f975bb2f9b43b7256cede972e4bb46c7b2521c332597cee5c52672",
+        "assets/ch20-microscopy-LICENSE.txt": "0baa4648821a73c5a150453f9e31c3f218f2c17b327897a20e25350ab6524431",
+        "assets/ch20-microscopy-provenance.json": "23c35ed6657d2d3bcd9aab54514713cac9be5aba07870b797c0dd61576548651",
+        "assets/ch20-placenta.svg": "82fd8461a8991be34c0a911649a2fe61a346511b439c12678259419e9242b1fc",
+        "code/ch20_timeline.py": "5b29431259d1d3cc339cfee3325ed34a6493e2d4a3319dc4b856964fa6f3986d",
+        "code/ch20_visuals.py": "d013a7d66d3df6a861397043222802af0a2bffac3375af1f8b41a923fc01b9fa"
+      },
+      "report_path": "work/reviews/ch20-approved-a.md",
+      "report_sha256": "2213b3ed0c506995097e6c9e08e6350bddb2338024d26652b3787233b4739569",
+      "original_full_report": "work/reviews/ch20-review-a.md",
+      "targeted_report": "work/reviews/ch20-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch17_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "b88411192ec3b3b9e25b10e69cb179fc29194e47cb14f7300c9c4b4f0477ca54",
+      "artifact_sha256": {
+        "assets/ch20-chorionic-villus-term.jpg": "dd885787ec8bdfe2e57201ab269edc704acec8f0206a3fae43b1aef19903f80c",
+        "assets/ch20-clocks.svg": "ed1d29e3be61a37fe059841373caa4fdd36a507e5f984531c24dd9e62ee4bd70",
+        "assets/ch20-context.svg": "848e23afa61e31c381a41420f00ad3bbbc00b80950708d49f3cb0d19fb2e355b",
+        "assets/ch20-cycle.svg": "e4a3a3caa03548c86cc5e97768cf7643870dae492473ff767a483f73760c09eb",
+        "assets/ch20-data.json": "7d274860c6540a30d83b81064f03ac696573ff637f17f434cc5da48475c62683",
+        "assets/ch20-fertilization.svg": "a0b464f4e9dcd88118e03371afbc1e79fb361b2fb818dff767bcb2588bdd9fa9",
+        "assets/ch20-human-blastocyst.jpg": "64dce1a8ca9f82da0d1ba8092f3c60af00056ec76b3179b2b29f3af453e9f8c7",
+        "assets/ch20-labor.svg": "6889c5c8704e9e8cd5aa64d132068f87412e1c385511548e96f682459802ebe0",
+        "assets/ch20-mechanisms.css": "c6a9fe8261cc444431997b81f8ef7ded510e1286be4dbb94c1d0eba65bb4f3d7",
+        "assets/ch20-mechanisms.html": "44a53a3d5a6f10d22fbf2470ee3865fc8f91a8dd783c5db6282128d48fd7c166",
+        "assets/ch20-mechanisms.js": "4203ff83d5f975bb2f9b43b7256cede972e4bb46c7b2521c332597cee5c52672",
+        "assets/ch20-microscopy-LICENSE.txt": "0baa4648821a73c5a150453f9e31c3f218f2c17b327897a20e25350ab6524431",
+        "assets/ch20-microscopy-provenance.json": "23c35ed6657d2d3bcd9aab54514713cac9be5aba07870b797c0dd61576548651",
+        "assets/ch20-placenta.svg": "82fd8461a8991be34c0a911649a2fe61a346511b439c12678259419e9242b1fc",
+        "code/ch20_timeline.py": "5b29431259d1d3cc339cfee3325ed34a6493e2d4a3319dc4b856964fa6f3986d",
+        "code/ch20_visuals.py": "d013a7d66d3df6a861397043222802af0a2bffac3375af1f8b41a923fc01b9fa"
+      },
+      "report_path": "work/reviews/ch20-approved-b.md",
+      "report_sha256": "67295c04ee9bad33f442de3c017a63d76add2d4f50ec292ab350c7471fd1d7da",
+      "original_full_report": "work/reviews/ch20-review-b.md",
+      "targeted_report": "work/reviews/ch20-targeted-b.md"
+    }
+  ],
+  "code": [
+    "code/ch20_timeline.py",
+    "code/ch20_visuals.py"
+  ],
+  "figures": [
+    {
+      "id": "ch20-fig1",
+      "path": "assets/ch20-context.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch20-fig2",
+      "path": "assets/ch20-human-blastocyst.jpg",
+      "paired_diagram": "assets/ch20-fertilization.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch20-fig4",
+      "path": "assets/ch20-chorionic-villus-term.jpg",
+      "paired_diagram": "assets/ch20-placenta.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch20-fig6",
+      "path": "assets/ch20-clocks.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch20-anim1",
+      "path": "chapter-20-menstrual-cycle-pregnancy.html#ch20-anim1",
+      "embedded_panel": "assets/ch20-mechanisms.html?mode=cycle",
+      "print_fallback": "assets/ch20-cycle.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch20-anim2",
+      "path": "chapter-20-menstrual-cycle-pregnancy.html#ch20-anim2",
+      "embedded_panel": "assets/ch20-mechanisms.html?mode=implantation",
+      "print_fallback": "assets/ch20-fertilization.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch20-anim3",
+      "path": "chapter-20-menstrual-cycle-pregnancy.html#ch20-anim3",
+      "embedded_panel": "assets/ch20-mechanisms.html?mode=placenta",
+      "print_fallback": "assets/ch20-placenta.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch20-anim4",
+      "path": "chapter-20-menstrual-cycle-pregnancy.html#ch20-anim4",
+      "embedded_panel": "assets/ch20-mechanisms.html?mode=labor",
+      "print_fallback": "assets/ch20-labor.svg",
+      "status": "accepted"
+    }
+  ],
+  "realistic_asset_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Endocrine cycle, fertilization/implantation, term placental compartments and labor sequence",
+    "rationale": "Verified human hatching blastocyst light micrograph and human term-villus H&E supply directly relevant prepared appearance. Separate source-checked topology diagrams and controlled causal sequences preserve gamete/embryo locations and separate blood compartments without inventing photographic transport or labor timing.",
+    "appearance_references": [
+      "assets/ch20-human-blastocyst.jpg",
+      "assets/ch20-chorionic-villus-term.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch20-mechanisms.html",
+      "assets/ch20-mechanisms.js"
+    ],
+    "report_path": "work/browser/ch20-visual-modality.json",
+    "report_sha256": "d9fb2ac5c82b23dce4630d330f2d8a6114e5def46370858f14a510dd0d360d59"
+  },
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
+    "browser": "Actual root current reader and all18 selectable phases across4controlled modes, live placental exchange playback/Pause, settled reduced-motion pause, desktop/390px/650px and keyboard panning, 16-page browser print proof",
+    "coverage": "All36 L46–47 topics dispositioned using full captions and attributed bounded source still audit; exactly two actual independent full reviews and targeted union repair checks."
+  },
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "author_report": "work/ch20-author-report.md",
+  "research_ledger": "work/ch20-research-ledger.md",
+  "production_validation": {
+    "report_path": "work/browser/ch20-production-final.json",
+    "report_sha256": "56264a4219c7062730656ef78d3e0149cd3dab5e5c454f1dbebb9b181f125761",
+    "scope": "Actual root current reader and all18 selectable phases across4controlled modes, live placental exchange playback/Pause, settled reduced-motion pause, desktop/390px/650px and keyboard panning, 16-page browser print proof"
+  },
+  "limitations": [
+    "Publisher captions and sampled slides are partial source evidence, not continuous audio/video.",
+    "The two micrographs are static prepared observations at distinct developmental stages; neither proves live dynamics or transport rates.",
+    "Controlled diagrams show conceptual order and compartment topology, not measured velocities, hormone concentrations or fetal outcomes.",
+    "Due dates and urine assay thresholds in code are synthetic teaching examples, not individual clinical advice."
+  ],
+  "lab": {
+    "path": "code/ch20_timeline.py",
+    "status": "validated"
+  },
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch20-chorionic-villus-term.jpg",
+      "sha256": "dd885787ec8bdfe2e57201ab269edc704acec8f0206a3fae43b1aef19903f80c"
+    },
+    {
+      "path": "assets/ch20-clocks.svg",
+      "sha256": "ed1d29e3be61a37fe059841373caa4fdd36a507e5f984531c24dd9e62ee4bd70"
+    },
+    {
+      "path": "assets/ch20-context.svg",
+      "sha256": "848e23afa61e31c381a41420f00ad3bbbc00b80950708d49f3cb0d19fb2e355b"
+    },
+    {
+      "path": "assets/ch20-cycle.svg",
+      "sha256": "e4a3a3caa03548c86cc5e97768cf7643870dae492473ff767a483f73760c09eb"
+    },
+    {
+      "path": "assets/ch20-data.json",
+      "sha256": "7d274860c6540a30d83b81064f03ac696573ff637f17f434cc5da48475c62683"
+    },
+    {
+      "path": "assets/ch20-fertilization.svg",
+      "sha256": "a0b464f4e9dcd88118e03371afbc1e79fb361b2fb818dff767bcb2588bdd9fa9"
+    },
+    {
+      "path": "assets/ch20-human-blastocyst.jpg",
+      "sha256": "64dce1a8ca9f82da0d1ba8092f3c60af00056ec76b3179b2b29f3af453e9f8c7"
+    },
+    {
+      "path": "assets/ch20-labor.svg",
+      "sha256": "6889c5c8704e9e8cd5aa64d132068f87412e1c385511548e96f682459802ebe0"
+    },
+    {
+      "path": "assets/ch20-mechanisms.css",
+      "sha256": "c6a9fe8261cc444431997b81f8ef7ded510e1286be4dbb94c1d0eba65bb4f3d7"
+    },
+    {
+      "path": "assets/ch20-mechanisms.html",
+      "sha256": "44a53a3d5a6f10d22fbf2470ee3865fc8f91a8dd783c5db6282128d48fd7c166"
+    },
+    {
+      "path": "assets/ch20-mechanisms.js",
+      "sha256": "4203ff83d5f975bb2f9b43b7256cede972e4bb46c7b2521c332597cee5c52672"
+    },
+    {
+      "path": "assets/ch20-microscopy-LICENSE.txt",
+      "sha256": "0baa4648821a73c5a150453f9e31c3f218f2c17b327897a20e25350ab6524431"
+    },
+    {
+      "path": "assets/ch20-microscopy-provenance.json",
+      "sha256": "23c35ed6657d2d3bcd9aab54514713cac9be5aba07870b797c0dd61576548651"
+    },
+    {
+      "path": "assets/ch20-placenta.svg",
+      "sha256": "82fd8461a8991be34c0a911649a2fe61a346511b439c12678259419e9242b1fc"
+    },
+    {
+      "path": "code/ch20_timeline.py",
+      "sha256": "5b29431259d1d3cc339cfee3325ed34a6493e2d4a3319dc4b856964fa6f3986d"
+    },
+    {
+      "path": "code/ch20_visuals.py",
+      "sha256": "d013a7d66d3df6a861397043222802af0a2bffac3375af1f8b41a923fc01b9fa"
+    }
+  ],
+  "coverage_basis": "All36 L46–47 topics dispositioned using full captions and attributed bounded source still audit; exactly two actual independent full reviews and targeted union repair checks.",
+  "accepted_at_utc": "2026-11-05T04:01:35.628Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-20.json",
+    "sha256": "75d2af96c56b5425877dc4eb85041e9083722bd5e0e256b88b2cda779ebae2f9"
+  }
+}

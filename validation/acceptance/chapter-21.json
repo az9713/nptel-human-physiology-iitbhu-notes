@@ -1,0 +1,133 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 21,
+  "manuscript": "chapter-21-reproductive-health-technologies.html",
+  "body_sha256": "009a2381fcdc21350e02fdc777a602639d8c0468fd0bca9d296656877d13cce0",
+  "artifact_sha256": {
+    "assets/ch21-context.svg": "1d6a6068bceb58c74741f2d7a40216d18447b4ebc55393fb4aac663b736209fa",
+    "assets/ch21-human-ivf-embryo.jpg": "deaa9480458866478b510a61feb074097e5f5e89fe2927f2de7157a882b32917",
+    "assets/ch21-imaging-LICENSE.txt": "fdabfd78fd1f4fcf0b2e430bd93a3b3b29c2dd59120f54399cb1c982b8910799",
+    "assets/ch21-imaging-provenance.json": "dead0ec4b96b96ffc4e83aee6e03d78fd5c22e7346ab36ac5fe8bc91d253ffb7",
+    "assets/ch21-ivf.svg": "1bca01d25448b1b771c529f619ab8ae30b61f305f44b3f209c193678e5951d90",
+    "assets/ch21-mechanisms.html": "deed975f0e7f8e325fca8ff6151fffd4a54849ddde485b756d77008a5416a152",
+    "assets/ch21-methods.svg": "6fd61fbfa576eae87b3a1b35e11ce08fe7bfa4c27fffcfde210ece1a3abf8277",
+    "assets/ch21-model.js": "b80bddc3783ac740181846d4a44297d1191de69bd0d4a71d2020d5f2e255816d",
+    "assets/ch21-outcome-state.json": "0441b5f491c120f329685ce1d72bc4050ec16fd6cba2da4460dfc00635dd78e0",
+    "assets/ch21-pid.svg": "ab50bf52fa0d25e3b1338c41ee4e537fcb7911204b3c92ce9aaf958500a43fa2",
+    "code/ch21_check.cjs": "c8e3eda055ef88ae0d98eb082eadd8ae2f5c24486b8b373b6019dd1e3f3daed3",
+    "code/ch21_export.cjs": "21436f2af5bacb8bd1e4b9edbe5b9294e0bbdb7635a5946b1f9e6e7e4ed0ded4",
+    "code/ch21_outcomes.py": "93861a28b13929e04fa88d8020dacc691c2b36c2b27e0613c302036569619f09"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "All50 L48–50 topics and closing activities dispositioned using full captions and attributed bounded10contact sheets172samples28native repeats; exactly two actual independent full reviews plus bounded union/type-domain targets.",
+  "source_recordings": [
+    48,
+    49,
+    50
+  ],
+  "source_evidence": [
+    {
+      "number": 48,
+      "video_id": "IwzN99wLLcw",
+      "url": "https://www.youtube.com/watch?v=IwzN99wLLcw",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "025d53357d77815e761baff86a7d202137a15c3616609354632bcfc4d8718c61",
+      "caption_cues": 197,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 67,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 4,
+        "sampled_stills": 67,
+        "native_still_views": 13,
+        "report_sha256": "69cab76df70484b725e28fd00e8a492c018f1686fd3f8123e2372fb56c787370"
+      },
+      "visual_review_scope": "Full publisher captions and all50 assigned topics/closing activities;10contact sheets172sampled stills plus28native frames. Partial still-sampling visual coverage,not continuous video/audio. Clinical source access and caption/slide distinctions recorded."
+    },
+    {
+      "number": 49,
+      "video_id": "5JOJs4F9K8I",
+      "url": "https://www.youtube.com/watch?v=5JOJs4F9K8I",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "8d1a50cc6baa9b1a03de5403bdcdf86ce24810367bfab86db4428493df45d2f3",
+      "caption_cues": 145,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 48,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 48,
+        "native_still_views": 6,
+        "report_sha256": "69cab76df70484b725e28fd00e8a492c018f1686fd3f8123e2372fb56c787370"
+      },
+      "visual_review_scope": "Full publisher captions and all50 assigned topics/closing activities;10contact sheets172sampled stills plus28native frames. Partial still-sampling visual coverage,not continuous video/audio. Clinical source access and caption/slide distinctions recorded."
+    },
+    {
+      "number": 50,
+      "video_id": "yhBzohk_WwE",
+      "url": "https://www.youtube.com/watch?v=yhBzohk_WwE",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "04595171e74c33fd30d0f08a3ab35012e21b14003433ad54f77a0f27b95068af",
+      "caption_cues": 168,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 57,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 57,
+        "native_still_views": 9,
+        "report_sha256": "69cab76df70484b725e28fd00e8a492c018f1686fd3f8123e2372fb56c787370"
+      },
+      "visual_review_scope": "Full publisher captions and all50 assigned topics/closing activities;10contact sheets172sampled stills plus28native frames. Partial still-sampling visual coverage,not continuous video/audio. Clinical source access and caption/slide distinctions recorded."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch17_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "0985c5f0ac88fd3961d4245134bb88f2d121b0e09442ef7e0112fab3b44a5820",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    },
+    {
+      "reviewer_id": "/root/ch17_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "c4520a85ec0563cc447a1f55e528cf2a87e6a61833339201720d9310c90351d1",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    }
+  ],
+  "production": {
+    "scope": "Actual root current reader,6method endpoints/6IVF/fourPID states, live conditional sequence/end-stop and explicit Play/Pause, settled reduced-motion pause, desktop/390px/650px keyboard panning and24page print proof",
+    "report_sha256": "24440bedbcadb4eadfa421fef0184570be544cab22375b743ea14d4e66806235"
+  },
+  "visual_modality": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Reproductive method targets, ART denominators, pelvic compartments and conditional disease pathways",
+    "rationale": "Verified recorded human IVF embryo supplies directly relevant prepared appearance. Original controlled route/denominator explanations and separate pelvic/outlet context answer distinct questions without inventing observed cleavage or individual treatment outcomes.",
+    "appearance_references": [
+      "assets/ch21-human-ivf-embryo.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch21-mechanisms.html",
+      "assets/ch21-model.js"
+    ],
+    "report_sha256": "f6e3350b78aa65d5c1db480e160cb2394d3f8f658be87c12f1db997135bcfcbb"
+  },
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

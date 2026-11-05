@@ -1,0 +1,24 @@
+{
+  "title": "Human pancreatic islet",
+  "creator": "Afferent",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Human_pancreatic_islet.jpg",
+  "source_revision_url": "https://commons.wikimedia.org/w/index.php?title=File:Human_pancreatic_islet.jpg&oldid=991422595",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Human_pancreatic_islet.jpg",
+  "license": "CC BY-SA 3.0 Unported",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "acquired_at_utc": "2026-11-04T20:27:57.620Z",
+  "local_file": "assets/ch09-islet-reference.jpg",
+  "width": 1600,
+  "height": 1200,
+  "bytes": 420014,
+  "sha256": "c884d920493b4fffb58361717d1fd85fb3913b34d7f950429147877c9c7e8d51",
+  "changes": "None; original file bytes preserved",
+  "identification_basis": "Uploader describes human pancreatic islet double immunostaining: red glucagon antibody, blue insulin antibody; Laboratory of nervous system development, Human Morphology SRI RAMS, Moscow.",
+  "root_observation": "Central blue-rich cell cluster with red staining near its border and surrounding pink tissue; prepared stained section.",
+  "limits": [
+    "Specimen age, health, preparation protocol, physical scale and antibody-validation details are not established by the source record.",
+    "Stain colors are assigned signals, not natural living tissue colors.",
+    "No universal human islet architecture, cell fraction, hormone amount, secretion kinetics or transport direction inferred from this one section."
+  ],
+  "acquisition_status": "Acquired and root visually inspected; chapter scientific and production review separate"
+}

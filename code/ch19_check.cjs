@@ -1,0 +1,21 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');const root=path.resolve(__dirname,'..'),m=require(path.join(root,'assets/ch19-model.js'));let count=0;
+function ok(v){assert(v);count++;}
+const data=JSON.parse(fs.readFileSync(path.join(root,'assets/ch19-cycle-state.json')));
+for(const p of data.states){let q=m.cycle(p.elapsed);for(const k of ['elapsed','day','E','P','LH','FSH'])ok(Math.abs(p[k]-q[k])<1e-12);for(const k of ['phase','event','oocyte'])ok(p[k]===q[k]);ok(m.cycleSVG(p.elapsed)===m.cycleSVG(p.elapsed));}
+for(let i=0;i<8;i++){let s=m.stage(i);ok(s.chromatids===23*s.C);ok(s.chromosomes===23*s.n);ok(m.stageSVG(i).includes(s.n+'n '+s.C+'C'));}
+for(let a of [0,1,50])for(let S of [0,2])for(let k of [0,1e-10,.2,2])for(let t of [0,.1,5,10]){let q=m.milk(a,S,k,t);ok(q.A>=-1e-12&&q.D>=-1e-12);ok(Math.abs(q.A+q.D-a-S*t)<1e-10);}
+for(let b of [-1,NaN,Infinity,-Infinity]){for(let i=0;i<4;i++){let a=[50,2,.2,5];a[i]=b;assert.throws(()=>m.milk(...a),RangeError);count++;}assert.throws(()=>m.cycle(b),RangeError);count++;}
+for(let bad of [-1,.5,8,NaN,Infinity]){assert.throws(()=>m.stage(bad),RangeError);count++;}assert.throws(()=>m.cycle(28.1),RangeError);count++;
+for(const [file,bytes] of [['ch19-stages.svg',m.stageSVG(3)],['ch19-cycle.svg',m.cycleSVG(13)],['ch19-lactation.svg',m.lactationSVG(5,'both')]])ok(fs.readFileSync(path.join(root,'assets',file),'utf8')===bytes);
+const html=fs.readFileSync(path.join(root,'assets/ch19-mechanisms.html'),'utf8'),inline=[...html.matchAll(/<script>([\s\S]*?)<\/script>/g)][0][1];
+for(let mode of ['stages','cycle','milk']){let nodes={};const get=id=>nodes[id]??=(id==='case'?{value:'both'}:{value:0});let callback;const ctx={Ch19:m,URLSearchParams,location:{search:'?mode='+mode},document:{getElementById:get},matchMedia:()=>({addEventListener:()=>{}}),requestAnimationFrame:fn=>{callback=fn;},console};vm.createContext(ctx);vm.runInContext(inline,ctx);let first=get('scene').innerHTML;ok(first.length>1000);get('play').onclick();callback(100);callback(10100);ok(get('scene').innerHTML!==first);get('reset').onclick();ok(get('scene').innerHTML===first);get('seek').value=mode==='stages'?5:50;get('seek').oninput();let sought=get('scene').innerHTML;get('reset').onclick();get('seek').value=mode==='stages'?5:50;get('seek').oninput();ok(get('scene').innerHTML===sought);}
+
+// Review-union regressions: independent limits and actual rendered circle extents.
+for(const k of [0,Number.MIN_VALUE,1e-320,1e-12,.2])for(const t of [0,1,5,10]){let v=m.milk(50,2,k,t);ok(Number.isFinite(v.A)&&Number.isFinite(v.D));if(k<=1e-12)ok(Math.abs(v.A-(50+2*t))<1e-8);const mid=m.milk(50,2,k,t/2),composed=m.milk(mid.A,2,k,t/2);ok(Math.abs(v.A-composed.A)<1e-10);}
+for(const args of [[1e308,1e308,.2,10],[0,Number.MAX_VALUE,1e-320,2]]){assert.throws(()=>m.milk(...args),RangeError);count++;}
+assert.throws(()=>m.cycle(28),RangeError);count++;assert.throws(()=>m.cycleSVG(28),RangeError);count++;ok(data.states.length===280&&data.states.at(-1).elapsed===27.9&&data.states.every(x=>x.elapsed<28&&x.day<29));
+function circles(svg){return [...svg.matchAll(/<circle\s+([^>]+)\/>/g)].map(z=>Object.fromEntries([...z[1].matchAll(/([\w-]+)="([^"]*)"/g)].map(a=>[a[1],a[2]])));}
+for(const i of [5,6,7]){const cs=circles(m.stageSVG(i)),zona=cs.find(c=>c.stroke==='#b5a2ff'),egg=cs.find(c=>c.r==='46'),pb=cs.find(c=>c.r==='8'&&c.fill==='#ffbf76');let distance=Math.hypot(+pb.cx- +egg.cx,+pb.cy- +egg.cy),pbExtent=+pb.r+ +pb['stroke-width']/2,zonaInner=+zona.r- +zona['stroke-width']/2,eggOuter=+egg.r+ +egg['stroke-width']/2;ok(distance-pbExtent>eggOuter);ok(distance+pbExtent<zonaInner);if(i===6){let corona=cs.find(c=>c.stroke==='#7be4b1'&&c.r==='84');ok(corona&&+corona.cx===+zona.cx&&+corona.cy===+zona.cy);ok(+corona.r- +corona['stroke-width']/2>+zona.r+ +zona['stroke-width']/2);}}
+const context=fs.readFileSync(path.join(root,'assets/ch19-context.svg'),'utf8');ok(context.includes('transform="translate(30 0)"'));ok(Math.hypot(680+30-765,785-755)+57+8/2<135-4/2);ok(context.includes('M710 925L710 825'));
+
+console.log(JSON.stringify({status:'PASS',checks:count,scope:'Node numeric/state/domain/parity/source-SVG and mock-DOM control checks; no production browser or rendered motion claim'},null,2));

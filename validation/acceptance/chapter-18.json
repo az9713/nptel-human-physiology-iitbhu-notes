@@ -1,0 +1,114 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 18,
+  "manuscript": "chapter-18-male-reproduction-spermatogenesis.html",
+  "body_sha256": "6d4751c253d6ec7c93bb868fd6a256015efd0ef368abf56d4f2891c0521fa603",
+  "artifact_sha256": {
+    "assets/ch18-bovine-sperm-tem.jpg": "1fbbcfd268e5d27c505449e690c311c8086018800de38cab5410f1d87b2f9a1d",
+    "assets/ch18-checks.js": "7770d01221cb4b1326ec2bea83593ad8804ac233bc29f954bbf3cf353a5ba4fd",
+    "assets/ch18-context.svg": "3688e504c3bcd9a0a3d69d0c9d3d796e1630e473857cdf44a4488c98e4435427",
+    "assets/ch18-data.json": "e6143055d127a2cef84d3e0c84f8a3416755f74cbf8283e7914119770e191912",
+    "assets/ch18-feedback.svg": "8d1586f7676938f613ca456d074aeeed726e3f0555f587aa81024c547dfee6ba",
+    "assets/ch18-LICENSE.txt": "1a9240141a15c72bde5336b4f3ce96bfd551a23d5c41db7038f9bd21670883fa",
+    "assets/ch18-mechanisms.css": "c4a11a81aecc310d263adfac8e0d5ef656ede2624ba1c4013ebdefc0cd3416f0",
+    "assets/ch18-mechanisms.html": "c3db8a52a867ac936cc8596f5052d729803b176af9268c5fc8b123cd8041f1cb",
+    "assets/ch18-mechanisms.js": "66f05ce2424d9604ea4c8fd8d900003ac83957cf7ae6d5cd07a1d9d472767baf",
+    "assets/ch18-provenance.json": "670f1e6d9af72ea9534d3437724d6f8035b144e710f858de5c93290524c951c1",
+    "assets/ch18-rabbit-testis.jpg": "e3a57d4480b9a468600a280e7b687cd7f1d6b49ef1589e4a9a547f2140ebd8ad",
+    "assets/ch18-routes.svg": "00a1519f856f044c9d26e7ba851d673d3b4c0e7d4b597aa9cd1717f7c1ec00d7",
+    "assets/ch18-stages.svg": "a816a99da63d8dfb7d9e6c825ed57f1d54987bb2b8696d5600d7749feeb866b0",
+    "code/ch18_reproduction.py": "8b9619ba84e0d11e6315995d105628b69c370ffc1b43f9887f6d08cb6c7d085f"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "All26 assigned L41–42 topics and both closing activities disposed; full publisher captions; bounded6contact sheets92sampled stills plus16native frame repeats, not continuous video/audio.",
+  "source_recordings": [
+    41,
+    42
+  ],
+  "source_evidence": [
+    {
+      "number": 41,
+      "video_id": "3kpFyNW-DoQ",
+      "url": "https://www.youtube.com/watch?v=3kpFyNW-DoQ",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "41e7a0f6777b9bde186e46e56b5d515171a6933cc0144299048dd0b5f9ae36c3",
+      "caption_cues": 141,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 44,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 44,
+        "native_still_views": 6,
+        "report_sha256": "297ad361401eeac002ea1baa156b235474744d43bdc3bb14d5e5347cced494cf"
+      },
+      "visual_review_scope": "Complete captions and all26 topic-ledger entries; six contact sheets92 sampled stills plus16 repeat native frames; bounded still task, no continuous video/audio or independent external verification."
+    },
+    {
+      "number": 42,
+      "video_id": "J1sKWBJsKHs",
+      "url": "https://www.youtube.com/watch?v=J1sKWBJsKHs",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "ba32f3ef2c6893e28d6c169edeb2e4166db09566238d4c343bca24868e385028",
+      "caption_cues": 157,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 48,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 48,
+        "native_still_views": 10,
+        "report_sha256": "297ad361401eeac002ea1baa156b235474744d43bdc3bb14d5e5347cced494cf"
+      },
+      "visual_review_scope": "Complete captions and all26 topic-ledger entries; six contact sheets92 sampled stills plus16 repeat native frames; bounded still task, no continuous video/audio or independent external verification."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch17_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "19ecb1dad97af075e374f291e13e9a2c4ab5076648b31e13b042dc7cd51b9657",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    },
+    {
+      "reviewer_id": "/root/ch17_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "c3296eaeca7a798e3fcc8e4c6d00df425df06c54f51818a6039256563698e224",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    }
+  ],
+  "production": {
+    "scope": "Actual root current reader, three controlled views, all six completed cell states, selected duct/hormone cases, active playback and reduced-motion pause, desktop/650px/390px access, print generation and 22-page PDF inspection",
+    "report_sha256": "d8c1febcf9d6fb09bad12a6a572f7f0617c7d245822ded0fcd7b733dd4d77606"
+  },
+  "visual_modality": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Seminiferous tissue, germ-cell chromosome/DNA states, reproductive ducts and endocrine feedback",
+    "rationale": "Verified rabbit bright-field tissue and bovine sperm TEM supply prepared microscopic appearance. Original source-checked, separate-scale connectivity and sectional reconstructions plus controlled cell, duct and hormone views explain causal relationships. The prepared images do not demonstrate human timing, molecule identity or live trajectories.",
+    "appearance_references": [
+      "assets/ch18-rabbit-testis.jpg",
+      "assets/ch18-bovine-sperm-tem.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch18-mechanisms.html",
+      "assets/ch18-mechanisms.js"
+    ],
+    "report_sha256": "f9a6b688b8ae03d33b7204a97310a1369c68ed17330f3b567e9847914c71c24f"
+  },
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

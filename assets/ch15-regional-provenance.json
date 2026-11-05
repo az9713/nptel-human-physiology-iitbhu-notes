@@ -1,0 +1,38 @@
+{
+  "title": "Regional tissue compartment comparison",
+  "creator": "Original chapter author reconstruction",
+  "license": "Original educational SVG; no borrowed image pixels or coordinates",
+  "species_scope": "General human regional anatomical topology; no measured specimen",
+  "modality": "Topological sectional reconstruction with illustrative colors; not microscopy,diagnostic pathology or photorealistic anatomy",
+  "scale": "Separate panels at independently exaggerated scales; no shared dimensional calibration",
+  "geometry_evidence": [
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+      "access": "owning page opened2026-11-04",
+      "supports": "Cortical versus trabecular compartments and marrow spaces"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-4-synovial-joints",
+      "access": "owning page opened2026-11-04",
+      "supports": "Separate articular cartilage caps, lateral synovial lining, joint cavity and subtendinous bursa"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+      "access": "owning page opened2026-11-04",
+      "supports": "Muscle fibers,sarcolemma and surrounding connective force path"
+    }
+  ],
+  "behavior": "Static regional disease-location comparison, not a disease progression trajectory",
+  "appearance": "Illustrative flat sections; current user/task selected this compartment comparison for disease mechanisms; recorded TEM supplies actual muscle appearance elsewhere",
+  "limits": [
+    "Not radiographic/histological signatures or disease diagnosis",
+    "Bursa panel is a selected extraarticular subtendinous example, not claim that all bursae lack joint communication",
+    "Muscle panel is cellular/force-path organization without atomic dystrophin structure",
+    "Bone mineral is within matrix,not separate pore contents"
+  ],
+  "checks": "Coordinate/topology reconstruction; actual rendered label/semantic inspection and browser/print assessment remain pending",
+  "asset": {
+    "path": "assets/ch15-regional-compartments.svg",
+    "sha256": "deb7b31391e53f02a3176ac6b3cdcf92b45d5d5f4f9a50d6400d4a8a559726f5"
+  }
+}

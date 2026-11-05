@@ -1,0 +1,16 @@
+# Raw lecture evidence and private authoring/review records
+/sources/
+/work/
+/HANDOFF.md
+/AGENTS.md
+/README.txt
+/.serena/
+/.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+/build/
+/node_modules/
+/.env
+/.env.*

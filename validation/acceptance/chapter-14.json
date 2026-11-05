@@ -1,0 +1,147 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 14,
+  "manuscript": "chapter-14-bones-joints-connective-tissue.html",
+  "body_sha256": "1e7022787fc9ffe7137cebd885721ead98b6113aea75279bd702bf3f511cf98c",
+  "artifact_sha256": {
+    "assets/ch14-checks.js": "8b75482ace97d8e6752eb22581b62e97ba6645b640f330caf2ad2abeee824dca",
+    "assets/ch14-joint-section.svg": "f23a87a9c9a014695243afafbc9fe032a1ce15b32842d5b1111439c811b1b3c3",
+    "assets/ch14-knee-LICENSE.txt": "c9e18d8d69d8802c582dad211705ad8e2852f163c31e36a500e1edf429383ca2",
+    "assets/ch14-knee-geometry.zip": "d994e8bfac04cdc0563bca754d4e5151cf06ec952c95f58daed307be3a81979f",
+    "assets/ch14-knee-mri-LICENSE.txt": "2462f4aefde5dcf11eb8559a7591e320aac56ac45cc1bd62323d20e25a17d966",
+    "assets/ch14-knee-mri.jpg": "9e8e9edeb8ae6937f55ad09d2e6afe1d7a5ce92f9c06a8a3d4260f5d1d8da1eb",
+    "assets/ch14-knee-mri.json": "4fea23b134d6e2f92839a7d738eb2d4b9f508401e7eeb902cef272d2cb7a73f5",
+    "assets/ch14-knee-reference.png": "b7852cbd87231e19c2be3693a06952088d18a6d2e134e02a1fe3478c92d2b8ba",
+    "assets/ch14-knee-reproduction.md": "c630700115c7ef808843569fd988e253ec24a7ea8661396f864018f73696f8b2",
+    "assets/ch14-knee-source.json": "4454f0561e5cdf72c99497eb5c9c777111381adc00a1e427a7702078e597e77c",
+    "assets/ch14-knee-viewer-LICENSE.txt": "c9e18d8d69d8802c582dad211705ad8e2852f163c31e36a500e1edf429383ca2",
+    "assets/ch14-knee-viewer-geometry.json": "86316c1c96880424188bb4a59e621fee4351a6d75146eb3ec901aff5438a7d23",
+    "assets/ch14-knee-viewer-meshes.bin": "5771f92f33b2c18c79fce57b1bfb13e74dc90621cc3e1e1f20829d085984a32c",
+    "assets/ch14-knee-viewer-poses.json": "492a855524feac2d7200b46cd1f559b6a2a00642c815d77ce8b5cd7bd3069e8f",
+    "assets/ch14-knee-viewer.css": "af0d7d88b213c20d348e68fa64c41491a0a86649de615861364be73cec4569fe",
+    "assets/ch14-knee-viewer.html": "920c0726e07fde73b9da4c65e9b0b04daddad3cbdb4f7b00a02b7fe68addf7bb",
+    "assets/ch14-knee-viewer.js": "3b7805d85af855f333c2e828191f305dfd0b88347d00a74cbc02831cd39ab623",
+    "assets/ch14-loading.html": "83a0716629f573ccdaa3c4d3ba76a57f856ede8e77d17f53f7a7fbebfc770ae0",
+    "assets/ch14-models.css": "cbda1247232e72b807edca545052003b10d1d29cc8a815f7580cc96b49d18296",
+    "assets/ch14-models.js": "606de4cfb311ff590e8930d45f9ffd838c5a52b16b843e4e7dedc54fb8bca875",
+    "assets/ch14-osteocyte-reference.jpg": "57813d93a9e23600963513de7186bef309d5c37ef5c5fc652243120e944267be",
+    "assets/ch14-osteocyte-reference.json": "6d8870c330f45766f681d400397eb24faec428f8e06a565606e78c6d89b64615",
+    "assets/ch14-remodeling.html": "34195678ac3bb717f9c06086d4ae379325e3679fcbd88b2823c573b7b13e927d",
+    "code/ch14_knee_kinematics.py": "46b0197a0e551e5ba8663a940a75148f3eb3cf9bbe32da868381272e32994dec",
+    "code/ch14_mechanics.py": "f75911ef8eb1ee127fb4dfa5237d8f788db1e55ae6dd1d4f00d0890d700d4f56",
+    "figures/ch14_knee_pack.py": "8a6107f362bd749a5ff23034fcf08955d9738360a751318b085e5f312405bf3c",
+    "figures/ch14_knee_reference.py": "0790eff0692dbab44be058ae775ac3027048cd76c13458f506de523344fe5572"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "All35 L31–32 topics and closing activities dispositioned using full captions and attributed bounded still audit; exactly two original actual full reviews plus separately attributed source-context and production CSS targeted checks.",
+  "source_recordings": [
+    31,
+    32
+  ],
+  "source_evidence": [
+    {
+      "number": 31,
+      "video_id": "-sPIXCNe1ks",
+      "url": "https://www.youtube.com/watch?v=-sPIXCNe1ks",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "b458736444221880210667d0194d11ab1c81f99a1460b529b54786f8eb2dcf60",
+      "caption_cues": 158,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 54,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 54,
+        "native_still_views": 4,
+        "report_sha256": "b4176ab336356a12b4c21a28f2a39d4baaf15fe45a0f01416ffb3bf50e95af79"
+      },
+      "visual_review_scope": "All contact sheets and named native frames inspected; complete captions through farewells. No dedicated prior bone/joint verification or registered claim issue establishes truth; independent checks remain required. No continuous audio/video claim."
+    },
+    {
+      "number": 32,
+      "video_id": "Q7Ck5W0Lu88",
+      "url": "https://www.youtube.com/watch?v=Q7Ck5W0Lu88",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "bb7d9a4f8532c1098dab475ffae9154b5cc0412785cc2488b9128b8a103c2b75",
+      "caption_cues": 176,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 49,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 49,
+        "native_still_views": 11,
+        "report_sha256": "b4176ab336356a12b4c21a28f2a39d4baaf15fe45a0f01416ffb3bf50e95af79"
+      },
+      "visual_review_scope": "All contact sheets and named native frames inspected; complete captions through farewells. No dedicated prior bone/joint verification or registered claim issue establishes truth; independent checks remain required. No continuous audio/video claim."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch14_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "a6082a55fa6c191182c3dc0ce999e6bd78049224c1eeeef0c80619d0a3bc20a1",
+      "review_basis": "One actual original full review plus original repair checks and separately attributed scoped context/source-pose supplement; original full reviewer did not inspect added context",
+      "separately_attributed_checks": {
+        "supplemental_context_checker": {
+          "reviewer_id": "/root/ch16_author",
+          "reviewer_model": "gpt-6.1-sol",
+          "reasoning_effort": "medium",
+          "scope": "Added four-panel bone/joint context, observed references/provenance, conditional source-surface saved-pose replay, reproduction boundaries and exact change preservation only; no new full review or reader-production acceptance; separately recorded production-only scroll wrapper/CSS and print navigation hiding source-preservation checks",
+          "report_sha256": "4c524510b1401bd46d91e5b326e811080f7e71877407a6b5dbe1d245e3a1795b"
+        }
+      }
+    },
+    {
+      "reviewer_id": "/root/ch14_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "3777decd3f6967e21dc7d6c3fcf53d3a0ff669dfd9597d13f8febed0064e07a0",
+      "review_basis": "One actual original full review plus original repair checks and separately attributed scoped context/source-pose supplement; original full reviewer did not inspect added context",
+      "separately_attributed_checks": {
+        "supplemental_context_checker": {
+          "reviewer_id": "/root/ch17_review_b",
+          "reviewer_model": "gpt-6-sol",
+          "reasoning_effort": "medium",
+          "scope": "Added four-panel bone/joint context, observed references/provenance, conditional source-surface saved-pose replay, reproduction boundaries and exact change preservation only; no new full review or reader-production acceptance; separately recorded production-only scroll wrapper/CSS and print navigation hiding source-preservation checks",
+          "report_sha256": "362e251c7a868101b6771262420ec28090ffb67ad8dffc03414c8e26b59dec3d"
+        }
+      }
+    }
+  ],
+  "production": {
+    "scope": "Actual root observed SEM/MRI and generic/source geometry inspection, source saved-pose WebGL controls and live motion, renewal/load controls, desktop/650px/390px and keyboard panning, 21-page browser print proof",
+    "report_sha256": "dba5d9ff4d4ad61f8556a7a00640b1eb35d06b8b5b745ab84f2317781eb956c7"
+  },
+  "visual_modality": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Prepared bone-cell architecture and knee MRI with controlled source-surface geometry",
+    "rationale": "Verified SEM reconstruction and unmodified knee MRI supply directly relevant recorded appearance. A separate original section clarifies synovial topology; native segmented geometry supplies spatial insight and conditional saved rigid-bone replay. Artificial colors and shape lighting make no living tissue material claim. Failed rendered tissue prototypes remain unaccepted.",
+    "appearance_references": [
+      "assets/ch14-osteocyte-reference.jpg",
+      "assets/ch14-knee-mri.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch14-remodeling.html",
+      "assets/ch14-loading.html",
+      "assets/ch14-knee-viewer.html",
+      "assets/ch14-knee-viewer.js"
+    ],
+    "report_sha256": "b52a902e3355d9040620af52b92388b74a9dfe79865d82e2d123669699567bf4"
+  },
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

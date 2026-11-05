@@ -1,0 +1,46 @@
+{
+  "title": "Normal Lymph Node",
+  "creators": [
+    "Ed Uthman, MD"
+  ],
+  "source": "Wikimedia Commons; photographer's original Flickr record also accessed",
+  "record": "https://commons.wikimedia.org/wiki/File:Normal_Lymph_Node.jpg",
+  "original_record": "https://www.flickr.com/photos/euthman/3113417731/",
+  "accession": "Flickr 3113417731; Commons Normal Lymph Node.jpg",
+  "license": "CC BY-SA 2.0 Generic",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Normal_Lymph_Node.jpg",
+  "file": "ch04-node-architecture-reference.jpg",
+  "modifications": "none; original Commons JPEG downloaded unchanged",
+  "bytes": 1253804,
+  "width": 1848,
+  "height": 1524,
+  "sha256": "37500c19446c903677afd337c92170ebfb8cf762163861db4c1845399229d3ed",
+  "species": "Not explicitly stated in photographer/Commons prose; clinical colectomy context suggests human, but do not label confirmed human",
+  "specimen_context": "Photographer calls this a normal lymph node from a colectomy specimen. Normal designation applies to this node, not a claim that the donor or colon was healthy.",
+  "modality_preparation": "Light microscopy photograph of a tissue section. H&E is identified in the Commons Polish description; fixation and section thickness unknown.",
+  "color": "Pink/purple stain-dependent appearance, not natural tissue color",
+  "calibration": "No scale bar or physical calibration supplied; EXIF 300 dpi is a display/print setting, not tissue scale",
+  "archive_landmarks": [
+    "capsule",
+    "subcapsular sinus",
+    "follicle (Commons annotation)"
+  ],
+  "observed_content": "Actual JPEG inspected: broad oval lymphoid tissue section with pink peripheral capsule and pale space beneath it, surrounding pale adipose profiles, and peripheral rounded dark aggregates. Some edges meet the circular microscope field; do not claim the entire intact node or hilum is shown.",
+  "unknown": [
+    "explicit species",
+    "patient age/sex",
+    "reason for colectomy",
+    "node location",
+    "numerical magnification",
+    "physical field size",
+    "section thickness",
+    "fixation",
+    "B/T-cell identity"
+  ],
+  "purpose": "Observed normal-designated nodal tissue architecture: capsule, subcapsular sinus and peripheral follicle context, beside a separately labeled whole-node teaching reconstruction",
+  "limits": "A fixed two-dimensional section does not establish three-dimensional whole-node geometry, all compartments, hilum or afferent/efferent vessels; does not identify B/T cells or flow/immune timing. Normal designation is photographer-supplied, not an independent pathology reassessment.",
+  "verified": "2026-11-04",
+  "source_access": "Commons file page, original photographer Flickr page and direct Commons original image accessed successfully; license and source description observed; actual JPEG viewed",
+  "status": "Source identity, stated license and acquisition facts verified on 2026-11-04; current chapter acceptance is recorded in the chapter sidecar."
+}

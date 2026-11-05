@@ -1,0 +1,13 @@
+Chapter 22 imaging attribution
+
+Normal brain. 6. Sagittal MRI scan. Wellcome Collection.
+https://wellcomecollection.org/works/cxzcadnc
+
+Rat spinal cord, LM. Kevin Mackenzie, University of Aberdeen / Wellcome Collection.
+https://wellcomecollection.org/works/w4fkst57
+
+Both: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Native source JPEGs retained without edits. HTML display resizes proportionately.
+Source descriptions, actual file digests, dimensions and inference limits are in ch22-imaging-provenance.json.
+This notice covers the two third-party images. It does not assign or alter licensing of original chapter prose, schematics or code.

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="760" viewBox="0 0 1000 760" role="img" aria-labelledby="title desc">
+<title id="title">Nephron segments and separate collecting duct and vasa recta</title><desc id="desc">Original schematic long-loop nephron. Renal corpuscle and convoluted tubules lie in cortex. A descending and ascending loop extends into medulla. Collecting duct also traverses medulla. Blood in the vasa recta is a separate countercurrent route.</desc>
+<defs><marker id="a" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10" fill="none" stroke="#fff" stroke-width="2"/></marker></defs>
+<rect width="1000" height="760" fill="#111b27"/><rect x="25" y="35" width="950" height="270" rx="20" fill="#263346"/><rect x="25" y="305" width="950" height="400" rx="20" fill="#1e2935"/>
+<g font-family="system-ui" fill="#eef2f7" font-size="21"><text x="45" y="70">CORTEX</text><text x="45" y="345">MEDULLA</text><text x="45" y="735">Separate scales · topology only · long-loop example · no physical scale</text></g>
+<path d="M150 180h-60v-55" stroke="#ee8c93" stroke-width="10" fill="none"/><path d="M150 153L95 100" stroke="#b6a7ff" stroke-width="8" fill="none"/>
+<circle cx="180" cy="180" r="52" fill="#233345" stroke="#e8be7a" stroke-width="6"/><path d="M145 175q20-40 40 0t25 0m-65 15q20 35 40 0t25 0" fill="none" stroke="#e48792" stroke-width="8"/>
+<path d="M230 195C265 150 275 265 300 205S350 150 355 215S400 240 400 290V570Q400 640 480 640Q540 640 540 570V280C550 210 590 270 610 210S650 155 675 215L745 215" fill="none" stroke="#e8be7a" stroke-width="15"/>
+<path d="M540 570V340" stroke="#82d6c7" stroke-width="18"/>
+<path d="M745 110V660" fill="none" stroke="#97b7ef" stroke-width="22"/>
+<path d="M825 300V555q0 60 45 60t45-60V300" stroke="#db8da0" fill="none" stroke-width="7"/>
+<g stroke="#fff" fill="none" stroke-width="2.5" marker-end="url(#a)"><path d="M400 380v70"/><path d="M540 450v-70"/><path d="M745 410v70"/><path d="M825 400v70"/><path d="M915 470v-70"/><path d="M280 280l30-30"/></g>
+<g font-family="system-ui" fill="#eef2f7" font-size="20"><text x="90" y="95">Afferent blood</text><text x="130" y="270">Corpuscle</text><text x="260" y="125">Proximal</text><text x="260" y="150">convoluted tubule</text><text x="575" y="115">Distal tubule</text><text x="650" y="170">Connecting</text><text x="650" y="195">segment</text><text x="710" y="85">Collecting duct</text><text x="265" y="475">Descending</text><text x="275" y="500">thin limb</text><text x="565" y="420">Thick</text><text x="565" y="445">ascending</text><text x="565" y="470">limb (TAL)</text><text x="440" y="685">Thin ascending portion near bend</text><text x="800" y="280">Vasa recta</text><text x="795" y="655">BLOOD</text><text x="90" y="575">Interstitial tissue</text><text x="90" y="600">surrounds each tube</text></g>
+</svg>

@@ -1,0 +1,212 @@
+{
+  "chapter": 11,
+  "title": "Thyroid and endocrine disorders",
+  "status": "accepted",
+  "coverage_complete": true,
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch11_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "Original actual independent full review by /root/ch11_review_a plus current targeted changed-content verification by separately identified /root/ch11_target_a; aggregate approval, no additional full review",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "b1b5b72273568ce320b9e3c2e06a41352175dc67d75de8f9aea8d243e83cad2e",
+      "artifact_sha256": {
+        "assets/ch11-follicle.html": "243371d49d2db27f8e183a82f724d864ec8abd0279c699eafcbd11f454f3e640",
+        "assets/ch11-feedback.html": "f101a714a55d89fe5a11b981ca31f717e71dcbe57209d2c0cf64c9191f441509",
+        "assets/ch11-models.js": "000b7e6ac25ce726682946dc5219554bf573bf97f2f1ea40c33e534c03252c71",
+        "assets/ch11-views.js": "db558b128ff86a09a7594ea0e449b1c18c5354ba1ab0c610d44509711b12e9e5",
+        "assets/ch11-thyroid-reference.jpg": "f2d5eabd7250951683e6c6ac761d43465bfe576bb6df99a430717fe486494558",
+        "assets/ch11-thyroid-reference.json": "caaf52a48d35597dee9c12e860a4c2f3d562dd81cb4010833572e5f9ace16246",
+        "code/ch11_feedback.py": "fd64fef44ecee72babff1c5516c760399f0c3ce80274bd9fb7028fc1a8950fe3"
+      },
+      "report_path": "work/reviews/ch11-approved-a.md",
+      "report_sha256": "6b7843c6b1eb16d76a63603443221ebd1e24a9a72ed9dbd30b6be1f89205bc5b",
+      "original_full_report": "work/reviews/ch11-review-a.md",
+      "targeted_report": "work/reviews/ch11-targeted-a.md",
+      "targeted_reviewer_id": "/root/ch11_target_a",
+      "targeted_reviewer_model": "gpt-6.1-sol",
+      "targeted_checker_is_separate": true,
+      "original_full_review_body_sha256": "c6bf8d5c20a14edc49fd5709a311ff4aa8fc2b07d8968b98c8bea51980635b4e"
+    },
+    {
+      "reviewer_id": "/root/ch11_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "Original actual independent full review by /root/ch11_review_b plus current targeted changed-content verification by separately identified /root/ch11_target_b; aggregate approval, no additional full review",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "b1b5b72273568ce320b9e3c2e06a41352175dc67d75de8f9aea8d243e83cad2e",
+      "artifact_sha256": {
+        "assets/ch11-follicle.html": "243371d49d2db27f8e183a82f724d864ec8abd0279c699eafcbd11f454f3e640",
+        "assets/ch11-feedback.html": "f101a714a55d89fe5a11b981ca31f717e71dcbe57209d2c0cf64c9191f441509",
+        "assets/ch11-models.js": "000b7e6ac25ce726682946dc5219554bf573bf97f2f1ea40c33e534c03252c71",
+        "assets/ch11-views.js": "db558b128ff86a09a7594ea0e449b1c18c5354ba1ab0c610d44509711b12e9e5",
+        "assets/ch11-thyroid-reference.jpg": "f2d5eabd7250951683e6c6ac761d43465bfe576bb6df99a430717fe486494558",
+        "assets/ch11-thyroid-reference.json": "caaf52a48d35597dee9c12e860a4c2f3d562dd81cb4010833572e5f9ace16246",
+        "code/ch11_feedback.py": "fd64fef44ecee72babff1c5516c760399f0c3ce80274bd9fb7028fc1a8950fe3"
+      },
+      "report_path": "work/reviews/ch11-approved-b.md",
+      "report_sha256": "709ccee6ab822b13c9cd28a02d1b28cb374de600a874be1670510957aba7e498",
+      "original_full_report": "work/reviews/ch11-review-b.md",
+      "targeted_report": "work/reviews/ch11-targeted-b.md",
+      "targeted_reviewer_id": "/root/ch11_target_b",
+      "targeted_reviewer_model": "gpt-6-sol",
+      "targeted_checker_is_separate": true,
+      "original_full_review_body_sha256": "c6bf8d5c20a14edc49fd5709a311ff4aa8fc2b07d8968b98c8bea51980635b4e"
+    }
+  ],
+  "source_recordings": [
+    24,
+    25
+  ],
+  "source_evidence": "Complete L24/L25 captions read through closing questions. Bounded source-visual audit attributed: six sheets / 112 sampled stills and nine native frames. Author separately inspected unchanged thyroid photograph; no continuous source audio/video review.",
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "body_sha256": "b1b5b72273568ce320b9e3c2e06a41352175dc67d75de8f9aea8d243e83cad2e",
+  "body_digest_convention": "SHA256 over raw file bytes strictly between literal BEGIN/END CHAPTER BODY marker bytes; enclosed newlines preserved.",
+  "artifact_sha256": {
+    "assets/ch11-follicle.html": "243371d49d2db27f8e183a82f724d864ec8abd0279c699eafcbd11f454f3e640",
+    "assets/ch11-feedback.html": "f101a714a55d89fe5a11b981ca31f717e71dcbe57209d2c0cf64c9191f441509",
+    "assets/ch11-models.js": "000b7e6ac25ce726682946dc5219554bf573bf97f2f1ea40c33e534c03252c71",
+    "assets/ch11-views.js": "db558b128ff86a09a7594ea0e449b1c18c5354ba1ab0c610d44509711b12e9e5",
+    "assets/ch11-thyroid-reference.jpg": "f2d5eabd7250951683e6c6ac761d43465bfe576bb6df99a430717fe486494558",
+    "assets/ch11-thyroid-reference.json": "caaf52a48d35597dee9c12e860a4c2f3d562dd81cb4010833572e5f9ace16246",
+    "code/ch11_feedback.py": "fd64fef44ecee72babff1c5516c760399f0c3ce80274bd9fb7028fc1a8950fe3"
+  },
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch11-follicle.html",
+      "sha256": "243371d49d2db27f8e183a82f724d864ec8abd0279c699eafcbd11f454f3e640"
+    },
+    {
+      "path": "assets/ch11-feedback.html",
+      "sha256": "f101a714a55d89fe5a11b981ca31f717e71dcbe57209d2c0cf64c9191f441509"
+    },
+    {
+      "path": "assets/ch11-models.js",
+      "sha256": "000b7e6ac25ce726682946dc5219554bf573bf97f2f1ea40c33e534c03252c71"
+    },
+    {
+      "path": "assets/ch11-views.js",
+      "sha256": "db558b128ff86a09a7594ea0e449b1c18c5354ba1ab0c610d44509711b12e9e5"
+    },
+    {
+      "path": "assets/ch11-thyroid-reference.jpg",
+      "sha256": "f2d5eabd7250951683e6c6ac761d43465bfe576bb6df99a430717fe486494558"
+    },
+    {
+      "path": "assets/ch11-thyroid-reference.json",
+      "sha256": "caaf52a48d35597dee9c12e860a4c2f3d562dd81cb4010833572e5f9ace16246"
+    },
+    {
+      "path": "code/ch11_feedback.py",
+      "sha256": "fd64fef44ecee72babff1c5516c760399f0c3ce80274bd9fb7028fc1a8950fe3"
+    }
+  ],
+  "code": [
+    "code/ch11_feedback.py"
+  ],
+  "lab": {
+    "path": "code/ch11_feedback.py",
+    "javascript": "assets/ch11-models.js",
+    "status": "validated",
+    "model": "Single-site equilibrium binding and normalized two-state negative feedback; analytic equilibrium and Euler integration.",
+    "parameters": "Explicitly synthetic; dimensionless model time, no patient calibration or hormone half-life."
+  },
+  "figures": [
+    {
+      "id": "ch11-fig1",
+      "path": "assets/ch11-thyroid-reference.jpg",
+      "figure_number": "11.1",
+      "status": "accepted",
+      "role": "Observed human H&E follicular organization; root acquired unchanged CC0 bytes, author inspected."
+    },
+    {
+      "id": "ch11-anim1",
+      "path": "assets/ch11-follicle.html",
+      "figure_number": "11.2",
+      "status": "accepted",
+      "role": "Three controlled mechanism views; ordered presentation stages, transport ports and finite fusion/retrieval openings."
+    },
+    {
+      "id": "ch11-anim2",
+      "path": "assets/ch11-feedback.html",
+      "figure_number": "11.3",
+      "status": "accepted",
+      "role": "Three synthetic perturbations; shared integrated states for plot, node shading and readout."
+    },
+    {
+      "id": "ch11-fig2",
+      "path": "chapter-11-thyroid-endocrine-disorders.html#ch11-fig2",
+      "figure_number": "11.4",
+      "status": "accepted",
+      "role": "Inline axis differential comparison with measurement limits."
+    }
+  ],
+  "code_validation": {
+    "python": "Equilibrium residuals, six 40-unit trajectories, positivity, zero-capacity limits, step refinement, binding accounting and invalid inputs passed.",
+    "parity": "Six Python/JavaScript analytic equilibria and three 20-unit trajectory endpoint objects identical in checked numeric fields.",
+    "controls": "Source-level DOM/RAF harness: 42 selected phase states, initial pause, scenario/seek, finite cargo geometry, play advancement, replay reset, reduced-motion change pause and visibility pause passed. Not browser evidence.",
+    "markup": "Three HTML pages pass shared Page parser: unique IDs, no duplicate attributes, existing local links/anchors. Both JS files pass node --check. Six relevant skill checks pass; 68 slash-delimited math segments separately checked for balanced braces and raw angle characters."
+  },
+  "quality": {
+    "coverage": "All 40 L24–25 dispositions, substantive late endocrine/diagnostic topics and six solutions assessed in two actual independent full reviews. Localized repairs independently checked by separately identified target checkers; bounded still/caption evidence is not continuous source viewing.",
+    "browser": "Actual browser/control/responsive/reduced-motion checks and bounded root print inspection; relevant observed imagery or justified conceptual diagrams, with source limits and separate failed CG prototypes preserved.",
+    "visual": "Photograph inspected; actual controlled-view rendering, motion and print inspection pending root. No anatomical reconstruction or photorealistic SVG claim.",
+    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed"
+  },
+  "limitations": [
+    "No dosing, individualized diagnosis or clinical treatment algorithm.",
+    "Model time, capacities and binding fractions are synthetic, not measured hormone kinetics or clinical intervals.",
+    "TRH collapsed into central capacity; separate T3/T4, binding dynamics, delays, circadian secretion, resistance, illness and assay interference omitted.",
+    "Microscopy has unknown donor/normal-disease status, no calibrated display scale; fissures/stain/optics do not prove pathology.",
+    "Nature research accessed at indexed abstract/extended-data depth after direct redirect failures. NIDDK primary-hyperparathyroidism page timed out and was not counted read.",
+    "Controls/markup tests do not establish actual browser, motion, anatomical or print quality."
+  ],
+  "coverage_basis": "All 40 L24–25 dispositions, substantive late endocrine/diagnostic topics and six solutions assessed in two actual independent full reviews. Localized repairs independently checked by separately identified target checkers; bounded still/caption evidence is not continuous source viewing.",
+  "realistic_asset_gate": {
+    "status": "accepted",
+    "reason": "Chapter-specific visual modality and delivered artifacts inspected under the user-selected workflow.",
+    "pilots": [
+      {
+        "version": 1,
+        "status": "failed",
+        "report": "work/ch11-realism-pilot/REPORT.md"
+      },
+      {
+        "version": 2,
+        "status": "failed",
+        "root_report": "work/ch11-realism-pilot-v2/root-verdict.json",
+        "root_report_sha256": "2fb2c72d7be30ff53f7ecc7981e0d3f1c119429d094f6d3aea16ca7363a3fbbe"
+      }
+    ],
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Human thyroid follicular organization and compartment mechanisms",
+    "rationale": "Observed human thyroid H&E directly supplies follicular tissue organization. Controlled topology snapshots and transport/feedback animations explain membrane sides and causal sequence with synthetic presentation time. Two new 3D prototypes failed appearance inspection and are excluded; observed tissue plus checked schematics is the selected final modality.",
+    "appearance_references": [
+      "assets/ch11-thyroid-reference.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch11-follicle.html",
+      "assets/ch11-feedback.html"
+    ],
+    "no_anatomical_appearance_claim": false,
+    "report_path": "work/browser/ch11-visual-modality.json",
+    "report_sha256": "c0f3153c6867f4b4145772975c4fb85858d6709c390334966fcdccba4b4f01c9"
+  },
+  "production_validation": {
+    "report_path": "work/browser/ch11-production-final.json",
+    "report_sha256": "fe267ec423fd45cf7a15977664e4006eeb91b04263ce40664b342fa28e9b7653",
+    "scope": "Actual browser/control/responsive/reduced-motion checks and bounded root print inspection; relevant observed imagery or justified conceptual diagrams, with source limits and separate failed CG prototypes preserved."
+  },
+  "accepted_at_utc": "2026-11-04T22:48:15.222Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-11.json",
+    "sha256": "5ae8b74ee5d4ea610684c385cef8777563340b047c765861a6f91d61914eb604"
+  }
+}

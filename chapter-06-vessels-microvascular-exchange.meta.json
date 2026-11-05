@@ -1,0 +1,164 @@
+{
+  "chapter": 6,
+  "title": "Blood vessels and microvascular exchange",
+  "status": "accepted",
+  "coverage_complete": true,
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch01_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual full independent scientific/editorial review plus targeted label-only repair check",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "083b0d32d035eb2e017b8c96e08915c770073f288bfe845b9788e1310c655573",
+      "artifact_sha256": {
+        "code/ch06_flow_exchange.py": "4a1c455bea68e50cd679a49201af6ae31d370c51c7cf5fbd293875a799407bfe",
+        "assets/ch06-models.js": "ebbe1b149baa9701bf91eb38144dea82d0d33da6f2afa943b8a18a1c79899575",
+        "assets/ch06-radius.html": "42dc9e68dd60573573346bc1126e8010ef3337f11dc332e70322b6f466eb7a93",
+        "assets/ch06-exchange.html": "1a29acd4039a647b78e20f389dcf85871a5978c78be3eecf6ba8e21bdf4a4713",
+        "assets/ch06-control.html": "80458efde516f0a85a220df25d0add6a6b6224b66adc092627c99e9f058cae18",
+        "assets/ch06-vessels.svg": "83849a07ef8e3e05afa4ef9d927ef44da21b8c48163715fa7bcca1533dccea49",
+        "assets/ch06-vessel-reference.jpg": "eca2d1e6be9bb6e87dc3c1994411ebb574a29d718263a81248e11079ad58ddcc",
+        "assets/ch06-vessel-reference.json": "939d3c8bdece1ef432767c06c7a6087484e397fce0f34663ccc75e861830d73d"
+      },
+      "report_path": "work/reviews/ch06-approved-a.md",
+      "report_sha256": "aa3d0505670a6d73a8395d6e7b6c78fdf4b32de9b5425b3c0012c13f27403291",
+      "original_full_report": "work/reviews/ch06-review-a.md",
+      "targeted_report": "work/reviews/ch06-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch01_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual full independent scientific/editorial review plus targeted label-only repair check",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "083b0d32d035eb2e017b8c96e08915c770073f288bfe845b9788e1310c655573",
+      "artifact_sha256": {
+        "code/ch06_flow_exchange.py": "4a1c455bea68e50cd679a49201af6ae31d370c51c7cf5fbd293875a799407bfe",
+        "assets/ch06-models.js": "ebbe1b149baa9701bf91eb38144dea82d0d33da6f2afa943b8a18a1c79899575",
+        "assets/ch06-radius.html": "42dc9e68dd60573573346bc1126e8010ef3337f11dc332e70322b6f466eb7a93",
+        "assets/ch06-exchange.html": "1a29acd4039a647b78e20f389dcf85871a5978c78be3eecf6ba8e21bdf4a4713",
+        "assets/ch06-control.html": "80458efde516f0a85a220df25d0add6a6b6224b66adc092627c99e9f058cae18",
+        "assets/ch06-vessels.svg": "83849a07ef8e3e05afa4ef9d927ef44da21b8c48163715fa7bcca1533dccea49",
+        "assets/ch06-vessel-reference.jpg": "eca2d1e6be9bb6e87dc3c1994411ebb574a29d718263a81248e11079ad58ddcc",
+        "assets/ch06-vessel-reference.json": "939d3c8bdece1ef432767c06c7a6087484e397fce0f34663ccc75e861830d73d"
+      },
+      "report_path": "work/reviews/ch06-approved-b.md",
+      "report_sha256": "71a876f9224567d10755d16651bce81d8ae3dc2f26d837b140ee1f4448be547b",
+      "original_full_report": "work/reviews/ch06-review-b.md",
+      "targeted_report": "work/reviews/ch06-targeted-b.md"
+    }
+  ],
+  "source_recordings": [
+    15
+  ],
+  "source_evidence": "Complete L15 captions read through closing questions. Relies on root documented bounded audit of four contact sheets (71 sampled stills) and five targeted frames; no duplicate or continuous video audit claimed.",
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, targeted repairs and separate actual browser/print checks.",
+  "code": [
+    "code/ch06_flow_exchange.py"
+  ],
+  "code_validation": "Executed Python ideal-flow dimensional/reversal/zero/radius/length/viscosity checks, classical +11/-7/zero-reflection checks, regional conservation/exhaustion checks and bounded synthetic controller. JS syntax and pure-state endpoint/midpoint/step/saturation checks passed. Static HTML attribute/ID/local-target checks passed. Browser interaction not claimed.",
+  "figures": [
+    {
+      "id": "ch6-fig1",
+      "path": "assets/ch06-vessels.svg",
+      "status": "accepted",
+      "role": "Original reference-informed shaded artery/vein sectional organization and separate flat capillary barrier comparison; uncalibrated."
+    },
+    {
+      "id": "ch6-vessel-photo",
+      "path": "assets/ch06-vessel-reference.jpg",
+      "provenance": "assets/ch06-vessel-reference.json",
+      "status": "accepted",
+      "role": "Actual verified elastin-stained artery photograph, unchanged CC BY 2.0, species/site/scale unknown; photographic tissue context only."
+    },
+    {
+      "id": "ch6-anim1",
+      "path": "assets/ch06-radius.html",
+      "script": "assets/ch06-models.js",
+      "status": "accepted",
+      "role": "One radius state synchronizes lumen, resistance and flow at fixed pressure."
+    },
+    {
+      "id": "ch6-anim2",
+      "path": "assets/ch06-exchange.html",
+      "script": "assets/ch06-models.js",
+      "status": "accepted",
+      "role": "Classical arithmetic and revised interface stages; no invented subglycocalyx kinetics."
+    },
+    {
+      "id": "ch6-anim3",
+      "path": "assets/ch06-control.html",
+      "script": "assets/ch06-models.js",
+      "status": "accepted",
+      "role": "Synthetic bounded flow stabilization under an imposed pressure step; synchronized pressure/resistance/flow state."
+    }
+  ],
+  "body_sha256": "083b0d32d035eb2e017b8c96e08915c770073f288bfe845b9788e1310c655573",
+  "reviewed_artifacts": [
+    {
+      "path": "code/ch06_flow_exchange.py",
+      "sha256": "4a1c455bea68e50cd679a49201af6ae31d370c51c7cf5fbd293875a799407bfe"
+    },
+    {
+      "path": "assets/ch06-models.js",
+      "sha256": "ebbe1b149baa9701bf91eb38144dea82d0d33da6f2afa943b8a18a1c79899575"
+    },
+    {
+      "path": "assets/ch06-radius.html",
+      "sha256": "42dc9e68dd60573573346bc1126e8010ef3337f11dc332e70322b6f466eb7a93"
+    },
+    {
+      "path": "assets/ch06-exchange.html",
+      "sha256": "1a29acd4039a647b78e20f389dcf85871a5978c78be3eecf6ba8e21bdf4a4713"
+    },
+    {
+      "path": "assets/ch06-control.html",
+      "sha256": "80458efde516f0a85a220df25d0add6a6b6224b66adc092627c99e9f058cae18"
+    },
+    {
+      "path": "assets/ch06-vessels.svg",
+      "sha256": "83849a07ef8e3e05afa4ef9d927ef44da21b8c48163715fa7bcca1533dccea49"
+    },
+    {
+      "path": "assets/ch06-vessel-reference.jpg",
+      "sha256": "eca2d1e6be9bb6e87dc3c1994411ebb574a29d718263a81248e11079ad58ddcc"
+    },
+    {
+      "path": "assets/ch06-vessel-reference.json",
+      "sha256": "939d3c8bdece1ef432767c06c7a6087484e397fce0f34663ccc75e861830d73d"
+    }
+  ],
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews plus targeted current-digest approvals",
+    "browser": "Actual supported HTTP reader/model checks and inspected private print proof; scope and limits in production report",
+    "photographic_context": "Actual photographed artery wall integrated with scoped credit/limits; no photorealistic 3D claim."
+  },
+  "limitations": [
+    "Ideal rigid Newtonian laminar tube does not resolve real capillary cell mechanics or pulsatility.",
+    "Classical source values are arithmetic-consistent; fixed pressures do not establish general in-vivo exchange.",
+    "Revised interface account does not predict human flux kinetics from fixed oncotic pressures.",
+    "Regional constant-rate accounting is a finite short-interval teaching construction; no tissue compliance or variable drainage.",
+    "Autoregulation time constant, pressure ratios and resistance bounds are synthetic; no clinical thresholds.",
+    "Sampled source visual audit is bounded; clinical terms do not form a diagnostic or treatment algorithm.",
+    "Arterial photograph has no verified species/site, scale or live-flow information."
+  ],
+  "body_digest_convention": "SHA256 of raw bytes strictly between exact body markers, preserving enclosed line endings",
+  "coverage_basis": "All13 topic dispositions and six worked solutions assessed by both full reviewers; complete captions plus bounded source still evidence, not continuous recording inspection.",
+  "production_validation": {
+    "report_path": "work/browser/ch06-production-bridge.json",
+    "report_sha256": "f5680cbaacb28377e589e3c849f84a451448638164f76b3fae1a182d58911731",
+    "scope": "Historical actual production evidence plus current scientific-artifact identity and a separate bounded current reader reinspection."
+  },
+  "accepted_at_utc": "2026-11-04T20:23:57.046Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-06.json",
+    "sha256": "185c6ba6f01b85aaaffd2740750fad78a51029d2fc524eb0c1770920d8a6813a"
+  }
+}

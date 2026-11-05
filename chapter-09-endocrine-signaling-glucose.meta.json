@@ -1,0 +1,219 @@
+{
+  "chapter": 9,
+  "title": "Endocrine signaling and glucose homeostasis",
+  "status": "accepted",
+  "coverage_complete": true,
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch01_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full review plus targeted transporter recruitment/motion and completed-fusion geometry repairs",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "a3b8c3c053f0b7f7a61d31d1f9959b2260c3ec646846e93d388df6831b20d76d",
+      "artifact_sha256": {
+        "assets/ch09-axis.html": "513343360fbd91cedae4e36149a9003df1abe09ea3059e51d18662454c6b29b6",
+        "assets/ch09-insulin.html": "f7ac23d4acc0c57e9751fa73eca3f0572c384aa8d2a91213203bab1bdec2f8d1",
+        "assets/ch09-meal.html": "4cc3280125b7a9fbd5cd2896864768daae35458f330d14e080d771ae94011648",
+        "assets/ch09-models.js": "a918fec8899c0c6e274978cf969e7e12a9051514b683803a91b5866c7b9665fd",
+        "assets/ch09-controls.js": "bc3567a6458215857b705a5cfee77fe0dbf53ff5490e40d9e5353d08eaba06f3",
+        "assets/ch09-gland-map.svg": "0b00871df71922f32bdbefe9fff85cb240407a5e2c62e840267e9b4dd50bfb19",
+        "assets/ch09-islet-reference.jpg": "c884d920493b4fffb58361717d1fd85fb3913b34d7f950429147877c9c7e8d51",
+        "assets/ch09-islet-reference.json": "cd1a75cbbc05bba5801ed373adca9dff0be1bd223a1ad34ac8d0a4b8539cac81",
+        "code/ch09_glucose_balance.py": "aedd27fd7702a6fc856e3638745cdee50dade03560ffd418c79d24f09afb03ab"
+      },
+      "report_path": "work/reviews/ch09-approved-a.md",
+      "report_sha256": "86926ce05957116e8416c78f372281ad94d4c5598867c26f972832d0ed347d3b",
+      "original_full_report": "work/reviews/ch09-review-a.md",
+      "targeted_report": "work/reviews/ch09-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch01_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full review plus targeted transporter recruitment/motion and completed-fusion geometry repairs",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "a3b8c3c053f0b7f7a61d31d1f9959b2260c3ec646846e93d388df6831b20d76d",
+      "artifact_sha256": {
+        "assets/ch09-axis.html": "513343360fbd91cedae4e36149a9003df1abe09ea3059e51d18662454c6b29b6",
+        "assets/ch09-insulin.html": "f7ac23d4acc0c57e9751fa73eca3f0572c384aa8d2a91213203bab1bdec2f8d1",
+        "assets/ch09-meal.html": "4cc3280125b7a9fbd5cd2896864768daae35458f330d14e080d771ae94011648",
+        "assets/ch09-models.js": "a918fec8899c0c6e274978cf969e7e12a9051514b683803a91b5866c7b9665fd",
+        "assets/ch09-controls.js": "bc3567a6458215857b705a5cfee77fe0dbf53ff5490e40d9e5353d08eaba06f3",
+        "assets/ch09-gland-map.svg": "0b00871df71922f32bdbefe9fff85cb240407a5e2c62e840267e9b4dd50bfb19",
+        "assets/ch09-islet-reference.jpg": "c884d920493b4fffb58361717d1fd85fb3913b34d7f950429147877c9c7e8d51",
+        "assets/ch09-islet-reference.json": "cd1a75cbbc05bba5801ed373adca9dff0be1bd223a1ad34ac8d0a4b8539cac81",
+        "code/ch09_glucose_balance.py": "aedd27fd7702a6fc856e3638745cdee50dade03560ffd418c79d24f09afb03ab"
+      },
+      "report_path": "work/reviews/ch09-approved-b.md",
+      "report_sha256": "6d29adb755ae4124d28775c1fcd599a8b8c3bdf8935711272d2e3c81bd78bc27",
+      "original_full_report": "work/reviews/ch09-review-b.md",
+      "targeted_report": "work/reviews/ch09-targeted-b.md"
+    }
+  ],
+  "source_recordings": [
+    20,
+    21
+  ],
+  "source_evidence": "Both complete private caption texts read. Separate audit reused: six contact sheets/102 sampled stills plus eight individual frames, not continuous audio/video. Author directly inspected delivered islet JPEG; no repeat source-frame inspection claimed.",
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "code": [
+    "code/ch09_glucose_balance.py"
+  ],
+  "lab": {
+    "path": "code/ch09_glucose_balance.py",
+    "javascript": "assets/ch09-models.js",
+    "status": "validated",
+    "model": "Five glucose-equivalent carbon pools; finite gut/liver/precursor, accumulated use and action-index feedback. Sensitivity changes one utilization term only.",
+    "parameters": "All coefficients, volume, action indices and input stocks synthetic; no patient fitting or dosing."
+  },
+  "code_validation": {
+    "python": "15 trajectories: glucose-equivalent conservation <1e-9g, nonnegative stocks, monotone cumulative use, zero-input and zero-duration limits, invalid sensitivity rejection; dt refinement final concentration difference <0.005mmol/L.",
+    "parity": "Six full Python/JS state objects matched exactly. JS also checked15 trajectories/36015 states for conserved/nonnegative material pools.",
+    "controls": "Isolated DOM/RAF harness passed paused start,next/back,advancing play,replay,seek,reduced-motion/visibility pause,keyboard pan and relevant mode reset. This is not browser evidence.",
+    "markup": "JS node --check passed. Chapter plus3 standaloneHTMLfiles and originalSVG passed shared Page parser unique IDs,no duplicate attributes,local resource/anchor checks. Math/prose/SVG skill checks run; root actual browser QA pending."
+  },
+  "figures": [
+    {
+      "id": "ch9-anim1",
+      "path": "assets/ch09-axis.html",
+      "figure_number": "9.2",
+      "status": "accepted",
+      "role": "Staged HPA feedback; selectable calcium/PTH coordination. Presentation phase,not physical kinetics."
+    },
+    {
+      "id": "ch9-anim2",
+      "path": "assets/ch09-insulin.html",
+      "figure_number": "9.4",
+      "status": "accepted",
+      "role": "Receptor/signaling/GLUT4 sequence in muscle/adipose; tissue-specific comparison. No insulin-glucose carrier."
+    },
+    {
+      "id": "ch9-anim3",
+      "path": "assets/ch09-meal.html",
+      "figure_number": "9.5",
+      "status": "accepted",
+      "role": "Physical synthetic0–240min trajectory with synchronized stocks,fluxes,time cursor,glucose and separate action-index plots."
+    },
+    {
+      "id": "ch9-fig1",
+      "path": "assets/ch09-gland-map.svg",
+      "figure_number": "9.1",
+      "status": "accepted",
+      "role": "Original reference-informed schematic regional locator with separate sagittalbrain/posterior-thyroid insets and alternative gonadal locators."
+    },
+    {
+      "id": "ch9-fig2",
+      "path": "assets/ch09-islet-reference.jpg",
+      "figure_number": "9.3",
+      "status": "accepted",
+      "role": "Unchanged1600x1200 prepared human section; uploader identifies red glucagon/blue insulin antibody signals. CC BY-SA3.0; no universal architecture inference."
+    }
+  ],
+  "body_sha256": "a3b8c3c053f0b7f7a61d31d1f9959b2260c3ec646846e93d388df6831b20d76d",
+  "body_digest_convention": "SHA256 over raw file bytes strictly between BEGIN/END CHAPTER BODY marker bytes,including enclosed newlines; no normalization.",
+  "artifact_sha256": {
+    "assets/ch09-axis.html": "513343360fbd91cedae4e36149a9003df1abe09ea3059e51d18662454c6b29b6",
+    "assets/ch09-insulin.html": "f7ac23d4acc0c57e9751fa73eca3f0572c384aa8d2a91213203bab1bdec2f8d1",
+    "assets/ch09-meal.html": "4cc3280125b7a9fbd5cd2896864768daae35458f330d14e080d771ae94011648",
+    "assets/ch09-models.js": "a918fec8899c0c6e274978cf969e7e12a9051514b683803a91b5866c7b9665fd",
+    "assets/ch09-controls.js": "bc3567a6458215857b705a5cfee77fe0dbf53ff5490e40d9e5353d08eaba06f3",
+    "assets/ch09-gland-map.svg": "0b00871df71922f32bdbefe9fff85cb240407a5e2c62e840267e9b4dd50bfb19",
+    "assets/ch09-islet-reference.jpg": "c884d920493b4fffb58361717d1fd85fb3913b34d7f950429147877c9c7e8d51",
+    "assets/ch09-islet-reference.json": "cd1a75cbbc05bba5801ed373adca9dff0be1bd223a1ad34ac8d0a4b8539cac81",
+    "code/ch09_glucose_balance.py": "aedd27fd7702a6fc856e3638745cdee50dade03560ffd418c79d24f09afb03ab"
+  },
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch09-axis.html",
+      "sha256": "513343360fbd91cedae4e36149a9003df1abe09ea3059e51d18662454c6b29b6"
+    },
+    {
+      "path": "assets/ch09-insulin.html",
+      "sha256": "f7ac23d4acc0c57e9751fa73eca3f0572c384aa8d2a91213203bab1bdec2f8d1"
+    },
+    {
+      "path": "assets/ch09-meal.html",
+      "sha256": "4cc3280125b7a9fbd5cd2896864768daae35458f330d14e080d771ae94011648"
+    },
+    {
+      "path": "assets/ch09-models.js",
+      "sha256": "a918fec8899c0c6e274978cf969e7e12a9051514b683803a91b5866c7b9665fd"
+    },
+    {
+      "path": "assets/ch09-controls.js",
+      "sha256": "bc3567a6458215857b705a5cfee77fe0dbf53ff5490e40d9e5353d08eaba06f3"
+    },
+    {
+      "path": "assets/ch09-gland-map.svg",
+      "sha256": "0b00871df71922f32bdbefe9fff85cb240407a5e2c62e840267e9b4dd50bfb19"
+    },
+    {
+      "path": "assets/ch09-islet-reference.jpg",
+      "sha256": "c884d920493b4fffb58361717d1fd85fb3913b34d7f950429147877c9c7e8d51"
+    },
+    {
+      "path": "assets/ch09-islet-reference.json",
+      "sha256": "cd1a75cbbc05bba5801ed373adca9dff0be1bd223a1ad34ac8d0a4b8539cac81"
+    },
+    {
+      "path": "code/ch09_glucose_balance.py",
+      "sha256": "aedd27fd7702a6fc856e3638745cdee50dade03560ffd418c79d24f09afb03ab"
+    }
+  ],
+  "quality": {
+    "scientific_reviews": "Two actual full independent reviews and targeted current-digest approvals passed",
+    "browser": "Actual browser/control/responsive/reduced-motion checks and bounded root print inspection; relevant observed imagery or justified conceptual diagrams, with source limits and separate failed CG prototypes preserved.",
+    "coverage": "All 32 topic dispositions, substantive late gland/fasting topics and six solutions assessed in both full reviews; source evidence is complete captions plus attributed bounded still audit, not continuous audio/video."
+  },
+  "limitations": [
+    "No patient calibration,diagnostic calculator,dosing or clinical fasting recommendation.",
+    "Synthetic model conserves glucose-equivalent carbon bookkeeping,not wet chemical mass; finite precursor pool not a measured organ.",
+    "No explicit renal glucose production/loss,muscle/adipose stores,ketones,neural/incretin states or prolonged adaptation.",
+    "Mechanism and anatomy are explicitly schematic; no measured molecular kinetics or photorealistic anatomy claimed.",
+    "Some primary paper claims accessed at indexed abstract depth only; IDF figures historical2021,not current burden.",
+    "Islet photo source lacks specimen age/health/scale and detailed antibody validation; one section not universalhumanislet architecture.",
+    "SCI007 PTH direction confirmed,not falsely corrected; SCI008 carrier metaphor corrected and vaccine-causation inference excluded."
+  ],
+  "coverage_basis": "All 32 topic dispositions, substantive late gland/fasting topics and six solutions assessed in both full reviews; source evidence is complete captions plus attributed bounded still audit, not continuous audio/video.",
+  "production_validation": {
+    "report_path": "work/browser/ch09-production-final.json",
+    "report_sha256": "d4bdc41cb1c20f0a13fbf99e72e2d40243ab64997213747963bec200b1470457",
+    "scope": "Actual browser/control/responsive/reduced-motion checks and bounded root print inspection; relevant observed imagery or justified conceptual diagrams, with source limits and separate failed CG prototypes preserved."
+  },
+  "accepted_at_utc": "2026-11-04T22:48:15.114Z",
+  "acceptance_reopened": {
+    "reason": "Explicit WORKFLOW.md Chapters9–25 realistic new-scene still/motion inspection has no bound acceptance record. Scientific approvals and actual UI/print evidence preserved.",
+    "previous_status": "accepted",
+    "recorded_at_utc": "2026-11-04T21:58:27.908Z",
+    "resolved_by": "Explicit user-selected modality and hash-bound chapter-specific visual inspection."
+  },
+  "realistic_asset_gate": {
+    "status": "accepted",
+    "reason": "Chapter-specific visual modality and delivered artifacts inspected under the user-selected workflow.",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Endocrine tissue organization and signaling",
+    "rationale": "Observed human islet immunostaining supplies directly relevant cellular tissue context; source-informed locators and controlled SVG signaling/metabolic models explain topology and dynamics. A newly fabricated photorealistic cellular reconstruction would not add evidence. Prepared stain identity and specimen limits are explicit.",
+    "appearance_references": [
+      "assets/ch09-islet-reference.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch09-axis.html",
+      "assets/ch09-insulin.html",
+      "assets/ch09-meal.html"
+    ],
+    "no_anatomical_appearance_claim": false,
+    "report_path": "work/browser/ch09-visual-modality.json",
+    "report_sha256": "ecd9efaca2427f6555efea5fea3cdfbd857099a241f5c74f20305fae0fa73a76"
+  },
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-09.json",
+    "sha256": "9006170b5cc5bb582661137e306e60cc1de6d8c24855ffe0eca3688ec042d5f8"
+  }
+}

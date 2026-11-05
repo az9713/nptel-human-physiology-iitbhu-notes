@@ -1,0 +1,20 @@
+sources:
+  - id: NPTEL-102106670
+    title: Human Physiology
+    instructor: Sudip Mukherjee
+    institution: IIT (BHU) Varanasi
+    url: https://nptel.ac.in/courses/102106670
+    local_private_snapshot: sources/official-course.html
+    syllabus_private: sources/syllabus.pdf
+    status: course identity and60-lesson order verified
+  - id: SOURCE-RECORDINGS
+    manifest: source-manifest.json
+    inventory: lecture-inventory.csv
+    coverage: all60 English caption tracks acquired; publisher delivery does not establish human authorship
+    visual_evidence: acquisition in progress; per-lecture review required
+  - id: HRA-ORGANS
+    title: Human Reference Atlas 3D Reference Object Library
+    url: https://humanatlas.io/3d-reference-library
+    status: candidate geometry source; chosen assets require entry-level provenance and inspection
+  - id: BIOLOGY-VERIFICATION
+    status: section-specific authoritative sources and original research tracked in private verification memos; publish only supported claim citations

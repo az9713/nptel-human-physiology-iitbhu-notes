@@ -1,0 +1,31 @@
+{
+  "title": "Osteocyte in cortical bone, SEM",
+  "creator": "Kevin Mackenzie, University of Aberdeen",
+  "source": "Wellcome Collection",
+  "accession": "B0010321",
+  "owning_record": "https://wellcomecollection.org/works/hn3dgb4m",
+  "owning_catalogue_api": "https://api.wellcomecollection.org/catalogue/v2/works/hn3dgb4m?include=items",
+  "iiif_info": "https://iiif.wellcomecollection.org/image/B0010321/info.json",
+  "download_url": "https://iiif.wellcomecollection.org/image/B0010321/full/2953,/0/default.jpg",
+  "downloaded_utc": "2026-11-04T23:19:05.638Z",
+  "license": {
+    "name": "Creative Commons Attribution4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "basis": "Actual owning record and catalogue item license; no inherited CIL notice used."
+  },
+  "file": "assets/ch14-osteocyte-reference.jpg",
+  "sha256": "57813d93a9e23600963513de7186bef309d5c37ef5c5fc652243120e944267be",
+  "native_dimensions": {
+    "width": 2953,
+    "height": 2112
+  },
+  "modality": "Serial-section scanning electron microscopy reconstruction with digital false color",
+  "physical_field_width_micrometres": 25,
+  "preparation": "Serial sections of cortical bone imaged by SEM and reconstructed; further preparation details not supplied in accessed catalogue.",
+  "species": "not specified in owning catalogue",
+  "donor_condition": "not specified",
+  "anatomical_site": "cortical bone; exact bone/site not specified",
+  "color": "Digitally added false color; blue osteocyte reconstruction, not natural tissue color.",
+  "modifications": "Downloaded at catalogue native width2953; no crop, color modification or upscale.",
+  "evidence_limits": "Observed reconstructed cell/process spatial context only. Does not measure fluid flow, mechanotransduction dynamics, mineralization, stiffness, molecular interactions or living colors. Preparation/segmentation may influence appearance. No species/healthy-donor inference."
+}

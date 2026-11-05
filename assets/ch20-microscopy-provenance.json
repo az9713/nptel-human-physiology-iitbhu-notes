@@ -1,0 +1,35 @@
+{
+  "access_date": "2026-11-04",
+  "items": [
+    {
+      "asset": "assets/ch20-human-blastocyst.jpg",
+      "source_record": "https://wellcomecollection.org/works/scfp2gf2",
+      "author_credit": "K. Hardy; Wellcome Collection",
+      "license": "CC BY 4.0",
+      "native_dimensions": [
+        3992,
+        2667
+      ],
+      "bytes": 1179139,
+      "sha256": "64dce1a8ca9f82da0d1ba8092f3c60af00056ec76b3179b2b29f3af453e9f8c7",
+      "preparation_and_observation": "Human blastocyst hatching from zona pellucida; light micrograph; catalogue says about six days after fertilization and embryo size about 0.3 mm.",
+      "evidence_limits": "Prepared static micrograph, not a time lapse, viability assay, proof of implantation, or general stage clock.",
+      "modified": false
+    },
+    {
+      "asset": "assets/ch20-chorionic-villus-term.jpg",
+      "source_record": "https://commons.wikimedia.org/wiki/File:Histology_of_chorionic_villus_at_term,_annotated.jpg",
+      "author_credit": "Mikael Häggström",
+      "license": "CC0 1.0",
+      "native_dimensions": [
+        4996,
+        4893
+      ],
+      "bytes": 2630842,
+      "sha256": "dd885787ec8bdfe2e57201ab269edc704acec8f0206a3fae43b1aef19903f80c",
+      "preparation_and_observation": "Human term chorionic villus, H&E annotated micrograph; maternal blood outside villus, fetal capillary blood inside.",
+      "evidence_limits": "Term section cannot represent first-week implantation or quantify transport flux; stain is not live color; no measured scale claimed.",
+      "modified": false
+    }
+  ]
+}

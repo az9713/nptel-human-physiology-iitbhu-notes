@@ -1,0 +1,26 @@
+{
+  "title": "Villi from the small intestine",
+  "creator": "S. Schuller",
+  "source_url": "https://wellcomecollection.org/works/s39bfr8e",
+  "catalogue_api_url": "https://api.wellcomecollection.org/catalogue/v2/works/s39bfr8e?include=items",
+  "accession": "B0007180",
+  "download_url": "https://iiif.wellcomecollection.org/image/B0007180/full/1024,/0/default.jpg",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "acquired_at_utc": "2026-11-04T21:01:26.722Z",
+  "local_file": "assets/ch12-villi-reference.jpg",
+  "width": 1024,
+  "height": 1024,
+  "bytes": 478336,
+  "sha256": "4cf0be725da031e221ff8f43fe75c64fcc5a98eb18a96eb717bfc9d0b479dc8a",
+  "changes": "Archive IIIF derivative downloaded at native1024px width; no local crop, color change or upscaling",
+  "identification_basis": "Owning catalogue identifies human small-intestinal mucosa cryosections, with green integrin, blue cytokeratin and red nuclei signals.",
+  "root_observation": "Finger-like tissue projections with blue epithelial borders, numerous red nuclei and green signal along portions of the margins and internal tissue.",
+  "source_access": "Owning HTML challenged direct web access; public owning catalogue API, image location license and IIIF native dimensions were read directly. Indexed owning description also checked.",
+  "limits": [
+    "Donor condition, exact intestinal segment, detailed protocol and calibrated physical scale not established.",
+    "Assigned marker colors are not natural living tissue colors; integrin signal also occurs in stromal cells.",
+    "Photo does not identify individual GLUT/SGLT transporters or resolve transport kinetics, brush-border microvilli or clinical disease."
+  ],
+  "acquisition_status": "Acquired for later Chapter12 integration; scientific/production acceptance separate"
+}

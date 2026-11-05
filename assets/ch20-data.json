@@ -1,0 +1,52 @@
+{
+  "schema": "ch20-presentation-v1",
+  "clock": "presentation seconds only; no physiological duration or measured trajectory",
+  "modes": {
+    "cycle": {
+      "title": "Ovary–uterus feedback",
+      "image": "ch20-cycle.svg",
+      "viewBox": "0 0 1100 650",
+      "phases": [
+        {"label":"Hypothalamic input", "detail":"Pulsatile GnRH reaches anterior-pituitary gonadotropes through portal blood.", "from":[240,146],"to":[310,146],"tag":"GnRH"},
+        {"label":"Two-cell steroid route", "detail":"LH supports theca androgen; FSH supports granulosa aromatase. Androgen crosses between cells.", "from":[720,185],"to":[720,260],"tag":"androgen"},
+        {"label":"Feedback changes", "detail":"Sustained high estradiol in the late-follicular context supports the LH surge; this is not a fixed one-number switch.","from":[965,260],"to":[965,75],"tag":"E₂ feedback"},
+        {"label":"Luteal support", "detail":"Luteinized granulosa and theca populations produce progesterone and estradiol.","from":[825,493],"to":[870,493],"tag":"progesterone"},
+        {"label":"Conditional endometrium", "detail":"Without hCG rescue, steroid withdrawal permits shedding; with established implantation, luteal support persists.","from":[965,450],"to":[965,345],"tag":"branch"}
+      ]
+    },
+    "implantation": {
+      "title":"Fertilization → implantation",
+      "image":"ch20-fertilization.svg",
+      "viewBox":"0 0 1000 650",
+      "phases":[
+        {"label":"Tubal encounter", "detail":"Capacitated sperm interacts with cumulus and zona before oolemma fusion; ampulla is usual, not exclusive.","from":[60,338],"to":[250,338],"tag":"contact"},
+        {"label":"Activation and pronuclei", "detail":"Fusion precedes Ca²⁺-linked activation and completion of meiosis II; parental pronuclei are initially distinct.","from":[262,338],"to":[475,338],"tag":"n + n"},
+        {"label":"Cleavage and transit", "detail":"Mitotic blastomere divisions occur as the embryo travels; cell number does not specify exact age.","from":[480,338],"to":[695,338],"tag":"cleavage"},
+        {"label":"Blastocyst", "detail":"Outer trophectoderm, inner cell mass and blastocoel are distinct; hatching precedes implantation.","from":[700,338],"to":[940,338],"tag":"blastocyst"},
+        {"label":"Apposition and invasion", "detail":"Trophoblast attaches to and invades receptive endometrium; implantation is not passive diffusion.","from":[840,376],"to":[840,450],"tag":"~end week 1"}
+      ]
+    },
+    "placenta": {
+      "title":"Separate maternal/fetal flow",
+      "image":"ch20-placenta.svg",
+      "viewBox":"0 0 1000 650",
+      "phases":[
+        {"label":"Maternal compartment", "detail":"Maternal blood is outside villi in the intervillous space; the sampled image is a term H&E section.","from":[80,230],"to":[370,230],"tag":"maternal blood"},
+        {"label":"Oxygen/nutrient exchange", "detail":"Selected solutes cross the villous boundary toward fetal capillary blood; whole blood streams remain separate.","from":[380,200],"to":[600,200],"tag":"toward fetus"},
+        {"label":"Fetal compartment", "detail":"Fetal blood flows in villous capillaries connected to umbilical vessels, not directly into maternal vessels.","from":[610,230],"to":[920,230],"tag":"fetal blood"},
+        {"label":"Reverse solute exchange", "detail":"Carbon dioxide and some wastes move net toward maternal blood; this drawing has no measured flux.","from":[600,265],"to":[380,265],"tag":"toward mother"}
+      ]
+    },
+    "labor": {
+      "title":"Labor and delivery events",
+      "image":"ch20-labor.svg",
+      "viewBox":"0 0 1000 600",
+      "phases":[
+        {"label":"Cervical remodeling", "detail":"Effacement and dilation are different changes during the first labor stage.","from":[50,260],"to":[220,260],"tag":"stage 1"},
+        {"label":"Complete dilation", "detail":"About 10 cm defines complete dilation in standard staging, not 10–15 cm.","from":[275,260],"to":[460,260],"tag":"boundary"},
+        {"label":"Infant birth", "detail":"The second stage ends with infant birth; presentation and clinical context affect the route.","from":[515,260],"to":[700,260],"tag":"stage 2"},
+        {"label":"Placenta delivery", "detail":"Placental separation and delivery form the third stage, distinct from infant birth.","from":[755,260],"to":[940,260],"tag":"stage 3"}
+      ]
+    }
+  }
+}

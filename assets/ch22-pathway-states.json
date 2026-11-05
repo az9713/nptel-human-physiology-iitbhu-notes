@@ -1,0 +1,1640 @@
+{
+  "scope": "Original presentation clock and synthetic constant-delay example; not observed kinetics",
+  "parameters": {
+    "afferentLength": 0.6,
+    "afferentVelocity": 30,
+    "motorLength": 0.5,
+    "motorVelocity": 50,
+    "ascendingLength": 1,
+    "ascendingVelocity": 20,
+    "localDelay": 4,
+    "effectorDelay": 5,
+    "centralDelay": 6
+  },
+  "arrivals": {
+    "branch": 20,
+    "local": 24,
+    "motor": 34,
+    "effector": 39,
+    "ascending": 70,
+    "central": 76
+  },
+  "frames": [
+    {
+      "t": 0,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 1,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 2,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 3,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 4,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 5,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 6,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 7,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 8,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 9,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 10,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 11,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 12,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 13,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 14,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 15,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 16,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 17,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 18,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 19,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Afferent route"
+    },
+    {
+      "t": 20,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 21,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 22,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 23,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 24,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 25,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 26,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 27,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 28,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 29,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 30,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 31,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 32,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 33,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 34,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 35,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 36,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 37,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 38,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": false,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local and ascending branches"
+    },
+    {
+      "t": 39,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 40,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 41,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 42,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 43,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 44,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 45,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 46,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 47,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 48,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 49,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 50,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 51,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 52,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 53,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 54,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 55,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 56,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 57,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 58,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 59,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 60,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 61,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 62,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 63,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 64,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 65,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 66,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 67,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 68,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 69,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": false,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 70,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 71,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 72,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 73,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 74,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 75,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": false,
+      "phase": "Local response; ascending information continues"
+    },
+    {
+      "t": 76,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 77,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 78,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 79,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 80,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 81,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 82,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 83,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 84,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 85,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 86,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 87,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 88,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 89,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 90,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 91,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 92,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 93,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 94,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 95,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 96,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 97,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 98,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 99,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    },
+    {
+      "t": 100,
+      "mode": "reflex",
+      "events": {
+        "branch": 20,
+        "local": 24,
+        "motor": 34,
+        "effector": 39,
+        "ascending": 70,
+        "central": 76
+      },
+      "localResponse": true,
+      "brainwardInformation": true,
+      "centralProcessingComplete": true,
+      "phase": "Information and output reached selected targets"
+    }
+  ]
+}

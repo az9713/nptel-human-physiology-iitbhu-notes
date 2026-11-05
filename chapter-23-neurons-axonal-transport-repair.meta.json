@@ -1,0 +1,470 @@
+{
+  "chapter": 23,
+  "title": "Neurons, axonal transport and nerve repair",
+  "status": "accepted",
+  "coverage_complete": true,
+  "source_recordings": [
+    54,
+    55
+  ],
+  "source_evidence": "Full L54–55 publisher captions and 32 assigned topics through closing activities; inherited bounded visual audit of 8 sheets, 137 sampled stills, 24 selected native frames; no continuous video/audio.",
+  "source_files": [
+    {
+      "path": "sources/transcripts/54-9g9R1jzZ2QM.txt",
+      "sha256": "d2280d2dacce1af9e38c78a16221c68b39d7c23c4321e3150aa7ea74805ed286"
+    },
+    {
+      "path": "sources/transcripts/55-QZOF-WOV1fQ.txt",
+      "sha256": "0457eaaf566499264f5a6f9101e44a671a9ed299921556ca5714493922474ab9"
+    }
+  ],
+  "coverage_topics": [
+    {
+      "id": "L54-T01",
+      "source_topic_anchor": "01:50",
+      "disposition": "Teach neuron and chemical/electrical synapse with explicit pre/post compartments. Caption's “nerve is a coiled group of whole neurons” is wrong; a PNS nerve is axon bundles with glial, connective and vascular components.",
+      "anchor": "ch23-s1",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L54-T02",
+      "source_topic_anchor": "04:21",
+      "disposition": "Teach dendrite, soma, axon initial segment, myelin/node and presynaptic terminal. A single multipolar diagram is representative, not all neurons; hillock versus trigger segment must be distinguished.",
+      "anchor": "ch23-s1",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L54-T03",
+      "source_topic_anchor": "08:01",
+      "disposition": "Teach dendritic ligand-gated channels and metabotropic GPCRs; “G-coupled” caption terminology is imprecise and not every dendrite is a passive antenna. Receptor binding is not universal uptake.",
+      "anchor": "ch23-s1",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L54-T04",
+      "source_topic_anchor": "09:31",
+      "disposition": "Teach soma nucleus/ribosomes/ER/Golgi roles. Local axonal translation exists for some products, so “all protein synthesis in soma” would overstate the diagram.",
+      "anchor": "ch23-s1",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L54-T05",
+      "source_topic_anchor": "10:13",
+      "disposition": "Teach DNA **transcription** → mRNA → ribosomal translation → protein sorting, with L54 native `f0022` as slide evidence. Caption 10:40/11:25 inserts replication as required, incorrectly; DNA replication is not required for routine neuronal protein synthesis. Nucleus does not itself translate protein. Some transmitters are small molecules, not proteins.",
+      "anchor": "ch23-s1",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L54-T06",
+      "source_topic_anchor": "12:26",
+      "disposition": "Teach myelin internodes and exposed nodes for membrane conduction; do not depict actual action potential teleportation or mix it with molecular cargo. Specify Schwann (PNS) versus oligodendrocyte (CNS) myelin.",
+      "anchor": "ch23-s2",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L54-T07",
+      "source_topic_anchor": "13:51",
+      "disposition": "Teach microtubule-polarity-based kinesin anterograde and dynein retrograde **as the cited exemplars**, with cargo-specific adapters. Native `f0029` confirms direction; not all axonal material is a transmitter vesicle, and local recycling occurs.",
+      "anchor": "ch23-s2",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L54-T08",
+      "source_topic_anchor": "15:51",
+      "disposition": "Teach retrograde injury signaling and anterograde delivery of new material as distinct traffic. Native `f0036/f0039` annotate both. Caption 17:53 assigns outward healing cargo to dynein, contradicting its own earlier definition; correct to outward kinesin-family transport in this teaching schematic. Growth factors can signal via endosomes; avoid an all-purpose literal healing-protein narrative.",
+      "anchor": "ch23-s2",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L54-T09",
+      "source_topic_anchor": "18:33",
+      "disposition": "Teach viral exploitation of axonal transport only with **virus-, receptor-, cell- and direction-specific** caveats. Native `f0033` groups polio/rabies/herpes as one mechanism; captions claim all fuse with nucleus/change genes. Rabies and poliovirus are RNA viruses with distinct replication biology; do not universalize nuclear fusion or clinical course.",
+      "anchor": "ch23-s2",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L54-T10",
+      "source_topic_anchor": "20:53",
+      "disposition": "Teach saltatory conduction as local internodal current and nodal regeneration; native `f0043` gives up-to-120 vs 0.5–10 m/s as broad class figures. Speed depends on diameter, temperature, myelin and fiber class; neither number is an invariant. A millisecond voltage event is not the same clock as cargo transport or days-long repair.",
+      "anchor": "ch23-s2",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L54-T11",
+      "source_topic_anchor": "22:43",
+      "disposition": "Teach presynaptic AP → voltage-gated Ca²⁺ entry → primed SNARE-mediated vesicle fusion and synaptotagmin Ca²⁺ sensing, then transmitter binding to postsynaptic receptors. Native `f0047` correctly labels the axon terminal presynaptic; caption 23:49 calls it postsynaptic, and 22:57 says Ca²⁺ binds SNARE as the trigger. Clearance is transmitter-dependent (transporters, enzymatic breakdown, diffusion/glia), not universal dynein return to soma/lysosomal amino acids.",
+      "anchor": "ch23-s1",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L54-T12",
+      "source_topic_anchor": "26:40",
+      "disposition": "Teach multipolar, bipolar and **pseudounipolar** morphologies; native `f0055` multipolar and contact-sheet bipolar/unipolar cartoon. Human primary somatosensory ganglion neurons are pseudounipolar, not a simple one-process unipolar class. Retina contains bipolar interneurons, with location/function specified.",
+      "anchor": "ch23-s1",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L54-T13",
+      "source_topic_anchor": "28:29",
+      "disposition": "Teach afferent, efferent and interneuron as pathway roles, not rigid shape categories. Native `f0059` says “unipolar” sensory; qualify human pseudounipolar and distinguish somatic/autonomic motor fibers.",
+      "anchor": "ch23-s1",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L54-T14",
+      "source_topic_anchor": "29:23",
+      "disposition": "Teach endoneurium around individual **axons**, perineurium around fascicles, epineurium around the nerve. Native `f0065` gives a mostly correct written hierarchy but calls the extracted object “neurone”; no soma is normally in each axonal fascicle cross section.",
+      "anchor": "ch23-s1",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L54-T15",
+      "source_topic_anchor": "31:40",
+      "disposition": "Teach why endoneurial tubes/fascicular organization constrain repair. Caption's “doctor fuses perineuria” is overliteral and not a general operation/recovery guarantee. **Late L54 activity visibly confirmed** `f0069` at 34:00: “which neuron sends signal faster?” Reframe as a comparison with specified axon diameter, myelination, path length and synapse count. Native `f0068` claims hundreds of miles could circle Earth >2 times, an internal arithmetic impossibility; exclude.",
+      "anchor": "ch23-s1",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L55-T01",
+      "source_topic_anchor": "02:24",
+      "disposition": "Teach mixed spinal nerve from dorsal sensory and ventral motor roots, then axon/Schwann/endoneurium/fascicle/perineurium/epineurium. Dorsal-root ganglion is not inside each peripheral nerve fascicle.",
+      "anchor": "ch23-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L55-T02",
+      "source_topic_anchor": "05:57",
+      "disposition": "Teach cut, crush, stretch, compression, metabolic/infectious and iatrogenic causes as etiologically different; mechanism and grade cannot be inferred from cause word alone. No symptom-only diagnosis.",
+      "anchor": "ch23-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L55-T03",
+      "source_topic_anchor": "07:05",
+      "disposition": "Teach Seddon's neurapraxia, axonotmesis, neurotmesis as a **coarse** three-class scheme, with Sunderland grades and mixed lesions as needed. Native `f0016` class slide correctly identifies axonal discontinuity for axonotmesis; caption 07:26 wrongly says myelin-only.",
+      "anchor": "ch23-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L55-T04",
+      "source_topic_anchor": "07:55",
+      "disposition": "Teach neurapraxia as focal conduction block with axonal continuity, sometimes focal myelin disturbance. Native `f0020` labels intact axon. **No distal Wallerian axon degeneration** in this class; improvement varies and cannot be inferred from the single sleeping-arm anecdote.",
+      "anchor": "ch23-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L55-T05",
+      "source_topic_anchor": "09:56",
+      "disposition": "Teach axonotmesis as axonal interruption with some connective guidance preserved; distal Wallerian degeneration follows. Source's “endoneurium always intact” is too narrow across Sunderland subgrades. Recovery depends on distance, alignment, target survival and lesion severity, not guaranteed in 5 days–6 months.",
+      "anchor": "ch23-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L55-T06",
+      "source_topic_anchor": "11:26",
+      "disposition": "Teach neurotmesis as complete nerve disruption in the canonical class. Native `f0024/f0029` show broken axon and sheaths; don't conclude universal complete paralysis or zero natural potential from one cartoon. Repair/graft decisions are clinical, not an automatic instruction.",
+      "anchor": "ch23-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L55-T07",
+      "source_topic_anchor": "14:02",
+      "disposition": "Teach Wallerian degeneration in axonotmesis/neurotmesis after axonal disconnection. Native `f0033` says so; caption 14:02 includes neurapraxia but narrows to axonotmesis at 14:57. This is the major SCI-020 correction.",
+      "anchor": "ch23-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L55-T08",
+      "source_topic_anchor": "15:01",
+      "disposition": "Teach chromatolysis as somatic injury response with swelling, nuclear eccentricity and **Nissl substance dispersal**, not nuclear pile-up of Nissl/Golgi. Native `f0033/f0037` says dispersion; caption 15:38–16:18 says concentration near nucleus. Do not make it a mandatory first temporal step before every distal event.",
+      "anchor": "ch23-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L55-T09",
+      "source_topic_anchor": "17:33",
+      "disposition": "Teach surviving soma-connected proximal stump vs disconnected distal axon; native `f0042` marks both. Proximal local retraction can occur, while distal Wallerian breakdown defines the disconnection response.",
+      "anchor": "ch23-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L55-T10",
+      "source_topic_anchor": "19:08",
+      "disposition": "Teach distal axon/myelin fragmentation and clearance over time; a distal empty guide tube is a simplified end state, not surviving distal axon resurrecting. Native `f0049` redraws endpoint but does not show in-vivo timing.",
+      "anchor": "ch23-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L55-T11",
+      "source_topic_anchor": "20:13",
+      "disposition": "Teach Schwann repair-state transition and macrophage recruitment/clearance. Native `f0042` states endoneurium “produces serotonin and histamine” as the causal mechanism; omit absent direct tissue-specific evidence. Schwann cells do not simply almost all die; their survival/reprogramming is central to repair.",
+      "anchor": "ch23-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L55-T12",
+      "source_topic_anchor": "24:27",
+      "disposition": "Teach axon regeneration from a **surviving proximal neuron** into permissive distal paths, with remyelination and target reconnection separate outcomes. No automatic complete functional recovery.",
+      "anchor": "ch23-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L55-T13",
+      "source_topic_anchor": "25:01",
+      "disposition": "Teach growth cones/sprouts from the proximal stump; native `f0053` draws a single successful bridge, an idealized pathway, not a measured patient trajectory.",
+      "anchor": "ch23-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L55-T14",
+      "source_topic_anchor": "26:00",
+      "disposition": "Teach Schwann repair cells/Bands of Büngner as guidance and trophic support, with species/evidence scope. Native `f0056` says Schwann cells regrow to remyelinate; distinguish repair phenotype, axon regrowth, then remyelination.",
+      "anchor": "ch23-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L55-T15",
+      "source_topic_anchor": "27:35",
+      "disposition": "Treat 1–3 mm/day as a rough **axon elongation** teaching estimate, not a promise of functional recovery or a constant for every human nerve. If used in a worked distance/time problem, state no delay/branching/mismatch assumptions and do not call the answer prognosis.",
+      "anchor": "ch23-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L55-T16",
+      "source_topic_anchor": "28:03",
+      "disposition": "Teach lesion distance to soma/target and cell survival as factors; the caption's near-soma → no Schwann cells → cell-body death chain is too absolute. Keep injury site, viable cell body, distal pathway and target as independent conditions.",
+      "anchor": "ch23-s3",
+      "coverage_status": "located in author draft; independent review pending"
+    },
+    {
+      "id": "L55-T17",
+      "source_topic_anchor": "29:59",
+      "disposition": "Teach CNS vs PNS repair environments, scar/inhibitors, inflammation and plasticity as **relative constraints**. Native `f0061` and caption say oligodendrocytes “cannot remyelinate” and CNS repair impossible; human MS lesions demonstrate some oligodendroglial remyelination. Astrocytes are CNS glia, so “few in PNS” is a poor PNS comparison. **Late L55 activity visible** `f0066` at 32:30: Wallerian class, best prognosis, often surgical class. Correct responses: axonal injury classes, typical neurapraxia, and severe neurotmesis may need repair evaluation; avoid individual prognosis. The prompt says “PNS or CNS?” although Wallerian degeneration can occur after axonal injury in both compartments, with different clearance/regrowth.",
+      "anchor": "ch23-s4",
+      "coverage_status": "located in author draft; independent review pending"
+    }
+  ],
+  "body_sha256": "e3ef1d90be81380a32b275e91e1f9203d603cac050848abe680ed188a390bf34",
+  "body_hash_definition": "Raw on-disk bytes between unique BEGIN/END CHAPTER BODY markers; no newline normalization",
+  "artifact_sha256": {
+    "assets/ch23-cns-myelin-tem.jpg": "703faa03713307b785252fcec55e8e75b4843ac23f7fd06f22a80afce8647e1b",
+    "assets/ch23-data.json": "2c963a372942e1827b5526d4ade162ef5f4424dcce7bc0d338751adb3d515b43",
+    "assets/ch23-injury.svg": "d42429a8f59b2105d3d635ee93c4995612b9d47d4062e23c27658a93a7297957",
+    "assets/ch23-mechanisms.css": "a720d592969e761cc2e1eafdf0e6cca2cb2cb057a2d2b4098662f634c9c6a26f",
+    "assets/ch23-mechanisms.html": "14db93c3ce19b3c39b879e94392f2f554dac86922da2c872fe4161624779812a",
+    "assets/ch23-mechanisms.js": "f94c776303f745876e603ba4fcb06d7601d0f13070f63131d72b2916e1320bba",
+    "assets/ch23-microscopy-LICENSE.txt": "8207ce55eee1e5f0465ee0e71bb493841e8c66695d4e44cc7316e3d095e033a4",
+    "assets/ch23-microscopy-provenance.json": "66f2386309cd9b874af9f9679bc9fc734b628a4d3b286dc88193b267514c1dda",
+    "assets/ch23-myelin-tem.jpg": "bca0c0d9b698fd54eb9163d44b1ed64bb95d2dd56766820da1f0934c6abf4972",
+    "assets/ch23-neuron.svg": "65f68f177c862bc9e507d7d1f77955818fdfb3ba2313d5a6d99b8fe35ae07994",
+    "assets/ch23-pns-schwann.jpg": "828a55f494c7f31ca1464b1edb6b85832e02e46c12ec4c83e447cdb65b1b8d88",
+    "assets/ch23-repair.svg": "8985437d55549fb57600b0c7360bcfeec52dbd1a2924d3f63644f9687f83e1d1",
+    "assets/ch23-transport.svg": "46713e69e15fdd5742a0ea207592b275a0330501a22f2a10da22c4b937d524e0",
+    "code/ch23_clocks.py": "592054f0d8c65053e3ed9518b27d7158e5639c4ccc7bc537b4b068daecd0ec9d",
+    "code/ch23_visuals.py": "dfc591424f7a6dd1c5ad6dedb6888bcbd57b8aabc0e797f69f7842e264eb03c8"
+  },
+  "code": [
+    "code/ch23_clocks.py",
+    "code/ch23_visuals.py"
+  ],
+  "lab": {
+    "path": "code/ch23_clocks.py",
+    "status": "validated"
+  },
+  "figures": [
+    {
+      "id": "ch23-fig1",
+      "path": "assets/ch23-neuron.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch23-myelin-observation",
+      "path": "assets/ch23-myelin-tem.jpg",
+      "paired_image": "assets/ch23-cns-myelin-tem.jpg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch23-anim1",
+      "path": "chapter-23-neurons-axonal-transport-repair.html#ch23-anim1",
+      "embedded_panel": "assets/ch23-mechanisms.html?mode=voltage",
+      "print_fallback": "assets/ch23-transport.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch23-anim2",
+      "path": "chapter-23-neurons-axonal-transport-repair.html#ch23-anim2",
+      "embedded_panel": "assets/ch23-mechanisms.html?mode=injury",
+      "print_fallback": "assets/ch23-injury.svg",
+      "additional_print": "assets/ch23-repair.svg",
+      "status": "accepted"
+    }
+  ],
+  "realistic_asset_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Neuron/nerve organization, axonal traffic and conditional peripheral repair",
+    "rationale": "Verified prepared microscopy supplies recorded lamellar appearance. Separate voltage/cargo routes and conditional tissue responses use controlled animations without invented common biological speed or recovery deadline.",
+    "appearance_references": [
+      "assets/ch23-myelin-tem.jpg",
+      "assets/ch23-cns-myelin-tem.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch23-mechanisms.html",
+      "assets/ch23-mechanisms.js"
+    ],
+    "report_path": "work/browser/ch23-visual-modality.json",
+    "report_sha256": "f69ba18856cc2fd692594ba0ea450ba79d8113a1654baddb0329a9d2ed204d1f"
+  },
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
+    "browser": "Actual root CUA reader/motion/responsive/keyboard/full-size access and separate source-pixel plus all-page print-contact assessment; exactly two original scientific reviews and bounded targets separately attributed",
+    "coverage": "Complete L54–55 captions and all32topic/closing dispositions, attributed bounded8sheets137sampled24native still audit; exactly two actual independent full reviews and their bounded repairs/access checks."
+  },
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "author_report": "work/ch23-author-report.md",
+  "research_ledger": "work/ch23-research-ledger.md",
+  "limitations": [
+    "Publisher captions and sampled stills do not establish continuous audio/video content.",
+    "Static TEM cannot establish live voltage, transport or repair kinetics.",
+    "Synthetic quotient rates and controlled presentation phases are not human clinical forecasts."
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch17_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "e3ef1d90be81380a32b275e91e1f9203d603cac050848abe680ed188a390bf34",
+      "artifact_sha256": {
+        "assets/ch23-cns-myelin-tem.jpg": "703faa03713307b785252fcec55e8e75b4843ac23f7fd06f22a80afce8647e1b",
+        "assets/ch23-data.json": "2c963a372942e1827b5526d4ade162ef5f4424dcce7bc0d338751adb3d515b43",
+        "assets/ch23-injury.svg": "d42429a8f59b2105d3d635ee93c4995612b9d47d4062e23c27658a93a7297957",
+        "assets/ch23-mechanisms.css": "a720d592969e761cc2e1eafdf0e6cca2cb2cb057a2d2b4098662f634c9c6a26f",
+        "assets/ch23-mechanisms.html": "14db93c3ce19b3c39b879e94392f2f554dac86922da2c872fe4161624779812a",
+        "assets/ch23-mechanisms.js": "f94c776303f745876e603ba4fcb06d7601d0f13070f63131d72b2916e1320bba",
+        "assets/ch23-microscopy-LICENSE.txt": "8207ce55eee1e5f0465ee0e71bb493841e8c66695d4e44cc7316e3d095e033a4",
+        "assets/ch23-microscopy-provenance.json": "66f2386309cd9b874af9f9679bc9fc734b628a4d3b286dc88193b267514c1dda",
+        "assets/ch23-myelin-tem.jpg": "bca0c0d9b698fd54eb9163d44b1ed64bb95d2dd56766820da1f0934c6abf4972",
+        "assets/ch23-neuron.svg": "65f68f177c862bc9e507d7d1f77955818fdfb3ba2313d5a6d99b8fe35ae07994",
+        "assets/ch23-pns-schwann.jpg": "828a55f494c7f31ca1464b1edb6b85832e02e46c12ec4c83e447cdb65b1b8d88",
+        "assets/ch23-repair.svg": "8985437d55549fb57600b0c7360bcfeec52dbd1a2924d3f63644f9687f83e1d1",
+        "assets/ch23-transport.svg": "46713e69e15fdd5742a0ea207592b275a0330501a22f2a10da22c4b937d524e0",
+        "code/ch23_clocks.py": "592054f0d8c65053e3ed9518b27d7158e5639c4ccc7bc537b4b068daecd0ec9d",
+        "code/ch23_visuals.py": "dfc591424f7a6dd1c5ad6dedb6888bcbd57b8aabc0e797f69f7842e264eb03c8"
+      },
+      "report_path": "work/reviews/ch23-approved-a.md",
+      "report_sha256": "09e42b8108b4efc7751f28161f4eea102c70ed101eebf1c76aa5248226cd81b7",
+      "original_full_report": "work/reviews/ch23-review-a.md",
+      "targeted_report": "work/reviews/ch23-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch16_author",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "e3ef1d90be81380a32b275e91e1f9203d603cac050848abe680ed188a390bf34",
+      "artifact_sha256": {
+        "assets/ch23-cns-myelin-tem.jpg": "703faa03713307b785252fcec55e8e75b4843ac23f7fd06f22a80afce8647e1b",
+        "assets/ch23-data.json": "2c963a372942e1827b5526d4ade162ef5f4424dcce7bc0d338751adb3d515b43",
+        "assets/ch23-injury.svg": "d42429a8f59b2105d3d635ee93c4995612b9d47d4062e23c27658a93a7297957",
+        "assets/ch23-mechanisms.css": "a720d592969e761cc2e1eafdf0e6cca2cb2cb057a2d2b4098662f634c9c6a26f",
+        "assets/ch23-mechanisms.html": "14db93c3ce19b3c39b879e94392f2f554dac86922da2c872fe4161624779812a",
+        "assets/ch23-mechanisms.js": "f94c776303f745876e603ba4fcb06d7601d0f13070f63131d72b2916e1320bba",
+        "assets/ch23-microscopy-LICENSE.txt": "8207ce55eee1e5f0465ee0e71bb493841e8c66695d4e44cc7316e3d095e033a4",
+        "assets/ch23-microscopy-provenance.json": "66f2386309cd9b874af9f9679bc9fc734b628a4d3b286dc88193b267514c1dda",
+        "assets/ch23-myelin-tem.jpg": "bca0c0d9b698fd54eb9163d44b1ed64bb95d2dd56766820da1f0934c6abf4972",
+        "assets/ch23-neuron.svg": "65f68f177c862bc9e507d7d1f77955818fdfb3ba2313d5a6d99b8fe35ae07994",
+        "assets/ch23-pns-schwann.jpg": "828a55f494c7f31ca1464b1edb6b85832e02e46c12ec4c83e447cdb65b1b8d88",
+        "assets/ch23-repair.svg": "8985437d55549fb57600b0c7360bcfeec52dbd1a2924d3f63644f9687f83e1d1",
+        "assets/ch23-transport.svg": "46713e69e15fdd5742a0ea207592b275a0330501a22f2a10da22c4b937d524e0",
+        "code/ch23_clocks.py": "592054f0d8c65053e3ed9518b27d7158e5639c4ccc7bc537b4b068daecd0ec9d",
+        "code/ch23_visuals.py": "dfc591424f7a6dd1c5ad6dedb6888bcbd57b8aabc0e797f69f7842e264eb03c8"
+      },
+      "report_path": "work/reviews/ch23-approved-b.md",
+      "report_sha256": "23e12c708dce29ac83bac4af087f36d54bc643a054f3b7570322e10a662f6387",
+      "original_full_report": "work/reviews/ch23-review-b.md",
+      "targeted_report": "work/reviews/ch23-targeted-b.md"
+    }
+  ],
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch23-cns-myelin-tem.jpg",
+      "sha256": "703faa03713307b785252fcec55e8e75b4843ac23f7fd06f22a80afce8647e1b"
+    },
+    {
+      "path": "assets/ch23-data.json",
+      "sha256": "2c963a372942e1827b5526d4ade162ef5f4424dcce7bc0d338751adb3d515b43"
+    },
+    {
+      "path": "assets/ch23-injury.svg",
+      "sha256": "d42429a8f59b2105d3d635ee93c4995612b9d47d4062e23c27658a93a7297957"
+    },
+    {
+      "path": "assets/ch23-mechanisms.css",
+      "sha256": "a720d592969e761cc2e1eafdf0e6cca2cb2cb057a2d2b4098662f634c9c6a26f"
+    },
+    {
+      "path": "assets/ch23-mechanisms.html",
+      "sha256": "14db93c3ce19b3c39b879e94392f2f554dac86922da2c872fe4161624779812a"
+    },
+    {
+      "path": "assets/ch23-mechanisms.js",
+      "sha256": "f94c776303f745876e603ba4fcb06d7601d0f13070f63131d72b2916e1320bba"
+    },
+    {
+      "path": "assets/ch23-microscopy-LICENSE.txt",
+      "sha256": "8207ce55eee1e5f0465ee0e71bb493841e8c66695d4e44cc7316e3d095e033a4"
+    },
+    {
+      "path": "assets/ch23-microscopy-provenance.json",
+      "sha256": "66f2386309cd9b874af9f9679bc9fc734b628a4d3b286dc88193b267514c1dda"
+    },
+    {
+      "path": "assets/ch23-myelin-tem.jpg",
+      "sha256": "bca0c0d9b698fd54eb9163d44b1ed64bb95d2dd56766820da1f0934c6abf4972"
+    },
+    {
+      "path": "assets/ch23-neuron.svg",
+      "sha256": "65f68f177c862bc9e507d7d1f77955818fdfb3ba2313d5a6d99b8fe35ae07994"
+    },
+    {
+      "path": "assets/ch23-pns-schwann.jpg",
+      "sha256": "828a55f494c7f31ca1464b1edb6b85832e02e46c12ec4c83e447cdb65b1b8d88"
+    },
+    {
+      "path": "assets/ch23-repair.svg",
+      "sha256": "8985437d55549fb57600b0c7360bcfeec52dbd1a2924d3f63644f9687f83e1d1"
+    },
+    {
+      "path": "assets/ch23-transport.svg",
+      "sha256": "46713e69e15fdd5742a0ea207592b275a0330501a22f2a10da22c4b937d524e0"
+    },
+    {
+      "path": "code/ch23_clocks.py",
+      "sha256": "592054f0d8c65053e3ed9518b27d7158e5639c4ccc7bc537b4b068daecd0ec9d"
+    },
+    {
+      "path": "code/ch23_visuals.py",
+      "sha256": "dfc591424f7a6dd1c5ad6dedb6888bcbd57b8aabc0e797f69f7842e264eb03c8"
+    }
+  ],
+  "coverage_basis": "Complete L54–55 captions and all32topic/closing dispositions, attributed bounded8sheets137sampled24native still audit; exactly two actual independent full reviews and their bounded repairs/access checks.",
+  "production_validation": {
+    "report_path": "work/browser/ch23-production-final.json",
+    "report_sha256": "d8597a161fb11e4d2587a617cfa0ba3876b1d6b16b0b86661910537bca537460",
+    "scope": "Actual root CUA reader/motion/responsive/keyboard/full-size access and separate source-pixel plus all-page print-contact assessment; exactly two original scientific reviews and bounded targets separately attributed"
+  },
+  "accepted_at_utc": "2026-11-05T05:24:43.324Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-23.json",
+    "sha256": "9189e371c8b822070a3d552d43645917fda8adf28ea72a01214824a5c73d2e04"
+  }
+}

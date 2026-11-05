@@ -1,0 +1,992 @@
+{
+  "chapter": 17,
+  "title": "Tubular transport, renal regulation and disease",
+  "status": "accepted",
+  "coverage_complete": true,
+  "source_recordings": [
+    38,
+    39,
+    40
+  ],
+  "source_evidence": "Original author reported complete captions through L38 33:46, L39 37:20, L40 24:51 and mapped all 63 dispositions; repair author read both complete review reports, author/research records and bounded visual source context, not all original captions/video. Repair source-access limits are in work/ch17-repair-report.md.",
+  "source_files": [
+    {
+      "path": "sources/transcripts/38-l_IktQLkOs0.txt",
+      "sha256": "0505ce5bb460ac39ec51e36fa7cfa0f0c07cf0c677a76a692a2f9e9103ce2fd2"
+    },
+    {
+      "path": "sources/transcripts/39-MfqeKU-38Ug.txt",
+      "sha256": "4205a476e3aa124e5c43c606ed7c3592c8954edecc37d24467a22297d0ebb812"
+    },
+    {
+      "path": "sources/transcripts/40-Gn76dkzzfgc.txt",
+      "sha256": "942998888c1dda79b33c10f3b1ad507fb6bd8ee4e33a32eecf2a65de7dd4d687"
+    }
+  ],
+  "coverage_topics": [
+    {
+      "id": "L38-T01",
+      "source_topic": "[02:47] location/dimensions/cuboidal brush border",
+      "caption_anchors": [
+        {
+          "anchor": "02:47",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s1",
+      "disposition": "Retain cortical proximal location, cuboidal epithelium and brush border; omit unverified universal14mm/55um and20fold measurements."
+    },
+    {
+      "id": "L38-T02",
+      "source_topic": "[03:43] secretion versus reabsorption",
+      "caption_anchors": [
+        {
+          "anchor": "03:43",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s1",
+      "disposition": "Define reabsorption, secretion and final excretion across lumen/epithelium/interstitium/blood; correct all-secretion-direct-ATP claim."
+    },
+    {
+      "id": "L38-T03",
+      "source_topic": "[05:39] transporters",
+      "caption_anchors": [
+        {
+          "anchor": "05:39",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "polarized",
+      "disposition": "Retain primary and secondary transport; distinguish channels, cotransporters and receptors."
+    },
+    {
+      "id": "L38-T04",
+      "source_topic": "[07:26] reabsorbed substances",
+      "caption_anchors": [
+        {
+          "anchor": "07:26",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "polarized",
+      "disposition": "Retain glucose/amino acids/lactate, sodium/water and segmental ions; normal recovery conditional; inconsistent ion fractions rejected."
+    },
+    {
+      "id": "L38-T05",
+      "source_topic": "[09:37] Na/K pump",
+      "caption_anchors": [
+        {
+          "anchor": "09:37",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "polarized",
+      "disposition": "Basolateral3Na-out/2K-in ATPase orientation and energy coupling retained."
+    },
+    {
+      "id": "L38-T06",
+      "source_topic": "[11:39] sodium coupling",
+      "caption_anchors": [
+        {
+          "anchor": "11:39",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "polarized",
+      "disposition": "Apical sodium coupling explained by electrochemical gradient; simple lipid diffusion rejected."
+    },
+    {
+      "id": "L38-T07",
+      "source_topic": "[13:32] basolateral exit",
+      "caption_anchors": [
+        {
+          "anchor": "13:32",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "polarized",
+      "disposition": "GLUT is basolateral facilitated transporter; multiple amino-acid exit routes not one universal exocytosis mechanism."
+    },
+    {
+      "id": "L38-T08",
+      "source_topic": "[14:44] sodium/water",
+      "caption_anchors": [
+        {
+          "anchor": "14:44",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s1",
+      "disposition": "65pct synthetic filtered-load/water calculation; osmotic explanation replaces water affinity/towing."
+    },
+    {
+      "id": "L38-T09",
+      "source_topic": "[16:50] bicarbonate",
+      "caption_anchors": [
+        {
+          "anchor": "16:50",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "bicarbonate",
+      "disposition": "Retain filtered bicarbonate recovery; distinguish existing buffer from new bicarbonate."
+    },
+    {
+      "id": "L38-T10",
+      "source_topic": "[18:45] Na/H antiport",
+      "caption_anchors": [
+        {
+          "anchor": "18:45",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "bicarbonate",
+      "disposition": "NHE3 apical Na/H exchange; named membrane and direction."
+    },
+    {
+      "id": "L38-T11",
+      "source_topic": "[20:21] luminal carbonic acid",
+      "caption_anchors": [
+        {
+          "anchor": "20:21",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "bicarbonate",
+      "disposition": "Luminal H+ and filtered bicarbonate reaction retained."
+    },
+    {
+      "id": "L38-T12",
+      "source_topic": "[21:13] carbonic anhydrase",
+      "caption_anchors": [
+        {
+          "anchor": "21:13",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "bicarbonate",
+      "disposition": "Luminal and intracellular carbonic anhydrase, CO2 entry; source urine-loss route corrected."
+    },
+    {
+      "id": "L38-T13",
+      "source_topic": "[22:14] bicarbonate exit",
+      "caption_anchors": [
+        {
+          "anchor": "22:14",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "bicarbonate",
+      "disposition": "NBCe1 basolateral bicarbonate exit replaces simple leftover diffusion."
+    },
+    {
+      "id": "L38-T14",
+      "source_topic": "[23:16] urea/lipid claim",
+      "caption_anchors": [
+        {
+          "anchor": "23:16",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "secretion",
+      "disposition": "Urea polar molecule/segment-specific permeability and transport; no lipid-urea pool, ordinary circulating lipids not freely filtered."
+    },
+    {
+      "id": "L38-T15",
+      "source_topic": "[24:20] paracellular ions",
+      "caption_anchors": [
+        {
+          "anchor": "24:20",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "polarized",
+      "disposition": "Ions use junction-defined paracellular routes; they do not form tight junctions. Segment fractions not lumped."
+    },
+    {
+      "id": "L38-T16",
+      "source_topic": "[25:28] protein uptake",
+      "caption_anchors": [
+        {
+          "anchor": "25:28",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "secretion",
+      "disposition": "Filtered small-protein receptor uptake/endosome/lysosome and constituent recovery retained; intactRBC hemoglobin and universal intact-insulin return rejected."
+    },
+    {
+      "id": "L38-T17",
+      "source_topic": "[26:42] secretion",
+      "caption_anchors": [
+        {
+          "anchor": "26:42",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "secretion",
+      "disposition": "Separate organic-compound transport, proton recycling and renal ammonia production."
+    },
+    {
+      "id": "L38-T18",
+      "source_topic": "[28:04] drugs",
+      "caption_anchors": [
+        {
+          "anchor": "28:04",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "secretion",
+      "disposition": "All source-listed compounds retained as heterogeneous list; no identical transport class, dose or primary clearance inference. Oxalate anion correction."
+    },
+    {
+      "id": "L38-T19",
+      "source_topic": "[29:09] proton secretion",
+      "caption_anchors": [
+        {
+          "anchor": "29:09",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "bicarbonate",
+      "disposition": "H+ secretion is not automatically net acid excretion; eq17.2 and17.3 separate."
+    },
+    {
+      "id": "L38-T20",
+      "source_topic": "[30:05] glutamine/acidosis",
+      "caption_anchors": [
+        {
+          "anchor": "30:05",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "secretion",
+      "disposition": "Glutamine pathway2NH4/2HCO3 and acidexcretion accounting; glutamate-only caption confusion and neutralpH7 target rejected."
+    },
+    {
+      "id": "L38-T21",
+      "source_topic": "[32:52] microvilli.",
+      "caption_anchors": [
+        {
+          "anchor": "32:52",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "polarized",
+      "disposition": "Microvilli surface function retained without unverified exact area multiplier; closing recap read."
+    },
+    {
+      "id": "L39-T01",
+      "source_topic": "[02:43] loop anatomy",
+      "caption_anchors": [
+        {
+          "anchor": "02:43",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s2",
+      "disposition": "Descending/ascending cortex-medulla anatomy, short/long loops and thin/TAL distinction retained."
+    },
+    {
+      "id": "L39-T02",
+      "source_topic": "[04:19] concentration function",
+      "caption_anchors": [
+        {
+          "anchor": "04:19",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "single-effect",
+      "disposition": "Loop supports concentration gradient; not all outgoing loop fluid concentrated final urine."
+    },
+    {
+      "id": "L39-T03",
+      "source_topic": "[05:28] initial osmolality",
+      "caption_anchors": [
+        {
+          "anchor": "05:28",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s2",
+      "disposition": "Define particles/kg water, not grams/kg; approximate plasma/filtrate osmolality, not universal exact300."
+    },
+    {
+      "id": "L39-T04",
+      "source_topic": "[07:19] isotonic PCT outflow",
+      "caption_anchors": [
+        {
+          "anchor": "07:19",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s1",
+      "disposition": "Equal-fraction water/solute recovery explains isosmotic proximal fluid despite composition change."
+    },
+    {
+      "id": "L39-T05",
+      "source_topic": "[08:24] hyper/hypo/isotonic language",
+      "caption_anchors": [
+        {
+          "anchor": "08:24",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s2",
+      "disposition": "Hyper/hypoosmotic concentration compared to explicit reference; tonicity separately membrane-effective."
+    },
+    {
+      "id": "L39-T06",
+      "source_topic": "[10:28] ascending transport first",
+      "caption_anchors": [
+        {
+          "anchor": "10:28",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "single-effect",
+      "disposition": "TAL apicalNKCC2/basolateralATPase, K recycling and Cl exit; no NKCC2 throughout thin limb."
+    },
+    {
+      "id": "L39-T07",
+      "source_topic": "[12:26] interstitial gradient",
+      "caption_anchors": [
+        {
+          "anchor": "12:26",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "single-effect",
+      "disposition": "Variable medullary gradient; source300→1200 is schematic, not universal measured profile."
+    },
+    {
+      "id": "L39-T08",
+      "source_topic": "[14:11] descending water flux",
+      "caption_anchors": [
+        {
+          "anchor": "14:11",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "single-effect",
+      "disposition": "Descending water flux and resulting concentration explained; AQP permeability is segment-qualified."
+    },
+    {
+      "id": "L39-T09",
+      "source_topic": "[16:21] multiplier",
+      "caption_anchors": [
+        {
+          "anchor": "16:21",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "conserving-loop",
+      "disposition": "Single effect plus continuous opposing flow developed as conserving finite-volume lab."
+    },
+    {
+      "id": "L39-T10",
+      "source_topic": "[18:46] ascending dilution",
+      "caption_anchors": [
+        {
+          "anchor": "18:46",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "single-effect",
+      "disposition": "Ascending dilution by solute recovery without water; corrupted100/2000 source wording not reproduced."
+    },
+    {
+      "id": "L39-T11",
+      "source_topic": "[20:17] permeability contrast",
+      "caption_anchors": [
+        {
+          "anchor": "20:17",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "single-effect",
+      "disposition": "Permeability contrast retained, with thin-limb/outer-inner-medullary boundaries."
+    },
+    {
+      "id": "L39-T12",
+      "source_topic": "[22:06] vasa recta",
+      "caption_anchors": [
+        {
+          "anchor": "22:06",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "vasa",
+      "disposition": "Vasa recta blood separate from tubular lumen."
+    },
+    {
+      "id": "L39-T13",
+      "source_topic": "[23:43] exchanger",
+      "caption_anchors": [
+        {
+          "anchor": "23:43",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "vasa",
+      "disposition": "Descending blood waterout/solutein and ascending reversal; exchange limits washout, not new pump. Equal concentration not zero flux."
+    },
+    {
+      "id": "L39-T14",
+      "source_topic": "[28:50] early DCT",
+      "caption_anchors": [
+        {
+          "anchor": "28:50",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s3",
+      "disposition": "EarlyDCTNCC and PTH calcium retained;20–30pct segment error corrected; calbindin/TRPV5 and exit roles separately researched."
+    },
+    {
+      "id": "L39-T15",
+      "source_topic": "[29:52] late DCT/principal cells",
+      "caption_anchors": [
+        {
+          "anchor": "29:52",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s3",
+      "disposition": "Connecting tubule terminology and aldosterone-sensitive principal-cell distinction retained, boundaries qualified."
+    },
+    {
+      "id": "L39-T16",
+      "source_topic": "[30:50] aldosterone transporters",
+      "caption_anchors": [
+        {
+          "anchor": "30:50",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s3",
+      "disposition": "ApicalENaC/basolateralNaK transport and K secretion directions retained."
+    },
+    {
+      "id": "L39-T17",
+      "source_topic": "[31:29] ADH",
+      "caption_anchors": [
+        {
+          "anchor": "31:29",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s3",
+      "disposition": "ADH hypothalamic synthesis/posterior release with collecting-duct permeability effect."
+    },
+    {
+      "id": "L39-T18",
+      "source_topic": "[32:22] AQP2",
+      "caption_anchors": [
+        {
+          "anchor": "32:22",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s3",
+      "disposition": "AQP2 apical trafficking distinct from expression; basolateral pathways separate, rat experiment bounded."
+    },
+    {
+      "id": "L39-T19",
+      "source_topic": "[33:39] final volume/urea",
+      "caption_anchors": [
+        {
+          "anchor": "33:39",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "water-output",
+      "disposition": "Final water/urea adjustment, osmole excretion identity and urea-recycling limits."
+    },
+    {
+      "id": "L39-T20",
+      "source_topic": "[35:49] pigment",
+      "caption_anchors": [
+        {
+          "anchor": "35:49",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "water-output",
+      "disposition": "Urobilin/heme metabolism and dilution-color relationship retained; color alone not diagnosis or filtration measure."
+    },
+    {
+      "id": "L39-T21",
+      "source_topic": "[36:14] aquaporin blockade exercise.",
+      "caption_anchors": [
+        {
+          "anchor": "36:14",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "problem17-4",
+      "disposition": "Both urine volume and concentration activity solved under selectiveAQP2/fixed-solute assumptions; no universal allAQP blockade claim."
+    },
+    {
+      "id": "L40-T01",
+      "source_topic": "[02:40] pressure/filtration link",
+      "caption_anchors": [
+        {
+          "anchor": "02:40",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "raas",
+      "disposition": "Pressure,flow,resistance,effectivefilling andGFR distinguished; no guaranteedGFRrise from vasoconstriction."
+    },
+    {
+      "id": "L40-T02",
+      "source_topic": "[03:33] RAAS",
+      "caption_anchors": [
+        {
+          "anchor": "03:33",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "raas",
+      "disposition": "BranchingRAAS defined,not single mandatory serial chain."
+    },
+    {
+      "id": "L40-T03",
+      "source_topic": "[04:17] renin",
+      "caption_anchors": [
+        {
+          "anchor": "04:17",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "raas",
+      "disposition": "Granular cells secrete renin; perfusion/macudadensa/sympathetic stimuli separate."
+    },
+    {
+      "id": "L40-T04",
+      "source_topic": "[04:47] angiotensinogen",
+      "caption_anchors": [
+        {
+          "anchor": "04:47",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "raas",
+      "disposition": "Liver angiotensinogen→renin cleavage→AngI retained."
+    },
+    {
+      "id": "L40-T05",
+      "source_topic": "[05:28] ACE",
+      "caption_anchors": [
+        {
+          "anchor": "05:28",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "raas",
+      "disposition": "Endothelial membrane ACE including pulmonary and other sites,not simply lung secretion."
+    },
+    {
+      "id": "L40-T06",
+      "source_topic": "[06:06] angiotensin II",
+      "caption_anchors": [
+        {
+          "anchor": "06:06",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "raas",
+      "disposition": "AngII vascular,tubular,thirst/ADH andadrenal branches retained."
+    },
+    {
+      "id": "L40-T07",
+      "source_topic": "[07:31] ADH discussion",
+      "caption_anchors": [
+        {
+          "anchor": "07:31",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "raas",
+      "disposition": "ADH source corrected from pituitaryaldosterone caption; source slide supports separate branch."
+    },
+    {
+      "id": "L40-T08",
+      "source_topic": "[09:18] aldosterone",
+      "caption_anchors": [
+        {
+          "anchor": "09:18",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "raas",
+      "disposition": "Adrenalzona-glomerulosa aldosterone andindependentKcontrol; no obligatoryADHintermediate."
+    },
+    {
+      "id": "L40-T09",
+      "source_topic": "[10:16] recap",
+      "caption_anchors": [
+        {
+          "anchor": "10:16",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "raas",
+      "disposition": "Recap retained as qualitativeregulatorynetwork,not guarantee of normalizedGFR."
+    },
+    {
+      "id": "L40-T10",
+      "source_topic": "[11:45] ANP",
+      "caption_anchors": [
+        {
+          "anchor": "11:45",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "raas",
+      "disposition": "AtrialstretchANP,natriuresis,waterexcretion,vasodilation andrenin/aldosteroneinhibition; lowfillingRAASreversal corrected."
+    },
+    {
+      "id": "L40-T11",
+      "source_topic": "[14:28] CKD",
+      "caption_anchors": [
+        {
+          "anchor": "14:28",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s4",
+      "disposition": "CKD chronicity≥3months, GFR/albumin complementary, selected imaging/biopsy; symptom and treatment boundaries."
+    },
+    {
+      "id": "L40-T12",
+      "source_topic": "[16:05] diabetic nephropathy",
+      "caption_anchors": [
+        {
+          "anchor": "16:05",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s4",
+      "disposition": "Diabetic injury not osmolalityalone; glucose/BPmanagement contextual, no universal insulin/ACEprescription."
+    },
+    {
+      "id": "L40-T13",
+      "source_topic": "[17:30] hypertensive injury",
+      "caption_anchors": [
+        {
+          "anchor": "17:30",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s4",
+      "disposition": "Hypertensive renal vascular/scar injury and feedback; earlyasymptomatic limit retained."
+    },
+    {
+      "id": "L40-T14",
+      "source_topic": "[18:15] glomerulonephritis",
+      "caption_anchors": [
+        {
+          "anchor": "18:15",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s4",
+      "disposition": "Glomerular inflammatory heterogeneity,proteinuria/hematuria,selectedbiopsy,specific immune therapies; not every geneticdisease autoimmune."
+    },
+    {
+      "id": "L40-T15",
+      "source_topic": "[19:07] stones",
+      "caption_anchors": [
+        {
+          "anchor": "19:07",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "stones-uti",
+      "disposition": "Stonecomposition,obstruction,colic/testing/imaging andpassage/fragmentation/removal; routinebiopsy/universaldissolution rejected."
+    },
+    {
+      "id": "L40-T16",
+      "source_topic": "[19:47] UTI",
+      "caption_anchors": [
+        {
+          "anchor": "19:47",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "stones-uti",
+      "disposition": "UTI/bladder/pyelonephritis,Ecoli,urinalysis/culture/antibiotic context; unspecifiedFDAwarning/universalresistantmortality rejected."
+    },
+    {
+      "id": "L40-T17",
+      "source_topic": "[20:49] hemodialysis",
+      "caption_anchors": [
+        {
+          "anchor": "20:49",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s5",
+      "disposition": "Membraneseparated blood/dialysate,opposingflows,diffusion vsultrafiltration; schedule andpartialreplacement retained."
+    },
+    {
+      "id": "L40-T18",
+      "source_topic": "[21:44] pressure control",
+      "caption_anchors": [
+        {
+          "anchor": "21:44",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s5",
+      "disposition": "Circuit/systemic/transmembranepressures,monitor/pump/airhazards separate; glomerularNFPnottransplanted."
+    },
+    {
+      "id": "L40-T19",
+      "source_topic": "[22:17] access complications",
+      "caption_anchors": [
+        {
+          "anchor": "22:17",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s5",
+      "disposition": "Fistula/graftneedles vsvenouscatheter,infection/clot/stenosis/centralvenousobstruction; fluid/electrolyte burden contextual."
+    },
+    {
+      "id": "L40-T20",
+      "source_topic": "[23:18] renal reserve claim.",
+      "caption_anchors": [
+        {
+          "anchor": "23:18",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "anchor": "ch17-s4",
+      "disposition": "90–95pct loss-at-detection universal claim rejected;reserve≠nephroncount; earlytesting andmultiple care options retained."
+    },
+    {
+      "id": "L40-A01",
+      "source_topic": "Water-load activity visible in bounded native24:30 source audit,not caption details",
+      "caption_anchors": [],
+      "visual_anchor": "24:30",
+      "anchor": "problem17-4",
+      "disposition": "Retained and solved: osmoticADHsuppression,distalAQP2,waterdisposal anddilutionalhyponatremiarisk; no safe drinking protocol."
+    }
+  ],
+  "body_sha256": "77231ae79fb00437dad299b389ecd11d4199c61c7678fcb9acc4462ea6ea3030",
+  "body_hash_definition": "SHA256 of exact rawbytes strictly between the unique BEGIN/END CHAPTER BODY markers; newlines retained,no strip/DOMnormalization.",
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch17-checks.js",
+      "sha256": "a8e183e3f6814dfa150bfef0c2b8602cbea7235fd1b82a6406bcfa1c354f5892"
+    },
+    {
+      "path": "assets/ch17-countercurrent-data.json",
+      "sha256": "25fe59fa85bef7e06673e56d5e6b2cd5235b2f52234e449247f2116dbfa1f422"
+    },
+    {
+      "path": "assets/ch17-mechanisms.css",
+      "sha256": "373cb1bf2951a62fb1dbab12c87b81f9ce9bb6a2018b69d6f3a798829d0ef4bc"
+    },
+    {
+      "path": "assets/ch17-mechanisms.html",
+      "sha256": "992aedb0fe2fc9e7847f6d0b5b99d27cdceca5e47e6166d717dad7a04d1bb2d6"
+    },
+    {
+      "path": "assets/ch17-mechanisms.js",
+      "sha256": "2e866270db21955298026c455b278868625afab30b94fdad2e852ae4506fdd87"
+    },
+    {
+      "path": "assets/ch17-nephron.svg",
+      "sha256": "f1af958dadc1af6369e70409752f6284863da211ab49a0c899e8ecf5a1bd677c"
+    },
+    {
+      "path": "assets/ch17-provenance.json",
+      "sha256": "266b7f893ad988062d5d2703f0b2f650116b07b12d502f35b9accfd8765e0fda"
+    },
+    {
+      "path": "assets/ch17-raas.svg",
+      "sha256": "b89a938e4c9570d167afb62d347074dd241cdce5cc0058a9f6060f762e1f6d22"
+    },
+    {
+      "path": "code/ch17_renal_balance.py",
+      "sha256": "3034a3d52e5ac15b9830c245f3952e6a6a7b484b197056c1824d88606e7781d9"
+    },
+    {
+      "path": "assets/ch16-glomerulus-sem.jpg",
+      "sha256": "c0e94632237a66e8aadf9641741eb5fbfd20797973b0d9b4cc6fca14c6336f33"
+    },
+    {
+      "path": "assets/ch16-provenance.json",
+      "sha256": "1f4e73e35bbded947a220717e9d034febd34e2577fcd5c801ef0cf3f4baa1ed7"
+    },
+    {
+      "path": "assets/ch16-LICENSE.txt",
+      "sha256": "b4d13a1da44051f95697dfcf14e9e67f9e7edd3af02dce93d3a82baa76951e8b"
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch17_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "77231ae79fb00437dad299b389ecd11d4199c61c7678fcb9acc4462ea6ea3030",
+      "artifact_sha256": {
+        "assets/ch17-checks.js": "a8e183e3f6814dfa150bfef0c2b8602cbea7235fd1b82a6406bcfa1c354f5892",
+        "assets/ch17-countercurrent-data.json": "25fe59fa85bef7e06673e56d5e6b2cd5235b2f52234e449247f2116dbfa1f422",
+        "assets/ch17-mechanisms.css": "373cb1bf2951a62fb1dbab12c87b81f9ce9bb6a2018b69d6f3a798829d0ef4bc",
+        "assets/ch17-mechanisms.html": "992aedb0fe2fc9e7847f6d0b5b99d27cdceca5e47e6166d717dad7a04d1bb2d6",
+        "assets/ch17-mechanisms.js": "2e866270db21955298026c455b278868625afab30b94fdad2e852ae4506fdd87",
+        "assets/ch17-nephron.svg": "f1af958dadc1af6369e70409752f6284863da211ab49a0c899e8ecf5a1bd677c",
+        "assets/ch17-provenance.json": "266b7f893ad988062d5d2703f0b2f650116b07b12d502f35b9accfd8765e0fda",
+        "assets/ch17-raas.svg": "b89a938e4c9570d167afb62d347074dd241cdce5cc0058a9f6060f762e1f6d22",
+        "code/ch17_renal_balance.py": "3034a3d52e5ac15b9830c245f3952e6a6a7b484b197056c1824d88606e7781d9",
+        "assets/ch16-glomerulus-sem.jpg": "c0e94632237a66e8aadf9641741eb5fbfd20797973b0d9b4cc6fca14c6336f33",
+        "assets/ch16-provenance.json": "1f4e73e35bbded947a220717e9d034febd34e2577fcd5c801ef0cf3f4baa1ed7",
+        "assets/ch16-LICENSE.txt": "b4d13a1da44051f95697dfcf14e9e67f9e7edd3af02dce93d3a82baa76951e8b"
+      },
+      "report_path": "work/reviews/ch17-approved-a.md",
+      "report_sha256": "f749210e7b0681268dc8d04fd53893e2dbcd08c41c89a7406d783aed5acf1ffd",
+      "original_full_report": "work/reviews/ch17-review-a.md",
+      "targeted_report": "work/reviews/ch17-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch17_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "77231ae79fb00437dad299b389ecd11d4199c61c7678fcb9acc4462ea6ea3030",
+      "artifact_sha256": {
+        "assets/ch17-checks.js": "a8e183e3f6814dfa150bfef0c2b8602cbea7235fd1b82a6406bcfa1c354f5892",
+        "assets/ch17-countercurrent-data.json": "25fe59fa85bef7e06673e56d5e6b2cd5235b2f52234e449247f2116dbfa1f422",
+        "assets/ch17-mechanisms.css": "373cb1bf2951a62fb1dbab12c87b81f9ce9bb6a2018b69d6f3a798829d0ef4bc",
+        "assets/ch17-mechanisms.html": "992aedb0fe2fc9e7847f6d0b5b99d27cdceca5e47e6166d717dad7a04d1bb2d6",
+        "assets/ch17-mechanisms.js": "2e866270db21955298026c455b278868625afab30b94fdad2e852ae4506fdd87",
+        "assets/ch17-nephron.svg": "f1af958dadc1af6369e70409752f6284863da211ab49a0c899e8ecf5a1bd677c",
+        "assets/ch17-provenance.json": "266b7f893ad988062d5d2703f0b2f650116b07b12d502f35b9accfd8765e0fda",
+        "assets/ch17-raas.svg": "b89a938e4c9570d167afb62d347074dd241cdce5cc0058a9f6060f762e1f6d22",
+        "code/ch17_renal_balance.py": "3034a3d52e5ac15b9830c245f3952e6a6a7b484b197056c1824d88606e7781d9",
+        "assets/ch16-glomerulus-sem.jpg": "c0e94632237a66e8aadf9641741eb5fbfd20797973b0d9b4cc6fca14c6336f33",
+        "assets/ch16-provenance.json": "1f4e73e35bbded947a220717e9d034febd34e2577fcd5c801ef0cf3f4baa1ed7",
+        "assets/ch16-LICENSE.txt": "b4d13a1da44051f95697dfcf14e9e67f9e7edd3af02dce93d3a82baa76951e8b"
+      },
+      "report_path": "work/reviews/ch17-approved-b.md",
+      "report_sha256": "022230bf0ce9f13e1f2a183d1b510c93527a839cd05fad4dfcdbfffc1c6ba265",
+      "original_full_report": "work/reviews/ch17-review-b.md",
+      "targeted_report": "work/reviews/ch17-targeted-b.md"
+    }
+  ],
+  "code": [
+    "code/ch17_renal_balance.py"
+  ],
+  "code_validation": "Regenerated Python frames and 20 numerical values exactly match baseline; independent rate conservation, no-pump, positivity, half-step, ten domain rejection cases and typed graph/state checks pass. Source SVG preflight only; actual chapter browser/motion/print pending root.",
+  "figures": [
+    {
+      "id": "ch17-anim1",
+      "path": "chapter-17-nephron-transport-pressure.html#ch17-anim1",
+      "status": "accepted",
+      "embedded_panel": "assets/ch17-mechanisms.html?mode=proximal"
+    },
+    {
+      "id": "ch17-anim2",
+      "path": "chapter-17-nephron-transport-pressure.html#ch17-anim2",
+      "status": "accepted",
+      "embedded_panel": "assets/ch17-mechanisms.html?mode=loop"
+    },
+    {
+      "id": "ch17-anim3",
+      "path": "chapter-17-nephron-transport-pressure.html#ch17-anim3",
+      "status": "accepted",
+      "embedded_panel": "assets/ch17-mechanisms.html?mode=control"
+    },
+    {
+      "id": "ch17-anim4",
+      "path": "chapter-17-nephron-transport-pressure.html#ch17-anim4",
+      "status": "accepted",
+      "embedded_panel": "assets/ch17-mechanisms.html?mode=dialysis"
+    },
+    {
+      "id": "ch17-fig1",
+      "path": "assets/ch17-nephron.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch17-microscopy",
+      "path": "assets/ch16-glomerulus-sem.jpg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch17-raas-print",
+      "path": "assets/ch17-raas.svg",
+      "status": "accepted"
+    }
+  ],
+  "realistic_asset_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Tubular renal transport,countercurrent model,branching hormone control and dialysis",
+    "rationale": "VerifiedpreparedglomerularSEMprovidesrenalcorpusclesurfaceappearance; originalsourcereferencednephrondiagramseparatesvascular/tubularroutes. Controlledpolarizedtransport,savedTALsurrogatebalance,branchingRAASandseparateddialysismechanismsexplainprocesses atdeclaredscales. SEMdoesnotidentifyalltransporters orshowtubularflux.",
+    "appearance_references": [
+      "assets/ch16-glomerulus-sem.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch17-mechanisms.html",
+      "assets/ch17-mechanisms.js"
+    ],
+    "report_path": "work/browser/ch17-visual-modality.json",
+    "report_sha256": "a7e51977f89a884c9538f55ac48e0ed00314b4d29682a5299f5318f30cfb8793"
+  },
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
+    "browser": "Actual root current reader/4controlledpanels, defaultdesktop650px390px, data delivery, keyboardcontrol/pan, sampled live playback and reduced-motion pause, print generation and22pageproof inspection afterCSScontainmentrepair",
+    "coverage": "All62 assigned lecture topics plus A01 closing water-load activity disposed; full captions L38–40; bounded contact-sheet/native still audit, not continuous audio/video."
+  },
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "author_report": "work/ch17-author-report.md",
+  "production_validation": {
+    "report_path": "work/browser/ch17-production-final.json",
+    "report_sha256": "0079a55b463175c963fd98898b7028d3f8206c40b2feadf4196c3e70661ba5c4",
+    "scope": "Actual root current reader/4controlledpanels, defaultdesktop650px390px, data delivery, keyboardcontrol/pan, sampled live playback and reduced-motion pause, print generation and22pageproof inspection afterCSScontainmentrepair"
+  },
+  "limitations": [
+    "Four-level outer-medullary TAL-surrogate submodel: every ascending bin is active TAL; thin ascending limb, anatomical bend and inner-medullary physiology are omitted. Deepest D-to-A return has no exchange and no metric anatomical mapping.",
+    "Shared glomerular SEM supplies glomerular surface context only; no observed PCT/loop epithelial appearance or transporter localization supplied.",
+    "SeveralPMCfullrequests challenged; preciseindexed/abstract/localdossier limits stated.",
+    "Clinicalscopeconceptual,notpersonalprescribingordialysisprotocol."
+  ],
+  "artifact_sha256": {
+    "assets/ch17-checks.js": "a8e183e3f6814dfa150bfef0c2b8602cbea7235fd1b82a6406bcfa1c354f5892",
+    "assets/ch17-countercurrent-data.json": "25fe59fa85bef7e06673e56d5e6b2cd5235b2f52234e449247f2116dbfa1f422",
+    "assets/ch17-mechanisms.css": "373cb1bf2951a62fb1dbab12c87b81f9ce9bb6a2018b69d6f3a798829d0ef4bc",
+    "assets/ch17-mechanisms.html": "992aedb0fe2fc9e7847f6d0b5b99d27cdceca5e47e6166d717dad7a04d1bb2d6",
+    "assets/ch17-mechanisms.js": "2e866270db21955298026c455b278868625afab30b94fdad2e852ae4506fdd87",
+    "assets/ch17-nephron.svg": "f1af958dadc1af6369e70409752f6284863da211ab49a0c899e8ecf5a1bd677c",
+    "assets/ch17-provenance.json": "266b7f893ad988062d5d2703f0b2f650116b07b12d502f35b9accfd8765e0fda",
+    "assets/ch17-raas.svg": "b89a938e4c9570d167afb62d347074dd241cdce5cc0058a9f6060f762e1f6d22",
+    "code/ch17_renal_balance.py": "3034a3d52e5ac15b9830c245f3952e6a6a7b484b197056c1824d88606e7781d9",
+    "assets/ch16-glomerulus-sem.jpg": "c0e94632237a66e8aadf9641741eb5fbfd20797973b0d9b4cc6fca14c6336f33",
+    "assets/ch16-provenance.json": "1f4e73e35bbded947a220717e9d034febd34e2577fcd5c801ef0cf3f4baa1ed7",
+    "assets/ch16-LICENSE.txt": "b4d13a1da44051f95697dfcf14e9e67f9e7edd3af02dce93d3a82baa76951e8b"
+  },
+  "repair_report": "work/ch17-repair-report.md",
+  "feedback_marker_repair": "work/ch17-feedback-marker-repair.md",
+  "coverage_basis": "All62 assigned lecture topics plus A01 closing water-load activity disposed; full captions L38–40; bounded contact-sheet/native still audit, not continuous audio/video.",
+  "accepted_at_utc": "2026-11-05T01:52:36.798Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-17.json",
+    "sha256": "527f5d73fe824c02b20880444f9e0740f702bc6ba9b70f1eb399c9f7c34c489b"
+  }
+}

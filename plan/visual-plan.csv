@@ -1,0 +1,109 @@
+chapter,id,type,status,description
+1,ch1-anim1,animation,accepted,"Animated cell-to-tissue-to-organ scale transition, retaining orientation and changing scale labels"
+1,ch1-anim2,animation,accepted,ER–Golgi–vesicle trafficking animation with compartment and cargo labels
+1,ch1-fig1,illustration,accepted,Reference-derived body/cavity view with movable section planes
+1,ch1-fig2,illustration,accepted,Labeled cell cutaway and tissue-reference panel
+2,ch2-anim1,animation,accepted,Concentration/electrochemical-gradient diffusion animation with permeability controls
+2,ch2-anim2,animation,accepted,Na/K pump cycle coupled to sodium-dependent transport
+2,ch2-anim3,animation,accepted,Perturbation–sensor–controller–effector feedback response with synchronized trace
+2,ch2-fig1,illustration,accepted,Reference-derived membrane/transport-protein context
+2,ch2-fig2,illustration,accepted,Organelle dysfunction comparison with evidence limits
+3,ch3-anim1,animation,accepted,"Vessel-injury platelet adhesion, recruitment and plug formation"
+3,ch3-anim2,animation,accepted,Synchronized thrombin/fibrin network and fibrinolysis animation
+3,ch3-anim3,animation,accepted,"Drug-target reveal on the mechanism, with current-source verification"
+3,ch3-fig1,illustration,accepted,Photorealistic vessel-wall/blood-cell context
+3,ch3-fig2,illustration,accepted,Hematopoietic lineage diagram and assay comparison
+4,ch4-anim1,animation,accepted,ABO antigen–antibody interaction and component-specific compatibility explorer
+4,ch4-anim2,animation,accepted,"Interstitial-fluid entry, lymphatic valves and venous return"
+4,ch4-anim3,animation,accepted,Antigen presentation followed by clonal activation and response timeline
+4,ch4-fig1,illustration,accepted,Reference-derived lymphatic/node anatomy
+4,ch4-fig2,illustration,accepted,MHC/lymphocyte comparison with labeled abstraction
+5,ch5-anim1,animation,accepted,Heart cutaway with valve motion and directional pulmonary/systemic flow
+5,ch5-anim2,animation,accepted,"Synchronized conduction, ECG and mechanical cardiac phases"
+5,ch5-anim3,animation,accepted,Venous return and selected regional circulation flow
+5,ch5-fig1,illustration,accepted,Expert-source heart geometry and coronary context
+5,ch5-fig2,illustration,accepted,ECG lead geometry with projection interpretation
+6,ch6-anim1,animation,accepted,Vessel cross-section and resistance change synchronized with pressure/flow plots
+6,ch6-anim2,animation,accepted,Classical versus revised microvascular exchange animation
+6,ch6-anim3,animation,accepted,Imposed pressure step with bounded resistance adaptation and flow stabilization
+6,ch6-fig1,illustration,accepted,Layered vessel-wall render and capillary-type comparison
+7,ch7-anim1,animation,accepted,"Diaphragm/rib motion with synchronized pressure, volume and airflow"
+7,ch7-anim2,animation,accepted,Airway-to-alveolus scale transition and mucociliary transport
+7,ch7-anim3,animation,accepted,Hemoglobin loading/unloading with synchronized dissociation curves
+7,ch7-fig1,illustration,accepted,Reference-derived lung/airway geometry
+7,ch7-fig2,illustration,accepted,Alveolar barrier and surfactant cross-section
+8,ch8-anim1,animation,accepted,Breathing spirogram with live volume/capacity partition
+8,ch8-anim2,animation,accepted,Oxygen content–flow–delivery animation with synchronized arithmetic
+8,ch8-anim3,animation,accepted,CO/oxygen binding and pulse-oximetry versus co-oximetry measurement sequence
+8,ch8-fig1,illustration,accepted,Pulmonary disease mechanism panels with source-specific distinctions
+9,ch9-anim1,animation,accepted,Hypothalamic–pituitary–target-gland feedback animation
+9,ch9-anim2,animation,accepted,Insulin receptor signaling and tissue-specific glucose handling
+9,ch9-anim3,animation,accepted,"Meal/fasting perturbation with glucose, insulin and glucagon traces"
+9,ch9-fig1,illustration,accepted,Endocrine gland body map
+9,ch9-fig2,illustration,accepted,Islet-cell reference context with alpha/beta identity
+10,ch10-anim1,animation,accepted,Encapsulated islet transport and immune-access schematic
+10,ch10-anim2,animation,accepted,Sensor delay and measurement sampling animation
+10,ch10-anim3,animation,accepted,Illustrative closed-loop glucose-control response with bounded inputs
+10,ch10-fig1,illustration,accepted,Source-grounded device/encapsulation cross-sections
+11,ch11-anim1,animation,accepted,Follicle cutaway showing thyroid-hormone synthesis and release
+11,ch11-anim2,animation,accepted,TSH/thyroid-hormone feedback trajectories for primary versus central dysfunction
+11,ch11-fig1,illustration,accepted,Reference-derived gland/follicle context
+11,ch11-fig2,illustration,accepted,Hormone-axis differential comparison
+12,ch12-anim1,animation,accepted,Peristaltic meal transit with organ/compartment labels
+12,ch12-anim2,animation,accepted,Starch-to-monosaccharide enzyme sequence
+12,ch12-anim3,animation,accepted,Polarized enterocyte absorption coupled to sodium-gradient maintenance
+12,ch12-fig1,illustration,accepted,Reference-derived digestive tract and villus/enterocyte context
+13,ch13-anim1,animation,accepted,"Proteolysis, peptide uptake and portal transport"
+13,ch13-anim2,animation,accepted,Lipid droplet–micelle–enterocyte–chylomicron sequence
+13,ch13-anim3,animation,accepted,Matched normal/malabsorption pathway comparison
+13,ch13-fig1,illustration,accepted,Mucosal barrier and pancreatic/biliary anatomical context
+14,ch14-anim1,animation,accepted,Osteoclast/osteoblast remodeling sequence with time-compression label
+14,ch14-anim2,animation,accepted,Reference-based synovial joint motion and cartilage loading
+14,ch14-fig1,illustration,accepted,Bone microstructure and expert-source joint geometry
+15,ch15-anim1,animation,accepted,"Neuromuscular-junction release, receptor activation and muscle action potential"
+15,ch15-anim2,animation,accepted,Sarcoplasmic-reticulum calcium release linked to cross-bridge cycle
+15,ch15-anim3,animation,accepted,Sarcomere shortening with synchronized length/tension trace
+15,ch15-fig1,illustration,accepted,Structure-based actin/myosin context
+15,ch15-fig2,illustration,accepted,Muscle-type comparison and regional skeletal pathology panels
+16,ch16-anim1,animation,accepted,Kidney-to-nephron scale transition with vascular/tubular paths
+16,ch16-anim2,animation,accepted,Glomerular barrier and pressure-driven filtration
+16,ch16-anim3,animation,accepted,Afferent/efferent resistance perturbations and bounded model response
+16,ch16-fig1,illustration,accepted,Reference-derived kidney and glomerular anatomy
+17,ch17-anim1,animation,accepted,Polarized proximal-tubule transport and bicarbonate recycling
+17,ch17-anim2,animation,accepted,Countercurrent multiplication in a segment-resolved nephron model
+17,ch17-anim3,animation,accepted,Water-balance/RAAS response with anatomically located sensors and effectors
+17,ch17-anim4,animation,accepted,Dialyzer membrane transport with separate blood/dialysate paths and diffusion versus ultrafiltration
+17,ch17-fig1,illustration,accepted,Nephron segment and collecting-duct reference context
+18,ch18-anim1,animation,accepted,Seminiferous-tubule stage progression with ploidy labels
+18,ch18-anim2,animation,accepted,Sperm transport route and hormonal feedback
+18,ch18-fig1,illustration,accepted,Reference-derived male reproductive anatomy and testicular section
+19,ch19-anim1,animation,accepted,Follicle/oocyte maturation with separate long-term and cycle clocks
+19,ch19-anim2,animation,accepted,Ovulation and corpus-luteum development synchronized with hormone traces
+19,ch19-anim3,animation,accepted,Lactation feedback separating milk synthesis from oxytocin-dependent ejection
+19,ch19-fig1,illustration,accepted,Expert-source pelvic geometry and follicular cross-section
+20,ch20-anim1,animation,accepted,Synchronized ovarian/endometrial/hormonal cycle animation
+20,ch20-anim2,animation,accepted,Fertilization-to-implantation trajectory with elapsed-time labels
+20,ch20-anim3,animation,accepted,Placental exchange with separate maternal/fetal pathways
+20,ch20-anim4,animation,accepted,Late-pregnancy/labor phase sequence with explicit event and time conventions
+20,ch20-fig1,illustration,accepted,Reference-based uterus/placenta sectional context
+21,ch21-anim1,animation,accepted,Mechanism-specific contraception comparison with dated evidence
+21,ch21-anim2,animation,accepted,IVF stage sequence with anatomical location and uncertainty
+21,ch21-anim3,animation,accepted,Selected disorder mechanisms supported by current authoritative sources
+21,ch21-fig1,illustration,accepted,Reference-derived pelvic support and reproductive-system context
+22,ch22-anim1,animation,accepted,Sensory input–central integration–motor output pathway animation
+22,ch22-anim2,animation,accepted,Spinal reflex route with synchronized signal markers
+22,ch22-fig1,illustration,accepted,Reference-derived brain and spinal/cross-sectional anatomy
+22,ch22-fig2,illustration,accepted,Cranial/spinal nerve orientation map
+23,ch23-anim1,animation,accepted,Axonal cargo transport with an explicit contrast to electrical-signal propagation
+23,ch23-anim2,animation,accepted,"Peripheral injury, distal degeneration and constrained repair for separately labeled injury classes"
+23,ch23-fig1,illustration,accepted,Reference-based nerve/axon/myelin sections
+24,ch24-anim1,animation,accepted,"Ion gradients, leak/pump steady state and one-ion Nernst equilibrium compared"
+24,ch24-anim2,animation,accepted,"Graded-input summation, action-potential propagation, sodium/potassium channel states and refractory response synchronized with voltage/current traces"
+24,ch24-anim3,animation,accepted,"Presynaptic calcium, vesicle release, receptor conductance and transmitter clearance with matched EPSP/IPSP examples"
+24,ch24-fig1,illustration,accepted,Structure-based receptor/synapse context
+25,ch25-anim1,animation,accepted,Blood–brain barrier transport and neurovascular-unit interactions
+25,ch25-anim2,animation,accepted,Selected sensory-transduction sequence with stimulus/response traces
+25,ch25-anim3,animation,accepted,Matched normal/dysfunction sequence for carefully sourced disease mechanisms
+25,ch25-anim4,animation,accepted,"Astrocytic potassium buffering and glutamate–glutamine recycling, with cell/compartment identities"
+25,ch25-anim5,animation,accepted,Retinal visual-field projections and partial crossing at the optic chiasm
+25,ch25-fig1,illustration,accepted,Expert-source neurovascular and sensory-organ anatomy

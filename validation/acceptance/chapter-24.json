@@ -1,0 +1,108 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 24,
+  "manuscript": "chapter-24-membrane-excitability-synapses.html",
+  "body_sha256": "601137d8bddf4a40b7c0dffb39486f8bd7ea96c1f58a503910789a2d39e2b743",
+  "artifact_sha256": {
+    "assets/ch24-ap.svg": "a1e563f3f446927890e3fd918062836e8d30cef7cb63df373a526fb8666362fb",
+    "assets/ch24-context.svg": "3b65cf2d6eb7659e810b10f78c8ff25f3c6dbc6fb04a1b0d01af944318708cbc",
+    "assets/ch24-mechanisms.css": "75e67433518230502247f9a7dc7aec14e1680168defc567cc7082f2879e9d967",
+    "assets/ch24-mechanisms.html": "1d6981a5a2949518757dcc29b54ea07044be9caffc67f5aacbdb869b6cfe5dc6",
+    "assets/ch24-mechanisms.js": "af7fadaa3894a7930d631f8bec7957dd5dc53398690ed6f68841bf038c7b9c6f",
+    "assets/ch24-model.json": "9320181908b67dca8bdf408b74912a8c2eee4f156e0d510daf9c45f97ef8a83f",
+    "assets/ch24-rest.svg": "4de956f8d8edcaf3bceae37f23ea4301911c9a62d28327cfdff2981fcc94f478",
+    "assets/ch24-synapse.svg": "4809b7f0704cf6ba1a79a482f4f07e9b4369c47c1d362a377308e5ac84be4c54",
+    "code/ch24_membrane.py": "daa670169a9df4667e76fa51999d41ceae37094206ccd7c5521234c4c0e3fb95",
+    "code/ch24_visuals.py": "a9985c32d76087bfc0db8c08cbaf5f1b39289fcbab976db59f2ec4a766ff4e48"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "Complete L56–57 captions and29topic/closing dispositions, attributed bounded source still audit; exactly two actual independent full reviews and bounded union/domain/access checks. Root original HH52 table/rates and numerical comparison scope retained; no continuous lecture viewing claim.",
+  "source_recordings": [
+    56,
+    57
+  ],
+  "source_evidence": [
+    {
+      "number": 56,
+      "video_id": "izupF0TyBPQ",
+      "url": "https://www.youtube.com/watch?v=izupF0TyBPQ",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "40cbcbcf0ffcf91d00a05f19e263e14f99270520f63c90dbb7bbce33624d2119",
+      "caption_cues": 200,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 66,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 4,
+        "sampled_stills": 66,
+        "native_still_views": 7,
+        "report_sha256": "ed6b837fed7c27d93b5efa8de857cdedba3823035da5adb75ce4d87dbd59cb10"
+      },
+      "visual_review_scope": "All29 assigned topics/full publisher captions/closing activities;8contact sheets133sampled stills plus15native repeats. Partial still coverage,not continuous audio/video; source-caption/slide corrections and actual external access limits recorded."
+    },
+    {
+      "number": 57,
+      "video_id": "iqPAx7M4LYM",
+      "url": "https://www.youtube.com/watch?v=iqPAx7M4LYM",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "45c49c04a763892b05005e6a60bbc4d783abb76fd285c15b879bf5aa0818725b",
+      "caption_cues": 190,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 67,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 4,
+        "sampled_stills": 67,
+        "native_still_views": 8,
+        "report_sha256": "ed6b837fed7c27d93b5efa8de857cdedba3823035da5adb75ce4d87dbd59cb10"
+      },
+      "visual_review_scope": "All29 assigned topics/full publisher captions/closing activities;8contact sheets133sampled stills plus15native repeats. Partial still coverage,not continuous audio/video; source-caption/slide corrections and actual external access limits recorded."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch17_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "2f670acbe89ca8396e537840b4a8e6ec898ca8e2fed075f36cf1f8acbc36ea7e",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    },
+    {
+      "reviewer_id": "/root",
+      "reviewer_model": "Codex primary; exact SDK model not exposed",
+      "reasoning_effort": "Primary orchestration setting not exposed; no inferred medium attribution",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "5155fe41f6268e8cf5675e3335457f72753536030deaad83f1ac433109015262",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    }
+  ],
+  "production": {
+    "scope": "Actual agent CUA reader/control/motion/responsive/access checks plus independent root all-page print-contact and quantitative/topological visual assessment; exactly two original scientific reviews and bounded targets separately recorded",
+    "report_sha256": "56ec1a8c0ae33e84c2ff550a5cc39d3385ce6701ffee60a9016cb3a146c470d7"
+  },
+  "visual_modality": {
+    "status": "accepted",
+    "mode": "conceptual-quantitative",
+    "scene_family": "Membrane voltage, Hodgkin–Huxley gating/conductance and synthetic RC synapses",
+    "rationale": "The central subject is quantitative state evolution and compartment topology. Controlled saved-state animations and shared plots expose voltage/current/gating relationships; arbitrary tissue photorealism would not validate a numerical law. Anatomy/kinetic limitations are explicit.",
+    "mechanism_files": [
+      "assets/ch24-mechanisms.html",
+      "assets/ch24-mechanisms.js",
+      "assets/ch24-model.json"
+    ],
+    "no_anatomical_appearance_claim": true,
+    "report_sha256": "7fda57f9a815f4d6e5d669ba53591d91ddf74bfec1f90b3e7b2455a7e75a24ea"
+  },
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

@@ -1,0 +1,1883 @@
+{
+  "source": {
+    "title": "3D Reference Organ for Heart, Male v1.0",
+    "creator": "Kristen Browne",
+    "year": 2021,
+    "doi": "https://doi.org/10.48539/hbm384.fdpd.646",
+    "url": "https://cdn.humanatlas.io/hra-releases/v1.0/models/VH_M_Heart.glb",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "sha256": "1889d452b0781b9c35d8b4464c58e3ef60c26f9d7611b88e25c903ff80dbca44"
+  },
+  "geometry": "Source meshes retained as imported by Blender glTF importer; imported vertices, polygon indices, placement and parent transforms unchanged throughout scene construction. No custom weld, remesh, caps, cuts, added fat, reconstructed anatomy or deformation. Smooth normals only. Imported inventory has 294478 polygons, while the earlier raw glTF accessor review counted 294496 triangles; import-level difference is not independently classified.",
+  "orientation": "Landmark-inferred, not source-certified: +X left, -Y anterior, +Z superior. Views are qualified anterior-oblique interpretations.",
+  "units": "glTF meter convention; metric scale_length=1; no rescaling. Specimen scale not independently calibrated; no physical scale bar.",
+  "visible_bounds_xyz": [
+    [
+      -0.0436820350587368,
+      -0.07152201235294342,
+      0.39420202374458313
+    ],
+    [
+      0.08066914975643158,
+      0.046379365026950836,
+      0.5637106895446777
+    ]
+  ],
+  "mesh_inventory": [
+    {
+      "name": "VHM_aortic_arch",
+      "vertices": 1600,
+      "triangles": 3076,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "55f96baaacc7206783f4bd6b716e0c92adca48f21f9735673cb48ce834f25491"
+    },
+    {
+      "name": "VHM_ascending_aorta",
+      "vertices": 840,
+      "triangles": 1600,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "83cb3babb743094f55374467e36420db07f177b7371e337e59881b6b4051174d"
+    },
+    {
+      "name": "VHM_brachiocephalic_artery_b",
+      "vertices": 1500,
+      "triangles": 2964,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "0a66971c3ab7067941171dd90f3633df0c34549b8861c40249725e505dfb6773"
+    },
+    {
+      "name": "VHM_brachiocephalic_artery_a",
+      "vertices": 243,
+      "triangles": 446,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "b96c6573f539e5d22711fc1c3420b9434ee52582ec1dae7d88ba0be8ca977a9b"
+    },
+    {
+      "name": "VHM_left_common_carotid_artery_a",
+      "vertices": 336,
+      "triangles": 630,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "85041d11b6648c391b2aeca5f052c1e893691672c239e8537b467eba6a2ceb98"
+    },
+    {
+      "name": "VHM_left_common_carotid_artery_b",
+      "vertices": 1545,
+      "triangles": 3067,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "a0c044eb354e67af98abe026fe9c14055f8ea21902ba60b172f7004fa7e4b5fc"
+    },
+    {
+      "name": "VHM_left_subclavian_artery_a",
+      "vertices": 317,
+      "triangles": 589,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "52843a69b3b0f4bfe6b49919112ef8d84f714795de80dce2a29e862a4c52fd89"
+    },
+    {
+      "name": "VHM_left_subclavian_artery_b",
+      "vertices": 1190,
+      "triangles": 2317,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "b09e5b2301e4e54745aaaf30768d28315cc38b6f09f0708b936d398763124051"
+    },
+    {
+      "name": "VHM_descending_aorta_a",
+      "vertices": 2546,
+      "triangles": 4984,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "64d25d93c6c31a4158933193b0452123d678f20ec0650843f05080a9f0656586"
+    },
+    {
+      "name": "VHM_descending_aorta_b",
+      "vertices": 3917,
+      "triangles": 7666,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "ccd7ef82ecccca42e86d6dd86a3b49f24a1507bdd0cc49dd2105ca812014b9e8"
+    },
+    {
+      "name": "VHM_left_anterior_descending_artery",
+      "vertices": 4491,
+      "triangles": 8940,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "473f113d737c56d1dd9af66014eadfc167a42b79f962de333155b1f7bc9dded9"
+    },
+    {
+      "name": "VHM_right_marginal_artery",
+      "vertices": 1071,
+      "triangles": 2120,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "6344b6dc167ba713e50fb2a536bc5fac0ff5bf36dd004fd51797a809bf376165"
+    },
+    {
+      "name": "VHM_right_posterior_descending_artery",
+      "vertices": 2525,
+      "triangles": 5028,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "cb2670deba4969e58d158f18d0eb4b6e88ac8df010bfa378af5fe9b4a4759989"
+    },
+    {
+      "name": "VHM_diagonal_branch_of_anterior_descending_branch_of_left_coronary_artery",
+      "vertices": 1016,
+      "triangles": 2010,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "4a745f9793ac8154fc589c349b376a1f577d4103ee74533f505334da4aa649c3"
+    },
+    {
+      "name": "VHM_left_coronary_artery",
+      "vertices": 6306,
+      "triangles": 12235,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "32e22a993bfbf22f072dac46e05daff58f5842718d19a47e43281158267fc51b"
+    },
+    {
+      "name": "VHM_right_coronary_artery",
+      "vertices": 5829,
+      "triangles": 11570,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "950ea7b11c12f76a89041be99eee8081465f81048222fcc602a83bc8a62f33f9"
+    },
+    {
+      "name": "VHM_diagonal_branch_of_left_anterior_descending_artery",
+      "vertices": 1676,
+      "triangles": 3307,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "aa386b72a6a9c03ae59fcb0861a80f32ccdf87c54f5bb3e32c80654e3d346dc3"
+    },
+    {
+      "name": "VHM_left_marginal_branch",
+      "vertices": 984,
+      "triangles": 1948,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "f490e29eb499298f671a9ae42a40fa6cca9b5adcb10e62f9d78daf5c9de1bdd8"
+    },
+    {
+      "name": "VHM_pulmonary_artery_L",
+      "vertices": 3056,
+      "triangles": 6132,
+      "source_materials": [
+        "vein"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "88a713255fee208cfeb33abc5adec5d7a8114789c08854926b784f44c6a6853e"
+    },
+    {
+      "name": "VHM_pulmonary_artery_R",
+      "vertices": 1587,
+      "triangles": 3178,
+      "source_materials": [
+        "vein"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "1294ff90fafce01585adbdd89077d531c8f11d95276b48d9215b0bed374b4494"
+    },
+    {
+      "name": "VHM_pulmonary_trunk",
+      "vertices": 1561,
+      "triangles": 3126,
+      "source_materials": [
+        "vein"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "07fa32d5e60e8f71ce8197f83955f70c7c1433864353d1fc46168e5280ec99c2"
+    },
+    {
+      "name": "VHM_great_cardiac_vein",
+      "vertices": 282,
+      "triangles": 556,
+      "source_materials": [
+        "vein"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "489c3e10f0e593ee103bd78e1b8296efff550da13c9c78a05d56f28b66437f7a"
+    },
+    {
+      "name": "VHM_middle_cardiac_vein",
+      "vertices": 327,
+      "triangles": 642,
+      "source_materials": [
+        "vein"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "0f381518e1b53a1cd8523bd5d63589913c62a639bf3161e736638bb67be22932"
+    },
+    {
+      "name": "VHM_oblique_vein_of_left_atrium",
+      "vertices": 51,
+      "triangles": 92,
+      "source_materials": [
+        "vein"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "007aa166725f9e722b5f44dbfe96b917d05234e9e3f0c0f6b21522ff33aff9ca"
+    },
+    {
+      "name": "VHM_anterior_cardiac_vein",
+      "vertices": 201,
+      "triangles": 375,
+      "source_materials": [
+        "vein"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "0015f99f0c57f4f9fb1fb8ec4843beb3be11261de88faa78e0805aa16bb4563b"
+    },
+    {
+      "name": "VHM_coronary_sinus",
+      "vertices": 685,
+      "triangles": 1334,
+      "source_materials": [
+        "vein.001"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "93f81050868c92b237bc91ee8f0aa47783b5024005c68c7c6950a22204dbe595"
+    },
+    {
+      "name": "VHM_posterior_vein_of_left_ventricle",
+      "vertices": 310,
+      "triangles": 608,
+      "source_materials": [
+        "vein.001"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "599189b2c7b9a5600c17a38e4652c76b76f768210f11c0e5e1c45b42c9542063"
+    },
+    {
+      "name": "VHM_small_cardiac_vein",
+      "vertices": 903,
+      "triangles": 1802,
+      "source_materials": [
+        "vein"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "6b25e161cbdae3c3ad851f43457783f430d9fb809dd0f7ce10a752f9fc777d76"
+    },
+    {
+      "name": "VHM_pulmonary_vein_R_inf",
+      "vertices": 2037,
+      "triangles": 4078,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "f22e7ce2195f2731b440ee7324ba493f2499a182548c940f892235237021f3f3"
+    },
+    {
+      "name": "VHM_pulmonary_vein_R_sup",
+      "vertices": 932,
+      "triangles": 1868,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "5b0f2a42a1c7799928398d5cb357a1d7a93a7505c84e0aed7bbc29010b980375"
+    },
+    {
+      "name": "VHM_pulmonary_vein_L_inf",
+      "vertices": 1011,
+      "triangles": 2026,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "de8ebbf29920012562c8166771a8ca162875fe5e57a4e1f0b31061eb591e9154"
+    },
+    {
+      "name": "VHM_pulmonary_vein_L_sup",
+      "vertices": 915,
+      "triangles": 1834,
+      "source_materials": [
+        "artery"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "f175a27e0b8310597b612ac7623ce21c7f19ae710ffcea307d1a1b6d67f9b9ef"
+    },
+    {
+      "name": "VHM_superior_vena_cava",
+      "vertices": 5636,
+      "triangles": 11221,
+      "source_materials": [
+        "vein"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "cec151352aa9dbeca83f522cdb5e6d47eccc44154f1f0fa0da5c9d524449d1d5"
+    },
+    {
+      "name": "VHM_inferior_vena_cava_b",
+      "vertices": 5613,
+      "triangles": 11122,
+      "source_materials": [
+        "vein"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "dc92294c5c8b2f89931ed78cf4318a05cb7cc2ee0d0e7879afc4a5a29b3859fb"
+    },
+    {
+      "name": "VHM_inferior_vena_cava_a",
+      "vertices": 2960,
+      "triangles": 5880,
+      "source_materials": [
+        "vein"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "79f51e79fcdf1d9f4b32a74ac9d2a37573f77409b1a2f5d5482152a07056bc49"
+    },
+    {
+      "name": "VHM_mitral_valve",
+      "vertices": 3234,
+      "triangles": 6468,
+      "source_materials": [
+        "heart1"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "7099b3051a52587a45e0ece7469993fffe6b3fd76bae8aac131415e448925f8b"
+    },
+    {
+      "name": "VHM_tricuspid_valve",
+      "vertices": 6245,
+      "triangles": 12490,
+      "source_materials": [
+        "heart1"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "4df8cb176b40cd2c067ce94dfb19d68eed5627cccbcdf69a82b186c62a703aa5"
+    },
+    {
+      "name": "VHM_aortic_valve",
+      "vertices": 1372,
+      "triangles": 2680,
+      "source_materials": [
+        "heart1.001"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "73a909ae5cdb237101e876e4f1b9fbd98488a156383368d9024d82a68565f40a"
+    },
+    {
+      "name": "VHM_pulmonary_valve",
+      "vertices": 6644,
+      "triangles": 13288,
+      "source_materials": [
+        "heart1.001"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "37b04ffb5489a1aaabbea42cdd8bdfc0e75565370927ff1c71068077a4d6da2a"
+    },
+    {
+      "name": "VHM_papillary_muscle_of_heart_anterior",
+      "vertices": 341,
+      "triangles": 638,
+      "source_materials": [
+        "heart1.001"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "1808291255fa8e2c21f51852568191869ec160bfd5688d3f6d7f84ea411f62e5"
+    },
+    {
+      "name": "VHM_papillary_muscle_of_heart_anterolateral",
+      "vertices": 261,
+      "triangles": 518,
+      "source_materials": [
+        "heart1.001"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "d18a4285e13c6dfd9e6d27311ae8110dc7c135b17191ed0bee0cd342bcde17c1"
+    },
+    {
+      "name": "VHM_papillary_muscle_of_heart_medial",
+      "vertices": 90,
+      "triangles": 152,
+      "source_materials": [
+        "heart1.001"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "db6f8e321f277335ab72a766dcfe95121fcb58322cbf7e841bf9265cf36e213e"
+    },
+    {
+      "name": "VHM_papillary_muscle_of_heart_posterior",
+      "vertices": 77,
+      "triangles": 131,
+      "source_materials": [
+        "heart1.001"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "13519b78381aa22a8cb2a8aa553102fc721410073f08bb737df368fb9ce970b9"
+    },
+    {
+      "name": "VHM_papillary_muscle_of_heart_posteromedial",
+      "vertices": 290,
+      "triangles": 576,
+      "source_materials": [
+        "heart1.001"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "4baba0cc623706f7dc855b90515524d660c3612fe88039cb2a9c872c602b545a"
+    },
+    {
+      "name": "VHM_left_cardiac_atrium",
+      "vertices": 16967,
+      "triangles": 33946,
+      "source_materials": [
+        "heart1"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "07b86d87066d2c76f595a0a8bcc2dcad5eecbdafcddf647a9ce50396852bfd8d"
+    },
+    {
+      "name": "VHM_right_cardiac_atrium",
+      "vertices": 24068,
+      "triangles": 48174,
+      "source_materials": [
+        "heart1"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "b9807299c739264bd8c7036c22367dba4262d3574f8d5f4fa68e3dc57f7323d6"
+    },
+    {
+      "name": "VHM_heart_right_ventricle",
+      "vertices": 13761,
+      "triangles": 27622,
+      "source_materials": [
+        "heart1"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "05af6f9d82531aa2d00dfd793f2c51f378519a2fa0d8014e5d45cbe4efd17295"
+    },
+    {
+      "name": "VHM_interventricular_septum",
+      "vertices": 4039,
+      "triangles": 8074,
+      "source_materials": [
+        "heart1.001"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": false,
+      "vertex_polygon_sha256": "1d779792a0f1d7896b44c984aa0129422024a126d0252f5c349453175d1c6363"
+    },
+    {
+      "name": "VHM_heart_left_ventricle",
+      "vertices": 4677,
+      "triangles": 9350,
+      "source_materials": [
+        "heart1"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "visible": true,
+      "vertex_polygon_sha256": "1ecc0d91e3cf1df8dcfce2804b37852ff01d836cab628e9f9f7c187a8d79f8cf"
+    }
+  ],
+  "render": {
+    "blender": "5.2.1 LTS",
+    "engine": "Cycles",
+    "device": "CPU",
+    "samples": 80,
+    "size": [
+      1200,
+      1200
+    ],
+    "seed": 17,
+    "denoise": true,
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": -1.149999976158142,
+    "orthographic_scale": 0.19663004577159882,
+    "clip": [
+      0.000169508668477647,
+      16.95086669921875
+    ],
+    "lights": [
+      {
+        "name": "Broad key",
+        "offset_extent": [
+          -1.5,
+          -1.8,
+          1.7
+        ],
+        "energy_watts": 9.481951713562012,
+        "size": 0.16103322803974152
+      },
+      {
+        "name": "Fill",
+        "offset_extent": [
+          1.4,
+          -0.8,
+          0.6
+        ],
+        "energy_watts": 3.304316520690918,
+        "size": 0.1864595264196396
+      },
+      {
+        "name": "Rim",
+        "offset_extent": [
+          0.6,
+          1.1,
+          1.3
+        ],
+        "energy_watts": 5.746637344360352,
+        "size": 0.13560692965984344
+      }
+    ]
+  },
+  "appearance": "Restrained multiscale procedural color, roughness, 35-micrometer shader bump and 0.6-mm SSS scale are illustrative choices, not measured tissue optics. No vessel oxygenation color code. No texture displacement.",
+  "limits": [
+    "RA and SVC source patches/seams remain unchanged.",
+    "No inference of hidden lumen connectivity, valve motion or hemodynamics.",
+    "Source segmentation omits external fat covering seen in the separate autopsy photograph.",
+    "Render is an anatomical illustration, not a clinical image or photographic replica."
+  ],
+  "outputs": [
+    {
+      "file": "assets/ch05-heart-render-anterior-oblique.png",
+      "sha256": "72ad04d1087c27c0ad4cafe04aabac85286f4c50cdd0ecbb35dce5d29d5df494",
+      "camera_world": [
+        0.0523952916264534,
+        -0.5210973024368286,
+        0.5382843613624573
+      ],
+      "camera_offset_extent": [
+        0.2,
+        -3,
+        0.35
+      ]
+    },
+    {
+      "file": "assets/ch05-heart-render-left-anterior-oblique.png",
+      "sha256": "1d2ee9abcd1f482e8244be5dd3590af71ddb869be2286f2f9b7ec14a255c0c3d",
+      "camera_world": [
+        0.4761669635772705,
+        -0.21598172187805176,
+        0.5382843613624573
+      ],
+      "camera_offset_extent": [
+        2.7,
+        -1.2,
+        0.35
+      ]
+    }
+  ],
+  "generator_sha256": "e593b82a62e9794e624e2201160c801ea6005a1e7d08a166f062d63da3910171"
+}

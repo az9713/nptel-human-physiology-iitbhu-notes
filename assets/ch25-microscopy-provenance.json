@@ -1,0 +1,46 @@
+{
+  "title": "Astrocytes and blood vessels of the retina, micrograph.",
+  "creator": "Gabriel Luna; University of California, Santa Barbara; Wellcome Images",
+  "year": 2012,
+  "accession": "B0010874",
+  "owning_record": "https://wellcomecollection.org/works/uhcjkwbd",
+  "catalogue_api": "https://api.wellcomecollection.org/catalogue/v2/works/uhcjkwbd?include=items,images",
+  "iiif_manifest": "https://iiif.wellcomecollection.org/presentation/v2/b29357081",
+  "license": {
+    "name": "Creative Commons Attribution4.0 International",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "basis": "Actual owning catalogue item license and IIIF full conditions link, version explicitly4.0"
+  },
+  "species": "Mouse, per owning description",
+  "anatomical_site": "Retinal surface",
+  "preparation": "Antibody labeling; laser scanning confocal microscopy; >400 tiles stitched by creator. Exact antibodies/fixation/section details unspecified.",
+  "channels": "Red astrocyte cell bodies; green processes; blue blood vessels, per catalogue. Display overlap may produce mixed colors.",
+  "scale": "No physical calibration or scale bar inferred from this record.",
+  "native": {
+    "url": "https://iiif.wellcomecollection.org/image/b29357081_B0010874.JP2/full/full/0/default.jpg",
+    "dimensions": [
+      11779,
+      12365
+    ],
+    "bytes": 36211572,
+    "sha256": "9d86c624003a88950a54f3bc1c8ff40a8db59c9d4b83c8d93ec8b1c465ac10cd"
+  },
+  "reader": {
+    "url": "https://iiif.wellcomecollection.org/image/b29357081_B0010874.JP2/full/2000,/0/default.jpg",
+    "path": "assets/ch25-mouse-retinal-astrocytes.jpg",
+    "dimensions": [
+      2000,
+      2100
+    ],
+    "bytes": 1617293,
+    "sha256": "a849cdffcc0291f2b26a0a8ae283aefa8b2c3c7b3c37e18e8647050aaa20a67d",
+    "modifications": "Owning IIIF server resize to2000pixels width; derivativeJPEG bytes retained unchanged after download. No crop, annotation or added color."
+  },
+  "actual_inspection": "Reader overview displayed (tool-resized for display); native1000×1000 pixel crop at4500,4500 separately viewed. Whole native bytes downloaded/hash checked, not every pixel scrutinized.",
+  "limits": [
+    "Prepared mouse confocal network appearance, not human microscopy.",
+    "Not tight-junction ultrastructure, measured BBB permeability, molecule trajectory or live temporal recording.",
+    "Not ear/cochlear or whole human brain anatomy. Retinal astrocyte/vessel context is separate from original sectional schematics."
+  ],
+  "access_date": "2026-11-04"
+}

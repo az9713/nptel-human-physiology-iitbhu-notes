@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-label="Which structure is continuous across an injury?">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#dce7f4"/></marker></defs>
+<rect width="1100" height="620" fill="#112033"/>
+<text x="32" y="48" fill="#f2f6fc" font-family="system-ui" font-size="27" font-weight="700">Which structure is continuous across an injury?</text>
+<rect x="35" y="120" width="220" height="105" rx="11" fill="#2b5a69" stroke="#9dbbd1"/>
+<text x="145.0" y="178.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="20">Neurapraxia</text>
+<rect x="290" y="120" width="230" height="105" rx="11" fill="#244563" stroke="#9dbbd1"/>
+<text x="405.0" y="178.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">Axon continuous</text>
+<rect x="555" y="120" width="230" height="105" rx="11" fill="#244563" stroke="#9dbbd1"/>
+<text x="670.0" y="166.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">Local block/myelin</text>
+<text x="670.0" y="190.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">change</text>
+<rect x="820" y="120" width="245" height="105" rx="11" fill="#244563" stroke="#9dbbd1"/>
+<text x="942.5" y="166.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">No distal Wallerian</text>
+<text x="942.5" y="190.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">axon loss</text>
+<path d="M255 172L290 172" fill="none" stroke="#dce7f4" stroke-width="3" marker-end="url(#arr)"/>
+<path d="M520 172L555 172" fill="none" stroke="#dce7f4" stroke-width="3" marker-end="url(#arr)"/>
+<path d="M785 172L820 172" fill="none" stroke="#dce7f4" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="35" y="265" width="220" height="105" rx="11" fill="#665339" stroke="#9dbbd1"/>
+<text x="145.0" y="323.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="20">Axonotmesis</text>
+<rect x="290" y="265" width="230" height="105" rx="11" fill="#244563" stroke="#9dbbd1"/>
+<text x="405.0" y="323.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">Axon interrupted</text>
+<rect x="555" y="265" width="230" height="105" rx="11" fill="#244563" stroke="#9dbbd1"/>
+<text x="670.0" y="311.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">Some guide tissue</text>
+<text x="670.0" y="335.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">preserved</text>
+<rect x="820" y="265" width="245" height="105" rx="11" fill="#244563" stroke="#9dbbd1"/>
+<text x="942.5" y="311.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">Distal Wallerian</text>
+<text x="942.5" y="335.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">degeneration</text>
+<path d="M255 317L290 317" fill="none" stroke="#dce7f4" stroke-width="3" marker-end="url(#arr)"/>
+<path d="M520 317L555 317" fill="none" stroke="#dce7f4" stroke-width="3" marker-end="url(#arr)"/>
+<path d="M785 317L820 317" fill="none" stroke="#dce7f4" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="35" y="410" width="220" height="105" rx="11" fill="#663d53" stroke="#9dbbd1"/>
+<text x="145.0" y="468.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="20">Neurotmesis</text>
+<rect x="290" y="410" width="230" height="105" rx="11" fill="#244563" stroke="#9dbbd1"/>
+<text x="405.0" y="468.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">Nerve discontinuous</text>
+<rect x="555" y="410" width="230" height="105" rx="11" fill="#244563" stroke="#9dbbd1"/>
+<text x="670.0" y="456.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">Guidance sheaths</text>
+<text x="670.0" y="480.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">disrupted</text>
+<rect x="820" y="410" width="245" height="105" rx="11" fill="#244563" stroke="#9dbbd1"/>
+<text x="942.5" y="456.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">Distal Wallerian</text>
+<text x="942.5" y="480.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">degeneration</text>
+<path d="M255 462L290 462" fill="none" stroke="#dce7f4" stroke-width="3" marker-end="url(#arr)"/>
+<path d="M520 462L555 462" fill="none" stroke="#dce7f4" stroke-width="3" marker-end="url(#arr)"/>
+<path d="M785 462L820 462" fill="none" stroke="#dce7f4" stroke-width="3" marker-end="url(#arr)"/>
+<text x="35" y="590" fill="#b9d3e6" text-anchor="start" font-family="system-ui" font-size="16">Seddon classes are coarse; Sunderland grades refine tissue damage and mixed lesions need separate assessment.</text>
+</svg>

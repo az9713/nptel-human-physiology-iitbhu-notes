@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" role="img" aria-label="Location and order: fertilization to implantation">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d5e8f6"/></marker></defs>
+<rect width="1000" height="650" fill="#102032"/>
+<text x="35" y="48" fill="#f1f6fc" font-family="system-ui" font-size="28" font-weight="700">Location and order: fertilization to implantation</text>
+<rect x="40" y="140" width="245" height="82" rx="12" fill="#244363" stroke="#a9c4d9"/>
+<text x="162.5" y="187.0" text-anchor="middle" fill="white" font-family="system-ui" font-size="21">Tubal ampulla</text>
+<rect x="375" y="140" width="245" height="82" rx="12" fill="#244363" stroke="#a9c4d9"/>
+<text x="497.5" y="177.0" text-anchor="middle" fill="white" font-family="system-ui" font-size="19">Transit toward</text>
+<text x="497.5" y="202.0" text-anchor="middle" fill="white" font-family="system-ui" font-size="19">uterus</text>
+<rect x="710" y="140" width="245" height="82" rx="12" fill="#244363" stroke="#a9c4d9"/>
+<text x="832.5" y="187.0" text-anchor="middle" fill="white" font-family="system-ui" font-size="21">Uterine endometrium</text>
+<path d="M285 180 L375 180" stroke="#d5e8f6" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M620 180 L710 180" stroke="#d5e8f6" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="42" y="300" width="220" height="76" rx="12" fill="#244363" stroke="#a9c4d9"/>
+<text x="152.0" y="334.0" text-anchor="middle" fill="white" font-family="system-ui" font-size="19">Sperm–oocyte</text>
+<text x="152.0" y="359.0" text-anchor="middle" fill="white" font-family="system-ui" font-size="19">fusion</text>
+<rect x="290" y="300" width="190" height="76" rx="12" fill="#244363" stroke="#a9c4d9"/>
+<text x="385.0" y="344.0" text-anchor="middle" fill="white" font-family="system-ui" font-size="21">Pronuclei</text>
+<rect x="510" y="300" width="190" height="76" rx="12" fill="#244363" stroke="#a9c4d9"/>
+<text x="605.0" y="344.0" text-anchor="middle" fill="white" font-family="system-ui" font-size="21">Cleavage/morula</text>
+<rect x="730" y="300" width="220" height="76" rx="12" fill="#244363" stroke="#a9c4d9"/>
+<text x="840.0" y="344.0" text-anchor="middle" fill="white" font-family="system-ui" font-size="21">Blastocyst</text>
+<path d="M262 338 L290 338" stroke="#d5e8f6" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M480 338 L510 338" stroke="#d5e8f6" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M700 338 L730 338" stroke="#d5e8f6" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="715" y="450" width="230" height="76" rx="12" fill="#4b3b64" stroke="#a9c4d9"/>
+<text x="830.0" y="494.0" text-anchor="middle" fill="white" font-family="system-ui" font-size="21">Apposition/invasion</text>
+<path d="M840 376 L840 450" stroke="#d5e8f6" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="42" y="575" fill="#bdd4e5" font-family="system-ui" font-size="18">Approximate post-fertilization order; neither cell counts nor transport speed are measured here.</text>
+</svg>

@@ -1,0 +1,115 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 23,
+  "manuscript": "chapter-23-neurons-axonal-transport-repair.html",
+  "body_sha256": "e3ef1d90be81380a32b275e91e1f9203d603cac050848abe680ed188a390bf34",
+  "artifact_sha256": {
+    "assets/ch23-cns-myelin-tem.jpg": "703faa03713307b785252fcec55e8e75b4843ac23f7fd06f22a80afce8647e1b",
+    "assets/ch23-data.json": "2c963a372942e1827b5526d4ade162ef5f4424dcce7bc0d338751adb3d515b43",
+    "assets/ch23-injury.svg": "d42429a8f59b2105d3d635ee93c4995612b9d47d4062e23c27658a93a7297957",
+    "assets/ch23-mechanisms.css": "a720d592969e761cc2e1eafdf0e6cca2cb2cb057a2d2b4098662f634c9c6a26f",
+    "assets/ch23-mechanisms.html": "14db93c3ce19b3c39b879e94392f2f554dac86922da2c872fe4161624779812a",
+    "assets/ch23-mechanisms.js": "f94c776303f745876e603ba4fcb06d7601d0f13070f63131d72b2916e1320bba",
+    "assets/ch23-microscopy-LICENSE.txt": "8207ce55eee1e5f0465ee0e71bb493841e8c66695d4e44cc7316e3d095e033a4",
+    "assets/ch23-microscopy-provenance.json": "66f2386309cd9b874af9f9679bc9fc734b628a4d3b286dc88193b267514c1dda",
+    "assets/ch23-myelin-tem.jpg": "bca0c0d9b698fd54eb9163d44b1ed64bb95d2dd56766820da1f0934c6abf4972",
+    "assets/ch23-neuron.svg": "65f68f177c862bc9e507d7d1f77955818fdfb3ba2313d5a6d99b8fe35ae07994",
+    "assets/ch23-pns-schwann.jpg": "828a55f494c7f31ca1464b1edb6b85832e02e46c12ec4c83e447cdb65b1b8d88",
+    "assets/ch23-repair.svg": "8985437d55549fb57600b0c7360bcfeec52dbd1a2924d3f63644f9687f83e1d1",
+    "assets/ch23-transport.svg": "46713e69e15fdd5742a0ea207592b275a0330501a22f2a10da22c4b937d524e0",
+    "code/ch23_clocks.py": "592054f0d8c65053e3ed9518b27d7158e5639c4ccc7bc537b4b068daecd0ec9d",
+    "code/ch23_visuals.py": "dfc591424f7a6dd1c5ad6dedb6888bcbd57b8aabc0e797f69f7842e264eb03c8"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "Complete L54–55 captions and all32topic/closing dispositions, attributed bounded8sheets137sampled24native still audit; exactly two actual independent full reviews and their bounded repairs/access checks.",
+  "source_recordings": [
+    54,
+    55
+  ],
+  "source_evidence": [
+    {
+      "number": 54,
+      "video_id": "9g9R1jzZ2QM",
+      "url": "https://www.youtube.com/watch?v=9g9R1jzZ2QM",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "b401482f431ccab40115d0f4e2c45ff45fa8ef564843cc1d842daa03776e8c11",
+      "caption_cues": 202,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 70,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 4,
+        "sampled_stills": 70,
+        "native_still_views": 12,
+        "report_sha256": "6e7908176b41eeaac588bf80630c958e49658f444f79050e8e8624ce193f6d6b"
+      },
+      "visual_review_scope": "All32 assigned topics/full publisher captions/closing activities;8contact sheets137sampled stills plus24native frames. Partial still coverage,not continuous audio/video; scientific conflicts and actual source-access limits recorded."
+    },
+    {
+      "number": 55,
+      "video_id": "QZOF-WOV1fQ",
+      "url": "https://www.youtube.com/watch?v=QZOF-WOV1fQ",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "4cf071b9a1199ab775ff5f616d729f75b4fa140e84d69a435f5467ad9b5c21cf",
+      "caption_cues": 247,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 67,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 4,
+        "sampled_stills": 67,
+        "native_still_views": 12,
+        "report_sha256": "6e7908176b41eeaac588bf80630c958e49658f444f79050e8e8624ce193f6d6b"
+      },
+      "visual_review_scope": "All32 assigned topics/full publisher captions/closing activities;8contact sheets137sampled stills plus24native frames. Partial still coverage,not continuous audio/video; scientific conflicts and actual source-access limits recorded."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch17_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "09e42b8108b4efc7751f28161f4eea102c70ed101eebf1c76aa5248226cd81b7",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    },
+    {
+      "reviewer_id": "/root/ch16_author",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "23e12c708dce29ac83bac4af087f36d54bc643a054f3b7570322e10a662f6387",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    }
+  ],
+  "production": {
+    "scope": "Actual root CUA reader/motion/responsive/keyboard/full-size access and separate source-pixel plus all-page print-contact assessment; exactly two original scientific reviews and bounded targets separately attributed",
+    "report_sha256": "d8597a161fb11e4d2587a617cfa0ba3876b1d6b16b0b86661910537bca537460"
+  },
+  "visual_modality": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Neuron/nerve organization, axonal traffic and conditional peripheral repair",
+    "rationale": "Verified prepared microscopy supplies recorded lamellar appearance. Separate voltage/cargo routes and conditional tissue responses use controlled animations without invented common biological speed or recovery deadline.",
+    "appearance_references": [
+      "assets/ch23-myelin-tem.jpg",
+      "assets/ch23-cns-myelin-tem.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch23-mechanisms.html",
+      "assets/ch23-mechanisms.js"
+    ],
+    "report_sha256": "f69ba18856cc2fd692594ba0ea450ba79d8113a1654baddb0329a9d2ed204d1f"
+  },
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

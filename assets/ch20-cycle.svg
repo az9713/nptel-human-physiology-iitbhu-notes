@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650" role="img" aria-label="Two organs and a feedback route">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d5e8f6"/></marker></defs>
+<rect width="1100" height="650" fill="#102032"/>
+<text x="35" y="48" fill="#f1f6fc" font-family="system-ui" font-size="28" font-weight="700">Two organs and a feedback route</text>
+<rect x="35" y="110" width="205" height="72" rx="12" fill="#244363" stroke="#a9c4d9"/>
+<text x="137.5" y="152.0" text-anchor="middle" fill="white" font-family="system-ui" font-size="21">Hypothalamus</text>
+<rect x="310" y="110" width="210" height="72" rx="12" fill="#244363" stroke="#a9c4d9"/>
+<text x="415.0" y="142.0" text-anchor="middle" fill="white" font-family="system-ui" font-size="19">Anterior</text>
+<text x="415.0" y="167.0" text-anchor="middle" fill="white" font-family="system-ui" font-size="19">pituitary</text>
+<rect x="615" y="100" width="210" height="85" rx="12" fill="#244363" stroke="#a9c4d9"/>
+<text x="720.0" y="148.5" text-anchor="middle" fill="white" font-family="system-ui" font-size="21">Theca interna</text>
+<rect x="615" y="260" width="210" height="85" rx="12" fill="#244363" stroke="#a9c4d9"/>
+<text x="720.0" y="308.5" text-anchor="middle" fill="white" font-family="system-ui" font-size="21">Granulosa</text>
+<rect x="870" y="260" width="190" height="85" rx="12" fill="#244363" stroke="#a9c4d9"/>
+<text x="965.0" y="308.5" text-anchor="middle" fill="white" font-family="system-ui" font-size="21">Estradiol</text>
+<rect x="615" y="450" width="210" height="85" rx="12" fill="#244363" stroke="#a9c4d9"/>
+<text x="720.0" y="498.5" text-anchor="middle" fill="white" font-family="system-ui" font-size="21">Corpus luteum</text>
+<rect x="870" y="450" width="190" height="85" rx="12" fill="#244363" stroke="#a9c4d9"/>
+<text x="965.0" y="498.5" text-anchor="middle" fill="white" font-family="system-ui" font-size="21">Endometrium</text>
+<path d="M240 146 L310 146" stroke="#d5e8f6" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="275" y="136" text-anchor="middle" fill="#c8d9e6" font-family="system-ui" font-size="16">GnRH</text>
+<path d="M520 145 L615 145" stroke="#d5e8f6" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="567" y="135" text-anchor="middle" fill="#c8d9e6" font-family="system-ui" font-size="16">LH</text>
+<path d="M520 165 L615 300" stroke="#d5e8f6" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="567" y="222" text-anchor="middle" fill="#c8d9e6" font-family="system-ui" font-size="16">FSH</text>
+<path d="M720 185 L720 260" stroke="#d5e8f6" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="720" y="212" text-anchor="middle" fill="#c8d9e6" font-family="system-ui" font-size="16">androgen</text>
+<path d="M825 303 L870 303" stroke="#d5e8f6" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="847" y="293" text-anchor="middle" fill="#c8d9e6" font-family="system-ui" font-size="16">aromatase</text>
+<path d="M965 260 L965 75 L415 75 L415 110" fill="none" stroke="#d5e8f6" stroke-width="2" stroke-dasharray="7 6" marker-end="url(#arrow)"/>
+<text x="565" y="68" fill="#bdd4e5" font-family="system-ui" font-size="18">Feedback: mainly −; sustained high E₂ supports + LH surge</text>
+<path d="M965 345 L965 450" stroke="#d5e8f6" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="965" y="387" text-anchor="middle" fill="#c8d9e6" font-family="system-ui" font-size="16">proliferation</text>
+<path d="M825 493 L870 493" stroke="#d5e8f6" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="630" y="575" fill="#bdd4e5" font-family="system-ui" font-size="18">Luteal output: progesterone and estradiol</text>
+<text x="36" y="607" fill="#bdd4e5" font-family="system-ui" font-size="18">Follicular growth → ovulation/LH surge → luteal secretion → withdrawal or hCG rescue</text>
+</svg>

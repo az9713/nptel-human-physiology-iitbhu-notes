@@ -1,0 +1,137 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 22,
+  "manuscript": "chapter-22-nervous-system-organization.html",
+  "body_sha256": "07eb9e4a5f3a898458c3d9077e9ad852001ad54c1ff7fd2335c10291f4f49bae",
+  "artifact_sha256": {
+    "assets/ch22-brain-map.svg": "a881282438b66649e67408c9c33885246cc873b1200073909adb97e4fa6a1d62",
+    "assets/ch22-brain-mri.jpg": "05c36e3420b462ba544133b8cb3362e23e8fdd2e8a74442f9c13198ad97f532e",
+    "assets/ch22-controller.js": "6dae65c56adc8d3ff64af776ff94588baef7880308f9ce943150b3a7fe175129",
+    "assets/ch22-cord-roots.svg": "45e604cf03c0ca4dd2d6f7f0ebe0ad6ca39c78adf04362baaa2c3916f997f97e",
+    "assets/ch22-imaging-LICENSE.txt": "d8470f22f9ac61fb561677345d0fabde49d62ec3a57af8da17dea2ea89086687",
+    "assets/ch22-imaging-provenance.json": "d9c3e094758a8ff5d4e874ca21cf0d0ba304d08f2a0b4b7eff519b0291950d25",
+    "assets/ch22-mechanisms.css": "852305e204000c2e7b386640a55eadc55fa67a05617fce7fd76d37aa8e610a1a",
+    "assets/ch22-mechanisms.html": "026028ba74e2e47ed42fc239183e11b41f0d5c29734ba6e1244f2ccce880b8e6",
+    "assets/ch22-model.js": "99280f053723c011a98dc389a936c4d1866772fd4e4e41307f4337e1c3fe8b97",
+    "assets/ch22-pathway-states.json": "69c71f6ba59a7174c9b3bced25b26c7bd849a56017000d0fd7970a401751b7f6",
+    "assets/ch22-rat-spinal-lm.jpg": "ba9f0eab4fbc4785ca04c5f72547a5b7d491a371db46c93201de6d3e7b850b6e",
+    "assets/ch22-reflex.svg": "acf1925ad2101cc1cc6b65bfc3a0c5b26866f481418e5642957f33014441115b",
+    "assets/ch22-route.svg": "52c9a4723d08b6de1e46cf7deb4f6dede3c0e0d563542013bd03ff18d80793b9",
+    "code/ch22_check.cjs": "bf70442afc686b1889d5b5464af0a8d2f49190e879051905f8808cc421d39deb",
+    "code/ch22_export.cjs": "92bc371823e0f5fd2b464987abdbf7345861448418c87ad93a7f8bb99b86adcb",
+    "code/ch22_pathways.py": "691857c3a59ddf0f35f1e89016cfdc821e7937faaba64c4c8bfe34ad0a87d400"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "All40 L51–53 topics/closings from full captions and attributed bounded9sheets162samples26native repeats; two actual full reviews and bounded production CSS source-preservation targets.",
+  "source_recordings": [
+    51,
+    52,
+    53
+  ],
+  "source_evidence": [
+    {
+      "number": 51,
+      "video_id": "g5kK1apywWU",
+      "url": "https://www.youtube.com/watch?v=g5kK1apywWU",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "5b1f121d90f0f26506d6f4a33e8bb1c3cb3cda552c73ec18e5c3d4aefc11be8f",
+      "caption_cues": 158,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 53,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 53,
+        "native_still_views": 8,
+        "report_sha256": "5e6908e109abf9415798824a38b4735c7bede965b3c42e236b53bc3d47e1c44e"
+      },
+      "visual_review_scope": "Full publisher captions/all40 assigned spans/closing activities;9contact sheets162sampled stills plus26native frames. Partial still coverage,not continuous audio/video; original source access limits and slide-caption differences retained."
+    },
+    {
+      "number": 52,
+      "video_id": "FftptKyOm3g",
+      "url": "https://www.youtube.com/watch?v=FftptKyOm3g",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "473aa3ae4e9fa88ed02697e0d3749e765fa64891f0d0f26d177a45023ce68244",
+      "caption_cues": 190,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 55,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 55,
+        "native_still_views": 8,
+        "report_sha256": "5e6908e109abf9415798824a38b4735c7bede965b3c42e236b53bc3d47e1c44e"
+      },
+      "visual_review_scope": "Full publisher captions/all40 assigned spans/closing activities;9contact sheets162sampled stills plus26native frames. Partial still coverage,not continuous audio/video; original source access limits and slide-caption differences retained."
+    },
+    {
+      "number": 53,
+      "video_id": "MUsQeCIO5pA",
+      "url": "https://www.youtube.com/watch?v=MUsQeCIO5pA",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "d83a8abae40626843e7dcdb97f655f5d044cf0b8053c64130e765cd94668f63a",
+      "caption_cues": 186,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 54,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 54,
+        "native_still_views": 10,
+        "report_sha256": "5e6908e109abf9415798824a38b4735c7bede965b3c42e236b53bc3d47e1c44e"
+      },
+      "visual_review_scope": "Full publisher captions/all40 assigned spans/closing activities;9contact sheets162sampled stills plus26native frames. Partial still coverage,not continuous audio/video; original source access limits and slide-caption differences retained."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch16_author",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "463ace9af9098cfeeef394a4b2383b991594d89495cf798c1ec7fbfd6b2d2aab",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    },
+    {
+      "reviewer_id": "/root/ch17_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "1829a600eab37072235999397a0e66532bd21d6339d1a1133175b2350b6f9c92",
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks"
+    }
+  ],
+  "production": {
+    "scope": "Actual author-agent current reader, route/reflex controls and live motion/reduced-motion/desktop390650 keyboard access; root current reader/reference pixels and final20page print inspection",
+    "report_sha256": "7327d89e4956c699f170b22510cc3b9b416469ac961da9f09fedc36a70c0be8f"
+  },
+  "visual_modality": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Nervous-system compartments, roots/rami and parallel sensory/reflex routes",
+    "rationale": "Source-verified sagittal MRI and prepared rat spinal light microscopy supply recorded appearance at distinct scales. Original nonmetric maps and controlled parallel route/latency bookkeeping explain connectivity without claiming a measured human path or speed.",
+    "appearance_references": [
+      "assets/ch22-brain-mri.jpg",
+      "assets/ch22-rat-spinal-lm.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch22-mechanisms.html",
+      "assets/ch22-controller.js"
+    ],
+    "report_sha256": "00343278bdb737ca7ea4b12db5639602a0d129e8042406d7bf5d053195307ced"
+  },
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

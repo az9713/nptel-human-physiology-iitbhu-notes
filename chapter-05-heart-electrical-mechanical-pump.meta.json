@@ -1,0 +1,185 @@
+{
+  "chapter": 5,
+  "title": "The heart as an electrical and mechanical pump",
+  "status": "accepted",
+  "coverage_complete": true,
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch01_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted prose repairs; production acceptance separate.",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "83f927b0e155b3f13c30cd56e8a1564ef2ed3c363583d6d769453e4e4c084e43",
+      "artifact_sha256": {
+        "assets/ch05-cardiac-lab.html": "e1990798e520e3444df6e33921a0de58d7cfaae4ab24151d60676c40370ef5ac",
+        "assets/ch05-cardiac-lab.js": "edcdff5b1393394b5a03338c8e2246cf32ef5e779ea497a4b21046f4630572a2",
+        "code/ch05_cardiac_cycle.py": "ee51707191da073db54895a910c58e69bd58119a0fa3334e0436bc2b65e11429",
+        "assets/ch05-heart-render-anterior-oblique.png": "72ad04d1087c27c0ad4cafe04aabac85286f4c50cdd0ecbb35dce5d29d5df494",
+        "assets/ch05-heart-render-left-anterior-oblique.png": "1d2ee9abcd1f482e8244be5dd3590af71ddb869be2286f2f9b7ec14a255c0c3d",
+        "assets/ch05-heart-render-provenance.json": "661a896465c12ff5d8d6ca7529930053f7ea692edae6e233d37238168aab1f34",
+        "assets/ch05-heart-reference-autopsy.jpg": "414ac3098c464add9586a6561387b40bf59b3b1635445e3cc6a247f0b5e3baf5",
+        "assets/ch05-heart-reference-provenance.json": "858b19dfdbfa5ad6826eee067937208a2618a47b1ae95144a6ffc4d90382137d",
+        "assets/ch05-heart-reference.html": "fbeeeedbc76d0f0feb1669f1390b391aef1ce393352e4c9704763e68441f66f1",
+        "figures/ch05_heart_render.py": "e593b82a62e9794e624e2201160c801ea6005a1e7d08a166f062d63da3910171"
+      },
+      "report_path": "work/reviews/ch05-approved-a.md",
+      "report_sha256": "9952189ed3b96db5ed65eac525ed1464657fb39458819f6fd6347451a1b80a31",
+      "original_full_report": "work/reviews/ch05-review-a.md",
+      "targeted_report": "work/reviews/ch05-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch01_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted prose repairs; production acceptance separate.",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "83f927b0e155b3f13c30cd56e8a1564ef2ed3c363583d6d769453e4e4c084e43",
+      "artifact_sha256": {
+        "assets/ch05-cardiac-lab.html": "e1990798e520e3444df6e33921a0de58d7cfaae4ab24151d60676c40370ef5ac",
+        "assets/ch05-cardiac-lab.js": "edcdff5b1393394b5a03338c8e2246cf32ef5e779ea497a4b21046f4630572a2",
+        "code/ch05_cardiac_cycle.py": "ee51707191da073db54895a910c58e69bd58119a0fa3334e0436bc2b65e11429",
+        "assets/ch05-heart-render-anterior-oblique.png": "72ad04d1087c27c0ad4cafe04aabac85286f4c50cdd0ecbb35dce5d29d5df494",
+        "assets/ch05-heart-render-left-anterior-oblique.png": "1d2ee9abcd1f482e8244be5dd3590af71ddb869be2286f2f9b7ec14a255c0c3d",
+        "assets/ch05-heart-render-provenance.json": "661a896465c12ff5d8d6ca7529930053f7ea692edae6e233d37238168aab1f34",
+        "assets/ch05-heart-reference-autopsy.jpg": "414ac3098c464add9586a6561387b40bf59b3b1635445e3cc6a247f0b5e3baf5",
+        "assets/ch05-heart-reference-provenance.json": "858b19dfdbfa5ad6826eee067937208a2618a47b1ae95144a6ffc4d90382137d",
+        "assets/ch05-heart-reference.html": "fbeeeedbc76d0f0feb1669f1390b391aef1ce393352e4c9704763e68441f66f1",
+        "figures/ch05_heart_render.py": "e593b82a62e9794e624e2201160c801ea6005a1e7d08a166f062d63da3910171"
+      },
+      "report_path": "work/reviews/ch05-approved-b.md",
+      "report_sha256": "91d06f2f3f2e2ae6537e96ef04705c999d902bc833608b1171551321b601bad8",
+      "original_full_report": "work/reviews/ch05-review-b.md",
+      "targeted_report": "work/reviews/ch05-targeted-b.md"
+    }
+  ],
+  "source_recordings": [
+    13,
+    14
+  ],
+  "source_evidence": "Complete L13–14 caption texts and root-owned existing bounded source-visual audit: seven contact sheets and seven individual frames. Author reused audit without claiming continuous video/audio inspection.",
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, targeted repairs and separate actual browser/print checks.",
+  "code": [
+    "code/ch05_cardiac_cycle.py"
+  ],
+  "code_validation": "Executed1001state pressure/diode/mutual-exclusivity checks, finite-difference massbalance,10kpoint integrated inflow/outflow70.000002/70.000003mL against analytic70mL, zero stroke, reversed/equal pressure, resistance scaling, periodicity and invalidinputs; regionaljunction checks. Node syntax and isolated state/control/three-view markup checks passed. No browser acceptance claimed.",
+  "figures": [
+    {
+      "id": "ch5-fig1",
+      "path": "chapter-05-heart-electrical-mechanical-pump.html#ch5-fig1",
+      "figure_number": "5.1",
+      "status": "accepted",
+      "role": "Direct eager intrinsic HRA1200x1200 render and1988x2304 unmodified CC0 autopsy photograph; separate geometry/appearance roles and preparation/orientation limits.",
+      "provenance": [
+        "assets/ch05-heart-render-provenance.json",
+        "assets/ch05-heart-reference-provenance.json"
+      ]
+    },
+    {
+      "id": "ch5-fig2",
+      "path": "chapter-05-heart-electrical-mechanical-pump.html#ch5-fig2",
+      "figure_number": "5.2",
+      "status": "accepted",
+      "role": "Original electrode-difference triangle and separate projection analogy; not anatomical placement or forward ECG field."
+    },
+    {
+      "id": "ch5-anim1",
+      "path": "assets/ch05-cardiac-lab.html?view=heart",
+      "figure_number": "5.3",
+      "status": "accepted",
+      "role": "Four-chamber topology with left-sided ideal-diode valve motion and flow markers only through actual designated apertures."
+    },
+    {
+      "id": "ch5-anim2",
+      "path": "assets/ch05-cardiac-lab.html?view=sync",
+      "figure_number": "5.4",
+      "status": "accepted",
+      "role": "Prescribed electrical timing/conduction annotations and synthetic ECG; mechanical pressure/flow/volume/valves share one analytic phase state."
+    },
+    {
+      "id": "ch5-anim3",
+      "path": "assets/ch05-cardiac-lab.html?view=regional",
+      "figure_number": "5.5",
+      "status": "accepted",
+      "role": "Route-reveal and fixed-pressure regional network with conserved portal+hepaticartery=liveroutflow; no measured transit time."
+    }
+  ],
+  "body_sha256": "83f927b0e155b3f13c30cd56e8a1564ef2ed3c363583d6d769453e4e4c084e43",
+  "body_digest_convention": "SHA256 of raw bytes strictly between exact body markers, preserving enclosed line endings",
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews plus targeted current-digest approvals",
+    "browser": "Actual supported HTTP reader/model checks and inspected private print proof; scope and limits in production report",
+    "photographic_context": "actual unmodified adult male autopsy photograph supplied with CC0 provenance; healthy status/preparation/color calibration not established",
+    "render_appearance": "expert-source geometry with illustrative procedural appearance; not certified photorealistic or a photographic replica",
+    "coverage": "Complete chapter topic dispositions accepted within stated source-evidence limits",
+    "photorealistic_anatomy": "Actual postmortem photograph supplies bounded observed appearance; HRA render remains illustrative."
+  },
+  "limitations": [
+    "Prescribed volume is input; afterload changes required pressure, not a prediction of human stroke-volume response.",
+    "Ideal fixed pressure reservoirs and diode valves omit arterial compliance, closing dynamics, regurgitation, closed-loop redistribution and shunts.",
+    "ECG is synthetic illustrative timing, not measured data or a solved electrical/ECG forward model.",
+    "Regional animation is a route-reveal sequence with independent steady fixed-pressure network, not physiological parcel transit.",
+    "Actual HRA and photograph donors/views are different, unregistered; orientation landmark-inferred, source seams/openends and absent fat geometry retained.",
+    "No current numerical BP diagnostic bands, fetalreferencevalues, prescribinghierarchy, dosing or treatment algorithm supplied.",
+    "Failed initial NCBI/PMC opens not treated as full reads; successful alternate/owning endpoints individually disclosed."
+  ],
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch05-cardiac-lab.html",
+      "sha256": "e1990798e520e3444df6e33921a0de58d7cfaae4ab24151d60676c40370ef5ac"
+    },
+    {
+      "path": "assets/ch05-cardiac-lab.js",
+      "sha256": "edcdff5b1393394b5a03338c8e2246cf32ef5e779ea497a4b21046f4630572a2"
+    },
+    {
+      "path": "code/ch05_cardiac_cycle.py",
+      "sha256": "ee51707191da073db54895a910c58e69bd58119a0fa3334e0436bc2b65e11429"
+    },
+    {
+      "path": "assets/ch05-heart-render-anterior-oblique.png",
+      "sha256": "72ad04d1087c27c0ad4cafe04aabac85286f4c50cdd0ecbb35dce5d29d5df494"
+    },
+    {
+      "path": "assets/ch05-heart-render-left-anterior-oblique.png",
+      "sha256": "1d2ee9abcd1f482e8244be5dd3590af71ddb869be2286f2f9b7ec14a255c0c3d"
+    },
+    {
+      "path": "assets/ch05-heart-render-provenance.json",
+      "sha256": "661a896465c12ff5d8d6ca7529930053f7ea692edae6e233d37238168aab1f34"
+    },
+    {
+      "path": "assets/ch05-heart-reference-autopsy.jpg",
+      "sha256": "414ac3098c464add9586a6561387b40bf59b3b1635445e3cc6a247f0b5e3baf5"
+    },
+    {
+      "path": "assets/ch05-heart-reference-provenance.json",
+      "sha256": "858b19dfdbfa5ad6826eee067937208a2618a47b1ae95144a6ffc4d90382137d"
+    },
+    {
+      "path": "assets/ch05-heart-reference.html",
+      "sha256": "fbeeeedbc76d0f0feb1669f1390b391aef1ce393352e4c9704763e68441f66f1"
+    },
+    {
+      "path": "figures/ch05_heart_render.py",
+      "sha256": "e593b82a62e9794e624e2201160c801ea6005a1e7d08a166f062d63da3910171"
+    }
+  ],
+  "coverage_basis": "All22 topic dispositions and six worked solutions assessed by both full reviewers; complete captions plus bounded source still evidence, not continuous recording inspection.",
+  "production_validation": {
+    "report_path": "work/browser/ch05-production-bridge.json",
+    "report_sha256": "3bb1aa9bca813a2614c3f35f0acddb8885a23d368c8671dad496f8e85baf9eff",
+    "scope": "Historical actual production evidence plus current scientific-artifact identity and a separate bounded current reader reinspection."
+  },
+  "accepted_at_utc": "2026-11-04T20:23:57.036Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-05.json",
+    "sha256": "65502b6ba1499cb5491fa524ac9811f7e66c697f9a95533f120652c909197509"
+  }
+}

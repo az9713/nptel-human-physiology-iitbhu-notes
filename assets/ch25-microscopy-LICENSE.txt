@@ -1,0 +1,5 @@
+Astrocytes and blood vessels of the retina, micrograph. Gabriel Luna; University of California, Santa Barbara; Wellcome Images,2012. Wellcome Collection B0010874.
+https://wellcomecollection.org/works/uhcjkwbd
+CC BY4.0: http://creativecommons.org/licenses/by/4.0/
+Reader image modified by owning IIIF server resize to2000×2100; native11779×12365JPEG privately retained. No crop or color changes to reader bytes.
+Mouse retinal antibody-labeled laser scanning confocal montage, not live motion/human tissue/barrier ultrastructure. Full identity and limits in ch25-microscopy-provenance.json.

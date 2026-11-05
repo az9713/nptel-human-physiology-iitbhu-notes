@@ -1,0 +1,3 @@
+Human embryo from IVF. K. Hardy. Wellcome Collection B0000030, https://wellcomecollection.org/works/ergc92jn
+CC BY 4.0, explicitly versioned by owning catalogue: https://creativecommons.org/licenses/by/4.0/
+Native JPEG bytes unchanged; display sizing only. See ch21-imaging-provenance.json for species/preparation/scale/inspection limits and exact native hash. No inferred live behavior or clinical prediction. Original diagrams are separate teaching constructions.

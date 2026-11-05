@@ -1,0 +1,8 @@
+(function(root){
+'use strict';
+function check(...v){if(v.some(x=>!Number.isFinite(x)||x<0))throw Error('Finite nonnegative input required');}
+function binding(free,capacity,kd){check(free,capacity,kd);if(kd===0)throw Error('Positive K required');let numerator=capacity*free,denominator=kd+free;if(!Number.isFinite(numerator)||!Number.isFinite(denominator))throw RangeError('Binding exceeds floating-point range');let bound=numerator/denominator,total=free+bound;if(!Number.isFinite(bound)||!Number.isFinite(total))throw RangeError('Binding exceeds floating-point range');return {free,bound,total};}
+function equilibrium(a=1,g=1,u=0){check(a,g,u);let disc=(u+1)**2+8*a*g;if(!Number.isFinite(disc))throw RangeError('Equilibrium exceeds floating-point range');let h=(u-1+Math.sqrt(disc))/2,s=2*a/(1+h);if(!Number.isFinite(h)||!Number.isFinite(s))throw RangeError('Equilibrium exceeds floating-point range');return {s,h};}
+function trajectory(a=1,g=1,u=0,duration=20,dt=.01){check(a,g,u,duration,dt);if(dt<=0||dt>.05||duration>100)throw Error('Invalid integration limits');let s=1,h=1,out=[{t:0,s,h}],steps=Math.ceil(duration/dt);if(!Number.isFinite(steps))throw RangeError('Trajectory exceeds floating-point range');for(let i=0;i<steps;i++){let step=Math.min(dt,duration-i*dt),ds=2*a/(1+h)-s,dh=g*s+u-h;if(!Number.isFinite(ds)||!Number.isFinite(dh))throw RangeError('Trajectory exceeds floating-point range');s+=step*ds;h+=step*dh;if(!Number.isFinite(s)||!Number.isFinite(h))throw RangeError('Trajectory exceeds floating-point range');out.push({t:Math.min((i+1)*dt,duration),s,h});}return out;}
+root.Ch11={binding,equilibrium,trajectory};
+})(typeof window==='undefined'?globalThis:window);

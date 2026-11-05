@@ -1,0 +1,110 @@
+{
+  "schema": "physiology-acceptance-v1",
+  "chapter": 9,
+  "manuscript": "chapter-09-endocrine-signaling-glucose.html",
+  "body_sha256": "a3b8c3c053f0b7f7a61d31d1f9959b2260c3ec646846e93d388df6831b20d76d",
+  "artifact_sha256": {
+    "assets/ch09-axis.html": "513343360fbd91cedae4e36149a9003df1abe09ea3059e51d18662454c6b29b6",
+    "assets/ch09-insulin.html": "f7ac23d4acc0c57e9751fa73eca3f0572c384aa8d2a91213203bab1bdec2f8d1",
+    "assets/ch09-meal.html": "4cc3280125b7a9fbd5cd2896864768daae35458f330d14e080d771ae94011648",
+    "assets/ch09-models.js": "a918fec8899c0c6e274978cf969e7e12a9051514b683803a91b5866c7b9665fd",
+    "assets/ch09-controls.js": "bc3567a6458215857b705a5cfee77fe0dbf53ff5490e40d9e5353d08eaba06f3",
+    "assets/ch09-gland-map.svg": "0b00871df71922f32bdbefe9fff85cb240407a5e2c62e840267e9b4dd50bfb19",
+    "assets/ch09-islet-reference.jpg": "c884d920493b4fffb58361717d1fd85fb3913b34d7f950429147877c9c7e8d51",
+    "assets/ch09-islet-reference.json": "cd1a75cbbc05bba5801ed373adca9dff0be1bd223a1ad34ac8d0a4b8539cac81",
+    "code/ch09_glucose_balance.py": "aedd27fd7702a6fc856e3638745cdee50dade03560ffd418c79d24f09afb03ab"
+  },
+  "coverage_complete": true,
+  "coverage_basis": "All 32 topic dispositions, substantive late gland/fasting topics and six solutions assessed in both full reviews; source evidence is complete captions plus attributed bounded still audit, not continuous audio/video.",
+  "source_recordings": [
+    20,
+    21
+  ],
+  "source_evidence": [
+    {
+      "number": 20,
+      "video_id": "yfOSWayJ1DQ",
+      "url": "https://www.youtube.com/watch?v=yfOSWayJ1DQ",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "92f1452e1d61f792260c5c717d15c3f41c1d924b3ba09f7ae3ffa4f67e976f8f",
+      "caption_cues": 113,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 43,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 43,
+        "native_still_views": 4,
+        "report_sha256": "b48d43d77cdaa2c8ae6d1cd0b5e67fa64798dda074c74ca71ea8ca3e8e777115"
+      },
+      "visual_review_scope": "All contact sheets plus four named individual sampled stills inspected; complete captions read by audit agent. No continuous audio/video or new independent scientific verification claimed."
+    },
+    {
+      "number": 21,
+      "video_id": "YZWne4qBtEo",
+      "url": "https://www.youtube.com/watch?v=YZWne4qBtEo",
+      "caption_status": "acquired",
+      "caption_type": "publisher-provided; human authorship not established",
+      "caption_sha256": "166e4cadffa4eb3dff98fff3aa7639aa060a60cd8dffbc6244c29e64e964d6f6",
+      "caption_cues": 173,
+      "visual_coverage": "contact-sheet-overview-and-targeted-frames-partial",
+      "sampled_frame_count": 59,
+      "bounded_visual_audit": {
+        "status": "complete for stated still-sampling task",
+        "continuous_video_review": false,
+        "contact_sheets": 3,
+        "sampled_stills": 59,
+        "native_still_views": 4,
+        "report_sha256": "b48d43d77cdaa2c8ae6d1cd0b5e67fa64798dda074c74ca71ea8ca3e8e777115"
+      },
+      "visual_review_scope": "All contact sheets plus four named individual sampled stills inspected; complete captions read by audit agent. No continuous audio/video or new independent scientific verification claimed."
+    }
+  ],
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch01_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "86926ce05957116e8416c78f372281ad94d4c5598867c26f972832d0ed347d3b",
+      "review_basis": "One actual independent full review plus targeted transporter recruitment/motion and completed-fusion geometry repairs"
+    },
+    {
+      "reviewer_id": "/root/ch01_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "report_sha256": "6d29adb755ae4124d28775c1fcd599a8b8c3bdf8935711272d2e3c81bd78bc27",
+      "review_basis": "One actual independent full review plus targeted transporter recruitment/motion and completed-fusion geometry repairs"
+    }
+  ],
+  "production": {
+    "scope": "Actual browser/control/responsive/reduced-motion checks and bounded root print inspection; relevant observed imagery or justified conceptual diagrams, with source limits and separate failed CG prototypes preserved.",
+    "report_sha256": "d4bdc41cb1c20f0a13fbf99e72e2d40243ab64997213747963bec200b1470457"
+  },
+  "visual_modality": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Endocrine tissue organization and signaling",
+    "rationale": "Observed human islet immunostaining supplies directly relevant cellular tissue context; source-informed locators and controlled SVG signaling/metabolic models explain topology and dynamics. A newly fabricated photorealistic cellular reconstruction would not add evidence. Prepared stain identity and specimen limits are explicit.",
+    "appearance_references": [
+      "assets/ch09-islet-reference.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch09-axis.html",
+      "assets/ch09-insulin.html",
+      "assets/ch09-meal.html"
+    ],
+    "no_anatomical_appearance_claim": false,
+    "report_sha256": "ecd9efaca2427f6555efea5fea3cdfbd857099a241f5c74f20305fae0fa73a76"
+  },
+  "limits": "AI scientific/editorial review records, not human expert certification. Hashes bind the producer attestation to this snapshot; they do not prove scientific truth, actual viewing or reviewer independence."
+}

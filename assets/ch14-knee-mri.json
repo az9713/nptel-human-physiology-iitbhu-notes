@@ -1,0 +1,22 @@
+{
+  "title": "Knee MRI T1 TSE Sagittal",
+  "creator": "Ptrump16",
+  "source": "https://commons.wikimedia.org/wiki/File:Knee_MRI_T1_TSE_Sagittal.jpg",
+  "stable_source": "https://commons.wikimedia.org/w/index.php?title=File:Knee_MRI_T1_TSE_Sagittal.jpg&oldid=915821653",
+  "native_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Knee_MRI_T1_TSE_Sagittal.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modifications": "None; original JPEG bytes unchanged.",
+  "file": "assets/ch14-knee-mri.jpg",
+  "bytes": 226549,
+  "sha256": "9e8e9edeb8ae6937f55ad09d2e6afe1d7a5ce92f9c06a8a3d4260f5d1d8da1eb",
+  "source_sha1": "549ec248abeb86acfdc44b518e63f14449591a37",
+  "native_dimensions": [
+    902,
+    895
+  ],
+  "catalogue_acquisition": "25 October 2021; sagittal T1 TSE; Siemens MAGNETOM Aera 1.5 T, as reported by the creator.",
+  "actual_root_inspection": "Native 902×895 pixels viewed. The sagittal knee section shows femur, tibia, anterior patella and surrounding soft tissue. No patient name is visible. No annotations added.",
+  "limits": "Donor age, side, clinical/pathology context, exact scale calibration and full sequence parameters are unverified. This is a single still, not a motion or load measurement. It is not registered to Open Knee(s) oks003 and does not prove normality. MR contrast is not living color.",
+  "source_record_note": "The current source page contains stray toe text and changed categories inconsistent with its longstanding knee title and creator caption. The native file SHA-1 matches the recorded file identity; a prior permanent description is linked separately."
+}

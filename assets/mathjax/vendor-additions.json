@@ -1,0 +1,42 @@
+[
+  {
+    "path": "assets/mathjax/tex-svg.js",
+    "source": "Copied from the matching local reference-course MathJax3.2.2 distribution",
+    "license": "assets/mathjax/LICENSE",
+    "reason": "Local MathJax 3.2.2 TeX input and SVG output bundle",
+    "upstream": "https://github.com/mathjax/MathJax/blob/3.2.2/es5/tex-svg.js",
+    "sha256": "d4295dc33744836935c1399feece5159577b34c5c8ffb9f1c6324cd82e03a882"
+  },
+  {
+    "path": "assets/mathjax/extensions/boldsymbol.js",
+    "source": "Copied from the matching local reference-course MathJax3.2.2 distribution",
+    "sha256": "d6771fee0772db2657796c8d0e20e1878bb3237f6d3ed1e828e1834a4ff743ca",
+    "license": "assets/mathjax/LICENSE",
+    "reason": "Local boldsymbol TeX extension for MathJax 3.2.2",
+    "upstream": "https://github.com/mathjax/MathJax/blob/3.2.2/es5/input/tex/extensions/boldsymbol.js"
+  },
+  {
+    "path": "assets/mathjax/extensions/cancel.js",
+    "source": "Copied from the matching local reference-course MathJax3.2.2 distribution",
+    "sha256": "0d263ecf2671d1cc13135b8b4afcdca4d40151a9aea51b69402e68adde4cf8c9",
+    "license": "assets/mathjax/LICENSE",
+    "reason": "Local cancel TeX extension for MathJax 3.2.2",
+    "upstream": "https://github.com/mathjax/MathJax/blob/3.2.2/es5/input/tex/extensions/cancel.js"
+  },
+  {
+    "path": "assets/mathjax/extensions/mathtools.js",
+    "source": "Copied from the matching local reference-course MathJax3.2.2 distribution",
+    "sha256": "04272d69a0b64783cd5b66820d6f8220ee510409d0b12c38626404be9ed9689c",
+    "license": "assets/mathjax/LICENSE",
+    "reason": "Local mathtools TeX extension for MathJax 3.2.2",
+    "upstream": "https://github.com/mathjax/MathJax/blob/3.2.2/es5/input/tex/extensions/mathtools.js"
+  },
+  {
+    "path": "assets/mathjax/input/tex/extensions/boldsymbol.js",
+    "source": "Byte-identical copy of existing assets/mathjax/extensions/boldsymbol.js",
+    "upstream": "https://github.com/mathjax/MathJax/blob/3.2.2/es5/input/tex/extensions/boldsymbol.js",
+    "sha256": "d6771fee0772db2657796c8d0e20e1878bb3237f6d3ed1e828e1834a4ff743ca",
+    "license": "assets/mathjax/LICENSE",
+    "reason": "Canonical local autoload path for TeX boldsymbol; actual Chapter13 browser request failed at this previously absent path."
+  }
+]

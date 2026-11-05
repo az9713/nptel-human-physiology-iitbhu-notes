@@ -1,0 +1,877 @@
+{
+  "chapter": 13,
+  "title": "Protein and lipid absorption; digestive dysfunction",
+  "status": "accepted",
+  "coverage_complete": true,
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch13_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual original full review plus original repair checks and separately attributed scoped context supplement; original full reviewer did not inspect added context",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "8af425c947f798fca4e8e9f7301a06f05bff3526f22c67af2f378c2c370e413c",
+      "artifact_sha256": {
+        "code/ch13_compartments.py": "45767631e777fe06dc3aaecf4f4fc72ce99d90ac4fe01896e2f67044cecd54de",
+        "assets/ch13-models.js": "94c7b4e2bdd3929106c39e752d986d902ee8a78112b622d372a4451148f53be1",
+        "assets/ch13-checks.js": "1aa79268bc02552ce2a4f7f428bdc69df34c5a8684fa74a6f439213d5c333e9e",
+        "assets/ch13-mechanisms.css": "f1ea2d971dca62097a4b3d80c0335ed829a986bf2ca4ff81ee90d97d280b99fe",
+        "assets/ch13-protein.html": "eed587c3ccb0db9043c5d37a5132644d093e6f1ce2e720d8d108675bd06655bb",
+        "assets/ch13-lipid.html": "e1502514b36bd770a1dd4524180be5fa7c5520a078c3f53caa81e058dc696506",
+        "assets/ch13-failure.html": "2400ab1938dd307ac604fa5098143add8be154b189259048c338c8d03dd5946f",
+        "assets/ch13-context.svg": "6ce4a8d4cae49dbe2dc6abe1ab67e08954f8409ef2de6c47741d530772122d12",
+        "assets/ch12-villi-reference.jpg": "4cf0be725da031e221ff8f43fe75c64fcc5a98eb18a96eb717bfc9d0b479dc8a",
+        "assets/ch12-villi-reference.json": "160931d2bd17491aef5452d0f3acfa1413c83710d066ad6d63175166a7da1c4d"
+      },
+      "report_path": "work/reviews/ch13-approved-a.md",
+      "report_sha256": "81d94c1f2be4d1da399b6754f8c560d0299b44013c9e6647a496f3642e6c3076",
+      "original_full_report": "work/reviews/ch13-review-a.md",
+      "targeted_report": "work/reviews/ch13-targeted-a.md",
+      "supplemental_context_checker": {
+        "reviewer_id": "/root/ch13_context_a",
+        "reviewer_model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "scope": "Added context figure, provenance, numbering and exact change boundary only",
+        "report_path": "work/reviews/ch13-context-targeted-a.md",
+        "report_sha256": "d5b4d2a7a066f1a11fb0cfa9f753b66a43e27c89020e814142ef641f5d565d42"
+      },
+      "pre_context_full_approval": {
+        "body_sha256": "9e5f97b5985a1d04aff877b43e0de8c5e37901cf92d22146676f22895750f41a",
+        "report_path": "work/reviews/ch13-pre-context-approved-a.md",
+        "report_sha256": "a93563efcedd8acda2170bcfd7d9aaa58b6e4396a8699ba0e9b6779e79a753f8"
+      }
+    },
+    {
+      "reviewer_id": "/root/ch13_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual original full review plus original repair checks and separately attributed scoped context supplement; original full reviewer did not inspect added context",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "8af425c947f798fca4e8e9f7301a06f05bff3526f22c67af2f378c2c370e413c",
+      "artifact_sha256": {
+        "code/ch13_compartments.py": "45767631e777fe06dc3aaecf4f4fc72ce99d90ac4fe01896e2f67044cecd54de",
+        "assets/ch13-models.js": "94c7b4e2bdd3929106c39e752d986d902ee8a78112b622d372a4451148f53be1",
+        "assets/ch13-checks.js": "1aa79268bc02552ce2a4f7f428bdc69df34c5a8684fa74a6f439213d5c333e9e",
+        "assets/ch13-mechanisms.css": "f1ea2d971dca62097a4b3d80c0335ed829a986bf2ca4ff81ee90d97d280b99fe",
+        "assets/ch13-protein.html": "eed587c3ccb0db9043c5d37a5132644d093e6f1ce2e720d8d108675bd06655bb",
+        "assets/ch13-lipid.html": "e1502514b36bd770a1dd4524180be5fa7c5520a078c3f53caa81e058dc696506",
+        "assets/ch13-failure.html": "2400ab1938dd307ac604fa5098143add8be154b189259048c338c8d03dd5946f",
+        "assets/ch13-context.svg": "6ce4a8d4cae49dbe2dc6abe1ab67e08954f8409ef2de6c47741d530772122d12",
+        "assets/ch12-villi-reference.jpg": "4cf0be725da031e221ff8f43fe75c64fcc5a98eb18a96eb717bfc9d0b479dc8a",
+        "assets/ch12-villi-reference.json": "160931d2bd17491aef5452d0f3acfa1413c83710d066ad6d63175166a7da1c4d"
+      },
+      "report_path": "work/reviews/ch13-approved-b.md",
+      "report_sha256": "e114a1ca95c0c82208d7babd595dc7c75c88c2c9820a5b9eafe06d55a5eaa570",
+      "original_full_report": "work/reviews/ch13-review-b.md",
+      "targeted_report": "work/reviews/ch13-targeted-b.md",
+      "supplemental_context_checker": {
+        "reviewer_id": "/root/ch13_context_b",
+        "reviewer_model": "gpt-6-sol",
+        "reasoning_effort": "medium",
+        "scope": "Added context figure, provenance, numbering and exact change boundary only",
+        "report_path": "work/reviews/ch13-context-targeted-b.md",
+        "report_sha256": "c2f890761c73a9bbcba0dcb6c8ad88be81597dd6c89dd143bdbaf55e945b252f"
+      },
+      "pre_context_full_approval": {
+        "body_sha256": "9e5f97b5985a1d04aff877b43e0de8c5e37901cf92d22146676f22895750f41a",
+        "report_path": "work/reviews/ch13-pre-context-approved-b.md",
+        "report_sha256": "367428ab9b516578546bd24eeda2b5f912c3eb3782ddcc7dd2b80200c40a74ed"
+      }
+    }
+  ],
+  "source_recordings": [
+    28,
+    29,
+    30
+  ],
+  "source_evidence": "Complete captions and all56 ledger topics read; source-visual audit attributed to work/visual-review-ch13.md,163 sampled stills+19 repeat native frames, no own continuous video claim.",
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "body_sha256": "8af425c947f798fca4e8e9f7301a06f05bff3526f22c67af2f378c2c370e413c",
+  "body_digest_convention": "SHA256 of raw bytes strictly between exact body markers, preserving enclosed newlines",
+  "artifact_sha256": {
+    "code/ch13_compartments.py": "45767631e777fe06dc3aaecf4f4fc72ce99d90ac4fe01896e2f67044cecd54de",
+    "assets/ch13-models.js": "94c7b4e2bdd3929106c39e752d986d902ee8a78112b622d372a4451148f53be1",
+    "assets/ch13-checks.js": "1aa79268bc02552ce2a4f7f428bdc69df34c5a8684fa74a6f439213d5c333e9e",
+    "assets/ch13-mechanisms.css": "f1ea2d971dca62097a4b3d80c0335ed829a986bf2ca4ff81ee90d97d280b99fe",
+    "assets/ch13-protein.html": "eed587c3ccb0db9043c5d37a5132644d093e6f1ce2e720d8d108675bd06655bb",
+    "assets/ch13-lipid.html": "e1502514b36bd770a1dd4524180be5fa7c5520a078c3f53caa81e058dc696506",
+    "assets/ch13-failure.html": "2400ab1938dd307ac604fa5098143add8be154b189259048c338c8d03dd5946f",
+    "assets/ch13-context.svg": "6ce4a8d4cae49dbe2dc6abe1ab67e08954f8409ef2de6c47741d530772122d12",
+    "assets/ch12-villi-reference.jpg": "4cf0be725da031e221ff8f43fe75c64fcc5a98eb18a96eb717bfc9d0b479dc8a",
+    "assets/ch12-villi-reference.json": "160931d2bd17491aef5452d0f3acfa1413c83710d066ad6d63175166a7da1c4d"
+  },
+  "reviewed_artifacts": [
+    {
+      "path": "code/ch13_compartments.py",
+      "sha256": "45767631e777fe06dc3aaecf4f4fc72ce99d90ac4fe01896e2f67044cecd54de"
+    },
+    {
+      "path": "assets/ch13-models.js",
+      "sha256": "94c7b4e2bdd3929106c39e752d986d902ee8a78112b622d372a4451148f53be1"
+    },
+    {
+      "path": "assets/ch13-checks.js",
+      "sha256": "1aa79268bc02552ce2a4f7f428bdc69df34c5a8684fa74a6f439213d5c333e9e"
+    },
+    {
+      "path": "assets/ch13-mechanisms.css",
+      "sha256": "f1ea2d971dca62097a4b3d80c0335ed829a986bf2ca4ff81ee90d97d280b99fe"
+    },
+    {
+      "path": "assets/ch13-protein.html",
+      "sha256": "eed587c3ccb0db9043c5d37a5132644d093e6f1ce2e720d8d108675bd06655bb"
+    },
+    {
+      "path": "assets/ch13-lipid.html",
+      "sha256": "e1502514b36bd770a1dd4524180be5fa7c5520a078c3f53caa81e058dc696506"
+    },
+    {
+      "path": "assets/ch13-failure.html",
+      "sha256": "2400ab1938dd307ac604fa5098143add8be154b189259048c338c8d03dd5946f"
+    },
+    {
+      "path": "assets/ch13-context.svg",
+      "sha256": "6ce4a8d4cae49dbe2dc6abe1ab67e08954f8409ef2de6c47741d530772122d12"
+    },
+    {
+      "path": "assets/ch12-villi-reference.jpg",
+      "sha256": "4cf0be725da031e221ff8f43fe75c64fcc5a98eb18a96eb717bfc9d0b479dc8a"
+    },
+    {
+      "path": "assets/ch12-villi-reference.json",
+      "sha256": "160931d2bd17491aef5452d0f3acfa1413c83710d066ad6d63175166a7da1c4d"
+    }
+  ],
+  "review_artifact_inventory_note": "Current scientific artifact map includes source-checked context supplement. Exactly two historical full reviews, original targeted repairs and two independently attributed new context checks; no invented extra full review.",
+  "code": [
+    "code/ch13_compartments.py"
+  ],
+  "code_validation": "Executed Python analytic, positivity, conservation, semigroup, scaling, limit and invalid-input checks; Node20,002 topology states,10,001 paired compartment states, rate-order symmetry,3-mode DOM-double controls. House-style57 math segments/braces and local anchors/duplicateIDs checked. No actual UI/print validation claimed. Current integrated browser rendered68 MathJax containers with0 errors; new figure additions leave model/code/solutions unchanged.",
+  "figures": [
+    {
+      "id": "ch13-anim1",
+      "path": "assets/ch13-protein.html",
+      "script": "assets/ch13-models.js",
+      "status": "accepted",
+      "role": "Protein cleavage/polarized transport abstract mechanism."
+    },
+    {
+      "id": "ch13-anim2",
+      "path": "assets/ch13-lipid.html",
+      "script": "assets/ch13-models.js",
+      "status": "accepted",
+      "role": "Separate droplet/aggregate/molecular uptake/ER/vesicle/interstitium/lacteal steps."
+    },
+    {
+      "id": "ch13-anim3",
+      "path": "assets/ch13-failure.html",
+      "script": "assets/ch13-models.js",
+      "status": "accepted",
+      "role": "Shared-state mass balance comparison; original synthetic coefficients."
+    },
+    {
+      "id": "ch13-fig1",
+      "path": "chapter-13-protein-lipid-digestion.html#ch13-fig1",
+      "status": "accepted",
+      "role": "Original source-checked duct connection map plus verified prepared human mucosa at a distinct scale."
+    }
+  ],
+  "realistic_asset_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Pancreatic-biliary connections and small-intestinal mucosal transport",
+    "rationale": "Observed human mucosal cryosection supplies prepared villus/crypt appearance. Original source-checked duct connectivity and controlled protein/lipid/compartment mechanisms explain distinct scales and causal sequences. Preparation colors, unknown physical calibration and unresolved molecular/lacteal identities are explicit. No measured organ shape, continuous zoom or photographed transport trajectory is claimed.",
+    "appearance_references": [
+      "assets/ch12-villi-reference.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch13-protein.html",
+      "assets/ch13-lipid.html",
+      "assets/ch13-failure.html"
+    ],
+    "report_path": "work/browser/ch13-visual-modality.json",
+    "report_sha256": "3511b3a2ff1bb3fa42b5f2f3a7ceccfdd14e06c66846faa10b2da5afa92eb76e"
+  },
+  "anatomical_context_illustration": {
+    "id": "ch13-fig1",
+    "status": "inspected-context-and-microscopy",
+    "path": "chapter-13-protein-lipid-digestion.html#ch13-fig1",
+    "sources": [
+      "assets/ch13-context.svg",
+      "assets/ch12-villi-reference.jpg",
+      "assets/ch12-villi-reference.json"
+    ]
+  },
+  "source_topic_dispositions": [
+    {
+      "topic_id": "L28-T01",
+      "anchor": "01:14",
+      "source_topic": "[01:14] amino acids/peptide bonds",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#protein-structure",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain amino acids/residues/termini; repair free-group and condensation-mechanism conflation."
+    },
+    {
+      "topic_id": "L28-T02",
+      "anchor": "03:13",
+      "source_topic": "[03:13] protein functions",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#protein-structure",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain structural, enzyme, oxygen/membrane transport, hormone, immune and contractile examples; pulmonary loading specified."
+    },
+    {
+      "topic_id": "L28-T03",
+      "anchor": "04:54",
+      "source_topic": "[04:54] structural hierarchy",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#protein-structure",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain four structural levels; remove unsupported quaternary-rarity claim."
+    },
+    {
+      "topic_id": "L28-T04",
+      "anchor": "07:40",
+      "source_topic": "[07:40] exo/endopeptidases",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#protease-cascade",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain endo/exo and terminal specificity; correct enzyme nouns and dipeptide-bond chemistry."
+    },
+    {
+      "topic_id": "L28-T05",
+      "anchor": "09:28",
+      "source_topic": "[09:28] gastric initiation/gastrin",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#protease-cascade",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain G-cell/gastrin/parietal control; hormone/enzyme and direct/indirect signal distinctions explicit."
+    },
+    {
+      "topic_id": "L28-T06",
+      "anchor": "10:37",
+      "source_topic": "[10:37] pepsinogen",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#protease-cascade",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain chief-cell pepsinogen and luminal activation; acid unfolding is not peptide cleavage."
+    },
+    {
+      "topic_id": "L28-T07",
+      "anchor": "11:28",
+      "source_topic": "[11:28] intestinal hormones",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#protease-cascade",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain CCK/secretin; nutrient/acid stimuli and enzyme/bicarbonate outputs distinguished."
+    },
+    {
+      "topic_id": "L28-T08",
+      "anchor": "12:29",
+      "source_topic": "[12:29] pancreatic zymogens",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#protease-cascade",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain pancreatic precursors, duct delivery and separate activation; protection plus exceptions included."
+    },
+    {
+      "topic_id": "L28-T09",
+      "anchor": "12:47",
+      "source_topic": "[12:47] enteropeptidase",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#protease-cascade",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain brush-border enteropeptidase initiation; food peptide does not become enzyme."
+    },
+    {
+      "topic_id": "L28-T10",
+      "anchor": "13:10",
+      "source_topic": "[13:10] trypsin cascade",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#protease-cascade",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain trypsin amplification/activation plus dietary substrate cleavage as separate actions."
+    },
+    {
+      "topic_id": "L28-T11",
+      "anchor": "14:07",
+      "source_topic": "[14:07] stomach recap",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#protease-cascade",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain gastric recap; acidity varies and active pepsin is not active zymogen."
+    },
+    {
+      "topic_id": "L28-T12",
+      "anchor": "15:51",
+      "source_topic": "[15:51] chymotrypsin",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#protease-cascade",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain carboxyl-side aromatic-residue preference, with accessibility/sequence boundary."
+    },
+    {
+      "topic_id": "L28-T13",
+      "anchor": "16:21",
+      "source_topic": "[16:21] carboxypeptidase",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#protease-cascade",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain C-terminal exopeptidase action, separate from endopeptidase."
+    },
+    {
+      "topic_id": "L28-T14",
+      "anchor": "17:04",
+      "source_topic": "[17:04] brush border",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#peptide-uptake",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain apical aminopeptidases and intracellular di/tripeptide cleavage; no all-luminal peptidase claim."
+    },
+    {
+      "topic_id": "L28-T15",
+      "anchor": "18:17",
+      "source_topic": "[18:17] amino-acid absorption",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#peptide-uptake",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain multiple apical amino-acid systems and basal sodium pump; no substantial normal gastric protein-uptake inference."
+    },
+    {
+      "topic_id": "L28-T16",
+      "anchor": "20:38",
+      "source_topic": "[20:38] PEPT1/proton coupling",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#peptide-uptake",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain proton-coupled PEPT1, apical NHE3 and basal Na/K pump; di/tripeptide scope and portal exit explicit."
+    },
+    {
+      "topic_id": "L28-T17",
+      "anchor": "23:05",
+      "source_topic": "[23:05] metabolic use",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#protein-balance",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain protein, energy and nitrogenous-product fates; nitrogen is not itself ATP."
+    },
+    {
+      "topic_id": "L28-T18",
+      "anchor": "23:40",
+      "source_topic": "[23:40] infant claim",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#milk-immunity",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Qualify repeated infant-antibody claim: mucosal/systemic and species/age boundaries; narrow Ogra human observation retained."
+    },
+    {
+      "topic_id": "L28-T19",
+      "anchor": "23:55",
+      "source_topic": "[23:55] enteropeptidase mutation exercise.",
+      "section_ids": [
+        "ch13-s1"
+      ],
+      "reader_target": "#ch13-p4",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain complete closing cascade/nutrition/carbohydrate/lipid exercise with fully worked bounded solution."
+    },
+    {
+      "topic_id": "L29-T01",
+      "anchor": "01:09",
+      "source_topic": "[01:09] lipid types/fatty acids",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#lipid-identity",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain fatty-acid saturation/cis geometry and lipid diversity; cholesterol has no fatty-acid constituent as free sterol."
+    },
+    {
+      "topic_id": "L29-T02",
+      "anchor": "02:52",
+      "source_topic": "[02:52] triglycerides",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#lipid-identity",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain glycerol/three acyl chains and dietary examples; exclude unsourced universal95% as necessary constant."
+    },
+    {
+      "topic_id": "L29-T03",
+      "anchor": "03:56",
+      "source_topic": "[03:56] cholesterol",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#lipid-identity",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain sterol identity and dietary/endogenous distinction."
+    },
+    {
+      "topic_id": "L29-T04",
+      "anchor": "04:28",
+      "source_topic": "[04:28] phospholipids",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#lipid-identity",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain glycerophospholipid example; not all phospholipids or vacant reactive site."
+    },
+    {
+      "topic_id": "L29-T05",
+      "anchor": "05:44",
+      "source_topic": "[05:44] energy/membrane/steroid functions",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#lipid-identity",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain approximately9kcal/g food convention, membrane/steroid/insulation roles; not molecule-specific ATP yield."
+    },
+    {
+      "topic_id": "L29-T06",
+      "anchor": "07:26",
+      "source_topic": "[07:26] organ pathway",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#emulsification",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain liver/gallbladder/pancreatic pathway and bicarbonate neutralization."
+    },
+    {
+      "topic_id": "L29-T07",
+      "anchor": "09:19",
+      "source_topic": "[09:19] aqueous-interface problem",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#emulsification",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain aqueous-interface problem and derive constant-volume droplet area."
+    },
+    {
+      "topic_id": "L29-T08",
+      "anchor": "10:43",
+      "source_topic": "[10:43] emulsification",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#emulsification",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain emulsification; distinguish physical breakup from ester hydrolysis and bile mixture from enzyme."
+    },
+    {
+      "topic_id": "L29-T09",
+      "anchor": "12:05",
+      "source_topic": "[12:05] intestinal/pancreatic control",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#emulsification",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain CCK/pancreatic/gallbladder control; corrected immediate liver-production simplification in protein control subsection."
+    },
+    {
+      "topic_id": "L29-T10",
+      "anchor": "14:22",
+      "source_topic": "[14:22] lipase",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#emulsification",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain lipase sn1/sn3 ester hydrolysis to2MAG+2FA."
+    },
+    {
+      "topic_id": "L29-T11",
+      "anchor": "15:26",
+      "source_topic": "[15:26] colipase",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#emulsification",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain colipase interfacial cofactor; not bond-cleaving enzyme or hormone."
+    },
+    {
+      "topic_id": "L29-T12",
+      "anchor": "17:05",
+      "source_topic": "[17:05] phospholipase A2",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#emulsification",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain PLA2 lysophospholipid+FA reaction; precursor activation connection in cascade exercise."
+    },
+    {
+      "topic_id": "L29-T13",
+      "anchor": "17:28",
+      "source_topic": "[17:28] cholesterol esterase",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#emulsification",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain cholesteryl-ester hydrolysis; cholesterol esterase is enzyme, not digested substrate."
+    },
+    {
+      "topic_id": "L29-T14",
+      "anchor": "18:09",
+      "source_topic": "[18:09] mixed micelles/uptake",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#three-particles",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain mixed aggregates and molecular apical uptake; no intact micelle internalization."
+    },
+    {
+      "topic_id": "L29-T15",
+      "anchor": "19:07",
+      "source_topic": "[19:07] short-chain route",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#three-particles",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Qualify short/medium-chain portal preference; epithelial barrier not bypassed, no absolute size switch."
+    },
+    {
+      "topic_id": "L29-T16",
+      "anchor": "19:36",
+      "source_topic": "[19:36] intracellular re-esterification",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#three-particles",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain ER re-esterification; cholesterol not converted intoTAG."
+    },
+    {
+      "topic_id": "L29-T17",
+      "anchor": "20:07",
+      "source_topic": "[20:07] apoproteins/chylomicrons",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#three-particles",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain apoB48/MTP/ER-Golgi secretory assembly; distinguish later exchangeable apoproteins."
+    },
+    {
+      "topic_id": "L29-T18",
+      "anchor": "21:38",
+      "source_topic": "[21:38] micelle description",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#three-particles",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "SCI-012 corrected: dynamic mixed aggregate not membrane bilayer; no fixed morphology/diameter claimed."
+    },
+    {
+      "topic_id": "L29-T19",
+      "anchor": "24:15",
+      "source_topic": "[24:15] lacteals/thoracic duct",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#three-particles",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Correct visible slide: basolateral enterocyte fusion then interstitium/lacteal/lymph/thoracic duct, no vesicle–lacteal fusion."
+    },
+    {
+      "topic_id": "L29-T20",
+      "anchor": "26:01",
+      "source_topic": "[26:01] enteropeptidase exercise.",
+      "section_ids": [
+        "ch13-s2"
+      ],
+      "reader_target": "#ch13-p4",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain repeated closing enteropeptidase exercise including carbohydrate/lipid effects; infant aside handled in milk-immunity."
+    },
+    {
+      "topic_id": "L30-T01",
+      "anchor": "01:54",
+      "source_topic": "[01:54] GERD/LES",
+      "section_ids": [
+        "ch13-s4"
+      ],
+      "reader_target": "#reflux-ulcer",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain GERD/barrier/LES/hernia mechanisms and symptom specificity limits."
+    },
+    {
+      "topic_id": "L30-T02",
+      "anchor": "04:37",
+      "source_topic": "[04:37] diagnosis",
+      "section_ids": [
+        "ch13-s4"
+      ],
+      "reader_target": "#reflux-ulcer",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain endoscopy/reflux monitoring as selected clinical categories, not universal algorithm."
+    },
+    {
+      "topic_id": "L30-T03",
+      "anchor": "04:59",
+      "source_topic": "[04:59] acid suppression",
+      "section_ids": [
+        "ch13-s4"
+      ],
+      "reader_target": "#reflux-ulcer",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain antacid/H2/PPI mechanism distinctions without doses."
+    },
+    {
+      "topic_id": "L30-T04",
+      "anchor": "05:24",
+      "source_topic": "[05:24] peptic ulcers/H. pylori",
+      "section_ids": [
+        "ch13-s4"
+      ],
+      "reader_target": "#reflux-ulcer",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain PUD,H.pylori,NSAID,Zollinger–Ellison and complication/test categories; resistance/test-of-cure corrected."
+    },
+    {
+      "topic_id": "L30-T05",
+      "anchor": "07:30",
+      "source_topic": "[07:30] IBS",
+      "section_ids": [
+        "ch13-s4",
+        "ch13-s3"
+      ],
+      "reader_target": "#ibs",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain IBS subtypes/gut–brain/sensitivity; exclude universal gluten cause or blanket diet prescription."
+    },
+    {
+      "topic_id": "L30-T06",
+      "anchor": "08:57",
+      "source_topic": "[08:57] IBD",
+      "section_ids": [
+        "ch13-s4",
+        "ch13-s3"
+      ],
+      "reader_target": "#ibd",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain Crohn-specific IBD example, tissue distribution, strictures/fistulas/abscesses/extraintestinal effects; CRP not standalone, IL10 not established cure."
+    },
+    {
+      "topic_id": "L30-T07",
+      "anchor": "11:14",
+      "source_topic": "[11:14] celiac",
+      "section_ids": [
+        "ch13-s4",
+        "ch13-s3"
+      ],
+      "reader_target": "#celiac",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain celiac immune injury, extraintestinal effects, tTG-IgA/totalIgA context,HLA limits; no progression from sensitivity/allergy or personal algorithm."
+    },
+    {
+      "topic_id": "L30-T08",
+      "anchor": "13:03",
+      "source_topic": "[13:03] lactose intolerance",
+      "section_ids": [
+        "ch13-s4",
+        "ch13-s3"
+      ],
+      "reader_target": "#lactase",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain primary,secondary,congenital lactase deficiency, osmosis/fermentation and breath-test categories; no universal dairy exclusion/probiotic cure."
+    },
+    {
+      "topic_id": "L30-T09",
+      "anchor": "14:33",
+      "source_topic": "[14:33] gallstones",
+      "section_ids": [
+        "ch13-s4"
+      ],
+      "reader_target": "#biliary-pancreatic",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain cholesterol/pigment/mixed stones, supersaturation/nucleation, silent/obstructing disease, rapid-weight-loss risk and selected treatment distinctions."
+    },
+    {
+      "topic_id": "L30-T10",
+      "anchor": "16:33",
+      "source_topic": "[16:33] pancreatitis",
+      "section_ids": [
+        "ch13-s4"
+      ],
+      "reader_target": "#biliary-pancreatic",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain acute/chronic pancreatic inflammation, enzyme activation, etiological diversity and selected labs/imaging/supportive-versus-replacement context."
+    },
+    {
+      "topic_id": "L30-T11",
+      "anchor": "17:54",
+      "source_topic": "[17:54] constipation",
+      "section_ids": [
+        "ch13-s4"
+      ],
+      "reader_target": "#stool-fluid",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain constipation transit/pelvic-floor/secondary causes; no universal dehydration/colonoscopy explanation."
+    },
+    {
+      "topic_id": "L30-T12",
+      "anchor": "18:50",
+      "source_topic": "[18:50] diarrhea",
+      "section_ids": [
+        "ch13-s4"
+      ],
+      "reader_target": "#stool-fluid",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain osmotic/secretory/inflammatory/motility-related diarrhea and fluid/electrolyte loss; rehydration distinct from cause-specific therapy."
+    },
+    {
+      "topic_id": "L30-T13",
+      "anchor": "19:46",
+      "source_topic": "[19:46] food poisoning",
+      "section_ids": [
+        "ch13-s4"
+      ],
+      "reader_target": "#stool-fluid",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain foodborne pathogen/toxin categories, cooking/storage/prevention and dehydration; CDC toxin/STEC counterexamples exclude blanket antibiotics."
+    },
+    {
+      "topic_id": "L30-T14",
+      "anchor": "20:56",
+      "source_topic": "[20:56] hemorrhoids",
+      "section_ids": [
+        "ch13-s4"
+      ],
+      "reader_target": "#hemorrhoids-cancer",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain internal/external hemorrhoids, vascular/supportive tissue and selected management; glands/unclear laseroscopy excluded."
+    },
+    {
+      "topic_id": "L30-T15",
+      "anchor": "23:11",
+      "source_topic": "[23:11] polyps/cancer",
+      "section_ids": [
+        "ch13-s4"
+      ],
+      "reader_target": "#hemorrhoids-cancer",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain adenomatous/hyperplastic distinction plus serrated caveat, possible progression/metastasis and screening/staging/site-specific treatment; no inevitable-cancer/mortality claims."
+    },
+    {
+      "topic_id": "L30-T16",
+      "anchor": "26:26",
+      "source_topic": "[26:26] vomiting",
+      "section_ids": [
+        "ch13-s4"
+      ],
+      "reader_target": "#vomiting",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain gastric/possible upper-intestinal contents and coordinated brainstem inputs; no universal toxin-clearance inference."
+    },
+    {
+      "topic_id": "L30-T17",
+      "anchor": "27:03",
+      "source_topic": "[27:03] cholesterol/bile question.",
+      "section_ids": [
+        "ch13-s4"
+      ],
+      "reader_target": "#ch13-p6",
+      "disposition": "retained-with-explicit-correction-or-boundary",
+      "rationale": "Retain full closing cholesterol-bile question inP6; supersaturation risk does not guarantee symptomatic disease or treatment."
+    }
+  ],
+  "scientific_issue_dispositions": [
+    {
+      "id": "SCI-012",
+      "status": "supported-correction-authored-review-pending",
+      "target": "#three-particles",
+      "explanation": "Mixed aggregates are not membrane bilayers; molecular uptake precedes intracellular chylomicron assembly; source slide vesicle–lacteal fusion also corrected."
+    }
+  ],
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
+    "browser": "Actual Chrome reader390/650/1440,68 math containers/0errors, required images/native dimensions, all3 mechanisms/control/phase/phone checks, active reduced-motion pause and24-page print proof with6 worked solutions and no outside-text blocks; separately attributed context supplements.",
+    "realistic_assets": "pending",
+    "coverage": "All56 L28–30 topics dispositioned using full captions and attributed bounded still audit; two actual independent full reviews plus localized repair/notation checks. Added context separately checked by two explicitly identified targeted reviewers, with actual root production inspection."
+  },
+  "limitations": [
+    "No actual CUA/browser/mobile/print inspection performed; DOM doubles are control logic only.",
+    "Required realistic anatomical context and motion remain pending; no SVG/microscopy substitution claimed.",
+    "Complete captions plus bounded attributed still audit; no continuous video/audio viewing claimed.",
+    "Clinical concepts checked with owning sources on2026-11-04; no individualized testing/therapy/dosing algorithms.",
+    "Source access varies: primary abstracts and indexed owning passages distinguished from full direct retrieval in work/ch13-research.md.",
+    "Neutral-peptide energy boundary uses selected1H+/neutral-cargo cycle, ideal activities and reversible limit, not universal PEPT1 substrate stoichiometry.",
+    "Serial model omits transit, volume change, metabolism, secretion, multiple substrates, storage and regulation; its rate-order ambiguity is conditional.",
+    "Lipid export model requires additional compartments for ER/Golgi/interstitium/lymph-specific inference; merged final pool is a deliberate simplification.",
+    "Schematic particle sizes/timing/colors are explanatory; no measured molecular trajectories or tissue realism."
+  ],
+  "metrics": {
+    "article_words": 8374,
+    "h2": 7,
+    "h3": 23,
+    "worked_solutions": 6
+  },
+  "author_report": "work/ch13-author-report.md",
+  "research_report": "work/ch13-research.md",
+  "coverage_basis": "All56 L28–30 topics dispositioned using full captions and attributed bounded still audit; two actual independent full reviews plus localized repair/notation checks. Added context separately checked by two explicitly identified targeted reviewers, with actual root production inspection.",
+  "production_validation": {
+    "report_path": "work/browser/ch13-production-final.json",
+    "report_sha256": "d79685005713a0691216043781bd592925956ccf1daafbf0dcdefe2aeedfea6a",
+    "scope": "Actual Chrome reader390/650/1440,68 math containers/0errors, required images/native dimensions, all3 mechanisms/control/phase/phone checks, active reduced-motion pause and24-page print proof with6 worked solutions and no outside-text blocks; separately attributed context supplements."
+  },
+  "accepted_at_utc": "2026-11-04T23:16:16.392Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-13.json",
+    "sha256": "e406d7fcff5d659b81a5cd38347126511184e6d62adc05bd4a485182f1bc5697"
+  }
+}

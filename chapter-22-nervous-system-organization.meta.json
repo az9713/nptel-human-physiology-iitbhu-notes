@@ -1,0 +1,905 @@
+{
+  "chapter": 22,
+  "title": "Nervous-system organization: brain, spinal cord and nerves",
+  "status": "accepted",
+  "coverage_complete": true,
+  "source_recordings": [
+    51,
+    52,
+    53
+  ],
+  "source_evidence": "Complete L51–53 captions read through closing activities/farewells; all40 assigned topics located. Inherited partial audit:9sheets162samples26native repeats; author does not claim repeat video-frame or continuous video/audio viewing. Two independently acquired source-owner-licensed imaging references inspected.",
+  "source_files": [
+    {
+      "path": "sources/transcripts/51-g5kK1apywWU.txt",
+      "sha256": "34e6b5dd8e92b41f701567d5f52ebe3f4b3706a841829a58f920b998106f1d52"
+    },
+    {
+      "path": "sources/transcripts/52-FftptKyOm3g.txt",
+      "sha256": "2415dc4f9c11173f3d9e483544f61167a1772a2525ab35787555d9076adc3f4e"
+    },
+    {
+      "path": "sources/transcripts/53-MUsQeCIO5pA.txt",
+      "sha256": "67eb6bcb11260f24deb02e7855db9830487f1937f66fd2a6f4b9bd6fbdba89d4"
+    }
+  ],
+  "coverage_topics": [
+    {
+      "id": "L51-T01",
+      "source_topic_anchor": "01:05",
+      "anchor": "cells-and-bundles",
+      "caption_anchors": [
+        {
+          "anchor": "01:05",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s1"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach neurons and glia as cellular classes. Caption 02:27 calls a nerve a bunch of whole neurons; define peripheral nerve as bundles of axons plus Schwann/connective/vascular constituents, with cell bodies elsewhere."
+    },
+    {
+      "id": "L51-T02",
+      "source_topic_anchor": "03:00",
+      "anchor": "classification",
+      "caption_anchors": [
+        {
+          "anchor": "03:00",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s1"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach receptor → afferent → CNS integration → efferent → effector as one circuit template. Higher cognition is distributed, not a compulsory stage of every reflex."
+    },
+    {
+      "id": "L51-T03",
+      "source_topic_anchor": "04:51",
+      "anchor": "classification",
+      "caption_anchors": [
+        {
+          "anchor": "04:51",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s1"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach CNS = brain/spinal cord and PNS = nerves/ganglia; native `f0011` confirms a classification tree, not complete anatomical partitions or every CNS–PNS boundary nuance."
+    },
+    {
+      "id": "L51-T04",
+      "source_topic_anchor": "06:27",
+      "anchor": "classification",
+      "caption_anchors": [
+        {
+          "anchor": "06:27",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s1"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach afferent/efferent direction relative to CNS and somatic/autonomic **motor** classification; “voluntary/involuntary” is a heuristic, and visceral afferents are not excluded."
+    },
+    {
+      "id": "L51-T05",
+      "source_topic_anchor": "09:14",
+      "anchor": "brain-scale",
+      "caption_anchors": [
+        {
+          "anchor": "09:14",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s2"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach gross cerebrum/cerebellum/brainstem/diencephalon map with consistent sagittal/lateral orientation; later L52 supplies detail."
+    },
+    {
+      "id": "L51-T06",
+      "source_topic_anchor": "12:07",
+      "anchor": "cord-section",
+      "caption_anchors": [
+        {
+          "anchor": "12:07",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s3"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach segmental cord and ascending/descending communication, distinguishing cord from vertebral column and peripheral nerve root."
+    },
+    {
+      "id": "L51-T07",
+      "source_topic_anchor": "13:38",
+      "anchor": "withdrawal-branches",
+      "caption_anchors": [
+        {
+          "anchor": "13:38",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s3"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach spinal withdrawal circuit with concurrent ascending sensory branch; native `f0029` **shows** brainward information and later pain experience, so reject caption's categorical “no further processing towards brain.” No universal latency without segment/path/velocity."
+    },
+    {
+      "id": "L51-T08",
+      "source_topic_anchor": "15:01",
+      "anchor": "classification",
+      "caption_anchors": [
+        {
+          "anchor": "15:01",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s1"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach PNS sensory and motor fibers; nerves are mixed or specialized bundles, not all merely commands from CNS."
+    },
+    {
+      "id": "L51-T09",
+      "source_topic_anchor": "18:34",
+      "anchor": "autonomic-branches",
+      "caption_anchors": [
+        {
+          "anchor": "18:34",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s1"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach somatic motor-terminal acetylcholine at neuromuscular junction (with Chapter 15 linkage). Caption 18:52 overgeneralizes ACh as the molecule passing neuron-to-neuron all the way from brain to muscle; distinguish intermediate synapses."
+    },
+    {
+      "id": "L51-T10",
+      "source_topic_anchor": "19:16",
+      "anchor": "autonomic-branches",
+      "caption_anchors": [
+        {
+          "anchor": "19:16",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s1"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach sympathetic/parasympathetic outflows with preganglionic ganglionic and postganglionic stages. The slide at `f0041` says “often opposing,” but caption 19:59 says exactly opposite; retain “often” and receptor/organ exceptions."
+    },
+    {
+      "id": "L51-T11",
+      "source_topic_anchor": "20:10",
+      "anchor": "autonomic-branches",
+      "caption_anchors": [
+        {
+          "anchor": "20:10",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s1"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach enteric circuits within gut wall and autonomic modulation; native `f0041` states independent but influenced, not isolated from CNS."
+    },
+    {
+      "id": "L51-T12",
+      "source_topic_anchor": "20:29",
+      "anchor": "autonomic-branches",
+      "caption_anchors": [
+        {
+          "anchor": "20:29",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s1"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach organ-specific branch effects and transmitter compartments. Native `f0045/f0049` show a simplistic organ chart. Correct sympathetic preganglionic ACh, common postganglionic norepinephrine and cholinergic sweat-gland exception; adrenal epinephrine is hormonal. Do not equate urination/bladder emptying to renal urine **output**, or claim global parasympathetic vasoconstriction/uterine relaxation."
+    },
+    {
+      "id": "L51-T13",
+      "source_topic_anchor": "25:13",
+      "anchor": "threat-response",
+      "caption_anchors": [
+        {
+          "anchor": "25:13",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s1"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "**Late activity visible** `f0052`: barking/running dog, identify branch and mediators. Teach threat response as sympathetic activation plus adrenal medullary epinephrine, with ACh at preganglionic synapses and NE at many postganglionic targets. Source `f0051` says 86 billion neurons in *nervous system*; scope the estimate to **brain** and cite its uncertainty."
+    },
+    {
+      "id": "L52-T01",
+      "source_topic_anchor": "01:31",
+      "anchor": "brain-scale",
+      "caption_anchors": [
+        {
+          "anchor": "01:31",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s2"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach approximate adult brain mass and energy needs only with population/measurement denominator; native `f0005` claims 20% of body's “glucose and oxygen,” while literature often states energy/oxygen utilization. Do not conflate hypoglycemia with hypoxia. “86 billion” is brain estimate, not all nervous system."
+    },
+    {
+      "id": "L52-T02",
+      "source_topic_anchor": "03:46",
+      "anchor": "meningeal-compartments",
+      "caption_anchors": [
+        {
+          "anchor": "03:46",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s2"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach skull, dura (cranial periosteal and meningeal), arachnoid, pia and CSF **subarachnoid** space. Native `f0009` verifies labels, but slide is illustrative, not sectional micrograph. Distinguish venous dural sinus, blood vessels and fluid spaces."
+    },
+    {
+      "id": "L52-T03",
+      "source_topic_anchor": "07:24",
+      "anchor": "brain-scale",
+      "caption_anchors": [
+        {
+          "anchor": "07:24",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s2"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach gyrus/sulcus/fissure and cortical folding with schematic surface map. Correct caption “rays/sulky”; folding does not mechanically prove a specific cognitive gain."
+    },
+    {
+      "id": "L52-T04",
+      "source_topic_anchor": "08:55",
+      "anchor": "deep-brain",
+      "caption_anchors": [
+        {
+          "anchor": "08:55",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s2"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach cerebrum, cerebellum, brainstem and diencephalon as a useful gross map; “most primitive/oldest” brainstem is evolutionary shorthand, not a literal unchanged ancestral organ."
+    },
+    {
+      "id": "L52-T05",
+      "source_topic_anchor": "11:14",
+      "anchor": "laterality-learning",
+      "caption_anchors": [
+        {
+          "anchor": "11:14",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s2"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach anatomical hemispheres and **task-specific** lateralization within distributed networks. Native `f0024` depicts language often left dominant; caption 12:28 implies left-handed → right-dominant, contradicted by research. Handedness does not determine a person's language hemisphere."
+    },
+    {
+      "id": "L52-T06",
+      "source_topic_anchor": "13:24",
+      "anchor": "lobes-and-networks",
+      "caption_anchors": [
+        {
+          "anchor": "13:24",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s2"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach frontal/precentral motor and prefrontal contributions, with Broca-network language production. Localized labels are not exclusive single-function modules, and “inhibition of inappropriate behavior” likely corrects caption “innovating.”"
+    },
+    {
+      "id": "L52-T07",
+      "source_topic_anchor": "15:04",
+      "anchor": "lobes-and-networks",
+      "caption_anchors": [
+        {
+          "anchor": "15:04",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s2"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach parietal somatosensory and spatial/integration roles, specifying postcentral region and other network connections rather than all skin information confined to one lobe."
+    },
+    {
+      "id": "L52-T08",
+      "source_topic_anchor": "16:26",
+      "anchor": "lobes-and-networks",
+      "caption_anchors": [
+        {
+          "anchor": "16:26",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s2"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach temporal auditory, memory, language and ventral visual contributions. Native `f0034` correctly locates inferior temporal cortex relative to parietal and includes object recognition; caption 16:42 is self-contradictory. Hippocampus/amygdala are deep medial structures, not entire lobe modules."
+    },
+    {
+      "id": "L52-T09",
+      "source_topic_anchor": "18:23",
+      "anchor": "lobes-and-networks",
+      "caption_anchors": [
+        {
+          "anchor": "18:23",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s2"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach occipital visual processing in a distributed ventral/dorsal visual system; face recognition is not simply “in occipital association cortex.”"
+    },
+    {
+      "id": "L52-T10",
+      "source_topic_anchor": "19:45",
+      "anchor": "deep-brain",
+      "caption_anchors": [
+        {
+          "anchor": "19:45",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s2"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach cerebellar coordination/prediction/learning. Native `f0041` says ~10% brain volume and >half neurons; any numbers need method/sample scope. Balance also uses vestibular/brainstem/spinal circuits."
+    },
+    {
+      "id": "L52-T11",
+      "source_topic_anchor": "21:24",
+      "anchor": "deep-brain",
+      "caption_anchors": [
+        {
+          "anchor": "21:24",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s2"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach midbrain/pons/medulla with separate functions and continuation into cord. Native `f0045` labels pons correctly; caption from 22:03 omits its name. Avoid describing each vital function as one isolated center."
+    },
+    {
+      "id": "L52-T12",
+      "source_topic_anchor": "23:14",
+      "anchor": "deep-brain",
+      "caption_anchors": [
+        {
+          "anchor": "23:14",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s2"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach thalamic relay/integration with modality exceptions and hypothalamic autonomic/endocrine coupling. “All sensory information” needs exception for olfaction; hypothalamus is not merely a pituitary precursor gland."
+    },
+    {
+      "id": "L52-T13",
+      "source_topic_anchor": "24:55",
+      "anchor": "deep-brain",
+      "caption_anchors": [
+        {
+          "anchor": "24:55",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s2"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach “limbic system” as a historical distributed functional grouping, not one sharply bounded anatomical unit; native `f0052` lists hippocampus, amygdala, hypothalamus, cingulate and olfactory bulb."
+    },
+    {
+      "id": "L52-T14",
+      "source_topic_anchor": "25:55",
+      "anchor": "laterality-learning",
+      "caption_anchors": [
+        {
+          "anchor": "25:55",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s2"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach prolonged maturation and lifelong plasticity. Caption/slide “prefrontal cortex fully developed by mid-20s” is too discrete; specify measured property, population and changing trajectories, not a behavioral cutoff."
+    },
+    {
+      "id": "L52-T15",
+      "source_topic_anchor": "26:25",
+      "anchor": "laterality-learning",
+      "caption_anchors": [
+        {
+          "anchor": "26:25",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s2"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "**Late activity visible** `f0054`: skill learning, early vs practiced vs habitual networks. Frame as network and time-scale reasoning, not invented region-specific activation data. Motor skill and language learning need distinct circuits; sleep/practice effects are not read from this slide."
+    },
+    {
+      "id": "L53-T01",
+      "source_topic_anchor": "02:30",
+      "anchor": "meningeal-compartments",
+      "caption_anchors": [
+        {
+          "anchor": "02:30",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s3"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach spinal dura, arachnoid, pia, epidural and CSF-containing subarachnoid spaces. Native `f0006` draws “subdural space” as a gap; in ordinary anatomy it is a **potential** space. It must not be illustrated as a normally patent CSF chamber."
+    },
+    {
+      "id": "L53-T02",
+      "source_topic_anchor": "04:20",
+      "anchor": "cord-section",
+      "caption_anchors": [
+        {
+          "anchor": "04:20",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s3"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach gray/white matter as relative cellular/axon-myelin composition. Caption claims gray has *no* myelin/fat; source slide says unmyelinated axons but cannot demonstrate absence. This is a composition gradient, not an absolute color test."
+    },
+    {
+      "id": "L53-T03",
+      "source_topic_anchor": "06:18",
+      "anchor": "adult-canal",
+      "caption_anchors": [
+        {
+          "anchor": "06:18",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s3"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach developmental/level-dependent central canal as a **schematic** midline landmark. Slide `f0006` and contact-sheet cross section imply a patent CSF conduit in all adults; an adult-human MRI/histology study finds it absent/occluded in most beyond 18. State species and age explicitly."
+    },
+    {
+      "id": "L53-T04",
+      "source_topic_anchor": "06:59",
+      "anchor": "cord-section",
+      "caption_anchors": [
+        {
+          "anchor": "06:59",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s3"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach dorsal sensory input, ventral somatic motor output, lateral/intermediate autonomic neurons. Native `f0015` slide correctly places thoracolumbar sympathetic neurons, but caption adds parasympathetic activity to that same lateral-horn group; sacral parasympathetic outflow requires separate segment/site."
+    },
+    {
+      "id": "L53-T05",
+      "source_topic_anchor": "08:51",
+      "anchor": "tracts-crossings",
+      "caption_anchors": [
+        {
+          "anchor": "08:51",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s3"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach ascending/descending white-matter tracts as selected named examples, with **crossing, modalities and level** qualified. Native `f0019` shows gracilis/cuneatus and other areas; a color spot does not prove a tract position at every cord level."
+    },
+    {
+      "id": "L53-T06",
+      "source_topic_anchor": "11:09",
+      "anchor": "cranial-table",
+      "caption_anchors": [
+        {
+          "anchor": "11:09",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s3"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach twelve conventionally numbered cranial nerve pairs, their major central attachments and PNS/CNS boundary nuance for optic/olfactory structures. Caption calls them all brainstem-origin; CN I/II and spinal component of XI are exceptions."
+    },
+    {
+      "id": "L53-T07",
+      "source_topic_anchor": "12:56",
+      "anchor": "cranial-table",
+      "caption_anchors": [
+        {
+          "anchor": "12:56",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s3"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach dominant sensory/motor/mixed modalities in a CN I–XII table. Native `f0027/f0031` **includes X in mixed group**, despite caption 15:35 enumerating only V,VII,IX; preserve X and parasympathetic components. Labels are simplified, not all fiber classes."
+    },
+    {
+      "id": "L53-T08",
+      "source_topic_anchor": "16:07",
+      "anchor": "cranial-table",
+      "caption_anchors": [
+        {
+          "anchor": "16:07",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s3"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach nerve-specific functions (I smell, II vision, III/IV/VI eye movement, V facial sensation/chewing, VII expression/taste, VIII hearing/balance, IX/X pharynx/viscera, XI neck/shoulder, XII tongue). Native `f0036` visibly says CN VI lateral rectus and VII expression/taste. Correct caption “trigeminal neuralgia” → trigeminal nerve and “swirling” → swallowing."
+    },
+    {
+      "id": "L53-T09",
+      "source_topic_anchor": "19:11",
+      "anchor": "roots-rami",
+      "caption_anchors": [
+        {
+          "anchor": "19:11",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s3"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach **31 pairs** (8 C,12 T,5 L,5 S,1 coccygeal), dorsal sensory root/ganglion + ventral motor root joining a mixed spinal nerve. Native `f0040` includes coccygeal despite caption's earlier four-region list. Nerve is axon bundle, not “coiled whole neurons”; segment and vertebral exit are not identical levels."
+    },
+    {
+      "id": "L53-T10",
+      "source_topic_anchor": "21:29",
+      "anchor": "roots-rami",
+      "caption_anchors": [
+        {
+          "anchor": "21:29",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s3"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach cervical, brachial and lumbosacral plexus redistribution with roots/branches. Native `f0043` source begins cervical at C1–C5, whereas standard cervical plexus often C1–C4 (C5 contribution to phrenic); avoid blanket boundary and organ-to-one-region mapping."
+    },
+    {
+      "id": "L53-T11",
+      "source_topic_anchor": "23:07",
+      "anchor": "cranial-table",
+      "caption_anchors": [
+        {
+          "anchor": "23:07",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s3"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "Teach cranial vs spinal nerve count, origin, function and ganglion comparison as a table with exceptions. Native `f0048` broadly lists 12 vs 31, but “cranial nerves mostly head and neck” has vagus exception, and sensory ganglia are not motor nuclei."
+    },
+    {
+      "id": "L53-T12",
+      "source_topic_anchor": "25:44",
+      "anchor": "localization-limits",
+      "caption_anchors": [
+        {
+          "anchor": "25:44",
+          "status": "exact-existing-caption-cue"
+        }
+      ],
+      "section_assignments": [
+        "ch22-s3"
+      ],
+      "coverage_status": "Located in developed author draft; not review acceptance",
+      "disposition": "**Late activity visible** `f0053`: loss of smell, difficulty moving **left** eye laterally, left facial droop. Anatomical candidates: I, left VI, left VII, but signs do not establish a single lesion; smell side unspecified, facial central/peripheral pattern and ocular examination unspecified. The three simultaneous signs could require multiple sites or broader process, so write a localization reasoning solution with uncertainty and no patient diagnosis."
+    }
+  ],
+  "body_sha256": "07eb9e4a5f3a898458c3d9077e9ad852001ad54c1ff7fd2335c10291f4f49bae",
+  "body_hash_definition": "SHA256 of exact raw bytes strictly between unique BEGIN/END CHAPTER BODY markers; no trim or normalization",
+  "reviewed_artifacts": [
+    {
+      "path": "assets/ch22-brain-map.svg",
+      "sha256": "a881282438b66649e67408c9c33885246cc873b1200073909adb97e4fa6a1d62"
+    },
+    {
+      "path": "assets/ch22-brain-mri.jpg",
+      "sha256": "05c36e3420b462ba544133b8cb3362e23e8fdd2e8a74442f9c13198ad97f532e"
+    },
+    {
+      "path": "assets/ch22-controller.js",
+      "sha256": "6dae65c56adc8d3ff64af776ff94588baef7880308f9ce943150b3a7fe175129"
+    },
+    {
+      "path": "assets/ch22-cord-roots.svg",
+      "sha256": "45e604cf03c0ca4dd2d6f7f0ebe0ad6ca39c78adf04362baaa2c3916f997f97e"
+    },
+    {
+      "path": "assets/ch22-imaging-LICENSE.txt",
+      "sha256": "d8470f22f9ac61fb561677345d0fabde49d62ec3a57af8da17dea2ea89086687"
+    },
+    {
+      "path": "assets/ch22-imaging-provenance.json",
+      "sha256": "d9c3e094758a8ff5d4e874ca21cf0d0ba304d08f2a0b4b7eff519b0291950d25"
+    },
+    {
+      "path": "assets/ch22-mechanisms.css",
+      "sha256": "852305e204000c2e7b386640a55eadc55fa67a05617fce7fd76d37aa8e610a1a"
+    },
+    {
+      "path": "assets/ch22-mechanisms.html",
+      "sha256": "026028ba74e2e47ed42fc239183e11b41f0d5c29734ba6e1244f2ccce880b8e6"
+    },
+    {
+      "path": "assets/ch22-model.js",
+      "sha256": "99280f053723c011a98dc389a936c4d1866772fd4e4e41307f4337e1c3fe8b97"
+    },
+    {
+      "path": "assets/ch22-pathway-states.json",
+      "sha256": "69c71f6ba59a7174c9b3bced25b26c7bd849a56017000d0fd7970a401751b7f6"
+    },
+    {
+      "path": "assets/ch22-rat-spinal-lm.jpg",
+      "sha256": "ba9f0eab4fbc4785ca04c5f72547a5b7d491a371db46c93201de6d3e7b850b6e"
+    },
+    {
+      "path": "assets/ch22-reflex.svg",
+      "sha256": "acf1925ad2101cc1cc6b65bfc3a0c5b26866f481418e5642957f33014441115b"
+    },
+    {
+      "path": "assets/ch22-route.svg",
+      "sha256": "52c9a4723d08b6de1e46cf7deb4f6dede3c0e0d563542013bd03ff18d80793b9"
+    },
+    {
+      "path": "code/ch22_check.cjs",
+      "sha256": "bf70442afc686b1889d5b5464af0a8d2f49190e879051905f8808cc421d39deb"
+    },
+    {
+      "path": "code/ch22_export.cjs",
+      "sha256": "92bc371823e0f5fd2b464987abdbf7345861448418c87ad93a7f8bb99b86adcb"
+    },
+    {
+      "path": "code/ch22_pathways.py",
+      "sha256": "691857c3a59ddf0f35f1e89016cfdc821e7937faaba64c4c8bfe34ad0a87d400"
+    }
+  ],
+  "artifact_sha256": {
+    "assets/ch22-brain-map.svg": "a881282438b66649e67408c9c33885246cc873b1200073909adb97e4fa6a1d62",
+    "assets/ch22-brain-mri.jpg": "05c36e3420b462ba544133b8cb3362e23e8fdd2e8a74442f9c13198ad97f532e",
+    "assets/ch22-controller.js": "6dae65c56adc8d3ff64af776ff94588baef7880308f9ce943150b3a7fe175129",
+    "assets/ch22-cord-roots.svg": "45e604cf03c0ca4dd2d6f7f0ebe0ad6ca39c78adf04362baaa2c3916f997f97e",
+    "assets/ch22-imaging-LICENSE.txt": "d8470f22f9ac61fb561677345d0fabde49d62ec3a57af8da17dea2ea89086687",
+    "assets/ch22-imaging-provenance.json": "d9c3e094758a8ff5d4e874ca21cf0d0ba304d08f2a0b4b7eff519b0291950d25",
+    "assets/ch22-mechanisms.css": "852305e204000c2e7b386640a55eadc55fa67a05617fce7fd76d37aa8e610a1a",
+    "assets/ch22-mechanisms.html": "026028ba74e2e47ed42fc239183e11b41f0d5c29734ba6e1244f2ccce880b8e6",
+    "assets/ch22-model.js": "99280f053723c011a98dc389a936c4d1866772fd4e4e41307f4337e1c3fe8b97",
+    "assets/ch22-pathway-states.json": "69c71f6ba59a7174c9b3bced25b26c7bd849a56017000d0fd7970a401751b7f6",
+    "assets/ch22-rat-spinal-lm.jpg": "ba9f0eab4fbc4785ca04c5f72547a5b7d491a371db46c93201de6d3e7b850b6e",
+    "assets/ch22-reflex.svg": "acf1925ad2101cc1cc6b65bfc3a0c5b26866f481418e5642957f33014441115b",
+    "assets/ch22-route.svg": "52c9a4723d08b6de1e46cf7deb4f6dede3c0e0d563542013bd03ff18d80793b9",
+    "code/ch22_check.cjs": "bf70442afc686b1889d5b5464af0a8d2f49190e879051905f8808cc421d39deb",
+    "code/ch22_export.cjs": "92bc371823e0f5fd2b464987abdbf7345861448418c87ad93a7f8bb99b86adcb",
+    "code/ch22_pathways.py": "691857c3a59ddf0f35f1e89016cfdc821e7937faaba64c4c8bfe34ad0a87d400"
+  },
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch16_author",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "07eb9e4a5f3a898458c3d9077e9ad852001ad54c1ff7fd2335c10291f4f49bae",
+      "artifact_sha256": {
+        "assets/ch22-brain-map.svg": "a881282438b66649e67408c9c33885246cc873b1200073909adb97e4fa6a1d62",
+        "assets/ch22-brain-mri.jpg": "05c36e3420b462ba544133b8cb3362e23e8fdd2e8a74442f9c13198ad97f532e",
+        "assets/ch22-controller.js": "6dae65c56adc8d3ff64af776ff94588baef7880308f9ce943150b3a7fe175129",
+        "assets/ch22-cord-roots.svg": "45e604cf03c0ca4dd2d6f7f0ebe0ad6ca39c78adf04362baaa2c3916f997f97e",
+        "assets/ch22-imaging-LICENSE.txt": "d8470f22f9ac61fb561677345d0fabde49d62ec3a57af8da17dea2ea89086687",
+        "assets/ch22-imaging-provenance.json": "d9c3e094758a8ff5d4e874ca21cf0d0ba304d08f2a0b4b7eff519b0291950d25",
+        "assets/ch22-mechanisms.css": "852305e204000c2e7b386640a55eadc55fa67a05617fce7fd76d37aa8e610a1a",
+        "assets/ch22-mechanisms.html": "026028ba74e2e47ed42fc239183e11b41f0d5c29734ba6e1244f2ccce880b8e6",
+        "assets/ch22-model.js": "99280f053723c011a98dc389a936c4d1866772fd4e4e41307f4337e1c3fe8b97",
+        "assets/ch22-pathway-states.json": "69c71f6ba59a7174c9b3bced25b26c7bd849a56017000d0fd7970a401751b7f6",
+        "assets/ch22-rat-spinal-lm.jpg": "ba9f0eab4fbc4785ca04c5f72547a5b7d491a371db46c93201de6d3e7b850b6e",
+        "assets/ch22-reflex.svg": "acf1925ad2101cc1cc6b65bfc3a0c5b26866f481418e5642957f33014441115b",
+        "assets/ch22-route.svg": "52c9a4723d08b6de1e46cf7deb4f6dede3c0e0d563542013bd03ff18d80793b9",
+        "code/ch22_check.cjs": "bf70442afc686b1889d5b5464af0a8d2f49190e879051905f8808cc421d39deb",
+        "code/ch22_export.cjs": "92bc371823e0f5fd2b464987abdbf7345861448418c87ad93a7f8bb99b86adcb",
+        "code/ch22_pathways.py": "691857c3a59ddf0f35f1e89016cfdc821e7937faaba64c4c8bfe34ad0a87d400"
+      },
+      "report_path": "work/reviews/ch22-approved-a.md",
+      "report_sha256": "463ace9af9098cfeeef394a4b2383b991594d89495cf798c1ec7fbfd6b2d2aab",
+      "original_full_report": "work/reviews/ch22-review-a.md",
+      "targeted_report": "work/reviews/ch22-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch17_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One actual independent full scientific/editorial review plus targeted current-content checks",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "07eb9e4a5f3a898458c3d9077e9ad852001ad54c1ff7fd2335c10291f4f49bae",
+      "artifact_sha256": {
+        "assets/ch22-brain-map.svg": "a881282438b66649e67408c9c33885246cc873b1200073909adb97e4fa6a1d62",
+        "assets/ch22-brain-mri.jpg": "05c36e3420b462ba544133b8cb3362e23e8fdd2e8a74442f9c13198ad97f532e",
+        "assets/ch22-controller.js": "6dae65c56adc8d3ff64af776ff94588baef7880308f9ce943150b3a7fe175129",
+        "assets/ch22-cord-roots.svg": "45e604cf03c0ca4dd2d6f7f0ebe0ad6ca39c78adf04362baaa2c3916f997f97e",
+        "assets/ch22-imaging-LICENSE.txt": "d8470f22f9ac61fb561677345d0fabde49d62ec3a57af8da17dea2ea89086687",
+        "assets/ch22-imaging-provenance.json": "d9c3e094758a8ff5d4e874ca21cf0d0ba304d08f2a0b4b7eff519b0291950d25",
+        "assets/ch22-mechanisms.css": "852305e204000c2e7b386640a55eadc55fa67a05617fce7fd76d37aa8e610a1a",
+        "assets/ch22-mechanisms.html": "026028ba74e2e47ed42fc239183e11b41f0d5c29734ba6e1244f2ccce880b8e6",
+        "assets/ch22-model.js": "99280f053723c011a98dc389a936c4d1866772fd4e4e41307f4337e1c3fe8b97",
+        "assets/ch22-pathway-states.json": "69c71f6ba59a7174c9b3bced25b26c7bd849a56017000d0fd7970a401751b7f6",
+        "assets/ch22-rat-spinal-lm.jpg": "ba9f0eab4fbc4785ca04c5f72547a5b7d491a371db46c93201de6d3e7b850b6e",
+        "assets/ch22-reflex.svg": "acf1925ad2101cc1cc6b65bfc3a0c5b26866f481418e5642957f33014441115b",
+        "assets/ch22-route.svg": "52c9a4723d08b6de1e46cf7deb4f6dede3c0e0d563542013bd03ff18d80793b9",
+        "code/ch22_check.cjs": "bf70442afc686b1889d5b5464af0a8d2f49190e879051905f8808cc421d39deb",
+        "code/ch22_export.cjs": "92bc371823e0f5fd2b464987abdbf7345861448418c87ad93a7f8bb99b86adcb",
+        "code/ch22_pathways.py": "691857c3a59ddf0f35f1e89016cfdc821e7937faaba64c4c8bfe34ad0a87d400"
+      },
+      "report_path": "work/reviews/ch22-approved-b.md",
+      "report_sha256": "1829a600eab37072235999397a0e66532bd21d6339d1a1133175b2350b6f9c92",
+      "original_full_report": "work/reviews/ch22-review-b.md",
+      "targeted_report": "work/reviews/ch22-targeted-b.md"
+    }
+  ],
+  "code": [
+    "code/ch22_pathways.py",
+    "code/ch22_check.cjs",
+    "code/ch22_export.cjs"
+  ],
+  "code_validation": "Python default arrivals, independent branch changes and6invalid-velocity checks pass; Node1303 state/domain/branch/renderer/geometry checks pass, including101nondefault Python/JS object-parity cases. Structure36uniqueIDs/52links/40topic anchors/6solutions/28inline1display math delimiters/SVG XML pass. These are author implementation checks, not independent scientific or production acceptance.",
+  "figures": [
+    {
+      "id": "ch22-fig1",
+      "path": "assets/ch22-brain-map.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch22-fig2",
+      "path": "assets/ch22-cord-roots.svg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch22-brain-observation",
+      "path": "assets/ch22-brain-mri.jpg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch22-cord-observation",
+      "path": "assets/ch22-rat-spinal-lm.jpg",
+      "status": "accepted"
+    },
+    {
+      "id": "ch22-anim1",
+      "path": "chapter-22-nervous-system-organization.html#ch22-anim1",
+      "embedded_panel": "assets/ch22-mechanisms.html?mode=route",
+      "status": "accepted"
+    },
+    {
+      "id": "ch22-anim2",
+      "path": "chapter-22-nervous-system-organization.html#ch22-anim2",
+      "embedded_panel": "assets/ch22-mechanisms.html?mode=reflex",
+      "status": "accepted"
+    }
+  ],
+  "realistic_asset_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Nervous-system compartments, roots/rami and parallel sensory/reflex routes",
+    "rationale": "Source-verified sagittal MRI and prepared rat spinal light microscopy supply recorded appearance at distinct scales. Original nonmetric maps and controlled parallel route/latency bookkeeping explain connectivity without claiming a measured human path or speed.",
+    "appearance_references": [
+      "assets/ch22-brain-mri.jpg",
+      "assets/ch22-rat-spinal-lm.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch22-mechanisms.html",
+      "assets/ch22-controller.js"
+    ],
+    "report_path": "work/browser/ch22-visual-modality.json",
+    "report_sha256": "00343278bdb737ca7ea4b12db5639602a0d129e8042406d7bf5d053195307ced"
+  },
+  "quality": {
+    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
+    "browser": "Actual author-agent current reader, route/reflex controls and live motion/reduced-motion/desktop390650 keyboard access; root current reader/reference pixels and final20page print inspection",
+    "coverage": "All40 L51–53 topics/closings from full captions and attributed bounded9sheets162samples26native repeats; two actual full reviews and bounded production CSS source-preservation targets."
+  },
+  "author_report": "work/ch22-author-report.md",
+  "research_ledger": "work/ch22-research-ledger.md",
+  "production_validation": {
+    "report_path": "work/browser/ch22-production-final.json",
+    "report_sha256": "7327d89e4956c699f170b22510cc3b9b416469ac961da9f09fedc36a70c0be8f",
+    "scope": "Actual author-agent current reader, route/reflex controls and live motion/reduced-motion/desktop390650 keyboard access; root current reader/reference pixels and final20page print inspection"
+  },
+  "limitations": [
+    "Neural diagrams show nonmetric topology, not axon tracing or tissue-scale geometry.",
+    "MRI catalogue does not explicitly state species, age,sex or acquisition settings; T1contrast is not naturalcolor or activation.",
+    "Rat silver-stain localfield is not adult-human whole-cord evidence or signal kinetics.",
+    "Constant-delay graph is original synthetic bookkeeping; no empirical conduction fit, pain-consciousness estimate or clinical diagnosis.",
+    "Sourceframe audit inherited and partial; no new continuous source video/audio viewing.",
+    "Primary studies accessed at stated abstract/relevant-passage depth; no fabricated fullmethods access."
+  ],
+  "coverage_basis": "All40 L51–53 topics/closings from full captions and attributed bounded9sheets162samples26native repeats; two actual full reviews and bounded production CSS source-preservation targets.",
+  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "accepted_at_utc": "2026-11-05T04:59:15.956Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-22.json",
+    "sha256": "d53a529f18a91f7b175672b1e9db9885417581921e781bd7c4d889350a5e4b09"
+  }
+}

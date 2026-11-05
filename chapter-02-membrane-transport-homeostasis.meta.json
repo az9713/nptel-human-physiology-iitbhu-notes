@@ -1,0 +1,125 @@
+{
+  "chapter": 2,
+  "title": "Membrane transport and homeostasis",
+  "status": "accepted",
+  "coverage_complete": true,
+  "reviews": [
+    {
+      "reviewer_id": "/root/ch01_review_a",
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One full independent scientific/editorial review plus targeted checks of subsequent changes; no repeat full review.",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "7ab83a1690387b1041b0c1c09e675fcebba629ccd67da6eaad94722ac473e940",
+      "artifact_sha256": {
+        "code/ch02_transport_feedback.py": "5d61709c63c4a73c849089ba4b635328cc6a2fca8836ff1d732a59543bbd45cd",
+        "assets/ch02-transport-lab.html": "e94feb3a4313a15dabf153c8de03c2ca93eb11121b095360ed5eccf47cc3d767",
+        "assets/ch02-transport-lab.js": "dc02be280cce4b00841ce0f532687fad48a942bca728e8a7b256227a461e5573"
+      },
+      "report_path": "work/reviews/ch02-approved-a.md",
+      "report_sha256": "c558edbd1092f4b5de48737b16fa0f27ec6f756c26275b06dc7f14167b672cb2",
+      "original_full_report": "work/reviews/ch02-review-a.md",
+      "targeted_report": "work/reviews/ch02-targeted-a.md"
+    },
+    {
+      "reviewer_id": "/root/ch01_review_b",
+      "reviewer_model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "independent": true,
+      "full_scientific_review": true,
+      "review_basis": "One full independent scientific/editorial review plus targeted checks of subsequent changes; no repeat full review.",
+      "verdict": "yes",
+      "blocking_findings": 0,
+      "body_sha256": "7ab83a1690387b1041b0c1c09e675fcebba629ccd67da6eaad94722ac473e940",
+      "artifact_sha256": {
+        "code/ch02_transport_feedback.py": "5d61709c63c4a73c849089ba4b635328cc6a2fca8836ff1d732a59543bbd45cd",
+        "assets/ch02-transport-lab.html": "e94feb3a4313a15dabf153c8de03c2ca93eb11121b095360ed5eccf47cc3d767",
+        "assets/ch02-transport-lab.js": "dc02be280cce4b00841ce0f532687fad48a942bca728e8a7b256227a461e5573"
+      },
+      "report_path": "work/reviews/ch02-approved-b.md",
+      "report_sha256": "ba4242c62845ff26638ac1864cd66cfb2c9fafb5bfbcc9ad96f30d8feb62f2d7",
+      "original_full_report": "work/reviews/ch02-review-b.md",
+      "targeted_report": "work/reviews/ch02-targeted-b.md"
+    }
+  ],
+  "source_recordings": [
+    4,
+    5,
+    6
+  ],
+  "source_evidence": "Publisher captions plus an existing bounded sampled-still review; no continuous-video/audio review claimed. Source discrepancy between L5 printed heart-failure slide and cardiac-arrest captions is preserved.",
+  "prose_status": "Accepted manuscript after two independent full scientific/editorial reviews, targeted repairs and specified production checks.",
+  "code": [
+    "code/ch02_transport_feedback.py"
+  ],
+  "code_validation": "Executed successfully: conservation grid, finite-difference ODE residual, Nernst equilibrium, zero-conductance limit and invalid-input checks passed. Program reproduces printed synthetic values.",
+  "figures": [
+    {
+      "id": "ch2-anim1",
+      "path": "assets/ch02-transport-lab.html",
+      "status": "accepted",
+      "role": "Controlled exact neutral-solute diffusion with conductance adjustment and a separate voltage-dependent K energy check; fixed volumes and synthetic parameters."
+    },
+    {
+      "id": "ch2-anim2",
+      "path": "assets/ch02-transport-lab.html",
+      "status": "accepted",
+      "role": "Controlled Na/K pump phase sequence, three Na out/two K in, with a distinct sodium-dependent symporter. Shapes and presentation timings are schematic."
+    },
+    {
+      "id": "ch2-anim3",
+      "path": "assets/ch02-transport-lab.html",
+      "status": "accepted",
+      "role": "Controlled one-state negative-feedback trace and sensor/controller/effector display from one shared state, gain adjustment, no-feedback comparison and nonzero steady error."
+    },
+    {
+      "id": "ch2-fig1",
+      "path": "chapter-02-membrane-transport-homeostasis.html#selectivity",
+      "status": "accepted",
+      "role": "Inline original membrane sectional reconstruction; no atomic geometry, physical scale or photorealism claim."
+    },
+    {
+      "id": "ch2-fig2",
+      "path": "chapter-02-membrane-transport-homeostasis.html#organelle-failure",
+      "status": "accepted",
+      "role": "Original causal failure-mode comparison; no accepted anatomical render claimed."
+    }
+  ],
+  "limitations": [
+    "Diffusion assumes closed, well-mixed fixed volumes without voltage, water movement or reaction; energy equations use ideal activities and fixed voltage.",
+    "The proportional-feedback model excludes delay, saturation and adaptation; it is not a glucose or blood-pressure calibration.",
+    "All numerical trajectories and phase representations are synthetic teaching constructions; no patient fitting or measured protein kinetics is claimed.",
+    "Scranton et al. 2025 mouse/myocyte evidence is a bounded research extension, not a demonstrated human therapy.",
+    "Some Bookshelf/IUPHAR sources were accessible only as indexed excerpts, and the CFTR original study at indexed-abstract depth; exact source access limits remain in the reader.",
+    "Source-frame inspection is bounded sampling, not continuous video/audio. Private browser PDF proofs include an installed extension overlay and are not public PDF deliverables."
+  ],
+  "coverage_basis": "Core source-topic spans and reasoned exclusions checked in the two independent full reviews; evidence is publisher captions plus bounded sampled-still audits, not continuous audio/video inspection.",
+  "body_sha256": "7ab83a1690387b1041b0c1c09e675fcebba629ccd67da6eaad94722ac473e940",
+  "reviewed_artifacts": [
+    {
+      "path": "code/ch02_transport_feedback.py",
+      "sha256": "5d61709c63c4a73c849089ba4b635328cc6a2fca8836ff1d732a59543bbd45cd"
+    },
+    {
+      "path": "assets/ch02-transport-lab.html",
+      "sha256": "e94feb3a4313a15dabf153c8de03c2ca93eb11121b095360ed5eccf47cc3d767"
+    },
+    {
+      "path": "assets/ch02-transport-lab.js",
+      "sha256": "dc02be280cce4b00841ce0f532687fad48a942bca728e8a7b256227a461e5573"
+    }
+  ],
+  "production_validation": {
+    "report_path": "work/browser/ch02-production-bridge.json",
+    "report_sha256": "702c14f518cdbb970d6c4e1d43cab3d5ab842cd3b06e0c76976af3ad39082982",
+    "scope": "Historical actual production evidence plus current scientific-artifact identity and a separate bounded current reader reinspection."
+  },
+  "accepted_at_utc": "2026-11-04T18:53:31.244Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-02.json",
+    "sha256": "7079e20f971f05c50acc1572875d890d51ca51ff0cf24e47ceca5dfa81f124ea"
+  }
+}

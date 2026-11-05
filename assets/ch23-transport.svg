@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-label="Two motions inside one axon have different physics">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#dce7f4"/></marker></defs>
+<rect width="1100" height="620" fill="#112033"/>
+<text x="32" y="48" fill="#f2f6fc" font-family="system-ui" font-size="27" font-weight="700">Two motions inside one axon have different physics</text>
+<rect x="35" y="130" width="185" height="95" rx="11" fill="#244563" stroke="#9dbbd1"/>
+<text x="127.5" y="183.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">Soma</text>
+<rect x="870" y="130" width="185" height="95" rx="11" fill="#244563" stroke="#9dbbd1"/>
+<text x="962.5" y="183.5" fill="#e5eef8" text-anchor="middle" font-family="system-ui" font-size="18">Terminal</text>
+<path d="M220 176L870 176" stroke="#91b9d3" stroke-width="13"/>
+<rect x="320" y="144" width="90" height="65" rx="30" fill="#58476a" stroke="#bba9d8"/>
+<text x="365" y="125" fill="#bba9d8" text-anchor="middle" font-family="system-ui" font-size="14">myelin</text>
+<rect x="460" y="144" width="90" height="65" rx="30" fill="#58476a" stroke="#bba9d8"/>
+<text x="505" y="125" fill="#bba9d8" text-anchor="middle" font-family="system-ui" font-size="14">myelin</text>
+<rect x="600" y="144" width="90" height="65" rx="30" fill="#58476a" stroke="#bba9d8"/>
+<text x="645" y="125" fill="#bba9d8" text-anchor="middle" font-family="system-ui" font-size="14">myelin</text>
+<rect x="740" y="144" width="90" height="65" rx="30" fill="#58476a" stroke="#bba9d8"/>
+<text x="785" y="125" fill="#bba9d8" text-anchor="middle" font-family="system-ui" font-size="14">myelin</text>
+<path d="M245 268L835 268" fill="none" stroke="#dce7f4" stroke-width="3" marker-end="url(#arr)"/>
+<text x="540.0" y="258.0" fill="#b9d3e6" text-anchor="middle" font-family="system-ui" font-size="15">voltage signal: nodal regeneration + internodal current</text>
+<path d="M245 335L835 335" fill="none" stroke="#89ddbb" stroke-width="3" marker-end="url(#arr)"/>
+<text x="540.0" y="325.0" fill="#b9d3e6" text-anchor="middle" font-family="system-ui" font-size="15">kinesin-family cargo: toward distal plus ends</text>
+<path d="M835 402L245 402" fill="none" stroke="#f1c474" stroke-width="3" marker-end="url(#arr)"/>
+<text x="540.0" y="392.0" fill="#b9d3e6" text-anchor="middle" font-family="system-ui" font-size="15">dynein cargo: toward soma minus ends</text>
+<text x="50" y="500" fill="#e5eef8" text-anchor="start" font-family="system-ui" font-size="18">Membrane voltage travels as a propagating event; a cargo organelle physically moves on microtubules.</text>
+<text x="50" y="545" fill="#b9d3e6" text-anchor="start" font-family="system-ui" font-size="16">Arrows are topology, not measured speed or a vesicle count. Myelin colors and node spacing are schematic.</text>
+</svg>

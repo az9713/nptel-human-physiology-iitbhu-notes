@@ -1,0 +1,66 @@
+{
+  "access_date": "2026-11-04",
+  "source_api": "Owning Wellcome catalogue v2 with items and IIIF info; JSON responses retained privately under work/ch23-*",
+  "items": [
+    {
+      "asset": "assets/ch23-pns-schwann.jpg",
+      "owning_record": "https://wellcomecollection.org/works/bbfdr9ye",
+      "wellcome_accession": "B0003729",
+      "credit": "Prof. Peter Brophy",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "native_url": "https://iiif.wellcomecollection.org/image/B0003729/full/full/0/default.jpg",
+      "native_dimensions": [
+        217,
+        238
+      ],
+      "bytes": 7259,
+      "sha256": "828a55f494c7f31ca1464b1edb6b85832e02e46c12ec4c83e447cdb65b1b8d88",
+      "specimen": "Peripheral trochlear nerve at CNS emergence; species and preparation details unreported",
+      "preparation": "DRP2 staining of myelin-forming Schwann-cell plasma membrane",
+      "scale": "No scale reported; native file only 217x238 px",
+      "evidence_limits": "DRP2 signal identifies a membrane-associated marker in this preparation; no axon-growth or remyelination kinetics.",
+      "modified": false
+    },
+    {
+      "asset": "assets/ch23-myelin-tem.jpg",
+      "owning_record": "https://wellcomecollection.org/works/nhckcg7w",
+      "wellcome_accession": "B0004207",
+      "credit": "Mike Kayser",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "native_url": "https://iiif.wellcomecollection.org/image/B0004207/full/full/0/default.jpg",
+      "native_dimensions": [
+        3262,
+        2706
+      ],
+      "bytes": 1844887,
+      "sha256": "bca0c0d9b698fd54eb9163d44b1ed64bb95d2dd56766820da1f0934c6abf4972",
+      "specimen": "Nerve myelin; species and precise nerve site unreported",
+      "preparation": "Frozen-section transmission electron micrograph, preserving membrane layers without dehydration",
+      "scale": "No calibrated scale in owning description",
+      "evidence_limits": "Lamellae are visible; no living color, voltage conduction speed, Schwann-cell identity proof or repair trajectory.",
+      "modified": false
+    },
+    {
+      "asset": "assets/ch23-cns-myelin-tem.jpg",
+      "owning_record": "https://wellcomecollection.org/works/nren3agm",
+      "wellcome_accession": "B0010858",
+      "credit": "Mikaela Laine, University of Helsinki",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "native_url": "https://iiif.wellcomecollection.org/image/B0010858/full/full/0/default.jpg",
+      "native_dimensions": [
+        4008,
+        2672
+      ],
+      "bytes": 1949120,
+      "sha256": "703faa03713307b785252fcec55e8e75b4843ac23f7fd06f22a80afce8647e1b",
+      "specimen": "Mouse medial prefrontal cortex",
+      "preparation": "Transmission electron micrograph of two myelinated axons",
+      "scale": "Owning record says full width approximately 5 micrometres; visible 1 micrometre bar",
+      "evidence_limits": "CNS myelin profile is structural; no direct evidence of remyelination rate or transection recovery.",
+      "modified": false
+    }
+  ]
+}

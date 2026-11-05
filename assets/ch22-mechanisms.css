@@ -1,0 +1,8 @@
+.ch22-panel{width:100%;height:890px;border:1px solid var(--line,#53677f);border-radius:8px}.ch22-print{display:none}.ch22-image{display:block;width:min(100%,700px);height:auto;margin:auto}.ch22-table{overflow-x:auto}.ch22-controller{margin:0;background:#101927;color:#edf2fb;font:17px system-ui,sans-serif}.ch22-controls{display:flex;gap:.7rem;align-items:center;flex-wrap:wrap;padding:12px}.ch22-controls>*{min-width:0;max-width:100%;box-sizing:border-box}.ch22-controls button,.ch22-controls select{background:#1d3044;color:#edf2fb;border:1px solid #8796ac;border-radius:5px;padding:8px;font:inherit}.ch22-seek{display:flex;gap:10px;align-items:center;flex:1 1 250px}.ch22-seek input{width:100%;min-width:0}.ch22-scene svg{width:100%;height:auto;display:block}.ch22-status{padding:0 14px;line-height:1.5}.ch22-controller table{border-collapse:collapse;margin:12px;width:calc(100% - 24px);font-size:15px}.ch22-controller th,.ch22-controller td{padding:6px;border-bottom:1px solid #53677f;text-align:left}.ch22-controller caption{text-align:left;padding-bottom:6px}@media(max-width:650px){.ch22-panel{height:910px}.ch22-controls{gap:6px}}@media print{.ch22-panel{display:none}.ch22-print{display:block}.ch22-print img{width:100%;height:auto}.ch22-table{overflow:visible}}
+
+.ch22-diagram{overflow:auto}.ch22-diagram img{display:block;width:100%;min-width:850px;max-width:none;height:auto}@media print{.ch22-diagram{overflow:visible}.ch22-diagram img{min-width:0}}
+
+/* Keep pathway labels legible while allowing keyboard panning on narrow screens. */
+.ch22-scene{overflow:auto}
+.ch22-scene svg{min-width:850px;max-width:none}
+.ch22-scene:focus-visible{outline:2px solid #efb56a;outline-offset:-2px}

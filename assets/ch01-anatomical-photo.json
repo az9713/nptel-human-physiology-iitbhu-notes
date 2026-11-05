@@ -1,0 +1,23 @@
+{
+  "record": "https://commons.wikimedia.org/wiki/File:Anterior_view_of_human_female_and_male,_without_labels.jpg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Anterior_view_of_human_female_and_male%2C_without_labels.jpg",
+  "license": "CC0 1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "credit": "Studio photographs at City Studios, Stockholm, with KYO assistance; uploaded by Mikael Häggström, Wikimedia Commons.",
+  "photographed": "2011-09-29",
+  "published_derivative": "Current owning-record file has a 2013 brightness correction; downloaded JPEG is unmodified by this project.",
+  "specimen": "Two adult human models; individual exterior appearance and stance, not a normative population template.",
+  "modality": "Actual studio photographic composition, anterior views",
+  "orientation": "Upright, palms anterior and thumbs lateral. Arms slightly abducted; feet turned outward rather than a strict parallel-foot ideal.",
+  "calibration": "No photographic metric calibration asserted; not registered to the parametric body, microscopy, or internal sections.",
+  "consent_evidence": "Owning file record expressly states both adult models agreed to the license and Wikipedia use; no separate release document was independently obtained.",
+  "file": "ch01-anatomical-photo.jpg",
+  "bytes": 669073,
+  "dimensions_px": [
+    4089,
+    4334
+  ],
+  "sha256": "1b91adc388d3c8c1a5f3ae38b1742533e0642e26847e9b84793a976755d22cd2",
+  "verified": "2026-11-04",
+  "modifications": "None; full photographic composition retained, displayed at reduced size."
+}
