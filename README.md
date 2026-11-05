@@ -4,11 +4,43 @@ Independent study notes following **Prof. Sudip Mukherjee, IIT (BHU) Varanasi**,
 
 [Read online](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/) · [Chapter index](index.html) · [Source map](source-map.html) · [Code lab](code-lab.html)
 
+[![Human Physiology reader preview](assets/reader-preview.png)](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/)
+
 The book contains 25 accepted chapters covering the official 60-lecture sequence, with worked problems, controlled animations, static print alternatives and reproducible teaching calculations. Every chapter received two actual independent AI scientific/editorial full reviews, necessary targeted repairs and separate bounded browser/print checks. These checks are not human expert certification or clinical validation.
 
 The supplied [YouTube playlist](https://www.youtube.com/playlist?list=PLyqSpQzTE6M_4jmZrdBaHSQyViWt4w0S5) is out of order and omits official lecture 20; the inventory includes its recovered recording and lists the short introduction separately. The official recordings total about 29.3 hours. Complete publisher captions and bounded visual audits cover all 60 recordings; 3,548 sampled frames were acquired. This is not a claim of continuous audio/video viewing.
 
 The visual plan records 73 animations and 35 supporting illustrations across 101 section nodes. Time-evolving mechanisms use controlled playback, seeking and explanations, with plots where useful. Verified microscopy/imaging supplies observed tissue appearance; original diagrams and selected source-based 3D explain topology and movement. Species, preparation, scale, artificial timing and model limits are stated at point of use. A still image does not establish physiological kinetics.
+
+## Read the chapters online
+
+| Chapter | Topic |
+| --- | --- |
+| 1 | [From cells to organ systems](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-01-cells-to-organ-systems.html) |
+| 2 | [Membrane transport and homeostasis](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-02-membrane-transport-homeostasis.html) |
+| 3 | [Blood, hemostasis and anticoagulation](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-03-blood-hemostasis-anticoagulation.html) |
+| 4 | [Blood groups, lymph and immune defense](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-04-blood-groups-lymph-immunity.html) |
+| 5 | [The heart as an electrical and mechanical pump](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-05-heart-electrical-mechanical-pump.html) |
+| 6 | [Blood vessels and microvascular exchange](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-06-vessels-microvascular-exchange.html) |
+| 7 | [Airways, ventilation and hemoglobin](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-07-airways-ventilation-hemoglobin.html) |
+| 8 | [Oxygen delivery, lung volumes and measurement](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-08-oxygen-delivery-lung-volumes.html) |
+| 9 | [Endocrine signaling and glucose homeostasis](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-09-endocrine-signaling-glucose.html) |
+| 10 | [Diabetes technologies and experimental cell therapy](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-10-diabetes-technologies-cell-therapy.html) |
+| 11 | [Thyroid and endocrine disorders](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-11-thyroid-endocrine-disorders.html) |
+| 12 | [Digestive organization and carbohydrate absorption](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-12-digestion-carbohydrate-absorption.html) |
+| 13 | [Protein and lipid absorption; digestive dysfunction](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-13-protein-lipid-digestion.html) |
+| 14 | [Bones, joints and connective tissues](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-14-bones-joints-connective-tissue.html) |
+| 15 | [Muscle contraction and neuromuscular transmission](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-15-muscle-neuromuscular-transmission.html) |
+| 16 | [Kidney organization and glomerular filtration](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-16-kidney-glomerular-filtration.html) |
+| 17 | [Tubular transport, renal regulation and disease](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-17-nephron-transport-pressure.html) |
+| 18 | [Male reproduction and spermatogenesis](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-18-male-reproduction-spermatogenesis.html) |
+| 19 | [Female anatomy, ovarian cycles and lactation](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-19-female-reproduction-ovarian-cycle.html) |
+| 20 | [Menstrual regulation, fertilization and pregnancy](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-20-menstrual-cycle-pregnancy.html) |
+| 21 | [Contraception, assisted reproduction and reproductive health](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-21-reproductive-health-technologies.html) |
+| 22 | [Nervous-system organization: brain, spinal cord and nerves](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-22-nervous-system-organization.html) |
+| 23 | [Neurons, axonal transport and nerve repair](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-23-neurons-axonal-transport-repair.html) |
+| 24 | [Membrane excitability and synaptic transmission](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-24-membrane-excitability-synapses.html) |
+| 25 | [Glia, sensory systems and neurological dysfunction](https://az9713.github.io/nptel-human-physiology-iitbhu-notes/chapter-25-glia-barriers-sensation.html) |
 
 ## Run locally
 

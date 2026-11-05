@@ -14,3 +14,15 @@ Thumbs.db
 /node_modules/
 /.env
 /.env.*
+
+# Local production state, source acquisition and unaccepted prototypes
+/.ignore/
+/BOOK-STATE.yaml
+/figures/ch11_follicle_realism.py
+/figures/ch11_follicle_realism_v2.py
+/figures/ch14_knee_source_pilot.py
+/figures/pilot_hra_heart.py
+/research/claim-issues.json
+/tools/acquire_frames.py
+/tools/export_acceptance.py
+/tools/inventory_sources.py
