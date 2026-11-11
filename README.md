@@ -10,7 +10,7 @@ Independent study notes following **Prof. Sudip Mukherjee, IIT (BHU) Varanasi**,
 
 [Chapter index](index.html) · [Source map](source-map.html) · [Code lab](code-lab.html)
 
-The current revision is being published to the existing course repository and GitHub Pages reader. Publication does not confer final visual acceptance; current manuscript availability, source checks and unfinished reviews remain separate.
+The current revision is published in the existing course repository and GitHub Pages reader; see the [publication verification](publication-validation.json). Publication does not confer final visual acceptance; current manuscript availability, source checks and unfinished reviews remain separate.
 
 The book contains 25 chapters with retained scientific review history and reopened visual acceptance covering the official 60-lecture sequence, with worked problems, controlled animations, static print alternatives and reproducible teaching calculations. Every chapter received two actual independent AI scientific/editorial full reviews, necessary targeted repairs and separate bounded browser/print checks. These checks are not human expert certification or clinical validation.
 

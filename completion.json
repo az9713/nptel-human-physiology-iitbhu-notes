@@ -6,7 +6,7 @@
   "accepted_chapters": 0,
   "planned_animations": 73,
   "planned_illustrations": 36,
-  "github_push_verified": false,
+  "github_push_verified": true,
   "remaining": [
     "Audit every actual visual and replace inadequate physiological drawings",
     "Verify every applicable version-2 rubric item on final delivered files",
@@ -148,7 +148,7 @@
   "release_validation": {
     "status": "withdrawn: visual revision in progress"
   },
-  "pages_verified": false,
+  "pages_verified": true,
   "repository_url": "https://github.com/az9713/nptel-human-physiology-iitbhu-notes",
   "reader_url": "https://az9713.github.io/nptel-human-physiology-iitbhu-notes/",
   "prior_release_verification": {
@@ -181,18 +181,15 @@
   "current_visual_evidence": {
     "date": "2026-11-10",
     "planned_uses": 109,
-    "actual_inventory_entries": 946,
-    "partial_rubric_records": 51,
     "gate_status": "BLOCKED",
-    "criterion_statuses": {
-      "PASS": 585,
-      "N/A": 88,
-      "PENDING": 347,
-      "FAIL": 0,
-      "INVALID": 0
-    },
-    "scope": "Producer snapshot before publication: counts are not averaged scores or final acceptance. Private reports are excluded; current browser/motion/print and coverage checks remain pending."
+    "accepted_chapters": 0,
+    "scope": "Version-2 visual coverage, runtime and proof bindings remain incomplete. PNG metadata sanitation preserves pixels but changes file digests; changed provenance and source bindings require scoped producer updates. Raw review records and their historical criterion assertions are private and are not current acceptance."
   },
   "publication_authorization_date": "2026-11-10",
-  "publication_status": "Authorized development publication; remote and Pages verification pending"
+  "publication_status": "Development edition pushed and HTTPS Pages delivery verified; final visual acceptance pending",
+  "publication_verified_base_commit": "7dd1e645c89e35a153adea64c3726317e31454ac",
+  "publication_verification": {
+    "record": "publication-validation.json",
+    "scope": "GitHub remote commit, successful source-free Pages build, 177 exact HTTPS file comparisons, six private-path 404s and four large-media boundary ranges. Not browser rendering/motion/print or final visual acceptance."
+  }
 }

@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-10",
+  "status": "verified development publication",
+  "content_commit": "7dd1e645c89e35a153adea64c3726317e31454ac",
+  "repository_url": "https://github.com/az9713/nptel-human-physiology-iitbhu-notes",
+  "reader_url": "https://az9713.github.io/nptel-human-physiology-iitbhu-notes/",
+  "pages_workflow": {
+    "url": "https://github.com/az9713/nptel-human-physiology-iitbhu-notes/actions/runs/42980552128",
+    "conclusion": "success",
+    "source_free_build": true,
+    "development_integrity_errors": 0,
+    "explicit_pending_items": 134
+  },
+  "delivery": {
+    "https_files_byte_compared": 177,
+    "mismatches": 0,
+    "checked_private_paths_returning_404": 6,
+    "large_media_boundary_ranges_verified": 4
+  },
+  "privacy": {
+    "public_tree_and_main_history_checked": true,
+    "private_sources_reviews_handoff_and_checkpoint_refs_excluded": true,
+    "personal_filename_png_metadata_fields_removed": 2,
+    "decoded_pixels_and_compressed_image_chunks_preserved": true,
+    "commit_identity": "Verified GitHub account and noreply address"
+  },
+  "lossless_media": {
+    "assets": [
+      {
+        "digest": "sha256:5a6c09ff3e86a53b1d2838965c6d77b716ab5b67c02b747967de990d61faa410",
+        "name": "ch03-v2-rbc-clot-retraction.webm",
+        "size": 116352359
+      },
+      {
+        "digest": "sha256:17875906b997fbbecf60ceee376ac1f7ccb87f969e023a7ff1785ce64656ad39",
+        "name": "ch21-v2-organoid-observed-movie.webm",
+        "size": 226769048
+      }
+    ],
+    "draft": false,
+    "tag_name": "visual-v2-media-2026-11-10"
+  },
+  "visual_acceptance": {
+    "complete": false,
+    "accepted_chapters": 0,
+    "scope": "Publication and byte-integrity checks do not confer scientific, anatomical, appearance, browser interaction, motion, responsive-layout or print acceptance. Version-2 visual review remains reopened; private review records are excluded."
+  }
+}
