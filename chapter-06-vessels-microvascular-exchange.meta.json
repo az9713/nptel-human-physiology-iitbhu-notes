@@ -1,8 +1,8 @@
 {
   "chapter": 6,
   "title": "Blood vessels and microvascular exchange",
-  "status": "accepted",
-  "coverage_complete": true,
+  "status": "revised",
+  "coverage_complete": false,
   "reviews": [
     {
       "reviewer_id": "/root/ch01_review_a",
@@ -27,7 +27,8 @@
       "report_path": "work/reviews/ch06-approved-a.md",
       "report_sha256": "aa3d0505670a6d73a8395d6e7b6c78fdf4b32de9b5425b3c0012c13f27403291",
       "original_full_report": "work/reviews/ch06-review-a.md",
-      "targeted_report": "work/reviews/ch06-targeted-a.md"
+      "targeted_report": "work/reviews/ch06-targeted-a.md",
+      "current": false
     },
     {
       "reviewer_id": "/root/ch01_review_b",
@@ -52,14 +53,15 @@
       "report_path": "work/reviews/ch06-approved-b.md",
       "report_sha256": "71a876f9224567d10755d16651bce81d8ae3dc2f26d837b140ee1f4448be547b",
       "original_full_report": "work/reviews/ch06-review-b.md",
-      "targeted_report": "work/reviews/ch06-targeted-b.md"
+      "targeted_report": "work/reviews/ch06-targeted-b.md",
+      "current": false
     }
   ],
   "source_recordings": [
     15
   ],
-  "source_evidence": "Complete L15 captions read through closing questions. Relies on root documented bounded audit of four contact sheets (71 sampled stills) and five targeted frames; no duplicate or continuous video audit claimed.",
-  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, targeted repairs and separate actual browser/print checks.",
+  "source_evidence": "Complete L15 captions read through closing questions. Relies on root documented bounded audit of four contact sheets (71 sampled stills) and five targeted frames; no duplicate or continuous video audit claimed. Observed vascular source packet checked 2026-11-09: Rojas2024 human organ-donor wall histology and Ando2018 baseline mouse capillary TEM; exact native crops, calibration, source labels, preparation and CC BY4 rights recorded separately.",
+  "prose_status": "Historical scientific/editorial reviews retained; observed vascular integration and current visual/release acceptance pending.",
   "code": [
     "code/ch06_flow_exchange.py"
   ],
@@ -67,40 +69,51 @@
   "figures": [
     {
       "id": "ch6-fig1",
-      "path": "assets/ch06-vessels.svg",
-      "status": "accepted",
-      "role": "Original reference-informed shaded artery/vein sectional organization and separate flat capillary barrier comparison; uncalibrated."
+      "path": "assets/ch06-v2-vessel-observed-human-walls.png",
+      "gallery": "assets/ch06-v2-vessel-observed-reference.html#wall-title",
+      "provenance": "assets/ch06-v2-vessel-observed-provenance.json",
+      "source_record": "assets/ch06-v2-vessel-observed-sources.json",
+      "status": "local-integration-pending-review",
+      "current_acceptance": false,
+      "role": "Calibrated human brachial artery/basilic vein partial-wall fields, source labels retained. No separately resolved arterial I; postmortem organ-donor cohort includes hypertension/diabetes. No normal wall-ratio or mechanical claim."
     },
     {
       "id": "ch6-vessel-photo",
-      "path": "assets/ch06-vessel-reference.jpg",
-      "provenance": "assets/ch06-vessel-reference.json",
-      "status": "accepted",
-      "role": "Actual verified elastin-stained artery photograph, unchanged CC BY 2.0, species/site/scale unknown; photographic tissue context only."
+      "path": "assets/ch06-v2-vessel-observed-mouse-brain.png",
+      "panels": [
+        "assets/ch06-v2-vessel-observed-mouse-brain.png",
+        "assets/ch06-v2-vessel-observed-mouse-heart.png",
+        "assets/ch06-v2-vessel-observed-mouse-lung.png"
+      ],
+      "gallery": "assets/ch06-v2-vessel-observed-reference.html#capillary-title",
+      "provenance": "assets/ch06-v2-vessel-observed-provenance.json",
+      "status": "local-integration-pending-review",
+      "current_acceptance": false,
+      "role": "Independent baseline mouse continuous-capillary TEM with original 2µm bars; lanthanum-dependent glycocalyx-associated ultrastructure. No live hydrated thickness, full revised Starling or lymph mechanism claim."
     },
     {
       "id": "ch6-anim1",
       "path": "assets/ch06-radius.html",
       "script": "assets/ch06-models.js",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "One radius state synchronizes lumen, resistance and flow at fixed pressure."
     },
     {
       "id": "ch6-anim2",
       "path": "assets/ch06-exchange.html",
       "script": "assets/ch06-models.js",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Classical arithmetic and revised interface stages; no invented subglycocalyx kinetics."
     },
     {
       "id": "ch6-anim3",
       "path": "assets/ch06-control.html",
       "script": "assets/ch06-models.js",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Synthetic bounded flow stabilization under an imposed pressure step; synchronized pressure/resistance/flow state."
     }
   ],
-  "body_sha256": "083b0d32d035eb2e017b8c96e08915c770073f288bfe845b9788e1310c655573",
+  "body_sha256": "140d0ddbe7291f2baf7176c5170ec3b2891fa48c40241cc37478d0163ee552f3",
   "reviewed_artifacts": [
     {
       "path": "code/ch06_flow_exchange.py",
@@ -136,9 +149,9 @@
     }
   ],
   "quality": {
-    "scientific_reviews": "Two actual independent full reviews plus targeted current-digest approvals",
-    "browser": "Actual supported HTTP reader/model checks and inspected private print proof; scope and limits in production report",
-    "photographic_context": "Actual photographed artery wall integrated with scoped credit/limits; no photorealistic 3D claim."
+    "scientific_reviews": "Historical prior-body full reviews retained; current integrated source/anatomy review pending.",
+    "browser": "Current canonical/standalone desktop, responsive native enlargement and actual PDF checks pending root. Historical evidence does not accept these bytes.",
+    "photographic_context": "Exact calibrated human organ-donor wall and separate mouse lanthanum-TEM crops integrated; independent appearance/source review pending."
   },
   "limitations": [
     "Ideal rigid Newtonian laminar tube does not resolve real capillary cell mechanics or pulsatility.",
@@ -147,18 +160,63 @@
     "Regional constant-rate accounting is a finite short-interval teaching construction; no tissue compliance or variable drainage.",
     "Autoregulation time constant, pressure ratios and resistance bounds are synthetic; no clinical thresholds.",
     "Sampled source visual audit is bounded; clinical terms do not form a diagnostic or treatment algorithm.",
-    "Arterial photograph has no verified species/site, scale or live-flow information."
+    "Human histology represents partial regional walls from postmortem organ donors with mixed hypertension/diabetes, not a normal universal wall-thickness ratio.",
+    "Arterial source field has no separately resolved printed I; no new intima leader supplied.",
+    "Mouse baseline lanthanum TEM is preparation-dependent, not a living hydrated glycocalyx geometry or full fluid-exchange mechanism.",
+    "Fenestrated/sinusoidal capillaries, pericyte/junction detail, lymphatic routes and remaining model/anatomical coverage are not completed by the new microscopy."
   ],
   "body_digest_convention": "SHA256 of raw bytes strictly between exact body markers, preserving enclosed line endings",
   "coverage_basis": "All13 topic dispositions and six worked solutions assessed by both full reviewers; complete captions plus bounded source still evidence, not continuous recording inspection.",
   "production_validation": {
     "report_path": "work/browser/ch06-production-bridge.json",
     "report_sha256": "f5680cbaacb28377e589e3c849f84a451448638164f76b3fae1a182d58911731",
-    "scope": "Historical actual production evidence plus current scientific-artifact identity and a separate bounded current reader reinspection."
+    "scope": "Historical actual production evidence plus current scientific-artifact identity and a separate bounded current reader reinspection.",
+    "current": false
   },
   "accepted_at_utc": "2026-11-04T20:23:57.046Z",
   "public_acceptance": {
     "path": "validation/acceptance/chapter-06.json",
-    "sha256": "185c6ba6f01b85aaaffd2740750fad78a51029d2fc524eb0c1770920d8a6813a"
-  }
+    "sha256": "185c6ba6f01b85aaaffd2740750fad78a51029d2fc524eb0c1770920d8a6813a",
+    "current": false
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "local-observed-vessel-integration-pending-review",
+    "date": "2026-11-09",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false,
+    "current_body_sha256": "f1632368c014adbe4dba7d83dda20ca2f2c195001ed149a6687e52fe04a9fa9f",
+    "local_only": true,
+    "integration_report": "work/visual-v2/ch06/integration/HANDOFF.md",
+    "remaining": [
+      "Independent current source/anatomy and appearance/teaching review of gallery and canonical placement",
+      "Root actual desktop650390, Native/Fit/pan/focus and print/PDF source-label/bar/key/credit proof",
+      "Observed fenestrated/sinusoidal capillary types, pericyte/junction organisation and lymphatic routes not supplied",
+      "Live vascular mechanics/fluid exchange and existing model anatomical modes remain revision-required; exact quantitative plots/equations/tables retained"
+    ]
+  },
+  "realistic_asset_gate": {
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
+  },
+  "current_chapter_sha256": "d69f2e35d0b114515be77237e55f1dfe6e195b2679f36c5cd047fc8a5e49d5b5",
+  "review_history_scope": "Historical reviews/reviewed_artifacts/production_validation/accepted_at_utc/public_acceptance bind prior hashes only; they do not accept current visual-v2 chapter bytes.",
+  "current_visual_artifacts": {
+    "assets/ch06-v2-vessel-observed-crop-proof.json": "98a40ad31a6351830a14d7b686293ba784c3ea3d165fbca019a2e19e20628fd9",
+    "assets/ch06-v2-vessel-observed-human-walls.png": "27072c36f131343209d81b168fd433416f2028bb9b1fdf036bd672dad474f2a4",
+    "assets/ch06-v2-vessel-observed-mouse-brain.png": "75d56073ede51a9edcda8c1aa146531adaab6fe9203e72c42ec23d882e6b5266",
+    "assets/ch06-v2-vessel-observed-mouse-heart.png": "772fc3c89e2bfb36701e9ac0b80e6ea4c3d2e2bdacc0e886e76bf651712fd0f4",
+    "assets/ch06-v2-vessel-observed-mouse-lung.png": "6ebde062cbe0bbda574f2c303a41fd9aa10a88166f91886a47fe6bcb3396bc43",
+    "assets/ch06-v2-vessel-observed-provenance.json": "eb9fb11e98ecdd0131893d43c8698ac87638472cd632a23269e860bf9b5d830c",
+    "assets/ch06-v2-vessel-observed-reference.html": "b1b1dd5f64e9826e9995c8b7fab0689e509f39a525ddc61a91bba91e9cd63fa8",
+    "assets/ch06-v2-vessel-observed-sources.json": "4f23c672241edff30315ab55de14b70c90bc04e8966ad175dadcec687a363976",
+    "assets/ch06-radius.html": "42dc9e68dd60573573346bc1126e8010ef3337f11dc332e70322b6f466eb7a93",
+    "assets/ch06-exchange.html": "1a29acd4039a647b78e20f389dcf85871a5978c78be3eecf6ba8e21bdf4a4713",
+    "assets/ch06-control.html": "80458efde516f0a85a220df25d0add6a6b6224b66adc092627c99e9f058cae18",
+    "assets/ch06-models.js": "ebbe1b149baa9701bf91eb38144dea82d0d33da6f2afa943b8a18a1c79899575",
+    "code/ch06_flow_exchange.py": "4a1c455bea68e50cd679a49201af6ae31d370c51c7cf5fbd293875a799407bfe"
+  },
+  "current_body_sha256": "f1632368c014adbe4dba7d83dda20ca2f2c195001ed149a6687e52fe04a9fa9f"
 }

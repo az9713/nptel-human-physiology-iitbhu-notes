@@ -1,0 +1,33 @@
+[
+  {
+    "source_PMC": "PMC4965885",
+    "PDF_sha256": "01e08c41baccdd877b519dfa6ef51a0d6029ad8ada989af825340fd56ac1c5d2",
+    "owning_metadata_MD5_match_PDF_XML": true,
+    "pdf_xref": 98,
+    "raw_DCT_byte_equal_extracted_JPEG": true,
+    "source_JPEG_sha256": "562a1cd48b3e52ce121c19f1ff4dc011f86b4cad3e6b17c3c75cd5d607ff805e",
+    "public_input": "ch12-v2-enteric-mouse-enterocyte.png",
+    "public_sha256": "a046439e3c71853f550d653801aa5def23e29290be0ef256ebf9c085b7d2a6a8",
+    "crop_rect_xyxy": [
+      0,
+      0,
+      363,
+      332
+    ],
+    "decoded_RGB_equal_source_crop": true,
+    "cross_decoder_RGB_identity_claimed": false
+  },
+  {
+    "source_PMC": "PMC10192636",
+    "PDF_sha256": "ad126c0954a91cc351389462b63440c64870571f47726a0513618d6b64acf774",
+    "owning_metadata_MD5_match_PDF_XML": true,
+    "pdf_xref": 358,
+    "raw_DCT_byte_equal_extracted_JPEG": true,
+    "source_JPEG_sha256": "4dee6792afc721ebe8c7f2141beccb1d8c1def8842201e46d0213e2e82b8703f",
+    "public_input": "ch12-v2-enteric-mouse-vessels.jpg",
+    "public_sha256": "4dee6792afc721ebe8c7f2141beccb1d8c1def8842201e46d0213e2e82b8703f",
+    "crop_rect_xyxy": null,
+    "decoded_RGB_equal_source_crop": null,
+    "cross_decoder_RGB_identity_claimed": false
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-09",
+  "citation": "Pendse M et al.(2023),Macrophages regulate gastrointestinal motility through complement component1q,eLife12:e78558,Figure6—video1,final version2",
+  "doi": "10.7554/eLife.78558",
+  "url": "https://elifesciences.org/articles/78558/figures#fig6video1",
+  "license": "CC BY4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "rights_basis": "ActualowningAPIversion2copyrightCC-BY-4.0;owningXMLsamearticlelicense,noindividualmovieexceptionidentified.",
+  "acquisition": {
+    "url": "https://static-movie-usa.glencoesoftware.com/mp4/10.7554/976/0d59e0cdf7b4f73d5395e25ee698dcc95f0e04aa/elife-78558-fig6-video1.mp4",
+    "bytes": 3225337,
+    "publisher_api_version": 2,
+    "movie": "fig6video1",
+    "rights": {
+      "license": "CC-BY-4.0",
+      "holder": "Pendse et al.",
+      "statement": "This article is distributed under the terms of the <a href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution License</a>, which permits unrestricted use and redistribution provided that the original author and source are credited."
+    }
+  },
+  "specimen": "Ex vivo male mouse,C1qa fl/fl littermate control,8–12weeks. Not C1qaΔMφ deletion and not labelledWT orhuman.",
+  "preparation": "Colon dissected,flushedPBS,pinned organbathDMEM37°C,oxygenated95%O2/5%CO2,20min equilibration beforeimaging.",
+  "timing": "Methods:500ms time-lapse delay,45min/5400frames acquisition foranalysis. Distributedmovie:1620frames30fps54s;subset/exportmappingunknown, no biologicaltime or15×conversion assigned. Controlsreportpublication-filetime only.",
+  "spatial": "Whole1172×158publicationmovie(not1173pxAPIplaceholder). Originalwhitebarhasnonumericlabel;no mm assigned. No newanatomicalorientationortrackedbolusdirection.",
+  "appearance": "Changing externalcoloncontours supportsource-identifiedperistalticcontractions/CMMCcontext;notneuronimaging orproofwhole-guttransit.",
+  "modifications": "None toMP4bytes;fullnativeframes0/810/1619decodedPNGwithoutcrop/contrast/interpolation;fullmovieFFmpegdecodecompletedzeroerrors.",
+  "media": {
+    "file": "ch12-v2-colon-observed-movie.mp4",
+    "sha256": "5a535e3bb2fa3bbb5a3e2687ab2c6875a07714092d95bf0c30cd6cf7ef8f0ae7",
+    "dimensions": [
+      1172,
+      158
+    ],
+    "frames": 1620,
+    "fps": "30/1",
+    "duration_s": 54,
+    "start_pts_s": 0,
+    "audio": false
+  },
+  "posters": [
+    {
+      "file": "ch12-v2-colon-observed-frame-0000.png",
+      "sha256": "d77b01ba535935ba64ecc0cc67f2d6bb5ec29b2741286a49af9621e38e2d27c6",
+      "decoded_rgb_sha256": "255b76f2034b3f54a4dd1afc7e3ed3e087193176788aebeeed520491325558d3",
+      "frame_index": 0,
+      "container_pts_s": 0.0,
+      "dimensions": [
+        1172,
+        158
+      ]
+    },
+    {
+      "file": "ch12-v2-colon-observed-frame-0810.png",
+      "sha256": "21d0d81ae13ecba4c1355732c5874846f09a6724adbf1a3a7d61e745ab38d857",
+      "decoded_rgb_sha256": "a205e3695acb3a957dbc9b7f79c677078b4b0b3e6b19d5026f3ee4617a875568",
+      "frame_index": 810,
+      "container_pts_s": 27.0,
+      "dimensions": [
+        1172,
+        158
+      ]
+    },
+    {
+      "file": "ch12-v2-colon-observed-frame-1619.png",
+      "sha256": "19c97d0c8349047fa78edbf4d7973c2e121bc9e4f0514ebb33e40be1fe9906b1",
+      "decoded_rgb_sha256": "6bf399e0c321b3d13249f412ace663b75814bfc5c7dd2cafcbb8bd727ab99490",
+      "frame_index": 1619,
+      "container_pts_s": 53.96666666666667,
+      "dimensions": [
+        1172,
+        158
+      ]
+    }
+  ],
+  "print": {
+    "width_mm": 165,
+    "height_mm": 22.24402730375427,
+    "ppi": 180.4169696969697,
+    "source_limited_exception": "~180ppi;sourcefieldnaturallythin. Originalcontour/barvisibilityrequiresactualprint;noinventedpixels.",
+    "key_min_pt": 9.5,
+    "credit_min_pt": 9
+  }
+}

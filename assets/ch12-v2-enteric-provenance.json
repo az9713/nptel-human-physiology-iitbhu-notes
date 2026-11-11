@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-09",
+  "scope": "Observed structural candidate; not complete digestive mechanism",
+  "sources": {
+    "date": "2026-11-09",
+    "rights": "Actual primaryarticle/cataloguelicence; no figure-specificthirdpartynotice found. FullowningXML/PDFprivate;publicimmutablederivedinputs sufficient forcomposition, initialacquisitionseparate.",
+    "sources": [
+      {
+        "id": "human",
+        "file": "ch12-v2-enteric-human-villus.jpg",
+        "title": "Human small-intestinal mucosa",
+        "citation": "S. Schuller, Wellcome Collection B0007180",
+        "url": "https://wellcomecollection.org/works/s39bfr8e",
+        "license": "CC BY4.0",
+        "prep": "Human mucosal cryosection; green integrin, blue cytokeratin, red nuclei. Integrin also labels stroma.",
+        "limits": "Exact segment, donor condition and calibration not established; no resolved individual transport proteins, microvilli or lacteal identity.",
+        "operation": "Whole unchanged1024×1024 owningIIIFnative image; no crop/resampling.",
+        "native_url": "https://iiif.wellcomecollection.org/image/B0007180/full/full/0/default.jpg",
+        "print_width_mm": 105,
+        "sha256": "d1c2b3c6346ea37e4497bc42d7cbfc11f155513cab83689fdda337031988f204",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "decoded_rgb_sha256": "b3c48fb8ef43196ee0116e02c6468144bfd7f8f7893cc10eafb35c1b8907d676",
+        "print_ppi": 247.71047619047616,
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "id": "enterocyte",
+        "file": "ch12-v2-enteric-mouse-enterocyte.png",
+        "title": "Prepared mouse enterocyte, source Figure2A",
+        "citation": "Soayfane et al.2016 Nutr Metab13:48, Figure2A",
+        "url": "https://doi.org/10.1186/s12986-016-0107-9",
+        "license": "CC BY4.0",
+        "prep": "C57BL/6Rj mouse proximal intestinal enterocyte4h after200µLcorn-oil/2%cholesterol gavage; freeze-fracture SEM, not live/human.",
+        "limits": "OriginalBBM/BLM/Nucl and4µmbar; observed droplets are cytosolic lipid droplets, not automatically secreted chylomicrons. No protein pore/real transport observed.",
+        "operation": "Exact Pillow RGB crop[0,0,363,332] from unchanged591×884 publishedPDFembeddedJPEG xref98/page6; PNGsave lossless, no contrast/interpolation.",
+        "original_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4965885.1/PMC4965885.1.pdf?md5=ce517b10b46dd8dd2e6f4e00d339bf8b",
+        "source_pdf_sha256": "01e08c41baccdd877b519dfa6ef51a0d6029ad8ada989af825340fd56ac1c5d2",
+        "source_jpeg_sha256": "562a1cd48b3e52ce121c19f1ff4dc011f86b4cad3e6b17c3c75cd5d607ff805e",
+        "crop_rect": [
+          0,
+          0,
+          363,
+          332
+        ],
+        "print_width_mm": 100,
+        "source_limited_exception": "92.2ppi at100mm. Sourcebar/glyphs preserved; boundedcell-localization candidate, actualoptical/printreviewpending, no fabricatedpixels.",
+        "sha256": "a046439e3c71853f550d653801aa5def23e29290be0ef256ebf9c085b7d2a6a8",
+        "dimensions": [
+          363,
+          332
+        ],
+        "decoded_rgb_sha256": "23ad2d7ad3b9819f7251ea10f1a4ccacce95d9065a2f9637974f2406a6b85c47",
+        "print_ppi": 92.202,
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "id": "vessels",
+        "file": "ch12-v2-enteric-mouse-vessels.jpg",
+        "title": "Separate mouse duodenal vessel networks",
+        "citation": "Paavonsalo,Subashi,Lackman,Karaman2023 STARProtocols4:102310, Figure3",
+        "url": "https://doi.org/10.1016/j.xpro.2023.102310",
+        "license": "CC BY4.0",
+        "prep": "Whole-mount adultmouse smallintestine; protocol specifiesduodenum20-week mouse. PFAperfusion/fixation, immunostaining/confocal. Podocalyxin green allvessels(includingweakerlacteals),LYVE1white lymphatics.",
+        "limits": "Projection channels of samefield; not an epithelialboundary map. Different specimen fromhumanmucosa/mouseSEM. Source200µmbar retained. No actualnutrienttrajectory/bloodflow or universalnormality.",
+        "operation": "Whole unchanged1325×471 publishedPDFembeddedJPEG xref358/page13, no crop or processing.",
+        "original_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10192636.1/PMC10192636.1.pdf?md5=03b3e7691929e7e90b83c01d5fb25210",
+        "source_pdf_sha256": "ad126c0954a91cc351389462b63440c64870571f47726a0513618d6b64acf774",
+        "print_width_mm": 165,
+        "sha256": "4dee6792afc721ebe8c7f2141beccb1d8c1def8842201e46d0213e2e82b8703f",
+        "dimensions": [
+          1325,
+          471
+        ],
+        "decoded_rgb_sha256": "bd09069fceacc1edd97002c6f1cc31267f743c0f8397b7a620d9877b4237a702",
+        "print_ppi": 203.96969696969697,
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ]
+  },
+  "operations": "Compose immutable complete images/exact source crop; no local pixel transformation.",
+  "reproduction": {
+    "builder": "figures/ch12_enteric_observed_v2.py",
+    "template": "figures/ch12_enteric_observed_v2.template.html",
+    "private_network_required": false,
+    "initial_acquisition": "Separate owning primary PDF/catalogue acquisition; exact extraction/crop recorded in source JSON."
+  },
+  "artifacts": {
+    "assets/ch12-v2-enteric-sources.json": "d5eb7bfb1962120b7b3bf920d147c186daa3a6fa7d73629ad0458fe61bd40737",
+    "assets/ch12-v2-enteric-extraction-proof.json": "8534437d3caeef093bd1d9ddb7694aba958fe799fefc15af807a48e57e7833dd",
+    "assets/ch12-v2-enteric-human-villus.jpg": "d1c2b3c6346ea37e4497bc42d7cbfc11f155513cab83689fdda337031988f204",
+    "assets/ch12-v2-enteric-mouse-enterocyte.png": "a046439e3c71853f550d653801aa5def23e29290be0ef256ebf9c085b7d2a6a8",
+    "assets/ch12-v2-enteric-mouse-vessels.jpg": "4dee6792afc721ebe8c7f2141beccb1d8c1def8842201e46d0213e2e82b8703f",
+    "assets/ch12-v2-enteric-reference.html": "6f25173e06c5344304c2206a5cd18ef3641bffdec3d9167e8d41cecac407476d",
+    "figures/ch12_enteric_observed_v2.template.html": "6f25173e06c5344304c2206a5cd18ef3641bffdec3d9167e8d41cecac407476d",
+    "figures/ch12_enteric_observed_v2.py": "b08432636b736d80ff1a2473e24f115b0cedcda14f01ccc5e134a88f9537b80b",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "acceptance": {
+    "current": false,
+    "actual_browser_PDF": "PENDING root",
+    "independent_source_appearance": "PENDING B"
+  }
+}

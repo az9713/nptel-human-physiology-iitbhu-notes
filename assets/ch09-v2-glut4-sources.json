@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-09",
+  "creators": [
+    "Jennine M.Dawicki-McKenna",
+    "Yale E.Goldman",
+    "E.Michael Ostap"
+  ],
+  "title": "Sites of Glucose Transporter-4 Vesicle Fusion with the Plasma Membrane Correlate Spatially with Microtubules",
+  "year": 2012,
+  "doi": "10.1371/journal.pone.0043662",
+  "owning_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0043662",
+  "supplement_doi": "10.1371/journal.pone.0043662.s006",
+  "source_video": "VideoS1 (s006.mov)",
+  "license": "Creative Commons Attribution, version unspecified in owning publisher HTML/XML notice",
+  "rights_basis": "Owning full HTML and manuscript XML permissions inspected; no supplement-specific exception located. No automatic substitution of CC BY4.0.",
+  "specimen": "Differentiated mouse3T3-L1 adipocyte expressing HA-GLUT4-eGFP, serum-starved,100nMinsulin at embedded0min",
+  "modality": "TIRF, fluorescence-display contrast; no natural colour or visible-light histology",
+  "dimensions": [
+    509,
+    434
+  ],
+  "frames": 132,
+  "file_fps": 15,
+  "duration_file_seconds": 8.8,
+  "source_acquisition_seconds_per_frame": 10,
+  "nominal_acceleration_at_1x": 150,
+  "source_embedded_clock_endpoints_minutes": [
+    -5.17,
+    16.67
+  ],
+  "timing_boundary": "Embedded source clock retained; publication file time differs from experiment time. No exact additional alignment or source kinetic rate fitted.",
+  "identity": {
+    "source_sha256": "ea9dcb9161fb26a6f0cd0e231f617884c8032820ce51965ef1fc031a422e5e8b",
+    "remux_sha256": "0adce60b7582231e0537387a3335c4dec6a6620608eb6d55e2bdbd1148ab8ee8",
+    "method": "ffmpeg map video stream, copy codec; no audio; faststart",
+    "packets_pts_duration_sha256_equal": true,
+    "packet_count": 132
+  },
+  "source_html_sha256": "93c254a3fce4dcd364d816db80a79d483515f0ba825fcf38be6ce34b1ecfbc42",
+  "source_xml_sha256": "214ec924a7b42df86fde4d025e2ae56f4965c287c4b0285f265f8b587b568105",
+  "source_limits": [
+    "TIRF intensity not direct glucose uptake or exact membrane insertion count",
+    "No resolved fusion pore/GLUT4 fold/insulin receptor",
+    "Cultured mouse system, not human adipocyte",
+    "Original first-frame15µmbar retained; no new ruler"
+  ],
+  "separate_candidate_not_delivered": "S10 IRAP-pHluorin fusion-reporter movie kept private pending actual-motion visibility review; not presented as direct GLUT4 tracking"
+}

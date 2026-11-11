@@ -1,0 +1,99 @@
+{
+  "status": "PROVISIONAL; independent science/appearance, browser and print review pending",
+  "date": "2026-11-09",
+  "source": {
+    "citation": "Unwin N (2022). Structure of a cholinergic cell membrane. PNAS119(34):e2207641119. Figure1B.",
+    "doi": "10.1073/pnas.2207641119",
+    "source_pdf_url": "https://www2.mrc-lmb.cam.ac.uk/groups/nu/pdf/pnasS22.pdf",
+    "source_pdf_sha256": "6eb4baea32efa37bce708fecfecae74fa071552753282dcf70870b87916548b1",
+    "source_pdf_bytes": 4767509,
+    "rights": "CC BY4.0 explicitly stated on primaryPDFpage1; no separateFigure1thirdpartycredit",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "original_figure_raster": {
+      "size": [
+        1379,
+        959
+      ],
+      "format": "JPEG",
+      "sha256": "46b09e557582dcd39eb2becf288b28acef4546eae2bf3fbf4267e5f7cdce7b59",
+      "extraction": "Original embedded PDF image object3, decoded without resampling for crop"
+    },
+    "crop": {
+      "file": "ch02-v2-bilayer-reconstruction-source.png",
+      "sha256": "e6935259e2f36da0a7d4e14826207039aa9feb5c36e5ce30e0c90028f22102a6",
+      "size": [
+        599,
+        253
+      ],
+      "rectangle_xyxy": [
+        780,
+        75,
+        1379,
+        328
+      ],
+      "coordinates": "OriginalFigure1 top-left; right/bottom exclusive",
+      "operation": "Crop only from decoded publication JPEG to PNG; no resampling, recoloring, contrast change or new annotation"
+    },
+    "acquisition_boundary": "Original PDF was separately acquired and the first crop inspected in private research. Public regeneration uses this immutable crop and source record, does not reacquire PDF or require private work. The original PDF and full figure are not included as reader art.",
+    "specimen": "Torpedo marmorata electric-organ AChR-rich isolated membrane; one ray; two weeks17C incubation in100mM sodium cacodylate,1mM CaCl2,pH7",
+    "image_type": "Normalcrosssection from averaged helical cryo-EM density map2 EMD-14946,5.5A resolution, not raw micrograph",
+    "map_metadata_url": "https://www.ebi.ac.uk/emdb/api/entry/map/EMD-14946",
+    "map_sampling_A": 1.34,
+    "map_sampling_does_not_calibrate_publication_raster": true
+  },
+  "teaching_claim": "Two source-identified leaflet-associated headgroup density bands of one bilayer in averaged Torpedo membrane map2.",
+  "representation": "Experimental averaged helical cryo-EM density cross-section, not a raw micrograph or generated anatomy.",
+  "source_marks": {
+    "O": "upper outer/extracellular headgroup region",
+    "I": "lower inner/cell-facing headgroup region",
+    "MX": "inner-side acetylcholine-receptor helix",
+    "red_arrow": "source pore locator; not flux"
+  },
+  "operations": "Host composition and external reading key only; immutable source crop bytes unchanged.",
+  "coverage_limits": [
+    "Not human, intact normal tissue or live imaging",
+    "No calibrated publication image bar",
+    "No transport or individually resolved lipid positions",
+    "Separate raw observed leaflet-image acquisition remains unresolved"
+  ],
+  "print_candidate": {
+    "crop_width_mm": 100,
+    "output_ppi": 152.146,
+    "external_text_min_pt": 9.5,
+    "source_label_limit": "Original O/I glyphs remain small; external key is readable but does not imply print acceptance.",
+    "actual_print_proof": "PENDING"
+  },
+  "reproduction": {
+    "builder": "figures/ch02_bilayer_reconstruction_v2.py",
+    "template": "figures/ch02_bilayer_reconstruction_v2.template.html",
+    "public_inputs": [
+      "ch02-v2-bilayer-reconstruction-sources.json",
+      "ch02-v2-bilayer-reconstruction-source.png",
+      "observed-image-dialog.css",
+      "observed-image-dialog.js"
+    ],
+    "original_acquisition": "Original PDF was separately acquired and the first crop inspected in private research. Public regeneration uses this immutable crop and source record, does not reacquire PDF or require private work. The original PDF and full figure are not included as reader art.",
+    "builder_sha256": "2ec9ba09ec9a73ac8024662eaaf01ba7f0dd2f7c4d6be77f9c56a8fec2760d76",
+    "template_sha256": "4f9105fa2ead61034e5324d5c7e7dacbde4ceb7c98b2605fc4a5576fba3c7f39",
+    "python": "3.13.5",
+    "pillow": "11.0.0",
+    "seed": "N/A; deterministic byte composition"
+  },
+  "verification": {
+    "source_integrity_and_dimensions": "PASS integrity only",
+    "public_only_rebuild": "See private layout-rebuild proof; no private inputs required",
+    "independent_anatomy_appearance": "PENDING",
+    "responsive_enlargement_keyboard_focus": "PENDING",
+    "actual_print": "PENDING",
+    "chapter_integration_release": "PENDING"
+  },
+  "shared_dependencies": {
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "artifacts": {
+    "ch02-v2-bilayer-reconstruction-sources.json": "b32bf896d4e5a8c61b56b7b60765469cedf0cefc2552a76608be00320d382798",
+    "ch02-v2-bilayer-reconstruction-source.png": "e6935259e2f36da0a7d4e14826207039aa9feb5c36e5ce30e0c90028f22102a6",
+    "ch02-v2-bilayer-reconstruction-reference.html": "4f9105fa2ead61034e5324d5c7e7dacbde4ceb7c98b2605fc4a5576fba3c7f39"
+  }
+}

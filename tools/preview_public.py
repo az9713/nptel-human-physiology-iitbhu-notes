@@ -1,6 +1,7 @@
 """Read-only loopback preview with an explicit public-artifact allowlist."""
 import argparse
 import mimetypes
+import re
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -23,8 +24,9 @@ def main():
     for path in (ROOT/'figures').glob('ch*.py'):
         if path.is_file():
             allowed['/'+path.relative_to(ROOT).as_posix()] = path
-    suffixes = {'.html', '.svg', '.png', '.jpg', '.jpeg', '.tif', '.tiff',
-                '.js', '.css', '.json', '.md', '.txt', '.woff2', '.zip', '.bin'}
+    suffixes = {'.html', '.svg', '.png', '.jpg', '.jpeg', '.webp', '.tif', '.tiff',
+                '.js', '.css', '.json', '.md', '.txt', '.woff2', '.zip', '.bin',
+                '.mp4', '.webm', '.mov', '.vtt', '.avi'}
     for path in (ROOT/'assets').rglob('*'):
         if path.is_file() and path.suffix.lower() in suffixes:
             allowed['/'+path.relative_to(ROOT).as_posix()] = path
@@ -46,15 +48,48 @@ def main():
                 self.send_error(404)
                 return
             body = path.read_bytes()
-            self.send_response(200)
+            total = len(body)
+            selected_range = self.headers.get('Range')
+            start, end = 0, total - 1
+            if selected_range:
+                match = re.fullmatch(r'bytes=(\d*)-(\d*)', selected_range.strip())
+                if match and total and any(match.groups()):
+                    first, last = match.groups()
+                    if first:
+                        start = int(first)
+                        end = min(int(last), total - 1) if last else total - 1
+                    else:
+                        suffix = int(last)
+                        start = max(0, total - suffix)
+                    valid = 0 <= start <= end < total
+                else:
+                    valid = False
+                if not valid:
+                    self.send_response(416)
+                    self.send_header('Content-Range', f'bytes */{total}')
+                    self.send_header('Content-Length', '0')
+                    self.end_headers()
+                    return
+                body = body[start:end + 1]
+            self.send_response(206 if selected_range else 200)
             self.send_header('Content-Type', mimetypes.guess_type(path.name)[0] or 'application/octet-stream')
             self.send_header('Content-Length', str(len(body)))
+            self.send_header('Accept-Ranges', 'bytes')
+            if selected_range:
+                self.send_header('Content-Range', f'bytes {start}-{end}/{total}')
             self.send_header('Cache-Control', 'no-store')
             self.send_header('X-Content-Type-Options', 'nosniff')
             # Teaching panels fetch only allowlisted local model data.
             self.send_header('Content-Security-Policy', "default-src 'self' data:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; object-src 'self'")
             self.end_headers()
-            self.wfile.write(body)
+            if self.command != 'HEAD':
+                try:
+                    self.wfile.write(body)
+                except (BrokenPipeError, ConnectionResetError):
+                    pass  # A metadata-only media request may close early.
+
+        def do_HEAD(self):
+            self.do_GET()
 
         def log_message(self, fmt, *values):
             pass

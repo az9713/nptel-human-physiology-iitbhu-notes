@@ -1,7 +1,7 @@
 {
   "chapter": 4,
   "title": "Blood groups, lymph and immune defense",
-  "status": "accepted",
+  "status": "revised",
   "coverage_complete": true,
   "reviews": [
     {
@@ -53,7 +53,7 @@
     12
   ],
   "source_evidence": "All L10–12 caption texts, ten actually viewed contact sheets and nine targeted individual frames. No continuous video/audio inspection claimed.",
-  "prose_status": "Accepted after two independent full scientific/editorial reviews, targeted repairs and specified actual production checks.",
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
   "code": [
     "code/ch04_compatibility.py"
   ],
@@ -63,40 +63,40 @@
       "id": "ch4-anim1",
       "path": "chapter-04-blood-groups-lymph-immunity.html#ch4-anim1",
       "script": "assets/ch04-mechanisms.js",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Controlled component-specific antigen–antibody bridge abstraction, donor/recipient/component controls."
     },
     {
       "id": "ch4-anim2",
       "path": "chapter-04-blood-groups-lymph-immunity.html#ch4-anim2",
       "script": "assets/ch04-mechanisms.js",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Fluid-marker entry only through overlapping endothelial flap, collector-valve passage and open venous outlet; arbitrary phase clock."
     },
     {
       "id": "ch4-anim3",
       "path": "chapter-04-blood-groups-lymph-immunity.html#ch4-anim3",
       "script": "assets/ch04-mechanisms.js",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Named peptide–MHC-II/TCR and CD80/86-CD28 contacts, conventional CD4 activation branch, expansion and memory symbols; no fitted kinetics."
     },
     {
       "id": "ch4-fig1",
       "path": "chapter-04-blood-groups-lymph-immunity.html#ch4-fig1",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Reference-informed conceptual normal-node sectional organization, with connected separate blood and lymph routes; photographic context supplied separately, without a measured geometry or B/T-cell identification claim."
     },
     {
       "id": "ch4-fig2",
       "path": "chapter-04-blood-groups-lymph-immunity.html#ch4-fig2",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Conventional B/antibody, CD4, CD8, NK recognition comparison."
     },
     {
       "id": "ch4-node-photo",
       "path": "assets/ch04-node-architecture-reference.jpg",
       "provenance": "assets/ch04-node-architecture-reference.json",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Observed normal-designated node section from colectomy, capsule/subcapsular sinus and peripheral follicle context; stated specimen, species, scale and cell-identity limits retained."
     }
   ],
@@ -144,5 +144,43 @@
   "public_acceptance": {
     "path": "validation/acceptance/chapter-04.json",
     "sha256": "814aeeadbbe9218ec1dab3e4f78bddf8f53258e636f5f9780b1cb77494f2973f"
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "reopened",
+    "date": "2026-11-08",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false
+  },
+  "realistic_asset_gate": {
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
+  },
+  "current_chapter_sha256": "89ec5c7685ae2337a96da0b3ea33575c6a064c4e25631dbf40fa550cabc79335",
+  "current_body_sha256": "011ed9d56a884546ac416374abe7ce14aedd7fcc3d6d2a679c7cab74b7b911f4",
+  "current_hash_definition": "SHA256 of raw current UTF8 file bytes and exact bytes between chapter-body markers; historical scientific-review bindings remain unchanged.",
+  "current_visual_artifacts": {
+    "assets/ch04-v2-phagocytosis-controls.js": "7eb5e9e9dfc980437c88aaa3b70d66806970507d671e3c0bc0fd6a1634abaf26",
+    "assets/ch04-v2-phagocytosis-frame-000.png": "93aef7b171c9a58796fef0118044e63a557f9d60f77f57b2235f341186b421fb",
+    "assets/ch04-v2-phagocytosis-frame-051.png": "ad2a1ba995d3eb68bbdc57ea36b6940d5aecc6951f074dcaa476b8c9e3b4f145",
+    "assets/ch04-v2-phagocytosis-frame-101.png": "c5b975cb816c7fcd4c81bc54b8955309bb64536719383595e029a86ade1a88b0",
+    "assets/ch04-v2-phagocytosis-observed.html": "2cc2ea6a0cfb6826e16fe26ea33ba72944d98b852cd7e08571841678a4bebd1f",
+    "assets/ch04-v2-phagocytosis-poster.png": "93aef7b171c9a58796fef0118044e63a557f9d60f77f57b2235f341186b421fb",
+    "assets/ch04-v2-phagocytosis-provenance.json": "fec501cb8f5e0c8cc6dda315563f2600ec8da7472aedd3ca44b49ed818b72462",
+    "assets/ch04-v2-phagocytosis-source.avi": "952c18d926186df91ea850b06c238b8771496b033f3c2672c582934d4eb4fe3a",
+    "assets/ch04-v2-phagocytosis.webm": "96a4be136a58e1411cfefeb2d8d322fe693018a20814a5d7e50ac7b493e09ad0",
+    "figures/ch04_phagocytosis_observed.py": "e0ddd65a90e6752f7d87a53bbba700ec2fbb25ebea1ee215450cf78520910735",
+    "figures/ch04_phagocytosis_observed.template.html": "2cc2ea6a0cfb6826e16fe26ea33ba72944d98b852cd7e08571841678a4bebd1f",
+    "assets/observed-video-controls.js": "1136584777fdb340619dab2527e02e647c95d12fa4a5d8af847148a60f42341f",
+    "assets/observed-video-controls.css": "55144b39d16e8f1096f0cf1d534c817076d1b8c1e137320291f9e8a46b852c9b"
+  },
+  "phagocytosis_revision": {
+    "date": "2026-11-10",
+    "status": "Local observed source; actual browser/PDF and distinct independent review pending",
+    "source": "assets/ch04-v2-phagocytosis-provenance.json",
+    "historical_scientific_reviews_preserved": true,
+    "current_visual_acceptance": false
   }
 }

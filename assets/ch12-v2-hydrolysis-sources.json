@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-09",
+  "source_molecular_facts": "ch12-v2-hydrolysis-compounds.json",
+  "molecules": [
+    "maltoheptaoseCID169622",
+    "isomaltoseCID439193",
+    "maltotrioseCID92146",
+    "maltotetraoseCID123966",
+    "DglucoseCID5793"
+  ],
+  "chemical_drawing": "OriginalRDKit2025.09.6/CoordGen2DfromPubChemSMILES/formulas;notcopiedart/nophysicalconformationorinstantaneousanomerclaim.",
+  "reaction_states": [
+    {
+      "state": 0,
+      "molecules": "Maltoheptaose7residues + separateisomaltose2residues",
+      "alpha14": 6,
+      "alpha16": 1,
+      "water": 0,
+      "fragments": 2
+    },
+    {
+      "state": 1,
+      "molecules": "Selectedinternalalpha14cut→maltotriose3+maltotetraose4;isomaltoseunchanged",
+      "alpha14": 5,
+      "alpha16": 1,
+      "water": 1,
+      "fragments": 3
+    },
+    {
+      "state": 2,
+      "molecules": "Brushbordercompletion→9glucose",
+      "alpha14": 0,
+      "alpha16": 0,
+      "water": 7,
+      "fragments": 9
+    }
+  ],
+  "inventory": "Nineglucoseresiduesconstant;seveninitialglycosidicbonds/sevenwaterconsumedinall;selectedexample,notuniversalproductprofile",
+  "selected_bond": "maltoheptaoseRDKitbond24,removalpartitionscarboncounts18/24;sourcecanonicalopen-chainreducingendretained",
+  "physiology_source": "https://doi.org/10.3389/fmolb.2023.1160860",
+  "clock": "12arbitrarypresentationseconds;discretechemicalteachingstates,notkineticsorbinding/atomtrajectory",
+  "print": "Two large structural-state print sections; never shrink the three-column private storyboard toonepage;actualglyph/printpendingroot/B",
+  "rights": "Originalindependentchemicaldepictionsfrommolecularfacts,notcopiedpublisherart;physiologyreferencednotadaptedart."
+}

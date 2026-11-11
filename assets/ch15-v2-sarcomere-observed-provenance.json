@@ -1,0 +1,209 @@
+{
+  "date": "2026-11-09",
+  "status": "Candidate; independent final source/native appearance and actual browser/print review pending, no acceptance inferred",
+  "source_record": "ch15-v2-sarcomere-observed-sources.json",
+  "source_record_sha256": "3f11863ab5e954059d9e426d70cce731b64a32120ed9c02ca8dddccb152d203e",
+  "source_media_unchanged": [
+    {
+      "key": "activation",
+      "source_file": "Video1.MP4",
+      "public_file": "ch15-v2-sarcomere-observed-activation.mp4",
+      "sha256": "be4971af65493b61084cbfd0d374bb9fc7886e0d1b009421ba91d6bc70404449",
+      "bytes": 4252082,
+      "codec": "h264",
+      "pixels": [
+        1920,
+        1080
+      ],
+      "rate": "30/1",
+      "frames": 116,
+      "start_pts_s": 0,
+      "duration_s": 3.866633,
+      "sample_frames": [
+        {
+          "frame": 0,
+          "pts_s": 0
+        },
+        {
+          "frame": 58,
+          "pts_s": 1.933333
+        },
+        {
+          "frame": 115,
+          "pts_s": 3.833333
+        }
+      ],
+      "source_caption_role": "Video1activation / Video2deactivation explicitly identified in articleexperimentalprotocol; not a stitched cycle or declared matching specimen",
+      "browser_rendition": "None; original complete unchanged publication bytes. ActualHEVC browserdecode pending.",
+      "video_stream_duration_s": 3.866633,
+      "container_duration_s": 3.925313,
+      "audio_stream_duration_s": 3.925312,
+      "clock_note": "Browser denominator followscontainerduration, which may exceedvideoduration due tounchanged sourceAAC. Frame labels usevideoPTS."
+    },
+    {
+      "key": "deactivation",
+      "source_file": "Video2.MOV",
+      "public_file": "ch15-v2-sarcomere-observed-deactivation.mov",
+      "sha256": "00a611f086c126a4bda630da56bf0e0dce49922187b72b64a5d55a1c70d017ac",
+      "bytes": 1218720,
+      "codec": "hevc",
+      "pixels": [
+        1920,
+        1080
+      ],
+      "rate": "30/1",
+      "frames": 116,
+      "start_pts_s": 0,
+      "duration_s": 3.866667,
+      "sample_frames": [
+        {
+          "frame": 0,
+          "pts_s": 0
+        },
+        {
+          "frame": 58,
+          "pts_s": 1.933333
+        },
+        {
+          "frame": 115,
+          "pts_s": 3.833333
+        }
+      ],
+      "source_caption_role": "Video1activation / Video2deactivation explicitly identified in articleexperimentalprotocol; not a stitched cycle or declared matching specimen",
+      "browser_rendition": {
+        "file": "ch15-v2-sarcomere-observed-deactivation-browser.mp4",
+        "sha256": "fa4b7fec77a7c532ef3da7b901bdfdfe8cf56503a5cefeafeae50fdf94a33138",
+        "operation": "Container-only HEVC/AACMP4 remux, hvc1sampletag; sourceMOVunchanged, no decoding/reencoding. OriginalMOVremainsdownload.",
+        "command": "ffmpeg -v error -y -i ORIGINAL.mov -map 0 -c copy -tag:v hvc1 -map_metadata -1 -movflags +faststart BROWSER.mp4",
+        "packet_identity": "PASS perstream video/audio codedpacketSHA256,PTS,DTS exact;116video packetdurations exact. Interleaving changed; lastAAC reportedpacketduration0.001451→0.001950s duecontainerreporting.",
+        "browser_decode": "ActualrootHEVCMP4testpending, supportnotpresumed."
+      },
+      "video_stream_duration_s": 3.866667,
+      "container_duration_s": 3.866667,
+      "audio_stream_duration_s": 3.854512,
+      "clock_note": "Browser denominator followscontainerduration, which may exceedvideoduration due tounchanged sourceAAC. Frame labels usevideoPTS."
+    }
+  ],
+  "crop": {
+    "rect": [
+      400,
+      140,
+      1410,
+      220
+    ],
+    "pixels": [
+      1010,
+      80
+    ],
+    "purpose": "Unchanged decodedpixel striationstrip for readable native/detail and print; full originalvideo and wholeframe0poster retained. No resampling, color/contrast edits, scale or anatomicalleader.",
+    "video_detail_view": "Display-only native1920px view scrolled toward visiblemyofibril; wholeframe Native/Fit available. No media crop/reencode."
+  },
+  "frame_audit": [
+    {
+      "clip": "activation",
+      "frame": 0,
+      "pts_s": 0,
+      "full_decoded_rgb_sha256": "f1d33528abd3373a7cd6d05b8fb0392c8ea53ecfddfd96e051af84fddec6d5b5",
+      "crop_file": "ch15-v2-sarcomere-observed-activation-strip-000.png",
+      "crop_rgb_sha256": "7d0f0396c117ebbfc615da71961d39a3f82b1d315b515036d30ee5421e55f275",
+      "crop_sha256": "301099647aa5d0e230e92657f537317ec46cb94304a5a4f6927600f18511d6ec"
+    },
+    {
+      "clip": "activation",
+      "frame": 58,
+      "pts_s": 1.933333,
+      "full_decoded_rgb_sha256": "f6a6c775dae23b9aea210aa4cbe4906b5870a3684241f64887ffba044c19879e",
+      "crop_file": "ch15-v2-sarcomere-observed-activation-strip-058.png",
+      "crop_rgb_sha256": "8bdf1a5037739da521cdcb61d9df60f6f568573e556bfe99dd4f39b82252e5c1",
+      "crop_sha256": "eaff244cbb42fd436b796a99ec640ac4715e7d2b92cd7c4b60933c78e8f31b16"
+    },
+    {
+      "clip": "activation",
+      "frame": 115,
+      "pts_s": 3.833333,
+      "full_decoded_rgb_sha256": "34b893bc739d0d4a5d73f621fa9d777308959f0857eba384a0790284842d8554",
+      "crop_file": "ch15-v2-sarcomere-observed-activation-strip-115.png",
+      "crop_rgb_sha256": "d2892e0e0e7a06300a86edc1eb36333ad21482315f8fc32f7ba826258950d9c7",
+      "crop_sha256": "544de6b7bf65e0d6fad6e34cb9e3fe6c742baa5790faeb92e7bb0ea13203abd1"
+    },
+    {
+      "clip": "deactivation",
+      "frame": 0,
+      "pts_s": 0,
+      "full_decoded_rgb_sha256": "a301a0ccddf0563601ca14059cec6e30b2e4a8d4edb2cbbe501726ef6e91a57f",
+      "crop_file": "ch15-v2-sarcomere-observed-deactivation-strip-000.png",
+      "crop_rgb_sha256": "c94985b3a876f67ffdf14ffb65329e15402b30d0577e8238301d35f16b574479",
+      "crop_sha256": "c6dfc58d34704204681e035c9fe330e79334c7897ad738cbd69672295b44d627"
+    },
+    {
+      "clip": "deactivation",
+      "frame": 58,
+      "pts_s": 1.933333,
+      "full_decoded_rgb_sha256": "3120ab1491be14f300b0b38fe72dd77ef324b7c37b3f28303315c9d64a0f875c",
+      "crop_file": "ch15-v2-sarcomere-observed-deactivation-strip-058.png",
+      "crop_rgb_sha256": "f5fd30e9b128861e423ab1a8f3984930094202a7fed4448d2e56ff0796bd8629",
+      "crop_sha256": "e411181ce66dc814bdc559120265e0325b73dd3a654346e0fda5a5787711074d"
+    },
+    {
+      "clip": "deactivation",
+      "frame": 115,
+      "pts_s": 3.833333,
+      "full_decoded_rgb_sha256": "7a4606628c41d4dc3e0163699e1e2f7524205900ffcacebd86c953420fb796cc",
+      "crop_file": "ch15-v2-sarcomere-observed-deactivation-strip-115.png",
+      "crop_rgb_sha256": "f0c795f7cf57d8a376d0707f801eb5faa059f4d12b5a5db50fea34c79b537e37",
+      "crop_sha256": "0ee0dc53eb6a8d4d1532f5dbb755fc56c6e6daf28961b54877d44a98c177b6b3"
+    }
+  ],
+  "print": {
+    "strip_width_mm": 170,
+    "strip_height_mm": 13.465346534653465,
+    "ppi": 150.90588235294118,
+    "source_limited_exception": "151ppi sourcepixelstrip; sourcepixelnative and actualphysicalPDF legibility review required, no newµmbar.",
+    "key_body_min_pt": 9.5,
+    "credits_min_pt": 9
+  },
+  "assay_limits": [
+    "Fixed total myofibril length: individual striation spacing can change nonuniformly; not every sarcomere shortens together.",
+    "Chemical isolatedpreparation not intact nerve/NMJ excitation, wholemuscle contraction or voluntaryhuman movement.",
+    "No clip-specificµmcalibration, measuredstrain/speed/force/activationcurve or timebase newly assigned.",
+    "Activation and deactivation clips remain separate observations, not registered into one measuredcycle.",
+    "No inferred assignment of exact individualbands asZ/A/I markers without source-specific anatomicalreview."
+  ],
+  "review_basis": "B scoped source/precode approval in work/visual-v2/ch15/sarcomere-source/review-independent-precode.md; no final acceptance inferred",
+  "reproduction": {
+    "builder": "figures/ch15_sarcomere_observed_v2.py",
+    "builder_sha256": "ba5611b268dc46a372223916e6eed5e0bdd5e1f63a72aa5b891861012515144b",
+    "template": "figures/ch15_sarcomere_observed_v2.template.html",
+    "template_sha256": "52c74ab88f8bfb2ab9f9ccfbfcef8252bea286a2d7cafa0762482602cb9f83ac",
+    "python": "3.13.5",
+    "pillow": "11.0.0",
+    "ffmpeg": "ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+    "inputs": "Immutable public original MP4/MOV and sourceJSON/template/sharedcontrols only; no privatework/network; exact frame selection by decodedindex and verifiedPTS"
+  },
+  "shared_dependencies": {
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "observed-video-controls.css": "55144b39d16e8f1096f0cf1d534c817076d1b8c1e137320291f9e8a46b852c9b",
+    "observed-video-controls.js": "1136584777fdb340619dab2527e02e647c95d12fa4a5d8af847148a60f42341f"
+  },
+  "artifacts": {
+    "ch15-v2-sarcomere-observed-activation-poster.png": "e24cfe6f8e34a89cb38d8cdbcd5098e1219ef55519ce5f3eb95314b6fe883fde",
+    "ch15-v2-sarcomere-observed-activation-strip-000.png": "301099647aa5d0e230e92657f537317ec46cb94304a5a4f6927600f18511d6ec",
+    "ch15-v2-sarcomere-observed-activation-strip-058.png": "eaff244cbb42fd436b796a99ec640ac4715e7d2b92cd7c4b60933c78e8f31b16",
+    "ch15-v2-sarcomere-observed-activation-strip-115.png": "544de6b7bf65e0d6fad6e34cb9e3fe6c742baa5790faeb92e7bb0ea13203abd1",
+    "ch15-v2-sarcomere-observed-activation.mp4": "be4971af65493b61084cbfd0d374bb9fc7886e0d1b009421ba91d6bc70404449",
+    "ch15-v2-sarcomere-observed-deactivation-browser.mp4": "fa4b7fec77a7c532ef3da7b901bdfdfe8cf56503a5cefeafeae50fdf94a33138",
+    "ch15-v2-sarcomere-observed-deactivation-poster.png": "c73b0f07003471a444158ae1b69c682f2a3fec669c1516f384fd4a4ae00c8138",
+    "ch15-v2-sarcomere-observed-deactivation-strip-000.png": "c6dfc58d34704204681e035c9fe330e79334c7897ad738cbd69672295b44d627",
+    "ch15-v2-sarcomere-observed-deactivation-strip-058.png": "e411181ce66dc814bdc559120265e0325b73dd3a654346e0fda5a5787711074d",
+    "ch15-v2-sarcomere-observed-deactivation-strip-115.png": "0ee0dc53eb6a8d4d1532f5dbb755fc56c6e6daf28961b54877d44a98c177b6b3",
+    "ch15-v2-sarcomere-observed-deactivation.mov": "00a611f086c126a4bda630da56bf0e0dce49922187b72b64a5d55a1c70d017ac",
+    "ch15-v2-sarcomere-observed-reference.html": "1c3f86f320918692669959295a15d6556a9266968ce4b979d1ed83721f648dd9"
+  },
+  "pending": [
+    "ActualHEVC MP4 browserdecode; if unsupported root authorized losslessVP9 rendition with frame/PTS proof, originalMOV remains",
+    "Actual initialdetail/Native/Fit keyboardpan/seek/rate/reset/reducedmotion/pausedstart",
+    "Actual source-striation print legibility, source-limited151ppi and coherent twofigure pages",
+    "No completeNMJ/excitation-contraction/crossbridgecycle coverage claimed"
+  ]
+}

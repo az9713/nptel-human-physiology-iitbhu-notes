@@ -1,0 +1,354 @@
+{
+  "date": "2026-11-09",
+  "sources": {
+    "date": "2026-11-09",
+    "source_molecular_facts": "ch12-v2-hydrolysis-compounds.json",
+    "molecules": [
+      "maltoheptaoseCID169622",
+      "isomaltoseCID439193",
+      "maltotrioseCID92146",
+      "maltotetraoseCID123966",
+      "DglucoseCID5793"
+    ],
+    "chemical_drawing": "OriginalRDKit2025.09.6/CoordGen2DfromPubChemSMILES/formulas;notcopiedart/nophysicalconformationorinstantaneousanomerclaim.",
+    "reaction_states": [
+      {
+        "state": 0,
+        "molecules": "Maltoheptaose7residues + separateisomaltose2residues",
+        "alpha14": 6,
+        "alpha16": 1,
+        "water": 0,
+        "fragments": 2
+      },
+      {
+        "state": 1,
+        "molecules": "Selectedinternalalpha14cut→maltotriose3+maltotetraose4;isomaltoseunchanged",
+        "alpha14": 5,
+        "alpha16": 1,
+        "water": 1,
+        "fragments": 3
+      },
+      {
+        "state": 2,
+        "molecules": "Brushbordercompletion→9glucose",
+        "alpha14": 0,
+        "alpha16": 0,
+        "water": 7,
+        "fragments": 9
+      }
+    ],
+    "inventory": "Nineglucoseresiduesconstant;seveninitialglycosidicbonds/sevenwaterconsumedinall;selectedexample,notuniversalproductprofile",
+    "selected_bond": "maltoheptaoseRDKitbond24,removalpartitionscarboncounts18/24;sourcecanonicalopen-chainreducingendretained",
+    "physiology_source": "https://doi.org/10.3389/fmolb.2023.1160860",
+    "clock": "12arbitrarypresentationseconds;discretechemicalteachingstates,notkineticsorbinding/atomtrajectory",
+    "print": "Two large structural-state print sections; never shrink the three-column private storyboard toonepage;actualglyph/printpendingroot/B",
+    "rights": "Originalindependentchemicaldepictionsfrommolecularfacts,notcopiedpublisherart;physiologyreferencednotadaptedart."
+  },
+  "print_layout": {
+    "date": "2026-11-09",
+    "rdkit": "2025.09.6",
+    "purpose": "Print-only coordinate/layout derivatives; same source molecular graphs and stereochemistry, labels remain upright after coordinate rotation.",
+    "original_screen_vectors_changed": false,
+    "mechanism_changed": false,
+    "records": [
+      {
+        "name": "maltotriose",
+        "CID": 92146,
+        "canonical_isomeric_SMILES": "O=C[C@H](O)[C@@H](O)[C@H](O[C@H]1O[C@H](CO)[C@@H](O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O)[C@H](O)CO",
+        "formula": "C18H32O16",
+        "CIP_centres": [
+          [
+            1,
+            "R"
+          ],
+          [
+            2,
+            "S"
+          ],
+          [
+            3,
+            "S"
+          ],
+          [
+            4,
+            "R"
+          ],
+          [
+            5,
+            "R"
+          ],
+          [
+            8,
+            "S"
+          ],
+          [
+            9,
+            "R"
+          ],
+          [
+            11,
+            "R"
+          ],
+          [
+            12,
+            "R"
+          ],
+          [
+            13,
+            "R"
+          ],
+          [
+            17,
+            "R"
+          ],
+          [
+            18,
+            "R"
+          ],
+          [
+            22,
+            "R"
+          ],
+          [
+            23,
+            "R"
+          ]
+        ],
+        "rotation_degrees": 90,
+        "canvas": [
+          450,
+          750
+        ],
+        "fixed_font_size_svg_units": 28,
+        "print_width_mm": 80,
+        "nominal_font_points": 14.11023622047244,
+        "file": "ch12-v2-hydrolysis-maltotriose-print.svg",
+        "sha256": "e75075c3baed40963db3298897e04637447b90797ccb542a7fbeca35499a7f90"
+      },
+      {
+        "name": "maltotetraose",
+        "CID": 123966,
+        "canonical_isomeric_SMILES": "O=C[C@H](O)[C@@H](O)[C@H](O[C@H]1O[C@H](CO)[C@@H](O[C@H]2O[C@H](CO)[C@@H](O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O)[C@H](O)CO",
+        "formula": "C24H42O21",
+        "CIP_centres": [
+          [
+            1,
+            "R"
+          ],
+          [
+            2,
+            "S"
+          ],
+          [
+            3,
+            "S"
+          ],
+          [
+            4,
+            "R"
+          ],
+          [
+            5,
+            "R"
+          ],
+          [
+            8,
+            "S"
+          ],
+          [
+            9,
+            "R"
+          ],
+          [
+            11,
+            "R"
+          ],
+          [
+            12,
+            "R"
+          ],
+          [
+            13,
+            "R"
+          ],
+          [
+            17,
+            "S"
+          ],
+          [
+            18,
+            "R"
+          ],
+          [
+            20,
+            "R"
+          ],
+          [
+            21,
+            "R"
+          ],
+          [
+            22,
+            "R"
+          ],
+          [
+            26,
+            "R"
+          ],
+          [
+            27,
+            "R"
+          ],
+          [
+            31,
+            "R"
+          ],
+          [
+            32,
+            "R"
+          ]
+        ],
+        "rotation_degrees": 90,
+        "canvas": [
+          450,
+          750
+        ],
+        "fixed_font_size_svg_units": 28,
+        "print_width_mm": 80,
+        "nominal_font_points": 14.11023622047244,
+        "file": "ch12-v2-hydrolysis-maltotetraose-print.svg",
+        "sha256": "b3a559cdcc0d511618dae0191f45f0193451bc645718b1fb7ff8e2b1ae97d800"
+      },
+      {
+        "name": "isomaltose",
+        "CID": 439193,
+        "canonical_isomeric_SMILES": "OC[C@H]1O[C@H](OC[C@H]2OC(O)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@@H](O)[C@@H]1O",
+        "formula": "C12H22O11",
+        "CIP_centres": [
+          [
+            1,
+            "R"
+          ],
+          [
+            2,
+            "S"
+          ],
+          [
+            3,
+            "S"
+          ],
+          [
+            4,
+            "R"
+          ],
+          [
+            5,
+            "S"
+          ],
+          [
+            9,
+            "R"
+          ],
+          [
+            10,
+            "S"
+          ],
+          [
+            11,
+            "S"
+          ],
+          [
+            12,
+            "R"
+          ],
+          [
+            13,
+            "?"
+          ]
+        ],
+        "rotation_degrees": 90,
+        "canvas": [
+          500,
+          260
+        ],
+        "fixed_font_size_svg_units": 28,
+        "print_width_mm": 70,
+        "nominal_font_points": 11.111811023622048,
+        "file": "ch12-v2-hydrolysis-isomaltose-print.svg",
+        "sha256": "90f201f01a01729f7b9a18b69666bae6978b6476481f994963eca12c5244e118"
+      },
+      {
+        "name": "D-glucose",
+        "CID": 5793,
+        "canonical_isomeric_SMILES": "OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O",
+        "formula": "C6H12O6",
+        "CIP_centres": [
+          [
+            1,
+            "R"
+          ],
+          [
+            2,
+            "S"
+          ],
+          [
+            3,
+            "S"
+          ],
+          [
+            4,
+            "R"
+          ],
+          [
+            5,
+            "?"
+          ]
+        ],
+        "rotation_degrees": 0,
+        "canvas": [
+          300,
+          260
+        ],
+        "fixed_font_size_svg_units": 28,
+        "print_width_mm": 42,
+        "nominal_font_points": 11.111811023622048,
+        "file": "ch12-v2-hydrolysis-D-glucose-print.svg",
+        "sha256": "0e0d654ffe4f462b5ccd221c956bcb2c0594e6e51c83b606c77cd39e578299be"
+      }
+    ]
+  },
+  "reproduction": {
+    "builder": "figures/ch12_hydrolysis_v2.py",
+    "template": "figures/ch12_hydrolysis_v2.template.html",
+    "private_network_required": false,
+    "inputs": "ImmutableeditablechemicalSVGandPubChemmolecularrecords;separate2Dcoordinatecreationrecorded,notaphysicalmeasurement"
+  },
+  "artifacts": {
+    "assets/ch12-v2-hydrolysis-D-glucose-print.svg": "0e0d654ffe4f462b5ccd221c956bcb2c0594e6e51c83b606c77cd39e578299be",
+    "assets/ch12-v2-hydrolysis-D-glucose.svg": "deee635798e3390a274770f5dc0dd504719a20d6d9ff6afb30f82f1b0faf8fd8",
+    "assets/ch12-v2-hydrolysis-isomaltose-print.svg": "90f201f01a01729f7b9a18b69666bae6978b6476481f994963eca12c5244e118",
+    "assets/ch12-v2-hydrolysis-isomaltose.svg": "00488fb956a8a23a19b40da31678eed542fb74767955dfcbfdaa5dc1819146c2",
+    "assets/ch12-v2-hydrolysis-maltoheptaose.svg": "64efcd47ad7ae685704689f317b39dcae58d24941a7cc356701c5321d6ea8536",
+    "assets/ch12-v2-hydrolysis-maltotetraose-print.svg": "b3a559cdcc0d511618dae0191f45f0193451bc645718b1fb7ff8e2b1ae97d800",
+    "assets/ch12-v2-hydrolysis-maltotetraose.svg": "907d19184c466af21bd4fffa79b6c412d63ad9bec26b740ddf354dcedd953494",
+    "assets/ch12-v2-hydrolysis-maltotriose-print.svg": "e75075c3baed40963db3298897e04637447b90797ccb542a7fbeca35499a7f90",
+    "assets/ch12-v2-hydrolysis-maltotriose.svg": "b21cd55eaebcd010d786d967123f46366d913c11f06c21a6d0ef9664d8d4b51e",
+    "assets/ch12-v2-hydrolysis-compounds.json": "1a41ced0343878e1951c8bcfe9bed3ba664a7770c89ae16719a73d8027984e73",
+    "assets/ch12-v2-hydrolysis-print-layout.json": "3e8864ef4678128c140deac94da43a0e485c10c791daddea144832217b4ef6a1",
+    "assets/ch12-v2-hydrolysis-sources.json": "b382b876d953f19855beb661409df619014716621e4d985f594c63d4a8343094",
+    "assets/ch12-v2-hydrolysis.css": "be49b77a2087c283138a97d224318ac44103bd25f704fdc5191a84662ce2c370",
+    "assets/ch12-v2-hydrolysis-model.js": "2b8c2f06563918acb87c17739396fb01702d902d654d5a83daf1b5b79f7a0d1c",
+    "assets/ch12-v2-hydrolysis-controls.js": "354a544a17ce47cece2d40530b1b80e12078574087dbe2294870f962b723bfb8",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "figures/ch12_hydrolysis_v2.template.html": "1b3b4e4cc598132b495f8e7512a12a064ea66a67f71ace35ebe3ba923143c1f5",
+    "assets/ch12-v2-hydrolysis-reference.html": "1b3b4e4cc598132b495f8e7512a12a064ea66a67f71ace35ebe3ba923143c1f5",
+    "figures/ch12_hydrolysis_v2.py": "f537c2488ecec81f2e3ab77fe3887b90cae1ea2d25dff8975e9141c296751fd3",
+    "figures/ch12_hydrolysis_print_vectors_v2.py": "0ead0071eac5d5db97084e6d03b8c814cfd15130a54044a95e0166b79db00146"
+  },
+  "acceptance": {
+    "current": false,
+    "preproduction_B": "Scopedsource/state/actualchemicalboardreviewbeforemotion",
+    "actual_runtime_native_print": "PENDING root/B"
+  }
+}

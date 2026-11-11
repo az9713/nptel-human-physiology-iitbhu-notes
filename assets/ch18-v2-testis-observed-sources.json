@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-09",
+  "primary": {
+    "authors": "Walczak-Jędrzejowska et al.",
+    "year": 2022,
+    "doi": "10.3390/biology11030373",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8945034/",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "specimen": "Representative human obstructive-azoospermia biopsy with complete spermatogenesis; not healthy/fertile volunteer. Retrospective cohort72 men aged23–41, 19 complete-spermatogenesis obstructive controls; individual age unspecified.",
+  "preparation": "GR formaldehyde/acetic-acid fixative, paraffin,5µm sections,H&E",
+  "caption_mapping": {
+    "a": "Seminiferous tubules with complete spermatogenesis; interstitium/Leydig/vessels;100µm bar",
+    "b": "Magnification of dashed field in(a);50µm bar",
+    "labels": {
+      "T": "seminiferous tubule",
+      "I": "interstitial space",
+      "L": "Leydig cells",
+      "Bv": "blood vessel",
+      "S": "Sertoli cell nucleus",
+      "sg": "spermatogonia",
+      "sc": "spermatocytes",
+      "rs": "round spermatids",
+      "es": "elongated spermatids"
+    }
+  },
+  "file": {
+    "file": "ch18-v2-testis-observed-ab.png",
+    "sha256": "df018bdd5d98dacc1e3210fc5964a6d16be4f712cfe0702c789a6605c9983e82",
+    "dimensions": [
+      1419,
+      585
+    ]
+  },
+  "extraction": {
+    "source_pdf_sha256": "4a29fe12cb81d04105e30e24d5d6242e0c98e7fc8928c86d494b2b267facb793",
+    "source_xml_sha256": "18b258c8c30074bebd0a60f970272548b516605c5d685e285f10b9b7929d088b",
+    "pdf_page_index": 7,
+    "xref": 119,
+    "original_dimensions": [
+      1419,
+      1770
+    ],
+    "original_sha256": "fcf44063ef04f78fff3f619cd24b485fe6d361f0c0ebfb0ab69d6ab5f489c895",
+    "raw_DCT_bytes_equal": true,
+    "crop_rect_xyxy": [
+      0,
+      0,
+      1419,
+      585
+    ],
+    "crop_sha256": "df018bdd5d98dacc1e3210fc5964a6d16be4f712cfe0702c789a6605c9983e82",
+    "crop_RGB_sha256": "cb226d0ebc44deedcea5151230ca31ccd4968c9bbae9a441ebfcaf2ece0c58a1",
+    "crop_decoded_RGB_exact": true,
+    "print_candidate_width_mm": 165,
+    "print_ppi": 218.44
+  },
+  "composition_reproduction": "Public immutable exact top-row crop plus this source/extraction record suffice for composition. Full licensed publisher figure/PDF retained privately, separately acquired original; unrelated disease panels not public reader art.",
+  "limits": [
+    "Static prepared section, not lineage motion or ploidy assay",
+    "No resolved junction proof or quantitative blood–testis barrier permeability",
+    "No hormone action or donor fertility conclusion"
+  ],
+  "acceptance": {
+    "current": false,
+    "source_native": "B scoped pre-host PASS",
+    "browser_print": "Pending root"
+  }
+}

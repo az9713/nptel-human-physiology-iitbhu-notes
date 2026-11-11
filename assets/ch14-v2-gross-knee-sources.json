@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-09",
+  "citation": "Peters AE, Akhtar R, Comerford EJ, Bates KT (2018). The effect of ageing and osteoarthritis on the mechanical properties of cartilage and bone in the human knee joint. Scientific Reports.",
+  "doi": "10.1038/s41598-018-24258-6",
+  "archive": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5897376/",
+  "rights": "CC BY4.0, copyright2018authors; Figure6noindicatedthirdpartyexclusion.",
+  "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+  "input": {
+    "file": "ch14-v2-gross-knee-source.jpg",
+    "sha256": "620854626ca51546b10b22e5b7c1d126bfce7d94873bdb5684e1965bc2e37ac0",
+    "pixels": [
+      1351,
+      827
+    ],
+    "rgb_sha256": "879d75f4b38f1adaf6fc936cc3908567e508b8735730dc76d044bab584d6e218",
+    "source_pdf_sha256": "d1dedb852152bc0bfe3492e29302903ca28e74b37372728178bde95e10d67ad2",
+    "source_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5897376.1/PMC5897376.1.pdf?md5=a704e0f5e66a3b30ed23e0a66f497365",
+    "extraction": "PublishedPDFpage9xref250 DCTJPEG rawstream byteidentical to extracted nativeJPEG. No resampling/recoloring/cropping or anatomicalannotation.",
+    "raw_DCT_stream_identity": true
+  },
+  "source_caption": "Photographs of young(43years)healthy(left)and old(88years)osteoarthritic(right)kneejointspecimens.",
+  "specimen": "Two source-labelled human cadaver examples,43yearhealthy(imageleft),88yearOA(imageright). Specificsex/bodyside/cameraaxis not assigned. Not onejointaging orsourceoks003.",
+  "preparation": "Studyfresh-frozenknees n12,age31–88,4female8male; onefreeze-thawcycle beforedissection. Joints photographed and blindgraded bytwoindividuals onthreeoccasions oneweekapart; tissueICRSgrading.",
+  "anatomical_role": "Prepared opposingarticularsurfaces andgrossjointtissueappearance; no newindividualcruciate/meniscusleader or anatomicalcameraaxis inferred. Paper samplinglocalities include femoralcondyles/tibialplateaus; photo isnot theexactsamplingmap.",
+  "limits": [
+    "Sourcehealthylabelisstudyclassification, not universalnormalfunction ordiagnosis.",
+    "Imagesdifferentdonors; age andOA cannotbeisolatedcausallyfromtwophotos.",
+    "No physicalcalibration, filmwidth, pressure/motion orvolumetricthickness newly inferred.",
+    "Cartilagecoveredsurfacesnotbarecorticalbonecolor; no photo-to-meshtexturetransfer.",
+    "IndependentofOpenKneeoks003MRI/sourcegeometry/conditionalmotion, not registered."
+  ],
+  "print": {
+    "width_mm": 160,
+    "height_mm": 97.94226498889711,
+    "ppi": 214.47125,
+    "source_limited_exception": true,
+    "key_min_pt": 9.5,
+    "credits_min_pt": 9
+  },
+  "role_boundary": "Supportingobservedreference alongside continuedsource-grounded3D/motion work, notsubstitutefor/unmeasuredcompletionofthatwork."
+}

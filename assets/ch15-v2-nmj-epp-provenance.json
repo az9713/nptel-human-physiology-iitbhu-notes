@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-09",
+  "status": "Candidate; final independent appearance/source-composition and actual UI/print pending, no acceptance inferred",
+  "source_record": "ch15-v2-nmj-epp-sources.json",
+  "source_record_sha256": "8c47eb6579fee3e31013ab2d3e1b49c7905336ad59749f107175e644df14dc0c",
+  "input": {
+    "file": "ch15-v2-nmj-epp-source-figure4.jpg",
+    "sha256": "7dcf1b606d7ee256d3be7523f8b8bf36f1b0707e7439d018074f138d6b20c1dc",
+    "pixels": [
+      1939,
+      1684
+    ],
+    "rgb_sha256": "8226ce12b1a50b14e24ecb9253d3cc2d65a16f48ec05b4284a2730de0e87a8ee",
+    "url": "https://iiif.elifesciences.org/lax/34625%2Felife-34625-fig4-v2.tif/full/full/0/default.jpg",
+    "native_verification": "OwningAPIimage.size and owningIIIFinfo both1939×1684; full/full sourceJPEG unchanged, no invented upscale. Not claiming directoriginalTIFF acquisition."
+  },
+  "crop": {
+    "file": "ch15-v2-nmj-epp-control-aprime.png",
+    "rect": [
+      12,
+      582,
+      691,
+      1206
+    ],
+    "pixels": [
+      679,
+      624
+    ],
+    "sha256": "6e87b991269805b392041622ba65133e5136a01bc912f7685b5d18e6b88b12a2",
+    "rgb_sha256": "0378464802992f51e35995958a95e055bd55e4f4a8524525e2354215f2c75975",
+    "operation": "Exact integer crop fromdecodedowningJPEG; no resampling,recolor,rotation or new scale. Originala′/sourcebox/NT/SV/SC/JF/MF/0.5µmbar retained."
+  },
+  "model": {
+    "C_nF": 10,
+    "gL_uS": 1,
+    "EL_mV": -90,
+    "EACh_mV": 0,
+    "V0_mV": -90,
+    "gACh_uS_range": [
+      0,
+      1.5
+    ],
+    "selected_threshold_mV": -55,
+    "model_time_ms_range": [
+      0,
+      30
+    ],
+    "duration_presentation_s": 12,
+    "equation": "Vinf=(gL*EL+gACh*EACh)/(gL+gACh);tau_ms=C_nF/(gL_uS+gACh_uS);V(t)=Vinf+(V0-Vinf)exp(-t/tau);signedI_nA=gACh_uS*(V_mV-EACh_mV),outwardpositive.",
+    "threshold_scope": "Passive charging only. No voltage-gatedAPshape. Solidcurvebeforeselectedthreshold; counterfactualpassivecontinuation dottedaftercrossing. Selectedlumpedcircuitvalues notfit tothisP15mouse orpatient.",
+    "g1_expected": {
+      "Vinf_mV": -45,
+      "tau_ms": 5,
+      "threshold_ms": 7.520386983881371
+    },
+    "g05_expected": {
+      "Vinf_mV": -60,
+      "tau_ms": 6.666666666666667,
+      "threshold_ms": null
+    }
+  },
+  "source_limit": "Broadcompartment/profiles only; no resolvedchannelprotein, AChmolecules, fusionpore or livefunctionalstate inferred. Fullsource includes separatecontrol/mutantpanels andstatistics; no diseasepanel usedasnormal.",
+  "review_basis": "B exactnative/source/equation precode approval, signedcurrent wording corrected; work/visual-v2/ch15/nmj-source/review-independent-precode.md",
+  "print": {
+    "source_width_mm": 90,
+    "source_ppi": 191.62888888888887,
+    "source_limited_exception": true,
+    "external_key_min_pt": 9.5,
+    "credits_min_pt": 9
+  },
+  "reproduction": {
+    "builder": "figures/ch15_nmj_epp_v2.py",
+    "builder_sha256": "ae3ff1d016d205fe964559884f42a74843bea748d8f2fe9b32c0bfc896af1d7f",
+    "template": "figures/ch15_nmj_epp_v2.template.html",
+    "template_sha256": "4f3075eab81acbf5c8e245ee8e33999bfcc1084f4aa5412ceb80c0a68e8c5244",
+    "scope": "Public immutable sourceJPEG/JSON/template/JS/sharedmodal only; no work/network or source acquisition on rebuild"
+  },
+  "artifacts": {
+    "ch15-v2-nmj-epp-source-figure4.jpg": "7dcf1b606d7ee256d3be7523f8b8bf36f1b0707e7439d018074f138d6b20c1dc",
+    "ch15-v2-nmj-epp-control-aprime.png": "6e87b991269805b392041622ba65133e5136a01bc912f7685b5d18e6b88b12a2",
+    "ch15-v2-nmj-epp-print-comparison.svg": "ef5f44ef83f96b6f4558dbca76fd7656f1a478ca494f07bf9fbde9d485389508",
+    "ch15-v2-nmj-epp-reference.html": "4f3075eab81acbf5c8e245ee8e33999bfcc1084f4aa5412ceb80c0a68e8c5244",
+    "ch15-v2-nmj-epp.js": "2a6309c46b21ed604c6743cc88dd2841dfbc7d38a15dee807abd3c65d7f1713a",
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "pending": [
+    "Actual390650desktop containment/pan/NativeFit/focus/controls/rate/reducedmotion and state audit",
+    "Actual90mm192ppi sourceannotation/bar/externalkey/credit and two coherent printfigures",
+    "Broad presynapticfusion/NMJpropagation/excitation-contraction mechanism remains separate unfinished scope"
+  ]
+}

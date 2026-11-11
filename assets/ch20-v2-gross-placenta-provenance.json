@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-09",
+  "role": "Whole unmodified source gross human placental surface plate; not attachment or perfusion geometry",
+  "rights": {
+    "licence": "CC BY-NC-ND4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "scope": "Complete unchanged image only; noncommercial educational component, no adaptation or blanket relicensing",
+    "owning_credit_check": "Article current rights includes images unless excluded; no excluded Figure6 credit. CC deed unchanged sharing/format reproduction checked2026-11-09."
+  },
+  "reproduction": {
+    "builder": "figures/ch20_gross_placenta_v2.py",
+    "template": "figures/ch20_gross_placenta_v2.template.html",
+    "private_network_required": false,
+    "original_source": "PDF separately acquired and whole JPEG raw stream extracted; exact public immutable figure sufficient to rebuild composition. Full PDF private.",
+    "adaptation": "None; complete source JPEG must not be cropped, retouched or annotated"
+  },
+  "artifacts": {
+    "assets/ch20-v2-gross-placenta-reference.html": "94558fde51b16affef264868be2592ce15655bdd2d133076b7b86936e85ec8d7",
+    "figures/ch20_gross_placenta_v2.template.html": "94558fde51b16affef264868be2592ce15655bdd2d133076b7b86936e85ec8d7",
+    "figures/ch20_gross_placenta_v2.py": "915fef27dbae6db12f382e4b6cee19d10dd21d769182c61a5f5c2c00a32a5296",
+    "assets/ch20-v2-gross-placenta-whole.jpg": "3a20bbb834418d4a6f552c8a57697ce1d856a1e34d26527f50f36a84e26514e5",
+    "assets/ch20-v2-gross-placenta-sources.json": "aa454b9183b9c8d137da706c9f94db0c2bc8341ee3b99f951bc8334a656554dc",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "acceptance": {
+    "current": false,
+    "source_native": "Pending independent assembled retarget",
+    "actual_browser_print": "Pending root"
+  }
+}

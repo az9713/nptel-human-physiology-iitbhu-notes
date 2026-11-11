@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-09",
+  "primary": {
+    "authors": "Asima et al.",
+    "year": 2024,
+    "doi": "10.4103/ijnm.ijnm_98_23",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11232723/",
+    "licence": "CC BY-NC-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "pdf_sha256": "6bb40cad32684e205035b991a9428919ad7e7bd3848abc10e41f6389d95d422a",
+    "xml_sha256": "6c15094add1695d2796cca8ca2214bf354c503fd2af4b832a54ef76c77e5df11",
+    "component_terms": "Noncommercial/share-alike terms apply to this image; no blanket CC BY relicensing."
+  },
+  "file": {
+    "file": "ch21-v2-hsg-observed-image.jpg",
+    "sha256": "e3060e192848599fe4c779fcb22c498ba4324e78891b446ff72056335114cc99",
+    "dimensions": [
+      1010,
+      799
+    ]
+  },
+  "extraction": {
+    "xref": 6,
+    "pdf_page_index": 2,
+    "raw_DCT_byte_equal": true,
+    "whole_figure_retained": true,
+    "crop": null,
+    "retouch": null
+  },
+  "public_reproduction": "Immutable source JPEG and native extraction record are public composition inputs; original PDF/XML retained privately, no network or private input required.",
+  "acceptance": {
+    "current": false,
+    "source_native": "B bounded precode PASS",
+    "actual_browser_print": "Pending root"
+  },
+  "specimen": "Normal HSG result per caption; infertility cohort 50 women aged 21–40; pictured age, global health and outcome unreported.",
+  "procedure": "Study protocol: cycle 6–12, pregnancy excluded, muscle relaxant premedication, lithotomy, 15 ml radio-opaque dye under pressure via cervical Leech–Wilkinson cannula. Dye composition, pressure, interval and temperature unreported.",
+  "appearance": "Contrast-defined uterine cavity, bilateral tubal paths and peritoneal spill; original R marker and edge annotations retained. Static radiograph, not natural fluid flow or a timelapse.",
+  "print": {
+    "width_mm": 130,
+    "source_ppi": 197.3384615384615,
+    "actual_fine_branches_marker_review": "Pending root"
+  },
+  "limits": [
+    "No physiological sperm or embryo speed/transport",
+    "No sealed ovary–tube connection",
+    "No ciliary function or fertility diagnosis",
+    "Not radioactive Tc99m HSSG Figure 2",
+    "No new metric bar or leader"
+  ],
+  "calibration": "No physical source bar or verified projection axes; original R marker retained without new orientation marks."
+}

@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-09",
+  "sources": [
+    {
+      "id": "rosa-he-A",
+      "citation": "Rosa I, Ibba-Manneschi L, Guasti D, Perigli G, Faussone-Pellegrini MS, Manetti M (2022). Morphologic evidence of telocytes in human thyroid stromal tissue. Journal of Cellular and Molecular Medicine26:2477–2481.",
+      "doi": "10.1111/jcmm.17282",
+      "owning_url": "https://doi.org/10.1111/jcmm.17282",
+      "primary_archive_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8995439/",
+      "license": "CC BY4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "rights_basis": "Primary XML copyright/licence and published PDF metadata inspected; no Figure1 third-party exception located.",
+      "file": "ch11-v2-follicle-observed-panel-a.png",
+      "sha256": "5ce56dc011cd6961d732bccdceba6089d95edf04f8dc0095dd738b2ceb99bd7f",
+      "bytes": 606043,
+      "dimensions": [
+        693,
+        525
+      ],
+      "decoded_rgb_sha256": "17dfbaa5a9c3b2017948c1043e3dfb48c705c25c366eaab33d6d06d893c52972",
+      "source_figure_pixels": [
+        2079,
+        2101
+      ],
+      "source_figure_jpeg_sha256": "f1dd7bb0d5efb9ba830d823189f93236a6a102e3d18f0b29f91415b9507fff6b",
+      "source_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8995439.1/PMC8995439.1.pdf?md5=00e5a2eb8bc4d9d4d242844edda216d6",
+      "source_pdf_sha256": "66535c018505cdbffcb0e4a130dd2fb2b8025ba0327fe4b355a26423c1a8a7f6",
+      "source_pdf_md5": "00e5a2eb8bc4d9d4d242844edda216d6",
+      "source_pdf_page_1_based": 3,
+      "source_pdf_xref": 10,
+      "crop_rect_xyxy": [
+        0,
+        0,
+        693,
+        525
+      ],
+      "crop_operation": "Full H&E PanelA exact integer crop of Pillow-decoded native2079×2101 embedded JPEG; no resampling/retouch/recolour/new leaders or bar. Other IHC/IF panels omitted.",
+      "source_marks_retained": [
+        "Original(A) tag",
+        "H&E label",
+        "Original complete black scale bar; numeric50µm assignment comes from source caption, not a printed bitmap glyph"
+      ],
+      "specimen": "Human thyroid parenchyma without obvious lesion from surgical adult specimens; five adults in study; photographed donor identity/overall health/endocrine function not supplied.",
+      "preparation": "5µm formalin-fixed paraffin-embedded section, routine haematoxylin/eosin staining. Immunostaining/epoxy-resin protocols in same article are not assigned to this H&E panel.",
+      "source_caption_structure": "Colloid-containing follicles lined by epithelial thyrocytes with interfollicular reticular connective tissue.",
+      "source_calibration": "Source Figure1 caption assigns50µm bar toA–D; onlyA reproduced. No new ruler or nominal magnification substituted.",
+      "boundaries": [
+        "Two-dimensional prepared profiles, not spheres/full3D follicle sizes",
+        "Some follicular profiles cross image edges",
+        "H&E colours are stain appearance, not natural tissue colour",
+        "No stromal-cell subtype, molecular transporter or hormone-synthesis/release claim",
+        "No globally healthy donor or normal endocrine-function claim"
+      ],
+      "print_candidate": {
+        "width_mm": 110,
+        "file_ppi": 160.01999999999998,
+        "source_limited_exception": "Native693px panel enlarged110mm for epithelial-rim/bar/glyph inspection;160ppi source-limited presentation, not300ppi recovery. ActualPDF/native source glyph and tissue-detail acceptance pending."
+      }
+    }
+  ],
+  "acquisition_vs_composition": "Native PDF acquired and JPEG stream extracted separately; full figure/PDF remain private because other panels are unrelated. Public composer needs only immutableA PNG and source/proofJSON. No private/network dependency on rebuild.",
+  "decoder_caution": "Original JPEG stream is byte-identical to PDF raw DCT stream. Pillow and MuPDF JPEG decoding differ; only the named Pillow-decoded crop proof is claimed, not cross-decoder RGB identity."
+}

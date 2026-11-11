@@ -1,7 +1,7 @@
 {
   "chapter": 19,
   "title": "Female anatomy, ovarian cycles and lactation",
-  "status": "accepted",
+  "status": "revised",
   "coverage_complete": true,
   "source_recordings": [
     43,
@@ -729,7 +729,7 @@
       "coverage_status": "located in developed draft; authoring evidence, not review acceptance"
     }
   ],
-  "body_sha256": "9a452bb7fdc9a2b763e184ce2ec8067726cc12668c9ba0238eec972c9e538d67",
+  "body_sha256": "f78c57588bcc77d0751f70cb9f41a714c13533ea0895f4cb4a0460e3ac5b4a32",
   "body_hash_definition": "SHA256 of exact raw bytes strictly between unique BEGIN/END CHAPTER BODY markers; all newlines retained, no trim or DOM normalization.",
   "reviewed_artifacts": [
     {
@@ -803,7 +803,76 @@
     "assets/ch19-stages.svg": "611656c63330fadda630472d2ba9b5d638cec111e514a13f292d1eafc4349810",
     "code/ch19_check.cjs": "d7bcd8f740815f3da662b5d12a65c54b5699bdf5b1d3d7464c472440cd1ab32d",
     "code/ch19_export.cjs": "a783b096e0bb1bae07aa31f0e669f98d1e6de230d979c4fd80f9a27b0af35170",
-    "code/ch19_reproduction.py": "2e5d4ae6171fa8346e4830517735a92387ae3cd9dcc272e91b0f4bccd2aab9df"
+    "code/ch19_reproduction.py": "2e5d4ae6171fa8346e4830517735a92387ae3cd9dcc272e91b0f4bccd2aab9df",
+    "assets/ch19-v2-pelvic-mri-image.jpg": "f6d733fdeb4d6db64a67ade8ff5cb0bb25c8c4dee1ce24ae84412f916dc06ed9",
+    "assets/ch19-v2-pelvic-mri-sources.json": "67b14717d48e40b1cc089b849e89fb9fb55ca97c37128b451b976483e5b90878",
+    "figures/ch19_pelvic_mri_v2.template.html": "6b8d9d12b071c0679a391961cb4ebd75a989d34ab338a2a4b54163a66cb102e4",
+    "assets/ch19-v2-pelvic-mri-reference.html": "6b8d9d12b071c0679a391961cb4ebd75a989d34ab338a2a4b54163a66cb102e4",
+    "figures/ch19_pelvic_mri_v2.py": "08e74c81abfb1d3e8d57476f8cae78b4bc011eb98e75e7bf08721a6d6c5793f6",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "assets/ch19-v2-pelvic-mri-provenance.json": "d7cc35ee8bb132bd78c58eb8e8f6e3b1c1d9503d08b385c1816cb2444d5d59ca",
+    "assets/ch19-v2-follicle-observed-reference.html": "53a1309a8115b7244c64235c739bf511dec3ff8f8ea8d174974d8160ac06a559",
+    "figures/ch19_follicle_observed_v2.template.html": "53a1309a8115b7244c64235c739bf511dec3ff8f8ea8d174974d8160ac06a559",
+    "figures/ch19_follicle_observed_v2.py": "2295292d4b7e5922a311b3fd067620ba7e38bfce2260492634783983b886a6e1",
+    "assets/ch19-v2-follicle-observed-sources.json": "9e3671c313c753c7860290462732ea473da4ca70f34b5e1aa8c537941f653fa2",
+    "assets/ch19-v2-follicle-observed-field-2.jpg": "f8ba946994b88a38162c852452fc8fdba917da88ff79d280df2069f2d14335fe",
+    "assets/ch19-v2-follicle-observed-field-3.jpg": "c6a228bdda8a349ee89f9180637434c856833ea3e83e7b58407cf6a138421ed3",
+    "assets/ch19-v2-follicle-observed-field-5.jpg": "ccd13abc397ca4750272d08a3ecf6489e3e3603e0eb1898a247b59981d12677f",
+    "assets/ch19-v2-follicle-observed-field-6.jpg": "8af3fc9ff8ef7b088686581c1d0d4b13a2e28ae1c5b576f3924c5a5a273b131b",
+    "assets/ch19-v2-follicle-observed-field-7.jpg": "06cba4acffbaa89373fa9dbf6cee78c69309f9b1ecb276423626373e96bd3ab5",
+    "assets/ch19-v2-follicle-observed-provenance.json": "43cd4122279de99e30c59509e825636fb9b665484744a13ed2d73631ee34df59",
+    "assets/ch19-v2-oocyte-reference.html": "b78fadd6095b9f28716841a04d8c8874af2edafc5196e6297807e5172ee35a7d",
+    "figures/ch19_oocyte_inventory_v2.template.html": "b78fadd6095b9f28716841a04d8c8874af2edafc5196e6297807e5172ee35a7d",
+    "figures/ch19_oocyte_inventory_v2.py": "9d45ebb4b0d84b5edfe2b97ed302c54d8395888bb4ad61f712933430bbfc2035",
+    "assets/ch19-v2-oocyte-sources.json": "55355ad9b8a4c9a16247c35fc2ee6dd36a68273afd8d5e66f4b20d5090596f4c",
+    "assets/ch19-v2-oocyte-model.js": "25df73d3fe8e74824f847f7b024b782686dd3ea36515f50880a47a2d369f26ee",
+    "assets/ch19-v2-oocyte-controls.js": "42d1e560de45290ab62ec7b0998302b221db6d9107914e0f18839777fa73380b",
+    "assets/ch19-v2-ovulation-observed-left-0077.png": "78ed8f9efa62ca9adf6515350e4037b28cda4505226ed3d1a24cdde905cfa57c",
+    "assets/ch19-v2-ovulation-observed-sources.json": "eb149163d23ee5ec9d4c9355c9cc044c453ff62a9b595948f2106b0df25d265e",
+    "assets/ch19-v2-oocyte-provenance.json": "d91d918fa9c977212774f71a6688d7fb490cf0241d647c3b80b3d11210d68d23",
+    "assets/ch19-v2-cycle-traces-reference.html": "9401c7652db0f7a2b83c1be5cb72262861bf445c669c4f85e9d8814032a8fe97",
+    "figures/ch19_cycle_traces_v2.template.html": "9401c7652db0f7a2b83c1be5cb72262861bf445c669c4f85e9d8814032a8fe97",
+    "figures/ch19_cycle_traces_v2.py": "ee623f2d512dfcf8ab879b3dab3dc4a9a59f410a053178a3deb0ed6203dede6c",
+    "assets/ch19-v2-cycle-traces-sources.json": "61ae10a00ba34cde0e37604b78425beece02ab0630c4f8216d8feb604cf6c3e0",
+    "assets/ch19-v2-cycle-traces-model.js": "b8366285f237f85505a6d3ba16e05428534afe8d19852ab29ca868dd854183e7",
+    "assets/ch19-v2-cycle-traces-controls.js": "5b2af7cdda6c9e18a98da3cf8e350e34d38dfcc233542442fea47136922e7a3e",
+    "assets/ch19-v2-cycle-traces-default.svg": "3992eea4cfd488fe035db49076d2354ed27696eb5d86f9e38ebb5315427e6c78",
+    "assets/ch19-v2-cycle-traces-provenance.json": "8805d2a88d44352c2fd98841b70e491879c5299156ed74a005d582ece7134af3",
+    "assets/ch19-v2-lactation-observed-reference.html": "61e2ed499c3c0d72d719e5bb2ceaca0b5fede5ed3aa903ddc2ce9a4ffe021998",
+    "figures/ch19_lactation_observed_v2.template.html": "61e2ed499c3c0d72d719e5bb2ceaca0b5fede5ed3aa903ddc2ce9a4ffe021998",
+    "figures/ch19_lactation_observed_v2.py": "543726eaa33032886b5856bd1f2b00dac3a73d726498299422538cb6edf4fd68",
+    "assets/ch19-v2-lactation-observed-sources.json": "8b275fb85345669bf4601132977f70faff70111028c0305c5adec3db95bfc419",
+    "assets/ch19-v2-lactation-observed-movie.webm": "fa0e7a858ea55a166fc242c6b43b276325c3687a367057c08490efb484690862",
+    "assets/ch19-v2-lactation-observed-rgb-proof.json": "0e1412f8d8a9d9513cc55d1ca23d0ff470ec35af57069d7dcee217bfcca60172",
+    "assets/ch19-v2-lactation-observed-frame-0000.png": "25b18244ebbef93ee5539471c7d62d370f3292f81342170093715b81f8b54928",
+    "assets/ch19-v2-lactation-observed-frame-0400.png": "57f7d9ebc52129a65a4b01254f5dda0c14ca8de0ae4c34ae57576cd3b1f7b3bc",
+    "assets/ch19-v2-lactation-observed-frame-0600.png": "cacdc84ba6a6c06c76756485524989e18ca6b5263961b29d4d27323389fbc76b",
+    "assets/ch19-v2-lactation-observed-frame-0815.png": "9c9000a5ee7e959fabd95db5928cac671ed1926f407abe796c0f63b0eaa2520e",
+    "assets/observed-video-controls.css": "55144b39d16e8f1096f0cf1d534c817076d1b8c1e137320291f9e8a46b852c9b",
+    "assets/observed-video-controls.js": "1136584777fdb340619dab2527e02e647c95d12fa4a5d8af847148a60f42341f",
+    "assets/ch19-v2-lactation-observed-provenance.json": "848b58108e1f8f2ecf11ee52d74e0c63cbb56fd65b85c2b1e367df44c313efa7",
+    "assets/ch19-v2-milk-inventory-reference.html": "cd963f546f55e309e5395f753e17ec4382f6f64526c617a9fa1a5e4a3c17ded4",
+    "figures/ch19_milk_inventory_v2.template.html": "cd963f546f55e309e5395f753e17ec4382f6f64526c617a9fa1a5e4a3c17ded4",
+    "figures/ch19_milk_inventory_v2.py": "59f75145d6dc2fb1ae178592d80962671ee512da3be0955bc9e216a6e9c3805e",
+    "assets/ch19-v2-milk-inventory-sources.json": "5f0f00c131467796c7242925299cfc2fd80cc0eccc7809cd516942780d89c037",
+    "assets/ch19-v2-milk-inventory-model.js": "afc2f29ab6766d60eea16231ac84a9c57f4521e51e08e7cbe6595e617deda829",
+    "assets/ch19-v2-milk-inventory-controls.js": "71535a048f6f872406bc237e93bc7c669af43972193114c4ccb8a72c7a5f5e80",
+    "assets/ch19-v2-milk-inventory-default.svg": "d3c5b70cc8003520428ffedaed0e233a917a332b4fda9b12ac21438ad632414d",
+    "assets/ch19-v2-milk-inventory-provenance.json": "e0cc84dcbb2e7422937c616d81347b17e899be390bd1f47d6fde3b37d1c194cb",
+    "assets/ch19-v2-ovulation-observed-movie.mp4": "cc8f203477aca204f6f5e796151ec72971d1fcc2c7e4fb11674d1990e528dc36",
+    "assets/ch19-v2-ovulation-observed-frame-0000.png": "75fed16aed2c14cdceae6835adcbbdcb40a48730468fc55095e8394939ef34d5",
+    "assets/ch19-v2-ovulation-observed-left-0000.png": "24d1035a5f9ab21531f294a1f00af912ad410a6ba32976abab240cd8d739d655",
+    "assets/ch19-v2-ovulation-observed-frame-0039.png": "5f1a9c5c35c4519635f643863a0a4756979d88b225da0572b885a214fedded98",
+    "assets/ch19-v2-ovulation-observed-left-0039.png": "f31a6f2f82b78a7b39bd05fdcdeb8584cc9ef0760fa7fc225fa9880ea8cc3cb6",
+    "assets/ch19-v2-ovulation-observed-frame-0060.png": "ecf31f1bf565f9cac97bbca780bf82fa96241f943d1c60667f98e1e026d11ba9",
+    "assets/ch19-v2-ovulation-observed-left-0060.png": "5810df3d652e3b0823c88ad6a5e5cb7c59b12d4c65472afbd6d7b1bce8222869",
+    "assets/ch19-v2-ovulation-observed-frame-0077.png": "d77d3506fafee5149181509efe4457254f3fcf251b9bf953f08b5d28ff8fda2d",
+    "assets/ch19-v2-ovulation-observed-reference.html": "afe665f21d3992ca245a54a9619f90f819202c89a255f8385a213ef6d4da1614",
+    "figures/ch19_ovulation_observed_v2.template.html": "afe665f21d3992ca245a54a9619f90f819202c89a255f8385a213ef6d4da1614",
+    "figures/ch19_ovulation_observed_v2.py": "29b48b2efb2166157d47ad77007f969ff539f7769cd6a36df7ca2d78f63c7087",
+    "assets/ch19-v2-ovulation-observed-provenance.json": "49492c9a4a641fb9fda2594027c9e6ef00b18ef59e67275d2d5c1eb2ba8a8202",
+    "chapter-19-female-reproduction-ovarian-cycle.html": "b02d651a617cb9b5af117648ad22f0b9031bd17b745c3cfb166a68922676305a"
   },
   "reviews": [
     {
@@ -878,39 +947,121 @@
   "figures": [
     {
       "id": "ch19-fig1",
-      "path": "assets/ch19-context.svg",
-      "status": "accepted"
+      "path": "chapter-19-female-reproduction-ovarian-cycle.html#ch19-fig1",
+      "status": "integrated-pending-parent-ui-print",
+      "historical_revision_required_entry": {
+        "id": "ch19-fig1",
+        "path": "assets/ch19-context.svg",
+        "status": "revision-required"
+      },
+      "scope": "Bounded role only; see current caption and exact source records"
     },
     {
       "id": "ch19-follicle-observation",
       "path": "assets/ch19-mouse-follicles.jpg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch19-mammary-observation",
       "path": "assets/ch19-mouse-mammary-confocal.jpg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch19-anim1",
       "path": "chapter-19-female-reproduction-ovarian-cycle.html#ch19-anim1",
-      "embedded_panel": "assets/ch19-mechanisms.html?mode=stages",
-      "status": "accepted"
+      "status": "integrated-pending-parent-ui-print",
+      "historical_revision_required_entry": {
+        "id": "ch19-anim1",
+        "path": "chapter-19-female-reproduction-ovarian-cycle.html#ch19-anim1",
+        "embedded_panel": "assets/ch19-mechanisms.html?mode=stages",
+        "status": "revision-required"
+      },
+      "scope": "Bounded role only; see current caption and exact source records"
     },
     {
       "id": "ch19-anim2",
       "path": "chapter-19-female-reproduction-ovarian-cycle.html#ch19-anim2",
-      "embedded_panel": "assets/ch19-mechanisms.html?mode=cycle",
-      "status": "accepted"
+      "status": "integrated-pending-parent-ui-print",
+      "historical_revision_required_entry": {
+        "id": "ch19-anim2",
+        "path": "chapter-19-female-reproduction-ovarian-cycle.html#ch19-anim2",
+        "embedded_panel": "assets/ch19-mechanisms.html?mode=cycle",
+        "status": "revision-required"
+      },
+      "scope": "Bounded role only; see current caption and exact source records"
     },
     {
       "id": "ch19-anim3",
       "path": "chapter-19-female-reproduction-ovarian-cycle.html#ch19-anim3",
-      "embedded_panel": "assets/ch19-mechanisms.html?mode=milk",
-      "status": "accepted"
+      "status": "integrated-pending-parent-ui-print",
+      "historical_revision_required_entry": {
+        "id": "ch19-anim3",
+        "path": "chapter-19-female-reproduction-ovarian-cycle.html#ch19-anim3",
+        "embedded_panel": "assets/ch19-mechanisms.html?mode=milk",
+        "status": "revision-required"
+      },
+      "scope": "Bounded role only; see current caption and exact source records"
+    },
+    {
+      "id": "ch19-v2-observed-release",
+      "path": "chapter-19-female-reproduction-ovarian-cycle.html#ch19-v2-observed-release",
+      "embedded_panel": "assets/ch19-v2-ovulation-observed-reference.html",
+      "status": "integrated-pending-parent-ui-print",
+      "scope": "Bounded isolated-mouse-follicle local release; not human timing/route"
     }
   ],
   "realistic_asset_gate": {
+    "status": "incomplete",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "current": false
+  },
+  "quality": {
+    "scientific_reviews": "Historical chapter prose reviews retained; new bounded source/model reports under work/visual-v2/ch18–21; current parent review pending.",
+    "browser": "Pending actual root UI/print on the new canonical bytes; earlier production/browser reviews are historical.",
+    "coverage": "All44 L43–45 topics and closing prompts dispositioned using full captions; bounded11 contact sheets179 sampled stills21 native repeats, not continuous video/audio; two actual full reviews plus targeted scientific and production containment repairs."
+  },
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
+  "author_report": "work/ch19-author-report.md",
+  "research_ledger": "work/ch19-research-ledger.md",
+  "production_validation": {
+    "status": "pending",
+    "scope": "New canonical reader UI/print and source review; no actual browser claim inherited"
+  },
+  "limitations": [
+    "Mouse images are prepared cross-species observations, not human stage kinetics; follicle physical scale/stage/preparation details absent; mammary full width331µm per catalogue.",
+    "Growth/cycle/oocyte clocks distinct; synthetic hormone traces are prescribed qualitative states, not feedback equations, reserve forecast or clinical ovulation prediction.",
+    "Milk inventory is a single accessible compartment with constant synthetic inputs and linear effective removal; no hormone kinetics/infant transfer model.",
+    "Primordial reserve exact per-ovary slide counts discarded; no replacement individual human reserve count or deterministic age model.",
+    "Primary abstracts retrieved via EuropePMC after blocked direct pages; no claimed full-methods access to those papers.",
+    "No acceptance, real browser validation or publication status claimed; futureChapter20 navigation left plain text until its canonical file exists.",
+    "Half-open prescribed cycle domain0≤elapsed<28;280samples through27.9. The28tick denotes an unsampled next-onset boundary, not a state of the old oocyte or a predicted new lineage.",
+    "Inventory implementation uses stable small-z source gain; finite parameters with an unrepresentable total input/output are rejected. Last-bit roundoff is bounded to the analytical content interval.",
+    "2026-11-09: newly integrated observed fields/quantitative labs cover bounded roles only. Duct/HPG/reflex, implantation, complete placental/birth geometry and contraceptive/PID mechanisms are not supplied by nearby specimens; current visual coverage remains incomplete."
+  ],
+  "repair_report": "work/ch19-repair-report.md",
+  "repair_scope": "One bounded union of actual independent full reports A/B; original reports/packet/snapshot/author handoff preserved. Targeted reviewer checks and production remain root-owned; no acceptance.",
+  "coverage_basis": "All44 L43–45 topics and closing prompts dispositioned using full captions; bounded11 contact sheets179 sampled stills21 native repeats, not continuous video/audio; two actual full reviews plus targeted scientific and production containment repairs.",
+  "accepted_at_utc": null,
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-19.json",
+    "sha256": "a367203e522d692e2f43647d90c480dba709c1669b279dc283c4992872b221ee",
+    "current": false,
+    "scope": "Historical record only; new reader acceptance incomplete"
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "incomplete",
+    "date": "2026-11-09",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false,
+    "visual_coverage_complete": false,
+    "reader_scope": "Bounded independently source-reviewed observed/quantitative roles integrated; actual parent/gallery UI and print pending, broader mechanisms remain incomplete",
+    "snapshot": "work/visual-v2/ch19/reader-freeze/snapshot-v4.json",
+    "css_dependency_repair": "2026-11-09; standalone bodies/science/source unchanged, malformed inherited CSS repaired; parent HTML unchanged"
+  },
+  "prior_visual_gate": {
     "status": "accepted",
     "mode": "observed-reference-plus-schematic",
     "scene_family": "Ovarian compartments, meiotic counters, ovarian cycle and lactation routes",
@@ -926,35 +1077,16 @@
     "report_path": "work/browser/ch19-visual-modality.json",
     "report_sha256": "31886283bac26d15ec9d90591c723ee97ea35ed070f6d1db01360047a837de3a"
   },
-  "quality": {
-    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
-    "browser": "Actual root current reader, all eight selectable oocyte states, cycle/lactation cases, live cycle playback and settled reduced-motion pause, desktop/650px/390px access and keyboard diagram panning, 24-page browser print proof",
-    "coverage": "All44 L43–45 topics and closing prompts dispositioned using full captions; bounded11 contact sheets179 sampled stills21 native repeats, not continuous video/audio; two actual full reviews plus targeted scientific and production containment repairs."
+  "visual_coverage_complete": false,
+  "prior_reader_validation_binding": {
+    "html_sha256": "f14b8f23585ef41a8108392d7b1427f8c26f0d81101e55809bbabb001a798dd6",
+    "body_sha256": "9a452bb7fdc9a2b763e184ce2ec8067726cc12668c9ba0238eec972c9e538d67",
+    "reviews": "Existing reviews/reviewed_artifacts and prior acceptance retained unchanged as historical records; not new-reader proof",
+    "production_validation": {
+      "report_path": "work/browser/ch19-production-final.json",
+      "report_sha256": "9cc33287a64b241a281c268ea71699e970d45d77ed543b2036de660daab8b401",
+      "scope": "Actual root current reader, all eight selectable oocyte states, cycle/lactation cases, live cycle playback and settled reduced-motion pause, desktop/650px/390px access and keyboard diagram panning, 24-page browser print proof"
+    }
   },
-  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
-  "author_report": "work/ch19-author-report.md",
-  "research_ledger": "work/ch19-research-ledger.md",
-  "production_validation": {
-    "report_path": "work/browser/ch19-production-final.json",
-    "report_sha256": "9cc33287a64b241a281c268ea71699e970d45d77ed543b2036de660daab8b401",
-    "scope": "Actual root current reader, all eight selectable oocyte states, cycle/lactation cases, live cycle playback and settled reduced-motion pause, desktop/650px/390px access and keyboard diagram panning, 24-page browser print proof"
-  },
-  "limitations": [
-    "Mouse images are prepared cross-species observations, not human stage kinetics; follicle physical scale/stage/preparation details absent; mammary full width331µm per catalogue.",
-    "Growth/cycle/oocyte clocks distinct; synthetic hormone traces are prescribed qualitative states, not feedback equations, reserve forecast or clinical ovulation prediction.",
-    "Milk inventory is a single accessible compartment with constant synthetic inputs and linear effective removal; no hormone kinetics/infant transfer model.",
-    "Primordial reserve exact per-ovary slide counts discarded; no replacement individual human reserve count or deterministic age model.",
-    "Primary abstracts retrieved via EuropePMC after blocked direct pages; no claimed full-methods access to those papers.",
-    "No acceptance, real browser validation or publication status claimed; futureChapter20 navigation left plain text until its canonical file exists.",
-    "Half-open prescribed cycle domain0≤elapsed<28;280samples through27.9. The28tick denotes an unsampled next-onset boundary, not a state of the old oocyte or a predicted new lineage.",
-    "Inventory implementation uses stable small-z source gain; finite parameters with an unrepresentable total input/output are rejected. Last-bit roundoff is bounded to the analytical content interval."
-  ],
-  "repair_report": "work/ch19-repair-report.md",
-  "repair_scope": "One bounded union of actual independent full reports A/B; original reports/packet/snapshot/author handoff preserved. Targeted reviewer checks and production remain root-owned; no acceptance.",
-  "coverage_basis": "All44 L43–45 topics and closing prompts dispositioned using full captions; bounded11 contact sheets179 sampled stills21 native repeats, not continuous video/audio; two actual full reviews plus targeted scientific and production containment repairs.",
-  "accepted_at_utc": "2026-11-05T03:34:33.395Z",
-  "public_acceptance": {
-    "path": "validation/acceptance/chapter-19.json",
-    "sha256": "a367203e522d692e2f43647d90c480dba709c1669b279dc283c4992872b221ee"
-  }
+  "prior_accepted_at_utc": "2026-11-05T03:34:33.395Z"
 }

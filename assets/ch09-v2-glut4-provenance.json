@@ -1,0 +1,111 @@
+{
+  "status": "Local candidate; all applicable rubric evidence required",
+  "date": "2026-11-09",
+  "builder": {
+    "file": "figures/ch09_glut4_observed_v2.py",
+    "bytes": 2527,
+    "sha256": "238fec127843fd19b5c928971dfcf92f6bfb3f91c40f105c53d497a4fad70284"
+  },
+  "rebuild": "python -B -X utf8 figures/ch09_glut4_observed_v2.py",
+  "tools": {
+    "python": "3.13",
+    "ffmpeg": "ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers"
+  },
+  "source": {
+    "date": "2026-11-09",
+    "creators": [
+      "Jennine M.Dawicki-McKenna",
+      "Yale E.Goldman",
+      "E.Michael Ostap"
+    ],
+    "title": "Sites of Glucose Transporter-4 Vesicle Fusion with the Plasma Membrane Correlate Spatially with Microtubules",
+    "year": 2012,
+    "doi": "10.1371/journal.pone.0043662",
+    "owning_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0043662",
+    "supplement_doi": "10.1371/journal.pone.0043662.s006",
+    "source_video": "VideoS1 (s006.mov)",
+    "license": "Creative Commons Attribution, version unspecified in owning publisher HTML/XML notice",
+    "rights_basis": "Owning full HTML and manuscript XML permissions inspected; no supplement-specific exception located. No automatic substitution of CC BY4.0.",
+    "specimen": "Differentiated mouse3T3-L1 adipocyte expressing HA-GLUT4-eGFP, serum-starved,100nMinsulin at embedded0min",
+    "modality": "TIRF, fluorescence-display contrast; no natural colour or visible-light histology",
+    "dimensions": [
+      509,
+      434
+    ],
+    "frames": 132,
+    "file_fps": 15,
+    "duration_file_seconds": 8.8,
+    "source_acquisition_seconds_per_frame": 10,
+    "nominal_acceleration_at_1x": 150,
+    "source_embedded_clock_endpoints_minutes": [
+      -5.17,
+      16.67
+    ],
+    "timing_boundary": "Embedded source clock retained; publication file time differs from experiment time. No exact additional alignment or source kinetic rate fitted.",
+    "identity": {
+      "source_sha256": "ea9dcb9161fb26a6f0cd0e231f617884c8032820ce51965ef1fc031a422e5e8b",
+      "remux_sha256": "0adce60b7582231e0537387a3335c4dec6a6620608eb6d55e2bdbd1148ab8ee8",
+      "method": "ffmpeg map video stream, copy codec; no audio; faststart",
+      "packets_pts_duration_sha256_equal": true,
+      "packet_count": 132
+    },
+    "source_html_sha256": "93c254a3fce4dcd364d816db80a79d483515f0ba825fcf38be6ce34b1ecfbc42",
+    "source_xml_sha256": "214ec924a7b42df86fde4d025e2ae56f4965c287c4b0285f265f8b587b568105",
+    "source_limits": [
+      "TIRF intensity not direct glucose uptake or exact membrane insertion count",
+      "No resolved fusion pore/GLUT4 fold/insulin receptor",
+      "Cultured mouse system, not human adipocyte",
+      "Original first-frame15µmbar retained; no new ruler"
+    ],
+    "separate_candidate_not_delivered": "S10 IRAP-pHluorin fusion-reporter movie kept private pending actual-motion visibility review; not presented as direct GLUT4 tracking"
+  },
+  "artifacts": [
+    {
+      "file": "figures/templates/ch09-v2-glut4-reference.html",
+      "bytes": 9722,
+      "sha256": "e96e0abab89c816766c3f58856fbfd2dd808ab2b048b6e2788ddae40848dd571"
+    },
+    {
+      "file": "assets/ch09-v2-glut4-reference.html",
+      "bytes": 9722,
+      "sha256": "e96e0abab89c816766c3f58856fbfd2dd808ab2b048b6e2788ddae40848dd571"
+    },
+    {
+      "file": "assets/ch09-v2-glut4-redistribution.mp4",
+      "bytes": 1236630,
+      "sha256": "0adce60b7582231e0537387a3335c4dec6a6620608eb6d55e2bdbd1148ab8ee8"
+    },
+    {
+      "file": "assets/ch09-v2-glut4-redistribution-frame-0000.png",
+      "bytes": 83898,
+      "sha256": "a036ce359def2d36e258d84e23d6975f8a7f910bec40950981342742f22c706a"
+    },
+    {
+      "file": "assets/ch09-v2-glut4-redistribution-frame-0066.png",
+      "bytes": 110382,
+      "sha256": "69aec4154ec0e208276c653a4a4b4cdefad4e3186f9ebf3ef557e467aca15c88"
+    },
+    {
+      "file": "assets/ch09-v2-glut4-redistribution-frame-0131.png",
+      "bytes": 118817,
+      "sha256": "c1a3a1ba042aaa6ae814a81ab00c7d25bfb4b2cf113012411668a07471ac1758"
+    },
+    {
+      "file": "assets/observed-video-controls.js",
+      "bytes": 5762,
+      "sha256": "1136584777fdb340619dab2527e02e647c95d12fa4a5d8af847148a60f42341f"
+    },
+    {
+      "file": "assets/observed-video-controls.css",
+      "bytes": 1123,
+      "sha256": "55144b39d16e8f1096f0cf1d534c817076d1b8c1e137320291f9e8a46b852c9b"
+    }
+  ],
+  "frame_extraction": "Full frames0/66/131 decoded by pinned FFmpeg, PNG lossless; no resampling or colour/contrast changes",
+  "acquisition_boundary": "Original MOV separately acquired from actual publisher supplement link; exact packet hashes/PTS/durations match unchanged remuxed MP4. Offline rebuild requires this already acquired MP4, never a private source path or network.",
+  "print": {
+    "endpoint_width_mm": 80,
+    "native_ppi": 161.6075,
+    "source_limited_exception": "509px source; smaller image, no hallucinated upscaling. Actual print legibility remains to be verified."
+  }
+}

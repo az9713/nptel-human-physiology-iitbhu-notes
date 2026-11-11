@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-09",
+  "status": "Supporting observed candidate; final source/native/anatomy and actualUI/print review pending, no acceptance inferred",
+  "source_record": "ch14-v2-gross-knee-sources.json",
+  "source_record_sha256": "b9a8cc0d0a7d043958494a004b0e6c674657e00411575afb694d03463f24d5ea",
+  "input": {
+    "file": "ch14-v2-gross-knee-source.jpg",
+    "sha256": "620854626ca51546b10b22e5b7c1d126bfce7d94873bdb5684e1965bc2e37ac0",
+    "pixels": [
+      1351,
+      827
+    ],
+    "rgb_sha256": "879d75f4b38f1adaf6fc936cc3908567e508b8735730dc76d044bab584d6e218",
+    "source_pdf_sha256": "d1dedb852152bc0bfe3492e29302903ca28e74b37372728178bde95e10d67ad2",
+    "source_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5897376.1/PMC5897376.1.pdf?md5=a704e0f5e66a3b30ed23e0a66f497365",
+    "extraction": "PublishedPDFpage9xref250 DCTJPEG rawstream byteidentical to extracted nativeJPEG. No resampling/recoloring/cropping or anatomicalannotation.",
+    "raw_DCT_stream_identity": true
+  },
+  "specimen": "Two source-labelled human cadaver examples,43yearhealthy(imageleft),88yearOA(imageright). Specificsex/bodyside/cameraaxis not assigned. Not onejointaging orsourceoks003.",
+  "preparation": "Studyfresh-frozenknees n12,age31–88,4female8male; onefreeze-thawcycle beforedissection. Joints photographed and blindgraded bytwoindividuals onthreeoccasions oneweekapart; tissueICRSgrading.",
+  "source_caption": "Photographs of young(43years)healthy(left)and old(88years)osteoarthritic(right)kneejointspecimens.",
+  "component_rights": "CC BY4.0, copyright2018authors; Figure6noindicatedthirdpartyexclusion.",
+  "print": {
+    "width_mm": 160,
+    "height_mm": 97.94226498889711,
+    "ppi": 214.47125,
+    "source_limited_exception": true,
+    "key_min_pt": 9.5,
+    "credits_min_pt": 9
+  },
+  "scope": "Supportingobservedreference alongside continuedsource-grounded3D/motion work, notsubstitutefor/unmeasuredcompletionofthatwork.",
+  "reproduction": {
+    "builder": "figures/ch14_gross_knee_v2.py",
+    "builder_sha256": "47295c0748df07762a7f0e47b421920211897bf172db801b1f70bef7b5816659",
+    "template": "figures/ch14_gross_knee_v2.template.html",
+    "template_sha256": "d7ef38e205c5c8f7c7b58eb987112bfe724524c1b1f31be763b5117cc89d39cc",
+    "python": "3.13.5",
+    "inputs": "Public immutableJPEG/sourceJSON/template/sharedmodal only; no privatework/network or originalacquisition required"
+  },
+  "artifacts": {
+    "ch14-v2-gross-knee-source.jpg": "620854626ca51546b10b22e5b7c1d126bfce7d94873bdb5684e1965bc2e37ac0",
+    "ch14-v2-gross-knee-reference.html": "d7ef38e205c5c8f7c7b58eb987112bfe724524c1b1f31be763b5117cc89d39cc",
+    "ch14-v2-gross-knee-sources.json": "b9a8cc0d0a7d043958494a004b0e6c674657e00411575afb694d03463f24d5ea",
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "pending": [
+    "Bsource/nativecomposition and anyanatomicalclaim",
+    "Actualdesktop650390containment/NativeFit/keyboardpan/End/Home/allcorners/focus",
+    "Actual160mm214ppi onepageprint/photo/key/creditlegibility",
+    "No canonicalintegration andno3Dmotionrequirementwaived"
+  ]
+}

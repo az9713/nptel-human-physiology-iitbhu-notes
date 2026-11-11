@@ -26,3 +26,12 @@ Thumbs.db
 /tools/acquire_frames.py
 /tools/export_acceptance.py
 /tools/inventory_sources.py
+
+# Private visual evidence and internal production notes
+/validation/visuals/
+/research/visual-v2-audit.md
+/research/visual-v2-sources.md
+
+# Exact oversized media are restored from checksum-pinned release assets.
+/assets/ch03-v2-rbc-clot-retraction.webm
+/assets/ch21-v2-organoid-observed-movie.webm

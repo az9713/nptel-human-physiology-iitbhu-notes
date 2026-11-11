@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-09",
+  "role": "Observed confocal-volume reconstruction of one human fallopian-tube organoid local infection response; no whole-PID mechanism",
+  "primary": {
+    "authors": "Kessler et al.",
+    "year": 2019,
+    "doi": "10.1038/s41467-019-09144-7",
+    "article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6423033/",
+    "rights": "CC BY 4.0; no excluded Supplementary Movie 1 credit found",
+    "xml_sha256": "f4242b5bcf471856f343696dba4edf68ee32df66afbe933bed777f158a0f0dda",
+    "supplement_description_sha256": "3d1789c5251ee0ce7d464cea19ff76a6850a09c080d651264107b6ac88ce0fc8"
+  },
+  "original": {
+    "file": "ch21-v2-organoid-observed-original.mov",
+    "sha256": "93be3cdcf528645b6da16daa87678178791ddd0bd1db462d93f69f43f8c9bf99",
+    "bytes": 14275489,
+    "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6423033.1/41467_2019_9144_MOESM5_ESM.mov?md5=1934bc6094f0e325491eaa07860be972",
+    "frames": 749,
+    "dimensions": [
+      1960,
+      1292
+    ],
+    "fps": "24000/1001",
+    "duration_seconds": 31.239542
+  },
+  "movie": {
+    "file": "ch21-v2-organoid-observed-movie.webm",
+    "sha256": "17875906b997fbbecf60ceee376ac1f7ccb87f969e023a7ff1785ce64656ad39",
+    "bytes": 226769048,
+    "codec": "VP9 Profile 0",
+    "pixel_format": "yuv420p",
+    "operations": "Lossless native-YUV re-encode, complete original frame order/field; all 749 decoded RGB frame hashes equal under FFmpeg7.1.1; no crop, interpolation, grading or local overlay"
+  },
+  "stills": [
+    {
+      "file": "ch21-v2-organoid-observed-frame-0000.png",
+      "sha256": "bc0d626a580a5103e17bf5a0c4c6ce91398a3d4dcf265ad6f942ac0a37be7e32",
+      "bytes": 433547,
+      "frame_index": 0,
+      "dimensions": [
+        1960,
+        1292
+      ]
+    },
+    {
+      "file": "ch21-v2-organoid-observed-frame-0250.png",
+      "sha256": "34a8aa064fde459ad578ccf63c773e1872e19d555982aaaeea9fd080b95a4461",
+      "bytes": 625829,
+      "frame_index": 250,
+      "dimensions": [
+        1960,
+        1292
+      ]
+    },
+    {
+      "file": "ch21-v2-organoid-observed-frame-0500.png",
+      "sha256": "de138e2f2078d64404a7a8f50aef12aeae27dfc71c07ab9106a59baf19bcbbb6",
+      "bytes": 669825,
+      "frame_index": 500,
+      "dimensions": [
+        1960,
+        1292
+      ]
+    },
+    {
+      "file": "ch21-v2-organoid-observed-frame-0748.png",
+      "sha256": "44860c48140d2d08d40d6ea530edf70415060f8ea097be8f6c71ac6dcf6cdb36",
+      "bytes": 1136859,
+      "frame_index": 748,
+      "dimensions": [
+        1960,
+        1292
+      ]
+    }
+  ],
+  "proofs": [
+    {
+      "file": "ch21-v2-organoid-observed-proof-native-yuv-rgb-proof.json",
+      "sha256": "54c7afadf18e13286897212bde546eae7f7464995ace7a823e134585b165d7e0",
+      "bytes": 1028
+    },
+    {
+      "file": "ch21-v2-organoid-observed-proof-original.framemd5",
+      "sha256": "56b1a4af85a2cd90aa71c3d5905580aca4d88ce5e5249bf6f19b6b01613bfce5",
+      "bytes": 60142
+    },
+    {
+      "file": "ch21-v2-organoid-observed-proof-native-yuv.framemd5",
+      "sha256": "56b1a4af85a2cd90aa71c3d5905580aca4d88ce5e5249bf6f19b6b01613bfce5",
+      "bytes": 60142
+    },
+    {
+      "file": "ch21-v2-organoid-observed-proof-original-pts.json",
+      "sha256": "1777f12c8eaf379376dac5ce68adc88785281934b42c80559c7b28ac6d21350d",
+      "bytes": 58211
+    },
+    {
+      "file": "ch21-v2-organoid-observed-proof-browser-pts.json",
+      "sha256": "6e5842b01bb92235fab73d242fec477af59b9235757259e48c12e48da9817da1",
+      "bytes": 58211
+    }
+  ],
+  "specimen": "Human fallopian-tube epithelial organoid from surgical samples used by authors as anatomically normal tubes; benign gynecological procedures. Individual movie donor age, clinical history and fertility outcome unassigned.",
+  "representation": "Source-produced Volocity6.3 volume reconstruction of confocal stacks. Green host GFP membrane reporter; red mCherry Chlamydia signal. Rendered perspective/grid retained; grid units unverified, no metric calibration.",
+  "time": "Methods approximately30 planes every10min over approximately50h; Results24–72h after infection. Publication749 frames are NOT assigned one-to-one to acquisition stacks. Publisher-file seconds only, no fitted experiment clock.",
+  "claim_limits": [
+    "Authors interpret inclusion/infected-cell expulsion and bursting; sampled stills do not establish a precise crossing/rupture path.",
+    "No whole-tract ascent, immune recruitment, scarring, occlusion, clinical infertility, treatment or inevitable progression.",
+    "Changing rendered viewpoint contributes apparent movement; no measured path, distance, pressure or flow."
+  ],
+  "print": {
+    "layout": "Two by two complete source stills, each78mm wide; external keys9.5pt, credits9pt; actual physical visibility pending",
+    "source_ppi_at_78mm": 638.2564102564102,
+    "no_new_scale": true
+  },
+  "reproduction": {
+    "public_immutable_inputs": "Whole MOV, lossless WebM, exact PNG stills, all-frame RGB/PTS proof and this JSON; no private/network needed for composition",
+    "source_acquisition": "Original MOV separately acquired from official PMC OA index; primary XML and supplement description private research proof",
+    "local_storage": "WebM hard-linked to owned private derivative to avoid duplicate disk allocation; public input is a complete file, not a symlink/private runtime dependency",
+    "large_file_limit": "Exact 226769048-byte lossless WebM is stored as a checksum-pinned GitHub release asset and restored into the Pages artifact at the same URL; no recompression. See ../publication-media.json and ../tools/prepare_pages.py."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "status": "Candidate; independent anatomy/appearance and actual responsive/print acceptance pending",
+  "date": "2026-11-09",
+  "source_record": "ch01-v2-pleural-operative-sources.json",
+  "teaching_purpose": "Gross body-wall parietal lining versus organ visceral lining, bounding an exposed operative cavity, plus source-identified diaphragm in one real spatial view. Pathological case does not establish normalapposition/filmwidth.",
+  "native": {
+    "file": "ch01-v2-pleural-operative-native.png",
+    "file_sha256": "0375bc1ac657065d64bbc02ea20dab65f05c802bddfd8bc50b7166d8de081425",
+    "rgb_sha256": "fcda98090473804190033d9cb0ab277ff82d5d3562074332c314489f0747e679",
+    "dimensions_px": [
+      809,
+      808
+    ],
+    "bytes": 541855,
+    "modifications": "None to suppliednativePNG. Copy byte-identical sourceBcrop; originalB/PP/VP/Di labels/field preserved. Crop declared in source record. No guessedleaders/axis/measurementbar/recolor/resampling."
+  },
+  "scientific_limits": {
+    "clinical": "70yearoldwoman, leftpleuraleffusion/thickening; eventualepithelioidmesothelioma. Not normalpleuralappearance.",
+    "operative": "Diagnosticthoracoscopy exposedview; not a normal restinglubricatedgap. Exactdrainage/ventilation/degreeofcollapse/gas/CO2/pressure unspecified, notinvented.",
+    "orientation": "Clinicalleftside known; cameraimageup/down/left/right notpatientaxes. No lobeidentity inferred.",
+    "scale": "No grosssourcebar orphysicalcamera calibration. No normalfluidfilmthickness/apposition measured. No microscopybarborrowedfromotherpanels.",
+    "other_modalities": "NormalUS/MRI, ifpairedelsewhere, remainseparatepatients/modalities withoutregistration/zoom/matchedscale."
+  },
+  "controls": "SharedimageNative/Fit/Close withfocusedcontainedkeyboardpan andopenerreturn; no new sharedJS/CSS edits.",
+  "print": {
+    "native_width_mm": 90,
+    "native_ppi": 228.31777777777776,
+    "source_limited_exception": "809pxat90mm~228ppi; no fakeupscale. Nativeat68mm~302ppi alternative ifproofrequires. ActualsourcePP/VP/Di labels andexternal9.5ptkey/rights need actualPDFproof.",
+    "external_key_font_pt": 9.5,
+    "credits_font_pt": 9,
+    "html_body": "white",
+    "pagination_repair": "Duplicate closing scope moved into figure spatial-relationship caption; screen-only access footer omitted from print. Native90mm/source labels unchanged. Actual revised PDF pending root test.",
+    "plan": "One nativephotograph with externalkey, actualclinical/operativecaption/rights andfullsizelinks; no hiddeniframefallback."
+  },
+  "reproduction": {
+    "builder": "figures/ch01_pleural_operative_v2.py",
+    "template": "figures/ch01_pleural_operative_v2.template.html",
+    "python": "3.13.5",
+    "pillow": "11.0.0",
+    "scope": "CompositionfrompublicimmutableBcrop/sourceJSON/template/sharedmodalfiles, no work/network dependency on rebuild. Initialcopy fallback privateacquisition only; wholePDF/figure staysprivate with exacthashes and legitimatearchiveURL."
+  },
+  "pending": [
+    "Independent finalsource/anatomy and separateappearance/teaching review",
+    "Actualdesktop650390Native/Fit/allcorners/focus/keyboardpan",
+    "ActualonefigurePDFsource-limitedphoto/key/credits/links/pagebreaks",
+    "Canonicalchapter1integrationnotperformed"
+  ],
+  "artifacts": {
+    "ch01-v2-pleural-operative-native.png": "0375bc1ac657065d64bbc02ea20dab65f05c802bddfd8bc50b7166d8de081425",
+    "ch01-v2-pleural-operative-sources.json": "9dff6d137b86a3d33358505433549609e4486b8c9e091e908f8f9f3d4f0cd213",
+    "ch01-v2-pleural-operative-reference.html": "9b6f10cedc6fb6b55faec805844ee639139f6be0cb0ce3844e817cf9223d3c47",
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  }
+}

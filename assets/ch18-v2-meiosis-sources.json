@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-09",
+  "scope": "Completed-state quantitative accounting, independent from H&E morphology",
+  "authorities": [
+    {
+      "title": "NHGRI Chromosomes Fact Sheet",
+      "url": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet"
+    },
+    {
+      "title": "NHS England Meiosis; reviewed6August2026",
+      "url": "https://www.genomicseducation.hee.nhs.uk/genotes/knowledge-hub/meiosis/"
+    }
+  ],
+  "states": [
+    {
+      "state": "Before S",
+      "cells": 1,
+      "ploidy": "2n",
+      "chromosomes_per_cell": 46,
+      "chromatids_per_cell": 46,
+      "dna_C_per_cell": 2,
+      "lineage_DNA_C": 2
+    },
+    {
+      "state": "After S",
+      "cells": 1,
+      "ploidy": "2n",
+      "chromosomes_per_cell": 46,
+      "chromatids_per_cell": 92,
+      "dna_C_per_cell": 4,
+      "lineage_DNA_C": 4
+    },
+    {
+      "state": "After meiosis I",
+      "cells": 2,
+      "ploidy": "n",
+      "chromosomes_per_cell": 23,
+      "chromatids_per_cell": 46,
+      "dna_C_per_cell": 2,
+      "lineage_DNA_C": 4
+    },
+    {
+      "state": "After meiosis II",
+      "cells": 4,
+      "ploidy": "n",
+      "chromosomes_per_cell": 23,
+      "chromatids_per_cell": 23,
+      "dna_C_per_cell": 1,
+      "lineage_DNA_C": 4
+    }
+  ],
+  "tissue_source": "ch18-v2-testis-observed-sources.json",
+  "no_claims": [
+    "No measured chromosome movement or stage duration",
+    "No ploidy assay from H&E",
+    "No cell yield or fertility prediction"
+  ],
+  "acceptance": {
+    "current": false,
+    "source_state_static": "B scoped precode/static pass",
+    "actual_browser_print": "Pending root"
+  }
+}

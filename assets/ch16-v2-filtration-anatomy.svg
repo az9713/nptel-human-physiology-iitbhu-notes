@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" role="img" aria-labelledby="anatomy-title anatomy-desc">
+<title id="anatomy-title">Observed mouse filtration wall: two sides and resolved profiles</title><desc id="anatomy-desc">Unchanged source Figure 7A. Neutral leaders identify a capillary-side bright field below the dense curved glomerular basement membrane and podocyte foot-process profiles above it. The upper cleft is urinary-space side, not a proven connected capsular lumen. No pressure vector, pore, particle path or added scale bar.</desc>
+<rect width="1000" height="800" fill="#111b23"/><image href="ch16-v2-filtration-control7a.png" x="140" y="130" width="721" height="519"/>
+<g id="anatomical-labels" data-anatomy-label="true" font-family="Arial,sans-serif" font-size="30" fill="#f0f5f7" stroke="none">
+<text x="35" y="52">Urinary-space side</text><text x="35" y="87" font-size="24">Subpodocyte-space profile</text>
+<text x="590" y="52">Foot-process profiles</text><text x="590" y="87" font-size="24">Podocyte interfaces</text>
+<text x="35" y="727">Capillary-lumen side</text><text x="662" y="727">GBM</text><text x="662" y="764" font-size="24">Dense curved band</text>
+<g stroke="#f1f5f7" stroke-width="2.5" fill="none"><path d="M300 98L440 250"/><path d="M690 98L570 403"/><path d="M300 695L410 530"/><path d="M720 695L460 420"/></g>
+<g fill="#f1f5f7"><circle cx="440" cy="250" r="4"/><circle cx="570" cy="403" r="4"/><circle cx="410" cy="530" r="4"/><circle cx="460" cy="420" r="4"/></g></g></svg>

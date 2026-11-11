@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-09",
+  "entry": "PDB2CEO",
+  "entry_version": "2.1, owning entry inspected2026-11-09",
+  "owning_url": "https://www.rcsb.org/structure/2CEO",
+  "coordinate_url": "https://files.rcsb.org/download/2CEO.cif",
+  "coordinate_sha256": "179fce9408de11dadff6e6c2faca26d5e28b33768248c0d8371a39e9a6f6819e",
+  "citation": "Zhou A, Wei Z, Read RJ, Carrell RW (2006). Structural mechanism for the carriage and release of thyroxine in the blood. PNAS103:13321.",
+  "doi": "10.1073/pnas.0604080103",
+  "pdb_doi": "10.2210/pdb2CEO/pdb",
+  "rights": "PDBarchive data/CCD factsCC0; new rendered images, no copied publication artwork",
+  "rights_policy_url": "https://www.rcsb.org/pages/policies",
+  "method": "X-raydiffraction2.8A; humanTBGsequence expressedinE.coliBL21(DE3); no sequence mutation inowningentry",
+  "assembly": "1, identity operator; authorA+associatedT44. Assembly2authorB isnot a secondsite of thismonomer.",
+  "selection": {
+    "protein_residues": 367,
+    "protein_heavy_atoms": 2899,
+    "ligand_heavy_atoms": 24,
+    "ligand_elements": {
+      "C": 15,
+      "I": 4,
+      "N": 1,
+      "O": 4
+    },
+    "pocket_residues": 13,
+    "pocket_heavy_atoms": 106,
+    "pocket_rule": "All depositedheavyatoms ofeveryproteinresidue withanyheavyatomwithin4AofT44",
+    "ligand_bonds": "25CCDbonds",
+    "protein_bonds": "93CCDbonds+3consecutivepolypeptideC-N source-distance bonds; no intermoleculebond"
+  },
+  "unobserved_residues": [
+    {
+      "chain": "A",
+      "residue": "17",
+      "name": "GLY"
+    },
+    {
+      "chain": "A",
+      "residue": "18",
+      "name": "SER"
+    },
+    {
+      "chain": "A",
+      "residue": "19",
+      "name": "LEU"
+    },
+    {
+      "chain": "A",
+      "residue": "350",
+      "name": "VAL"
+    },
+    {
+      "chain": "A",
+      "residue": "351",
+      "name": "GLU"
+    },
+    {
+      "chain": "A",
+      "residue": "352",
+      "name": "LEU"
+    },
+    {
+      "chain": "A",
+      "residue": "353",
+      "name": "SER"
+    },
+    {
+      "chain": "A",
+      "residue": "354",
+      "name": "ASP"
+    },
+    {
+      "chain": "A",
+      "residue": "355",
+      "name": "GLN"
+    },
+    {
+      "chain": "A",
+      "residue": "356",
+      "name": "PRO"
+    },
+    {
+      "chain": "A",
+      "residue": "357",
+      "name": "GLU"
+    },
+    {
+      "chain": "A",
+      "residue": "395",
+      "name": "ALA"
+    }
+  ],
+  "omissions": [
+    "Hydrogens",
+    "Waters",
+    "Glycerol",
+    "12unobservedresidues",
+    "Nativeplasmaglycosylation notinferredfrombacterialexpression"
+  ],
+  "render_conventions": {
+    "whole": "protein-heavy-atom elementalvdW union,0Aprobe/0.4Agrid; notSAS/SES/density",
+    "local": "TBGneutralgrey spheres0.17vdW/bonds.085A; ligandCgold.26vdW/OredNblueIpurple.40vdW, connectivitycylinders.16A; no bond-order/hydrogen-bond depiction",
+    "orientation": "Differentcameras/magnifications; sourcecoordinatesinA, nosharedpixelruler",
+    "not_optical_photo": true
+  },
+  "scope": [
+    "One experimentallyboundpose, no bindingtrajectory or rate",
+    "No physiologicalfraction or affinity assigned tocoordinates",
+    "TBGcarrier differsfromTgfollicularscaffold"
+  ],
+  "model": "Chapter11Eq11.1, K9/Pcapacity90to180; fixedfree1reservoir vsfixedtotal10closedsample. Allsyntheticconcentrationunits; arbitrary12spresentation, no clinicalprediction."
+}

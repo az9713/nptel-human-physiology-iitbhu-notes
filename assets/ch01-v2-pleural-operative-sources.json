@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-09",
+  "creator": "van Huizen et al.",
+  "citation": "van Huizen LMG, Blokker M, Daniels JMA, Radonic T, von der Thusen JH, Veta M, Annema JT, Groot ML. Modern Pathology38(2025)100633.",
+  "title": "Rapid On-Site Histology of Lung and Pleural Biopsies Using Higher Harmonic Generation Microscopy and Artificial Intelligence Analysis",
+  "doi": "10.1016/j.modpat.2024.100633",
+  "owning": "https://doi.org/10.1016/j.modpat.2024.100633",
+  "archive": "https://pure.eur.nl/ws/portalfiles/portal/182595785/Rapid_On-Site_Histology_of_Lung_and_Pleural_Biopsies_Using_Higher_Harmonic_Generation_Microscopy_and_Artificial_Intelligence_Analysis.pdf",
+  "copyright": "2024TheAuthors; volume2025, availableonline2024-10-16",
+  "license": "CC BY4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "rights_verified": "Actual publishedarticlefirstpage(PDFpage2) CC BY4.0, no Figure6caption/page credit exception found; institutioncover alsoCCBY. Sourceexplicitwrittenconsent forallincludedpatients; no newpermission asserted.",
+  "pdf": {
+    "sha256": "bc7be6d2beaa8197a5e8fdc850da3d2021bbc009fdffe06fddbc94e6f5e69a55",
+    "bytes": 7934008,
+    "private_file": "work/visual-v2/ch01-cavities/serous-gross-sources/operative-hhg-2025-published.pdf"
+  },
+  "whole_figure": {
+    "source_pdf_page": 11,
+    "printed_page": 10,
+    "xref": 248,
+    "pixels": [
+      1659,
+      1757
+    ],
+    "sha256": "aa60cfb26003882008ff2aa058b802821bb15800c38ff74ea008504e96277abf",
+    "private_file": "work/visual-v2/ch01-cavities/serous-gross-sources/operative-figure6-native.jpeg"
+  },
+  "public_native_input": {
+    "file": "ch01-v2-pleural-operative-native.png",
+    "acquired": "work/visual-v2/ch01-cavities/serous-gross-sources/operative-figure6B-native-crop.png",
+    "source_panel": "Figure6B",
+    "crop_rect_ltrb": [
+      850,
+      55,
+      1659,
+      863
+    ],
+    "pixels": [
+      809,
+      808
+    ],
+    "file_sha256": "0375bc1ac657065d64bbc02ea20dab65f05c802bddfd8bc50b7166d8de081425",
+    "rgb_sha256": "fcda98090473804190033d9cb0ab277ff82d5d3562074332c314489f0747e679",
+    "source_operation": "Lossless PNGcrop of decodedPDFembeddedJPEGpixels; sourceB/PP/VP/Di preserved; no resize/recolor/retouch/newleader/axis/scale. CompletePDF/figure retainedprivately, externalarchive/DOI supplied."
+  },
+  "source_label_key": {
+    "B": "Original panel identifier",
+    "PP": "Parietal pleura",
+    "VP": "Visceral pleura",
+    "Di": "Diaphragm"
+  },
+  "case": {
+    "patient": "70-year-old woman",
+    "clinical_side": "Left pleural effusion, thickening and slight hemithoraxshrinkage",
+    "observed_condition": "Diffuse parietalwhitening without clear gross tumordeposits; normalrib/intercostalarchitecture absent",
+    "diagnosis": "Epithelioid mesothelioma confirmedhistology",
+    "procedure": "Diagnosticthoracoscopy accordingstandardprotocols",
+    "not_specified": [
+      "Exactventilation/lungdeflation/collapse",
+      "CO2orotherinsufflationgas/pressure",
+      "Fluiddrainagestateatthisframe",
+      "Cameraaxes/lobeidentities/metricscale"
+    ]
+  },
+  "interpretation": "Onegrosssourceidentifiedwall-sidePP/operativeexposedcavity/visceralVP/Di view; pathologicalandoperative, not normalapposition/fluidfilmwidth. No registerednormalUS/MRIzoom."
+}

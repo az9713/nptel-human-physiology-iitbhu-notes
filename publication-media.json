@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "repository": "az9713/nptel-human-physiology-iitbhu-notes",
+  "release_tag": "visual-v2-media-2026-11-10",
+  "scope": "Immutable lossless teaching media exceeding GitHub's Git file limit. Component provenance and licences remain in assets/. This storage release does not confer visual acceptance.",
+  "assets": [
+    {
+      "path": "assets/ch03-v2-rbc-clot-retraction.webm",
+      "bytes": 116352359,
+      "sha256": "5a6c09ff3e86a53b1d2838965c6d77b716ab5b67c02b747967de990d61faa410"
+    },
+    {
+      "path": "assets/ch21-v2-organoid-observed-movie.webm",
+      "bytes": 226769048,
+      "sha256": "17875906b997fbbecf60ceee376ac1f7ccb87f969e023a7ff1785ce64656ad39"
+    }
+  ]
+}

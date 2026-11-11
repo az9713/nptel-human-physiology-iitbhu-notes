@@ -1,0 +1,129 @@
+{
+  "status": "PROVISIONAL PARTIAL REPLACEMENT; no all-rubric acceptance or completed cavity-figure claim.",
+  "date": "2026-11-08",
+  "sources": [
+    {
+      "id": "thorax",
+      "source_file": "ct-thorax-coronal-37.jpg",
+      "file": "ch01-v2-cavities-thorax.jpg",
+      "sha256": "e37e70a1cfb46766e2e8aefd10ca27590f094e810a29c6b58812d0bb9fe6fe1c",
+      "dimensions_px": [
+        1598,
+        1136
+      ],
+      "creator": "Mikael Häggström",
+      "date": "2017-05-20",
+      "source": "https://commons.wikimedia.org/wiki/File:High-resolution_computed_tomograph_of_a_normal_thorax,_coronal_plane_(37).jpg",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "modality": "Human coronal CT,3mm source slice thickness",
+      "specimen": "37-year-old male; source describes largely normal thorax with mild vertebral degenerative changes; nonspecific breathing symptoms.",
+      "orientation": "Coronal display: patient right appears image-left, left image-right; superior above/inferior below. Original L marker and locator retained.",
+      "scale": "Source screen contains Slice3mm and FoV367mm overlays. No pixel spacing or physical scale is derived for the composite screenshot/locator. Slice thickness is not an on-page scale bar.",
+      "scope": "Lung fields, central mediastinal region and diaphragm configuration; no separate pleural membrane/fluid-film contour or heart claim.",
+      "consent": "Owning series record states written informed consent including publication. No separate release obtained here.",
+      "series": "https://commons.wikimedia.org/wiki/Scrollable_high-resolution_computed_tomography_images_of_a_normal_thorax",
+      "index_note": "Archive file identifier is coronal37; preserved on-image overlay reads Bild33av72. No equivalence or derived numeric slice index asserted.",
+      "print_width_mm": 145,
+      "bytes": 623129,
+      "modifications": "None. Complete original source file retained, no crop, pixel edit, recoloring, synthetic detail or added anatomical leader.",
+      "native_ppi_at_print_width": 279.9255172413793
+    },
+    {
+      "id": "abdomen",
+      "source_file": "ct-abdomen-axial-126.png",
+      "file": "ch01-v2-cavities-abdomen.png",
+      "sha256": "a89a3ff942baccd81f9881f42202947e4b5872ae3562d10fc979fd2b18ad1ae3",
+      "dimensions_px": [
+        786,
+        346
+      ],
+      "creator": "Mikael Häggström",
+      "date": "2019-03-16",
+      "source": "https://commons.wikimedia.org/wiki/File:CT_of_a_normal_abdomen_and_pelvis,_axial_plane_126.png",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "modality": "Human contrast CT; axial pane plus coronal locator,3mm source slice thickness",
+      "specimen": "21-year-old male; source describes normal anatomy/no injuries following blunt upper-abdominal trauma.",
+      "orientation": "Standard axial display: patient right image-left/left image-right, anterior above/posterior below. P marker retained at lower left. Narrow right pane is coronal locator, not another axial region.",
+      "scale": "No screenshot-derived pixel spacing or measured organ dimensions. Source slice thickness3mm; screenshot composite includes locator and imaging overlays.",
+      "scope": "Kidney position relative to vertebral body and anterior abdominal viscera. No visible peritoneal membrane tracing or serous fluid film.",
+      "consent": "Owning record explicitly states written informed consent including online publication. No separate release obtained here.",
+      "print_width_mm": 145,
+      "bytes": 147020,
+      "modifications": "None. Complete original source file retained, no crop, pixel edit, recoloring, synthetic detail or added anatomical leader.",
+      "native_ppi_at_print_width": 137.6855172413793
+    },
+    {
+      "id": "histology",
+      "source_file": "parietal-peritoneum-histology.jpg",
+      "file": "ch01-v2-cavities-peritoneum.jpg",
+      "sha256": "25a1c1a6aeafadb1aaf182aeaaf26dabcb48b379e2f632ccf237f003e761986b",
+      "dimensions_px": [
+        2048,
+        1536
+      ],
+      "creator": "Guada Tirma",
+      "date": "2015-11-19",
+      "source": "https://commons.wikimedia.org/wiki/File:Pertoneum.jpg",
+      "license": "CC BY-SA4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "modality": "Histology; species, stain and section thickness unspecified",
+      "specimen": "Owning caption identifies parietal peritoneum with healthy mesothelial lining, underlying matrix, abdominal muscle, fat and vessels. No independent health assessment made.",
+      "orientation": "Image tissue edge is uppermost/diagonal; this is source image orientation, not a body-side/coronal/axial anatomical coordinate system.",
+      "scale": "No source scale bar or physical field width; no magnification or length invented.",
+      "scope": "Parietal side alone. White preparation background does not establish fluid-film width, visceral lining or organ surface.",
+      "rights": "Original CC BY-SA4.0 image retained unchanged; attribution/licence and no-change notice accompany it. No blanket book relicensing asserted.",
+      "print_width_mm": 140,
+      "bytes": 338489,
+      "modifications": "None. Complete original source file retained, no crop, pixel edit, recoloring, synthetic detail or added anatomical leader.",
+      "native_ppi_at_print_width": 371.5657142857143
+    }
+  ],
+  "anatomical_leaders": "None. External global orientation/reading keys only until independent anatomy/radiology/histology review.",
+  "relationship_text": "Original anatomy prose/typographic sequence, separately labelled a model; not evidence that CT/histology shows a complete wall-fluid-visceral-organ interface.",
+  "definition_source": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology",
+  "source_rights": "Each original retains its own licence; histology CC BY-SA4.0 is not labelled CC0 or blanket book licence. No source artwork from OpenStax reproduced.",
+  "registration": "Three separate source cases/preparations, not registered specimens or matching scales. CT locator panes kept complete.",
+  "unfilled_visuals": [
+    "cranial cavity",
+    "vertebral cavity",
+    "visceral serosal side",
+    "continuous potential-space/parietal-visceral-organ interface"
+  ],
+  "rejected_alternates": [
+    {
+      "file": "work/visual-v2/ch01-cavities/sources/ct-abdomen-axial-174.png",
+      "reason": "Kidneys absent in actual main axial pane; not used."
+    },
+    {
+      "file": "work/visual-v2/ch01-cavities/sources/ct-abdomen-axial-262.png",
+      "reason": "Kidneys absent in actual main axial pane despite locator; not used."
+    }
+  ],
+  "print": {
+    "plan": "Three coherent observed figures with external orientation/reading key≥9.5pt; white html/body margins. Actual page count/size/readability pending.",
+    "source_limited_exception": "Abdominal composite786px at145mm gives~138ppi; no resampled pixels or fabricated high-frequency detail. Native source access retained. Thorax1598px at145mm~280ppi; histology2048px at120mm~433ppi. Actual PDF rectangles and source details require review."
+  },
+  "tools": {
+    "python": "3.13.5",
+    "pillow": "11.0.0"
+  },
+  "builder": "figures/ch01_cavities_v2.py",
+  "reproduction": "Builder first uses already-delivered original assets; separately acquired source paths are first-build fallback only. No private template or generation required.",
+  "pending": [
+    "Independent source-anatomy/appearance review of actual assembled plate",
+    "Exact CT orientation/reading-key and histology interpretation check",
+    "Root desktop/650px/390px native/fit/all-corner keyboard/pan QA",
+    "Actual print/PDF geometry, external≥9pt keys and source-limited abdomen legibility",
+    "Source acquisition for unfilled scope before planned-figure completion"
+  ],
+  "artifacts": {
+    "ch01-v2-cavities-thorax.jpg": "e37e70a1cfb46766e2e8aefd10ca27590f094e810a29c6b58812d0bb9fe6fe1c",
+    "ch01-v2-cavities-abdomen.png": "a89a3ff942baccd81f9881f42202947e4b5872ae3562d10fc979fd2b18ad1ae3",
+    "ch01-v2-cavities-peritoneum.jpg": "25a1c1a6aeafadb1aaf182aeaaf26dabcb48b379e2f632ccf237f003e761986b",
+    "ch01-v2-cavities-reference.html": "64747d69800472423e561f66334bdc710660613333b7dc76c319894578aa7475",
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  }
+}

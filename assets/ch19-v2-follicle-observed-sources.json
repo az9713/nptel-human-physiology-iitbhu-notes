@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-09",
+  "purpose": "Separate source-attributed observed ovarian cell-rim/antrum/theca morphology; not a serial human stage sequence",
+  "owner": "Regents of the University of Michigan; Histology Laboratory Manual by Michael Hortsch and contributors",
+  "owning_page": "https://histology.medicine.umich.edu/home",
+  "manual_download": "https://www.dropbox.com/scl/fi/8kajae1z0odvhi3ifgd9s/2026-02-12-Michigan-Histology-Laboratory-Manual.pdf?rlkey=dcqzoxx35554wq9f091pmi3jf&st=tn3f4ltw&dl=1",
+  "manual_sha256": "24b0aaf838fccba8246827b1f284a4631a3254e92162bcb2109490a2f199ddea",
+  "manual_date_limit": "Current owning download filename2026-02-12; PDF internal modification2025-11-15. No specimen acquisition date inferred.",
+  "licence": "CC BY-NC-SA4.0; manualp1 explicitly covers manual and Michigan virtualslides. Noncommercial educational local use; no ND adaptation or third-party slide artwork used.",
+  "caption_mapping": "Printedp254 slide inventory; p255 exact URI annotations link2/3/5/6/7female.jpg. Source fields3/5/6 exported specimen unassigned; field2 context monkey239/269 with exactslide/stain unassigned; field7 explicitly human235H&E.",
+  "records": [
+    {
+      "key": "2",
+      "file": "ch19-v2-follicle-observed-field-2.jpg",
+      "sha256": "f8ba946994b88a38162c852452fc8fdba917da88ff79d280df2069f2d14335fe",
+      "dimensions": [
+        1464,
+        782
+      ],
+      "decoded_rgb_sha256": "2a7b95ec12c87c2829ee57e9ab13ea2f043a5d962482eae0a1cee51a16e2e770",
+      "original_url": "https://histologyslides.med.umich.edu/Manual_slides/2female.jpg",
+      "title": "Primordial-pattern field",
+      "source_key": "Large pale oocyte profiles are bordered by thin, flattened-to-low surrounding cells.",
+      "limitations": "Manual context refers to monkey slides239/269; this exported JPEG’s exact slide and H&E/PAS choice are unassigned.",
+      "operations": "NONE: byte-identical complete author-linked JPEG; no crop, resampling, retouch, colour change, new label/leader/bar"
+    },
+    {
+      "key": "3",
+      "file": "ch19-v2-follicle-observed-field-3.jpg",
+      "sha256": "c6a228bdda8a349ee89f9180637434c856833ea3e83e7b58407cf6a138421ed3",
+      "dimensions": [
+        1356,
+        990
+      ],
+      "decoded_rgb_sha256": "c87768f7f42d434cce08c485eab484f69f3b95a2bbdc003c985d0435acd7c395",
+      "original_url": "https://histologyslides.med.umich.edu/Manual_slides/3female.jpg",
+      "title": "Primary-pattern field",
+      "source_key": "Cuboidal surrounding cells make the oocyte rim more conspicuous; the source presents this as a primary-follicle example.",
+      "limitations": "Exact slide, species and stain of this exported field are unassigned. Do not call it human.",
+      "operations": "NONE: byte-identical complete author-linked JPEG; no crop, resampling, retouch, colour change, new label/leader/bar"
+    },
+    {
+      "key": "5",
+      "file": "ch19-v2-follicle-observed-field-5.jpg",
+      "sha256": "ccd13abc397ca4750272d08a3ecf6489e3e3603e0eb1898a247b59981d12677f",
+      "dimensions": [
+        1460,
+        858
+      ],
+      "decoded_rgb_sha256": "4125d94dfaea0cfd741122b4a54289d2ac3b029d4de39895b5a1d8de6998c85f",
+      "original_url": "https://histologyslides.med.umich.edu/Manual_slides/5female.jpg",
+      "title": "Multilayer wall and forming antral spaces",
+      "source_key": "The source’s “secondary” example shows multiple surrounding cell layers and coalescing lacunae/antral space.",
+      "limitations": "Terminology is source-specific; this does not establish a universal stage label or timed transition. Exact exported specimen is unassigned.",
+      "operations": "NONE: byte-identical complete author-linked JPEG; no crop, resampling, retouch, colour change, new label/leader/bar"
+    },
+    {
+      "key": "6",
+      "file": "ch19-v2-follicle-observed-field-6.jpg",
+      "sha256": "8af3fc9ff8ef7b088686581c1d0d4b13a2e28ae1c5b576f3924c5a5a273b131b",
+      "dimensions": [
+        1310,
+        1238
+      ],
+      "decoded_rgb_sha256": "2647280d98d1f3c0c121cec1a2fd97741c4df0e5aa82e88b726b2aaa70949fe2",
+      "original_url": "https://histologyslides.med.umich.edu/Manual_slides/6female.jpg",
+      "title": "Large antral pattern",
+      "source_key": "An oocyte and surrounding cell complex project into a large antral chamber, with a multilayer wall around it.",
+      "limitations": "The manual itself says this example is too small to demonstrate a real Graafian follicle. It is not evidence of preovulatory competence; exact specimen is unassigned.",
+      "operations": "NONE: byte-identical complete author-linked JPEG; no crop, resampling, retouch, colour change, new label/leader/bar"
+    },
+    {
+      "key": "7",
+      "file": "ch19-v2-follicle-observed-field-7.jpg",
+      "sha256": "06cba4acffbaa89373fa9dbf6cee78c69309f9b1ecb276423626373e96bd3ab5",
+      "dimensions": [
+        2178,
+        1206
+      ],
+      "decoded_rgb_sha256": "51cf4053d75e86bb18afb0bb9378b34509ade0c89e34614878a8bac15974ba15",
+      "original_url": "https://histologyslides.med.umich.edu/Manual_slides/7female.jpg",
+      "title": "Human vascular theca context",
+      "source_key": "The original human slide235 H&E field relates the granulosa-side rim, surrounding thecal tissue and blood-filled vessel profiles.",
+      "limitations": "The original overview/red locator belongs to this source image only. Donor health, age, section thickness and physical calibration are unreported.",
+      "operations": "NONE: byte-identical complete author-linked JPEG; no crop, resampling, retouch, colour change, new label/leader/bar"
+    }
+  ],
+  "source_independence": "Separate fixed teaching fields, no same-follicle/time registration. Original overview/red locator inside field7 only retained, not new registration.",
+  "print_candidate": {
+    "page1": "Primordial/primary80mm parallel, human theca130mm below",
+    "page2": "Multilayer/antral130/110mm source-sized fields",
+    "actual_pdf": "Pending root; no self-acceptance"
+  }
+}

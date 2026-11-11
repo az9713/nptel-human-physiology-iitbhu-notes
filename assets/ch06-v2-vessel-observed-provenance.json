@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-09",
+  "status": "Local candidate; independent source/anatomy/appearance and actual browser/PDF checks pending",
+  "purpose": "Human regional artery–vein wall organisation and separate mouse baseline capillary luminal ultrastructure",
+  "sources": {
+    "date": "2026-11-09",
+    "acquisition_vs_composition": "Full original publisher figures, PDFs/methods and first crop checks were acquired separately and remain private. Public composer needs only these immutable derived image inputs and records; it does not download sources or re-crop the private full figures.",
+    "source_credits_checked": "Primary article rights and figure captions checked; no third-party exclusions found for these figures.",
+    "sources": [
+      {
+        "id": "wall",
+        "file": "ch06-v2-vessel-observed-human-walls.png",
+        "sha256": "27072c36f131343209d81b168fd433416f2028bb9b1fdf036bd672dad474f2a4",
+        "bytes": 4086238,
+        "dimensions": [
+          2350,
+          1370
+        ],
+        "source_figure_sha256": "1d54816bf333e91ceb5fc9a331fbfee8ad2aca8d266e14ad3d5c0d2bcf47e34f",
+        "source_figure_pixels": [
+          3807,
+          2784
+        ],
+        "crop_rect_xyxy": [
+          0,
+          0,
+          2350,
+          1370
+        ],
+        "modifications": "Exact rectangular crop only; source labels and calibration bars retained. No resampling, enhancement or colour change.",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "citation": "Rojas MG et al. Cells 2024;13:793",
+        "doi": "10.3390/cells13100793",
+        "owning_url": "https://www.mdpi.com/2073-4409/13/10/793",
+        "original_image_url": "https://mdpi-res.com/d_attachment/cells/cells-13-00793/article_deploy/html/images/cells-13-00793-g001.png",
+        "original_pdf_url": "https://mdpi-res.com/d_attachment/cells/cells-13-00793/article_deploy/cells-13-00793.pdf",
+        "original_pdf_sha256": "a5ab26089e7422e633ba1b97853482755bec43705b0ed3dbd42de91e904a9c45",
+        "specimen": "Postmortem human organ-donor brachial artery (panel A) and basilic vein (panel B); representative donor identities not supplied. Cohort includes hypertension/diabetes; not classified globally normal.",
+        "preparation": "10% neutral formalin fixation; paraffin embedding/sectioning; Movat pentachrome. 5 mm is sampled cross-section length, not microscopic section thickness (unreported).",
+        "source_calibration": "100 µm bar in each field",
+        "source_label_limit": "A panel has printed L/M/A, no separately resolved printed I; B panel has I/L/M/A. Caption defines intima but no new arterial intima leader is supplied.",
+        "purpose": "Partial-wall organisation and source-stained tissue comparison; not complete lumen geometry or mechanical response."
+      },
+      {
+        "id": "brain",
+        "file": "ch06-v2-vessel-observed-mouse-brain.png",
+        "sha256": "75d56073ede51a9edcda8c1aa146531adaab6fe9203e72c42ec23d882e6b5266",
+        "bytes": 294011,
+        "dimensions": [
+          820,
+          540
+        ],
+        "source_figure_sha256": "420013a399e857dc8937781ed6cd0e7d5fa60e91a4e97102904e3c0cd8edeeed",
+        "source_figure_pixels": [
+          1650,
+          1193
+        ],
+        "crop_rect_xyxy": [
+          0,
+          0,
+          820,
+          540
+        ],
+        "modifications": "Exact rectangular crop only; source labels and calibration bars retained. No resampling, enhancement or colour change.",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "citation": "Ando Y et al. Scientific Reports 2018;8:17523, Figure 2",
+        "doi": "10.1038/s41598-018-35976-2",
+        "owning_url": "https://www.nature.com/articles/s41598-018-35976-2",
+        "original_image_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-018-35976-2/MediaObjects/41598_2018_35976_Fig2_HTML.png",
+        "specimen": "Baseline continuous capillary, brain; ten-week-old male C57BL6 mouse. Not post-LPS Figure 5.",
+        "preparation": "Lanthanum-containing alkaline perfusion fixation; 1 ml/min. Further EM protocol referred by source to Okada2017, DOI10.1186/s13054-017-1841-8.",
+        "source_calibration": "2 µm original bar",
+        "source_label_limit": "Panel letter and bar only. Organ and glycocalyx identity supplied by caption; no new anatomical leaders.",
+        "purpose": "Preparation-dependent luminal glycocalyx-associated ultrastructure; not live hydrated coat thickness, fluid flux or the full revised Starling mechanism."
+      },
+      {
+        "id": "heart",
+        "file": "ch06-v2-vessel-observed-mouse-heart.png",
+        "sha256": "772fc3c89e2bfb36701e9ac0b80e6ea4c3d2e2bdacc0e886e76bf651712fd0f4",
+        "bytes": 283156,
+        "dimensions": [
+          825,
+          540
+        ],
+        "source_figure_sha256": "420013a399e857dc8937781ed6cd0e7d5fa60e91a4e97102904e3c0cd8edeeed",
+        "source_figure_pixels": [
+          1650,
+          1193
+        ],
+        "crop_rect_xyxy": [
+          825,
+          0,
+          1650,
+          540
+        ],
+        "modifications": "Exact rectangular crop only; source labels and calibration bars retained. No resampling, enhancement or colour change.",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "citation": "Ando Y et al. Scientific Reports 2018;8:17523, Figure 2",
+        "doi": "10.1038/s41598-018-35976-2",
+        "owning_url": "https://www.nature.com/articles/s41598-018-35976-2",
+        "original_image_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-018-35976-2/MediaObjects/41598_2018_35976_Fig2_HTML.png",
+        "specimen": "Baseline continuous capillary, heart; ten-week-old male C57BL6 mouse. Not post-LPS Figure 5.",
+        "preparation": "Lanthanum-containing alkaline perfusion fixation; 1 ml/min. Further EM protocol referred by source to Okada2017, DOI10.1186/s13054-017-1841-8.",
+        "source_calibration": "2 µm original bar",
+        "source_label_limit": "Panel letter and bar only. Organ and glycocalyx identity supplied by caption; no new anatomical leaders.",
+        "purpose": "Preparation-dependent luminal glycocalyx-associated ultrastructure; not live hydrated coat thickness, fluid flux or the full revised Starling mechanism."
+      },
+      {
+        "id": "lung",
+        "file": "ch06-v2-vessel-observed-mouse-lung.png",
+        "sha256": "6ebde062cbe0bbda574f2c303a41fd9aa10a88166f91886a47fe6bcb3396bc43",
+        "bytes": 277644,
+        "dimensions": [
+          820,
+          583
+        ],
+        "source_figure_sha256": "420013a399e857dc8937781ed6cd0e7d5fa60e91a4e97102904e3c0cd8edeeed",
+        "source_figure_pixels": [
+          1650,
+          1193
+        ],
+        "crop_rect_xyxy": [
+          0,
+          610,
+          820,
+          1193
+        ],
+        "modifications": "Exact rectangular crop only; source labels and calibration bars retained. No resampling, enhancement or colour change.",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "citation": "Ando Y et al. Scientific Reports 2018;8:17523, Figure 2",
+        "doi": "10.1038/s41598-018-35976-2",
+        "owning_url": "https://www.nature.com/articles/s41598-018-35976-2",
+        "original_image_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-018-35976-2/MediaObjects/41598_2018_35976_Fig2_HTML.png",
+        "specimen": "Baseline continuous capillary, lung; ten-week-old male C57BL6 mouse. Not post-LPS Figure 5.",
+        "preparation": "Lanthanum-containing alkaline perfusion fixation; 1 ml/min. Further EM protocol referred by source to Okada2017, DOI10.1186/s13054-017-1841-8.",
+        "source_calibration": "2 µm original bar",
+        "source_label_limit": "Panel letter and bar only. Organ and glycocalyx identity supplied by caption; no new anatomical leaders.",
+        "purpose": "Preparation-dependent luminal glycocalyx-associated ultrastructure; not live hydrated coat thickness, fluid flux or the full revised Starling mechanism."
+      }
+    ]
+  },
+  "operations": "Immutable exact source crops copied into a standalone gallery; no pixel transformation or new anatomical leaders.",
+  "scientific_limits": [
+    "Postmortem human organ-donor cohort includes hypertension/diabetes; photographed donor identities not supplied.",
+    "Arterial field has no separately resolved printed I; no invented intima locator.",
+    "Mouse lanthanum-stained deposits are preparation-dependent, not a living hydrated glycocalyx thickness.",
+    "No full revised Starling mechanism, measured fluid flux or unified specimen/scale claimed."
+  ],
+  "print_layout": {
+    "wall_crop_width_mm": 165,
+    "wall_file_ppi": 361.75757575757575,
+    "capillary_panel_width_mm": 75,
+    "capillary_file_ppi": {
+      "brain": 277.70666666666665,
+      "heart": 279.4,
+      "lung": 277.70666666666665
+    },
+    "external_key_min_pt": 9.5,
+    "layout": "Human study first page; mouse study begins a new page; rights attached to each study.",
+    "limits": "File-to-layout ratios do not establish optical resolution or visual acceptance. Actual PDF remains pending."
+  },
+  "reproduction": {
+    "builder": "figures/ch06_vessel_observed_v2.py",
+    "builder_sha256": "b697fe40cac0c15f7adc6dc3dfe2af6f7ac4fa6594b909b1a027fcc6ee876ea3",
+    "template": "figures/ch06_vessel_observed_v2.template.html",
+    "template_sha256": "b1b1dd5f64e9826e9995c8b7fab0689e509f39a525ddc61a91bba91e9cd63fa8",
+    "python": "3.13.5",
+    "pillow": "11.0.0",
+    "public_inputs": [
+      "ch06-v2-vessel-observed-sources.json",
+      "ch06-v2-vessel-observed-crop-proof.json",
+      "ch06-v2-vessel-observed-human-walls.png",
+      "ch06-v2-vessel-observed-mouse-brain.png",
+      "ch06-v2-vessel-observed-mouse-heart.png",
+      "ch06-v2-vessel-observed-mouse-lung.png",
+      "observed-image-dialog.css",
+      "observed-image-dialog.js"
+    ],
+    "private_network_dependencies": "None for composition. Original publisher downloads and initial exact crop check were separate acquisition steps; their original URLs/hashes are in sources and crop proof.",
+    "seed": "N/A; deterministic composition"
+  },
+  "verification": {
+    "immutable_crop_hashes_pixels": "PASS integrity only",
+    "independent_anatomy_appearance": "PENDING",
+    "actual_browser_native_fit_pan_focus": "PENDING",
+    "actual_print": "PENDING",
+    "canonical_integration_release": "PENDING"
+  },
+  "shared_dependencies": {
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "artifacts": {
+    "ch06-v2-vessel-observed-sources.json": "4f23c672241edff30315ab55de14b70c90bc04e8966ad175dadcec687a363976",
+    "ch06-v2-vessel-observed-crop-proof.json": "98a40ad31a6351830a14d7b686293ba784c3ea3d165fbca019a2e19e20628fd9",
+    "ch06-v2-vessel-observed-human-walls.png": "27072c36f131343209d81b168fd433416f2028bb9b1fdf036bd672dad474f2a4",
+    "ch06-v2-vessel-observed-mouse-brain.png": "75d56073ede51a9edcda8c1aa146531adaab6fe9203e72c42ec23d882e6b5266",
+    "ch06-v2-vessel-observed-mouse-heart.png": "772fc3c89e2bfb36701e9ac0b80e6ea4c3d2e2bdacc0e886e76bf651712fd0f4",
+    "ch06-v2-vessel-observed-mouse-lung.png": "6ebde062cbe0bbda574f2c303a41fd9aa10a88166f91886a47fe6bcb3396bc43",
+    "ch06-v2-vessel-observed-reference.html": "b1b1dd5f64e9826e9995c8b7fab0689e509f39a525ddc61a91bba91e9cd63fa8"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-09",
+  "primary": {
+    "authors": "Zhang, Liu, Meriano, Ru, Xie, Luo and Sun",
+    "doi": "10.1038/srep23553",
+    "year": 2016,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4804285/",
+    "part": "Supplementary Video S1; owning filename srep23553-s2.avi",
+    "licence": "CC BY 4.0; no third-party exclusion found for original movie",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "original": {
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4804285.1/srep23553-s2.avi?md5=c60c2a08584166093b5c4317a7f2b9e3",
+      "bytes": 655458,
+      "sha256": "73629eed48e1c25c51a76b313c37f22e221439dc9ac90c61511b0597b1048685"
+    },
+    "xml_sha256": "48458b1804074498a4fc5e5bc91974ef06c3c2236e4e9fa9c8c77de9b64cec85",
+    "supplement_pdf_sha256": "c9426648676045fcdd9b42d45f6d261fc57b4d2f2337c22334ece1dc089c9f3d"
+  },
+  "specimen": "Source-described healthy human donors; exact individual age/health not assigned. Swim-up selected sperm, in vitro mHTF dish with micropipette-generated flow at room temperature (~22°C).",
+  "preparation": "Semen liquefied22°C30–60min; swim-up37°C1h; diluted2–4×10^4cells/ml; experiments within3hcollection.1mm fluidfilm in35mm dish,125µm pipette. Brightfield20×. No fluorescence probe assigned to this movie.",
+  "appearance": "Left brightfield observation; right author-processed fading motion history of same scene; original red rightward flow arrow. No calibrated bar.",
+  "timing": "Methods acquisition30fps; publication XVID AVI175frames at25fps. Initial decoded FFmpegPTS0.04s, final generatedPTS7s, missing explicit terminal source timestamp. Browser derivative copyts preserves decoded presentation clock. No experiment-time/speed/beating-frequency conversion.",
+  "media": {
+    "file": "ch18-v2-sperm-observed-movie.webm",
+    "sha256": "06f95e64379c71cf24cb5116cee55e4addf91203fc6d97aa4c723dda54631ba9",
+    "dimensions": [
+      640,
+      480
+    ]
+  },
+  "posters": [
+    {
+      "file": "ch18-v2-sperm-observed-frame-0050.png",
+      "frame_index": 50,
+      "sha256": "2d43f9d1569f99eaa72d99840b6733235355d794de2471b4296aa432ac055e09",
+      "dimensions": [
+        640,
+        480
+      ],
+      "decoded_rgb_sha256": "a7fde4c9e59adab54353ea0cdb856a507afa374775fae469d61e105806b85abb"
+    },
+    {
+      "file": "ch18-v2-sperm-observed-frame-0087.png",
+      "frame_index": 87,
+      "sha256": "108a067a835046f7a1caf058afc36cc48f9678abd7441cde4fd0de7286637d26",
+      "dimensions": [
+        640,
+        480
+      ],
+      "decoded_rgb_sha256": "b0a3cd196315852db70b146f6510a530766bdfe24b93464e69a5fc1e09cfef71"
+    },
+    {
+      "file": "ch18-v2-sperm-observed-frame-0174.png",
+      "frame_index": 174,
+      "sha256": "c589c47d6f75c412d564453ffcd32c623f6c25bcd8768ecc87cca963db86122f",
+      "dimensions": [
+        640,
+        480
+      ],
+      "decoded_rgb_sha256": "b7db673582bb4c4463b07aaa401e08cd2389219a72bc2ab1dfea28424bde675b"
+    }
+  ],
+  "proof": "ch18-v2-sperm-observed-rgb-proof.json",
+  "print": {
+    "candidate_width_mm": 80,
+    "source_ppi": 203.2,
+    "limit": "Single observed field occupies only left half; actual sperm profile visibility must pass physicalprint review; no claimed calibration."
+  },
+  "claim_limits": [
+    "Not female-tract observation",
+    "No proof passive-only mechanism or absent CatSper/calcium signaling",
+    "No fertility/prognostic diagnosis",
+    "Processed right half is not second observed channel",
+    "No new trajectory or particle overlay"
+  ],
+  "acceptance": {
+    "current": false,
+    "source_native": "B bounded pre-host PASS",
+    "browser_print": "Pending root"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-09",
+  "purpose": "Pure quantitative linked-cycle denominator lesson, independent whole observed IVF embryo",
+  "reproduction": {
+    "builder": "figures/ch21_ivf_accounting_v2.py",
+    "template": "figures/ch21_ivf_accounting_v2.template.html",
+    "private_network_required": false
+  },
+  "artifacts": {
+    "assets/ch21-v2-ivf-accounting-reference.html": "1c00d73eb663be18a8e465b4059bfeae839485e07bfd4a4aac0ca1f6517708e6",
+    "figures/ch21_ivf_accounting_v2.template.html": "1c00d73eb663be18a8e465b4059bfeae839485e07bfd4a4aac0ca1f6517708e6",
+    "figures/ch21_ivf_accounting_v2.py": "0ec4c447096cd35cc655c76eed750c65bded74dd58fe1a8180a206e2e6dfb529",
+    "assets/ch21-human-ivf-embryo.jpg": "deaa9480458866478b510a61feb074097e5f5e89fe2927f2de7157a882b32917",
+    "assets/ch21-v2-ivf-accounting-sources.json": "a55bf182f2ef26079fb2e702338ae168c84fa53980889ac991179278a59addd2",
+    "assets/ch21-v2-ivf-accounting-model.js": "43d2be578f595a84a88e2830124111dd1d76970e1bdd18c302747a4549514349",
+    "assets/ch21-v2-ivf-accounting-controls.js": "19d0bf766be59178dd6b3dfa0862f4ebe98187a30a44676c3d37a82cfd1c35c6",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "acceptance": {
+    "current": false,
+    "source_model": "Pending independent assembled review",
+    "actual_browser_print": "Pending root"
+  }
+}

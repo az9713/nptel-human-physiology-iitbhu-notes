@@ -1,8 +1,8 @@
 {
   "chapter": 1,
   "title": "From cells to organ systems",
-  "status": "accepted",
-  "coverage_complete": true,
+  "status": "revised",
+  "coverage_complete": false,
   "reviews": [
     {
       "reviewer_id": "/root/ch01_review_a",
@@ -81,7 +81,7 @@
     3
   ],
   "source_evidence": "Timestamped publisher captions and selected video contact sheets; no claim of full recording inspection.",
-  "prose_status": "Accepted manuscript after two independent full scientific/editorial reviews, targeted repairs and specified production checks.",
+  "prose_status": "Prior full scientific/editorial reviews retained as history. Current bounded source-preserving visual integration changes captions and associated claims; targeted scientific/source review and actual browser/print proof pending.",
   "code": [
     "code/ch01_cell_geometry.py"
   ],
@@ -89,54 +89,77 @@
   "figures": [
     {
       "id": "ch1-anim2",
-      "path": "assets/secretory-traffic-pilot.html",
-      "status": "accepted",
-      "role": "Controlled selected ER-Golgi-secretory route with textual static/print fallback; schematic phase sequence without biological timing calibration."
+      "path": "assets/ch01-v2-secretory-observed.html",
+      "status": "observed-assay-movies-review-pending",
+      "role": "Figure1.7 shows two unchanged source movies: mouse RUSH cargo relocation and separate yeast GFP-Sec4 dynamics. Distinct species/timebases, no direct human release/pore or complete physiological secretory itinerary.",
+      "assets": [
+        "assets/ch01-v2-secretory-observed-mouse.mp4",
+        "assets/ch01-v2-secretory-observed-yeast.mp4",
+        "assets/ch01-v2-secretory-observed-mouse-poster.png",
+        "assets/ch01-v2-secretory-observed-yeast-poster.png"
+      ]
     },
     {
       "id": "ch1-fig1",
-      "status": "accepted",
-      "role": "Exterior orientation plus original cavity topology SVGs; movable sagittal/frontal/transverse reference overlays in hierarchy explorer use dimensionless offsets, with no reconstructed internal section.",
-      "path": "assets/ch01-body-reference.html",
+      "status": "partial-observed-candidate-review-pending",
+      "role": "Figure1.4 supports regional/lining anatomy with separate CT, parietal histology, cranial/upper-cervical MRI, source-labelled pleural ultrasound and pathological operative PP/VP/Di photograph. No normal-fluid-film measurement, shared specimen/scale or full vertebral/peritoneal/pericardial coverage.",
+      "path": "assets/ch01-v2-cavities-reference.html",
       "assets": [
         "assets/ch01-body-orientation.svg",
-        "assets/ch01-body-cavities.svg"
-      ]
+        "assets/ch01-v2-cavities-thorax.jpg",
+        "assets/ch01-v2-cavities-abdomen.png",
+        "assets/ch01-v2-cavities-peritoneum.jpg",
+        "assets/ch01-v2-cranial-pleural-mri.jpg",
+        "assets/ch01-v2-cranial-pleural-poster.png",
+        "assets/ch01-v2-cranial-pleural-sliding.mp4",
+        "assets/ch01-v2-pleural-operative-native.png"
+      ],
+      "supporting_galleries": [
+        "assets/ch01-v2-cranial-pleural-reference.html",
+        "assets/ch01-v2-pleural-operative-reference.html"
+      ],
+      "print": "Native MRI90mm(~407ppi), ultrasound still110mm(~443ppi), operative80mm(~257ppi source-limited); source labels and external9.5pt keys. Actual PDF pending."
     },
     {
       "id": "ch1-fig2",
-      "status": "accepted",
-      "role": "Original conceptual compartment map plus actual Wellcome fibroblast confocal image and separate skin section, with attribution, specimen limitations and print fallback.",
-      "path": "assets/ch01-cell-panel.html",
+      "status": "partial-observed-candidate-review-pending",
+      "role": "Figure1.5 uses original author-annotated ER junction and algal Golgi; fixed rat granules remain in the three-study structural gallery. Separate PMP70/cytoskeleton companion. Complete whole-cell map remains unfinished.",
+      "path": "assets/ch01-v2-cell-reference.html",
       "assets": [
-        "assets/ch01-cell-schematic.svg",
-        "assets/ch01-cell-reference.jpg",
-        "assets/ch01-cell-tissue-reference.jpg",
-        "assets/ch01-cell-reference.json"
-      ]
+        "assets/ch01-v2-cell-er-source.png",
+        "assets/ch01-v2-cell-golgi-a.png",
+        "assets/ch01-v2-cell-golgi-b.png",
+        "assets/ch01-v2-perox-cytoskeleton-reference.html",
+        "assets/ch01-v2-perox-control.png",
+        "assets/ch01-v2-cytoskeleton-source.jpg",
+        "assets/ch01-v2-cytoskeleton-detail.png",
+        "assets/ch01-v2-cell-er-author.png"
+      ],
+      "er_print": "Author-C380x745 at60mm(~161ppi source-limited), external9.5pt key; membranecontinuity does not establish an open aqueous neck. Canonical PDF pending."
     },
     {
       "id": "ch1-anim1",
-      "status": "accepted",
-      "role": "Deterministic controlled presentation sequence through body, organ, tissue and cell; synthetic scale windows, no continuous specimen zoom or biological time. Separate controlled movable anatomical plane overlay.",
+      "status": "interactive-reference-review-pending",
+      "role": "Non-temporal structural photographic reference with a 16-second guided presentation and separate qualitative photographic plane projections. No synthetic metric windows or biological zoom. Historical ID retained; this is not a physiological animation.",
       "path": "assets/ch01-scale-hierarchy.html"
     }
   ],
   "limitations": [
-    "The parametric MPFB exterior remains visibly rendered and is used for spatial exploration. The actual studio photograph supplies observed exterior appearance; the two are not registered and neither is a population-normal template.",
     "The fibroblast and skin micrographs are different prepared specimens; fluorescence/stain colors are not natural tissue colors. Only the skin full-field width is calibrated by its archive.",
-    "Secretory itineraries and fusion topology are schematic with presentation time; no molecular geometry, fitted kinetics, coats, retrieval or detailed pore nucleation is modeled.",
     "The consuming sphere and slab use synthetic values, uniform zero-order demand and maintained surface concentration; they are not clinical tissue viability models.",
     "Free-diffusion RMS times do not describe deterministic arrival, first passage or vesicle transport.",
     "Cooper and the original NCBI retroperitoneum pages were available at indexed-excerpt depth during authoring; Blobel–Dobberstein evidence was abstract-level, not a complete scanned-article review.",
-    "Source-frame inspection is bounded sampling, not continuous video/audio. Private browser PDF proofs include an installed extension overlay and are not clean public PDF deliverables."
+    "Source-frame inspection is bounded sampling, not continuous video/audio. Private browser PDF proofs include an installed extension overlay and are not clean public PDF deliverables.",
+    "Cranial/upper-cervical MRI does not cover the remaining vertebral canal. CT/histology/US and pathological operative surfaces do not establish normal serous-film width, apposition or a complete peritoneal/pericardial interface.",
+    "SelectedER/Golgi/PMP70/cytoskeletal images are independent source-specific specimens; completewholecellinventory and validatedoutercellboundary remain incomplete.",
+    "Figure1.7 movie observations are separate mouse/yeast assays, not one cell, timebase or complete ER-to-extracellular pathway. Direct human cargo discharge/pore evidence remains missing. Inadequate human NPY montage removed from reader delivery and preserved privately."
   ],
   "additional_assets": [
     "assets/ch01-anatomical-photo.jpg",
     "assets/ch01-anatomical-photo.json"
   ],
   "coverage_basis": "Core source-topic spans and reasoned exclusions checked in the two independent full reviews; evidence is publisher captions plus bounded sampled-still audits, not continuous audio/video inspection.",
-  "body_sha256": "806a09adfb0088dfbae7df1403b8b2c33be6e83964c2d94905e5d8f7aea8633e",
+  "body_sha256": "97263f695ee303af75dbe93272f7667c4880ecb42769d08cc88c22b9288022be",
   "reviewed_artifacts": [
     {
       "path": "code/ch01_cell_geometry.py",
@@ -220,5 +243,73 @@
   "public_acceptance": {
     "path": "validation/acceptance/chapter-01.json",
     "sha256": "8877e97e515a1be8251dcf96a1c31ae8b10c634446828e97e6149bcf27b1ed7c"
-  }
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "local-cavity-context-and-structural-observed-integration-pending-review",
+    "date": "2026-11-09",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false,
+    "integration_report": "work/visual-v2/ch01-integration/cavity-context/HANDOFF.md",
+    "pending": [
+      "Independent current structural/movie source and appearance reviews",
+      "Root desktop650/390 native/Fit/seek/replay/rate/reduced-motion and shared-modal QA",
+      "Actual revised three-figure cell PDF and canonical poster/clock print proof",
+      "Complete whole-cell map and complete physiological secretion mechanism",
+      "Remainder of vertebral canal, normal pleural apposition/fluid-film scale and complete peritoneal/pericardial interface",
+      "Direct human cargo discharge and fusion-pore evidence",
+      "Root actual canonical MRI/ultrasound/operative and 60mm author-C print/browser review"
+    ]
+  },
+  "realistic_asset_gate": {
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
+  },
+  "review_history_scope": "reviews, reviewed_artifacts, production_validation, accepted_at_utc and public_acceptance describe prior hashes only; they do not accept current visual-v2 chapter bytes.",
+  "current_visual_artifacts": {
+    "assets/ch01-v2-cavities-reference.html": "64747d69800472423e561f66334bdc710660613333b7dc76c319894578aa7475",
+    "assets/ch01-v2-cell-reference.html": "c63923b9c84cb3fe32f7f870b29775801cf6962fe7fb406d99fcb56803c6412c",
+    "assets/ch01-v2-perox-cytoskeleton-reference.html": "856c2daaf30e65307570966c5ca2033a8d716b8f6f71f155010aa38d656966a2",
+    "assets/ch01-v2-secretory-observed.html": "62e76f06c63e3eef79add77c81116f503ae93ee604af7322b13f0b44e6567fd0",
+    "assets/ch01-v2-cranial-pleural-reference.html": "65fad21408e634dca0c54948c589e5b7acd693392024a096cfb257d6ab08c063",
+    "assets/ch01-v2-pleural-operative-reference.html": "9b6f10cedc6fb6b55faec805844ee639139f6be0cb0ce3844e817cf9223d3c47",
+    "assets/ch01-v2-cranial-pleural-mri.jpg": "05c36e3420b462ba544133b8cb3362e23e8fdd2e8a74442f9c13198ad97f532e",
+    "assets/ch01-v2-cranial-pleural-poster.png": "03ee1cdbeb3fb8b4e66da2e83e4f14113f72abcfb6948a4f5e35b523aac4b87f",
+    "assets/ch01-v2-cranial-pleural-sliding.mp4": "496fc2f2ff2263a822947eab7a77f6d94f5e1109685b802ebea4e34dd03dea8e",
+    "assets/ch01-v2-pleural-operative-native.png": "0375bc1ac657065d64bbc02ea20dab65f05c802bddfd8bc50b7166d8de081425",
+    "assets/ch01-v2-cell-er-author.png": "fadf0437ccf9c3f6880a40a8c67903c7839c3554057031ad4ac0d3a1d8acbdfe",
+    "assets/ch01-v2-plane-anterior.svg": "bffe583a94c97305071a9cf41db63399a84d28d42a02490bb35dd0c27da0c6f5",
+    "assets/ch01-v2-plane-lateral.svg": "fc71371457b87aa2da248ce352e1572ca6f1c6e825f59ad20f0474ee71f1aa30",
+    "assets/ch01-v2-plane-transverse.svg": "c80658d410ffe1c8ffa7ee68fe1f8b828040f5c59c2b01c1203cfb69177f81d7",
+    "assets/ch01-body-orientation.svg": "96d88924c644157aaedadee7da2f635d659e49c516a2c62387dda8b52a64fb22",
+    "assets/ch01-scale-hierarchy.html": "ed9a7ae8111c6d6ab3cb22d76e4601dbf4898b05217ce730e52b24943d180c3c",
+    "assets/ch01-v2-plane-credits.html": "7012f1ae899fc2127ba04e490db91ab96bcecf7f5ed201f22670328f44dbb6a5",
+    "assets/ch01-body-reference.html": "8d12d744abd6d2a06826aed72fae82f003e6b28f2f474f11940b0efa11980307",
+    "assets/ch01-v2-credits.html": "76dc4013ac5620bb45d3b83e946e3ea535197a8eb7ab32370d573f193b0793a6",
+    "assets/ch01-body-sketch-provenance.json": "60d477aa706f2f2fc463f700b49865150a7c62617250d467198be01297b4ba9a",
+    "assets/ch01-v2-plane-provenance.json": "3f5b02f72ad645b14c9f9c0592bbc757db4f29d97fc861eea606986fd7e7c0d6",
+    "assets/ch01-v2-provenance.json": "e3f9cdac9e3eac346885bea21c795ad12343e811e33aa422ccc693cf1da16eb2",
+    "assets/ch01-body-sketch-anterior.png": "4bfa63a4cf6b2017346c4d7f157b0e2759bf55705b00bca984b93867e084d68c",
+    "assets/ch01-body-sketch-lateral.png": "d639dcb3b6f5eb2e270747aa2bf5564fbbcc8c31111086b0d5c3f899a139c4ff",
+    "assets/ch01-ATTRIBUTION.md": "875e3ba1d5ac338c962534cef195e4bb3ed55bbcdcd8e9499c2b41a6987270bf",
+    "figures/ch01_planes_v2.py": "d9f6a29f967e0120315b2be7ea734f0ce5354b0c68acf902c6d3276fdc3af795",
+    "figures/ch01_visual_v2.py": "cc21188bb202812f583daca642170781976513f304247d5338a45e31705bb2e2",
+    "figures/ch01_sketch_hierarchy.template.html": "164e8cf2f3c0489a2f7298009e9233f2d9bb979285915c940cf6e2388fba4a6f",
+    "figures/README-ch01-visual-v2.md": "601c3f1fe9f3445fd8eb9dfb48217a8849ca8f7cf7c47cc75494a5dd9ed7f2ee"
+  },
+  "current_chapter_sha256": "1969012aacf5de3e91938d243976929f21a47ab264010462274fcc268d02a39f",
+  "current_body_sha256": "61a57afad15df98239bb4e78cb88e707196bf08d40a191b9ec6719a5ce249a6b",
+  "body_sketch_replacement": {
+    "date": "2026-11-09",
+    "request": "Replace photorealistic unclothed human figures with sketches; retain CT/MRI, microscopy and isolated organ specimens.",
+    "status": "implemented-local; targeted asset/link/JS and static-render inspection passed; actual browser blocked by disabled Work setting",
+    "provenance": "assets/ch01-body-sketch-provenance.json",
+    "historical_scientific_reviews_unchanged": true,
+    "current_visual_acceptance": false,
+    "evidence": "work/sketch-replacement/verification.json",
+    "http_evidence": "work/sketch-replacement/http-verification.json"
+  },
+  "current_hash_definition": "Raw file bytes; body bytes strictly between BEGIN/END CHAPTER BODY comments, no normalization. Historical review bindings are retained separately and are not new approval."
 }

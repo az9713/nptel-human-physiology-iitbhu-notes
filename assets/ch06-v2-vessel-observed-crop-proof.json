@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-09",
+  "scope": "Separately executed original acquisition and exact crop verification, not silently re-executed by composition builder.",
+  "crops": [
+    {
+      "file": "ch06-v2-vessel-observed-human-walls.png",
+      "source_figure_sha256": "1d54816bf333e91ceb5fc9a331fbfee8ad2aca8d266e14ad3d5c0d2bcf47e34f",
+      "crop_rect_xyxy": [
+        0,
+        0,
+        2350,
+        1370
+      ],
+      "derivative_sha256": "27072c36f131343209d81b168fd433416f2028bb9b1fdf036bd672dad474f2a4",
+      "decoded_rgb_sha256": "9595a3b7aba70cc70d063022d49b2ce81e9ef8cea77576ad1b7d065638b0d342",
+      "source_rect_rgb_sha256": "9595a3b7aba70cc70d063022d49b2ce81e9ef8cea77576ad1b7d065638b0d342",
+      "equal": true
+    },
+    {
+      "file": "ch06-v2-vessel-observed-mouse-brain.png",
+      "source_figure_sha256": "420013a399e857dc8937781ed6cd0e7d5fa60e91a4e97102904e3c0cd8edeeed",
+      "crop_rect_xyxy": [
+        0,
+        0,
+        820,
+        540
+      ],
+      "derivative_sha256": "75d56073ede51a9edcda8c1aa146531adaab6fe9203e72c42ec23d882e6b5266",
+      "decoded_rgb_sha256": "afa2af0827bdd444b272689db8c5e8762e1c208993f957474dff27cda684b7cb",
+      "source_rect_rgb_sha256": "afa2af0827bdd444b272689db8c5e8762e1c208993f957474dff27cda684b7cb",
+      "equal": true
+    },
+    {
+      "file": "ch06-v2-vessel-observed-mouse-heart.png",
+      "source_figure_sha256": "420013a399e857dc8937781ed6cd0e7d5fa60e91a4e97102904e3c0cd8edeeed",
+      "crop_rect_xyxy": [
+        825,
+        0,
+        1650,
+        540
+      ],
+      "derivative_sha256": "772fc3c89e2bfb36701e9ac0b80e6ea4c3d2e2bdacc0e886e76bf651712fd0f4",
+      "decoded_rgb_sha256": "54e5ecb7a3acbd93e767f42e1083265208862050f33145a311d7b9945362b697",
+      "source_rect_rgb_sha256": "54e5ecb7a3acbd93e767f42e1083265208862050f33145a311d7b9945362b697",
+      "equal": true
+    },
+    {
+      "file": "ch06-v2-vessel-observed-mouse-lung.png",
+      "source_figure_sha256": "420013a399e857dc8937781ed6cd0e7d5fa60e91a4e97102904e3c0cd8edeeed",
+      "crop_rect_xyxy": [
+        0,
+        610,
+        820,
+        1193
+      ],
+      "derivative_sha256": "6ebde062cbe0bbda574f2c303a41fd9aa10a88166f91886a47fe6bcb3396bc43",
+      "decoded_rgb_sha256": "4a9edc92abfa3399bca3bafa04d6f67abfc66d484b6a49dac2490ac61da8294a",
+      "source_rect_rgb_sha256": "4a9edc92abfa3399bca3bafa04d6f67abfc66d484b6a49dac2490ac61da8294a",
+      "equal": true
+    }
+  ]
+}

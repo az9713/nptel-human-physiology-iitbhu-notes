@@ -1,8 +1,8 @@
 {
   "chapter": 15,
   "title": "Muscle contraction and neuromuscular transmission",
-  "status": "accepted",
-  "coverage_complete": true,
+  "status": "revised",
+  "coverage_complete": false,
   "source_recordings": [
     33,
     34,
@@ -315,7 +315,7 @@
       "disposition": "Hypothetical football mechanism retained as underdetermined inverse problem; swelling not exact diagnosis/required aspiration."
     }
   ],
-  "body_sha256": "beface4d43c70bc6729ede6a952e1df3fdc7e60098b5831cfc7b01a60674ba89",
+  "body_sha256": "4278fc4c138e7193da3522f84a1ba1e7492e149f6738cf3893ad04fee4d101ae",
   "body_digest_convention": "SHA256 of raw bytes strictly between exact body markers, preserving enclosed newlines",
   "reviews": [
     {
@@ -531,7 +531,7 @@
       "sha256": "d6fc25336a7b76bd866d16e37296aaf1ae55aede08df6ba5a1c13d45bd72f4b1"
     }
   ],
-  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
   "code": [
     "code/ch15_checks.py",
     "code/ch15_validate.py"
@@ -542,7 +542,7 @@
       "id": "ch15-anim1",
       "path": "chapter-15-muscle-neuromuscular-transmission.html#ch15-anim1",
       "anchor": "ch15-anim1",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "NMJ compartment/causal sequence; phase geometry and text share state, two fronts",
       "script": "assets/ch15-models.js"
     },
@@ -550,7 +550,7 @@
       "id": "ch15-anim2",
       "path": "chapter-15-muscle-neuromuscular-transmission.html#ch15-anim2",
       "anchor": "ch15-anim2",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "SR release, regulation and coarse motor-state sequence; not molecular trajectory",
       "script": "assets/ch15-models.js"
     },
@@ -558,7 +558,7 @@
       "id": "ch15-anim3",
       "path": "chapter-15-muscle-neuromuscular-transmission.html#ch15-anim3",
       "anchor": "ch15-anim3",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Fixed-length sliding with synchronized prescribed L and selected active-force capacities; integer0–10equal-unit recruitment selector; primary frog force-length and cat recruitment evidence distinguished from synthetic parameters.",
       "script": "assets/ch15-models.js"
     },
@@ -566,32 +566,21 @@
       "id": "ch15-fig1",
       "path": "chapter-15-muscle-neuromuscular-transmission.html#ch15-fig1",
       "anchor": "ch15-microscopy",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Distinct recorded cardiac and skeletal preparations with original scale bars, paired with controlled filament organization; not atomic/NMJ/motion evidence."
     },
     {
       "id": "ch15-fig2",
       "anchor": "ch15-s1",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Original source-checked regional compartment comparison, paired with muscle-type table, locates bone/mineral,cartilage/synovium,tendon/bursa and muscle disease mechanisms; not diagnostic pathology photographs.",
       "path": "assets/ch15-regional-compartments.svg",
       "provenance": "assets/ch15-regional-provenance.json"
     }
   ],
   "realistic_asset_gate": {
-    "status": "accepted",
-    "mode": "observed-reference-plus-schematic",
-    "scene_family": "Striated muscle ultrastructure, neuromuscular junction and skeletal coupling",
-    "rationale": "Recorded mouse ventricular TEM and directly relevant mouse diaphragm skeletal TEM provide prepared ultrastructural appearance; original source-checked separate-scale NMJ,calcium,motor and filament mechanisms explain sequence. Regional compartments are labeled original topology. Neither reference demonstrates an NMJ or live molecular trajectory.",
-    "appearance_references": [
-      "assets/ch15-mouse-cardiac-cil39727.png",
-      "assets/ch15-skeletal-cil256.png"
-    ],
-    "mechanism_files": [
-      "assets/ch15-models.js"
-    ],
-    "report_path": "work/browser/ch15-visual-modality.json",
-    "report_sha256": "eef0eed94f37413d61d58d850099b9b5485322806483fa2851d1aad497ff465e"
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
   },
   "quality": {
     "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
@@ -647,5 +636,96 @@
   "public_acceptance": {
     "path": "validation/acceptance/chapter-15.json",
     "sha256": "ad4df3144403871c9cdf5a63098df0590d2eec867d97de1ad88559565a6a60f5"
-  }
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "in-progress-source-grounded-production",
+    "date": "2026-11-09",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false,
+    "observed_motion": {
+      "host": "assets/ch15-v2-sarcomere-observed-reference.html",
+      "role": "Source-observed isolated rabbit myofibril striation redistribution in activation and separately deactivation, not a full NMJ/crossbridge mechanism",
+      "review": "work/visual-v2/ch15/sarcomere-source/review-independent-precode.md",
+      "current": "UI/codec/print/final source-composition review pending"
+    },
+    "remaining_gaps": [
+      "Broad presynapticvesiclefusion, regenerativeAP/cablepropagation and excitation–contraction source geometry/mechanism remain incomplete.",
+      "Molecular actin/myosin/ATP-state and complete muscle-to-sarcomere hierarchy remain pending.",
+      "Regional bone/cartilage/bursa source-grounded replacement remains pending.",
+      "Current exact-hash source/appearance, actual phone/desktop controls and physical print reviews pending."
+    ],
+    "nmj_epp_v2": {
+      "host": "assets/ch15-v2-nmj-epp-reference.html",
+      "role": "Actual source-labelled fixed P15mouse NMJ and selected passive endplate charging model; no livepresynapticfusion or regenerativeAP",
+      "review": "work/visual-v2/ch15/nmj-source/review-independent-precode.md",
+      "current": "Final source/appearance/actual UI and print review pending"
+    }
+  },
+  "prior_visual_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Striated muscle ultrastructure, neuromuscular junction and skeletal coupling",
+    "rationale": "Recorded mouse ventricular TEM and directly relevant mouse diaphragm skeletal TEM provide prepared ultrastructural appearance; original source-checked separate-scale NMJ,calcium,motor and filament mechanisms explain sequence. Regional compartments are labeled original topology. Neither reference demonstrates an NMJ or live molecular trajectory.",
+    "appearance_references": [
+      "assets/ch15-mouse-cardiac-cil39727.png",
+      "assets/ch15-skeletal-cil256.png"
+    ],
+    "mechanism_files": [
+      "assets/ch15-models.js"
+    ],
+    "report_path": "work/browser/ch15-visual-modality.json",
+    "report_sha256": "eef0eed94f37413d61d58d850099b9b5485322806483fa2851d1aad497ff465e"
+  },
+  "canonical_html_sha256": "8c382bc430cf4c1d4dded06e6de8f19747e8d38abbac7e091ebab6fbf15c8b50",
+  "artifact_sha256": {
+    "assets/ch15-v2-sarcomere-observed-activation-poster.png": "e24cfe6f8e34a89cb38d8cdbcd5098e1219ef55519ce5f3eb95314b6fe883fde",
+    "assets/ch15-v2-sarcomere-observed-activation-strip-000.png": "301099647aa5d0e230e92657f537317ec46cb94304a5a4f6927600f18511d6ec",
+    "assets/ch15-v2-sarcomere-observed-activation-strip-058.png": "eaff244cbb42fd436b796a99ec640ac4715e7d2b92cd7c4b60933c78e8f31b16",
+    "assets/ch15-v2-sarcomere-observed-activation-strip-115.png": "544de6b7bf65e0d6fad6e34cb9e3fe6c742baa5790faeb92e7bb0ea13203abd1",
+    "assets/ch15-v2-sarcomere-observed-activation.mp4": "be4971af65493b61084cbfd0d374bb9fc7886e0d1b009421ba91d6bc70404449",
+    "assets/ch15-v2-sarcomere-observed-deactivation-poster.png": "c73b0f07003471a444158ae1b69c682f2a3fec669c1516f384fd4a4ae00c8138",
+    "assets/ch15-v2-sarcomere-observed-deactivation-strip-000.png": "c6dfc58d34704204681e035c9fe330e79334c7897ad738cbd69672295b44d627",
+    "assets/ch15-v2-sarcomere-observed-deactivation-strip-058.png": "e411181ce66dc814bdc559120265e0325b73dd3a654346e0fda5a5787711074d",
+    "assets/ch15-v2-sarcomere-observed-deactivation-strip-115.png": "0ee0dc53eb6a8d4d1532f5dbb755fc56c6e6daf28961b54877d44a98c177b6b3",
+    "assets/ch15-v2-sarcomere-observed-deactivation.mov": "00a611f086c126a4bda630da56bf0e0dce49922187b72b64a5d55a1c70d017ac",
+    "assets/ch15-v2-sarcomere-observed-provenance.json": "d7bce9e0f73f341079192b7e751a599884913143eb56ac0bb0e1be8ace6e92c8",
+    "assets/ch15-v2-sarcomere-observed-reference.html": "1c3f86f320918692669959295a15d6556a9266968ce4b979d1ed83721f648dd9",
+    "assets/ch15-v2-sarcomere-observed-sources.json": "3f11863ab5e954059d9e426d70cce731b64a32120ed9c02ca8dddccb152d203e",
+    "assets/ch15-v2-sarcomere-observed-deactivation-browser.mp4": "fa4b7fec77a7c532ef3da7b901bdfdfe8cf56503a5cefeafeae50fdf94a33138",
+    "assets/ch15-v2-nmj-epp-control-aprime.png": "6e87b991269805b392041622ba65133e5136a01bc912f7685b5d18e6b88b12a2",
+    "assets/ch15-v2-nmj-epp-print-comparison.svg": "02171f87377f2c39ffb7137d918ade99bcc4b0db68c27a9ebbcbc40c61e3ee97",
+    "assets/ch15-v2-nmj-epp-provenance.json": "7e9052e6c94c0c3fa85a20ae82d874083a4eaf6675001ad480d1c2c893238052",
+    "assets/ch15-v2-nmj-epp-reference.html": "f9a704f66d3cfbb9ce6c4dc65c46586db094be8ddb1045433ac08f9e9237518f",
+    "assets/ch15-v2-nmj-epp-source-figure4.jpg": "7dcf1b606d7ee256d3be7523f8b8bf36f1b0707e7439d018074f138d6b20c1dc",
+    "assets/ch15-v2-nmj-epp-sources.json": "8c47eb6579fee3e31013ab2d3e1b49c7905336ad59749f107175e644df14dc0c",
+    "assets/ch15-v2-nmj-epp.js": "2a6309c46b21ed604c6743cc88dd2841dfbc7d38a15dee807abd3c65d7f1713a"
+  },
+  "chapter_sha256": "2bba7a78772decc777df294090154be3b939842cf54909308a4c7b9e7ff55b9d",
+  "current_visual_artifacts": {
+    "assets/ch15-v2-triad-calcium-d.png": "6e9af260bd3e822db680778a045f616cbd8a9f6b869654db0459d498fbb216d7",
+    "assets/ch15-v2-triad-calcium-e.png": "40390d1f272b806188e1a319f846973dc4b97c2ef5e071cb0f641f7a15f7b30b",
+    "assets/ch15-v2-triad-calcium-print-model.svg": "0d4e0bf8777a3fa1356585f6f0823a3731f63ec237eedb47c0b982845c9b7aa6",
+    "assets/ch15-v2-triad-calcium-provenance.json": "dde046486ae9a0675ad1fb7dd1bd10e0e2a1b1d7c1433bc419509c2393a21d34",
+    "assets/ch15-v2-triad-calcium-reference.html": "823bc71b559bf1588bba9ed36c678042fb7aef4135ec2fa5c8b6c94ff0e94487",
+    "assets/ch15-v2-triad-calcium-source-figure1.png": "4abf7b8a90fea6f3b31cf65695ae03246dbaafd749b50637ee36278badbeb4a4",
+    "assets/ch15-v2-triad-calcium-sources.json": "76a1350b5e1592b79ac8f98cb350537acd5abfe34c2c1978ee617a58a9bac8c2",
+    "assets/ch15-v2-triad-calcium.js": "68f7bb2f3a331d2def9ba7eb70f14b92fffa0156ed0c162a254a65802c8c9910",
+    "figures/ch15_triad_calcium_v2.py": "4c510a0682f997af451227a8d945d2381ccf6d4bd9f83fb3716dec8fa9ea6e85",
+    "figures/ch15_triad_calcium_v2.template.html": "85d6a815c804aff02b225b9a7d2a1630909a8c12ae99e8f27cfb52bd44414693"
+  },
+  "nov10_observed_integration": {
+    "date": "2026-11-10",
+    "status": "Integrated locally; unchanged prior source/host reviews retained; new parent and outstanding browser/independent proof pending",
+    "host": "assets/ch15-v2-triad-calcium-reference.html",
+    "host_sha256": "823bc71b559bf1588bba9ed36c678042fb7aef4135ec2fa5c8b6c94ff0e94487",
+    "review": "work/visual-v2/audit/nov10-ready-integration/critical-review.md",
+    "current_visual_acceptance": false,
+    "historical_scientific_reviews_preserved": true
+  },
+  "current_chapter_sha256": "2bba7a78772decc777df294090154be3b939842cf54909308a4c7b9e7ff55b9d",
+  "current_body_sha256": "4278fc4c138e7193da3522f84a1ba1e7492e149f6738cf3893ad04fee4d101ae",
+  "current_hash_definition": "Raw file bytes; body bytes strictly between BEGIN/END CHAPTER BODY comments, no normalization. Historical review bindings are retained separately and are not new approval."
 }

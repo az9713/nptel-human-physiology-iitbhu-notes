@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-09",
+  "purpose": "Pure quantitative stored/delivered one-pool inventory, independent fixed mouse image",
+  "model": {
+    "A0": 50,
+    "S_values": [
+      0,
+      2
+    ],
+    "k_values": [
+      0,
+      0.2
+    ],
+    "tau_domain": [
+      0,
+      20
+    ],
+    "units": "Arbitrary inventory/model-time units; no source-time or human kinetic fit",
+    "equations": [
+      "dA/dtau=S-kA",
+      "dD/dtau=kA",
+      "A+D=A0+S*tau"
+    ],
+    "third_curve": "Initial stock plus cumulative synthesis, A0+S*tau"
+  },
+  "context": {
+    "file": "ch19-v2-lactation-observed-frame-0600.png",
+    "sha256": "cacdc84ba6a6c06c76756485524989e18ca6b5263961b29d4d27323389fbc76b",
+    "source_record": "ch19-v2-lactation-observed-sources.json",
+    "rights": "CC BY-NC-SA3.0",
+    "source_clock": "11:16; unrelated to model tau",
+    "transformation": "None; unchanged decoded source frame600"
+  },
+  "print_candidate": {
+    "source_width_mm": 50,
+    "source_ppi": 167.132,
+    "actual_pdf": "Pending root"
+  },
+  "limits": "Model coefficients not hormones; no anatomy simulation, measured milk volume, pressure, reflex kinetics or infant intake."
+}

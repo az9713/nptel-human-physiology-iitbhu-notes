@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-09",
+  "purpose": "Exact previous independent Gaussian teaching traces, pure quantitative small multiples without anatomical cartoons",
+  "domain": "0<=elapsed<28; interface samples0..27.9;28 unsampled next-onset boundary",
+  "units": "Each trace has a separate arbitrary vertical scale; no clinical concentration units or cross-hormone concentration comparison",
+  "zero": "Illustrative bleeding onset, conventional cycle day1; old day=1+t field not used as decimal cycle-day label",
+  "source_context": "https://www.nichd.nih.gov/health/topics/menstruation/conditioninfo; current owning page checked2026-11-09, content last reviewed2017; qualitative variability only, no numeric fit/art copied",
+  "original_model_sha256": "98e1a1de1b61e590eb4aaed28b457fbfa6d6c24b2e5af56f94abf236ca660741",
+  "model_coefficients": "Exact cycle() function copied into new public model.js, including chosen Gaussian centres/widths/amplitudes",
+  "limits": "No endocrine-feedback, individual ovulation, anatomy, fertilization or pregnancy prediction",
+  "print_candidate": "Four source-vector plots165mm and complete chosen-value table; root actual PDF pending"
+}

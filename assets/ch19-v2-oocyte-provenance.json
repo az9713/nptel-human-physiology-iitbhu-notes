@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-09",
+  "role": "Controlled completed-state maternal inventory; independent fixed mouse context",
+  "reproduction": {
+    "builder": "figures/ch19_oocyte_inventory_v2.py",
+    "template": "figures/ch19_oocyte_inventory_v2.template.html",
+    "private_network_required": false
+  },
+  "artifacts": {
+    "assets/ch19-v2-oocyte-reference.html": "b78fadd6095b9f28716841a04d8c8874af2edafc5196e6297807e5172ee35a7d",
+    "figures/ch19_oocyte_inventory_v2.template.html": "b78fadd6095b9f28716841a04d8c8874af2edafc5196e6297807e5172ee35a7d",
+    "figures/ch19_oocyte_inventory_v2.py": "9d45ebb4b0d84b5edfe2b97ed302c54d8395888bb4ad61f712933430bbfc2035",
+    "assets/ch19-v2-oocyte-sources.json": "55355ad9b8a4c9a16247c35fc2ee6dd36a68273afd8d5e66f4b20d5090596f4c",
+    "assets/ch19-v2-oocyte-model.js": "25df73d3fe8e74824f847f7b024b782686dd3ea36515f50880a47a2d369f26ee",
+    "assets/ch19-v2-oocyte-controls.js": "42d1e560de45290ab62ec7b0998302b221db6d9107914e0f18839777fa73380b",
+    "assets/ch19-v2-ovulation-observed-left-0077.png": "78ed8f9efa62ca9adf6515350e4037b28cda4505226ed3d1a24cdde905cfa57c",
+    "assets/ch19-v2-ovulation-observed-sources.json": "eb149163d23ee5ec9d4c9355c9cc044c453ff62a9b595948f2106b0df25d265e",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "acceptance": {
+    "current": false,
+    "actual_browser_print": "Pending root",
+    "assembled_source_model": "Pending independent review"
+  }
+}

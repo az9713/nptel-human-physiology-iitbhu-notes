@@ -1,0 +1,60 @@
+{
+  "sources": [
+    {
+      "id": "CIL221",
+      "file": "ch03-v2-rbc-clot-rbc-original.tif",
+      "sha256": "385687d4d4e46f4225154cc7871f96f8b2a96f6ad9e30748ad0929b0b22c1065",
+      "url": "https://cildata.crbs.ucsd.edu/media/images/221/221.zip",
+      "archive_member": "221/221_orig.tif",
+      "owning_url": "https://www.cellimagelibrary.org/images/221",
+      "doi": "10.7295/W9CIL221",
+      "creator": "Tina Carvalho",
+      "rights": "Public domain, explicitly stated by owning CIL record",
+      "specimen": "Homo sapiens erythrocytes; donor clinical normality unreported",
+      "preparation": "Prepared SEM; critical-point dried; shadowing/plating and metal-shadow contrast. Exact fixation/coating chemistry unreported.",
+      "dimensions": [
+        899,
+        843
+      ],
+      "source_calibration": "Physical pixel size and scale bar unavailable",
+      "original_acquisition": "Original ZIP separately acquired and CRC-checked; original TIFF copied unchanged as public rebuild input."
+    },
+    {
+      "id": "elife110286v2-video1",
+      "file": "ch03-v2-rbc-clot-retraction.webm",
+      "sha256": "5a6c09ff3e86a53b1d2838965c6d77b716ab5b67c02b747967de990d61faa410",
+      "creator": "Grichine et al.",
+      "owning_url": "https://elifesciences.org/reviewed-preprints/110286v2",
+      "doi": "10.7554/eLife.110286.2",
+      "version": "Reviewed preprint v2,2026-09-18",
+      "rights": "CC BY4.0; author-linked Video1; no third-party exclusion found",
+      "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "https://prod--epp.elifesciences.org/api/files/110286/v2/content/elife-preprint-110286-v2-video1.avi",
+      "original_sha256": "33bed4ea246f5bc9c90a4fd58f548919b2cd2d1e506806cd52f18a94f20ba41c",
+      "original_bytes": 17102910,
+      "original_storage": "Immutable separately acquired original AVI retained in private research; not required for public composition rebuild.",
+      "supplement_url": "https://prod--epp.elifesciences.org/api/files/110286/v2/content/supplements/705975_file02.pdf",
+      "derivative": "Lossless VP9 profile1 planarRGB full-range;1640x1072,120frames nominal7fps; no audio, crop, scaling, grading or interpolation",
+      "rgb_validation": "ch03-v2-rbc-clot-rgb-proof.json",
+      "timebase": "AVI1/7 to WebM1/1000; maximum absolute framePTS rounding0.000428571429s",
+      "biological_clock_limit": "Source left/right panel clocks differ at the same publisher frame; no single experiment-time conversion",
+      "specimen": "Human citrated blood-bank PRP;0.4ml50%plasma/50%PBS,1e8platelets/ml,Alexa488-fibrinogen12.5ug/ml,erythrocytes4ul/ml for colour contrast,thrombin2.5U/ml;2%Pluronic-coated8wellLabTek; static unconstrained retraction. Video1-specific imaging temperature unverified.",
+      "acquisition": "Confocal61zplanes,0.5umsteps,start100umabovebottom; caption reports100timepoints12.5sinterval,20:27min, not identical to120encodedframes.",
+      "assessment_limit": "Review assessment says causal link between cytoskeletal swirling and fibrin winding/compaction remains incomplete; only observed redistribution/node accumulation is taught here."
+    },
+    {
+      "id": "poster",
+      "file": "ch03-v2-rbc-clot-poster.png",
+      "sha256": "23ed490ca788d1402982da21e503755fe733f08b23cc87fb874282b8d090c600",
+      "rights": "CC BY4.0, same Video1 source",
+      "frame_index_zero_based": 75,
+      "dimensions": [
+        1640,
+        1072
+      ],
+      "publisher_file_time_s": 10.714285714285714,
+      "source_clocks": "left12:53/right15:30",
+      "operation": "Full decoded RGB of original AVI frame75, saved losslessPNG, equal to derivative frameRGB; no transform."
+    }
+  ]
+}

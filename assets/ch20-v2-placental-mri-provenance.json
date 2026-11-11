@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-09",
+  "role": "Separate source-attributed regional uterine/placental configuration change; no measured blood-flow/pressure mechanism",
+  "reproduction": {
+    "builder": "figures/ch20_placental_mri_v2.py",
+    "template": "figures/ch20_placental_mri_v2.template.html",
+    "private_network_required": false,
+    "acquisition": "Original sourceMP4s acquired separately; all immutable movies/stills and exact source metadata are public composition inputs"
+  },
+  "artifacts": {
+    "assets/ch20-v2-placental-mri-movie-1.mp4": "8bd212937a34fb6d593fd164a8a000d56af907b9a6f2e7b183b2430497009a44",
+    "assets/ch20-v2-placental-mri-HC29-frame-0000.png": "cd12874e9743409a91d19e09a5424fe376b52a0cc7c184da7749d645c8311f7e",
+    "assets/ch20-v2-placental-mri-HC29-frame-0090.png": "c4d4cfc31396726e1f0fd4106e79f9c206b331531ed515973292e41fb5bd2d9b",
+    "assets/ch20-v2-placental-mri-HC29-frame-0181.png": "1632b8cc66e678cfc0eabc4253e38362f285ad2404ad8dfaed131ead1c1fd3a0",
+    "assets/ch20-v2-placental-mri-movie-3.mp4": "724f36db8d4fbcaa7cfba32e54c6c96309d8047114415e1b85e577c4c168a4f1",
+    "assets/ch20-v2-placental-mri-HC11-frame-0000.png": "c15603dd2e011f2c6194f0de2ac1589efb8056a76bec7f6a851cf831d9683a4c",
+    "assets/ch20-v2-placental-mri-HC11-frame-0086.png": "4f4aa5a3ad3795b0affe1c3942842d8fbb3daf76b9de1df90f99e43fa58b11bd",
+    "assets/ch20-v2-placental-mri-HC11-frame-0172.png": "14187781e0441eb56fa2399fcdc085d1aa00de6a2b385cf9efd366a6b553c8cf",
+    "assets/ch20-v2-placental-mri-reference.html": "16e68a56e83e5a24bf378118ddee71ead4e123bd9d8352c5b7d93e9e663da7ee",
+    "figures/ch20_placental_mri_v2.template.html": "16e68a56e83e5a24bf378118ddee71ead4e123bd9d8352c5b7d93e9e663da7ee",
+    "figures/ch20_placental_mri_v2.py": "b3784a19291061655647e97a5b6234a265e324555a7c5d0fd377fe5146015e3b",
+    "assets/ch20-v2-placental-mri-sources.json": "a58809ca9c52e690882ff0dd0ff222ba747f29bcd318cc7df87a0545684cc902",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "assets/observed-video-controls.css": "55144b39d16e8f1096f0cf1d534c817076d1b8c1e137320291f9e8a46b852c9b",
+    "assets/observed-video-controls.js": "1136584777fdb340619dab2527e02e647c95d12fa4a5d8af847148a60f42341f"
+  },
+  "acceptance": {
+    "current": false,
+    "source_claims": "Pending independent assembled retarget",
+    "actual_browser_print": "Pending root"
+  }
+}

@@ -1,0 +1,2 @@
+/* Display size and playback rate only; never changes source pixels. */
+(() => {'use strict';const video=document.getElementById('phagocytosis-video');const player=video.closest('.player');document.querySelectorAll('[data-size]').forEach(button=>button.addEventListener('click',()=>{player.classList.toggle('native-mode',button.dataset.size==='native');if(button.dataset.size==='fit'){player.scrollLeft=0;player.scrollTop=0;}player.focus();}));document.getElementById('phagocytosis-rate').addEventListener('change',event=>{video.playbackRate=Number(event.target.value);});})();

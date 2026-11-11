@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-08",
+  "scope": "Selected native TEM and Figure3 movie only; original acquisition record retained privately",
+  "original_acquisition_record_sha256": "a3bcb2339cdccb4c1f33639c55cd86fda7a192416d30bb40566e8b70c946012e",
+  "membrane_image": {
+    "file": "B0002402-native.jpg",
+    "owning": "https://wellcomecollection.org/works/hky2pr36",
+    "owning_api": "https://api.wellcomecollection.org/catalogue/v2/works/hky2pr36?include=items,images",
+    "download": "https://iiif.wellcomecollection.org/image/B0002402/full/full/0/default.jpg",
+    "creator": "Mike Kayser",
+    "license": "CC BY4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "dimensions_px": [
+      3546,
+      2843
+    ],
+    "caption": "Transmission electron micrograph showing 2 cells.\nthe upper cell shows part of a nucleus and the\nlower one shows smooth endoplasmic reticulum and\nsecretory granules. This sample has been prepared\nas an ultra thin cryo section providing excellent\nstructural integrity and a softer appearence than\nmore conventional preparation methods.",
+    "limits": [
+      "Species/tissue/fixation chemistry/calibration/normality unspecified",
+      "Ultra-thin cryosection appearance, not live/natural color",
+      "Two adjacent plasma membranes are not the two leaflets of one bilayer",
+      "No identified pump/channel/pores or molecular resolution claim"
+    ],
+    "inspected": "Full tool display reduced to1756×1407; additional1600×900 actual native crop viewed",
+    "native_inspection_crop": {
+      "file": "B0002402-boundary-native-crop.png",
+      "rect_ltrb": [
+        800,
+        900,
+        2400,
+        1800
+      ],
+      "operation": "Unresampled/unrecolored crop; no new labels or scale"
+    }
+  },
+  "osmotic_movie": {
+    "file": "elife-72381-fig3-video1.mp4",
+    "doi": "10.7554/eLife.72381",
+    "creator": "Venkova et al.(2022)",
+    "owning": "https://elifesciences.org/articles/72381/figures#fig3video1",
+    "download": "https://static-movie-usa.glencoesoftware.com/mp4/10.7554/348/bb3fbd08898555635f976cf09b2002b58296236f/elife-72381-fig3-video1.mp4",
+    "caption_context": "Figure 3—video 1 Download asset This video cannot be played in place because your browser does support HTML5 video. You may still download the video for offline viewing. Download as MPEG-4 Download as WebM Download as Ogg FXm imaging of HeLa EMBL cells attached on PLL-coated glass exposed to osmotic shock 20× LD.",
+    "license": "CC BY4.0 actual owning notice/link",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "specimen": "Human HeLa EMBL(Kyoto) cervical cancer cell line; PLL-coated glass, not erythrocyte or untreated normal human tissue",
+    "assay": "Fluorescence exclusion(FXm), extracellular10kDa fluorescent dextran; rendered grayscale darkness reports exclusion, not membrane label",
+    "source_embedded_conditions": {
+      "hypo": "water addition; iso346mOsm→hypo177mOsm",
+      "hyper": "10%PEG400; iso346mOsm→hyper916mOsm",
+      "objective": "20× per title/caption, not playback multiplier"
+    },
+    "preparation": "Maintained37°C/5%CO2; generalFXm chamber imaging heated37°C/5%CO2; osmotic methods describe PLL, medium exchange <1s, typically2.5min after acquisition begins",
+    "timing": "Source clocks in minutes; delivered720×720/299frames/30fps/9.966667s. Exact per-movie original capture interval not independently confirmed. Title cards interrupt timebase; no universal biological-second conversion.",
+    "full_decode": "ffmpeg exit0; no errors",
+    "actual_frames_viewed": [
+      "start",
+      "middle",
+      "end",
+      "hypo-before file1.3s/source1.5min",
+      "hypo-response file2.2s/source6min",
+      "hypo-late file3.8s/source14min",
+      "hyper-before file6.5s/source2.5min",
+      "hyper-late file8.7s/source13.5min"
+    ],
+    "limits": [
+      "No molecular water/ion trajectories or leaflet resolution",
+      "Volume is fluorescence-deficit measurement, not raw projected area alone",
+      "Rapid passive and slower regulatory changes distinct",
+      "Relationship between the two segments not sufficient to assert one continuous tracked treatment/recovery experiment",
+      "No source physical scale bar identified in movie;20× not metric calibration"
+    ]
+  },
+  "files": {
+    "B0002402-native.jpg": {
+      "bytes": 1895875,
+      "sha256": "df3ded339876a430c54348a4dc925bb44d0b60465034ba607392183880d3a4ff"
+    },
+    "B0002402-boundary-native-crop.png": {
+      "bytes": 1347152,
+      "sha256": "eb6d03cf55dea936114b0ffdc07df9fcd2ce89a765f1c0db59cd0b082840de8b"
+    },
+    "elife-72381-fig3-video1.mp4": {
+      "bytes": 319878,
+      "sha256": "3a4b8057ecad08dc2ff555c5bc925d933245e86c7d63b5ea4bd720e9a87a35ca"
+    },
+    "elife72381-hypo-before.png": {
+      "bytes": 101717,
+      "sha256": "468efbca5f7ea935b69729703f7f5edbd73965d54747b6e228b7a1095d88518e"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-09",
+  "status": "Candidate; independent assembled source/native appearance and actual browser/print pending, no acceptance inferred",
+  "source_record": "ch15-v2-triad-calcium-sources.json",
+  "source_record_sha256": "76a1350b5e1592b79ac8f98cb350537acd5abfe34c2c1978ee617a58a9bac8c2",
+  "source_input": {
+    "file": "ch15-v2-triad-calcium-source-figure1.png",
+    "sha256": "4abf7b8a90fea6f3b31cf65695ae03246dbaafd749b50637ee36278badbeb4a4",
+    "pixels": [
+      1500,
+      1831
+    ],
+    "rgb_sha256": "3dc56e56e8b275a5326fe25c92dc754039121e84b9b114b27eb68a6c5cd694d9",
+    "source_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10954225.1/PMC10954225.1.pdf?md5=7ad9825e2f660d76a5c219248f51a8ad",
+    "source_pdf_sha256": "8e9e99cf5c7fc73d2294ff98a417014f42a0f35edb8fb45d3d6982cfb26a9bda",
+    "extraction": "PublishedPDFpage3xref60 decodedRGBPNG1500×1831; no resampling,recolororimagerepair. FullPDF andcloudfigure preservedprivately."
+  },
+  "crops": [
+    {
+      "file": "ch15-v2-triad-calcium-d.png",
+      "source_panel": "D",
+      "rect": [
+        0,
+        542,
+        609,
+        1118
+      ],
+      "pixels": [
+        609,
+        576
+      ],
+      "sha256": "6e9af260bd3e822db680778a045f616cbd8a9f6b869654db0459d498fbb216d7",
+      "rgb_sha256": "3c57130ac4e4e919f80bd1598848cc4813bd48a2f36abf6f2f7d2e896bc8ee77"
+    },
+    {
+      "file": "ch15-v2-triad-calcium-e.png",
+      "source_panel": "E",
+      "rect": [
+        622,
+        542,
+        1500,
+        1118
+      ],
+      "pixels": [
+        878,
+        576
+      ],
+      "sha256": "40390d1f272b806188e1a319f846973dc4b97c2ef5e071cb0f641f7a15f7b30b",
+      "rgb_sha256": "44cb7df5d3513b64c74c1ffc4c9c76b4c0c05a04da776e6818d405ca3360b805"
+    }
+  ],
+  "component_rights": "CC BY-NC4.0, copyright2024Authors; exclusive licenseeAAAS. Localnoncommercial educational adaptation; component-specific attribution/NCterms, no blanketCCBY or commercialpermission.",
+  "model": {
+    "tracked_pool": "Normalizedredistributable perturbationpool=1 aboveunspecifiedrestingbackground; not allcellularCa or freeCa concentration. c0=0 doesNOTmeanzerobasalcytosolicCa.",
+    "law": "dc/du=krel*(1-c)-kup*c duringreleasecommandu0..1; afteru1releaseoff,dc/du=-kup*c. SRtrackedamount=1-c.",
+    "model_time_u": [
+      0,
+      4
+    ],
+    "release_rate_per_u": 3,
+    "uptake_rate_per_u": 1,
+    "presentation_duration_s": 12,
+    "presets": [
+      "Release+uptake",
+      "Releasewithuptakeoff",
+      "Norelease"
+    ],
+    "assumptions": "Closedtwopooltrackedperturbation, no buffers/volumes/extracellularentry/troponin/force or sourceRyRgatekinetics. Sourcegeometryfixed; parametersprescribed, notfit. Scenariochangesrecomputefromsameinitialstate, notmidcourseinterventions."
+  },
+  "notation": "u dimensionless; krel=3,kup=1 constantcoefficients whenenabled. Never3 dividedbycoordinateu. c0=0 istrackedperturbation, neverzero basalCa.",
+  "print": {
+    "D_width_mm": 85,
+    "D_ppi": 181.9835294117647,
+    "E_width_mm": 95,
+    "E_ppi": 234.7494736842105,
+    "source_limited_exception": true,
+    "external_key_min_pt": 9.5,
+    "credits_min_pt": 9
+  },
+  "review_basis": "BactualsourceD/E andperturbation-pool analyticlaw preimplementation scopedapproval inwork/visual-v2/ch15/triad-source/review-independent-precode.md; finalUI/print/sourcecomposition pending.",
+  "reproduction": {
+    "builder": "figures/ch15_triad_calcium_v2.py",
+    "builder_sha256": "4c510a0682f997af451227a8d945d2381ccf6d4bd9f83fb3716dec8fa9ea6e85",
+    "template": "figures/ch15_triad_calcium_v2.template.html",
+    "template_sha256": "85d6a815c804aff02b225b9a7d2a1630909a8c12ae99e8f27cfb52bd44414693",
+    "python": "3.13.5",
+    "pillow": "11.0.0",
+    "inputs": "Immutable public sourcePNG/JSON/template/JS/sharedmodal only; no work/network/sourceacquisition dependency"
+  },
+  "artifacts": {
+    "ch15-v2-triad-calcium-source-figure1.png": "4abf7b8a90fea6f3b31cf65695ae03246dbaafd749b50637ee36278badbeb4a4",
+    "ch15-v2-triad-calcium-d.png": "6e9af260bd3e822db680778a045f616cbd8a9f6b869654db0459d498fbb216d7",
+    "ch15-v2-triad-calcium-e.png": "40390d1f272b806188e1a319f846973dc4b97c2ef5e071cb0f641f7a15f7b30b",
+    "ch15-v2-triad-calcium-print-model.svg": "0d4e0bf8777a3fa1356585f6f0823a3731f63ec237eedb47c0b982845c9b7aa6",
+    "ch15-v2-triad-calcium-reference.html": "823bc71b559bf1588bba9ed36c678042fb7aef4135ec2fa5c8b6c94ff0e94487",
+    "ch15-v2-triad-calcium.js": "68f7bb2f3a331d2def9ba7eb70f14b92fffa0156ed0c162a254a65802c8c9910",
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "pending": [
+    "ActualD/E NativeFit/containedpan/focus/sourcebar andlegend review",
+    "Actualthreewidth globalcontainment/controls/seek/presets/rate/reducedmotion/stateaudit",
+    "Actualtwofigureprintpagebreaks/182ppi density/sourcebar and235ppi segmentation/sourcelegend/key/credit",
+    "Canonical15 remains frozen: no integration or wholeECC/actomyosin acceptance inferred"
+  ]
+}

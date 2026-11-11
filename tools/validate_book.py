@@ -332,6 +332,24 @@ def validate(release=False, public=False):
                         errors.append(f'{path.name}: missing local anchor {link}')
             except (ValueError, OSError) as error:
                 errors.append(f'{path.name}: broken or private link {link}: {error}')
+    # Visual v2 acceptance is an additional gate, not an inference from the
+    # historical chapter reviews, functioning controls, or an old attestation.
+    visual_revision = load('completion.json').get('visual_revision', {})
+    if release and visual_revision.get('version') == 2:
+        if public:
+            errors.append('Release blocked: version-2 visual acceptance must be exported after all rubric checks pass')
+        else:
+            try:
+                from verify_visual_rubric import validate as validate_visual_rubric
+                visual_result = validate_visual_rubric(
+                    ROOT, ROOT/'validation/visuals/inventory.json',
+                    ROOT/'validation/visuals/audit-plan.json',
+                    ROOT/'validation/visuals/records')
+                if visual_result['status'] != 'PASS':
+                    errors.append('Release blocked by visual V01-V20 rubric: '
+                                  + str(len(visual_result['errors'])) + ' missing, pending or stale checks')
+            except (ImportError, OSError, ValueError, KeyError, TypeError) as error:
+                errors.append(f'Release blocked: visual rubric evidence unavailable: {error}')
     if release and pending:
         errors.append('Release blocked: incomplete chapters, visual coverage or assets remain')
     return errors, pending

@@ -1,7 +1,7 @@
 {
   "chapter": 25,
   "title": "Glia, barriers and sensory information",
-  "status": "accepted",
+  "status": "revised",
   "coverage_complete": true,
   "source_recordings": [
     58,
@@ -857,7 +857,7 @@
       "coverage_status": "located in developed draft; author evidence, not acceptance"
     }
   ],
-  "body_sha256": "a50a6e89374e7b794c4676ae6b29a9f84e470e3c77b1de2d7f29b58ae7d6b106",
+  "body_sha256": "8434529bdb7352e1d2c0bd4070f98a1b8658de5cc115f34c256985834b5ed923",
   "body_hash_definition": "SHA256 of raw read_bytes strictly between exact BEGIN/END CHAPTER BODY marker byte sequences; preserve leading/trailing newlines, no normalization.",
   "reviewed_artifacts": [
     {
@@ -1029,52 +1029,52 @@
       "id": "ch25-fig1",
       "path": "assets/ch25-barrier.svg",
       "companion_path": "assets/ch25-eye-ear.svg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch25-eye-context",
       "path": "assets/ch25-eye-ear.svg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch25-microscopy",
       "path": "assets/ch25-mouse-retinal-astrocytes.jpg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch25-anim1",
       "path": "chapter-25-glia-barriers-sensation.html#ch25-anim1",
       "embedded_panel": "assets/ch25-mechanisms.html?mode=barrier",
       "static_path": "assets/ch25-barrier.svg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch25-anim2",
       "path": "chapter-25-glia-barriers-sensation.html#ch25-anim2",
       "embedded_panel": "assets/ch25-mechanisms.html?mode=photo",
       "static_path": "assets/ch25-photo.svg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch25-anim3",
       "path": "chapter-25-glia-barriers-sensation.html#ch25-anim3",
       "embedded_panel": "assets/ch25-mechanisms.html?mode=conduction",
       "static_path": "assets/ch25-conduction.svg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch25-anim4",
       "path": "chapter-25-glia-barriers-sensation.html#ch25-anim4",
       "embedded_panel": "assets/ch25-mechanisms.html?mode=recycling",
       "static_path": "assets/ch25-recycling.svg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch25-anim5",
       "path": "chapter-25-glia-barriers-sensation.html#ch25-anim5",
       "embedded_panel": "assets/ch25-mechanisms.html?mode=field",
       "static_path": "assets/ch25-field.svg",
-      "status": "accepted"
+      "status": "revision-required"
     }
   ],
   "lab": {
@@ -1092,26 +1092,15 @@
     "status": "validated"
   },
   "realistic_asset_gate": {
-    "status": "accepted",
-    "mode": "observed-reference-plus-schematic",
-    "scene_family": "Glial interfaces, retinal networks and sensory mechanisms",
-    "rationale": "Verified prepared mouse confocal context supplies recorded glial/vessel appearance; hidden barriers and eye/ear relationships use source-checked explicitly nonmetric sections. Temporal mechanisms use controlled animations and declared artificial models.",
-    "appearance_references": [
-      "assets/ch25-mouse-retinal-astrocytes.jpg"
-    ],
-    "mechanism_files": [
-      "assets/ch25-mechanisms.html",
-      "assets/ch25-mechanisms.js"
-    ],
-    "report_path": "work/browser/ch25-visual-modality.json",
-    "report_sha256": "bf622488cbaa50ec5fc4c476f6e94f2f117d307ffdc9085989b54de6b6657add"
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
   },
   "quality": {
     "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
     "browser": "Actual agent browser control/responsive/motion/access checks plus independent root source-pixel and complete print-contact assessment; two original independent scientific reviews and bounded repairs separately recorded",
     "coverage": "All52 L58–60 topics/closings from full captions and attributed bounded10sheets176samples26native repeats; two actual independent full reviews, targeted scientific union and bounded production access repairs."
   },
-  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
   "author_report": "work/ch25-author-report.md",
   "research_ledger": "work/ch25-research-ledger.md",
   "production_validation": {
@@ -1131,5 +1120,50 @@
   "public_acceptance": {
     "path": "validation/acceptance/chapter-25.json",
     "sha256": "7ec10448871108be5794f922668a2c57059105dbaa5d9b09642157816b2c09f6"
-  }
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "reopened",
+    "date": "2026-11-08",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false
+  },
+  "prior_visual_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Glial interfaces, retinal networks and sensory mechanisms",
+    "rationale": "Verified prepared mouse confocal context supplies recorded glial/vessel appearance; hidden barriers and eye/ear relationships use source-checked explicitly nonmetric sections. Temporal mechanisms use controlled animations and declared artificial models.",
+    "appearance_references": [
+      "assets/ch25-mouse-retinal-astrocytes.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch25-mechanisms.html",
+      "assets/ch25-mechanisms.js"
+    ],
+    "report_path": "work/browser/ch25-visual-modality.json",
+    "report_sha256": "bf622488cbaa50ec5fc4c476f6e94f2f117d307ffdc9085989b54de6b6657add"
+  },
+  "chapter_sha256": "20e33c2dd054441a06e8f2bf866e8c375cbd0592f2457442e29c9d11bee8c47f",
+  "current_visual_artifacts": {
+    "assets/ch25-v2-barrier-observed-controls.js": "6b9edef2002528ec5a4f6cfbd8d6b8b4249b9c530364260f5b0ec3d153ec0f22",
+    "assets/ch25-v2-barrier-observed-native.jpeg": "f2293c7a5d01a06eb9435b41df1e0f302cbac6beabff29e4ea285551c7bdca71",
+    "assets/ch25-v2-barrier-observed-provenance.json": "2637b312ce2a12f7dee0e991e1758415cddd36d9dfd1e3d8b3f2526ed48facad",
+    "assets/ch25-v2-barrier-observed.html": "64db8a5106205244d93f9207170b658c72f276d64c0c6efd28073d174091a044",
+    "figures/ch25_barrier_observed.py": "45a4f994cb76dec3aed4f0f7685a08c08a10894754c947af2d5deac0a9279bf9",
+    "figures/ch25_barrier_observed.template.html": "64db8a5106205244d93f9207170b658c72f276d64c0c6efd28073d174091a044"
+  },
+  "barrier_observation_revision": {
+    "date": "2026-11-09",
+    "status": "Integrated local; full source/native plate inspected; actual browser/print and independent review pending",
+    "replaces": "Canonical Figure25.1 schematic anatomy only; other models retain separate unresolved anatomy/mechanism requirements",
+    "source": "assets/ch25-v2-barrier-observed-provenance.json",
+    "review": "work/visual-v2/ch25/barrier-observed/source-and-appearance-review.md",
+    "historical_scientific_reviews_preserved": true,
+    "current_visual_acceptance": false
+  },
+  "current_chapter_sha256": "20e33c2dd054441a06e8f2bf866e8c375cbd0592f2457442e29c9d11bee8c47f",
+  "current_body_sha256": "8434529bdb7352e1d2c0bd4070f98a1b8658de5cc115f34c256985834b5ed923",
+  "current_hash_definition": "Raw file bytes; body bytes strictly between BEGIN/END CHAPTER BODY comments, no normalization. Historical review bindings are retained separately and are not new approval."
 }

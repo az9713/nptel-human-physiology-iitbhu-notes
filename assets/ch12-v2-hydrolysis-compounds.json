@@ -1,0 +1,37 @@
+{
+  "source": "NIHPubChemPUGRESTcompoundname/IsomericSMILES,MolecularFormula,acquired2026-11-09",
+  "records": {
+    "maltoheptaose": {
+      "CID": 169622,
+      "MolecularFormula": "C42H72O36",
+      "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@H]([C@@H](CO)O)[C@@H]([C@H](C=O)O)O)CO)CO)CO)CO)CO)O)O)O)O"
+    },
+    "isomaltose": {
+      "CID": 439193,
+      "MolecularFormula": "C12H22O11",
+      "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)OC[C@@H]2[C@H]([C@@H]([C@H](C(O2)O)O)O)O)O)O)O)O"
+    },
+    "maltotriose": {
+      "CID": 92146,
+      "MolecularFormula": "C18H32O16",
+      "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O[C@H]([C@@H](CO)O)[C@@H]([C@H](C=O)O)O)CO)O)O)O)O"
+    },
+    "maltotetraose": {
+      "CID": 123966,
+      "MolecularFormula": "C24H42O21",
+      "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@H]([C@@H](CO)O)[C@@H]([C@H](C=O)O)O)CO)CO)O)O)O)O"
+    },
+    "D-glucose": {
+      "CID": 5793,
+      "MolecularFormula": "C6H12O6",
+      "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)O)O)O)O"
+    }
+  },
+  "drawing": "OriginalRDKit/CoordGen2D;canonicalchemicalformnotinstantaneousanomer,pH,3Dconformationormotion",
+  "rdkit": "2025.09.6",
+  "maltoheptaose_selected_bond_idx": 24,
+  "selected_cut_carbon_fragment_counts": [
+    18,
+    24
+  ]
+}

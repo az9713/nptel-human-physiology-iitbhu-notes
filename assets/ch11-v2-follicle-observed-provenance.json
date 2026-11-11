@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-09",
+  "status": "Local candidate; independent gallery appearance/source and actual browser/print review pending",
+  "purpose": "One observed human follicular structural reference: colloid profiles, epithelial rims and intervening stroma",
+  "sources": {
+    "date": "2026-11-09",
+    "sources": [
+      {
+        "id": "rosa-he-A",
+        "citation": "Rosa I, Ibba-Manneschi L, Guasti D, Perigli G, Faussone-Pellegrini MS, Manetti M (2022). Morphologic evidence of telocytes in human thyroid stromal tissue. Journal of Cellular and Molecular Medicine26:2477–2481.",
+        "doi": "10.1111/jcmm.17282",
+        "owning_url": "https://doi.org/10.1111/jcmm.17282",
+        "primary_archive_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8995439/",
+        "license": "CC BY4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "rights_basis": "Primary XML copyright/licence and published PDF metadata inspected; no Figure1 third-party exception located.",
+        "file": "ch11-v2-follicle-observed-panel-a.png",
+        "sha256": "5ce56dc011cd6961d732bccdceba6089d95edf04f8dc0095dd738b2ceb99bd7f",
+        "bytes": 606043,
+        "dimensions": [
+          693,
+          525
+        ],
+        "decoded_rgb_sha256": "17dfbaa5a9c3b2017948c1043e3dfb48c705c25c366eaab33d6d06d893c52972",
+        "source_figure_pixels": [
+          2079,
+          2101
+        ],
+        "source_figure_jpeg_sha256": "f1dd7bb0d5efb9ba830d823189f93236a6a102e3d18f0b29f91415b9507fff6b",
+        "source_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8995439.1/PMC8995439.1.pdf?md5=00e5a2eb8bc4d9d4d242844edda216d6",
+        "source_pdf_sha256": "66535c018505cdbffcb0e4a130dd2fb2b8025ba0327fe4b355a26423c1a8a7f6",
+        "source_pdf_md5": "00e5a2eb8bc4d9d4d242844edda216d6",
+        "source_pdf_page_1_based": 3,
+        "source_pdf_xref": 10,
+        "crop_rect_xyxy": [
+          0,
+          0,
+          693,
+          525
+        ],
+        "crop_operation": "Full H&E PanelA exact integer crop of Pillow-decoded native2079×2101 embedded JPEG; no resampling/retouch/recolour/new leaders or bar. Other IHC/IF panels omitted.",
+        "source_marks_retained": [
+          "Original(A) tag",
+          "H&E label",
+          "Original complete black scale bar; numeric50µm assignment comes from source caption, not a printed bitmap glyph"
+        ],
+        "specimen": "Human thyroid parenchyma without obvious lesion from surgical adult specimens; five adults in study; photographed donor identity/overall health/endocrine function not supplied.",
+        "preparation": "5µm formalin-fixed paraffin-embedded section, routine haematoxylin/eosin staining. Immunostaining/epoxy-resin protocols in same article are not assigned to this H&E panel.",
+        "source_caption_structure": "Colloid-containing follicles lined by epithelial thyrocytes with interfollicular reticular connective tissue.",
+        "source_calibration": "Source Figure1 caption assigns50µm bar toA–D; onlyA reproduced. No new ruler or nominal magnification substituted.",
+        "boundaries": [
+          "Two-dimensional prepared profiles, not spheres/full3D follicle sizes",
+          "Some follicular profiles cross image edges",
+          "H&E colours are stain appearance, not natural tissue colour",
+          "No stromal-cell subtype, molecular transporter or hormone-synthesis/release claim",
+          "No globally healthy donor or normal endocrine-function claim"
+        ],
+        "print_candidate": {
+          "width_mm": 110,
+          "file_ppi": 160.01999999999998,
+          "source_limited_exception": "Native693px panel enlarged110mm for epithelial-rim/bar/glyph inspection;160ppi source-limited presentation, not300ppi recovery. ActualPDF/native source glyph and tissue-detail acceptance pending."
+        }
+      }
+    ],
+    "acquisition_vs_composition": "Native PDF acquired and JPEG stream extracted separately; full figure/PDF remain private because other panels are unrelated. Public composer needs only immutableA PNG and source/proofJSON. No private/network dependency on rebuild.",
+    "decoder_caution": "Original JPEG stream is byte-identical to PDF raw DCT stream. Pillow and MuPDF JPEG decoding differ; only the named Pillow-decoded crop proof is claimed, not cross-decoder RGB identity."
+  },
+  "operations": "Immutable exact A crop composed without further image processing, anatomical overlays or new scale.",
+  "limits": [
+    "Two-dimensional prepared profiles, not spheres/full3D follicle sizes",
+    "Some follicular profiles cross image edges",
+    "H&E colours are stain appearance, not natural tissue colour",
+    "No stromal-cell subtype, molecular transporter or hormone-synthesis/release claim",
+    "No globally healthy donor or normal endocrine-function claim"
+  ],
+  "print": {
+    "panel_width_mm": 110,
+    "panel_height_mm": 83.33333333333333,
+    "file_ppi": 160.01999999999998,
+    "external_key_min_pt": 9.5,
+    "credit_min_pt": 9,
+    "source_limited_exception": "Native693px panel enlarged110mm for epithelial-rim/bar/glyph inspection;160ppi source-limited presentation, not300ppi recovery. ActualPDF/native source glyph and tissue-detail acceptance pending.",
+    "actual_pdf_and_original_A_HE_bar_readability": "PENDING root/B"
+  },
+  "reproduction": {
+    "builder": "figures/ch11_follicle_observed_v2.py",
+    "builder_sha256": "67b494f4a435092a9df4b24d0db8a7de6b4c233c41c4a5838cd676d94918065f",
+    "template": "figures/ch11_follicle_observed_v2.template.html",
+    "template_sha256": "6fd85ae82a91e38d74b82f3475a4f6459ea83637303fc0aca74d627361766943",
+    "python": "3.13.5",
+    "pillow": "11.0.0",
+    "public_inputs": [
+      "ch11-v2-follicle-observed-sources.json",
+      "ch11-v2-follicle-observed-crop-proof.json",
+      "ch11-v2-follicle-observed-panel-a.png",
+      "observed-image-dialog.css",
+      "observed-image-dialog.js"
+    ],
+    "private_network_dependencies": "None for composition. Native published PDF/JPEG acquisition and exact crop were separately executed; original URLs/hashes and decoder boundary are recorded in public inputs.",
+    "seed": "N/A; deterministic composition"
+  },
+  "shared_dependencies": {
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "verification": {
+    "immutable_crop_hash_RGB": "PASS integrity only",
+    "actual_browser_Native_Fit_pan_focus_responsive": "PENDING",
+    "independent_gallery_source_appearance": "PENDING",
+    "actual_print": "PENDING",
+    "canonical_integration_release": "PENDING"
+  },
+  "artifacts": {
+    "ch11-v2-follicle-observed-sources.json": "50f9ecfd9e8025900909dd6e03735fa302bb542ceeb7e7321f9082a4c05992c6",
+    "ch11-v2-follicle-observed-crop-proof.json": "3b9fa6c58cbd213e3536b11c00efc3e1e55bd3973959b5713c5f05decd5bb604",
+    "ch11-v2-follicle-observed-panel-a.png": "5ce56dc011cd6961d732bccdceba6089d95edf04f8dc0095dd738b2ceb99bd7f",
+    "ch11-v2-follicle-observed-reference.html": "6fd85ae82a91e38d74b82f3475a4f6459ea83637303fc0aca74d627361766943"
+  }
+}

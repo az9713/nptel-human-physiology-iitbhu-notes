@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-09",
+  "primary": {
+    "authors": "Thomas, Marx, Penir and Schuh",
+    "year": 2024,
+    "doi": "10.1038/s41556-024-01524-6",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11567896/",
+    "part": "Supplementary Video1, not BioRender Figure1 schematic",
+    "licence": "CC BY 4.0; no third-party exception attached to original movie",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "original_download": {
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11567896.1/41556_2024_1524_MOESM2_ESM.mp4?md5=0f3ea2948fdee9eb7af1e4a933ffa4ef",
+      "bytes": 10191794,
+      "sha256": "cc8f203477aca204f6f5e796151ec72971d1fcc2c7e4fb11674d1990e528dc36"
+    },
+    "xml_sha256": "682be124c815afdde959a35df62d672f630e73f4af545c5f134dde8be1cbbf6e"
+  },
+  "specimen": "Isolated mouse ovarian antral follicle; female23–28days; CAG-TAG transgenic line,C57BL/6J background; not intact human ovary.",
+  "preparation": "Dissected300–500µm follicles cultured24h onPTFE inserts. CultureFSH1nM/serumAlphaMEM37°C5%CO2/20%O2. Ovulation induced with5IU/mlhCG+5ng/mlEGF. Imaging medium37.5°C,5.5%CO2. No assignment of separate in-vivoPMSG protocol.",
+  "markers": "Source assigns Myr–TdTomato cellmembrane green and H2B–GFP DNA magenta; assigned colours are not native tissuecolour. Right field magnifies source-indicated inset from samefollicle.",
+  "timing": "Original78frames10publicationfps7.8s; methods10min acquisition intervals. Originalclock relativehCG:0=01:10,39=07:40,60=11:10,77=14:00; interval agrees sampledclocks. Lastframe hold extendsfileduration beyond finalsample. No universalhuman timing/velocity inferred.",
+  "media": {
+    "file": "ch19-v2-ovulation-observed-movie.mp4",
+    "sha256": "cc8f203477aca204f6f5e796151ec72971d1fcc2c7e4fb11674d1990e528dc36",
+    "dimensions": [
+      1504,
+      752
+    ],
+    "transformation": "NONE: byte-identical original publisher H264MP4."
+  },
+  "posters": [
+    {
+      "file": "ch19-v2-ovulation-observed-frame-0000.png",
+      "frame_index": 0,
+      "sha256": "75fed16aed2c14cdceae6835adcbbdcb40a48730468fc55095e8394939ef34d5",
+      "dimensions": [
+        1504,
+        752
+      ],
+      "decoded_rgb_sha256": "a40df2f31fcc5887b8be1d759b324a648376cfcb3923f1d08719226fb5fe9a0d",
+      "print_detail": {
+        "file": "ch19-v2-ovulation-observed-left-0000.png",
+        "sha256": "24d1035a5f9ab21531f294a1f00af912ad410a6ba32976abab240cd8d739d655",
+        "dimensions": [
+          752,
+          752
+        ],
+        "crop_rect_xyxy": [
+          0,
+          0,
+          752,
+          752
+        ],
+        "decoded_rgb_sha256": "4b46fca0ef3e52f4764b9e0cbdbb4b301f4c501f27e670175f6e8fe8175785c7"
+      }
+    },
+    {
+      "file": "ch19-v2-ovulation-observed-frame-0039.png",
+      "frame_index": 39,
+      "sha256": "5f1a9c5c35c4519635f643863a0a4756979d88b225da0572b885a214fedded98",
+      "dimensions": [
+        1504,
+        752
+      ],
+      "decoded_rgb_sha256": "d76dfdb50d8b643b97b0cf09ecbe37af428bfd472ca8b1e5d725803a52fe8034",
+      "print_detail": {
+        "file": "ch19-v2-ovulation-observed-left-0039.png",
+        "sha256": "f31a6f2f82b78a7b39bd05fdcdeb8584cc9ef0760fa7fc225fa9880ea8cc3cb6",
+        "dimensions": [
+          752,
+          752
+        ],
+        "crop_rect_xyxy": [
+          0,
+          0,
+          752,
+          752
+        ],
+        "decoded_rgb_sha256": "8d6d78468f5791896fe9b090558261a64d11c12a30b3c55dff71d0e86208baed"
+      }
+    },
+    {
+      "file": "ch19-v2-ovulation-observed-frame-0060.png",
+      "frame_index": 60,
+      "sha256": "ecf31f1bf565f9cac97bbca780bf82fa96241f943d1c60667f98e1e026d11ba9",
+      "dimensions": [
+        1504,
+        752
+      ],
+      "decoded_rgb_sha256": "cfddda437fd6bdb410202e8f7ec96a175281a32db3eda859c7044437c801e052",
+      "print_detail": {
+        "file": "ch19-v2-ovulation-observed-left-0060.png",
+        "sha256": "5810df3d652e3b0823c88ad6a5e5cb7c59b12d4c65472afbd6d7b1bce8222869",
+        "dimensions": [
+          752,
+          752
+        ],
+        "crop_rect_xyxy": [
+          0,
+          0,
+          752,
+          752
+        ],
+        "decoded_rgb_sha256": "f26dcf8371d1262dbb91334c01eb1b15c93a1b2c160804bbce06e589d6dab82c"
+      }
+    },
+    {
+      "file": "ch19-v2-ovulation-observed-frame-0077.png",
+      "frame_index": 77,
+      "sha256": "d77d3506fafee5149181509efe4457254f3fcf251b9bf953f08b5d28ff8fda2d",
+      "dimensions": [
+        1504,
+        752
+      ],
+      "decoded_rgb_sha256": "6ea1f413a5e592e1b67b46bacace8d095a88fb555505de1c010fab43d21f1e6a",
+      "print_detail": {
+        "file": "ch19-v2-ovulation-observed-left-0077.png",
+        "sha256": "78ed8f9efa62ca9adf6515350e4037b28cda4505226ed3d1a24cdde905cfa57c",
+        "dimensions": [
+          752,
+          752
+        ],
+        "crop_rect_xyxy": [
+          0,
+          0,
+          752,
+          752
+        ],
+        "decoded_rgb_sha256": "d4460a5fbbfd5b51283ae6a622aa916c0bbafb4ac6b2eb48e362e42f63d93159"
+      }
+    }
+  ],
+  "print": {
+    "detail_width_mm": 80,
+    "source_ppi": 238.76,
+    "operation": "Exactleftcontext cropx0,y0,right752,bottom752 for print; preserves original markerkey,100µmbar,sourceclock,dashedlocator; rightinset omitted only in these declared source-coordinate details. Fullfield remainspublic native still/video."
+  },
+  "claim_limits": [
+    "Local ex-vivo mouseovulation, not human duration or intacttract",
+    "No tubalcapture/fertilization/implantation",
+    "No directly demonstrated HApressure or cellsubtype mechanism from colour",
+    "10min sampling cannotresolve continuousrapidrupture",
+    "No adaptation of BioRenderart"
+  ],
+  "acceptance": {
+    "current": false,
+    "source_native": "B scopedPASS",
+    "actual_browser_print": "Pendingroot"
+  }
+}

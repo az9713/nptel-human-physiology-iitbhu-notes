@@ -1,7 +1,7 @@
 {
   "chapter": 10,
   "title": "Diabetes technologies and experimental cell therapy",
-  "status": "accepted",
+  "status": "revised",
   "coverage_complete": true,
   "reviews": [
     {
@@ -60,8 +60,8 @@
   "source_issue_ids": [
     "SCI-009"
   ],
-  "source_evidence": "Complete L22–L23 caption texts read; all43 topic dispositions recorded. Reused bounded L22 and L23 visual reports; no new author image inspection or continuous audio/video claim.",
-  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "source_evidence": "Complete L22\u2013L23 caption texts read; all43 topic dispositions recorded. Reused bounded L22 and L23 visual reports; no new author image inspection or continuous audio/video claim.",
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
   "body_sha256": "cdc04801bfdced23fea1907a7f8d493b041ba8c618c79007eb9ff0513ebf4e3c",
   "body_digest_convention": "SHA256 over raw file bytes strictly between BEGIN/END CHAPTER BODY marker bytes; no newline normalization.",
   "artifact_sha256": {
@@ -122,8 +122,8 @@
     ]
   },
   "code_validation": {
-    "python": "404 exchange balance states,8 invalid-input cases,2001 feedback states; amount residual≤1.75e-12; step-halving endpoint difference0.000292mmol/L.",
-    "parity": "Final-digest four Python–JavaScript output objects compared to1e-10;maximum difference8.67e-18;zero-clearance positive-source edge correctly reports no steady state.",
+    "python": "404 exchange balance states,8 invalid-input cases,2001 feedback states; amount residual\u22641.75e-12; step-halving endpoint difference0.000292mmol/L.",
+    "parity": "Final-digest four Python\u2013JavaScript output objects compared to1e-10;maximum difference8.67e-18;zero-clearance positive-source edge correctly reports no steady state.",
     "controls": "Three isolated DOM/RAF harnesses checked paused start,step,play advance,seek,replay,reduced-motion change pause,visibility pause,keyboard pan and six deterministic times. This is not actual browser QA.",
     "markup": "Shared Page parser checks passed main chapter,3HTMLviews andSVG for unique IDs,no duplicate attributes,local files/anchors. Math delimiters balanced;six solutions. Skill checktex/checklt/check_links/check_svg passed within their limited patterns."
   },
@@ -132,35 +132,35 @@
       "id": "ch10-anim1",
       "path": "assets/ch10-transport.html",
       "figure_number": "10.1",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Separate oxygen/glucose consumption and insulin source/export balances across a selective boundary; synthetic minutes."
     },
     {
       "id": "ch10-anim2",
       "path": "assets/ch10-sensing.html",
       "figure_number": "10.3",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Forced-reservoir blood/interstitial/processed sensor delay; synthetic minutes."
     },
     {
       "id": "ch10-anim3",
       "path": "assets/ch10-control.html",
       "figure_number": "10.4",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Bounded dimensionless command and delayed glucose-removal effector; no insulin dose."
     },
     {
       "id": "ch10-fig1",
       "path": "assets/ch10-device.svg",
       "figure_number": "10.2",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Original sectional capsule and source-proposed rectangular macrodevice; distinct vascular/protected regions."
     }
   ],
   "quality": {
     "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
     "browser": "Actual browser/control/responsive/reduced-motion checks and bounded root print inspection; relevant observed imagery or justified conceptual diagrams, with source limits and separate failed CG prototypes preserved.",
-    "coverage": "All 43 L22–23 topic dispositions, late drug/device material and six solutions assessed in two actual full reviews; complete captions plus attributed bounded still evidence, not continuous source viewing."
+    "coverage": "All 43 L22\u201323 topic dispositions, late drug/device material and six solutions assessed in two actual full reviews; complete captions plus attributed bounded still evidence, not continuous source viewing."
   },
   "limitations": [
     "No continuous source playback or fresh author image inspection.",
@@ -171,7 +171,7 @@
     "2023primarypaper directPMC HTML retrieved;targeted relevant result/method/figure-caption passages read,not full-paper or source-image inspection."
   ],
   "author_report": "work/ch10-author-report.md",
-  "coverage_basis": "All 43 L22–23 topic dispositions, late drug/device material and six solutions assessed in two actual full reviews; complete captions plus attributed bounded still evidence, not continuous source viewing.",
+  "coverage_basis": "All 43 L22\u201323 topic dispositions, late drug/device material and six solutions assessed in two actual full reviews; complete captions plus attributed bounded still evidence, not continuous source viewing.",
   "production_validation": {
     "report_path": "work/browser/ch10-production-final.json",
     "report_sha256": "e5865265c44dec552a265f4d03e39edce71348c2360fa92d6540a10ad926763c",
@@ -179,12 +179,29 @@
   },
   "accepted_at_utc": "2026-11-04T22:48:15.149Z",
   "acceptance_reopened": {
-    "reason": "Explicit WORKFLOW.md Chapters9–25 realistic new-scene still/motion inspection has no bound acceptance record. Scientific approvals and actual UI/print evidence preserved.",
+    "reason": "Explicit WORKFLOW.md Chapters9\u201325 realistic new-scene still/motion inspection has no bound acceptance record. Scientific approvals and actual UI/print evidence preserved.",
     "previous_status": "accepted",
     "recorded_at_utc": "2026-11-04T21:58:27.910Z",
     "resolved_by": "Explicit user-selected modality and hash-bound chapter-specific visual inspection."
   },
   "realistic_asset_gate": {
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
+  },
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-10.json",
+    "sha256": "bc35af5261711aa6bc55ad630eaeb60276a9928830cf1667817c001f977ae64a"
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "reopened",
+    "date": "2026-11-08",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false
+  },
+  "prior_visual_gate": {
     "status": "accepted",
     "reason": "Chapter-specific visual modality and delivered artifacts inspected under the user-selected workflow.",
     "mode": "conceptual-quantitative",
@@ -200,9 +217,5 @@
     "no_anatomical_appearance_claim": true,
     "report_path": "work/browser/ch10-visual-modality.json",
     "report_sha256": "2f400957083de2bd9e31e1576a74b663d104b73f9d1ab7cd6403d497c1e26c9a"
-  },
-  "public_acceptance": {
-    "path": "validation/acceptance/chapter-10.json",
-    "sha256": "bc35af5261711aa6bc55ad630eaeb60276a9928830cf1667817c001f977ae64a"
   }
 }

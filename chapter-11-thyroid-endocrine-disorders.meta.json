@@ -1,8 +1,8 @@
 {
   "chapter": 11,
   "title": "Thyroid and endocrine disorders",
-  "status": "accepted",
-  "coverage_complete": true,
+  "status": "revised",
+  "coverage_complete": false,
   "reviews": [
     {
       "reviewer_id": "/root/ch11_review_a",
@@ -30,7 +30,8 @@
       "targeted_reviewer_id": "/root/ch11_target_a",
       "targeted_reviewer_model": "gpt-6.1-sol",
       "targeted_checker_is_separate": true,
-      "original_full_review_body_sha256": "c6bf8d5c20a14edc49fd5709a311ff4aa8fc2b07d8968b98c8bea51980635b4e"
+      "original_full_review_body_sha256": "c6bf8d5c20a14edc49fd5709a311ff4aa8fc2b07d8968b98c8bea51980635b4e",
+      "current": false
     },
     {
       "reviewer_id": "/root/ch11_review_b",
@@ -58,16 +59,17 @@
       "targeted_reviewer_id": "/root/ch11_target_b",
       "targeted_reviewer_model": "gpt-6-sol",
       "targeted_checker_is_separate": true,
-      "original_full_review_body_sha256": "c6bf8d5c20a14edc49fd5709a311ff4aa8fc2b07d8968b98c8bea51980635b4e"
+      "original_full_review_body_sha256": "c6bf8d5c20a14edc49fd5709a311ff4aa8fc2b07d8968b98c8bea51980635b4e",
+      "current": false
     }
   ],
   "source_recordings": [
     24,
     25
   ],
-  "source_evidence": "Complete L24/L25 captions read through closing questions. Bounded source-visual audit attributed: six sheets / 112 sampled stills and nine native frames. Author separately inspected unchanged thyroid photograph; no continuous source audio/video review.",
-  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
-  "body_sha256": "b1b5b72273568ce320b9e3c2e06a41352175dc67d75de8f9aea8d243e83cad2e",
+  "source_evidence": "Historical source spine: completeL24/L25 captions and bounded audit of112sampled stills/nine nativeframes, not continuous audio/video. CurrentRosa2022 Figure1A source/native crop independently checked2026-11-09: primarycaption/methods/CCBY4, publishedPDFrawJPEG stream and namedPillowcropRGB verified. Composedgallery/canonical rootUI/print and Bsource/appearance review pending.",
+  "prose_status": "Historical scientific/editorial reviews retained; current calibrated H&E integration and remaining visual/release acceptance pending.",
+  "body_sha256": "209051932044671c10ba1f843ca2d029566d94dc57c0f9fb22190538475a9e91",
   "body_digest_convention": "SHA256 over raw file bytes strictly between literal BEGIN/END CHAPTER BODY marker bytes; enclosed newlines preserved.",
   "artifact_sha256": {
     "assets/ch11-follicle.html": "243371d49d2db27f8e183a82f724d864ec8abd0279c699eafcbd11f454f3e640",
@@ -121,30 +123,34 @@
   "figures": [
     {
       "id": "ch11-fig1",
-      "path": "assets/ch11-thyroid-reference.jpg",
+      "path": "assets/ch11-v2-follicle-observed-panel-a.png",
       "figure_number": "11.1",
-      "status": "accepted",
-      "role": "Observed human H&E follicular organization; root acquired unchanged CC0 bytes, author inspected."
+      "status": "local-calibrated-observed-reference-integration-pending-review",
+      "role": "Rosa2022 exact693×525 human H&E PanelA crop; enclosed/field-edge follicular profiles, epithelial rims, colloid and stroma. Sourcecaption assigns50µm originalblackbar;5µmFFPE/5adult surgicaldonor limits. Not hormone synthesis or whole thyroid/endocrine-mechanism evidence.",
+      "gallery": "assets/ch11-v2-follicle-observed-reference.html#follicular-reference",
+      "provenance": "assets/ch11-v2-follicle-observed-provenance.json",
+      "source_record": "assets/ch11-v2-follicle-observed-sources.json",
+      "current_acceptance": false
     },
     {
       "id": "ch11-anim1",
       "path": "assets/ch11-follicle.html",
       "figure_number": "11.2",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Three controlled mechanism views; ordered presentation stages, transport ports and finite fusion/retrieval openings."
     },
     {
       "id": "ch11-anim2",
       "path": "assets/ch11-feedback.html",
       "figure_number": "11.3",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Three synthetic perturbations; shared integrated states for plot, node shading and readout."
     },
     {
       "id": "ch11-fig2",
       "path": "chapter-11-thyroid-endocrine-disorders.html#ch11-fig2",
       "figure_number": "11.4",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Inline axis differential comparison with measurement limits."
     }
   ],
@@ -155,21 +161,57 @@
     "markup": "Three HTML pages pass shared Page parser: unique IDs, no duplicate attributes, existing local links/anchors. Both JS files pass node --check. Six relevant skill checks pass; 68 slash-delimited math segments separately checked for balanced braces and raw angle characters."
   },
   "quality": {
-    "coverage": "All 40 L24–25 dispositions, substantive late endocrine/diagnostic topics and six solutions assessed in two actual independent full reviews. Localized repairs independently checked by separately identified target checkers; bounded still/caption evidence is not continuous source viewing.",
-    "browser": "Actual browser/control/responsive/reduced-motion checks and bounded root print inspection; relevant observed imagery or justified conceptual diagrams, with source limits and separate failed CG prototypes preserved.",
-    "visual": "Photograph inspected; actual controlled-view rendering, motion and print inspection pending root. No anatomical reconstruction or photorealistic SVG claim.",
-    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed"
+    "coverage": "Historical topic dispositions/solutions reviewed on prior body; current visual coverage remains incomplete.",
+    "browser": "Historical runtime/print evidence binds prior hashes; current canonical and new gallery nativeFit/mobile/print proof pending root.",
+    "visual": "RosaA native/source critique supports bounded follicular morphology input. Composedgallery/canonical appearance and actualPDF review pending; no whole-rubric or molecular/mechanism acceptance.",
+    "scientific_reviews": "Prior independent reviews retained as history; current source/placement review pending for new exact artifact identities."
   },
   "limitations": [
     "No dosing, individualized diagnosis or clinical treatment algorithm.",
     "Model time, capacities and binding fractions are synthetic, not measured hormone kinetics or clinical intervals.",
     "TRH collapsed into central capacity; separate T3/T4, binding dynamics, delays, circadian secretion, resistance, illness and assay interference omitted.",
-    "Microscopy has unknown donor/normal-disease status, no calibrated display scale; fissures/stain/optics do not prove pathology.",
     "Nature research accessed at indexed abstract/extended-data depth after direct redirect failures. NIDDK primary-hyperparathyroidism page timed out and was not counted read.",
-    "Controls/markup tests do not establish actual browser, motion, anatomical or print quality."
+    "Controls/markup tests do not establish actual browser, motion, anatomical or print quality.",
+    "Figure11.1 is5µmFFPEH&E from adult surgical parenchyma without obvious lesion; photographed donor overall health/function unknown. The sourcecaption assigns its retainedblackbar50µm.",
+    "Two-dimensional follicular profiles include field-edge intersections and do not establish3D sphere size, specific stromal-cell subtypes, transport routes or hormone kinetics.",
+    "Native693px H&E panel printed110mm is a source-limited~160ppi candidate; actuallabel/bar/tissue/credit/pagefit judgement remains pending."
   ],
   "coverage_basis": "All 40 L24–25 dispositions, substantive late endocrine/diagnostic topics and six solutions assessed in two actual independent full reviews. Localized repairs independently checked by separately identified target checkers; bounded still/caption evidence is not continuous source viewing.",
   "realistic_asset_gate": {
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
+  },
+  "production_validation": {
+    "report_path": "work/browser/ch11-production-final.json",
+    "report_sha256": "fe267ec423fd45cf7a15977664e4006eeb91b04263ce40664b342fa28e9b7653",
+    "scope": "Actual browser/control/responsive/reduced-motion checks and bounded root print inspection; relevant observed imagery or justified conceptual diagrams, with source limits and separate failed CG prototypes preserved.",
+    "current": false
+  },
+  "accepted_at_utc": "2026-11-04T22:48:15.222Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-11.json",
+    "sha256": "5ae8b74ee5d4ea610684c385cef8777563340b047c765861a6f91d61914eb604",
+    "current": false
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "local-calibrated-follicular-reference-integration-pending-review",
+    "date": "2026-11-09",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false,
+    "current_body_sha256": "209051932044671c10ba1f843ca2d029566d94dc57c0f9fb22190538475a9e91",
+    "local_only": true,
+    "integration_report": "work/visual-v2/ch11/integration/HANDOFF.md",
+    "remaining": [
+      "Root actual gallery/canonical desktop650390, Native/Fit/End/focus and PDFbar/glyph/tissue/credit/pagebreak proof",
+      "B independent current source/anatomy and separate appearance/teaching review",
+      "ch11-anim1 synthesis/vesicle/transport mechanism remains revision-required; newH&E is not its validation",
+      "Gross thyroid/adjacent glands, molecular hormone architecture, endocrine-mechanism coverage and full-chapter/all-rubric acceptance not supplied by this follicular field"
+    ]
+  },
+  "prior_visual_gate": {
     "status": "accepted",
     "reason": "Chapter-specific visual modality and delivered artifacts inspected under the user-selected workflow.",
     "pilots": [
@@ -197,16 +239,43 @@
     ],
     "no_anatomical_appearance_claim": false,
     "report_path": "work/browser/ch11-visual-modality.json",
-    "report_sha256": "c0f3153c6867f4b4145772975c4fb85858d6709c390334966fcdccba4b4f01c9"
+    "report_sha256": "c0f3153c6867f4b4145772975c4fb85858d6709c390334966fcdccba4b4f01c9",
+    "current": false
   },
-  "production_validation": {
-    "report_path": "work/browser/ch11-production-final.json",
-    "report_sha256": "fe267ec423fd45cf7a15977664e4006eeb91b04263ce40664b342fa28e9b7653",
-    "scope": "Actual browser/control/responsive/reduced-motion checks and bounded root print inspection; relevant observed imagery or justified conceptual diagrams, with source limits and separate failed CG prototypes preserved."
+  "current_chapter_sha256": "b51e032da8e422ee18682ac3ab68edd3e7fcadfe3bfff3d6d6cbb93a3e6c8970",
+  "review_history_scope": "Historical reviews, artifact_sha256/reviewed_artifacts, production_validation, accepted_at_utc, public_acceptance and prior_visual_gate bind prior hashes only. They do not approve current Rosa H&E integration or remaining anatomical/mechanism coverage.",
+  "current_visual_artifacts": {
+    "assets/ch11-v2-follicle-observed-crop-proof.json": "3b9fa6c58cbd213e3536b11c00efc3e1e55bd3973959b5713c5f05decd5bb604",
+    "assets/ch11-v2-follicle-observed-panel-a.png": "5ce56dc011cd6961d732bccdceba6089d95edf04f8dc0095dd738b2ceb99bd7f",
+    "assets/ch11-v2-follicle-observed-provenance.json": "e56398b940a41fe66d22e12ce71fd931535d65566274bc51a61ec8fb1b47bbf8",
+    "assets/ch11-v2-follicle-observed-reference.html": "6fd85ae82a91e38d74b82f3475a4f6459ea83637303fc0aca74d627361766943",
+    "assets/ch11-v2-follicle-observed-sources.json": "50f9ecfd9e8025900909dd6e03735fa302bb542ceeb7e7321f9082a4c05992c6",
+    "assets/ch11-follicle.html": "243371d49d2db27f8e183a82f724d864ec8abd0279c699eafcbd11f454f3e640",
+    "assets/ch11-feedback.html": "f101a714a55d89fe5a11b981ca31f717e71dcbe57209d2c0cf64c9191f441509",
+    "assets/ch11-models.js": "000b7e6ac25ce726682946dc5219554bf573bf97f2f1ea40c33e534c03252c71",
+    "assets/ch11-views.js": "db558b128ff86a09a7594ea0e449b1c18c5354ba1ab0c610d44509711b12e9e5",
+    "code/ch11_feedback.py": "fd64fef44ecee72babff1c5516c760399f0c3ce80274bd9fb7028fc1a8950fe3",
+    "assets/ch11-v2-tbg-2CEO.cif": "179fce9408de11dadff6e6c2faca26d5e28b33768248c0d8371a39e9a6f6819e",
+    "assets/ch11-v2-tbg-binding-model.js": "a43ef81cf8beb57c61f9f4a27318f7985e521c4fdfc9cc552187f595b4606241",
+    "assets/ch11-v2-tbg-binding-reference.html": "690829debf041a4cc6fb74f2644b970b138a9f1e405adccf9697701d6cb8d75f",
+    "assets/ch11-v2-tbg-binding.js": "28c5cc83a211eca8d82138d58a2b38bd81b5cc6542475cdf52e444ce1e0a67a8",
+    "assets/ch11-v2-tbg-inputs.json": "4aca321821fd38276ae8feb3c5b5b5244b6379d4380a58e78bcbf96173bf9f87",
+    "assets/ch11-v2-tbg-overview.png": "240c4f024448e4967a7ab62b762e42ad885c5776df91e8789b11e01392643f5c",
+    "assets/ch11-v2-tbg-pocket-atoms.json": "43e6938766ddf7ca2b1ffc7de5b8a32e5c4b6b0ceafac6bbb9ca57a416f3a6e9",
+    "assets/ch11-v2-tbg-pocket.png": "99268bb49ee2338ad4fb04ee4b0bda201ef4873525e9b2e7c15c05bee548b5ee",
+    "assets/ch11-v2-tbg-provenance.json": "12f105903807dbb1be5af5359cb2184d4477f4568e1eb5d479f9105c6a358b5d",
+    "assets/ch11-v2-tbg-sources.json": "fe9851a1e73642d587de6fe93661b6056514a84c83e0532c3e96e7029ff2290a",
+    "figures/ch11_tbg_plate_v2.py": "bbcba3a18346bf0554c3e39357dcaa6aad4cc3a1c7750569fbcac81d567bffbc",
+    "figures/templates/ch11-v2-tbg-binding-reference.html": "690829debf041a4cc6fb74f2644b970b138a9f1e405adccf9697701d6cb8d75f"
   },
-  "accepted_at_utc": "2026-11-04T22:48:15.222Z",
-  "public_acceptance": {
-    "path": "validation/acceptance/chapter-11.json",
-    "sha256": "5ae8b74ee5d4ea610684c385cef8777563340b047c765861a6f91d61914eb604"
-  }
+  "retired_canonical_source_record": {
+    "files": {
+      "assets/ch11-thyroid-reference.jpg": "f2d5eabd7250951683e6c6ac761d43465bfe576bb6df99a430717fe486494558",
+      "assets/ch11-thyroid-reference.json": "caaf52a48d35597dee9c12e860a4c2f3d562dd81cb4010833572e5f9ace16246"
+    },
+    "operation": "No move or deletion. Original public files/sourceJSON preserved byte-identically at original paths for historical record; removed only from canonicalFigure11.1 and currentsource claims.",
+    "reason": "Replaced uncalibrated BCC photo with visible fringes/cracks and unknownprep/donor context by calibrated source-specificRosaA; preparation artifacts were not interpreted as pathology."
+  },
+  "current_body_sha256": "97a499884df4a260b1c45649485282f6c98b9232b7a8e5ac7c9ef4a82575d36c",
+  "current_hash_definition": "Raw file bytes; body bytes strictly between BEGIN/END CHAPTER BODY comments, no normalization. Historical review bindings are retained separately and are not new approval."
 }

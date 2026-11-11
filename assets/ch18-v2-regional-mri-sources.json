@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-09",
+  "primary": {
+    "authors": "Regent, Nowak, Skrobisz, Matuszewski and Studniarek",
+    "year": 2025,
+    "doi": "10.3390/diagnostics15243134",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12732017/",
+    "licence": "CC BY4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "pdf_sha256": "89f85addc0bc2b6a941262edc4db80df5488cf5f0f9a6514f186322f16efebbb",
+    "xml_sha256": "01d31e4d6dbce253b74cd48a25feb7644f17404ac8babf56da28e3eacc5d2258",
+    "role": "Author-providedclinicalMRIillustrations in review,not newpopulationstudy"
+  },
+  "specimen": "Human regionalMRI labellednormalanatomy bysource; individualage/globalhealth/erectionparameters/caselinkage unreported. Scrotalimagehas smallbilateralhydrocele,sourcecalledincidental.",
+  "annotation": {
+    "penile": "Sourcegreenarrowtunicaalbuginea,yellowurethraincorpusspongiosum,whiteglans",
+    "scrotal": "Sourcegreenarrowstunicaalbuginea,whitearrowsscrotalwall,bluearrowheadsepididymides"
+  },
+  "orientation": "UseONLYFig1a source-sagittal andFig2a source-coronal. Captionplaneambiguities inbpanelsexcluded; noDICOMaxes/globalorientation inferred.",
+  "calibration": "Noindividualimagebar/metriccalibration; generalreviewFOV/slicethicknessnotassigned.",
+  "files": [
+    {
+      "file": "ch18-v2-regional-mri-penile-a.png",
+      "sha256": "303aebe406bef818e85bfb2835e7417fece7616256cd84bf598668d851be3756",
+      "dimensions": [
+        986,
+        1186
+      ],
+      "source": "Figure1(a),PDFpageindex3,xref194topPNG+xref195bottomJPEG,986×593each",
+      "operations": "Exact vertical decodedRGB stacking; identicalx/width,contiguoussourcepagey216.859985; no scaling/seamretouch.",
+      "decoded_RGB_sha256": "7ae8a27c636c60a1ef314e3a8a5d2e77f1300e6b73174e276bbee37c7b22ca9a"
+    },
+    {
+      "file": "ch18-v2-regional-mri-scrotal-a.jpg",
+      "sha256": "cc98388e28f7322cab776f325e138dc071c4e78e13fdd61e8d87296625f2616d",
+      "dimensions": [
+        669,
+        742
+      ],
+      "source": "Figure2(a),PDFpageindex4,xref221 rawDCTJPEG",
+      "operations": "UnchangedrawJPEGbytes",
+      "decoded_RGB_sha256": "a57f281d850186c3db0631cd1ce21c437bd63f5a75862b86818a1368476413a4"
+    }
+  ],
+  "public_reproduction": "ImmutablederivedAinputs+thisexactextractionrecord;originalwholePDF/privatefullpanelsretained, no network/privateinputrequiredforcomposition.",
+  "print": {
+    "width_mm_each": 80,
+    "penile_ppi": 313.055,
+    "scrotal_ppi": 212.4075,
+    "actual_glyph_structure_review": "Pendingroot/B"
+  },
+  "limits": [
+    "Noerectionrecord or physiologicalspermtransport",
+    "Nospermatogenicfunction/healthdiagnosis",
+    "Nofullaccessorygland/vasdeferensroute",
+    "Noclaimcasesareonepatient orregisteredvolume"
+  ],
+  "acceptance": {
+    "current": false,
+    "source_native": "BscopedprecodePASS",
+    "browser_print": "Pendingroot"
+  }
+}

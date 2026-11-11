@@ -1,0 +1,3401 @@
+{
+  "status": "Private local-pocket selection, not new coordinates",
+  "entry": "2CEO",
+  "assembly": "1",
+  "source_geometry_sha256": "a3f5717cacd002813cf136bbe524e2453182231ec140f25e7097f1040ae2eb00",
+  "criterion": "Include every deposited heavy atom of every protein residue with any deposited heavy atom within4.0A of anyT44heavyatom. Entire selected residues shown; no inferred atom.",
+  "selected_residues": [
+    [
+      "A",
+      "23",
+      "SER"
+    ],
+    [
+      "A",
+      "238",
+      "GLN"
+    ],
+    [
+      "A",
+      "246",
+      "LEU"
+    ],
+    [
+      "A",
+      "248",
+      "LEU"
+    ],
+    [
+      "A",
+      "266",
+      "SER"
+    ],
+    [
+      "A",
+      "269",
+      "LEU"
+    ],
+    [
+      "A",
+      "27",
+      "ALA"
+    ],
+    [
+      "A",
+      "270",
+      "LYS"
+    ],
+    [
+      "A",
+      "273",
+      "ASN"
+    ],
+    [
+      "A",
+      "376",
+      "LEU"
+    ],
+    [
+      "A",
+      "377",
+      "GLU"
+    ],
+    [
+      "A",
+      "378",
+      "ARG"
+    ],
+    [
+      "A",
+      "381",
+      "ARG"
+    ]
+  ],
+  "atoms": [
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "23",
+      "residue": "SER",
+      "atom": "N",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 11.770000457763672,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        25.193,
+        4.642,
+        -33.396
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "23",
+      "residue": "SER",
+      "atom": "CA",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 12.34000015258789,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        24.082,
+        4.257,
+        -32.523
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "23",
+      "residue": "SER",
+      "atom": "C",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 10.130000114440918,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        22.99,
+        5.318,
+        -32.552
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "23",
+      "residue": "SER",
+      "atom": "O",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 9.869999885559082,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        21.802,
+        5.002,
+        -32.661
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "23",
+      "residue": "SER",
+      "atom": "CB",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 15.220000267028809,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        24.574,
+        4.084,
+        -31.084
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "23",
+      "residue": "SER",
+      "atom": "OG",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 19.559999465942383,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        25.77,
+        3.327,
+        -31.029
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "27",
+      "residue": "ALA",
+      "atom": "N",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 5.46999979019165,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        19.196,
+        5.018,
+        -34.127
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "27",
+      "residue": "ALA",
+      "atom": "CA",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 7.650000095367432,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        18.038,
+        5.189,
+        -33.266
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "27",
+      "residue": "ALA",
+      "atom": "C",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 9.149999618530273,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        17.053,
+        6.191,
+        -33.863
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "27",
+      "residue": "ALA",
+      "atom": "O",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 11.920000076293945,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        15.843,
+        5.996,
+        -33.78
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "27",
+      "residue": "ALA",
+      "atom": "CB",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 7.119999885559082,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        18.462,
+        5.614,
+        -31.87
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "238",
+      "residue": "GLN",
+      "atom": "N",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 3.4200000762939453,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        12.495,
+        0.403,
+        -16.817
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "238",
+      "residue": "GLN",
+      "atom": "CA",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 3.2300000190734863,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        13.544,
+        -0.442,
+        -17.375
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "238",
+      "residue": "GLN",
+      "atom": "C",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.6500000953674316,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        13.572,
+        -1.788,
+        -16.663
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "238",
+      "residue": "GLN",
+      "atom": "O",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.799999952316284,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        13.606,
+        -1.838,
+        -15.431
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "238",
+      "residue": "GLN",
+      "atom": "CB",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 4.570000171661377,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        14.905,
+        0.258,
+        -17.26
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "238",
+      "residue": "GLN",
+      "atom": "CG",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 6.25,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        16.123,
+        -0.611,
+        -17.577
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "238",
+      "residue": "GLN",
+      "atom": "CD",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 10.15999984741211,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        17.431,
+        -0.009,
+        -17.076
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "238",
+      "residue": "GLN",
+      "atom": "OE1",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 12.350000381469727,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        17.578,
+        1.212,
+        -16.979
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "238",
+      "residue": "GLN",
+      "atom": "NE2",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 11.34000015258789,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        18.39,
+        -0.869,
+        -16.756
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "246",
+      "residue": "LEU",
+      "atom": "N",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 4.369999885559082,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        18.308,
+        -5.113,
+        -22.371
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "246",
+      "residue": "LEU",
+      "atom": "CA",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 3.630000114440918,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        17.27,
+        -4.597,
+        -21.485
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "246",
+      "residue": "LEU",
+      "atom": "C",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 4.28000020980835,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        15.99,
+        -4.251,
+        -22.254
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "246",
+      "residue": "LEU",
+      "atom": "O",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 6.96999979019165,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        16.029,
+        -3.978,
+        -23.453
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "246",
+      "residue": "LEU",
+      "atom": "CB",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.8399999141693115,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        17.799,
+        -3.38,
+        -20.718
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "246",
+      "residue": "LEU",
+      "atom": "CG",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.0,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        18.077,
+        -2.092,
+        -21.498
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "246",
+      "residue": "LEU",
+      "atom": "CD1",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.0,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        17.025,
+        -1.06,
+        -21.179
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "246",
+      "residue": "LEU",
+      "atom": "CD2",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.130000114440918,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        19.433,
+        -1.554,
+        -21.151
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "248",
+      "residue": "LEU",
+      "atom": "N",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 4.409999847412109,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        12.651,
+        -1.604,
+        -22.444
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "248",
+      "residue": "LEU",
+      "atom": "CA",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 3.559999942779541,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        12.131,
+        -0.322,
+        -21.994
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "248",
+      "residue": "LEU",
+      "atom": "C",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 6.070000171661377,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        10.639,
+        -0.225,
+        -22.249
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "248",
+      "residue": "LEU",
+      "atom": "O",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 9.800000190734863,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        10.188,
+        -0.269,
+        -23.397
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "248",
+      "residue": "LEU",
+      "atom": "CB",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 3.130000114440918,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        12.866,
+        0.848,
+        -22.647
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "248",
+      "residue": "LEU",
+      "atom": "CG",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.0399999618530273,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        14.05,
+        1.441,
+        -21.882
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "248",
+      "residue": "LEU",
+      "atom": "CD1",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.0,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        14.533,
+        2.721,
+        -22.542
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "248",
+      "residue": "LEU",
+      "atom": "CD2",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.930000066757202,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        13.677,
+        1.714,
+        -20.44
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "266",
+      "residue": "SER",
+      "atom": "N",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 5.739999771118164,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        16.754,
+        10.037,
+        -30.645
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "266",
+      "residue": "SER",
+      "atom": "CA",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 5.96999979019165,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        18.009,
+        9.769,
+        -29.961
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "266",
+      "residue": "SER",
+      "atom": "C",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 6.769999980926514,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        18.216,
+        10.732,
+        -28.781
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "266",
+      "residue": "SER",
+      "atom": "O",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 6.039999961853027,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        18.716,
+        10.341,
+        -27.724
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "266",
+      "residue": "SER",
+      "atom": "CB",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 6.510000228881836,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        19.169,
+        9.876,
+        -30.944
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "266",
+      "residue": "SER",
+      "atom": "OG",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 9.4399995803833,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        20.317,
+        9.243,
+        -30.413
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "269",
+      "residue": "LEU",
+      "atom": "N",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 4.010000228881836,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        16.25,
+        9.436,
+        -25.667
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "269",
+      "residue": "LEU",
+      "atom": "CA",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.9000000953674316,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        16.894,
+        8.32,
+        -24.969
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "269",
+      "residue": "LEU",
+      "atom": "C",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.740000009536743,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        18.056,
+        8.794,
+        -24.098
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "269",
+      "residue": "LEU",
+      "atom": "O",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 4.170000076293945,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        18.183,
+        8.367,
+        -22.951
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "269",
+      "residue": "LEU",
+      "atom": "CB",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 3.759999990463257,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        17.386,
+        7.251,
+        -25.953
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "269",
+      "residue": "LEU",
+      "atom": "CG",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 4.210000038146973,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        16.409,
+        6.488,
+        -26.865
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "269",
+      "residue": "LEU",
+      "atom": "CD1",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.0,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        17.152,
+        5.444,
+        -27.682
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "269",
+      "residue": "LEU",
+      "atom": "CD2",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 4.75,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        15.276,
+        5.827,
+        -26.083
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "270",
+      "residue": "LYS",
+      "atom": "N",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.0,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        18.894,
+        9.675,
+        -24.646
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "270",
+      "residue": "LYS",
+      "atom": "CA",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.9800000190734863,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        20.034,
+        10.225,
+        -23.916
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "270",
+      "residue": "LYS",
+      "atom": "C",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 4.380000114440918,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        19.553,
+        10.875,
+        -22.63
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "270",
+      "residue": "LYS",
+      "atom": "O",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 6.5,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        20.178,
+        10.72,
+        -21.576
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "270",
+      "residue": "LYS",
+      "atom": "CB",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 5.489999771118164,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        20.794,
+        11.25,
+        -24.765
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "270",
+      "residue": "LYS",
+      "atom": "CG",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 7.510000228881836,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        21.469,
+        10.685,
+        -26.015
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "270",
+      "residue": "LYS",
+      "atom": "CD",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 8.670000076293945,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        21.914,
+        11.814,
+        -26.94
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "270",
+      "residue": "LYS",
+      "atom": "CE",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 7.5,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        21.866,
+        11.41,
+        -28.415
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "270",
+      "residue": "LYS",
+      "atom": "NZ",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 6.869999885559082,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        23.033,
+        10.587,
+        -28.835
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "273",
+      "residue": "ASN",
+      "atom": "N",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 7.960000038146973,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        18.424,
+        8.049,
+        -20.168
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "273",
+      "residue": "ASN",
+      "atom": "CA",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 7.880000114440918,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        19.656,
+        7.426,
+        -19.663
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "273",
+      "residue": "ASN",
+      "atom": "C",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 6.050000190734863,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        20.285,
+        8.197,
+        -18.494
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "273",
+      "residue": "ASN",
+      "atom": "O",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 5.260000228881836,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        20.806,
+        7.601,
+        -17.547
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "273",
+      "residue": "ASN",
+      "atom": "CB",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 8.569999694824219,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        20.674,
+        7.27,
+        -20.803
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "273",
+      "residue": "ASN",
+      "atom": "CG",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 9.460000038146973,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        21.925,
+        6.519,
+        -20.376
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "273",
+      "residue": "ASN",
+      "atom": "OD1",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 9.760000228881836,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        21.875,
+        5.324,
+        -20.075
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "273",
+      "residue": "ASN",
+      "atom": "ND2",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 8.050000190734863,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        23.059,
+        7.219,
+        -20.356
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "376",
+      "residue": "LEU",
+      "atom": "N",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.0,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        16.887,
+        -3.07,
+        -26.143
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "376",
+      "residue": "LEU",
+      "atom": "CA",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.0,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        18.158,
+        -2.472,
+        -26.505
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "376",
+      "residue": "LEU",
+      "atom": "C",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 3.809999942779541,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        19.294,
+        -3.402,
+        -26.131
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "376",
+      "residue": "LEU",
+      "atom": "O",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 3.930000066757202,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        19.143,
+        -4.252,
+        -25.246
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "376",
+      "residue": "LEU",
+      "atom": "CB",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.0,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        18.321,
+        -1.125,
+        -25.802
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "376",
+      "residue": "LEU",
+      "atom": "CG",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.0,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        17.118,
+        -0.186,
+        -25.926
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "376",
+      "residue": "LEU",
+      "atom": "CD1",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.0,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        16.813,
+        0.461,
+        -24.601
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "376",
+      "residue": "LEU",
+      "atom": "CD2",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 2.5199999809265137,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        17.322,
+        0.854,
+        -27.016
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "377",
+      "residue": "GLU",
+      "atom": "N",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 5.760000228881836,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        20.421,
+        -3.243,
+        -26.821
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "377",
+      "residue": "GLU",
+      "atom": "CA",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 8.8100004196167,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        21.644,
+        -3.959,
+        -26.492
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "377",
+      "residue": "GLU",
+      "atom": "C",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 11.59000015258789,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        22.663,
+        -2.955,
+        -25.979
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "377",
+      "residue": "GLU",
+      "atom": "O",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 13.579999923706055,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        22.947,
+        -1.961,
+        -26.648
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "377",
+      "residue": "GLU",
+      "atom": "CB",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 12.029999732971191,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        22.178,
+        -4.707,
+        -27.712
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "377",
+      "residue": "GLU",
+      "atom": "CG",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 14.09000015258789,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        23.419,
+        -5.558,
+        -27.442
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "377",
+      "residue": "GLU",
+      "atom": "CD",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 15.609999656677246,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        24.71,
+        -4.761,
+        -27.522
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "377",
+      "residue": "GLU",
+      "atom": "OE1",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 15.819999694824219,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        24.773,
+        -3.769,
+        -28.276
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "377",
+      "residue": "GLU",
+      "atom": "OE2",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 17.440000534057617,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        25.669,
+        -5.127,
+        -26.829
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "378",
+      "residue": "ARG",
+      "atom": "N",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 13.119999885559082,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        23.213,
+        -3.245,
+        -24.798
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "378",
+      "residue": "ARG",
+      "atom": "CA",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 12.420000076293945,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        24.044,
+        -2.314,
+        -24.019
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "378",
+      "residue": "ARG",
+      "atom": "C",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 13.619999885559082,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        25.335,
+        -1.817,
+        -24.68
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "378",
+      "residue": "ARG",
+      "atom": "O",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 15.850000381469727,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        25.59,
+        -0.608,
+        -24.705
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "378",
+      "residue": "ARG",
+      "atom": "CB",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 11.210000038146973,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        24.385,
+        -2.923,
+        -22.654
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "378",
+      "residue": "ARG",
+      "atom": "CG",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 12.079999923706055,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        23.299,
+        -2.764,
+        -21.62
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "378",
+      "residue": "ARG",
+      "atom": "CD",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 12.579999923706055,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        23.819,
+        -3.075,
+        -20.231
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "378",
+      "residue": "ARG",
+      "atom": "NE",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 13.449999809265137,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        23.081,
+        -2.34,
+        -19.205
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "378",
+      "residue": "ARG",
+      "atom": "CZ",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 13.34000015258789,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        21.984,
+        -2.778,
+        -18.588
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "378",
+      "residue": "ARG",
+      "atom": "NH1",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 14.59000015258789,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        21.4,
+        -2.019,
+        -17.669
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "378",
+      "residue": "ARG",
+      "atom": "NH2",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 11.789999961853027,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        21.469,
+        -3.969,
+        -18.881
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "381",
+      "residue": "ARG",
+      "atom": "N",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 5.840000152587891,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        24.546,
+        0.11,
+        -28.086
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "381",
+      "residue": "ARG",
+      "atom": "CA",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 8.270000457763672,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        23.366,
+        0.985,
+        -28.053
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "381",
+      "residue": "ARG",
+      "atom": "C",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 9.279999732971191,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        22.467,
+        0.814,
+        -29.294
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "381",
+      "residue": "ARG",
+      "atom": "O",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 11.380000114440918,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        21.91,
+        1.782,
+        -29.827
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "381",
+      "residue": "ARG",
+      "atom": "CB",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 8.529999732971191,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        23.776,
+        2.456,
+        -27.823
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "381",
+      "residue": "ARG",
+      "atom": "CG",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 9.9399995803833,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        24.428,
+        2.714,
+        -26.463
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "381",
+      "residue": "ARG",
+      "atom": "CD",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 11.550000190734863,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        25.152,
+        4.046,
+        -26.408
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "381",
+      "residue": "ARG",
+      "atom": "NE",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 14.199999809265137,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        25.809,
+        4.238,
+        -25.117
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "381",
+      "residue": "ARG",
+      "atom": "CZ",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 16.190000534057617,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        26.579,
+        5.279,
+        -24.808
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "381",
+      "residue": "ARG",
+      "atom": "NH1",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 14.430000305175781,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        27.133,
+        5.364,
+        -23.606
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "A",
+      "entity_id": "1",
+      "residue_id": "381",
+      "residue": "ARG",
+      "atom": "NH2",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 18.350000381469727,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": true,
+      "water": false,
+      "xyz_A": [
+        26.801,
+        6.237,
+        -25.7
+      ]
+    }
+  ],
+  "bonds": [
+    {
+      "a": "A:23:N",
+      "b": "A:23:CA",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:23:CA",
+      "b": "A:23:C",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:23:CA",
+      "b": "A:23:CB",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:23:C",
+      "b": "A:23:O",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:23:CB",
+      "b": "A:23:OG",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:238:N",
+      "b": "A:238:CA",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:238:CA",
+      "b": "A:238:C",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:238:CA",
+      "b": "A:238:CB",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:238:C",
+      "b": "A:238:O",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:238:CB",
+      "b": "A:238:CG",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:238:CG",
+      "b": "A:238:CD",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:238:CD",
+      "b": "A:238:OE1",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:238:CD",
+      "b": "A:238:NE2",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:246:N",
+      "b": "A:246:CA",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:246:CA",
+      "b": "A:246:C",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:246:CA",
+      "b": "A:246:CB",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:246:C",
+      "b": "A:246:O",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:246:CB",
+      "b": "A:246:CG",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:246:CG",
+      "b": "A:246:CD1",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:246:CG",
+      "b": "A:246:CD2",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:248:N",
+      "b": "A:248:CA",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:248:CA",
+      "b": "A:248:C",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:248:CA",
+      "b": "A:248:CB",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:248:C",
+      "b": "A:248:O",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:248:CB",
+      "b": "A:248:CG",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:248:CG",
+      "b": "A:248:CD1",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:248:CG",
+      "b": "A:248:CD2",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:266:N",
+      "b": "A:266:CA",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:266:CA",
+      "b": "A:266:C",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:266:CA",
+      "b": "A:266:CB",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:266:C",
+      "b": "A:266:O",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:266:CB",
+      "b": "A:266:OG",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:269:N",
+      "b": "A:269:CA",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:269:CA",
+      "b": "A:269:C",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:269:CA",
+      "b": "A:269:CB",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:269:C",
+      "b": "A:269:O",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:269:CB",
+      "b": "A:269:CG",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:269:CG",
+      "b": "A:269:CD1",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:269:CG",
+      "b": "A:269:CD2",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:269:C",
+      "b": "A:270:N",
+      "order": "SING",
+      "basis": "consecutive deposited polypeptide C-N, source distance",
+      "distance_A": 1.3336824959487164
+    },
+    {
+      "a": "A:27:N",
+      "b": "A:27:CA",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:27:CA",
+      "b": "A:27:C",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:27:CA",
+      "b": "A:27:CB",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:27:C",
+      "b": "A:27:O",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:270:N",
+      "b": "A:270:CA",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:270:CA",
+      "b": "A:270:C",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:270:CA",
+      "b": "A:270:CB",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:270:C",
+      "b": "A:270:O",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:270:CB",
+      "b": "A:270:CG",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:270:CG",
+      "b": "A:270:CD",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:270:CD",
+      "b": "A:270:CE",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:270:CE",
+      "b": "A:270:NZ",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:273:N",
+      "b": "A:273:CA",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:273:CA",
+      "b": "A:273:C",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:273:CA",
+      "b": "A:273:CB",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:273:C",
+      "b": "A:273:O",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:273:CB",
+      "b": "A:273:CG",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:273:CG",
+      "b": "A:273:OD1",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:273:CG",
+      "b": "A:273:ND2",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:376:N",
+      "b": "A:376:CA",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:376:CA",
+      "b": "A:376:C",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:376:CA",
+      "b": "A:376:CB",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:376:C",
+      "b": "A:376:O",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:376:CB",
+      "b": "A:376:CG",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:376:CG",
+      "b": "A:376:CD1",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:376:CG",
+      "b": "A:376:CD2",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:376:C",
+      "b": "A:377:N",
+      "order": "SING",
+      "basis": "consecutive deposited polypeptide C-N, source distance",
+      "distance_A": 1.33098084133469
+    },
+    {
+      "a": "A:377:N",
+      "b": "A:377:CA",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:377:CA",
+      "b": "A:377:C",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:377:CA",
+      "b": "A:377:CB",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:377:C",
+      "b": "A:377:O",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:377:CB",
+      "b": "A:377:CG",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:377:CG",
+      "b": "A:377:CD",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:377:CD",
+      "b": "A:377:OE1",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:377:CD",
+      "b": "A:377:OE2",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:377:C",
+      "b": "A:378:N",
+      "order": "SING",
+      "basis": "consecutive deposited polypeptide C-N, source distance",
+      "distance_A": 1.334676365266128
+    },
+    {
+      "a": "A:378:N",
+      "b": "A:378:CA",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:378:CA",
+      "b": "A:378:C",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:378:CA",
+      "b": "A:378:CB",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:378:C",
+      "b": "A:378:O",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:378:CB",
+      "b": "A:378:CG",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:378:CG",
+      "b": "A:378:CD",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:378:CD",
+      "b": "A:378:NE",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:378:NE",
+      "b": "A:378:CZ",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:378:CZ",
+      "b": "A:378:NH1",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:378:CZ",
+      "b": "A:378:NH2",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:381:N",
+      "b": "A:381:CA",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:381:CA",
+      "b": "A:381:C",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:381:CA",
+      "b": "A:381:CB",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:381:C",
+      "b": "A:381:O",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:381:CB",
+      "b": "A:381:CG",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:381:CG",
+      "b": "A:381:CD",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:381:CD",
+      "b": "A:381:NE",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:381:NE",
+      "b": "A:381:CZ",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:381:CZ",
+      "b": "A:381:NH1",
+      "order": "SING",
+      "basis": "residue CCD"
+    },
+    {
+      "a": "A:381:CZ",
+      "b": "A:381:NH2",
+      "order": "DOUB",
+      "basis": "residue CCD"
+    }
+  ],
+  "ccd_sha256": {
+    "ALA": "6d32b34d4f7b3ddf0cd3dff3f98ddaf7649bc5303ff9a8bd95ba62283f47a1ca",
+    "ARG": "191c437cfa501e0a87d275ca3d39974a1a9c8dc704df61bfc442a4c314e196ac",
+    "ASN": "81491bbdb49f96e2945192c07510324d206298d3479029b76defba2ed6ab2dc7",
+    "GLN": "b542ea5c013fbe0c7acee8e3f42d5dc4e392bd16c0aa545edbf6cb3c335ca30f",
+    "GLU": "99fa19054d31b07e7101b33ad9cc847cc6a209da60de279aed5e6a9236bb6da4",
+    "LEU": "fc56e022bc8baa25dc6e543b2c46664e365779aa1dda9831576fdf10b30ab84b",
+    "LYS": "318a0f6fa8f98682b35e1793517d5b683b9045c1e6174bc564b7d43e07e4c07c",
+    "SER": "46db0296a07732854d2c3ca67ed0f74f4c82ddc5698d0e59f433039a5d7c88a0"
+  },
+  "ligand": [
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "C1",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 30.860000610351562,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        20.333,
+        1.961,
+        -20.544
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "C2",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 30.260000228881836,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        20.989,
+        1.389,
+        -21.647
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "C3",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 30.75,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        20.75,
+        1.819,
+        -22.949
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "C4",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 30.190000534057617,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        19.769,
+        2.901,
+        -23.151
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "C5",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 31.040000915527344,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        19.101,
+        3.467,
+        -21.969
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "C6",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 31.209999084472656,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        19.394,
+        2.985,
+        -20.695
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "C7",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 29.459999084472656,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        20.631,
+        1.445,
+        -19.154
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "CA",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 25.790000915527344,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        21.887,
+        2.074,
+        -18.55
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "C",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 25.549999237060547,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        23.081,
+        1.965,
+        -19.475
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "C1'",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 30.549999237060547,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        20.289,
+        4.307,
+        -25.02
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "C2'",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 29.3799991607666,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        21.17,
+        5.1,
+        -24.277
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "C3'",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 29.8799991607666,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        22.003,
+        6.032,
+        -24.892
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "C4'",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 30.219999313354492,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        21.957,
+        6.187,
+        -26.36
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "C5'",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 30.690000534057617,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        21.014,
+        5.329,
+        -27.094
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "C6'",
+      "element": "C",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 31.239999771118164,
+      "vdw_radius_A": 1.7000000476837158,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        20.215,
+        4.418,
+        -26.411
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "N",
+      "element": "N",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 23.149999618530273,
+      "vdw_radius_A": 1.5499999523162842,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        21.608,
+        3.451,
+        -18.173
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "O4",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 30.860000610351562,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        19.474,
+        3.39,
+        -24.396
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "O4'",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 30.6299991607666,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        22.747,
+        7.075,
+        -27.027
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "O",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 25.959999084472656,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        23.641,
+        3.007,
+        -19.885
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "OXT",
+      "element": "O",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 23.8799991607666,
+      "vdw_radius_A": 1.5199999809265137,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        23.489,
+        0.826,
+        -19.803
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "I3",
+      "element": "I",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 35.70000076293945,
+      "vdw_radius_A": 1.9800000190734863,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        21.716,
+        0.99,
+        -24.608
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "I3'",
+      "element": "I",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 33.97999954223633,
+      "vdw_radius_A": 1.9800000190734863,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        23.319,
+        7.212,
+        -23.789
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "I5",
+      "element": "I",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 29.690000534057617,
+      "vdw_radius_A": 1.9800000190734863,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        17.741,
+        4.989,
+        -22.352
+      ]
+    },
+    {
+      "chain": "A",
+      "label_asym_id": "C",
+      "entity_id": "2",
+      "residue_id": "1395",
+      "residue": "T44",
+      "atom": "I5'",
+      "element": "I",
+      "occupancy": 1.0,
+      "altloc": "",
+      "b_iso": 27.940000534057617,
+      "vdw_radius_A": 1.9800000190734863,
+      "polymer": false,
+      "water": false,
+      "xyz_A": [
+        20.932,
+        5.535,
+        -29.155
+      ]
+    }
+  ],
+  "ligand_bonds": [
+    {
+      "a": "C1",
+      "b": "C2",
+      "order": "DOUB"
+    },
+    {
+      "a": "C1",
+      "b": "C6",
+      "order": "SING"
+    },
+    {
+      "a": "C1",
+      "b": "C7",
+      "order": "SING"
+    },
+    {
+      "a": "C2",
+      "b": "C3",
+      "order": "SING"
+    },
+    {
+      "a": "C3",
+      "b": "C4",
+      "order": "DOUB"
+    },
+    {
+      "a": "C3",
+      "b": "I3",
+      "order": "SING"
+    },
+    {
+      "a": "C4",
+      "b": "C5",
+      "order": "SING"
+    },
+    {
+      "a": "C4",
+      "b": "O4",
+      "order": "SING"
+    },
+    {
+      "a": "C5",
+      "b": "C6",
+      "order": "DOUB"
+    },
+    {
+      "a": "C5",
+      "b": "I5",
+      "order": "SING"
+    },
+    {
+      "a": "C7",
+      "b": "CA",
+      "order": "SING"
+    },
+    {
+      "a": "CA",
+      "b": "C",
+      "order": "SING"
+    },
+    {
+      "a": "CA",
+      "b": "N",
+      "order": "SING"
+    },
+    {
+      "a": "C",
+      "b": "O",
+      "order": "DOUB"
+    },
+    {
+      "a": "C",
+      "b": "OXT",
+      "order": "SING"
+    },
+    {
+      "a": "C1'",
+      "b": "C2'",
+      "order": "DOUB"
+    },
+    {
+      "a": "C1'",
+      "b": "C6'",
+      "order": "SING"
+    },
+    {
+      "a": "C1'",
+      "b": "O4",
+      "order": "SING"
+    },
+    {
+      "a": "C2'",
+      "b": "C3'",
+      "order": "SING"
+    },
+    {
+      "a": "C3'",
+      "b": "C4'",
+      "order": "DOUB"
+    },
+    {
+      "a": "C3'",
+      "b": "I3'",
+      "order": "SING"
+    },
+    {
+      "a": "C4'",
+      "b": "C5'",
+      "order": "SING"
+    },
+    {
+      "a": "C4'",
+      "b": "O4'",
+      "order": "SING"
+    },
+    {
+      "a": "C5'",
+      "b": "C6'",
+      "order": "DOUB"
+    },
+    {
+      "a": "C5'",
+      "b": "I5'",
+      "order": "SING"
+    }
+  ],
+  "limits": [
+    "Local selection omits most protein, not a physical cutaway or pore",
+    "Connectivity from CCD, no hydrogen-bond inference",
+    "Source coordinates untouched; representation radii may differ for readability"
+  ]
+}

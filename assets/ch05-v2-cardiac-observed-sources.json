@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-09",
+  "source": {
+    "title": "Validation and quantification of left ventricular function during exercise and free breathing from real-time cardiac magnetic resonance images",
+    "authors": "Edlund et al.",
+    "year": 2022,
+    "doi": "10.1038/s41598-022-09366-8",
+    "owning_url": "https://www.nature.com/articles/s41598-022-09366-8",
+    "selected_supplement": "SupplementaryVideoS1; legendDOCXlabelsSupplementaryfigure1",
+    "file": "cardiac2022-video1-publisher480p.mp4",
+    "rights": "OwningarticleCCBY4.0; no supplementarymovie thirdpartyexclusion found",
+    "specimen": "Same healthy human volunteer per exactsupplegend; individualage/sexnotprovided",
+    "panel_context": {
+      "left": "ECG-gatedrest,HR67bpm",
+      "middle": "Real-timefreebreathingrest,HR70bpm",
+      "right": "Real-timefreebreathingexercise,HR131bpm"
+    },
+    "plane": "Source short-axis cardiac views; no radiologicalL/R/A/Pmarkers or imagebar inmovie",
+    "source_acquisition": {
+      "scanner": "1.5T MAGNETOMAera",
+      "gated": "bSSFPbreathhold,typical1.9x2.0mminplane/8mmslice/40mstemporalresolution",
+      "real_time": "Ungatedfreebreathing,typical1.9x2.8mminplane/10mmslice/32–37mstemporalresolution;1000timeframesrest/800exercise per slice; not exactmovie sampling proof"
+    },
+    "container": {
+      "width": 854,
+      "height": 480,
+      "frames": 190,
+      "encoded_fps": "25/1",
+      "duration_s": 7.6
+    },
+    "actual_viewed_frames": [
+      0,
+      25,
+      100,
+      151,
+      189
+    ],
+    "download_selection": "Highest480pprogressive rendition directly advertised in publicpublisherembeddedplayer; not acquisitionnative or originalsupplementbitrate. Originalstatic-contentendpoint403. OrdinarypublicplayerURLdownload succeeded after one bodytimeout retry.",
+    "claim": "Qualitative short-axis cavity-size/wall-motion differences across displayedphases andrest/exerciseconditions",
+    "limits": [
+      "Leftgatedcineisphase-resolvedcomposite/repeat,notcontinuoussinglebeat proof",
+      "Real-time panels fromdifferentacquisitions,not phase/time synchronized",
+      "25encodedfpsdoesnotestablish exactbiologicaltime or unaltered exportcadence",
+      "No fakepixelcalibration fromtypicalprotocol",
+      "No EF/LVvolume/pressure/valveflow measurement fromsingleview"
+    ],
+    "file_sha256": "b641c8ee613d4d381264f2c5832c9fdc32bca73e10a053124add1cb663abd34c",
+    "file_bytes": 1323574
+  },
+  "inputs": [
+    {
+      "file": "ch05-v2-cardiac-observed.mp4",
+      "sha256": "b641c8ee613d4d381264f2c5832c9fdc32bca73e10a053124add1cb663abd34c",
+      "role": "movie",
+      "width": 854,
+      "height": 480
+    },
+    {
+      "file": "ch05-v2-cardiac-observed-frame-0000.png",
+      "sha256": "ca834e2cd320f19426e1100c1463fbea8e7307891cd7641eadb7e8602f4d8774",
+      "role": "decoded_frame",
+      "frame_index": 0,
+      "width": 854,
+      "height": 480,
+      "rgb_sha256": "bb3680ba56690603563c0a71a0567a65dda319a97e67ec85a734b2897c2c7803"
+    }
+  ],
+  "modifications": "Movie bytes unchanged. PNGs are full native decoded exported frames, no crop/recolour/overlay/resampling.",
+  "print": {
+    "width_mm": 160,
+    "ppi": 135.5725,
+    "exception": "Source-limited native distribution resolution. No upsampling; actual PDF legibility pending."
+  },
+  "gaps": [
+    "Acquisition-native original bitrate, exact export timing, complete chambers/valves/flow/calibration"
+  ],
+  "publisher_download": {
+    "player_url": "https://e.video-cdn.net/watch?video-id=6i_VLUTQoCfnXmRS3X5ask&player-id=-qZL2aSgACrhe2fEUstC_v&channel-id=86512",
+    "actual_download_url": "https://asset-out-cdn.video-cdn.net/private/videos/6i_VLUTQoCfnXmRS3X5ask/formats/aaa1656?cache-buster=35c6fd&__token__=exp=1794215976~acl=/private/videos/6i_VLUTQoCfnXmRS3X5ask/formats/aaa1656*~hmac=cc55d232ae3a4391e8933698a513af276fd4a12588e91b52a8f77a1ab857cef6",
+    "selection": "Highest progressive rendition advertised in public owning player480p; not native acquisition data or original supplementary bitrate.",
+    "bytes": 1323574,
+    "original_endpoint_status": 403,
+    "first_progressive_attempt": "HTTP200 but body read timeout; one retry succeeded"
+  }
+}

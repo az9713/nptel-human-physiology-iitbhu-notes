@@ -1,0 +1,9 @@
+"""Recompose an immutable observed source pair without image transformations."""
+from pathlib import Path
+import hashlib,json,platform
+from PIL import Image
+R=Path(__file__).resolve().parents[1];A=R/'assets';P='ch14-v2-gross-knee';sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
+s=json.loads((A/(P+'-sources.json')).read_text(encoding='utf-8'));im=A/s['input']['file'];assert sha(im)==s['input']['sha256'];q=Image.open(im);assert list(q.size)==s['input']['pixels'];assert hashlib.sha256(q.convert('RGB').tobytes()).hexdigest()==s['input']['rgb_sha256']
+t=R/'figures/ch14_gross_knee_v2.template.html';h=A/(P+'-reference.html');h.write_bytes(t.read_bytes())
+r={'date':'2026-11-09','status':'Supporting observed candidate; final source/native/anatomy and actualUI/print review pending, no acceptance inferred','source_record':P+'-sources.json','source_record_sha256':sha(A/(P+'-sources.json')),'input':s['input'],'specimen':s['specimen'],'preparation':s['preparation'],'source_caption':s['source_caption'],'component_rights':s['rights'],'print':s['print'],'scope':s['role_boundary'],'reproduction':{'builder':'figures/ch14_gross_knee_v2.py','builder_sha256':sha(__file__),'template':'figures/ch14_gross_knee_v2.template.html','template_sha256':sha(t),'python':platform.python_version(),'inputs':'Public immutableJPEG/sourceJSON/template/sharedmodal only; no privatework/network or originalacquisition required'},'artifacts':{p.name:sha(p)for p in [im,h,A/(P+'-sources.json'),A/'observed-image-dialog.css',A/'observed-image-dialog.js']},'pending':['Bsource/nativecomposition and anyanatomicalclaim','Actualdesktop650390containment/NativeFit/keyboardpan/End/Home/allcorners/focus','Actual160mm214ppi onepageprint/photo/key/creditlegibility','No canonicalintegration andno3Dmotionrequirementwaived']}
+(A/(P+'-provenance.json')).write_text(json.dumps(r,indent=2,ensure_ascii=False)+'\n',encoding='utf-8');print('OBSERVED_GROSS_KNEE_SUPPORTING_GALLERY_COMPOSED')

@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-09",
+  "sources": {
+    "date": "2026-11-09",
+    "primary": {
+      "authors": "Masedunskas, Chen, Stussman, Weigert, Mather",
+      "year": 2017,
+      "doi": "10.1091/mbc.E16-11-0776",
+      "owning_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5385942/",
+      "part": "Video 5, additional data for Figure 5 A–D",
+      "licence": "CC BY-NC-SA 3.0; original component and codec derivative retain these terms",
+      "licence_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "exception": "No third-party exclusion found for original Video 5 in owning caption/index/XML",
+      "original_download": {
+        "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5385942.1/supp_E16-11-0776v1_mc-E16-11-0776-s15.mov?md5=8ba0a318a97081016737d3609e33180e",
+        "bytes": 9964350,
+        "sha256": "62c393027aba046afd620148341575ccccc06af942f4f2409b059762508a3d1f",
+        "md5": "8ba0a318a97081016737d3609e33180e"
+      },
+      "original_private_acquisition": "Immutable source MOV retained locally; not a public composition dependency",
+      "primary_xml_sha256": "18bca9b2f1dd3261efe48d34ec3ed3be60a080865b1644a5afbcadadb43854a4",
+      "supplement_index_sha256": "cc2f53cc2724ee73925c8aaf705a4c80bd423285d5fd735a7e340f4c4a03f098"
+    },
+    "specimen": "Mouse; midlactation days9–11; anaesthetized surgically exposed mammary gland, attached vasculature; 0.02 IU intraperitoneal oxytocin per Fig5 caption",
+    "appearance": "Cytoplasmic GFP green, BODIPY lipid droplets red. Not direct myoepithelial label. Whole329×313 field and original20µmbar retained.",
+    "timing": "Original816 frames,30publicationfps,27.2s, embeddedclock00:00→15:19. General5/10sec acquisition methods do not establish this export mapping. No experiment-time conversion.",
+    "media": {
+      "file": "ch19-v2-lactation-observed-movie.webm",
+      "sha256": "fa0e7a858ea55a166fc242c6b43b276325c3687a367057c08490efb484690862",
+      "dimensions": [
+        329,
+        313
+      ],
+      "transformation": "Lossless VP9 RGB derivative, all816 decoded RGB hashes equal source; maximum PTS rounding0.000333s."
+    },
+    "proof": "ch19-v2-lactation-observed-rgb-proof.json",
+    "posters": [
+      {
+        "file": "ch19-v2-lactation-observed-frame-0000.png",
+        "frame_index": 0,
+        "sha256": "25b18244ebbef93ee5539471c7d62d370f3292f81342170093715b81f8b54928",
+        "dimensions": [
+          329,
+          313
+        ],
+        "decoded_rgb_sha256": "75b4e51ef3b23ecfd6cdd862f1158432be4f1859533bf302c7e0c09b3e6a784b"
+      },
+      {
+        "file": "ch19-v2-lactation-observed-frame-0400.png",
+        "frame_index": 400,
+        "sha256": "57f7d9ebc52129a65a4b01254f5dda0c14ca8de0ae4c34ae57576cd3b1f7b3bc",
+        "dimensions": [
+          329,
+          313
+        ],
+        "decoded_rgb_sha256": "27c0283ac72f7c739418bdfd516273988fe50b3f2cd62dac24e404d069b19dcf"
+      },
+      {
+        "file": "ch19-v2-lactation-observed-frame-0600.png",
+        "frame_index": 600,
+        "sha256": "cacdc84ba6a6c06c76756485524989e18ca6b5263961b29d4d27323389fbc76b",
+        "dimensions": [
+          329,
+          313
+        ],
+        "decoded_rgb_sha256": "30990612301b12285dddd9c63d4734e305958dbe93c9608c5ec8c8f95ea4495a"
+      },
+      {
+        "file": "ch19-v2-lactation-observed-frame-0815.png",
+        "frame_index": 815,
+        "sha256": "9c9000a5ee7e959fabd95db5928cac671ed1926f407abe796c0f63b0eaa2520e",
+        "dimensions": [
+          329,
+          313
+        ],
+        "decoded_rgb_sha256": "0990f3876682235a388a154b6cb56c8ea9997cf17d48dd3d6340e9cb20e90757"
+      }
+    ],
+    "print": {
+      "width_mm_per_frame": 80,
+      "source_ppi": 104.4575,
+      "exception": "Source-limited native329px; original clock/bar legibility requires actual PDF/native review. No upsampling or invented300ppi."
+    },
+    "claim_limits": [
+      "No human natural-suckling timing",
+      "No counted lipid secretion/flow/pressure",
+      "No membrane fission neck resolution",
+      "No full hormonal pathway or prolactin-driven synthesis observed",
+      "Independent Wellcome basket-cell microscopy is separate specimen/preparation, never registered"
+    ],
+    "acceptance": {
+      "current": false,
+      "scope": "B pre-host source/native role pass only; assembled appearance/browser/print pending"
+    }
+  },
+  "operations": "Lossless VP9 RGB codec derivative; full native decoded source frames, no crop, retouch or overlay.",
+  "reproduction": {
+    "builder": "figures/ch19_lactation_observed_v2.py",
+    "template": "figures/ch19_lactation_observed_v2.template.html",
+    "private_network_required": false
+  },
+  "artifacts": {
+    "assets/ch19-v2-lactation-observed-reference.html": "61e2ed499c3c0d72d719e5bb2ceaca0b5fede5ed3aa903ddc2ce9a4ffe021998",
+    "figures/ch19_lactation_observed_v2.template.html": "61e2ed499c3c0d72d719e5bb2ceaca0b5fede5ed3aa903ddc2ce9a4ffe021998",
+    "figures/ch19_lactation_observed_v2.py": "543726eaa33032886b5856bd1f2b00dac3a73d726498299422538cb6edf4fd68",
+    "assets/ch19-v2-lactation-observed-sources.json": "8b275fb85345669bf4601132977f70faff70111028c0305c5adec3db95bfc419",
+    "assets/ch19-v2-lactation-observed-movie.webm": "fa0e7a858ea55a166fc242c6b43b276325c3687a367057c08490efb484690862",
+    "assets/ch19-v2-lactation-observed-rgb-proof.json": "0e1412f8d8a9d9513cc55d1ca23d0ff470ec35af57069d7dcee217bfcca60172",
+    "assets/ch19-v2-lactation-observed-frame-0000.png": "25b18244ebbef93ee5539471c7d62d370f3292f81342170093715b81f8b54928",
+    "assets/ch19-v2-lactation-observed-frame-0400.png": "57f7d9ebc52129a65a4b01254f5dda0c14ca8de0ae4c34ae57576cd3b1f7b3bc",
+    "assets/ch19-v2-lactation-observed-frame-0600.png": "cacdc84ba6a6c06c76756485524989e18ca6b5263961b29d4d27323389fbc76b",
+    "assets/ch19-v2-lactation-observed-frame-0815.png": "9c9000a5ee7e959fabd95db5928cac671ed1926f407abe796c0f63b0eaa2520e",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "assets/observed-video-controls.css": "55144b39d16e8f1096f0cf1d534c817076d1b8c1e137320291f9e8a46b852c9b",
+    "assets/observed-video-controls.js": "1136584777fdb340619dab2527e02e647c95d12fa4a5d8af847148a60f42341f"
+  },
+  "acceptance": {
+    "current": false,
+    "assembled_source_appearance": "Pending independent review",
+    "actual_browser_print": "Pending root"
+  }
+}

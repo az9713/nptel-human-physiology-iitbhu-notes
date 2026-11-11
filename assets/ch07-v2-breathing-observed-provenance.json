@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-09",
+  "status": "Candidate; independent review and actual browser/print acceptance pending",
+  "sources": "ch07-v2-breathing-observed-sources.json",
+  "browser_primary_file": "ch07-v2-breathing-observed.mp4",
+  "remux": {
+    "proof_file": "ch07-v2-breathing-observed-remux-proof.json",
+    "ffmpeg_version": "ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+    "command": [
+      "ffmpeg",
+      "-i",
+      "ch07-v2-breathing-observed.mov",
+      "-map",
+      "0",
+      "-c",
+      "copy",
+      "-movflags",
+      "+faststart",
+      "ch07-v2-breathing-observed.mp4"
+    ],
+    "source_sha256": "fd0ab474810d3291e33f70d5f7f5d38e57c25c21e27eb9f1c6075203305c3793",
+    "browser_mp4_sha256": "120f42ba81fcb187736ada0c38f51bf424a6d358e6f993e674f1ed1fc9ed6fd1",
+    "all_48_coded_packets_equal": true,
+    "all_48_decoded_rgb_frames_equal": true,
+    "all_pts_exact_equal": true,
+    "max_pts_error_s": 0,
+    "composition_boundary": "Remux performed separately once and verified; public composition uses immutable MP4/MOV/proof/frames, no private input/network/reencoding/remux required.",
+    "actual_browser_support": "PENDING root actual test"
+  },
+  "inputs": [
+    {
+      "file": "ch07-v2-breathing-observed.mov",
+      "sha256": "fd0ab474810d3291e33f70d5f7f5d38e57c25c21e27eb9f1c6075203305c3793",
+      "role": "original_movie",
+      "width": 424,
+      "height": 814,
+      "storage": "Immutable author-supplement MOV retained as original-download input; primary browser media is separately declared MP4 remux."
+    },
+    {
+      "file": "ch07-v2-breathing-observed-frame-0000.png",
+      "sha256": "871eae216bcaf3faff3b682b043ffbd496aeb5238b41915e83d7e647b4be159e",
+      "role": "decoded_frame",
+      "frame_index": 0,
+      "width": 424,
+      "height": 814,
+      "rgb_sha256": "0761d9046a38bc6cb0b315644560e35d1fb40273f2d6da43f8e2281a5de45418"
+    },
+    {
+      "file": "ch07-v2-breathing-observed-frame-0025.png",
+      "sha256": "a339d4a077a55cf52e8b1d7739433cb88734e015497739562a2971cbf188f8e5",
+      "role": "decoded_frame",
+      "frame_index": 25,
+      "width": 424,
+      "height": 814,
+      "rgb_sha256": "debb24dc1f382af5e169aadec3e494787e634a1d5b5b16a8a5b49260b64cc21d"
+    },
+    {
+      "file": "ch07-v2-breathing-observed.mp4",
+      "sha256": "120f42ba81fcb187736ada0c38f51bf424a6d358e6f993e674f1ed1fc9ed6fd1",
+      "role": "browser_movie",
+      "width": 424,
+      "height": 814
+    },
+    {
+      "file": "ch07-v2-breathing-observed-remux-proof.json",
+      "sha256": "ae471789fe219e7d4aac33351045a5a4deab45a939ddf873916702332afe170c",
+      "role": "remux_proof"
+    }
+  ],
+  "modifications": "Original MOV retained unchanged. Browser primary is a container-only H264 MOV to MP4 remux using -map0 -c copy -movflags+faststart: all48 coded packets, decodedRGBframes and PTS unchanged. PNGs are unchanged full native decoded exported sourceframes.",
+  "print": {
+    "width_mm": 60,
+    "ppi": 179.4933333333333,
+    "exception": "Source-limited native distribution resolution. No upsampling; actual PDF legibility pending."
+  },
+  "coverage_gaps": [
+    "Quiet tidal breathing, calibrated diaphragm geometry, pressure/volume traces"
+  ],
+  "reproduction": {
+    "builder": "figures/ch07_breathing_observed_v2.py",
+    "template": "ch07_breathing_observed_v2.template.html",
+    "python": "3.13.5",
+    "pillow": "11.0.0",
+    "scope": "Exact public originalMOV/MP4remux/proof/decoded-frame/sourceJSON/template/shared-control inputs only; original acquisition and verified remux were separate. No private work/network/remux or reencoding on composition rebuild."
+  },
+  "controls": {
+    "video": "Native controls fallback; shared observed-video controls opt-in. Starts paused, metadata only, no autoplay/loop. Publisher file seconds distinct from physiology/acquisition. Shared reduced-motion preference change pauses playback.",
+    "display": "Native pixels/Fit player; focused contained keyboard pan. Native/Fit/Close poster modal with opener focus return."
+  },
+  "pending": [
+    "Distinct independent anatomy/timing/source and appearance/teaching review",
+    "Actual desktop/650/390 native/fit/pan/focus/play/seek/step/replay/end/reduced-motion and source format support",
+    "Actual PDF native-poster/source-label/external-key/credit/pagebreak legibility",
+    "Canonical chapter integration not performed"
+  ],
+  "artifacts": {
+    "ch07-v2-breathing-observed.mov": "fd0ab474810d3291e33f70d5f7f5d38e57c25c21e27eb9f1c6075203305c3793",
+    "ch07-v2-breathing-observed-frame-0000.png": "871eae216bcaf3faff3b682b043ffbd496aeb5238b41915e83d7e647b4be159e",
+    "ch07-v2-breathing-observed-frame-0025.png": "a339d4a077a55cf52e8b1d7739433cb88734e015497739562a2971cbf188f8e5",
+    "ch07-v2-breathing-observed.mp4": "120f42ba81fcb187736ada0c38f51bf424a6d358e6f993e674f1ed1fc9ed6fd1",
+    "ch07-v2-breathing-observed-remux-proof.json": "ae471789fe219e7d4aac33351045a5a4deab45a939ddf873916702332afe170c",
+    "ch07-v2-breathing-observed-sources.json": "878da242b08293253a3192e8dd94d90c3df510ab5113d5e983a89c20f0f13d9e",
+    "ch07-v2-breathing-observed-reference.html": "9915f5a7d8474a28cd494451b4cbe98074e962573be62faee039be1d85edeace",
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "observed-video-controls.css": "55144b39d16e8f1096f0cf1d534c817076d1b8c1e137320291f9e8a46b852c9b",
+    "observed-video-controls.js": "1136584777fdb340619dab2527e02e647c95d12fa4a5d8af847148a60f42341f"
+  }
+}

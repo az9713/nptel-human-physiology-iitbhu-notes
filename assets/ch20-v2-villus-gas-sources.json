@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-09",
+  "role": "Whole native observed term-villus H&E with separate synthetic signed gas-gradient exercise",
+  "image": {
+    "file": "ch20-chorionic-villus-term.jpg",
+    "sha256": "dd885787ec8bdfe2e57201ab269edc704acec8f0206a3fae43b1aef19903f80c",
+    "dimensions": [
+      4996,
+      4893
+    ],
+    "transformation": "None; existing original JPEG retained unchanged",
+    "owner": "Mikael Häggström, MD",
+    "source": "https://commons.wikimedia.org/wiki/File:Histology_of_chorionic_villus_at_term,_annotated.jpg",
+    "rights": "CC0 1.0",
+    "source_date": "2026-07-31; current upload2026-08-06",
+    "prep": "Human term H&E; fixation, thickness, exact week and donor health unreported; no numerical scale bar"
+  },
+  "exercise": {
+    "pressure_domain_mmHg": [
+      0,
+      100
+    ],
+    "pressures": "Chosen held synthetic values, not normal ranges or measured source specimen",
+    "drive": "J*=(Pmaternal−Pfetal)/(100 mmHg)",
+    "integrated_drive": "Q*=J*×phase; dimensionless, not amount/flux/biological time",
+    "presentation_interval_seconds": 8,
+    "gas_rates": "No equal or relative conductance claim",
+    "presets_mmHg": {
+      "O2": {
+        "baseline": [
+          50,
+          25
+        ],
+        "reversed": [
+          25,
+          50
+        ]
+      },
+      "CO2": {
+        "baseline": [
+          40,
+          45
+        ],
+        "reversed": [
+          50,
+          25
+        ]
+      },
+      "equal": [
+        40,
+        40
+      ]
+    }
+  },
+  "scientific_references": [
+    "https://doi.org/10.1371/journal.pone.0165369",
+    "https://doi.org/10.1002/cnm.3881",
+    "https://pubmed.ncbi.nlm.nih.gov/6437433/"
+  ],
+  "rights_separation": "Only CC0 observed image reproduced. Primary scientific facts cited; no NC-ND paper figures, artwork or source model implementation adapted.",
+  "print_candidate": {
+    "image_width_mm": 100,
+    "native_ppi": 1268.984,
+    "actual_pdf": "Pending root"
+  }
+}

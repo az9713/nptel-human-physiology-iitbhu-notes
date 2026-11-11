@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-09",
+  "role": "Independent synthetic hormone functions on separate arbitrary scales; no anatomical rendering or coupled feedback",
+  "reproduction": {
+    "builder": "figures/ch19_cycle_traces_v2.py",
+    "template": "figures/ch19_cycle_traces_v2.template.html",
+    "private_network_required": false,
+    "default_vector": "Public model.js plot(0), SVG preserved in template and default.svg"
+  },
+  "artifacts": {
+    "assets/ch19-v2-cycle-traces-reference.html": "9401c7652db0f7a2b83c1be5cb72262861bf445c669c4f85e9d8814032a8fe97",
+    "figures/ch19_cycle_traces_v2.template.html": "9401c7652db0f7a2b83c1be5cb72262861bf445c669c4f85e9d8814032a8fe97",
+    "figures/ch19_cycle_traces_v2.py": "ee623f2d512dfcf8ab879b3dab3dc4a9a59f410a053178a3deb0ed6203dede6c",
+    "assets/ch19-v2-cycle-traces-sources.json": "61ae10a00ba34cde0e37604b78425beece02ab0630c4f8216d8feb604cf6c3e0",
+    "assets/ch19-v2-cycle-traces-model.js": "b8366285f237f85505a6d3ba16e05428534afe8d19852ab29ca868dd854183e7",
+    "assets/ch19-v2-cycle-traces-controls.js": "5b2af7cdda6c9e18a98da3cf8e350e34d38dfcc233542442fea47136922e7a3e",
+    "assets/ch19-v2-cycle-traces-default.svg": "3992eea4cfd488fe035db49076d2354ed27696eb5d86f9e38ebb5315427e6c78"
+  },
+  "acceptance": {
+    "current": false,
+    "source_model": "Pending independent assembled review",
+    "actual_browser_print": "Pending root"
+  }
+}

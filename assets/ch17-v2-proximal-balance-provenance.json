@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-09",
+  "status": "Candidate; actual composition/UI/print review pending; no acceptance inferred",
+  "source_record": "ch16-v2-renal-anatomy-sources.json",
+  "source_record_sha256": "b821c8b3255f2338250173f14faf56c3669bd9888cf7d59f1b463237a40eb252",
+  "source_component_rights": "Copyright2024 Optica Publishing Group; article-specific Optica Open Access Publishing Agreement. Noncommercial use/reuse/building upon with appropriate attribution; NOT a CC BY source. Separate component terms retained; no commercial permission presumed.",
+  "source_geometry": {
+    "citation": "Li Yuxin, Cao Jia, Zhang Qianlong, Li Junhuai, Li Xiangning, Zhou Hongfang, Li Anan, Jiang Tao (2024). Precise reconstruction of the entire mouse kidney at cellular resolution. Biomedical Optics Express15:1474.",
+    "doi": "10.1364/BOE.515527",
+    "article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10942701/",
+    "rights": "Copyright2024 Optica Publishing Group; article-specific Optica Open Access Publishing Agreement. Noncommercial use/reuse/building upon with appropriate attribution; NOT a CC BY source. Separate component terms retained; no commercial permission presumed.",
+    "rights_url": "https://opg.optica.org/content/library/portal/item/license_v2",
+    "specimen": "Four8-week Tek-Cre::Ai47 mice, endothelial GFP; sex not stated here. Not human renal tissue.",
+    "preparation": "Dissected kidney,4%PFA post-fixation,alcohol dehydration,LowicrylHM20 embedding; HD-fMOST0.325×0.325×1µm voxel; simultaneous PI1µg/mL.",
+    "representation": "Author semi-automated Amira tracing from actual PI cytoarchitecture, displayed using SpatialGraphView; source colors are segment identities, not living tissue colors. Source actual2D PI panels accompany reconstructed traces. No live flow or transporter observation.",
+    "acquisition": "OfficialNLM cloud finalPDF MD5verified; extract_image xref344 PNG1139×725. Exact PDF decoded RGB; no resample or color edit. PDF SHA256478a1880ae4e982e992bf42fbc976294750cecd8e0b348722599b6c1a700acdc. Cloud figure JPEG778×493 smaller than XML advertised2335×1480; public input uses sharper actual PDF image, not claimed finest original stack.",
+    "pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10942701.1/PMC10942701.1.pdf?md5=5ca47acdec29e2cf0edc3054e946ba36",
+    "crop_c": [
+      0,
+      365,
+      715,
+      725
+    ],
+    "source_scale": "Figure6A1000µm;6C actual2D microscopy common30µm bar retained;6D50µm. No bar moved across panels and no inferred scale on enlarged isolated trace.",
+    "key": {
+      "PT": "proximal tubule; red",
+      "TL": "thin limb; blue",
+      "TAL": "thick ascending limb; green",
+      "DCT": "distal convoluted tubule; yellow",
+      "CNT": "connecting tubule; white",
+      "CD": "collecting duct; orange",
+      "SN/MN/JN": "superficial/middle/juxtamedullary nephron location categories; different author-selected examples, not stages"
+    }
+  },
+  "model": {
+    "input_water_L_min": 0.125,
+    "input_sodium_mmol_min": 17.5,
+    "recovery_fraction": [
+      0,
+      0.65
+    ],
+    "equations": "delivered=input*(1-f); recovered=input-delivered; [Na]=delivered_Na/delivered_water",
+    "endpoint_water_L_min": 0.04375,
+    "endpoint_sodium_mmol_min": 6.125,
+    "sodium_concentration_mmol_L": 140,
+    "scope": "Illustrative whole-kidney human-scale amounts, NOT measured flux in a mouse single-nephron trace. Equal fractions prescribed, not predicted protein transport. No entire urine/solute/feedback mechanism.",
+    "duration_presentation_s": 12
+  },
+  "review_basis": "B source/precode scoped approval, work/visual-v2/ch16/nephron-source/review-independent-precode.md; final layout/appearance/UI/print separate pending",
+  "print": {
+    "source_width_mm": 130,
+    "ppi": 139.7,
+    "source_limited_exception": true,
+    "external_key_min_pt": 9.5,
+    "credit_min_pt": 9
+  },
+  "reproduction": {
+    "builder": "figures/ch17_proximal_balance_v2.py",
+    "builder_sha256": "b7c05550bb0cee86adff8619d0eae974c84b7ce4e7b37b3fcf48f5f559c36455",
+    "template": "figures/ch17_proximal_balance_v2.template.html",
+    "template_sha256": "7f0833579b72ba09d2a908196fcbd2896dc9a6fb72409e1f8c7f7e12633fdfbc",
+    "inputs": "Public source figure/crop/JSON, template, JS and shared modal only; no privatework or network"
+  },
+  "artifacts": {
+    "ch17-v2-proximal-balance-reference.html": "7f0833579b72ba09d2a908196fcbd2896dc9a6fb72409e1f8c7f7e12633fdfbc",
+    "ch17-v2-proximal-balance.js": "47ed27c41beceb5ab887ee85ff5f9a13ee965c7280e7c93777ecf3f0e377b890",
+    "ch16-v2-renal-anatomy-sources.json": "b821c8b3255f2338250173f14faf56c3669bd9888cf7d59f1b463237a40eb252",
+    "ch16-v2-renal-anatomy-nephron-source.png": "4b32b7eb7cc5317ca8d2d28eff586f7c8b5fd2e65a2bae7e33c70a64b8c2432a",
+    "ch16-v2-renal-anatomy-nephron-c.png": "16c76b323eceb92a8e046c29489d85f9f87af2e8e4a1706d044da5b1ad24ce7e",
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "pending": [
+    "Actual source-limited print labels/bar and coherent pagebreaks",
+    "Actual phone650390/desktop controls, pan, modal, reducedmotion and state audit",
+    "Full countercurrent, polarized molecular transport and endocrine feedback coverage remain separate"
+  ]
+}

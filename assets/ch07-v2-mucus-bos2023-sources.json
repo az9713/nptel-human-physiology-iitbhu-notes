@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-09",
+  "citation": "Bos MF,Ermund A,Hansson GC,deGraaf J.(2023). Goblet cell interactions reorient bundled mucus strands for efficient airway clearance. PNAS Nexus2(11):pgad388.",
+  "doi": "10.1093/pnasnexus/pgad388",
+  "owning_url": "https://academic.oup.com/pnasnexus/article/2/11/pgad388/7405443",
+  "archive_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10661087/",
+  "license": "CC BY4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "rights_basis": "Primary article copyright and official NLM final-published CC BY metadata; supporting document inspected, no movie-specific exception found. No NIH/NLM endorsement implied.",
+  "source_movie": "Movie S1, observed Alcian-blue-stained bundle transport",
+  "package_member": "PNASNEXUS-PNASNEXUS-2023-01083-T-s03.mp4",
+  "package_identity_limit": "The s02.avi member is numerical simulation MovieS2 and is excluded; filename order does not identify the observation.",
+  "acquisition": {
+    "archive_metadata": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10661087.1/PMC10661087.1.json",
+    "archive_zip": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10661087.1/pgad388_supplementary_data.zip?md5=19146b571bf2b013c2fbd4a2cd0d2ef5",
+    "archive_zip_bytes": 78606571,
+    "archive_zip_verified_md5": "19146b571bf2b013c2fbd4a2cd0d2ef5",
+    "route": "Documented public NLM PMC CloudService, normal no-login HTTPS. Full source archive retained privately; composition uses immutable public MP4/posters only."
+  },
+  "inputs": [
+    {
+      "file": "ch07-v2-mucus-bos2023.mp4",
+      "role": "original_published_movie",
+      "sha256": "2c152748d2c917609a6af3adde7b519acc6684ace85730bff6476183d36f2c36",
+      "bytes": 52126863
+    },
+    {
+      "file": "ch07-v2-mucus-bos2023-decode-framemd5.txt",
+      "role": "full_decode_proof",
+      "sha256": "63d214f1c7ca1e1ceed8fbcb403b955bb98119614eaf4961822f2659fd389d44",
+      "bytes": 24296
+    },
+    {
+      "file": "ch07-v2-mucus-bos2023-frame-0000.png",
+      "role": "decoded_frame",
+      "sha256": "a79f44de619c6b3f3217d28b489fc9a6834a69db2eb96def852a6d7532e76bd2",
+      "bytes": 2986314,
+      "frame_index": 0,
+      "width": 1572,
+      "height": 2048,
+      "rgb_sha256": "595410fdcc7e21ed8e56dbc98735faa1434e2668faf1150bb0941dd39da18ec2",
+      "container_pts_s": 0.05,
+      "elapsed_since_first_decoded_frame_s": 0.0
+    },
+    {
+      "file": "ch07-v2-mucus-bos2023-frame-0150.png",
+      "role": "decoded_frame",
+      "sha256": "22f041b63ab846419f1bf1ba479513ccfa879daf66c0a45853e2de7141a5cf19",
+      "bytes": 2959346,
+      "frame_index": 150,
+      "width": 1572,
+      "height": 2048,
+      "rgb_sha256": "0227d4e3b4820f1bdcdb4665d222d8ed33ebea3af47d6367c8f59c3c5f79d3c4",
+      "container_pts_s": 7.55,
+      "elapsed_since_first_decoded_frame_s": 7.5
+    },
+    {
+      "file": "ch07-v2-mucus-bos2023-frame-0300.png",
+      "role": "decoded_frame",
+      "sha256": "7926739c0139504d7af60cecfbf168448db00e9ceb39a3253c8da04ced5f7381",
+      "bytes": 2968491,
+      "frame_index": 300,
+      "width": 1572,
+      "height": 2048,
+      "rgb_sha256": "ee45b60bf2abe66754b01695c93d18bb343906bf542a9b8439d89de73aa1839e",
+      "container_pts_s": 15.05,
+      "elapsed_since_first_decoded_frame_s": 15.0
+    },
+    {
+      "file": "ch07-v2-mucus-bos2023-timing-proof.json",
+      "role": "container_timing_proof",
+      "sha256": "e70d98b6b728fbcf9d9ef6a8c2b86275e0006e54492aaf24c3d9923d07e23d8b",
+      "bytes": 1158
+    }
+  ],
+  "media": {
+    "codec": "H264",
+    "width": 1572,
+    "height": 2048,
+    "frames": 301,
+    "fps": "20/1",
+    "duration_s": 15.05,
+    "last_frame_pts_s": 15.05,
+    "audio": false,
+    "full_decode_errors": 0,
+    "start_time_s": 0.05
+  },
+  "timing": {
+    "own_supplement_claim": "Movie S1 is described as a five-minute recording at16× normal speed in this study’s own supporting legend.",
+    "delivered_file": "301 frames at20fps; stream/container start_time0.05s, reportedduration15.05s; frame0PTS0.05,frame150PTS7.55,frame300PTS15.05. Elapsed since first decodedframe is0/7.5/15s, separately labelled.",
+    "unresolved": "These facts do not reconcile the experiment-to-export mapping. No biological interval, rate, speed or5minute conversion assigned to frame indices or controls; file time only.",
+    "not_borrowed": "16× is now verified in Bos2023 own legend, not imported from Ermund2017.",
+    "stream_offset_s": 0.05,
+    "sample_pts": [
+      {
+        "frame_index": 0,
+        "container_pts_s": 0.05,
+        "best_effort_timestamp_s": 0.05,
+        "elapsed_since_first_decoded_frame_s": 0.0
+      },
+      {
+        "frame_index": 150,
+        "container_pts_s": 7.55,
+        "best_effort_timestamp_s": 7.55,
+        "elapsed_since_first_decoded_frame_s": 7.5
+      },
+      {
+        "frame_index": 300,
+        "container_pts_s": 15.05,
+        "best_effort_timestamp_s": 15.05,
+        "elapsed_since_first_decoded_frame_s": 15.0
+      }
+    ],
+    "browser_clamp": "Root observed initialpausedcurrentTime0.05. Replay/seek0 may clamp to firstPTS0.05; this is source timing, not a failure or biologicalclock."
+  },
+  "preparation": "Female weaned Sus scrofa domesticus pigs8–12kg; euthanized; distal trachea/proximal primary bronchi opened and pinned with mucosal surface exposed. Bundles stained0.4mM AlcianBlue8GX,pH7.4. Oxygenated Krebs-glucose buffer warmed37°C; dish inclined20° to maintain air–liquid interface. S1legend calls the field explantedweanedpigtrachea; broader methods include proximalbronchi.",
+  "imaging": "NikonSMZ18 stereomicroscope/DS-Fi3 color camera/NIS Elements. Delivered movie pixels, not raw camera acquisition data.",
+  "spatial_limit": "No movie scale bar or patient-direction labels identified in inspected frames. Figure1A500µm calibration is not transferred to this full movie. Upward refers to the source-described image transport direction, not a newly assigned anatomical axis.",
+  "modifications": "None to native MP4 bytes. Posters are full decoded native1572×2048 frames0/150/300; no cropping, resampling, recoloring or added anatomical marks. No AVI simulation included.",
+  "print": {
+    "poster_frame": 0,
+    "width_mm": 100,
+    "height_mm": 130.27989821882952,
+    "ppi": 399.288,
+    "exception": "No below300ppi raster exception required at100mm; optical detail still source-limited and individual cilia unresolved.",
+    "key_min_pt": 9.5,
+    "credit_min_pt": 9,
+    "intent": "One coherent white-page poster with spatial key, ordered observations, source timing discrepancy and attached credit; actual PDF proof pending."
+  },
+  "coverage": [
+    "Observed blue-stained bundle displacement/shape changes over exposed exvivo pig airway surface"
+  ],
+  "gaps": [
+    "Individual ciliary beating/ASL depth/cell boundaries not resolved",
+    "Goblet-cell anchoring and causal reorientation not directly observed; simulations are separate",
+    "No human in-vivo equivalence, mucin molecular identity from blue color, quantitative clearance rate or temporal mapping",
+    "No airway-to-alveolus gross anatomy, barrier, quiet-breathing or pressure model supplied"
+  ],
+  "independence": "Separate Bos2023 source; not the retired Gsell2020S1, not registered to human ALI/SEM/MRI or simulation."
+}

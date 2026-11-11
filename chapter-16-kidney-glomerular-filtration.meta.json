@@ -1,15 +1,15 @@
 {
   "chapter": 16,
   "title": "Kidney organization and glomerular filtration",
-  "status": "accepted",
-  "coverage_complete": true,
+  "status": "revised",
+  "coverage_complete": false,
   "source_recordings": [
     36,
     37
   ],
   "source_evidence": "Both complete caption texts and all 40 topic ledger entries read. Bounded source-visual audit attributed to work/visual-review-ch16.md: 115 temporal samples plus 13 repeat native views; no continuous audio/video claim.",
-  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
-  "body_sha256": "2bdd5eb9148fc43054819866fd11871b4a2093bdd16e18370c0f4d81901a2ac4",
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
+  "body_sha256": "de04d92f4fe5566cdfb7adba773ff081bf43fe7b9af76200cc77011dbc5f8b67",
   "body_digest_convention": "SHA256 of raw bytes strictly between exact body markers, preserving enclosed newlines",
   "artifact_sha256": {
     "assets/ch16-LICENSE.txt": "b4d13a1da44051f95697dfcf14e9e67f9e7edd3af02dce93d3a82baa76951e8b",
@@ -24,7 +24,24 @@
     "assets/ch16-provenance.json": "1f4e73e35bbded947a220717e9d034febd34e2577fcd5c801ef0cf3f4baa1ed7",
     "assets/ch16-resistance.html": "f759bd8cbb55af428a31f4f15f86b2ec04f59d3ebb1400629cc102b1eee47cce",
     "assets/ch16-routes.html": "64b646120958e3d5863a2d59452322ba2101f46fd66618bf8e760363527f068a",
-    "code/ch16_renal_bookkeeping.py": "f575ff88998bc791c84b608ceb948792c6a212ecc31af4cafb54a285a4a71625"
+    "code/ch16_renal_bookkeeping.py": "f575ff88998bc791c84b608ceb948792c6a212ecc31af4cafb54a285a4a71625",
+    "assets/ch16-v2-filtration-anatomy.svg": "e3f8ee95edbcbc3a4a33a6e8e6a2680a5c0f71010ce55b4f0c721814bbe6e2d9",
+    "assets/ch16-v2-filtration-control7a.png": "bb76a61869cfb7229b3fce0fcbe46003a0d93c44ac5cb476f40f79c7fd4acce3",
+    "assets/ch16-v2-filtration-provenance.json": "2711766ebf7cea6941fb1ad32a79bb98642c518ae76b74dd106a623dcbb96cb9",
+    "assets/ch16-v2-filtration-reference.html": "bcc5e7be0aae7445c2cdf57d9f867a17c480bde4a44f4afdf59a950f2abfa3b1",
+    "assets/ch16-v2-filtration-source-figure6.png": "c373084d9525861b484504049622ed3cb2e0a140ffe858ccb5dc67fe59de4931",
+    "assets/ch16-v2-filtration-source-figure7.png": "626e313c04f87bf60bc8f4bc2d144e17b626c1825130a2b30a887fc0ea5b5691",
+    "assets/ch16-v2-filtration-sources.json": "71994f552ee658fdc88460c0b9cfb157b81a03e25778843b942c1befe8144067",
+    "assets/ch16-v2-filtration.js": "e38de66790e3ddd3bbd78abc216c543fc44005899432302b5e0ac00f6aed0097",
+    "assets/ch16-v2-renal-anatomy-nephron-c.png": "16c76b323eceb92a8e046c29489d85f9f87af2e8e4a1706d044da5b1ad24ce7e",
+    "assets/ch16-v2-renal-anatomy-nephron-source.png": "4b32b7eb7cc5317ca8d2d28eff586f7c8b5fd2e65a2bae7e33c70a64b8c2432a",
+    "assets/ch16-v2-renal-anatomy-provenance.json": "80c441677bcefeabfd652b468977d33f0767643378ebf7ea89751bf810d88407",
+    "assets/ch16-v2-renal-anatomy-reference.html": "9b669a0afb0e1a1c2572a18c67033b476af09cb56801fb486962ba94997102ab",
+    "assets/ch16-v2-renal-anatomy-sources.json": "b821c8b3255f2338250173f14faf56c3669bd9888cf7d59f1b463237a40eb252",
+    "assets/ch16-v2-renal-anatomy-ultrasound-source.png": "6387e77a55a7e231e43e238225f1c021dbec1ab0e5939c2d8b63ea7da6175a0b",
+    "assets/ch17-v2-proximal-balance-provenance.json": "6a48b2121f14083c5065e985cb2ad55c7502f2ccaf9763ae79d8e101ca355dca",
+    "assets/ch17-v2-proximal-balance-reference.html": "7f0833579b72ba09d2a908196fcbd2896dc9a6fb72409e1f8c7f7e12633fdfbc",
+    "assets/ch17-v2-proximal-balance.js": "47ed27c41beceb5ab887ee85ff5f9a13ee965c7280e7c93777ecf3f0e377b890"
   },
   "reviewed_artifacts": [
     {
@@ -493,43 +510,31 @@
     {
       "id": "ch16-anim1",
       "path": "assets/ch16-routes.html",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Original gross kidney/cortex–medulla context and separately scaled nephron arrangements paired with controlled vascular/tubular route sequence."
     },
     {
       "id": "ch16-anim2",
       "path": "assets/ch16-filtration.html",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Unscaled accurate sectional reconstruction from lumen through surface layer, endothelium, continuous GBM and podocyte slit to capsular space, paired with bounded pressure sweep."
     },
     {
       "id": "ch16-anim3",
       "path": "assets/ch16-resistance.html",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Independent two-resistor pressure/flow sweep; no fitted GFR/nephron response."
     },
     {
       "id": "ch16-fig1",
       "path": "assets/ch16-glomerulus-sem.jpg",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Actual Wellcome glomerular SEM with explicit CC BY 4.0; source-checked original section/context reconstructions in ch16-context.svg and ch16-barrier-section.svg are separately scaled and not registered to the observation."
     }
   ],
   "realistic_asset_gate": {
-    "status": "accepted",
-    "mode": "observed-reference-plus-schematic",
-    "scene_family": "Kidney regional organization and integrated glomerular filtration wall",
-    "rationale": "Owning-source verified nativeWellcomeSEM providespreparedglomerularsurfaceappearance. Originalsource-checkedseparatescale kidney/nephron andbarriersectionspluscontrolledroute/pressure/resistanceanimationsprovide spatial/causalexplanations. SurfaceSEM isnot registered sectionormoleculartrajectory.",
-    "appearance_references": [
-      "assets/ch16-glomerulus-sem.jpg"
-    ],
-    "mechanism_files": [
-      "assets/ch16-routes.html",
-      "assets/ch16-filtration.html",
-      "assets/ch16-resistance.html"
-    ],
-    "report_path": "work/browser/ch16-visual-modality.json",
-    "report_sha256": "fca2f32f0eb521ec1fa271051c016f4f4f2a1fae8ba35653597e303c3e114db7"
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
   },
   "quality": {
     "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
@@ -566,5 +571,43 @@
   "public_acceptance": {
     "path": "validation/acceptance/chapter-16.json",
     "sha256": "fb6f34af6dc5bfdf9720233ebb44f2ec870599c2ff5aed88bc175fc5c5e16949"
-  }
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "in-progress-source-grounded-production",
+    "date": "2026-11-09",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false,
+    "remaining_gaps": [
+      "Source molecular transporter/polarity mechanism and full countercurrent/endocrine feedback coverage remain pending.",
+      "Adult gross route and complete glomerular molecular barrier coverage not fulfilled by current independent sources.",
+      "Current exact-hash independent source/appearance and actual browser/print reviews pending."
+    ],
+    "filtration_v2": {
+      "role": "Observed mouse wall with separate controlled scalar-pressure model",
+      "host": "assets/ch16-v2-filtration-reference.html",
+      "source_review": "work/visual-v2/ch16/filtration-production/storyboard-independent-review.md",
+      "status": "Candidate; current appearance/anatomy/UI/PDF acceptance pending"
+    },
+    "observed_nephron_roles": "Actual prepared-mouse source reconstruction and morphology; separate human-scale controlled amount/water model inCh17, not single-nephron measured transport"
+  },
+  "prior_visual_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Kidney regional organization and integrated glomerular filtration wall",
+    "rationale": "Owning-source verified nativeWellcomeSEM providespreparedglomerularsurfaceappearance. Originalsource-checkedseparatescale kidney/nephron andbarriersectionspluscontrolledroute/pressure/resistanceanimationsprovide spatial/causalexplanations. SurfaceSEM isnot registered sectionormoleculartrajectory.",
+    "appearance_references": [
+      "assets/ch16-glomerulus-sem.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch16-routes.html",
+      "assets/ch16-filtration.html",
+      "assets/ch16-resistance.html"
+    ],
+    "report_path": "work/browser/ch16-visual-modality.json",
+    "report_sha256": "fca2f32f0eb521ec1fa271051c016f4f4f2a1fae8ba35653597e303c3e114db7"
+  },
+  "canonical_html_sha256": "992678172e313b95b0527648cbeb4067a393826dbfa928fd5cb1e65f09e62d15"
 }

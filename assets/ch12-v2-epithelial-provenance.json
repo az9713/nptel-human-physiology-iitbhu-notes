@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-09",
+  "purpose": "Separate fixed SEM context plus original idealized transport bookkeeping; no molecule tracked across source pixels",
+  "source": {
+    "id": "enterocyte",
+    "file": "ch12-v2-enteric-mouse-enterocyte.png",
+    "title": "Prepared mouse enterocyte, source Figure2A",
+    "citation": "Soayfane et al.2016 Nutr Metab13:48, Figure2A",
+    "url": "https://doi.org/10.1186/s12986-016-0107-9",
+    "license": "CC BY4.0",
+    "prep": "C57BL/6Rj mouse proximal intestinal enterocyte4h after200µLcorn-oil/2%cholesterol gavage; freeze-fracture SEM, not live/human.",
+    "limits": "OriginalBBM/BLM/Nucl and4µmbar; observed droplets are cytosolic lipid droplets, not automatically secreted chylomicrons. No protein pore/real transport observed.",
+    "operation": "Exact Pillow RGB crop[0,0,363,332] from unchanged591×884 publishedPDFembeddedJPEG xref98/page6; PNGsave lossless, no contrast/interpolation.",
+    "original_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4965885.1/PMC4965885.1.pdf?md5=ce517b10b46dd8dd2e6f4e00d339bf8b",
+    "source_pdf_sha256": "01e08c41baccdd877b519dfa6ef51a0d6029ad8ada989af825340fd56ac1c5d2",
+    "source_jpeg_sha256": "562a1cd48b3e52ce121c19f1ff4dc011f86b4cad3e6b17c3c75cd5d607ff805e",
+    "crop_rect": [
+      0,
+      0,
+      363,
+      332
+    ],
+    "print_width_mm": 100,
+    "source_limited_exception": "92.2ppi at100mm. Sourcebar/glyphs preserved; boundedcell-localization candidate, actualoptical/printreviewpending, no fabricatedpixels.",
+    "sha256": "a046439e3c71853f550d653801aa5def23e29290be0ef256ebf9c085b7d2a6a8",
+    "dimensions": [
+      363,
+      332
+    ],
+    "decoded_rgb_sha256": "23ad2d7ad3b9819f7251ea10f1a4ccacce95d9065a2f9637974f2406a6b85c47",
+    "print_ppi": 92.202,
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "mechanism": {
+    "glucose_galactose": "3arbitrary sugar equivalents,2Na per sugar coupled entry viaSGLT1;conditionalbasalGLUT2exit",
+    "fructose": "3arbitrary sugar equivalents GLUT5entry/GLUT2exit,no directlycoupledNaATP",
+    "clock": "12presentationseconds,notphysiological;linearphaseinterpolation,notkinetics",
+    "conservation": "3sugar equivalents;Gbranch6coupledNa,Fbranch0;otherNaturnoveromitted",
+    "pump": "Separateconcurrent3Naout2KinperATPcontext,notanimatedscheduledcycles",
+    "scope": "Carrieridentityliterature-based,notresolvedSEM;independentepithelium/blood/lymph observationsunregistered"
+  },
+  "scientific_basis": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8599647/",
+      "role": "humanSGLT1 coupling experiment inexpression system"
+    },
+    {
+      "url": "https://doi.org/10.1096/fj.15-272195",
+      "role": "mouseGLUT5absorption/trafficking"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8405848/",
+      "role": "ratbasolateralGLUT2sugartransport"
+    }
+  ],
+  "reproduction": {
+    "private_network_required": false,
+    "builder": "figures/ch12_epithelial_transport_v2.py",
+    "template": "figures/ch12_epithelial_transport_v2.template.html"
+  },
+  "artifacts": {
+    "figures/ch12_epithelial_transport_v2.template.html": "e8b22274c795336eb5e4c67dbe7b69d82d7c12f2f3940a19a756b317fd59128d",
+    "figures/ch12_epithelial_transport_v2.py": "7ae1182f21682a9cb2288c7e891c901eed6f35ca70a263418a13242f00457356",
+    "assets/ch12-v2-epithelial-reference.html": "e8b22274c795336eb5e4c67dbe7b69d82d7c12f2f3940a19a756b317fd59128d",
+    "assets/ch12-v2-epithelial-model.js": "11b7bd86d8dcd833d606830d02fa904819a44beb5a6e56f2046b0743888aa8fb",
+    "assets/ch12-v2-epithelial-controls.js": "995447394248667ff4bde668163946529493eb962bc733bf688e8fe069cd1568",
+    "assets/ch12-v2-enteric-sources.json": "d5eb7bfb1962120b7b3bf920d147c186daa3a6fa7d73629ad0458fe61bd40737",
+    "assets/ch12-v2-enteric-mouse-enterocyte.png": "a046439e3c71853f550d653801aa5def23e29290be0ef256ebf9c085b7d2a6a8"
+  },
+  "acceptance": {
+    "source_state_static_prototype": "Bscopedcompositionapproved;exactprivatecriticrecordretainedseparately",
+    "actual_runtime_PDF": "PENDING root",
+    "current": false
+  }
+}

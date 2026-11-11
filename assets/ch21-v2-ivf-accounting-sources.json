@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-09",
+  "purpose": "Pure quantitative linked-cycle denominator lesson, independent whole observed IVF embryo",
+  "chosen_cohort": [
+    100,
+    90,
+    72,
+    54,
+    36,
+    27
+  ],
+  "event_names": [
+    "Cycle starts",
+    "Actual retrieval",
+    "At least one fertilization",
+    "Embryo transfer",
+    "Clinical pregnancy",
+    "Live-birth delivery"
+  ],
+  "unit": "Cycles meeting each event, not gametes/embryos/babies/people",
+  "assumptions": "One linked transfer pathway and complete follow-up; no empirical rate or particular embryo fate",
+  "context": {
+    "file": "ch21-human-ivf-embryo.jpg",
+    "sha256": "deaa9480458866478b510a61feb074097e5f5e89fe2927f2de7157a882b32917",
+    "dimensions": [
+      4003,
+      2664
+    ],
+    "owner": "K. Hardy; Wellcome Collection B0000030",
+    "catalogue": "https://wellcomecollection.org/works/ergc92jn",
+    "verified": "2026-11-09; owning catalogue directly checked",
+    "rights": "CC BY4.0",
+    "transformation": "None; existing native JPEG unchanged",
+    "limits": "Catalogue8-cell identity, no independent optical count/prognosis/calibration/exact age/prep/health"
+  },
+  "print_candidate": {
+    "source_width_mm": 70,
+    "source_ppi": 1452.5171428571427,
+    "actual_pdf": "Pending root"
+  }
+}

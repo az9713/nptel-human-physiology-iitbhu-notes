@@ -1,0 +1,31 @@
+{
+  "source_mp4_sha256": "2c152748d2c917609a6af3adde7b519acc6684ace85730bff6476183d36f2c36",
+  "stream_start_time_s": 0.05,
+  "stream_time_base": "1/25000",
+  "stream_duration_s": 15.05,
+  "format_start_time_s": 0.05,
+  "format_duration_s": 15.05,
+  "samples": [
+    {
+      "frame_index": 0,
+      "container_pts_s": 0.05,
+      "best_effort_timestamp_s": 0.05,
+      "elapsed_since_first_decoded_frame_s": 0.0
+    },
+    {
+      "frame_index": 150,
+      "container_pts_s": 7.55,
+      "best_effort_timestamp_s": 7.55,
+      "elapsed_since_first_decoded_frame_s": 7.5
+    },
+    {
+      "frame_index": 300,
+      "container_pts_s": 15.05,
+      "best_effort_timestamp_s": 15.05,
+      "elapsed_since_first_decoded_frame_s": 15.0
+    }
+  ],
+  "mapping": "Container PTS differs from elapsed time since first decoded frame by +0.05s. No experimental or biological time conversion.",
+  "all_frame_probe_sha256": "01935e1139f6bfa29b45d400a31c4b61b30de8831e7738c96d64731172515b46",
+  "browser_context": "Root actual browser initial paused currentTime0.05; Replay/Seek0 clamps to first sourcePTS0.05. Source bytes are unchanged."
+}

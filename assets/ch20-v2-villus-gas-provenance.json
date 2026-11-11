@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-09",
+  "role": "Whole native observed term-villus H&E with separate synthetic signed gas-gradient exercise",
+  "reproduction": {
+    "builder": "figures/ch20_villus_gas_v2.py",
+    "template": "figures/ch20_villus_gas_v2.template.html",
+    "private_network_required": false
+  },
+  "artifacts": {
+    "assets/ch20-v2-villus-gas-reference.html": "7acc2472ed8dbfe2ac39b695af416005f2eab215b8cb948d23b88dfdb724ef9c",
+    "figures/ch20_villus_gas_v2.template.html": "7acc2472ed8dbfe2ac39b695af416005f2eab215b8cb948d23b88dfdb724ef9c",
+    "figures/ch20_villus_gas_v2.py": "1271511c59392f00b2f84f21a2a4c2dcb7fd9e4c0afd9086c8ff6573c993e8d1",
+    "assets/ch20-chorionic-villus-term.jpg": "dd885787ec8bdfe2e57201ab269edc704acec8f0206a3fae43b1aef19903f80c",
+    "assets/ch20-v2-villus-gas-sources.json": "d06dddbf2e3e77b06426a2a4c46806539c30a5005be571fb39afe4c8fbc6e35c",
+    "assets/ch20-v2-villus-gas-model.js": "c6637675129b7e452443231135651fa3accdef0c83531dc65cd5a06a3913a9a1",
+    "assets/ch20-v2-villus-gas-controls.js": "86154c0e0d025025e3847f732dc35cf7b9c332a87b4c9430467c60c4bc1f0d99",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "acceptance": {
+    "current": false,
+    "source_model": "Pending independent assembled review",
+    "actual_browser_print": "Pending root"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "status": "LOCAL REPLACEMENT; broader chapter acceptance pending",
+  "current_artwork_record": "ch01-body-sketch-provenance.json",
+  "current_files": [
+    "ch01-v2-plane-anterior.svg",
+    "ch01-v2-plane-lateral.svg",
+    "ch01-v2-plane-transverse.svg",
+    "ch01-body-orientation.svg"
+  ],
+  "request": "Replace photorealistic unclothed human figures with sketches; retain CT/MRI, microscopy and isolated organ specimens.",
+  "date": "2026-11-09",
+  "source_definition": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology",
+  "display_geometry": {
+    "svg_canvas": [
+      800,
+      1320
+    ],
+    "image_rect": [
+      40,
+      120,
+      720,
+      1080
+    ],
+    "plane_offsets": "qualitative; not metric",
+    "same_person_registration": false
+  },
+  "modality": "AI-generated clothed anatomical line drawings"
+}

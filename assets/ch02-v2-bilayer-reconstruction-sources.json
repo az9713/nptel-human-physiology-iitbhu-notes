@@ -1,0 +1,42 @@
+{
+  "source": {
+    "citation": "Unwin N (2022). Structure of a cholinergic cell membrane. PNAS119(34):e2207641119. Figure1B.",
+    "doi": "10.1073/pnas.2207641119",
+    "source_pdf_url": "https://www2.mrc-lmb.cam.ac.uk/groups/nu/pdf/pnasS22.pdf",
+    "source_pdf_sha256": "6eb4baea32efa37bce708fecfecae74fa071552753282dcf70870b87916548b1",
+    "source_pdf_bytes": 4767509,
+    "rights": "CC BY4.0 explicitly stated on primaryPDFpage1; no separateFigure1thirdpartycredit",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "original_figure_raster": {
+      "size": [
+        1379,
+        959
+      ],
+      "format": "JPEG",
+      "sha256": "46b09e557582dcd39eb2becf288b28acef4546eae2bf3fbf4267e5f7cdce7b59",
+      "extraction": "Original embedded PDF image object3, decoded without resampling for crop"
+    },
+    "crop": {
+      "file": "ch02-v2-bilayer-reconstruction-source.png",
+      "sha256": "e6935259e2f36da0a7d4e14826207039aa9feb5c36e5ce30e0c90028f22102a6",
+      "size": [
+        599,
+        253
+      ],
+      "rectangle_xyxy": [
+        780,
+        75,
+        1379,
+        328
+      ],
+      "coordinates": "OriginalFigure1 top-left; right/bottom exclusive",
+      "operation": "Crop only from decoded publication JPEG to PNG; no resampling, recoloring, contrast change or new annotation"
+    },
+    "acquisition_boundary": "Original PDF was separately acquired and the first crop inspected in private research. Public regeneration uses this immutable crop and source record, does not reacquire PDF or require private work. The original PDF and full figure are not included as reader art.",
+    "specimen": "Torpedo marmorata electric-organ AChR-rich isolated membrane; one ray; two weeks17C incubation in100mM sodium cacodylate,1mM CaCl2,pH7",
+    "image_type": "Normalcrosssection from averaged helical cryo-EM density map2 EMD-14946,5.5A resolution, not raw micrograph",
+    "map_metadata_url": "https://www.ebi.ac.uk/emdb/api/entry/map/EMD-14946",
+    "map_sampling_A": 1.34,
+    "map_sampling_does_not_calibrate_publication_raster": true
+  }
+}

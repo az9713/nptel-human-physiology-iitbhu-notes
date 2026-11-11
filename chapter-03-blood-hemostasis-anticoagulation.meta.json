@@ -1,8 +1,8 @@
 {
   "chapter": 3,
   "title": "Blood, hemostasis and anticoagulation",
-  "status": "accepted",
-  "coverage_complete": true,
+  "status": "revised",
+  "coverage_complete": false,
   "reviews": [
     {
       "reviewer_id": "/root/ch01_review_a",
@@ -59,7 +59,7 @@
     9
   ],
   "source_evidence": "Publisher captions and existing bounded audit of eleven contact sheets / thirteen targeted frames; no continuous video/audio inspection claimed.",
-  "prose_status": "Accepted after two independent full scientific/editorial reviews, targeted repairs and actual specified production checks.",
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
   "code": [
     "code/ch03_blood_accounting.py"
   ],
@@ -68,47 +68,57 @@
     {
       "id": "ch3-anim1",
       "path": "assets/ch03-blood-lab.html",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Controlled local-injury platelet capture, activation and aggregation; schematic luminal/tissue compartments."
     },
     {
       "id": "ch3-anim2",
       "path": "assets/ch03-blood-lab.html",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Platelet-supported thrombin/fibrin reinforcement, contraction and fibrinolysis; arbitrary presentation clock, no fitted kinetics."
     },
     {
       "id": "ch3-anim3",
       "path": "assets/ch03-blood-lab.html",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Sequential comparison of platelet, antithrombin/heparin, vitamin-K/warfarin, specimen-calcium and plasmin targets; reveal order is not treatment timing."
     },
     {
       "id": "ch3-epo-extra",
       "path": "assets/ch03-blood-lab.html",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Controlled renal oxygen/EPO/marrow/circulating RBC feedback sequence, no physiological rate constants."
     },
     {
       "id": "ch3-fig1",
-      "path": "assets/ch03-clot-reference.jpg",
-      "status": "accepted",
-      "role": "Reviewed bounded alternative: prepared clot SEM, separately identified pathological mouse-vessel SEM and original sectional mechanism. These do not establish normal human wall layers, natural tissue color or measured injury dynamics."
+      "path": "assets/ch03-v2-rbc-clot-reference.html",
+      "status": "partial-observed-candidate-review-pending",
+      "role": "Figure3.3 prepared source-identified human RBC morphology plus separate actual humanPRP fibrin-retraction movie. Original independent panel clocks preserved; not a complete normal-human differential/lineage or physiological injury/cascade sequence.",
+      "assets": [
+        "assets/ch03-v2-rbc-clot-rbc.png",
+        "assets/ch03-v2-rbc-clot-poster.png",
+        "assets/ch03-v2-rbc-clot-retraction.webm"
+      ]
     },
     {
       "id": "ch3-fig2",
       "path": "chapter-03-blood-hemostasis-anticoagulation.html#lineages",
-      "status": "accepted",
-      "role": "Conventional lineage map plus distinct PT/aPTT/platelet-assay comparison in section 3.9."
+      "status": "revision-required",
+      "role": "Conventional classification SVG and distinct PT/aPTT/platelet-assay comparison. Actual lineage/differential visual coverage remains unresolved; observed RBC photo does not fulfill this item."
     },
     {
       "id": "ch3-clot-reference",
-      "path": "assets/ch03-clot-reference.jpg",
-      "provenance": "assets/ch03-clot-reference.json",
+      "path": "assets/ch03-v2-rbc-clot-reference.html",
+      "provenance": "assets/ch03-v2-rbc-clot-provenance.json",
       "anchor": "clot-micrograph",
       "figure_number": "3.3",
-      "status": "accepted",
-      "role": "Actual colorized SEM reference for concave red-cell profiles and fibrin mesh; current Wellcome CC BY 4.0; no calibrated scale, species, vessel wall, secure platelet identification or motion/timing claims."
+      "status": "partial-observed-candidate-review-pending",
+      "role": "Figure3.3 prepared source-identified human RBC morphology plus separate actual humanPRP fibrin-retraction movie. Original independent panel clocks preserved; not a complete normal-human differential/lineage or physiological injury/cascade sequence.",
+      "assets": [
+        "assets/ch03-v2-rbc-clot-rbc.png",
+        "assets/ch03-v2-rbc-clot-poster.png",
+        "assets/ch03-v2-rbc-clot-retraction.webm"
+      ]
     },
     {
       "id": "ch3-vessel-reference",
@@ -116,7 +126,7 @@
       "provenance": "assets/ch03-vessel-reference.json",
       "anchor": "vessel-compartment-reference",
       "figure_number": "3.4",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Actual mouse-skin-melanoma freeze-fracture SEM supports lumen/boundary/surrounding-tissue distinction only; no physiological injury or normal human wall claim."
     }
   ],
@@ -127,12 +137,15 @@
     "Numerical blood volumes/counts/MCVs and assay patterns are explicitly synthetic. Approximate 120-day normal RBC lifespan supports stationary throughput, not an exponential removal law.",
     "No modeled coagulation rates, EPO gains/delays, fibrin mechanics or patient-specific treatment comparisons; drug mechanism categories are not prescribing recommendations.",
     "Presentation phase timings are schematic, not measured biological kinetics.",
-    "Prepared clot species/donor unknown; vessel image is pathological mouse tissue, not normal human wall anatomy.",
+    "Prepared CIL221 human RBC SEM has unspecified donor health/calibration; separate humanPRP assay uses citrate and addedthrombin with no imposedflow. Vessel image remains pathological mouse tissue, not normal human wall anatomy.",
     "Source topic coverage uses captions and bounded sampled stills, not continuous audio/video review.",
-    "Private browser print proof is not a clean public PDF deliverable."
+    "Private browser print proof is not a clean public PDF deliverable.",
+    "PRP source panels have divergent clocks and rightpanel ends beforeleft; caption100timepoints12.5s versus120encodedframes. No global biological-time conversion or measured normal clotting duration.",
+    "Alexa488 signal identifies fibrin(ogen), not independent platelet-membrane labeling. Reviewed-preprint winding mechanism causality remains incomplete; observed redistribution is the delivered movie role.",
+    "Existing lab injury/EPO/target schematics and lineage SVG remain revision-required; RBC image/movie do not waive complete hemostasis, normal differential or lineage gaps."
   ],
   "coverage_basis": "Core topic spans and justified exclusions assessed in two independent full reviews; scientific/temporal repairs and production enlargement received targeted checks. Captions plus bounded stills, not continuous recording review.",
-  "body_sha256": "5ae3818213e5356e020df546012bd6c84cbd74f4b52b2b2f02d68eb2408f1f66",
+  "body_sha256": "ef065ff67a98c9d5e3c29e3fe933b46139883073062ee73061acfce8e4aadac3",
   "reviewed_artifacts": [
     {
       "path": "code/ch03_blood_accounting.py",
@@ -172,5 +185,39 @@
   "public_acceptance": {
     "path": "validation/acceptance/chapter-03.json",
     "sha256": "18a0c1afdd629e8623384910f073abfe50663f12459d96009d0782774ebafa8d"
-  }
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "local-observed-rbc-and-prp-assay-integration-pending-review",
+    "date": "2026-11-09",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false,
+    "integration_report": "work/visual-v2/ch03/integration/HANDOFF.md",
+    "pending": [
+      "Independent current source/anatomy/timing and appearance/teaching review",
+      "Root desktop650390/standalone enlargement/playback/seek/pan and actual canonical PDF labels/clocks/credits/pagebreaks",
+      "Complete source-grounded vessel injury/adhesion/activation/coagulation/contraction/fibrinolysis sequence remains unfilled; existing lab schematic remains revision-required",
+      "Complete normal-human differential/lineage and normal vessel-wall anatomy remain unfilled; conventional lineage SVG remains revision-required",
+      "No causal cytoskeletal-winding proof or quantitative in-vivo hemostasis time from separate static PRP assay"
+    ]
+  },
+  "realistic_asset_gate": {
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
+  },
+  "current_chapter_sha256": "c7574fda9ff17d3dc89d1e20c65c2497ef9298755380c51ed103d9d3b9c6d384",
+  "review_history_scope": "reviews, reviewed_artifacts, production_validation, accepted_at_utc and public_acceptance describe prior hashes only; they do not accept current visual-v2 chapter bytes.",
+  "current_visual_artifacts": {
+    "assets/ch03-v2-rbc-clot-poster.png": "23ed490ca788d1402982da21e503755fe733f08b23cc87fb874282b8d090c600",
+    "assets/ch03-v2-rbc-clot-provenance.json": "26ffdf1cadb9d8f90de6845e335c28558ee2829bfe69b0b5e2a6894a67126b30",
+    "assets/ch03-v2-rbc-clot-rbc-original.tif": "385687d4d4e46f4225154cc7871f96f8b2a96f6ad9e30748ad0929b0b22c1065",
+    "assets/ch03-v2-rbc-clot-rbc.png": "dcb7a7e2a30c14c2a880482f86de117016562e08c2173a9e7577c8c34ca7e656",
+    "assets/ch03-v2-rbc-clot-reference.html": "43ea705fe2ace58b9bf60c08a000f21b89d380d72f1ca738f7259b837525d125",
+    "assets/ch03-v2-rbc-clot-retraction.webm": "5a6c09ff3e86a53b1d2838965c6d77b716ab5b67c02b747967de990d61faa410",
+    "assets/ch03-v2-rbc-clot-rgb-proof.json": "e9dc38ec737637d8a1ba3c0e679ee8020a6c98d0c14197ef0ce3250b1629bcdf",
+    "assets/ch03-v2-rbc-clot-sources.json": "b9b00c2f5e1069c1b90d1626debec388e1f32c145970d31015b2c8d42c044ecf"
+  },
+  "current_body_sha256": "6e66712afca76d7fc2ded1d79ee84eaef78e5deb7b1d9d6e813e3cc1dee98a11"
 }

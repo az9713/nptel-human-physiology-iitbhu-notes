@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-09",
+  "primary": {
+    "authors": "Ami et al.",
+    "year": 2019,
+    "doi": "10.1371/journal.pone.0215721",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6519794/",
+    "part": "Whole Figure 3, patient 5",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "original_pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0215721&type=printable",
+    "pdf_sha256": "9e4e68792d8458ec31bcb4a93c0ba9907819000c39e9d47ec6308a8835cd8214",
+    "xml_sha256": "398554b77652b3347d279bf69cb17d9240a237037d85978452258b87c277386d"
+  },
+  "file": {
+    "file": "ch20-v2-labor-mri-source.jpg",
+    "sha256": "deacab17d0d18d2eb3aee48f7b08ef2c81c101cb9611d4ec8e8e210bf941d5cf",
+    "dimensions": [
+      1496,
+      795
+    ],
+    "extraction": "PDF page index5, image xref79, raw DCT stream; byte-identical to acquired JPEG; no crop, resampling, mirroring, new label or contrast change"
+  },
+  "scope": "Paired median sagittal MRI of one source patient before labor (A) and in second stage at rest before pushing (B); different framing, no image registration, morph or continuous observed motion. Individual exact interval unreported.",
+  "specimen": "Human source patient5; cohort27 prelabor and7 second-stage scans, mixed birth outcomes; no universal healthy or uncomplicated course claim.",
+  "acquisition": "1T open Philips Panorama; dorsal decubitus positioning; no contrast. General sequence parameters do not uniquely identify this exported Figure3 sequence. No raster calibration or added bar.",
+  "limits": "No contraction or cervical-dilation timelapse; no new distances, pressures, trajectories or outcomes measured. Source description assigns head presentation/molding and coccygeal/perineal changes.",
+  "print_candidate": {
+    "width_mm": 150,
+    "source_ppi": 253.32266666666663,
+    "actual_pdf_review": "Pending root and independent reviewer"
+  }
+}

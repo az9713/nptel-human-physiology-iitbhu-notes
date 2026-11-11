@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-09",
+  "sources": {
+    "date": "2026-11-09",
+    "primary": {
+      "authors": "Ferreira et al.",
+      "year": 2015,
+      "doi": "10.1590/0100-3984.2013.1726",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4567364/",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+      "pdf_sha256": "0f6eb35eef02b603a073f2d95d0c184bc4bc9aacd9f3f176bdf315b0db5ada2b",
+      "xml_sha256": "5f0a8caeafcc5a0d9bc8030c30ae47d1762aecbddcd2eeabe380997b43400460"
+    },
+    "file": {
+      "file": "ch19-v2-pelvic-mri-image.jpg",
+      "sha256": "f6d733fdeb4d6db64a67ade8ff5cb0bb25c8c4dee1ce24ae84412f916dc06ed9",
+      "dimensions": [
+        780,
+        442
+      ]
+    },
+    "extraction": {
+      "xref": 5,
+      "pdf_page_index": 1,
+      "raw_DCT_byte_equal": true,
+      "whole_figure_retained": true,
+      "crop": null,
+      "retouch": null
+    },
+    "public_reproduction": "Immutable source JPEG and native extraction record are public composition inputs; original PDF/XML retained privately, no network or private input required.",
+    "acceptance": {
+      "current": false,
+      "source_native": "B bounded precode PASS",
+      "actual_browser_print": "Pending root"
+    },
+    "specimen": "Source-caption normal female pelvis; age, parity, cycle stage and global health unreported. Vagina artificially distended with gel, not a physiological empty lumen.",
+    "sequence": "Axial left / sagittal right, T2 MRI per Figure 1 caption; general 1.5 T GE protocol, exact image-specific parameters unreported.",
+    "key": {
+      "Ur": "urethral ostium",
+      "B": "bladder ostium",
+      "U": "uterus",
+      "C": "cervix",
+      "V": "gel-distended vagina",
+      "AW": "anterior vaginal wall",
+      "PW": "posterior vaginal wall",
+      "VI": "vaginal vestibule",
+      "R": "rectum"
+    },
+    "print": {
+      "width_mm": 150,
+      "source_ppi": 132.07999999999998,
+      "limit": "Source-limited labels; external key/native access and actual print test required."
+    },
+    "limits": [
+      "No ovaries, tubes or uterine-tubal junction depicted",
+      "No ovulation, transport, endometrial cycle or pressure",
+      "No global health or registration claim"
+    ],
+    "calibration": "No source bar or new metric scale/axes. Original PDF 780×442 slightly larger than official 771×437 image; no upsampling."
+  },
+  "reproduction": {
+    "builder": "figures/ch19_pelvic_mri_v2.py",
+    "template": "figures/ch19_pelvic_mri_v2.template.html",
+    "private_network_required": false,
+    "source_acquisition": "Separate original PDF raw image extraction; native identity in public source JSON"
+  },
+  "artifacts": {
+    "assets/ch19-v2-pelvic-mri-image.jpg": "f6d733fdeb4d6db64a67ade8ff5cb0bb25c8c4dee1ce24ae84412f916dc06ed9",
+    "assets/ch19-v2-pelvic-mri-sources.json": "67b14717d48e40b1cc089b849e89fb9fb55ca97c37128b451b976483e5b90878",
+    "figures/ch19_pelvic_mri_v2.template.html": "6b8d9d12b071c0679a391961cb4ebd75a989d34ab338a2a4b54163a66cb102e4",
+    "assets/ch19-v2-pelvic-mri-reference.html": "6b8d9d12b071c0679a391961cb4ebd75a989d34ab338a2a4b54163a66cb102e4",
+    "figures/ch19_pelvic_mri_v2.py": "08e74c81abfb1d3e8d57476f8cae78b4bc011eb98e75e7bf08721a6d6c5793f6",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "acceptance": {
+    "current": false,
+    "source_native_final": "PendingB",
+    "actual_browser_print": "Pendingroot"
+  }
+}

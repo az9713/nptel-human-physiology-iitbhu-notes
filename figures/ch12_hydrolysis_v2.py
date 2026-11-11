@@ -1,0 +1,8 @@
+"""Offline composition of controlled chemical connectivity states from public inputs."""
+from pathlib import Path
+import json,hashlib
+R=Path(__file__).resolve().parents[1];A=R/'assets';T=R/'figures/ch12_hydrolysis_v2.template.html';sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+host=A/'ch12-v2-hydrolysis-reference.html';host.write_bytes(T.read_bytes());source=json.loads((A/'ch12-v2-hydrolysis-sources.json').read_text(encoding='utf-8'))
+files=sorted(A.glob('ch12-v2-hydrolysis-*.svg'))+[A/x for x in ['ch12-v2-hydrolysis-compounds.json','ch12-v2-hydrolysis-print-layout.json','ch12-v2-hydrolysis-sources.json','ch12-v2-hydrolysis.css','ch12-v2-hydrolysis-model.js','ch12-v2-hydrolysis-controls.js','observed-image-dialog.css','observed-image-dialog.js']]+[T,host,Path(__file__),R/'figures/ch12_hydrolysis_print_vectors_v2.py']
+p={'date':'2026-11-09','sources':source,'print_layout':json.loads((A/'ch12-v2-hydrolysis-print-layout.json').read_text(encoding='utf-8')),'reproduction':{'builder':Path(__file__).relative_to(R).as_posix(),'template':T.relative_to(R).as_posix(),'private_network_required':False,'inputs':'ImmutableeditablechemicalSVGandPubChemmolecularrecords;separate2Dcoordinatecreationrecorded,notaphysicalmeasurement'},'artifacts':{f.relative_to(R).as_posix():sha(f) for f in files},'acceptance':{'current':False,'preproduction_B':'Scopedsource/state/actualchemicalboardreviewbeforemotion','actual_runtime_native_print':'PENDING root/B'}}
+(A/'ch12-v2-hydrolysis-provenance.json').write_text(json.dumps(p,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print('CHEMICAL_HYDROLYSIS_BUILT')

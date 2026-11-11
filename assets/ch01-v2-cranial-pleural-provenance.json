@@ -1,0 +1,124 @@
+{
+  "status": "PROVISIONAL; independent review and actual browser/print proof pending",
+  "date": "2026-11-08",
+  "sources": [
+    {
+      "id": "cranial-upper-cervical",
+      "file": "ch01-v2-cranial-pleural-mri.jpg",
+      "owning": "https://wellcomecollection.org/works/cxzcadnc",
+      "accession": "N0023480",
+      "download": "https://iiif.wellcomecollection.org/image/N0023480/full/full/0/default.jpg",
+      "creator_credit": "Wellcome Collection",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions_px": [
+        1443,
+        1448
+      ],
+      "source_description": "Normal brain.6.Sagittal MRI scan; T1 weighted, side view, midline, normal anatomy",
+      "calibration": "Original5cm ruler retained. Nominal digitized pixels are not MR voxel resolution.",
+      "orientation": "Anterior image-left,posterior image-right,superior up from actual head anatomy; source midsagittal. No R/L marker inferred.",
+      "unknown": [
+        "age/sex",
+        "field strength",
+        "voxel size",
+        "slice thickness",
+        "scanner",
+        "acquisition date",
+        "normality beyond catalogue description"
+      ],
+      "geometry_limit": "Cranial compartment and transition to upper cervical neural canal only; no whole spine, meningeal segmentation or traced CSF boundary.",
+      "acquired_filename": "N0023480-native.jpg",
+      "sha256": "05c36e3420b462ba544133b8cb3362e23e8fdd2e8a74442f9c13198ad97f532e",
+      "bytes": 232503,
+      "modifications": "Complete native JPEG bytes unchanged."
+    },
+    {
+      "id": "pleural-sliding",
+      "file": "ch01-v2-cranial-pleural-sliding.mp4",
+      "owning": "https://link.springer.com/article/10.1186/s13089-020-00185-4#MOESM1",
+      "doi": "10.1186/s13089-020-00185-4",
+      "creator_credit": "Vetrugno et al.(2020),The Ultrasound Journal12:39,Additionalfile1 ClipS1",
+      "download": "https://static-content.springer.com/esm/art%3A10.1186%2Fs13089-020-00185-4/MediaObjects/13089_2020_185_MOESM1_ESM.m4v",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "specimen": "Clinical human thorax,anterior parasagittal; normal-aeration pattern in COVIDreview, not established healthy donor",
+      "dimensions_px": [
+        1920,
+        1080
+      ],
+      "encoded_duration_seconds": 8.216542,
+      "encoded_frames": 197,
+      "encoded_fps": "24000/1001",
+      "motion_limit": "Includes source-labelled sliding,plus transducer rocking/tilting. No exact source acquisitionrate confirmed; encoded fps is delivery cadence.",
+      "anatomical_limit": "Pleural acoustic interface/A-lines, not resolved separate parietal/fluid/visceral layers; deeper A-lines are reverberation artifacts.",
+      "rights": "OwningCCBY4 includes images absent exclusion; nonefoundClipS1. Publication institutionalunidentifiableimagingpolicy stated. No invented consent/donor details.",
+      "acquired_filename": "13089_2020_185_MOESM1_ESM.m4v",
+      "sha256": "496fc2f2ff2263a822947eab7a77f6d94f5e1109685b802ebea4e34dd03dea8e",
+      "bytes": 5281352,
+      "modifications": "Complete source bytes unchanged; video extension M4V to MP4 only."
+    }
+  ],
+  "teaching_purpose": "Cranial-to-upper-cervical context and an independent clinical pleural acoustic-interface observation.",
+  "poster": {
+    "file": "ch01-v2-cranial-pleural-poster.png",
+    "frame_index_zero_based": 98,
+    "file_time_seconds": 4.087416666666667,
+    "operation": "Full-frame decoded PNG, no resize/color adjustment/new annotation."
+  },
+  "video_operation": "Unchanged publisher M4V bytes delivered with MP4 extension; no transcode, crop or timing change.",
+  "surfaces": [
+    "MRI inline/native dialog/direct original",
+    "Native video fallback and shared authored playback controls",
+    "Source-labelled decoded poster inline/print/direct PNG",
+    "Ordered text equivalent",
+    "Two print figures"
+  ],
+  "coverage_gaps": [
+    "Only upper cervical canal in MRI, not whole vertebral axis",
+    "No measured meningeal or CSF segmentation",
+    "Separate normal parietal/fluid/visceral leaflets unresolved",
+    "No registration between MRI and ultrasound"
+  ],
+  "print": {
+    "mri_width_mm": 120,
+    "mri_nominal_ppi": 305.43499999999995,
+    "poster_width_mm": 170,
+    "poster_nominal_ppi": 286.8705882352941,
+    "text_min_pt": 9.5,
+    "actual_print_proof": "PENDING"
+  },
+  "reproduction": {
+    "builder": "figures/ch01_cranial_pleural_v2.py",
+    "template": "figures/ch01_cranial_pleural_v2.template.html",
+    "inputs": "ch01-v2-cranial-pleural-sources.json and hash-verified public MRI/video originals",
+    "python": "3.13.5",
+    "pillow": "11.0.0",
+    "ffmpeg": "ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+    "ffprobe": "ffprobe version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2007-2025 the FFmpeg developers",
+    "builder_sha256": "2756a597aa9f079c79a006cd209956c1c83936a69f566a78bd3f8474bac1762b",
+    "template_sha256": "65fad21408e634dca0c54948c589e5b7acd693392024a096cfb257d6ab08c063",
+    "seed": "N/A; no stochastic process"
+  },
+  "verification": {
+    "native_source_hashes": "PASS integrity only",
+    "full_video_decode": "exit 0",
+    "independent_science_appearance_review": "PENDING",
+    "desktop_650_390_native_fit_keyboard_focus": "PENDING",
+    "actual_pdf": "PENDING",
+    "chapter_integration_release": "PENDING"
+  },
+  "artifacts": {
+    "ch01-v2-cranial-pleural-sources.json": "606d89726486b6f86951caa6bc886170506d02b92ce3cb5f124fb7dcf3960701",
+    "ch01-v2-cranial-pleural-mri.jpg": "05c36e3420b462ba544133b8cb3362e23e8fdd2e8a74442f9c13198ad97f532e",
+    "ch01-v2-cranial-pleural-sliding.mp4": "496fc2f2ff2263a822947eab7a77f6d94f5e1109685b802ebea4e34dd03dea8e",
+    "ch01-v2-cranial-pleural-poster.png": "03ee1cdbeb3fb8b4e66da2e83e4f14113f72abcfb6948a4f5e35b523aac4b87f",
+    "ch01-v2-cranial-pleural-reference.html": "65fad21408e634dca0c54948c589e5b7acd693392024a096cfb257d6ab08c063"
+  },
+  "shared_dependencies": {
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "observed-video-controls.js": "1136584777fdb340619dab2527e02e647c95d12fa4a5d8af847148a60f42341f",
+    "observed-video-controls.css": "55144b39d16e8f1096f0cf1d534c817076d1b8c1e137320291f9e8a46b852c9b"
+  }
+}

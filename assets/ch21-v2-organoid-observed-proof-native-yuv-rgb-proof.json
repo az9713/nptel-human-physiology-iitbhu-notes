@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-09",
+  "reason": "RGB-coded losslessVP9 is449479702bytes; one native-YUV-plane lossless alternative tested for size without lossy compromise",
+  "file": "movie1-lossless-native-yuv.webm",
+  "bytes": 226769048,
+  "sha256": "17875906b997fbbecf60ceee376ac1f7ccb87f969e023a7ff1785ce64656ad39",
+  "pixel_format": "yuv420p",
+  "profile": "Profile 0",
+  "frames": 749,
+  "all749_decoded_rgb_frames_equal_to_original": true,
+  "maximum_pts_rounding_seconds": 0.0005000000000023874,
+  "source_sha256": "93be3cdcf528645b6da16daa87678178791ddd0bd1db462d93f69f43f8c9bf99",
+  "command": "ffmpeg -v error -copyts -threads 4 -i movie1-native.mov -map 0:v:0 -an -c:v libvpx-vp9 -lossless 1 -pix_fmt yuv420p -deadline good -cpu-used 4 -threads 4 -fps_mode passthrough movie1-lossless-native-yuv.webm",
+  "limits": "No crop/interpolation/colour grading; original decoded YUV planes losslessly coded, all decoded RGB equality actually tested with FFmpeg7.1.1. No biological-time conversion or browser proof."
+}

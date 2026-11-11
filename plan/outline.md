@@ -25,13 +25,13 @@ Status: independently reviewed plan with targeted repairs. Manuscript, scientifi
 
 ### Primary dynamic explanations
 
-- **ch1-anim1:** Animated cell-to-tissue-to-organ scale transition, retaining orientation and changing scale labels.
 - **ch1-anim2:** ER–Golgi–vesicle trafficking animation with compartment and cargo labels.
 
 ### Anatomical and comparison views
 
 - **ch1-fig1:** Reference-derived body/cavity view with movable section planes.
 - **ch1-fig2:** Labeled cell cutaway and tissue-reference panel.
+- **ch1-anim1:** Interactive photographic comparison of organism, skin surface, tissue and cell; separate observed specimens, no biological evolution or registered zoom..
 - **Required visible structures:** Reference-derived body/cavity view with movable section planes; Labeled cell cutaway and tissue-reference panel.
 - **Actual acquisition status:** Accepted for the stated teaching roles and evidence limits; photographic observations remain separate from schematic geometry and modeled behavior..
 - **Fallback:** Use a sectional SVG reconstruction checked against authoritative anatomy if source mesh lacks required internals; record each custom reconstruction and its scale. Do not invent hidden geometry from an external surface.

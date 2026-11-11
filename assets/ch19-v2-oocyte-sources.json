@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-09",
+  "role": "Controlled completed-state maternal inventory; independent fixed mouse context",
+  "states": [
+    {
+      "index": 0,
+      "name": "Primordial follicle",
+      "status": "Primary oocyte; prophase I arrest",
+      "chromosomes": 46,
+      "chromatids": 92,
+      "dna_C": 4,
+      "ploidy": "2n",
+      "conditional": false
+    },
+    {
+      "index": 1,
+      "name": "Primary follicle",
+      "status": "Primary oocyte; prophase I arrest",
+      "chromosomes": 46,
+      "chromatids": 92,
+      "dna_C": 4,
+      "ploidy": "2n",
+      "conditional": false
+    },
+    {
+      "index": 2,
+      "name": "Multilayer preantral follicle",
+      "status": "Primary oocyte; prophase I arrest",
+      "chromosomes": 46,
+      "chromatids": 92,
+      "dna_C": 4,
+      "ploidy": "2n",
+      "conditional": false
+    },
+    {
+      "index": 3,
+      "name": "Antral follicle",
+      "status": "Primary oocyte; prophase I arrest",
+      "chromosomes": 46,
+      "chromatids": 92,
+      "dna_C": 4,
+      "ploidy": "2n",
+      "conditional": false
+    },
+    {
+      "index": 4,
+      "name": "Competent preovulatory follicle",
+      "status": "Primary oocyte; before meiosis I completion",
+      "chromosomes": 46,
+      "chromatids": 92,
+      "dna_C": 4,
+      "ploidy": "2n",
+      "conditional": false
+    },
+    {
+      "index": 5,
+      "name": "After meiosis I, before release",
+      "status": "Secondary oocyte; metaphase II arrest",
+      "chromosomes": 23,
+      "chromatids": 46,
+      "dna_C": 2,
+      "ploidy": "n",
+      "conditional": false
+    },
+    {
+      "index": 6,
+      "name": "Ovulated cumulus\u2013oocyte complex",
+      "status": "Secondary oocyte; metaphase II arrest",
+      "chromosomes": 23,
+      "chromatids": 46,
+      "dna_C": 2,
+      "ploidy": "n",
+      "conditional": false
+    },
+    {
+      "index": 7,
+      "name": "Conditional completion of meiosis II",
+      "status": "Maternal haploid product, before replication",
+      "chromosomes": 23,
+      "chromatids": 23,
+      "dna_C": 1,
+      "ploidy": "n",
+      "conditional": true
+    }
+  ],
+  "context_file": "ch19-v2-ovulation-observed-left-0077.png",
+  "context_sha256": "78ed8f9efa62ca9adf6515350e4037b28cda4505226ed3d1a24cdde905cfa57c",
+  "context_source_record": "ch19-v2-ovulation-observed-sources.json",
+  "sources": [
+    "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+    "https://www.genomicseducation.hee.nhs.uk/genotes/knowledge-hub/meiosis/"
+  ],
+  "limits": "Maternal cell only; no polar-body/paternal/somatic counts, lineage DNA or measured image assay; no biological timing."
+}

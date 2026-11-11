@@ -1,7 +1,7 @@
 {
   "chapter": 23,
   "title": "Neurons, axonal transport and nerve repair",
-  "status": "accepted",
+  "status": "revised",
   "coverage_complete": true,
   "source_recordings": [
     54,
@@ -275,20 +275,20 @@
     {
       "id": "ch23-fig1",
       "path": "assets/ch23-neuron.svg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch23-myelin-observation",
       "path": "assets/ch23-myelin-tem.jpg",
       "paired_image": "assets/ch23-cns-myelin-tem.jpg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch23-anim1",
       "path": "chapter-23-neurons-axonal-transport-repair.html#ch23-anim1",
       "embedded_panel": "assets/ch23-mechanisms.html?mode=voltage",
       "print_fallback": "assets/ch23-transport.svg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch23-anim2",
@@ -296,31 +296,19 @@
       "embedded_panel": "assets/ch23-mechanisms.html?mode=injury",
       "print_fallback": "assets/ch23-injury.svg",
       "additional_print": "assets/ch23-repair.svg",
-      "status": "accepted"
+      "status": "revision-required"
     }
   ],
   "realistic_asset_gate": {
-    "status": "accepted",
-    "mode": "observed-reference-plus-schematic",
-    "scene_family": "Neuron/nerve organization, axonal traffic and conditional peripheral repair",
-    "rationale": "Verified prepared microscopy supplies recorded lamellar appearance. Separate voltage/cargo routes and conditional tissue responses use controlled animations without invented common biological speed or recovery deadline.",
-    "appearance_references": [
-      "assets/ch23-myelin-tem.jpg",
-      "assets/ch23-cns-myelin-tem.jpg"
-    ],
-    "mechanism_files": [
-      "assets/ch23-mechanisms.html",
-      "assets/ch23-mechanisms.js"
-    ],
-    "report_path": "work/browser/ch23-visual-modality.json",
-    "report_sha256": "f69ba18856cc2fd692594ba0ea450ba79d8113a1654baddb0329a9d2ed204d1f"
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
   },
   "quality": {
     "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
     "browser": "Actual root CUA reader/motion/responsive/keyboard/full-size access and separate source-pixel plus all-page print-contact assessment; exactly two original scientific reviews and bounded targets separately attributed",
     "coverage": "Complete L54–55 captions and all32topic/closing dispositions, attributed bounded8sheets137sampled24native still audit; exactly two actual independent full reviews and their bounded repairs/access checks."
   },
-  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
   "author_report": "work/ch23-author-report.md",
   "research_ledger": "work/ch23-research-ledger.md",
   "limitations": [
@@ -466,5 +454,67 @@
   "public_acceptance": {
     "path": "validation/acceptance/chapter-23.json",
     "sha256": "9189e371c8b822070a3d552d43645917fda8adf28ea72a01214824a5c73d2e04"
-  }
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "reopened",
+    "date": "2026-11-08",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false
+  },
+  "prior_visual_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Neuron/nerve organization, axonal traffic and conditional peripheral repair",
+    "rationale": "Verified prepared microscopy supplies recorded lamellar appearance. Separate voltage/cargo routes and conditional tissue responses use controlled animations without invented common biological speed or recovery deadline.",
+    "appearance_references": [
+      "assets/ch23-myelin-tem.jpg",
+      "assets/ch23-cns-myelin-tem.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch23-mechanisms.html",
+      "assets/ch23-mechanisms.js"
+    ],
+    "report_path": "work/browser/ch23-visual-modality.json",
+    "report_sha256": "f69ba18856cc2fd692594ba0ea450ba79d8113a1654baddb0329a9d2ed204d1f"
+  },
+  "current_body_sha256": "62f3b800a65fbe74010bb65445ca2e402d209d757aed1b12fd096a6892f0f830",
+  "current_chapter_sha256": "3a274241fafc6d85186126c60d47752d574103d6a8eb9879488c18d91b342ee1",
+  "current_visual_artifacts": {
+    "assets/ch23-v2-axonal-transport.html": "59b0678740a496ec1e457d8b1f2f41a0345195dbe4b251160fcb0e83e670150a",
+    "assets/ch23-v2-transport-controls.js": "edaca412738a03bc50456589a242aec86b0a65657ffcc208e591ed1991124afc",
+    "assets/ch23-v2-transport-provenance.json": "eb682d577bbe5f4a2482d67234f5038b85173b6540bfcf9abe7a756cfaf9857a",
+    "assets/ch23-v2-transport-resting-frame-000.png": "037471317d58ca81137df045ac3facf98c354a1ad522c71a8483518a2b159e91",
+    "assets/ch23-v2-transport-resting-frame-025.png": "db1b8b554cea4a0f977593b9d56701bc5133004cec5bfbf05ce60e1da492473d",
+    "assets/ch23-v2-transport-resting-frame-049.png": "85e6f7f3bd63a1b29c51898d201d5be6d8ca2296d660788490a574e67da591f8",
+    "assets/ch23-v2-transport-resting-poster.png": "037471317d58ca81137df045ac3facf98c354a1ad522c71a8483518a2b159e91",
+    "assets/ch23-v2-transport-resting-source.avi": "e9fa19ec232f472dd051983e4d67e797f46b26b2677e33434e380313d94b6a07",
+    "assets/ch23-v2-transport-resting.webm": "fca7ca30c3400cf811c81ff205b3484e46ee3e7398834c72c6a4dd7592698d59",
+    "assets/ch23-v2-transport-stimulated-frame-000.png": "24f0717cbad779facbba252fe423f6f39e696f4c8308f88d5a2ef00ac42314ea",
+    "assets/ch23-v2-transport-stimulated-frame-040.png": "4c33468cfffdb1b7d1ab0148fddb2ff9b78bb38dae33ed3cd500fe663d47a018",
+    "assets/ch23-v2-transport-stimulated-frame-079.png": "b6f0d82166816aa8c4d935f77f81c173332507f51a6990c0d343dce605cad218",
+    "assets/ch23-v2-transport-stimulated-poster.png": "24f0717cbad779facbba252fe423f6f39e696f4c8308f88d5a2ef00ac42314ea",
+    "assets/ch23-v2-transport-stimulated-source.avi": "d9194b0a2509c995e4b3467a0437001fbb82c448db04dbab05def4650fef5559",
+    "assets/ch23-v2-transport-stimulated.webm": "547090b2cef0e748c76106806096bc513ea6ef2daf43ebbe906c2fb661b89fdc",
+    "figures/ch23_axonal_observed.py": "f49a426e3ca88570a4632c2b564c1f1856e07223eb3a9c9b06acafe172753261",
+    "figures/ch23_axonal_observed.template.html": "59b0678740a496ec1e457d8b1f2f41a0345195dbe4b251160fcb0e83e670150a"
+  },
+  "axonal_observation_revision": {
+    "date": "2026-11-09",
+    "status": "integrated local; source/native-frame/RGB reproduction checks performed; actual browser and print pending",
+    "replaces": "Original moving-token voltage/cargo drawing in Figure23.2",
+    "scope": "Observed mitochondrial transport only; not molecular motors, measured voltage propagation, whole nerve anatomy or repair",
+    "source": "assets/ch23-v2-transport-provenance.json",
+    "science_review_history": "Original full scientific review records preserved; they do not approve the replacement media.",
+    "source_and_appearance_review": "work/visual-v2/ch23/axonal-observed/source-and-appearance-review.md"
+  },
+  "axonal_packaging_revision": {
+    "date": "2026-11-10",
+    "change": "FFmpeg bitexact packaging flags; repeat-built WebM bytes deterministic",
+    "preserved": "All130decodedRGBframes, sourceAVIbytes, dimensions, clocks, filefps/duration and PNGsamples unchanged",
+    "current_visual_acceptance": false
+  },
+  "current_hash_definition": "Raw file bytes; body bytes strictly between BEGIN/END CHAPTER BODY comments, no normalization. Historical review bindings are retained separately and are not new approval."
 }

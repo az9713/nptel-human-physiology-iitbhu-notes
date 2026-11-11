@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-09",
+  "rights": "Actual primaryarticle/cataloguelicence; no figure-specificthirdpartynotice found. FullowningXML/PDFprivate;publicimmutablederivedinputs sufficient forcomposition, initialacquisitionseparate.",
+  "sources": [
+    {
+      "id": "pancreas",
+      "file": "ch13-v2-pancreatic-gross.png",
+      "title": "Human pancreas with adjacent duodenum, sourceFigure1",
+      "citation": "Alvanos,Schubert,Winter,Steinke2025 Biomedicines13:1318, Figure1",
+      "url": "https://doi.org/10.3390/biomedicines13061318",
+      "license": "CC BY4.0",
+      "prep": "Postmortemextractedhumanpancreas+adjacentduodenum; illustrativefemaledonor11 separate10analysedcohort. Bodiescooled3°Cbeforemanualdissection; exactindividualelapsedtime/ageunreported. Do not applycohort73–101age toillustrativeextra donor.",
+      "limits": "AVentral/BDorsal, notregistered3D. DP/VPembryologicalbud-derivedtissue, notsynonymsforhead/tail. Red*=commonhepaticartery,red**=splenicartery,red***=SMA;blue*=portalvein;black*=CBDinB. No scale supplied, no observedjuiceflow or completegallbladder/liver/ductconfluence.",
+      "operation": "Complete source Figure 1 reconstructed from its two contiguous published PDF image tiles (2175×666 upper and2175×332 lower). Exact decoded RGB join to2175×998 PNG; no resampling, recolouring, cropping or new leaders.",
+      "original_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12189400.1/PMC12189400.1.pdf?md5=68b3c4ec6935e9c63c03707e94acddcc",
+      "source_pdf_sha256": "143092cc0ff83a7242d228c68fc3230cf51baeae2f1301122c364ed1585f0915",
+      "print_width_mm": 165,
+      "sha256": "9d361ff72086f6a0004bac81ce0f57190f531497ee2d39fb8e8e384d1a3aa659",
+      "dimensions": [
+        2175,
+        998
+      ],
+      "decoded_rgb_sha256": "1c4b7c5018d59c6e5824b614d1d6fe37929428a3d6269b77d427d09ff4589c83",
+      "print_ppi": 334.8181818181818,
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "extraction_proof": "ch13-v2-pancreatic-extraction-proof.json"
+    }
+  ]
+}

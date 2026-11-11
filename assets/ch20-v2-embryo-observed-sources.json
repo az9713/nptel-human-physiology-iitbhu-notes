@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-09",
+  "primary": {
+    "authors": "Wang, Wei, Huang, Yin and Ma",
+    "year": 2024,
+    "doi": "10.3389/fendo.2024.1449035",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11390367/",
+    "part": "Supplementary Video1; original six-well montage, exact Well5 source-coordinate crop",
+    "licence": "CC BY 4.0; no separate third-party exclusion found for original movie",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "original_download": {
+      "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11390367.1/Video1.mp4?md5=91ba0df30eef61a7d27a874046071d14",
+      "bytes": 22833588,
+      "sha256": "4453f8ab715cc9c373567e3f3e0055a265e71f52be2de5b4889271a9d74d1694",
+      "md5": "91ba0df30eef61a7d27a874046071d14"
+    },
+    "primary_xml_sha256": "fcf9e33ca7cbe508622b900ddc65e96039bd47aefbfc839f2f44b9e3b718b598"
+  },
+  "specimen": "Separately labelled human IVF/ICSI laboratory embryos; individual Well5 fertilization technique, donor age and patient relationship to other wells unreported. Not presumed healthy, chromosomally normal or transferred.",
+  "methods_context": "Article: EmbryoScope+,GTL medium,37°C,6%CO2/5%O2;105 eligible fresh single-cleavage-stage transfer cycles among545 retrieval cycles; maternal inclusionage≤38. Individual movie/embryo mapping and image-acquisition interval not given.",
+  "source_dimensions": [
+    1200,
+    800
+  ],
+  "crop_rect_xyxy": [
+    400,
+    0,
+    800,
+    400
+  ],
+  "field_dimensions": [
+    400,
+    400
+  ],
+  "timing": "665frames,nominal30publicationfps,22.1333s original containerduration. Embeddedsourceclock6.8→117.8h; article prose says6.8→117.2h. Conflict preserved,no fitted file-to-biological-time conversion. No calibratedbar; microscope appearance and magnification not calibration.",
+  "media": {
+    "file": "ch20-v2-embryo-observed-well5.webm",
+    "sha256": "3c8b3afb17d95adc526b7662fe439bb15f460e75a77e7f86f366b9a3d36cacbe",
+    "dimensions": [
+      400,
+      400
+    ],
+    "transformation": "Lossless VP9RGB after exact RGB-space source crop, all665 croppeddecodedRGB hashes equal, max WebM PTSrounding0.000333s. No upscale/grading/interpolation/retiming."
+  },
+  "proof": "ch20-v2-embryo-observed-rgb-proof.json",
+  "posters": [
+    {
+      "file": "ch20-v2-embryo-observed-well5-frame-0000.png",
+      "frame_index": 0,
+      "sha256": "ed76b0b92704ff3d5d05006feb85d99fc4080f75bf2d7da8bd5e87396200cb65",
+      "dimensions": [
+        400,
+        400
+      ],
+      "decoded_rgb_sha256": "3438cf04dd6789989550520292d75193799b76b663e3c7c029e20a0496233614"
+    },
+    {
+      "file": "ch20-v2-embryo-observed-well5-frame-0330.png",
+      "frame_index": 330,
+      "sha256": "bd04b250a9407a6c500179c9a445ef41196abb96b71fa6266444ebebe47d3e06",
+      "dimensions": [
+        400,
+        400
+      ],
+      "decoded_rgb_sha256": "e18862813b3ab4d2d9555af7c0addd063307065c136239a9d489945566541953"
+    },
+    {
+      "file": "ch20-v2-embryo-observed-well5-frame-0664.png",
+      "frame_index": 664,
+      "sha256": "f7c0da250a397c8bb99118c95fe4fe36fd36002a115f871b717838b433814528",
+      "dimensions": [
+        400,
+        400
+      ],
+      "decoded_rgb_sha256": "5a36f75898295c1137257fc7c9c319043c28aab67ea6cc817bd0ef69cc356d06"
+    }
+  ],
+  "print": {
+    "candidate_width_mm": 80,
+    "source_ppi": 126.99999999999999,
+    "exception": "Native400pixel embryo field; clock glyph source-limited at this size. External clock transcriptions readable; actual source morphology/clock/print gate pending."
+  },
+  "claim_limits": [
+    "No implantation or uterine transport",
+    "No clinical grading/AIscore/outcome adoption",
+    "No one-versus-multiple patient linkage assertion",
+    "Not a complete cell-lineage count or normal developmental timetable",
+    "Different Wellcome blastocyst is independent specimen"
+  ],
+  "reproduction": "Public exactcrop/movie/posters/sourceJSON/proof support offline composition; original immutable full six-field publisherMP4 retained privately with exacthash, not a network dependency.",
+  "acceptance": {
+    "current": false,
+    "source_native": "B bounded precodePASS",
+    "actual_browser_print": "Pending root"
+  }
+}

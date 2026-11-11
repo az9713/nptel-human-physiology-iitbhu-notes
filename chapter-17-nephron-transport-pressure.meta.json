@@ -1,8 +1,8 @@
 {
   "chapter": 17,
   "title": "Tubular transport, renal regulation and disease",
-  "status": "accepted",
-  "coverage_complete": true,
+  "status": "revised",
+  "coverage_complete": false,
   "source_recordings": [
     38,
     39,
@@ -777,7 +777,7 @@
       "disposition": "Retained and solved: osmoticADHsuppression,distalAQP2,waterdisposal anddilutionalhyponatremiarisk; no safe drinking protocol."
     }
   ],
-  "body_sha256": "77231ae79fb00437dad299b389ecd11d4199c61c7678fcb9acc4462ea6ea3030",
+  "body_sha256": "af02f077e95fefeff5e93babaf6bcc28f8e04d59ced904fa89a6f281b0b0d618",
   "body_hash_definition": "SHA256 of exact rawbytes strictly between the unique BEGIN/END CHAPTER BODY markers; newlines retained,no strip/DOMnormalization.",
   "reviewed_artifacts": [
     {
@@ -897,64 +897,53 @@
     {
       "id": "ch17-anim1",
       "path": "chapter-17-nephron-transport-pressure.html#ch17-anim1",
-      "status": "accepted",
+      "status": "revision-required",
       "embedded_panel": "assets/ch17-mechanisms.html?mode=proximal"
     },
     {
       "id": "ch17-anim2",
       "path": "chapter-17-nephron-transport-pressure.html#ch17-anim2",
-      "status": "accepted",
+      "status": "revision-required",
       "embedded_panel": "assets/ch17-mechanisms.html?mode=loop"
     },
     {
       "id": "ch17-anim3",
       "path": "chapter-17-nephron-transport-pressure.html#ch17-anim3",
-      "status": "accepted",
+      "status": "revision-required",
       "embedded_panel": "assets/ch17-mechanisms.html?mode=control"
     },
     {
       "id": "ch17-anim4",
       "path": "chapter-17-nephron-transport-pressure.html#ch17-anim4",
-      "status": "accepted",
+      "status": "revision-required",
       "embedded_panel": "assets/ch17-mechanisms.html?mode=dialysis"
     },
     {
       "id": "ch17-fig1",
       "path": "assets/ch17-nephron.svg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch17-microscopy",
       "path": "assets/ch16-glomerulus-sem.jpg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch17-raas-print",
       "path": "assets/ch17-raas.svg",
-      "status": "accepted"
+      "status": "revision-required"
     }
   ],
   "realistic_asset_gate": {
-    "status": "accepted",
-    "mode": "observed-reference-plus-schematic",
-    "scene_family": "Tubular renal transport,countercurrent model,branching hormone control and dialysis",
-    "rationale": "VerifiedpreparedglomerularSEMprovidesrenalcorpusclesurfaceappearance; originalsourcereferencednephrondiagramseparatesvascular/tubularroutes. Controlledpolarizedtransport,savedTALsurrogatebalance,branchingRAASandseparateddialysismechanismsexplainprocesses atdeclaredscales. SEMdoesnotidentifyalltransporters orshowtubularflux.",
-    "appearance_references": [
-      "assets/ch16-glomerulus-sem.jpg"
-    ],
-    "mechanism_files": [
-      "assets/ch17-mechanisms.html",
-      "assets/ch17-mechanisms.js"
-    ],
-    "report_path": "work/browser/ch17-visual-modality.json",
-    "report_sha256": "a7e51977f89a884c9538f55ac48e0ed00314b4d29682a5299f5318f30cfb8793"
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
   },
   "quality": {
     "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
     "browser": "Actual root current reader/4controlledpanels, defaultdesktop650px390px, data delivery, keyboardcontrol/pan, sampled live playback and reduced-motion pause, print generation and22pageproof inspection afterCSScontainmentrepair",
     "coverage": "All62 assigned lecture topics plus A01 closing water-load activity disposed; full captions L38–40; bounded contact-sheet/native still audit, not continuous audio/video."
   },
-  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
   "author_report": "work/ch17-author-report.md",
   "production_validation": {
     "report_path": "work/browser/ch17-production-final.json",
@@ -979,7 +968,16 @@
     "code/ch17_renal_balance.py": "3034a3d52e5ac15b9830c245f3952e6a6a7b484b197056c1824d88606e7781d9",
     "assets/ch16-glomerulus-sem.jpg": "c0e94632237a66e8aadf9641741eb5fbfd20797973b0d9b4cc6fca14c6336f33",
     "assets/ch16-provenance.json": "1f4e73e35bbded947a220717e9d034febd34e2577fcd5c801ef0cf3f4baa1ed7",
-    "assets/ch16-LICENSE.txt": "b4d13a1da44051f95697dfcf14e9e67f9e7edd3af02dce93d3a82baa76951e8b"
+    "assets/ch16-LICENSE.txt": "b4d13a1da44051f95697dfcf14e9e67f9e7edd3af02dce93d3a82baa76951e8b",
+    "assets/ch16-v2-renal-anatomy-nephron-c.png": "16c76b323eceb92a8e046c29489d85f9f87af2e8e4a1706d044da5b1ad24ce7e",
+    "assets/ch16-v2-renal-anatomy-nephron-source.png": "4b32b7eb7cc5317ca8d2d28eff586f7c8b5fd2e65a2bae7e33c70a64b8c2432a",
+    "assets/ch16-v2-renal-anatomy-provenance.json": "80c441677bcefeabfd652b468977d33f0767643378ebf7ea89751bf810d88407",
+    "assets/ch16-v2-renal-anatomy-reference.html": "9b669a0afb0e1a1c2572a18c67033b476af09cb56801fb486962ba94997102ab",
+    "assets/ch16-v2-renal-anatomy-sources.json": "b821c8b3255f2338250173f14faf56c3669bd9888cf7d59f1b463237a40eb252",
+    "assets/ch16-v2-renal-anatomy-ultrasound-source.png": "6387e77a55a7e231e43e238225f1c021dbec1ab0e5939c2d8b63ea7da6175a0b",
+    "assets/ch17-v2-proximal-balance-provenance.json": "6a48b2121f14083c5065e985cb2ad55c7502f2ccaf9763ae79d8e101ca355dca",
+    "assets/ch17-v2-proximal-balance-reference.html": "7f0833579b72ba09d2a908196fcbd2896dc9a6fb72409e1f8c7f7e12633fdfbc",
+    "assets/ch17-v2-proximal-balance.js": "47ed27c41beceb5ab887ee85ff5f9a13ee965c7280e7c93777ecf3f0e377b890"
   },
   "repair_report": "work/ch17-repair-report.md",
   "feedback_marker_repair": "work/ch17-feedback-marker-repair.md",
@@ -988,5 +986,68 @@
   "public_acceptance": {
     "path": "validation/acceptance/chapter-17.json",
     "sha256": "527f5d73fe824c02b20880444f9e0740f702bc6ba9b70f1eb399c9f7c34c489b"
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "in-progress-source-grounded-production",
+    "date": "2026-11-09",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false,
+    "observed_nephron_roles": "Actual prepared-mouse source reconstruction and morphology; separate human-scale controlled amount/water model inCh17, not single-nephron measured transport",
+    "remaining_gaps": [
+      "Source molecular transporter/polarity mechanism and full countercurrent/endocrine feedback coverage remain pending.",
+      "Adult gross route and complete glomerular molecular barrier coverage not fulfilled by current independent sources.",
+      "Current exact-hash independent source/appearance and actual browser/print reviews pending."
+    ]
+  },
+  "prior_visual_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Tubular renal transport,countercurrent model,branching hormone control and dialysis",
+    "rationale": "VerifiedpreparedglomerularSEMprovidesrenalcorpusclesurfaceappearance; originalsourcereferencednephrondiagramseparatesvascular/tubularroutes. Controlledpolarizedtransport,savedTALsurrogatebalance,branchingRAASandseparateddialysismechanismsexplainprocesses atdeclaredscales. SEMdoesnotidentifyalltransporters orshowtubularflux.",
+    "appearance_references": [
+      "assets/ch16-glomerulus-sem.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch17-mechanisms.html",
+      "assets/ch17-mechanisms.js"
+    ],
+    "report_path": "work/browser/ch17-visual-modality.json",
+    "report_sha256": "a7e51977f89a884c9538f55ac48e0ed00314b4d29682a5299f5318f30cfb8793"
+  },
+  "canonical_html_sha256": "6acc921e5a1c743338bb6e068eff19d7b9e59711b275f0299d0fb0ed008212f7",
+  "chapter_sha256": "6e9825b08632b657e4e2680dc520bd06a652423155f151005542d9d053b70f8c",
+  "current_visual_artifacts": {
+    "assets/ch17-v2-countercurrent-final-profiles.svg": "8edba50d393db83ec7bc9a9afe191b1c403bd3108f69495c7e310623ad2c8da5",
+    "assets/ch17-v2-countercurrent-provenance.json": "d577a2c3cfa356ce91271c6bb5eb6beb506f2b521cec9c28d35c052f4a6c1027",
+    "assets/ch17-v2-countercurrent-reference.html": "359580730cc1db2221e86f2683182d7a6abb4087e934106a3720be4d3ef1eec7",
+    "assets/ch17-v2-countercurrent.js": "d41355394485751bcc3402d253c49f14cc03069e34259b70070b1ca11054f1e2",
+    "figures/ch17_countercurrent_v2.py": "409277d9897c7cc2b31e0a5d39fe07ea698fa2c44f3504f25af6d6d6d4b31d90",
+    "figures/ch17_countercurrent_v2.template.html": "1a6e303d6e2f7add1f55ef3b1e8b39de341b3cb9259bcc9b9f990147efcb5678",
+    "assets/ch17-countercurrent-data.json": "25fe59fa85bef7e06673e56d5e6b2cd5235b2f52234e449247f2116dbfa1f422",
+    "assets/ch16-v2-renal-anatomy-nephron-c.png": "16c76b323eceb92a8e046c29489d85f9f87af2e8e4a1706d044da5b1ad24ce7e",
+    "assets/ch16-v2-renal-anatomy-sources.json": "b821c8b3255f2338250173f14faf56c3669bd9888cf7d59f1b463237a40eb252",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b"
+  },
+  "nov10_observed_integration": {
+    "date": "2026-11-10",
+    "status": "Integrated locally; unchanged prior source/host reviews retained; new parent and outstanding browser/independent proof pending",
+    "host": "assets/ch17-v2-countercurrent-reference.html",
+    "host_sha256": "7fe693478912d1eaf000c462f03f8f8938d90addecdb753bcddec6ce7b8e04a1",
+    "review": "work/visual-v2/audit/nov10-ready-integration/critical-review.md",
+    "current_visual_acceptance": false,
+    "historical_scientific_reviews_preserved": true
+  },
+  "current_chapter_sha256": "6e9825b08632b657e4e2680dc520bd06a652423155f151005542d9d053b70f8c",
+  "current_body_sha256": "af02f077e95fefeff5e93babaf6bcc28f8e04d59ced904fa89a6f281b0b0d618",
+  "current_hash_definition": "Raw file bytes; body bytes strictly between BEGIN/END CHAPTER BODY comments, no normalization. Historical review bindings are retained separately and are not new approval.",
+  "countercurrent_label_revision": {
+    "date": "2026-11-10",
+    "scope": "Scoped liveplotlabelCSScontrastrepair; science/data/staticprofilesunchanged",
+    "actual_browser_verification": "PENDING",
+    "current_visual_acceptance": false
   }
 }

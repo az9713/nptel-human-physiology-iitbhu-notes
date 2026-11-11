@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-09",
+  "request": "Replace photorealistic unclothed human figures with sketches; retain CT/MRI, microscopy and isolated organ specimens.",
+  "modality": "AI-generated clothed anatomical line drawings",
+  "generator": "Built-in image_gen tool; no API CLI used",
+  "source_definition": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology",
+  "artwork_relationship": "Original generated teaching drawings; no OpenStax illustration pixels or replaced source photographs used as image-generation references. Lateral drawing used the generated anterior sketch as a style/clothing reference.",
+  "images": [
+    {
+      "view": "anterior",
+      "file": "ch01-body-sketch-anterior.png",
+      "sha256": "4bfa63a4cf6b2017346c4d7f157b0e2759bf55705b00bca984b93867e084d68c",
+      "bytes": 1398661,
+      "dimensions_px": [
+        1024,
+        1536
+      ],
+      "inspection": "Generated image actually inspected for full-body framing, visible hands/feet, clothed appearance, anterior palms/thumb orientation or right-facing lateral outline."
+    },
+    {
+      "view": "lateral",
+      "file": "ch01-body-sketch-lateral.png",
+      "sha256": "d639dcb3b6f5eb2e270747aa2bf5564fbbcc8c31111086b0d5c3f899a139c4ff",
+      "bytes": 1157503,
+      "dimensions_px": [
+        1024,
+        1536
+      ],
+      "inspection": "Generated image actually inspected for full-body framing, visible hands/feet, clothed appearance, anterior palms/thumb orientation or right-facing lateral outline."
+    }
+  ],
+  "display": {
+    "svg_canvas": [
+      800,
+      1320
+    ],
+    "image_rect": [
+      40,
+      120,
+      720,
+      1080
+    ],
+    "plane_offsets": "qualitative; not metric",
+    "same_person_registration": false
+  },
+  "limitations": [
+    "Not photographs or observed specimens.",
+    "Not a measured or registered 3D human body.",
+    "Clothing obscures anatomical surface landmarks.",
+    "No internal anatomy is revealed by the plane guides.",
+    "Task-specific visual inspection does not complete the chapter-wide visual rubric."
+  ],
+  "prompts": {
+    "anterior": "Create an ORIGINAL clean medical-education LINE DRAWING of one FULLY CLOTHED ADULT seen exactly from the FRONT, standing in standard anatomical position. Pure white background, portrait canvas approximately 1024x1536. The adult wears a plain opaque fitted short-sleeve T-shirt and opaque knee-length shorts. All private body regions are covered. No nudity. Believable normal adult proportions, about seven-and-a-half head lengths, neutral facial features, short hair. Fine graphite and black pen lines, restrained crosshatching, clear simple contours, no photographic realism, no realistic skin texture, no 3D-render appearance. Full crown, BOTH hands and BOTH feet completely visible, generous margins; body midline at exact horizontal center, crown near 5% image height, soles near 95%; silhouette within the middle 64% of canvas width. Upright, head facing viewer, arms slightly separated from trunk, elbows extended, BOTH palms face viewer, five anatomically correct digits per hand with thumbs OUTSIDE away from the trunk; feet parallel and toes pointing forward. Minimal clothing folds so the body axes remain easy to understand. No text, arrows, labels, scenery, planes, measurement bars or extra people. The image is a straightforward nonsexual teaching illustration for reference planes and directional terminology.",
+    "lateral": "Create a new companion anatomical LINE DRAWING using the supplied FRONT-VIEW sketch only as the STYLE AND CLOTHING REFERENCE. Draw the same ordinary FULLY CLOTHED ADULT in an EXACT LATERAL PROFILE, facing to the RIGHT of the image. His entire full-length body including crown, hand and bare feet is visible on a pure white portrait background, approximately 1024x1536. He wears the same opaque T-shirt and opaque knee-length shorts. All private body areas are covered, no nudity. This is clearly a graphite/pen SKETCH with fine contours and sparse crosshatching, never a photograph or photorealistic 3D render. Normal adult whole-body proportions and neutral standing posture; head upright, nose points screen-right, back and buttock contours screen-left, toes point screen-right. Arms relaxed beside the body; the nearer arm and hand are clearly drawn, the farther arm may be occluded but must not create extra limbs. Complete feet on the ground, soles near95% image height, crown near5%, subject centered around50% image width, generous white margins. Keep the body sagittal outline clearly readable through understated clothing folds. No labels, no arrows, no planes, no words or letters, no scale, no scenery or other people. It is an illustrative lateral projection for a lesson on the coronal anatomical plane, not an observed person or internal section."
+  }
+}

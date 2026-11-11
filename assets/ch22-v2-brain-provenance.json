@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-10",
+  "status": "LOCAL; actual browser/print and independent new-family review pending",
+  "cortical_source": {
+    "article": "https://doi.org/10.7759/cureus.8643",
+    "authors": "Vigo,Cornejo,Nunez,Abla,RodriguezRubio",
+    "publication_date": "2020-06-15",
+    "license": "CC BY4.0, explicitly in acquired PDF page1",
+    "pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7366040.1/PMC7366040.1.pdf",
+    "pdf_sha256": "40c9b333d5ba94a88604f0afb5abaf68f245e4f2af67b7aa41ffa012d70f3d8d",
+    "pdf_page_1based": 3,
+    "xref": 41,
+    "original_figure_image_sha256": "4b178acc2262e7a63d4870940a72196686c07c361f49b2e1e12add0eca3a8261",
+    "original_pixels": [
+      2000,
+      1125
+    ],
+    "figure": "1A only",
+    "crop_rectangle": [
+      0,
+      0,
+      980,
+      1125
+    ],
+    "pixels": [
+      980,
+      1125
+    ],
+    "path": "assets/ch22-v2-brain-cortical-lateral.png",
+    "sha256": "15349fb28d2330f54091b79a5087a801a12ef038f309160307e9a98161ef8a74",
+    "modifications": "Isolated lateral brain panel crop, without resampling, recolouring, retouching or added labels. Other source panel is not delivered.",
+    "specimen": "Study used5embalmed/latex-injectedcadaverheads plus an additionalMRI-derivedhealthymalemodel. Specific age,sex,hemisphere side or normality of this photographedpanelA not assigned here.",
+    "orientation_scale": "FrontalpoleFPimageleft, superiorup; no metricbar supplied. Not registered to the separate MRI or PLOS specimen.",
+    "unexpanded_source_label": "UppercaseOPprinted in sourcephoto but not expanded in Figure1caption; retained without assigning an author-defined expansion. Caption-definedOp is parsopercularis."
+  },
+  "photogrammetry_source": {
+    "article": "https://doi.org/10.1371/journal.pone.0219619",
+    "authors": "Shintaku,Yamaguchi,Toru,Kitagawa,Hirokawa,Yokota,Uchihara",
+    "publication_date": "2019-07-10",
+    "license": "CC BY4.0, linked by owning article",
+    "case": "Case1, source-described normal/nonpathological formalin-fixed right hemisphere",
+    "movie_url": "https://journals.plos.org/plosone/article/file?type=supplementary&id=10.1371/journal.pone.0219619.s001",
+    "original_mov": {
+      "path": "assets/ch22-v2-brain-case1-source.mov",
+      "sha256": "de451ab359f4f19133cfa2d2e803c77c4adf44ac51645fe17c4356144c4a1350"
+    },
+    "mp4": {
+      "path": "assets/ch22-v2-brain-case1.mp4",
+      "sha256": "acec5ce26b1bdc9c1413078ee3988cd1ccdacc8503ae2e82e56274b433207b83",
+      "codec": "H264 streamcopy",
+      "pixels": [
+        1440,
+        1080
+      ],
+      "frames": 693,
+      "fps": 30,
+      "file_duration_seconds": 23.1,
+      "decoded_rgb_frames_identical": true,
+      "decoded_rgb_framehash_sequence_sha256": "2fe27fbbbc6f4d98ba950f634b861cd8a46e5e4ea42522ec788579bd873a4402"
+    },
+    "original_photo_url": "https://journals.plos.org/plosone/article/figure/image?download=&id=10.1371%2Fjournal.pone.0219619.g003&size=original",
+    "original_tiff": {
+      "path": "assets/ch22-v2-brain-case1-photo-source.tif",
+      "sha256": "93b261b66194c8de9eb08481d82f7593a4f3dda0ad75767548e4e72d6f242f63",
+      "pixels": [
+        3624,
+        2491
+      ]
+    },
+    "photo_png": {
+      "path": "assets/ch22-v2-brain-case1-photo.png",
+      "sha256": "a875823e10c200661619bfcf1ca722ed91537bf46bcbf3ea9b430a13414ab21d",
+      "source_rgb_pixels_identical": true
+    },
+    "scale_time": "Figure3captionassigns1cmtooriginalblackbar; no scale is supplied inS1Movie. Source/movie23.1seconds is camera presentation, not physiological time. Rotation changes axes; no fixedorientationoverlay added.",
+    "geometry_appearance": "Author photogrammetry from60\u201380photos, with source lighting/toneprocessing. Supportingplateflattening and absent internalgeometry are author-described limitations. Originalmesh/rawphotocollection not supplied here; no completephotogrammetryrebuildclaim.",
+    "native_frame_samples": [
+      {
+        "frame": 0,
+        "file_time_seconds": 0.0,
+        "path": "assets/ch22-v2-brain-case1-frame-000.png",
+        "sha256": "030fe84f23e5a6f603c1e18fc93c683713dfe64e8af06b13bfacd1ce7b064d1d"
+      },
+      {
+        "frame": 230,
+        "file_time_seconds": 7.666666666666667,
+        "path": "assets/ch22-v2-brain-case1-frame-230.png",
+        "sha256": "959667448689d57876a4f6bcf543761e2bc0776e2151f1210662cf75d56af350"
+      },
+      {
+        "frame": 460,
+        "file_time_seconds": 15.333333333333334,
+        "path": "assets/ch22-v2-brain-case1-frame-460.png",
+        "sha256": "bf4fd83fcfd4d98f309e2275cf6677c778c5598d7dd88e8be82c1eefb0c575e1"
+      },
+      {
+        "frame": 692,
+        "file_time_seconds": 23.066666666666666,
+        "path": "assets/ch22-v2-brain-case1-frame-692.png",
+        "sha256": "db81fbbac41c0f943bc30953f1fc8ad4ca6139433399718585d5d59e9d5ef86b"
+      }
+    ]
+  },
+  "rights": "Separate CCBY4sourcecomponents; \u00a92020Vigoetal and\u00a92019Shintakuetal. Exact source attribution beside each reference. No model/software licence is substituted for content rights.",
+  "print": "Corticalcrop80mm\u2248311ppi; Figure3photo130mm\u2248708ppi; movieposter120mm\u2248305ppi. SourcebaronlycalibratesFigure3photo. Actual print/layout inspection pending.",
+  "reproduction": {
+    "builder": "figures/ch22_brain_surfaces.py",
+    "template": "figures/ch22_brain_surfaces.template.html",
+    "pymupdf": "1.27.1",
+    "pillow": "11.0.0",
+    "ffmpeg": "ffmpeg version 7.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers",
+    "inputs": "Retained publicMOV/TIFF and separately acquired exact originalCureusPDF supplied with--cortical-pdf; no network or private-path dependency."
+  }
+}

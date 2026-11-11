@@ -1,7 +1,7 @@
 {
   "chapter": 21,
   "title": "Contraception, assisted reproduction and reproductive health",
-  "status": "accepted",
+  "status": "revised",
   "coverage_complete": true,
   "source_recordings": [
     48,
@@ -829,7 +829,7 @@
       "coverage_status": "located in developed draft; author evidence, not acceptance"
     }
   ],
-  "body_sha256": "009a2381fcdc21350e02fdc777a602639d8c0468fd0bca9d296656877d13cce0",
+  "body_sha256": "40fdd074588ca1adabd13cdd5b078d01784e18ef3b77046abb91428f2d1197a7",
   "body_hash_definition": "SHA256 of exact raw bytes strictly between unique BEGIN/END CHAPTER BODY markers, preserving all newlines without trim or DOM normalization.",
   "reviewed_artifacts": [
     {
@@ -898,7 +898,41 @@
     "assets/ch21-pid.svg": "ab50bf52fa0d25e3b1338c41ee4e537fcb7911204b3c92ce9aaf958500a43fa2",
     "code/ch21_check.cjs": "c8e3eda055ef88ae0d98eb082eadd8ae2f5c24486b8b373b6019dd1e3f3daed3",
     "code/ch21_export.cjs": "21436f2af5bacb8bd1e4b9edbe5b9294e0bbdb7635a5946b1f9e6e7e4ed0ded4",
-    "code/ch21_outcomes.py": "93861a28b13929e04fa88d8020dacc691c2b36c2b27e0613c302036569619f09"
+    "code/ch21_outcomes.py": "93861a28b13929e04fa88d8020dacc691c2b36c2b27e0613c302036569619f09",
+    "assets/ch21-v2-hsg-observed-image.jpg": "e3060e192848599fe4c779fcb22c498ba4324e78891b446ff72056335114cc99",
+    "assets/ch21-v2-hsg-observed-sources.json": "d398931ec60882235105e66b6a8d5bde0ea93b29f4b7b3bf54366ff476a93c49",
+    "figures/ch21_hsg_observed_v2.template.html": "048e6c31ec285221f9afba40066fe234859f1fb7178e4d7c3f7623bb7992a2b1",
+    "assets/ch21-v2-hsg-observed-reference.html": "048e6c31ec285221f9afba40066fe234859f1fb7178e4d7c3f7623bb7992a2b1",
+    "figures/ch21_hsg_observed_v2.py": "ab2d1d1b3ce764bb8419749ff4640d7ef300fcec565db86077678a5143fe70db",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "assets/ch21-v2-hsg-observed-provenance.json": "2d8181585540e1e46171314a400c5de131fb2c656e672703242740c6640b16f1",
+    "assets/ch21-v2-ivf-accounting-reference.html": "1c00d73eb663be18a8e465b4059bfeae839485e07bfd4a4aac0ca1f6517708e6",
+    "figures/ch21_ivf_accounting_v2.template.html": "1c00d73eb663be18a8e465b4059bfeae839485e07bfd4a4aac0ca1f6517708e6",
+    "figures/ch21_ivf_accounting_v2.py": "0ec4c447096cd35cc655c76eed750c65bded74dd58fe1a8180a206e2e6dfb529",
+    "assets/ch21-v2-ivf-accounting-sources.json": "a55bf182f2ef26079fb2e702338ae168c84fa53980889ac991179278a59addd2",
+    "assets/ch21-v2-ivf-accounting-model.js": "43d2be578f595a84a88e2830124111dd1d76970e1bdd18c302747a4549514349",
+    "assets/ch21-v2-ivf-accounting-controls.js": "19d0bf766be59178dd6b3dfa0862f4ebe98187a30a44676c3d37a82cfd1c35c6",
+    "assets/ch21-v2-ivf-accounting-provenance.json": "4fb74b58b7ba93ceab1d1ef8a3ef2ef08147d8c9e208e71703a750a07f03554d",
+    "chapter-21-reproductive-health-technologies.html": "3f5d584b6a06f8cac95ec70ef331eab422482326f430ac7458e40ca8fa8c1465",
+    "assets/ch21-v2-organoid-observed-original.mov": "93be3cdcf528645b6da16daa87678178791ddd0bd1db462d93f69f43f8c9bf99",
+    "assets/ch21-v2-organoid-observed-movie.webm": "17875906b997fbbecf60ceee376ac1f7ccb87f969e023a7ff1785ce64656ad39",
+    "assets/ch21-v2-organoid-observed-frame-0000.png": "bc0d626a580a5103e17bf5a0c4c6ce91398a3d4dcf265ad6f942ac0a37be7e32",
+    "assets/ch21-v2-organoid-observed-frame-0250.png": "34a8aa064fde459ad578ccf63c773e1872e19d555982aaaeea9fd080b95a4461",
+    "assets/ch21-v2-organoid-observed-frame-0500.png": "de138e2f2078d64404a7a8f50aef12aeae27dfc71c07ab9106a59baf19bcbbb6",
+    "assets/ch21-v2-organoid-observed-frame-0748.png": "44860c48140d2d08d40d6ea530edf70415060f8ea097be8f6c71ac6dcf6cdb36",
+    "assets/ch21-v2-organoid-observed-proof-native-yuv-rgb-proof.json": "54c7afadf18e13286897212bde546eae7f7464995ace7a823e134585b165d7e0",
+    "assets/ch21-v2-organoid-observed-proof-original.framemd5": "56b1a4af85a2cd90aa71c3d5905580aca4d88ce5e5249bf6f19b6b01613bfce5",
+    "assets/ch21-v2-organoid-observed-proof-native-yuv.framemd5": "56b1a4af85a2cd90aa71c3d5905580aca4d88ce5e5249bf6f19b6b01613bfce5",
+    "assets/ch21-v2-organoid-observed-proof-original-pts.json": "1777f12c8eaf379376dac5ce68adc88785281934b42c80559c7b28ac6d21350d",
+    "assets/ch21-v2-organoid-observed-proof-browser-pts.json": "6e5842b01bb92235fab73d242fec477af59b9235757259e48c12e48da9817da1",
+    "assets/ch21-v2-organoid-observed-reference.html": "2c89133a30d5ee377efa04101815220ef21d3471406d2cd74c4392a5a099ad15",
+    "figures/ch21_organoid_observed_v2.template.html": "2c89133a30d5ee377efa04101815220ef21d3471406d2cd74c4392a5a099ad15",
+    "figures/ch21_organoid_observed_v2.py": "0cd13f371b9400a4a2132c5042e7eab49590c564ca17d2b0698024cca0c9bd03",
+    "assets/ch21-v2-organoid-observed-sources.json": "787807fcf5f9e7331d3e7ba6fdf5a7402d77ffec7d140faea1de8f7b1532d69a",
+    "assets/observed-video-controls.css": "55144b39d16e8f1096f0cf1d534c817076d1b8c1e137320291f9e8a46b852c9b",
+    "assets/observed-video-controls.js": "1136584777fdb340619dab2527e02e647c95d12fa4a5d8af847148a60f42341f",
+    "assets/ch21-v2-organoid-observed-provenance.json": "45525f04a23ff54546a32c3c45476b039069c372310ec9ce1c8ec242fa70638a"
   },
   "reviews": [
     {
@@ -971,34 +1005,103 @@
   "figures": [
     {
       "id": "ch21-fig1",
-      "path": "assets/ch21-context.svg",
-      "status": "accepted"
+      "path": "chapter-21-reproductive-health-technologies.html#ch21-fig1",
+      "status": "integrated-pending-parent-ui-print",
+      "historical_revision_required_entry": {
+        "id": "ch21-fig1",
+        "path": "assets/ch21-context.svg",
+        "status": "revision-required"
+      },
+      "scope": "Bounded role only; see current caption and exact source records"
     },
     {
       "id": "ch21-embryo",
       "path": "assets/ch21-human-ivf-embryo.jpg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch21-anim1",
       "path": "chapter-21-reproductive-health-technologies.html#ch21-anim1",
       "embedded_panel": "assets/ch21-mechanisms.html?mode=methods",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch21-anim2",
       "path": "chapter-21-reproductive-health-technologies.html#ch21-anim2",
-      "embedded_panel": "assets/ch21-mechanisms.html?mode=ivf",
-      "status": "accepted"
+      "status": "integrated-pending-parent-ui-print",
+      "historical_revision_required_entry": {
+        "id": "ch21-anim2",
+        "path": "chapter-21-reproductive-health-technologies.html#ch21-anim2",
+        "embedded_panel": "assets/ch21-mechanisms.html?mode=ivf",
+        "status": "revision-required"
+      },
+      "scope": "Bounded role only; see current caption and exact source records"
     },
     {
       "id": "ch21-anim3",
       "path": "chapter-21-reproductive-health-technologies.html#ch21-anim3",
       "embedded_panel": "assets/ch21-mechanisms.html?mode=pid",
-      "status": "accepted"
+      "status": "revision-required"
+    },
+    {
+      "id": "ch21-v2-organoid-local-response",
+      "path": "chapter-21-reproductive-health-technologies.html#ch21-v2-organoid-local-response",
+      "status": "integrated-pending-parent-ui-print",
+      "scope": "Independently source-reviewed local human organoid response only; full PID anatomy/mechanism remains revision-required"
     }
   ],
   "realistic_asset_gate": {
+    "status": "incomplete",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "current": false
+  },
+  "quality": {
+    "scientific_reviews": "Historical chapter prose reviews retained; new bounded source/model reports under work/visual-v2/ch18–21; current parent review pending.",
+    "browser": "Pending actual root UI/print on the new canonical bytes; earlier production/browser reviews are historical.",
+    "coverage": "All50 L48–50 topics and closing activities dispositioned using full captions and attributed bounded10contact sheets172samples28native repeats; exactly two actual independent full reviews plus bounded union/type-domain targets."
+  },
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
+  "author_report": "work/ch21-author-report.md",
+  "research_ledger": "work/ch21-research-ledger.md",
+  "production_validation": {
+    "status": "pending",
+    "scope": "New canonical reader UI/print and source review; no actual browser claim inherited"
+  },
+  "limitations": [
+    "Medical/regulatory checks dated2026-11-04; no individualized dosing, procedure, diagnosis, fertility/contraceptive recommendation or legal eligibility decision.",
+    "India legal passage reports directly read officialNHM2021amendment summary only. ConsolidatedIndiaCodeAct timed out and formerMoHFWrulesURLs returned404; no complete current statute/rules/case-law audit claimed.",
+    "AUA2024amended testosterone warning appears in owning search excerpt; directPDFblocked. AccessibleASRM2021guideline directly read, no2024full-text claim.",
+    "ARTcycle counts and screen/mixture parameters are explicitly synthetic, not clinical rates; one linked transfer pathway and complete followup assumed. No independent-identical-cycle assumption.",
+    "Human IVF native4003x2664JPEG has unspecified physical scale/optical method/precise age; catalogue grade description is historical, not validated prognosis. Whole tool display reduced plus native crop checked.",
+    "Emerging pelvic meshes supported by independently read ovine primary abstracts, not human efficacy/approval; no verified spider-silk clinical standard.",
+    "No empiricalART70–80%success estimate or source universal100%contraception/cancer/legal claim adopted; pathway/endpoints/denominators kept distinct.",
+    "PPV binary64 domain requires every mathematically positive TP/FP product to remain positive after rounding; underflow raises explicit ValueError/RangeError. Mathematical PPV remains defined beyond this implementation domain.",
+    "2026-11-09: newly integrated observed fields/quantitative labs cover bounded roles only. Duct/HPG/reflex, implantation, complete placental/birth geometry and contraceptive/PID mechanisms are not supplied by nearby specimens; current visual coverage remains incomplete."
+  ],
+  "repair_report": "work/ch21-repair-report.md",
+  "coverage_basis": "All50 L48–50 topics and closing activities dispositioned using full captions and attributed bounded10contact sheets172samples28native repeats; exactly two actual independent full reviews plus bounded union/type-domain targets.",
+  "accepted_at_utc": null,
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-21.json",
+    "sha256": "7b42abf08d13cf56064b71ee242977aee26f2618cc53c2f039236f487f0c17db",
+    "current": false,
+    "scope": "Historical record only; new reader acceptance incomplete"
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "incomplete",
+    "date": "2026-11-09",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false,
+    "visual_coverage_complete": false,
+    "reader_scope": "Bounded independently source-reviewed observed/quantitative roles integrated; actual parent/gallery UI and print pending, broader mechanisms remain incomplete",
+    "snapshot": "work/visual-v2/ch19/reader-freeze/snapshot-v4.json",
+    "css_dependency_repair": "2026-11-09; standalone bodies/science/source unchanged, malformed inherited CSS repaired; parent HTML unchanged",
+    "local_organoid_delta": "Separate reviewed local-response observation; source/representation PASS, actual parent/gallery browser/event/print pending. Does not fulfill whole-PID anatomical mechanism."
+  },
+  "prior_visual_gate": {
     "status": "accepted",
     "mode": "observed-reference-plus-schematic",
     "scene_family": "Reproductive method targets, ART denominators, pelvic compartments and conditional disease pathways",
@@ -1013,34 +1116,16 @@
     "report_path": "work/browser/ch21-visual-modality.json",
     "report_sha256": "f6e3350b78aa65d5c1db480e160cb2394d3f8f658be87c12f1db997135bcfcbb"
   },
-  "quality": {
-    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
-    "browser": "Actual root current reader,6method endpoints/6IVF/fourPID states, live conditional sequence/end-stop and explicit Play/Pause, settled reduced-motion pause, desktop/390px/650px keyboard panning and24page print proof",
-    "coverage": "All50 L48–50 topics and closing activities dispositioned using full captions and attributed bounded10contact sheets172samples28native repeats; exactly two actual independent full reviews plus bounded union/type-domain targets."
+  "visual_coverage_complete": false,
+  "prior_reader_validation_binding": {
+    "html_sha256": "af531f890477ab32d91dfb9e6debcbcb5e643eab97e918a7f1542713d1f68ef7",
+    "body_sha256": "009a2381fcdc21350e02fdc777a602639d8c0468fd0bca9d296656877d13cce0",
+    "reviews": "Existing reviews/reviewed_artifacts and prior acceptance retained unchanged as historical records; not new-reader proof",
+    "production_validation": {
+      "report_path": "work/browser/ch21-production-final.json",
+      "report_sha256": "24440bedbcadb4eadfa421fef0184570be544cab22375b743ea14d4e66806235",
+      "scope": "Actual root current reader,6method endpoints/6IVF/fourPID states, live conditional sequence/end-stop and explicit Play/Pause, settled reduced-motion pause, desktop/390px/650px keyboard panning and24page print proof"
+    }
   },
-  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
-  "author_report": "work/ch21-author-report.md",
-  "research_ledger": "work/ch21-research-ledger.md",
-  "production_validation": {
-    "report_path": "work/browser/ch21-production-final.json",
-    "report_sha256": "24440bedbcadb4eadfa421fef0184570be544cab22375b743ea14d4e66806235",
-    "scope": "Actual root current reader,6method endpoints/6IVF/fourPID states, live conditional sequence/end-stop and explicit Play/Pause, settled reduced-motion pause, desktop/390px/650px keyboard panning and24page print proof"
-  },
-  "limitations": [
-    "Medical/regulatory checks dated2026-11-04; no individualized dosing, procedure, diagnosis, fertility/contraceptive recommendation or legal eligibility decision.",
-    "India legal passage reports directly read officialNHM2021amendment summary only. ConsolidatedIndiaCodeAct timed out and formerMoHFWrulesURLs returned404; no complete current statute/rules/case-law audit claimed.",
-    "AUA2024amended testosterone warning appears in owning search excerpt; directPDFblocked. AccessibleASRM2021guideline directly read, no2024full-text claim.",
-    "ARTcycle counts and screen/mixture parameters are explicitly synthetic, not clinical rates; one linked transfer pathway and complete followup assumed. No independent-identical-cycle assumption.",
-    "Human IVF native4003x2664JPEG has unspecified physical scale/optical method/precise age; catalogue grade description is historical, not validated prognosis. Whole tool display reduced plus native crop checked.",
-    "Emerging pelvic meshes supported by independently read ovine primary abstracts, not human efficacy/approval; no verified spider-silk clinical standard.",
-    "No empiricalART70–80%success estimate or source universal100%contraception/cancer/legal claim adopted; pathway/endpoints/denominators kept distinct.",
-    "PPV binary64 domain requires every mathematically positive TP/FP product to remain positive after rounding; underflow raises explicit ValueError/RangeError. Mathematical PPV remains defined beyond this implementation domain."
-  ],
-  "repair_report": "work/ch21-repair-report.md",
-  "coverage_basis": "All50 L48–50 topics and closing activities dispositioned using full captions and attributed bounded10contact sheets172samples28native repeats; exactly two actual independent full reviews plus bounded union/type-domain targets.",
-  "accepted_at_utc": "2026-11-05T04:21:14.450Z",
-  "public_acceptance": {
-    "path": "validation/acceptance/chapter-21.json",
-    "sha256": "7b42abf08d13cf56064b71ee242977aee26f2618cc53c2f039236f487f0c17db"
-  }
+  "prior_accepted_at_utc": "2026-11-05T04:21:14.450Z"
 }

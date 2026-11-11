@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-09",
+  "sources": {
+    "date": "2026-11-09",
+    "observation_records": [
+      "ch12-v2-enteric-sources.json",
+      "ch12-v2-enteric-extraction-proof.json"
+    ],
+    "chemical_records": "ch13-v2-chemical-records.json",
+    "facts_vs_depictions": "ChemicalSMILES/formulas/CIDsarePubChemmolecularfacts;2DgraphsoriginalRDKit2025.09.6canonOrient,moleculesnotphotographedor3Dmeasured. GenericTAG/Rgroupsoriginalchemicalconnectivity,no sourceartadapted.",
+    "mechanism_sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19434858/",
+        "scope": "Hu2009Pept1nullmouseGlySaruptake,notGlyGlyhydrolysisexperiment"
+      },
+      {
+        "url": "https://doi.org/10.1136/gut.13.12.965",
+        "scope": "Hellieretal1972humandipeptideperfusion;GlyGly/GlyAlaanddistinctportalGlyLysfindings"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6718441/",
+        "scope": "Mouseenteroidprimaryassemblymechanismcontext;itsbasalTRLinterventionnotrelabelledasnormalfeeding"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1221909/",
+        "scope": "MouseApoB48vsApoB100assemblycomparison,notabsolutehumanabsenceclaim"
+      },
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK343489/",
+        "scope": "Endotextintestinalassemblyaccount;nocopiedart"
+      }
+    ],
+    "state_design": "SeparatefixedSEM/vesselimagesandidealizedchemical/amountstatesreviewedbyBbeforemotion. Protein6residuebasis/3water;lipid3acylbasisnotparticles;linearinterpolationarbitrary.",
+    "clock": "12presentationsecondsnotbiological;controlledstateexamplesnotclinicalconcentrations/flux/kinetics.",
+    "rights": "ObservedimagesCCBY4.0withowningprimarysourcecredits;originalcomputedchemicaldepictionsandaccounting,noblanketlicenseofsourcepapers."
+  },
+  "mechanisms": {
+    "protein": "3dipeptides/6residues acrossentry,hydrolysis,AAexit;3waterconsumed,nouniversalHcount",
+    "lipid": "3long-chainacylequivalentcargoluminalhydrolysis/molecularuptake/reesterificationassembly/basalrelease/lactealentry;notparticlecount"
+  },
+  "reproduction": {
+    "builder": "figures/ch13_digestive_mechanisms_v2.py",
+    "private_network_required": false,
+    "chemical_reconstruction": "PublicSMILESrecord+editableoriginalSVG. VectorcreationseparateRDKitstep;compositiondoesnotrequireRDKit."
+  },
+  "artifacts": {
+    "assets/ch13-v2-digestion-sources.json": "d478f8bc4e1884e953fc9b9a1d10baf69c0a7171007ae7698cb21c9fe8004984",
+    "assets/ch13-v2-chemical-records.json": "9e92d1a8c80286c206e433f2af5b611dd51c6c86e10bbec2ff187500f0b4458e",
+    "assets/ch12-v2-enteric-sources.json": "d5eb7bfb1962120b7b3bf920d147c186daa3a6fa7d73629ad0458fe61bd40737",
+    "assets/ch12-v2-enteric-extraction-proof.json": "8534437d3caeef093bd1d9ddb7694aba958fe799fefc15af807a48e57e7833dd",
+    "assets/ch12-v2-enteric-mouse-enterocyte.png": "a046439e3c71853f550d653801aa5def23e29290be0ef256ebf9c085b7d2a6a8",
+    "assets/ch12-v2-enteric-mouse-vessels.jpg": "4dee6792afc721ebe8c7f2141beccb1d8c1def8842201e46d0213e2e82b8703f",
+    "assets/ch13-v2-digestion-model.js": "422f0f3e574c29f4bd8258905db253c1b6a369c2f3581776b4f231d7b16de1a3",
+    "assets/ch13-v2-digestion-controls.js": "1858eed61dd2cbb56465b30cf2889acd832e45141fe559a55a479e1b40e5e432",
+    "assets/ch13-v2-digestion.css": "8432bd65487723d8aa4139bf5b7e4804b055a51250303a2269839e3f44068438",
+    "assets/ch13-v2-glycylglycine.svg": "1fe7e1f45166f8271408cb9d8144037869960c762775151db80c35feb61c92db",
+    "assets/ch13-v2-glycine.svg": "3b2fe8608c8b284d646fe063cc83d0833732a22c41bf8a21668e8939a424144e",
+    "assets/ch13-v2-lipid-tag.svg": "c58317b2d669cac36b1a1c514e3989483716ccdc1f293eaa6550eb82f4c1204f",
+    "assets/ch13-v2-lipid-products.svg": "48b33beb2a815dad57420d306c5d75536967a41aca2a0ac4bcfd89ab1f848f0a",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "figures/ch13_protein_mechanism_v2.template.html": "790804965bbc48b20ef71b02607dc92f1b3168be35d7ddf867e6aedb59b922b6",
+    "assets/ch13-v2-protein-reference.html": "790804965bbc48b20ef71b02607dc92f1b3168be35d7ddf867e6aedb59b922b6",
+    "figures/ch13_lipid_mechanism_v2.template.html": "1e5e977ad292d44fce18dd7a6ebee310f73a42de76bbd75e3215b8c8043acea2",
+    "assets/ch13-v2-lipid-reference.html": "1e5e977ad292d44fce18dd7a6ebee310f73a42de76bbd75e3215b8c8043acea2",
+    "figures/ch13_digestive_mechanisms_v2.py": "c290175fc3e4d8bee02ecbd9c9f86dd10a943fe14e3dd4da4e38c7b02fcf499a"
+  },
+  "acceptance": {
+    "current": false,
+    "Bsource_state_staticprototype": "Scopedapprovalbeforemotion;exactprivatecriticreportsretained",
+    "actual_runtime_source_appearance_print": "PENDING root/B"
+  }
+}

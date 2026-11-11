@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-09",
+  "status": "Candidate; independent source/appearance and actual browser/print review pending, no acceptance inferred",
+  "source_record": "ch07-v2-mucus-bos2023-sources.json",
+  "inputs": [
+    {
+      "file": "ch07-v2-mucus-bos2023.mp4",
+      "role": "original_published_movie",
+      "sha256": "2c152748d2c917609a6af3adde7b519acc6684ace85730bff6476183d36f2c36",
+      "bytes": 52126863
+    },
+    {
+      "file": "ch07-v2-mucus-bos2023-decode-framemd5.txt",
+      "role": "full_decode_proof",
+      "sha256": "63d214f1c7ca1e1ceed8fbcb403b955bb98119614eaf4961822f2659fd389d44",
+      "bytes": 24296
+    },
+    {
+      "file": "ch07-v2-mucus-bos2023-frame-0000.png",
+      "role": "decoded_frame",
+      "sha256": "a79f44de619c6b3f3217d28b489fc9a6834a69db2eb96def852a6d7532e76bd2",
+      "bytes": 2986314,
+      "frame_index": 0,
+      "width": 1572,
+      "height": 2048,
+      "rgb_sha256": "595410fdcc7e21ed8e56dbc98735faa1434e2668faf1150bb0941dd39da18ec2",
+      "container_pts_s": 0.05,
+      "elapsed_since_first_decoded_frame_s": 0.0
+    },
+    {
+      "file": "ch07-v2-mucus-bos2023-frame-0150.png",
+      "role": "decoded_frame",
+      "sha256": "22f041b63ab846419f1bf1ba479513ccfa879daf66c0a45853e2de7141a5cf19",
+      "bytes": 2959346,
+      "frame_index": 150,
+      "width": 1572,
+      "height": 2048,
+      "rgb_sha256": "0227d4e3b4820f1bdcdb4665d222d8ed33ebea3af47d6367c8f59c3c5f79d3c4",
+      "container_pts_s": 7.55,
+      "elapsed_since_first_decoded_frame_s": 7.5
+    },
+    {
+      "file": "ch07-v2-mucus-bos2023-frame-0300.png",
+      "role": "decoded_frame",
+      "sha256": "7926739c0139504d7af60cecfbf168448db00e9ceb39a3253c8da04ced5f7381",
+      "bytes": 2968491,
+      "frame_index": 300,
+      "width": 1572,
+      "height": 2048,
+      "rgb_sha256": "ee45b60bf2abe66754b01695c93d18bb343906bf542a9b8439d89de73aa1839e",
+      "container_pts_s": 15.05,
+      "elapsed_since_first_decoded_frame_s": 15.0
+    },
+    {
+      "file": "ch07-v2-mucus-bos2023-timing-proof.json",
+      "role": "container_timing_proof",
+      "sha256": "e70d98b6b728fbcf9d9ef6a8c2b86275e0006e54492aaf24c3d9923d07e23d8b",
+      "bytes": 1158
+    }
+  ],
+  "source_movie": "Movie S1, observed Alcian-blue-stained bundle transport",
+  "native_modifications": "None to native MP4 bytes. Posters are full decoded native1572×2048 frames0/150/300; no cropping, resampling, recoloring or added anatomical marks. No AVI simulation included.",
+  "timing": {
+    "own_supplement_claim": "Movie S1 is described as a five-minute recording at16× normal speed in this study’s own supporting legend.",
+    "delivered_file": "301 frames at20fps; stream/container start_time0.05s, reportedduration15.05s; frame0PTS0.05,frame150PTS7.55,frame300PTS15.05. Elapsed since first decodedframe is0/7.5/15s, separately labelled.",
+    "unresolved": "These facts do not reconcile the experiment-to-export mapping. No biological interval, rate, speed or5minute conversion assigned to frame indices or controls; file time only.",
+    "not_borrowed": "16× is now verified in Bos2023 own legend, not imported from Ermund2017.",
+    "stream_offset_s": 0.05,
+    "sample_pts": [
+      {
+        "frame_index": 0,
+        "container_pts_s": 0.05,
+        "best_effort_timestamp_s": 0.05,
+        "elapsed_since_first_decoded_frame_s": 0.0
+      },
+      {
+        "frame_index": 150,
+        "container_pts_s": 7.55,
+        "best_effort_timestamp_s": 7.55,
+        "elapsed_since_first_decoded_frame_s": 7.5
+      },
+      {
+        "frame_index": 300,
+        "container_pts_s": 15.05,
+        "best_effort_timestamp_s": 15.05,
+        "elapsed_since_first_decoded_frame_s": 15.0
+      }
+    ],
+    "browser_clamp": "Root observed initialpausedcurrentTime0.05. Replay/seek0 may clamp to firstPTS0.05; this is source timing, not a failure or biologicalclock."
+  },
+  "print": {
+    "poster_frame": 0,
+    "width_mm": 80,
+    "height_mm": 104.22391857506362,
+    "ppi": 499.10999999999996,
+    "exception": "No below300ppi raster exception required at80mm; individual cilia remain unresolved.",
+    "key_min_pt": 9.5,
+    "credit_min_pt": 9,
+    "intent": "Current standalone candidate: one wholeposter80mm with compactprintspacing; body/key9.5pt,credit9pt. Root/B actualonepagephysicalbundlelegibility pending.",
+    "source_record_print_scope": "SourceJSON retains original100mm design intent; currentstandalone template/provenance overrides to80mm. CanonicalChapter7poster100mm unchanged."
+  },
+  "coverage_gaps": [
+    "Individual ciliary beating/ASL depth/cell boundaries not resolved",
+    "Goblet-cell anchoring and causal reorientation not directly observed; simulations are separate",
+    "No human in-vivo equivalence, mucin molecular identity from blue color, quantitative clearance rate or temporal mapping",
+    "No airway-to-alveolus gross anatomy, barrier, quiet-breathing or pressure model supplied"
+  ],
+  "independence": "Separate Bos2023 source; not the retired Gsell2020S1, not registered to human ALI/SEM/MRI or simulation.",
+  "controls": {
+    "playback": "Native controls fallback; shared authored controls opt-in. Starts paused/preloadmetadata/noautoplay/noloop. File seconds only. Shared reduced-motion change/pagehide/beforeprint pauses.",
+    "video_display": "Fit player contains entire tall source; Native pixels restores1572×2048 in explicit bounded-height scrolling region. Shared target-region arrows/Home/End.",
+    "image_display": "Three source-indexed Native/Fit/Close dialogs, explicit bounded-height inner viewport, keyboardpan/openerfocusreturn. No pagewide source overflow."
+  },
+  "reproduction": {
+    "builder": "figures/ch07_mucus_bos2023_v2.py",
+    "template": "figures/ch07_mucus_bos2023_v2.template.html",
+    "builder_sha256": "779923b7f222e73867b9b46a536f4b5169de545d0eca466758713cb9da450fba",
+    "template_sha256": "8edc1f70294781888363d119d16237fe060efdc9728f17b77c5d3436d2040099",
+    "python": "3.13.5",
+    "pillow": "11.0.0",
+    "scope": "Public immutable originalMP4/fullnativeposters/decodeproof/sourceJSON/template/sharedadapters only; no private work, network or encoding required to recompose. Initial acquisition/frame extraction separate."
+  },
+  "shared_dependencies": {
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "observed-video-controls.js": "1136584777fdb340619dab2527e02e647c95d12fa4a5d8af847148a60f42341f",
+    "observed-video-controls.css": "55144b39d16e8f1096f0cf1d534c817076d1b8c1e137320291f9e8a46b852c9b"
+  },
+  "pending": [
+    "Distinct independent source/specimen/rights/timing review",
+    "Native appearance/teaching inspection; no invisible cilia/goblet-cause claim",
+    "Actual desktop650390 MP4decode/paused/play/seek/step/replay/end/reducedmotion/NativeFit/focus/pan tests",
+    "Actual whitePDF oneposter/sourcekey/timing/credit/pagebreak proof",
+    "No canonical Chapter7 integration performed"
+  ],
+  "artifacts": {
+    "ch07-v2-mucus-bos2023.mp4": "2c152748d2c917609a6af3adde7b519acc6684ace85730bff6476183d36f2c36",
+    "ch07-v2-mucus-bos2023-decode-framemd5.txt": "63d214f1c7ca1e1ceed8fbcb403b955bb98119614eaf4961822f2659fd389d44",
+    "ch07-v2-mucus-bos2023-frame-0000.png": "a79f44de619c6b3f3217d28b489fc9a6834a69db2eb96def852a6d7532e76bd2",
+    "ch07-v2-mucus-bos2023-frame-0150.png": "22f041b63ab846419f1bf1ba479513ccfa879daf66c0a45853e2de7141a5cf19",
+    "ch07-v2-mucus-bos2023-frame-0300.png": "7926739c0139504d7af60cecfbf168448db00e9ceb39a3253c8da04ced5f7381",
+    "ch07-v2-mucus-bos2023-timing-proof.json": "e70d98b6b728fbcf9d9ef6a8c2b86275e0006e54492aaf24c3d9923d07e23d8b",
+    "ch07-v2-mucus-bos2023-sources.json": "1997cdd7f9cbfc722dbfe7575a480070388e062f3ef3a17a9e907a8e1931853d",
+    "ch07-v2-mucus-bos2023-reference.html": "8edc1f70294781888363d119d16237fe060efdc9728f17b77c5d3436d2040099",
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "observed-video-controls.js": "1136584777fdb340619dab2527e02e647c95d12fa4a5d8af847148a60f42341f",
+    "observed-video-controls.css": "55144b39d16e8f1096f0cf1d534c817076d1b8c1e137320291f9e8a46b852c9b"
+  }
+}

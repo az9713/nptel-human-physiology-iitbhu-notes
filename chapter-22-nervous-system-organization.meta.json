@@ -1,7 +1,7 @@
 {
   "chapter": 22,
   "title": "Nervous-system organization: brain, spinal cord and nerves",
-  "status": "accepted",
+  "status": "revised",
   "coverage_complete": true,
   "source_recordings": [
     51,
@@ -665,7 +665,7 @@
       "disposition": "**Late activity visible** `f0053`: loss of smell, difficulty moving **left** eye laterally, left facial droop. Anatomical candidates: I, left VI, left VII, but signs do not establish a single lesion; smell side unspecified, facial central/peripheral pattern and ocular examination unspecified. The three simultaneous signs could require multiple sites or broader process, so write a localization reasoning solution with uncertainty and no patient diagnosis."
     }
   ],
-  "body_sha256": "07eb9e4a5f3a898458c3d9077e9ad852001ad54c1ff7fd2335c10291f4f49bae",
+  "body_sha256": "d1e7b9cca4fe30203dffdd4511343827c3449ea0e081cc0e239b4cc9e31972dc",
   "body_hash_definition": "SHA256 of exact raw bytes strictly between unique BEGIN/END CHAPTER BODY markers; no trim or normalization",
   "reviewed_artifacts": [
     {
@@ -829,51 +829,39 @@
     {
       "id": "ch22-fig1",
       "path": "assets/ch22-brain-map.svg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch22-fig2",
       "path": "assets/ch22-cord-roots.svg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch22-brain-observation",
       "path": "assets/ch22-brain-mri.jpg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch22-cord-observation",
       "path": "assets/ch22-rat-spinal-lm.jpg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch22-anim1",
       "path": "chapter-22-nervous-system-organization.html#ch22-anim1",
       "embedded_panel": "assets/ch22-mechanisms.html?mode=route",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch22-anim2",
       "path": "chapter-22-nervous-system-organization.html#ch22-anim2",
       "embedded_panel": "assets/ch22-mechanisms.html?mode=reflex",
-      "status": "accepted"
+      "status": "revision-required"
     }
   ],
   "realistic_asset_gate": {
-    "status": "accepted",
-    "mode": "observed-reference-plus-schematic",
-    "scene_family": "Nervous-system compartments, roots/rami and parallel sensory/reflex routes",
-    "rationale": "Source-verified sagittal MRI and prepared rat spinal light microscopy supply recorded appearance at distinct scales. Original nonmetric maps and controlled parallel route/latency bookkeeping explain connectivity without claiming a measured human path or speed.",
-    "appearance_references": [
-      "assets/ch22-brain-mri.jpg",
-      "assets/ch22-rat-spinal-lm.jpg"
-    ],
-    "mechanism_files": [
-      "assets/ch22-mechanisms.html",
-      "assets/ch22-controller.js"
-    ],
-    "report_path": "work/browser/ch22-visual-modality.json",
-    "report_sha256": "00343278bdb737ca7ea4b12db5639602a0d129e8042406d7bf5d053195307ced"
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
   },
   "quality": {
     "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
@@ -896,10 +884,92 @@
     "Primary studies accessed at stated abstract/relevant-passage depth; no fabricated fullmethods access."
   ],
   "coverage_basis": "All40 L51–53 topics/closings from full captions and attributed bounded9sheets162samples26native repeats; two actual full reviews and bounded production CSS source-preservation targets.",
-  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
   "accepted_at_utc": "2026-11-05T04:59:15.956Z",
   "public_acceptance": {
     "path": "validation/acceptance/chapter-22.json",
     "sha256": "d53a529f18a91f7b175672b1e9db9885417581921e781bd7c4d889350a5e4b09"
-  }
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "reopened",
+    "date": "2026-11-08",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false
+  },
+  "prior_visual_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Nervous-system compartments, roots/rami and parallel sensory/reflex routes",
+    "rationale": "Source-verified sagittal MRI and prepared rat spinal light microscopy supply recorded appearance at distinct scales. Original nonmetric maps and controlled parallel route/latency bookkeeping explain connectivity without claiming a measured human path or speed.",
+    "appearance_references": [
+      "assets/ch22-brain-mri.jpg",
+      "assets/ch22-rat-spinal-lm.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch22-mechanisms.html",
+      "assets/ch22-controller.js"
+    ],
+    "report_path": "work/browser/ch22-visual-modality.json",
+    "report_sha256": "00343278bdb737ca7ea4b12db5639602a0d129e8042406d7bf5d053195307ced"
+  },
+  "chapter_sha256": "875402325f27abc008f72ff3a833b0ba733384cd15380ba3bf9c677701a52bbb",
+  "current_visual_artifacts": {
+    "assets/ch22-v2-brain-case1-frame-000.png": "030fe84f23e5a6f603c1e18fc93c683713dfe64e8af06b13bfacd1ce7b064d1d",
+    "assets/ch22-v2-brain-case1-frame-230.png": "959667448689d57876a4f6bcf543761e2bc0776e2151f1210662cf75d56af350",
+    "assets/ch22-v2-brain-case1-frame-460.png": "bf4fd83fcfd4d98f309e2275cf6677c778c5598d7dd88e8be82c1eefb0c575e1",
+    "assets/ch22-v2-brain-case1-frame-692.png": "db81fbbac41c0f943bc30953f1fc8ad4ca6139433399718585d5d59e9d5ef86b",
+    "assets/ch22-v2-brain-case1-photo-source.tif": "93b261b66194c8de9eb08481d82f7593a4f3dda0ad75767548e4e72d6f242f63",
+    "assets/ch22-v2-brain-case1-photo.png": "a875823e10c200661619bfcf1ca722ed91537bf46bcbf3ea9b430a13414ab21d",
+    "assets/ch22-v2-brain-case1-poster.png": "030fe84f23e5a6f603c1e18fc93c683713dfe64e8af06b13bfacd1ce7b064d1d",
+    "assets/ch22-v2-brain-case1-source.mov": "de451ab359f4f19133cfa2d2e803c77c4adf44ac51645fe17c4356144c4a1350",
+    "assets/ch22-v2-brain-case1.mp4": "acec5ce26b1bdc9c1413078ee3988cd1ccdacc8503ae2e82e56274b433207b83",
+    "assets/ch22-v2-brain-controls.js": "49a115f363e2822d8fb0bdb7532ce5eb0ff27edb4dc752797f6e1a63367b4501",
+    "assets/ch22-v2-brain-cortical-lateral.png": "15349fb28d2330f54091b79a5087a801a12ef038f309160307e9a98161ef8a74",
+    "assets/ch22-v2-brain-provenance.json": "d55dcfd1ac6249d3566b5f585746970389f1f4a19be1c7bbe2e9031861efa81c",
+    "assets/ch22-v2-brain-surfaces.html": "3655ca6ed92b4854db92de3ae81cda3c8a1ce42d2d04019574008fcc8af8f345",
+    "figures/ch22_brain_surfaces.py": "abd5287902d4101dc71f72c568ce80d57f1f0d820b1cd6178af37ee709dceda4",
+    "figures/ch22_brain_surfaces.template.html": "3655ca6ed92b4854db92de3ae81cda3c8a1ce42d2d04019574008fcc8af8f345",
+    "assets/ch22-v2-spinal-roots-figure7.jpeg": "4706eb39b917397bcb067e422b8aaca98154258c533b163a312dcf61ba16c246",
+    "assets/ch22-v2-spinal-roots-figure8.jpeg": "8f2891f538b62ffea185f1a3a024941a54dfd0b46e24f00ecd7941e8d493e6fc",
+    "assets/ch22-v2-spinal-roots-provenance.json": "41c83e123e271628bc31f93a3152e7ea46c5cec44c56d0e01fe4b04274de1a16",
+    "assets/ch22-v2-spinal-roots.html": "ab637bc0c0245e221f90df5bc4f4e2e602cd601056fac821cb53d3686d87127e",
+    "figures/ch22_spinal_roots.py": "04667bc0ad04aa9eea159406d275be0c99b527113e773f061591fa17e3874d30",
+    "figures/ch22_spinal_roots.template.html": "ab637bc0c0245e221f90df5bc4f4e2e602cd601056fac821cb53d3686d87127e",
+    "assets/ch22-v2-cord-histology-figure1.jpeg": "26d0b3952a3f53dff5109525d0b102a8e2a48a320e026baa1115523773fcb16c",
+    "assets/ch22-v2-cord-histology-provenance.json": "0e7d96d408ba778b236bfa7645eca96192547a76f5cf983b7926d5e635bc21f8",
+    "assets/ch22-v2-cord-histology.html": "0a92d64060adf4f96943b6bef2baa12b586dbb51a5b6d14534e49e791355ef5c",
+    "figures/ch22_cord_histology.py": "3d9aeacaceaad12f10424f2c89b7b653c036ade4de936f2af5ecb77ac457df9a",
+    "figures/ch22_cord_histology.template.html": "0a92d64060adf4f96943b6bef2baa12b586dbb51a5b6d14534e49e791355ef5c"
+  },
+  "brain_surface_revision": {
+    "date": "2026-11-10",
+    "status": "Integrated locally; source/crop/RGB/frame integrity checked; independent new-family and actual UI/PDF pending",
+    "replaces": "Original simplified cortical orientation map in Figure22.3",
+    "source": "assets/ch22-v2-brain-provenance.json",
+    "scope": "Separate observed cortical specimen and fixed photogrammetric surface rotation; not a live neural process, common-donor zoom, functional map or complete deep-brain/circuit/cord replacement",
+    "historical_scientific_reviews_preserved": true,
+    "current_visual_acceptance": false
+  },
+  "spinal_roots_revision": {
+    "date": "2026-11-10",
+    "status": "Integrated locally; source extraction and native review performed; actual UI/PDF and distinct independent review pending",
+    "source": "assets/ch22-v2-spinal-roots-provenance.json",
+    "scope": "Prepared internal dissection photographs; no transverse horn/meningeal stack/CSF/physiological motion acceptance inferred",
+    "historical_scientific_reviews_preserved": true,
+    "current_visual_acceptance": false
+  },
+  "cord_histology_revision": {
+    "date": "2026-11-10",
+    "status": "Integrated locally; original source stream retained; actual UI/PDF and independent new-family review pending",
+    "source": "assets/ch22-v2-cord-histology-provenance.json",
+    "scope": "Static observed human cervical H&E architecture and distinct-donor preparation comparison; not live dynamics/complete tract map/meningeal anatomy",
+    "historical_scientific_reviews_preserved": true,
+    "current_visual_acceptance": false
+  },
+  "current_chapter_sha256": "875402325f27abc008f72ff3a833b0ba733384cd15380ba3bf9c677701a52bbb",
+  "current_body_sha256": "d1e7b9cca4fe30203dffdd4511343827c3449ea0e081cc0e239b4cc9e31972dc",
+  "current_hash_definition": "Raw file bytes; body bytes strictly between BEGIN/END CHAPTER BODY comments, no normalization. Historical review bindings are retained separately and are not new approval."
 }

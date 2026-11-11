@@ -1,0 +1,88 @@
+{
+  "status": "PROVISIONAL: no V01-V20 acceptance or release approval",
+  "retrieved": "2026-11-08",
+  "sources": [
+    {
+      "id": "body",
+      "file": "ch01-body-sketch-anterior.png",
+      "creator": "Project-generated anatomical sketch",
+      "modality": "Illustrative line drawing, not observed specimen",
+      "record": "ch01-body-sketch-provenance.json",
+      "sha256": "4bfa63a4cf6b2017346c4d7f157b0e2759bf55705b00bca984b93867e084d68c",
+      "dimensions_px": [
+        1024,
+        1536
+      ],
+      "context": "Clothed anterior sketch replaces the unclothed studio photograph by explicit user request."
+    },
+    {
+      "id": "skin-surface",
+      "file": "ch01-v2-skin-surface.jpg",
+      "record": "https://commons.wikimedia.org/wiki/File:Human_skin_close-up.jpg",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Human_skin_close-up.jpg?x=native-source-20261108",
+      "creator": "Montavius Howard (TongCreator), from Pixabay",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "context": "Human skin close-up, dated 2017-01-18. Commons current original uploaded 2019-01-02; Commons licence reviewer confirmed Pixabay availability 2019-02-27. Body site, donor age, diagnostic status and physical field width unspecified. Shallow optical depth of field; central in-focus surface furrows and fine hairs are visible. No pathology or cellular-identification claims.",
+      "dimensions_px": [
+        5312,
+        2988
+      ],
+      "bytes": 4985665,
+      "sha256": "796b25b19ab2659f6286a80b0b117beb86a6c83ed7b87918412ef76556b21e68",
+      "verified": "2026-11-08",
+      "modifications": "No new local image edits. Full native source file retained and independently fitted with object-fit:contain; no local crop, recoloring or synthesized detail."
+    },
+    {
+      "id": "skin-histology",
+      "file": "ch01-v2-skin-histology.jpg",
+      "record": "https://wellcomecollection.org/works/pbfv4uhw",
+      "download": "https://iiif.wellcomecollection.org/image/B0009427/full/full/0/default.jpg",
+      "creator": "Kevin Mackenzie, University of Aberdeen",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "accession": "B0009427",
+      "context": "Human skin section stained with aldehyde fuchsin, Orange G and Light Green. Owning record: elastic fibres purple; collagen green to yellow; full horizontal field width400micrometres. Body site, donor, pathology/normality, fixation, section thickness and optical equipment unspecified. Superficial epithelial band/deeper connective tissue description is visual interpretation; no individual-cell classification.",
+      "field_width_micrometres": 400,
+      "dimensions_px": [
+        2400,
+        1692
+      ],
+      "bytes": 852029,
+      "sha256": "a2f25d3d9d7d98a949ee274e15e3e011ea7914d0cdf25c421b2b0768fc686b09",
+      "verified": "2026-11-08",
+      "modifications": "No new local image edits. Full native source file retained and independently fitted with object-fit:contain; no local crop, recoloring or synthesized detail."
+    },
+    {
+      "id": "fibroblast",
+      "file": "ch01-v2-fibroblast.jpg",
+      "record": "https://wellcomecollection.org/works/fmsmxyyh",
+      "download": "https://iiif.wellcomecollection.org/image/B0007852/full/full/0/default.jpg",
+      "creator": "Matthew Daniels / University of Oxford",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "accession": "B0007852",
+      "context": "Primary human fibroblast, confocal micrograph. Archive describes mitochondria red, nucleus yellow. Dye identities, live/fixed status, culture protocol, donor and physical calibration unspecified. Full native image741x480, lower than prior760px derivative; never hallucinated upscaled. Fibroblast is separate specimen, not isolated from preceding skin section. Print image constrained62mm wide (~304ppi). Distinct organelles outside the archive label are not asserted.",
+      "dimensions_px": [
+        741,
+        480
+      ],
+      "bytes": 36787,
+      "sha256": "318e338bf4a8eeec122565306ec304ada91f0efc0f85e34fd630ae1823cb552b",
+      "verified": "2026-11-08",
+      "modifications": "No new local image edits. Full native source file retained and independently fitted with object-fit:contain; no local crop, recoloring or synthesized detail."
+    }
+  ],
+  "tools": {
+    "python": "3.13.5",
+    "pillow": "11.0.0"
+  },
+  "relationships": "Illustrative whole-body sketch plus independent observed skin and microscopy fields; not a registered zoom, shared specimen, inter-image scale ratio or biological timing.",
+  "presentation": "Non-temporal interactive structural reference. Optional deterministic 16-second guided highlight tour is presentation time only, not a physiological mechanism or biological animation.",
+  "code": "figures/ch01_visual_v2.py",
+  "limitations": [
+    "Source-limited741x480 fibroblast image. Native-resolution and intended-size review required.",
+    "Browser control, desktop/650px/390px, reduced-motion, keyboard and actual print/PDF verification are delegated to root; pending here.",
+    "Body and plane drawings are synthetic teaching illustrations, not observed specimens or measured 3D registration."
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "chapter": 8,
   "title": "Oxygen delivery, lung volumes and measurement",
-  "status": "accepted",
-  "coverage_complete": true,
+  "status": "revised",
+  "coverage_complete": false,
   "reviews": [
     {
       "reviewer_id": "/root/ch01_review_a",
@@ -58,7 +58,7 @@
     19
   ],
   "source_evidence": "Complete L18–19 caption texts read; root-owned bounded audit reused (seven contact sheets,122 stills,eleven targeted frames). No continuous video/audio or author reinspection of images claimed.",
-  "prose_status": "Accepted after two actual independent full reviews, targeted repairs and separate actual browser/print validation.",
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
   "code": [
     "code/ch08_oxygen_accounting.py"
   ],
@@ -80,28 +80,28 @@
       "id": "ch8-anim1",
       "path": "assets/ch08-lung-volumes.html",
       "figure_number": "8.1",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Prescribed maneuver phase,not measured time; coherent partition and capacity sums."
     },
     {
       "id": "ch8-anim2",
       "path": "assets/ch08-oxygen-accounting.html",
       "figure_number": "8.2",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Hb parameter sweep,not disease-time; content,delivery,consumption and return conserved."
     },
     {
       "id": "ch8-anim3",
       "path": "assets/ch08-optical-comparison.html",
       "figure_number": "8.3",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Synthetic pulse signals and separately controlled Hb site pool; no device or CO-specific saturation prediction."
     },
     {
       "id": "ch8-fig1",
       "path": "assets/ch08-disease-pathways.svg",
       "figure_number": "8.4",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Abstract airway,barrier and vascular route diagrams based on linked NHLBI descriptions; no measured anatomy or copied source figure."
     }
   ],
@@ -172,5 +172,37 @@
   "public_acceptance": {
     "path": "validation/acceptance/chapter-08.json",
     "sha256": "77261f35e1863763c234656b06ffc87c301f2e0d1f47a6707d361de19e622e80"
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "local-quantitative-axis-and-print-repair-pending-review",
+    "date": "2026-11-09",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false,
+    "pending": [
+      "Book-wide V20 coverage and current-hash attestation remain pending",
+      "Source-grounded optical tissue/device and pulmonary disease imagery remain unfinished"
+    ],
+    "bounded_checks": "Actual standalone two plots at1440/650/390, playback/phase/seek/reduced-motion/pan and parent contexts/PDF inspected; independent numerical and actual-print reports retained. This is not whole-chapter acceptance."
+  },
+  "realistic_asset_gate": {
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
+  },
+  "current_chapter_sha256": "4ac2e3cbbe32d6da8d38354a0b1e7d3f5c7af6602ea462dc0ca00bdcebb1ae07",
+  "current_body_sha256": "8dba8c165ae3ae9e91201c64fb3bc4d93103ae3ff288a2b8772a98441e2121ad",
+  "review_history_scope": "Historical reviews and production reports bind their original hashes only; these visual repairs require current scoped evidence.",
+  "current_visual_artifacts": {
+    "assets/ch08-models.js": "f47ce20be72ee276aa61032c0b9af61c365f3ffe0b639e083db570d4c4e31b78",
+    "assets/ch08-controls.js": "10e88eef53988d0a2bf374ec55b91444a858e91775941b6806030240e00f9d97",
+    "assets/ch08-lung-volumes.html": "4589079291fbdea5d744a8c925ae3a6892a76fe85fd624bae175dd170ca9f656",
+    "assets/ch08-oxygen-accounting.html": "82952a0afce3cb0d184826b85d8ac3f8d4a7dbe47a49e90ebc1de7cb99aad658",
+    "assets/ch08-v2-lung-volumes-print.svg": "f643e175c31a10b0e66b612b0879806c9e46746aae8953ce2bf4dbf81aaf0385",
+    "assets/ch08-v2-oxygen-accounting-print.svg": "93c54813537f047bc6ccea6aef4dc2972dcdc4c831a6be0de5f2cdf10b85aa4d",
+    "assets/ch08-v2-plot-data.json": "90d269f14d107f009d35f896860692d9f25fbeba451fafbbd11f133555896b6a",
+    "assets/ch08-v2-plot-provenance.json": "9fc38959a7d75ae5847df053a4ae2235b7f5b7bce1226ea732510969b7b5b481",
+    "assets/ch08-plot-controls-v2.js": "ce130ff93c3ce410b36bbe68dbee1668940c51e7b8c8580aa88e09c9b8322582"
   }
 }

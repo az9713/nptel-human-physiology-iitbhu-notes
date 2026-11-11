@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-09",
+  "purpose": "Human completed meiotic inventory: quantitative graph, not chromosome anatomy or measured motion",
+  "reproduction": {
+    "builder": "figures/ch18_meiosis_inventory_v2.py",
+    "template": "figures/ch18_meiosis_inventory_v2.template.html",
+    "private_network_required": false
+  },
+  "artifacts": {
+    "assets/ch18-v2-meiosis-reference.html": "89803481d77daacfe1008c69d71eb437b09b45ed02e9a42d24926595dc6c4c56",
+    "figures/ch18_meiosis_inventory_v2.template.html": "89803481d77daacfe1008c69d71eb437b09b45ed02e9a42d24926595dc6c4c56",
+    "figures/ch18_meiosis_inventory_v2.py": "59d75139d591328057a1a2809927de10c86cdc1531c5da153bcb6e462936e21b",
+    "assets/ch18-v2-testis-observed-sources.json": "e374b8abfeb4faca038767e9f62e534c973a07283e21167942106e7df206d4c7",
+    "assets/ch18-v2-testis-observed-ab.png": "df018bdd5d98dacc1e3210fc5964a6d16be4f712cfe0702c789a6605c9983e82",
+    "assets/ch18-v2-meiosis-sources.json": "41cf4ffc122e8cda9b74f5814914146bae02408b7e3f570d9fe545caac8dfb6f",
+    "assets/ch18-v2-meiosis-model.js": "127c019a4ed090fc124f15640c8f04902b75b67ddf6a523ed50e2400b9ec5cee",
+    "assets/ch18-v2-meiosis-controls.js": "78bb54f9d0391597effa5a83116c3da179e1f670d86675d9100dfde75faa43d2",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "acceptance": {
+    "current": false,
+    "actual_browser_print": "Pending root",
+    "assembled_model_review": "Pending independent reviewer"
+  }
+}

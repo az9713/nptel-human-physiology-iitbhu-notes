@@ -1,0 +1,208 @@
+{
+  "status": "Local candidate; all applicable V01-V20 evidence required",
+  "date": "2026-11-09",
+  "rebuild": "python -B -X utf8 figures/ch11_tbg_plate_v2.py",
+  "tools": {
+    "python": "3.13.5",
+    "Pillow": "11.0.0"
+  },
+  "composition": "Copies the editable HTML template, verifies immutable PNG byte/RGB identity and binds model/controller/source inputs; no network or private dependency for this composition rebuild.",
+  "creation_boundary": "Blender renders were produced separately from exact archived2CEO/CCD coordinates. Editable local source/mesh/scene/code paths and hashes are in inputs; composition equality is not a claim that this script rerenders the atoms.",
+  "inputs": {
+    "date": "2026-11-09",
+    "renders": [
+      {
+        "file": "ch11-v2-tbg-overview.png",
+        "sha256": "240c4f024448e4967a7ab62b762e42ad885c5776df91e8789b11e01392643f5c",
+        "decoded_rgb_sha256": "6c991b106f12adb3a57dd4227d619998ffcdcadf16864e1d63ae5ecf2f34e92c",
+        "dimensions": [
+          1600,
+          1200
+        ],
+        "source_render_sha256": "0cd0bfa4a011b5f04fb2a35e8c35dc6883f68aa44569768bf8194327433ee70a",
+        "modification": "PNG metadata removed; decoded RGB unchanged. No crop/resize/recolour."
+      },
+      {
+        "file": "ch11-v2-tbg-pocket.png",
+        "sha256": "99268bb49ee2338ad4fb04ee4b0bda201ef4873525e9b2e7c15c05bee548b5ee",
+        "decoded_rgb_sha256": "5a38a8076e2fbe330b3144ec4c458918005f8c84b65f71693bec468b2f602830",
+        "dimensions": [
+          1600,
+          1200
+        ],
+        "source_render_sha256": "7021fd7220fe722d68473cd8b7734a27c4474a2ca8492900c1392ae70be00aca",
+        "modification": "PNG metadata removed; decoded RGB unchanged. No crop/resize/recolour."
+      }
+    ],
+    "local_editable_creation_files": [
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/2CEO.cif",
+        "sha256": "179fce9408de11dadff6e6c2faca26d5e28b33768248c0d8371a39e9a6f6819e",
+        "bytes": 662020
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/T44.cif",
+        "sha256": "26de77baaf6ee8ad31064824ab2ad112c14cd5bab3268848c4a40643ff87ecbe",
+        "bytes": 9690
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/geometry.json",
+        "sha256": "a3f5717cacd002813cf136bbe524e2453182231ec140f25e7097f1040ae2eb00",
+        "bytes": 1274601
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/pocket-geometry.json",
+        "sha256": "43e6938766ddf7ca2b1ffc7de5b8a32e5c4b6b0ceafac6bbb9ca57a416f3a6e9",
+        "bytes": 71822
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/prepare.py",
+        "sha256": "a7040b95f3c4066f72c64e4cd64ef4caed6aaeb6a71a2301ef951a1208cd6635",
+        "bytes": 3633
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/prepare_pocket.py",
+        "sha256": "009bfe8f09674a366426244a64ec61090c6ee42fcfc742d1774afbdc70e04901",
+        "bytes": 3089
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/render.py",
+        "sha256": "d20af493a678746ce41d1f37720a4594ea575ae766d22fded186d82e527c442a",
+        "bytes": 6706
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/render_pocket.py",
+        "sha256": "98a8fa840b367cbd6c384c3213c8d5c7354e61a29a2f39d900345f3fe0c6cae7",
+        "bytes": 6964
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/protein-sas.obj",
+        "sha256": "5028a2ad673e441bfb36b3ad6c2aeed491a91dd797f4a6e7ecfe1f6b52db9816",
+        "bytes": 28147837
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/editable.blend",
+        "sha256": "fdaee1a3d6fadb9129be8dbab82c40883380951641fd7303b3f0482ad61b3d45",
+        "bytes": 15814053
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/pocket-editable.blend",
+        "sha256": "7a510e90b3cc710f5d2e14bda7c1658abf7f7eb6ef026e835af29d40c98b0688",
+        "bytes": 426774
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/render-record.json",
+        "sha256": "920a90f6bcd716c53900f5dc79da701ccee02153035a8cc7ffb210ded1431d64",
+        "bytes": 7776
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/pocket-render-record.json",
+        "sha256": "0247ed8143c20e475b65c89f00d24c2d032bbf417dd972c220c253425d660356",
+        "bytes": 5077
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/ccd/ALA.cif",
+        "sha256": "6d32b34d4f7b3ddf0cd3dff3f98ddaf7649bc5303ff9a8bd95ba62283f47a1ca",
+        "bytes": 6071
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/ccd/ARG.cif",
+        "sha256": "191c437cfa501e0a87d275ca3d39974a1a9c8dc704df61bfc442a4c314e196ac",
+        "bytes": 7937
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/ccd/ASN.cif",
+        "sha256": "81491bbdb49f96e2945192c07510324d206298d3479029b76defba2ed6ab2dc7",
+        "bytes": 6806
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/ccd/GLN.cif",
+        "sha256": "b542ea5c013fbe0c7acee8e3f42d5dc4e392bd16c0aa545edbf6cb3c335ca30f",
+        "bytes": 7124
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/ccd/GLU.cif",
+        "sha256": "99fa19054d31b07e7101b33ad9cc847cc6a209da60de279aed5e6a9236bb6da4",
+        "bytes": 7120
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/ccd/LEU.cif",
+        "sha256": "fc56e022bc8baa25dc6e543b2c46664e365779aa1dda9831576fdf10b30ab84b",
+        "bytes": 7251
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/ccd/LYS.cif",
+        "sha256": "318a0f6fa8f98682b35e1793517d5b683b9045c1e6174bc564b7d43e07e4c07c",
+        "bytes": 7549
+      },
+      {
+        "file": "work/visual-v2/ch11/tbg-structure-vdw/ccd/SER.cif",
+        "sha256": "46db0296a07732854d2c3ca67ed0f74f4c82ddc5698d0e59f433039a5d7c88a0",
+        "bytes": 6234
+      }
+    ],
+    "representation": "Whole protein elementalvdW union,0.4Agrid/probe0; local106protein/24ligand heavyatoms with sourceCCDconnectivity. No new atom positions; missing residues never filled.",
+    "rendering": "Official installed Blender5.2.1LTS, CyclesCPU4threads48samples, pinned seeds/cameras/materials in render records; molecular colours and sphere radii are explicit display conventions.",
+    "provenance_boundary": "Local-only production. Studio files retained under work and intentionally outside reader preview allowlist; already generated public PNGs are immutable offline composition inputs."
+  },
+  "artifacts": [
+    {
+      "file": "figures/templates/ch11-v2-tbg-binding-reference.html",
+      "bytes": 15542,
+      "sha256": "690829debf041a4cc6fb74f2644b970b138a9f1e405adccf9697701d6cb8d75f"
+    },
+    {
+      "file": "assets/ch11-v2-tbg-binding-reference.html",
+      "bytes": 15542,
+      "sha256": "690829debf041a4cc6fb74f2644b970b138a9f1e405adccf9697701d6cb8d75f"
+    },
+    {
+      "file": "figures/ch11_tbg_plate_v2.py",
+      "bytes": 3119,
+      "sha256": "bbcba3a18346bf0554c3e39357dcaa6aad4cc3a1c7750569fbcac81d567bffbc"
+    },
+    {
+      "file": "assets/ch11-v2-tbg-inputs.json",
+      "bytes": 5722,
+      "sha256": "4aca321821fd38276ae8feb3c5b5b5244b6379d4380a58e78bcbf96173bf9f87"
+    },
+    {
+      "file": "assets/ch11-v2-tbg-sources.json",
+      "bytes": 3450,
+      "sha256": "fe9851a1e73642d587de6fe93661b6056514a84c83e0532c3e96e7029ff2290a"
+    },
+    {
+      "file": "assets/ch11-v2-tbg-pocket-atoms.json",
+      "bytes": 71822,
+      "sha256": "43e6938766ddf7ca2b1ffc7de5b8a32e5c4b6b0ceafac6bbb9ca57a416f3a6e9"
+    },
+    {
+      "file": "assets/ch11-v2-tbg-binding-model.js",
+      "bytes": 873,
+      "sha256": "a43ef81cf8beb57c61f9f4a27318f7985e521c4fdfc9cc552187f595b4606241"
+    },
+    {
+      "file": "assets/ch11-v2-tbg-binding.js",
+      "bytes": 4912,
+      "sha256": "28c5cc83a211eca8d82138d58a2b38bd81b5cc6542475cdf52e444ce1e0a67a8"
+    }
+  ],
+  "time": "12-second linear parameter comparison of equilibrium states; not binding kinetics/carrier synthesis/patient trajectory",
+  "source_structure": "Static bound molecule, unchanged when the selected population-equilibrium assumption changes",
+  "plot_axes": {
+    "capacity": [
+      90,
+      180
+    ],
+    "free_concentration": [
+      0,
+      1.2
+    ],
+    "bound_total_concentration": [
+      0,
+      20
+    ],
+    "units": "Synthetic common concentration unit; no measured TBG affinity or patient data"
+  },
+  "print": "Two intentional coherent pages: structural reference then both exact equilibrium assumptions. Actual PDF inspection required."
+}

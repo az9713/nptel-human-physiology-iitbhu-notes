@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-09",
+  "software": {
+    "pillow": "11.0.0",
+    "mupdf": "1.27.1"
+  },
+  "source_pdf_sha256": "66535c018505cdbffcb0e4a130dd2fb2b8025ba0327fe4b355a26423c1a8a7f6",
+  "source_figure_jpeg_sha256": "f1dd7bb0d5efb9ba830d823189f93236a6a102e3d18f0b29f91415b9507fff6b",
+  "source_DCT_bytes_equal_extracted_JPEG": true,
+  "crop_rect_xyxy": [
+    0,
+    0,
+    693,
+    525
+  ],
+  "derived_file": "ch11-v2-follicle-observed-panel-a.png",
+  "derived_sha256": "5ce56dc011cd6961d732bccdceba6089d95edf04f8dc0095dd738b2ceb99bd7f",
+  "crop_decoded_RGB_equal_named_Pillow_source_rect": true,
+  "decoded_rgb_sha256": "17dfbaa5a9c3b2017948c1043e3dfb48c705c25c366eaab33d6d06d893c52972",
+  "cross_decoder_rgb_identity_claimed": false,
+  "scope": "Initial acquisition/extraction/crop proof performed separately; public composition verifies supplied derivative integrity, does not reconstruct private unrelated full figure."
+}

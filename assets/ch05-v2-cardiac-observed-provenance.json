@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-09",
+  "status": "Candidate; independent review and actual browser/print acceptance pending",
+  "sources": "ch05-v2-cardiac-observed-sources.json",
+  "inputs": [
+    {
+      "file": "ch05-v2-cardiac-observed.mp4",
+      "sha256": "b641c8ee613d4d381264f2c5832c9fdc32bca73e10a053124add1cb663abd34c",
+      "role": "movie",
+      "width": 854,
+      "height": 480
+    },
+    {
+      "file": "ch05-v2-cardiac-observed-frame-0000.png",
+      "sha256": "ca834e2cd320f19426e1100c1463fbea8e7307891cd7641eadb7e8602f4d8774",
+      "role": "decoded_frame",
+      "frame_index": 0,
+      "width": 854,
+      "height": 480,
+      "rgb_sha256": "bb3680ba56690603563c0a71a0567a65dda319a97e67ec85a734b2897c2c7803"
+    }
+  ],
+  "modifications": "Movie bytes unchanged. PNGs are full native decoded exported frames, no crop/recolour/overlay/resampling.",
+  "print": {
+    "width_mm": 160,
+    "ppi": 135.5725,
+    "exception": "Source-limited native distribution resolution. No upsampling; actual PDF legibility pending."
+  },
+  "coverage_gaps": [
+    "Acquisition-native original bitrate, exact export timing, complete chambers/valves/flow/calibration"
+  ],
+  "reproduction": {
+    "builder": "figures/ch05_cardiac_observed_v2.py",
+    "template": "ch05_cardiac_observed_v2.template.html",
+    "python": "3.13.5",
+    "pillow": "11.0.0",
+    "scope": "Exact public movie/decoded-frame/source-JSON/template/shared-control inputs only; initial acquisition separate. No private work/network or reencoding."
+  },
+  "controls": {
+    "video": "Native controls fallback; shared observed-video controls opt-in. Starts paused, metadata only, no autoplay/loop. Publisher file seconds distinct from physiology/acquisition. Shared reduced-motion preference change pauses playback.",
+    "display": "Native pixels/Fit player; focused contained keyboard pan. Native/Fit/Close poster modal with opener focus return."
+  },
+  "pending": [
+    "Distinct independent anatomy/timing/source and appearance/teaching review",
+    "Actual desktop/650/390 native/fit/pan/focus/play/seek/step/replay/end/reduced-motion and source format support",
+    "Actual PDF native-poster/source-label/external-key/credit/pagebreak legibility",
+    "Canonical chapter integration not performed"
+  ],
+  "artifacts": {
+    "ch05-v2-cardiac-observed.mp4": "b641c8ee613d4d381264f2c5832c9fdc32bca73e10a053124add1cb663abd34c",
+    "ch05-v2-cardiac-observed-frame-0000.png": "ca834e2cd320f19426e1100c1463fbea8e7307891cd7641eadb7e8602f4d8774",
+    "ch05-v2-cardiac-observed-sources.json": "132900ce6908c4ec0ea127210831f7e68592c87558331169a530e1fb5364f951",
+    "ch05-v2-cardiac-observed-reference.html": "d7840e0d496b4f6c926343555480265668ee54d40c550a3eb0a99bad28fbee76",
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "observed-video-controls.css": "55144b39d16e8f1096f0cf1d534c817076d1b8c1e137320291f9e8a46b852c9b",
+    "observed-video-controls.js": "1136584777fdb340619dab2527e02e647c95d12fa4a5d8af847148a60f42341f"
+  }
+}

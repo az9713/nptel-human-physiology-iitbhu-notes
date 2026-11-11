@@ -1,0 +1,53 @@
+{
+  "sources": [
+    {
+      "id": "sem",
+      "file": "ch07-v2-cilia-bronchus-sem.jpg",
+      "sha256": "2e6f3920b5e716c7ea890da3c01c2a9ec3d176b18ab5e943f3465fac212fdeff",
+      "dimensions": [
+        2900,
+        3657
+      ],
+      "owning_url": "https://wellcomecollection.org/works/e33svu68",
+      "download_url": "https://iiif.wellcomecollection.org/image/B0000713/full/full/0/default.jpg",
+      "accession": "B0000713",
+      "creator": "David Gregory & Debbie Marshall",
+      "rights": "CC BY4.0 at owning image location",
+      "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+      "specimen": "Bronchial ciliated columnar epithelium, SEM; species/donor/clinical status/exact preparation unreported",
+      "source_scale": "Original instrument bar labelled10.0µ; source footer retained; no added scale or measurements",
+      "operation": "Whole original native JPEG bytes unchanged; no crop/rotation/recolour/contrast adjustment."
+    },
+    {
+      "id": "beating",
+      "file": "ch07-v2-cilia-beating.webm",
+      "owning_url": "https://www.nature.com/articles/s41598-020-64695-w",
+      "doi": "10.1038/s41598-020-64695-w",
+      "creator": "Gsell, Loiseau, D’Ortona, Viallat & Favier (2020)",
+      "rights": "CC BY4.0; author supplementary movie with no separate exclusion found",
+      "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+      "movie": "S2",
+      "download_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-020-64695-w/MediaObjects/41598_2020_64695_MOESM2_ESM.avi",
+      "supplement_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-020-64695-w/MediaObjects/41598_2020_64695_MOESM6_ESM.pdf",
+      "specimen": "MucilAir reconstituted human primary bronchial epithelium at air-liquid interface;6mm Transwell; donor age/sex/clinical status unreported",
+      "imaging": "Brightfield Nikon Eclipse Ti20x/LumineraInfinity,37C humidified5%CO2",
+      "calibration": "Sourcebars20µm; no new bar",
+      "timing": "S2 source2.5s acquired100frames40fps;export5sat20fps~half-speed. Panelsinitial/+24h withmucus/+3daysaftermucuswash,notcontinuousdayssequence",
+      "poster_frame_index_zero_based": 50,
+      "acquisition_boundary": "Original AVI separately acquired and retained immutable in private research. Validated browser derivative, source poster and proof are public immutable composition inputs; no private original or network required on rebuild.",
+      "original_sha256": "c8bf7fe21ac3e784f866e1a78464365b5cc90691a88d516a9182cbfda401c932",
+      "original_file_storage": "Immutable original AVI retained separately in private research; composition requires only public derivative, poster and proof.",
+      "sha256": "a2fd308a9cc1ac24b82bb242c98451eb5bec4572671a5c7a3732d3b936a69750",
+      "derivative": "Lossless VP9 profile1 full-range planarRGB, no crop/resampling/interpolation/colour grading; exact original frame order and publication cadence",
+      "proof_file": "ch07-v2-cilia-beating-rgb-proof.json",
+      "poster_file": "ch07-v2-cilia-beating-poster.png",
+      "poster_sha256": "66ccb5401effd1b60b832be360a59bf04238645e9ad067d9b5c55fe0592f8279",
+      "proof_sha256": "44e4d766858547dd4c4485980c21ce0a3b1a99e6621cced5b7c811315c3c6487",
+      "dimensions": [
+        1337,
+        344
+      ],
+      "frames": 100
+    }
+  ]
+}

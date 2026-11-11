@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-09",
+  "inputs": [
+    {
+      "file": "ch16-v2-renal-anatomy-nephron-source.png",
+      "pixels": [
+        1139,
+        725
+      ],
+      "sha256": "4b32b7eb7cc5317ca8d2d28eff586f7c8b5fd2e65a2bae7e33c70a64b8c2432a",
+      "rgb_sha256": "4be47fe41379a1b225f608fcf1ce370cd940829f28518719596b828fb846da54"
+    },
+    {
+      "file": "ch16-v2-renal-anatomy-ultrasound-source.png",
+      "pixels": [
+        887,
+        601
+      ],
+      "sha256": "6387e77a55a7e231e43e238225f1c021dbec1ab0e5939c2d8b63ea7da6175a0b",
+      "rgb_sha256": "57387fd8a6f924ee7979a76ea231e636577780e9bdc3f87137b66a7f93eb98ef"
+    }
+  ],
+  "nephron": {
+    "citation": "Li Yuxin, Cao Jia, Zhang Qianlong, Li Junhuai, Li Xiangning, Zhou Hongfang, Li Anan, Jiang Tao (2024). Precise reconstruction of the entire mouse kidney at cellular resolution. Biomedical Optics Express15:1474.",
+    "doi": "10.1364/BOE.515527",
+    "article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10942701/",
+    "rights": "Copyright2024 Optica Publishing Group; article-specific Optica Open Access Publishing Agreement. Noncommercial use/reuse/building upon with appropriate attribution; NOT a CC BY source. Separate component terms retained; no commercial permission presumed.",
+    "rights_url": "https://opg.optica.org/content/library/portal/item/license_v2",
+    "specimen": "Four8-week Tek-Cre::Ai47 mice, endothelial GFP; sex not stated here. Not human renal tissue.",
+    "preparation": "Dissected kidney,4%PFA post-fixation,alcohol dehydration,LowicrylHM20 embedding; HD-fMOST0.325×0.325×1µm voxel; simultaneous PI1µg/mL.",
+    "representation": "Author semi-automated Amira tracing from actual PI cytoarchitecture, displayed using SpatialGraphView; source colors are segment identities, not living tissue colors. Source actual2D PI panels accompany reconstructed traces. No live flow or transporter observation.",
+    "acquisition": "OfficialNLM cloud finalPDF MD5verified; extract_image xref344 PNG1139×725. Exact PDF decoded RGB; no resample or color edit. PDF SHA256478a1880ae4e982e992bf42fbc976294750cecd8e0b348722599b6c1a700acdc. Cloud figure JPEG778×493 smaller than XML advertised2335×1480; public input uses sharper actual PDF image, not claimed finest original stack.",
+    "pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10942701.1/PMC10942701.1.pdf?md5=5ca47acdec29e2cf0edc3054e946ba36",
+    "crop_c": [
+      0,
+      365,
+      715,
+      725
+    ],
+    "source_scale": "Figure6A1000µm;6C actual2D microscopy common30µm bar retained;6D50µm. No bar moved across panels and no inferred scale on enlarged isolated trace.",
+    "key": {
+      "PT": "proximal tubule; red",
+      "TL": "thin limb; blue",
+      "TAL": "thick ascending limb; green",
+      "DCT": "distal convoluted tubule; yellow",
+      "CNT": "connecting tubule; white",
+      "CD": "collecting duct; orange",
+      "SN/MN/JN": "superficial/middle/juxtamedullary nephron location categories; different author-selected examples, not stages"
+    }
+  },
+  "ultrasound": {
+    "citation": "Hansen KL, Nielsen MB, Ewertsen C (2016; online23December2015). Ultrasonography of the Kidney: A Pictorial Review. Diagnostics6:2.",
+    "doi": "10.3390/diagnostics6010002",
+    "article": "https://www.mdpi.com/2075-4418/6/1/2",
+    "rights": "CC BY4.0",
+    "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+    "caption": "Normal adult kidney. Measurement of kidney length on the US image is illustrated by + and a dashed line. *Column of Bertin; **pyramid; ***cortex; ****sinus.",
+    "context": "Human adult renal B-mode ultrasound, source-captioned normal. Specific donor/age/sex/body-side and screen-to-anatomical axes not supplied by selected caption; not inferred. Native author13.36cm caliper and instrument marks unchanged, not a local calibration of every structure.",
+    "acquisition": "OfficialNLM publishedPDF MD5verified; extract_image xref114887×601PNG, xref153sameimage. SourcePDF duplicate placements retained in acquisition record, not composited as two views. Public raster unchanged. Cloud694×477; publisher advertised2429×1668 ordinary403, no invented resolution.",
+    "pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4808817.1/PMC4808817.1.pdf?md5=46138190825134a37eeea90ff03cd390"
+  },
+  "independence": "Adult human ultrasound and prepared mouse HD-fMOST reconstruction are independent specimens/modalities/scales, not registered zoom or same kidney. TEM pressure lesson is also independent.",
+  "print": {
+    "ultrasound_width_mm": 110,
+    "ultrasound_ppi": 204.81636363636363,
+    "nephron_detail_width_mm": 145,
+    "nephron_detail_ppi": 125.24827586206897,
+    "source_limited_exception": "Source-preserving125ppi detail prioritizes readable existing segment labels and30µm bar; no upscaled bitmap. Actual native/print review required.",
+    "external_key_min_pt": 9.5,
+    "credit_min_pt": 9
+  },
+  "coverage_limits": [
+    "No source-observed fluid or solute movement",
+    "No transporter molecular localization in these image fields",
+    "No renal artery/vein/ureter route identified from ultrasound alone",
+    "Different selected nephron examples, not a universal measured human geometry",
+    "Source-shaped trace is reconstruction, not intrinsic color or full-cell photographic wall"
+  ]
+}

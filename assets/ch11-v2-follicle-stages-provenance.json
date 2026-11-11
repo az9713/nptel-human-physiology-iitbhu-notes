@@ -1,0 +1,91 @@
+{
+  "status": "Local candidate; not visual acceptance",
+  "date": "2026-11-09",
+  "purpose": "Observed follicular architecture with controlled explanatory states, no molecular tracking through H&E",
+  "rebuild": "python -B -X utf8 figures/ch11_follicle_stages_v2.py",
+  "tool": "CPython3.13 stdlib; browser native SVG/DOM/requestAnimationFrame",
+  "inputs_outputs": [
+    {
+      "file": "figures/templates/ch11-v2-follicle-stages.html",
+      "bytes": 14009,
+      "sha256": "a3cb14543280c22181d5ed2dbe20c0febb42d4acb9607a16eb43afd2ca01734d"
+    },
+    {
+      "file": "figures/ch11_follicle_stages_v2.py",
+      "bytes": 3210,
+      "sha256": "efbd81b95a750b95926658d2f2c393fec0430696b3a4599b7b4d9c0edf17f9c1"
+    },
+    {
+      "file": "assets/ch11-v2-follicle-stages.html",
+      "bytes": 14009,
+      "sha256": "a3cb14543280c22181d5ed2dbe20c0febb42d4acb9607a16eb43afd2ca01734d"
+    },
+    {
+      "file": "assets/ch11-v2-follicle-stages-model.js",
+      "bytes": 5032,
+      "sha256": "a704b6ac78dd53fb13b392464f5a85084b6ccf5c2c274d06b24ef7840cc4e94d"
+    },
+    {
+      "file": "assets/ch11-v2-follicle-stages.js",
+      "bytes": 3840,
+      "sha256": "ceef1215c2f0a99d91a64eeb8411cf2773d30dab55455798cd39dd818fd2b0c9"
+    },
+    {
+      "file": "assets/ch11-v2-follicle-observed-panel-a.png",
+      "bytes": 606043,
+      "sha256": "5ce56dc011cd6961d732bccdceba6089d95edf04f8dc0095dd738b2ceb99bd7f"
+    },
+    {
+      "file": "assets/ch11-v2-follicle-observed-sources.json",
+      "bytes": 4018,
+      "sha256": "50f9ecfd9e8025900909dd6e03735fa302bb542ceeb7e7321f9082a4c05992c6"
+    }
+  ],
+  "image_rights": {
+    "creator": "Rosa et al.2022",
+    "doi": "10.1111/jcmm.17282",
+    "license": "CC BY4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "change": "Existing exact H&E panel crop, separate optional structural SVG leaders/outlines; no source-pixel changes"
+  },
+  "mechanism_sources": [
+    {
+      "url": "https://www.endotext.org/wp-content/uploads/pdfs/chapter-2-thyroid-hormone-synthesis-and-secretion.pdf",
+      "revision": "2015-08-30",
+      "read_pdf_pages": [
+        4,
+        7,
+        8,
+        9,
+        19,
+        26,
+        27,
+        29,
+        33,
+        34,
+        35
+      ],
+      "acquired_pdf_sha256": "1e86ba095667a35f0cbfda2611a160e0e4c7a2561dcf79c6ae6bc0d962d3c980",
+      "reuse": "Reference only; no Endotext illustration reproduced"
+    },
+    {
+      "url": "https://www.jci.org/articles/view/42113",
+      "doi": "10.1172/JCI42113",
+      "scope": "Mouse basolateral Mct8 localization and knockout secretion experiment; not human H&E protein identification"
+    }
+  ],
+  "timing": {
+    "kind": "presentation",
+    "seconds": 21,
+    "states": 7,
+    "biological_mapping": null,
+    "source_image": "fixed throughout"
+  },
+  "geometry": "Three broad structural leaders/outlines; no cell segmentation, capillary, molecular geometry or source registration invented",
+  "print": {
+    "image_width_mm": 100,
+    "source_ppi": 176.022,
+    "exception": "Source-limited 693px H&E field; no upscaling-generated detail. Actual print review required."
+  },
+  "review": "Every applicable V01-V20 requires exact final source/appearance/UI/print/reproduction evidence; no automatic PASS"
+}

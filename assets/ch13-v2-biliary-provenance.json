@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-09",
+  "sources": {
+    "date": "2026-11-09",
+    "citation": "Cureus. 2023 Feb 6;15(2):e34695. doi: 10.7759/cureus.34695",
+    "title": "Our Experience in Tracking the Tract: Normal Biliary Anatomy and Variants on Magnetic Resonance Cholangiopancreatography in Living Donor Liver Transplantation",
+    "doi": "10.7759/cureus.34695",
+    "figure": "Figure2",
+    "url": "https://doi.org/10.7759/cureus.34695",
+    "license": "CC BY3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "rights_basis": "ActualowningXMLCCBY3.0includesarticleimagery;noindividualFigure2thirdpartycreditexceptionfound. NotCCBY4.0andnot2025NCNDlead.",
+    "source_caption": "Standard anatomy. The cystic duct drains normally into the common hepatic duct, forming the common bile duct. RHD:righthepaticduct;LHD:lefthepaticduct;CYSDUCT:cysticduct;CBD:commonbileduct;PD:pancreaticduct.",
+    "specimen": "HumanlivingliverdonorplanningMRCP,onepublishedillustrationfrom65includedpotentialdonorsages20–51,January2013–July2018;individualFigure2age/sex/globalhealthnotreported. Sourcecallsanatomystandard,notuniversalnormality.",
+    "method": "1.5TGE MRCPprotocol:SSFSEandrespiratory-gated3DTSE,overnightfastpreferred;sometimespineapplejuiceoralnegativecontrast. SourceprocessedMIP,surfaceshading,multiplanarreconstructions;exactFigure2sequence/projection/oralcontrastnotidentified.",
+    "boundaries": "Staticductrepresentation,notjuiceflow/pancreaticsecretion. No scale,calibrateddiameter,viewingaxes/terminalpapillaorificeorfullorganregistration. Separatepatientfromgrosspancreasdonor andotherintestinalmicroscopy.",
+    "key": "RetainliteralRHD(ANT)imageannotation;captiondefinesRHDrighthepaticduct. Externalkeyonlyexplainsoriginalsourceglyphs,nonewleaders. CHD-to-CBDrelationshipstatedbysourcecaption,notnewlabelposition.",
+    "file": {
+      "file": "ch13-v2-biliary-mrcp.jpg",
+      "dimensions": [
+        986,
+        767
+      ],
+      "bytes": 103935,
+      "sha256": "4949737e5e0ebcee52c5dbeec9c1ee1e6b22bf2836ba1fb90b669e7f2ae86254",
+      "decoded_rgb_sha256": "16b5261d458fca71802461944e22683f8b5dea15036375a90c13b172a933ae9e"
+    },
+    "extraction": {
+      "PDF_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC9924704.1/PMC9924704.1.pdf?md5=b416659ad15e731e2a9b872f99a1f138",
+      "PDF_sha256": "4b661f392cfa83a6d6710f649e4e69675c6b358fd994b02a4ebdb7838dc90daf",
+      "owning_metadata_MD5_match": true,
+      "page_1based": 4,
+      "xref": 56,
+      "raw_DCT_byte_equal_extracted_JPEG": true,
+      "crop": null,
+      "single_image_full_figure": "PDFbbox[183.3432,57,530.24,326.4752];nextxref58Figure3starts471.1155,separatecaption/textgap. WholeFigure2,nottileorunrelatedFigure3.",
+      "operations": "None toimagebytes;wholepublishedJPEG,no crop/resampling/recolouring/newmarks."
+    },
+    "print": {
+      "width_mm": 120,
+      "height_mm": 93.34685598377281,
+      "ppi": 208.70333333333332,
+      "source_limited_exception": "~209ppi,butoriginalsourceglyphslarge;actualprintglyph/ductvisibilitypending.",
+      "external_key_min_pt": 9.5,
+      "credit_min_pt": 9
+    }
+  },
+  "reproduction": {
+    "builder": "figures/ch13_biliary_observed_v2.py",
+    "template": "figures/ch13_biliary_observed_v2.template.html",
+    "private_network_required": false,
+    "source_acquisition": "SeparateoriginalPDFxref56extraction,exactidentityinpublicsourceJSON"
+  },
+  "artifacts": {
+    "assets/ch13-v2-biliary-mrcp.jpg": "4949737e5e0ebcee52c5dbeec9c1ee1e6b22bf2836ba1fb90b669e7f2ae86254",
+    "assets/ch13-v2-biliary-sources.json": "bc4b17885a8601e82307fc5fcc49c70f548f53895f69caa80559189c7c120027",
+    "figures/ch13_biliary_observed_v2.template.html": "dccd6ffa0e610d926c7faaba7c8016d65b9e0aa512ed7012fff9f4d0be582371",
+    "assets/ch13-v2-biliary-reference.html": "dccd6ffa0e610d926c7faaba7c8016d65b9e0aa512ed7012fff9f4d0be582371",
+    "figures/ch13_biliary_observed_v2.py": "8aed78c6275dc175f5751b82dc83c6a3c140685e15985b8a9b99c93d4686fc43",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "acceptance": {
+    "current": false,
+    "source_native_final": "PendingB",
+    "actual_browser_print": "Pendingroot"
+  }
+}

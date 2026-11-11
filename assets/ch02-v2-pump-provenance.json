@@ -1,0 +1,273 @@
+{
+  "status": "PROVISIONAL static architecture plate; not all-rubric or V05 acceptance",
+  "date": "2026-11-09",
+  "source": {
+    "entry": "3WGU",
+    "revision": "1.4,2026-08-12",
+    "assembly": "1, author determined heterotrimer",
+    "organism": "Sus scrofa, pig kidney Na/K-ATPase",
+    "method": "X-ray diffraction2.8Angstrom",
+    "state": "Na-bound conformation precedingE1P, ADP/AlF4 phosphorylation-transition analogue; no oligomycin. Protein-only views omit deposited ligands.",
+    "coordinates": "https://files.rcsb.org/download/3WGU.cif",
+    "owning": "https://www.rcsb.org/structure/3WGU",
+    "citation": "Kanai etal2013, Crystal structure of a Na+-bound Na+,K+-ATPase preceding the E1P state, DOI10.1038/nature12578",
+    "coordinate_rights": "PDB archive dataCC0; https://www.wwpdb.org/about/usage-policies . This derivative uses deposited coordinates, not the journal figure.",
+    "orientation": "https://storage.googleapis.com/opm-assets/pdb/3wgu.pdb ; https://opm.phar.umich.edu/proteins/3wgu . Proper rigid alignment only; sourceOPM mesh/texture not distributed."
+  },
+  "chain_key": [
+    {
+      "name": "alpha",
+      "author_chain": "A",
+      "label_asym": "A",
+      "modeled": 994,
+      "sequence": 1016,
+      "missing": 22,
+      "color": "neutral gray"
+    },
+    {
+      "name": "beta",
+      "author_chain": "B",
+      "label_asym": "B",
+      "modeled": 303,
+      "sequence": 303,
+      "missing": 0,
+      "color": "blue family; surface dark blue, C-alpha trace lighter blue"
+    },
+    {
+      "name": "FXYD",
+      "author_chain": "G",
+      "label_asym": "C",
+      "modeled": 34,
+      "sequence": 65,
+      "missing": 31,
+      "color": "amber"
+    }
+  ],
+  "surface": "Per-chain approximate external probe-centre SAS, elementalvdW radii+1.4A probe,0.4A grid, enclosedsolventfilled. NotSES/Connolly, experimental density, native optical color or combined-assembly exposed-surface partition. Independently inflated buried chain envelopes can overlap; apparent crevices are not demonstrated pores/ion paths.",
+  "trace": "1331 exact polymerCalpha positions; piecewise-linear displaytube0.20A, no interpolated missing residues. Break if nonconsecutive residue/insertion ambiguity orCAdistance>4.8A; source selected chains each internally contiguous. No guessedsecondarystructure/ribbon, fullbackbonebondmodel or literalwire.",
+  "orientation": "Same exact source frame/camera. Positivez extracellular-facing, negativez cytoplasmic-facing. BackbonePNG already contains OPMcomputed z±15.1A hydrophobic-reference rectangle outlines, not actualbilayertexture/leaflets/wholemembranethickness. Sidearrow is projected+z direction, not a transportvector.",
+  "labels": {
+    "operation": "PNG placed atSVG(200,100), exactsize1600x1400. Territory anchors translated by(+200,+100), no projection change. Only surface broadchain labels, no guessedresidue/domain/site.",
+    "source_anchors": [
+      {
+        "chain": "A",
+        "name": "alpha",
+        "pixel": [
+          850,
+          1005
+        ],
+        "role": "Broad visible neutral-gray alpha territory selected from actual existing native surface pixels; not a residue/site endpoint.",
+        "box": [
+          55,
+          1000,
+          350,
+          110
+        ]
+      },
+      {
+        "chain": "B",
+        "name": "beta",
+        "pixel": [
+          715,
+          245
+        ],
+        "role": "Broad visible dark-blue beta territory; not an atom-specific claim.",
+        "box": [
+          55,
+          150,
+          350,
+          110
+        ]
+      },
+      {
+        "chain": "G",
+        "name": "FXYD",
+        "pixel": [
+          760,
+          530
+        ],
+        "role": "Broad visible amber accessory-chain territory; partial modeled segment only.",
+        "box": [
+          1180,
+          500,
+          365,
+          110
+        ]
+      }
+    ],
+    "projection_audit_max_error_px": 0.0006649367026057007
+  },
+  "image_integrity": "Original render pixels and compressed image chunks preserved. Only the PNG text field containing the local scene filename is removed before SVG embedding; no resampling, crop, texture, anatomy or rendering changes.",
+  "render": "OriginalBlender5.2.1,48samples, sourcecamera/seed/materials in publicinputs record; neutral-gray alpha/amber FXYD and blue-family beta are illustrative chain colors, not visible-light atomicappearance. Beta is dark blue in the surface and intentionally lighter blue in the thin C-alpha trace; exact parameters in inputs.",
+  "print": {
+    "labelled_svg_width_mm": {
+      "surface": 153,
+      "backbone": 160
+    },
+    "raster_width_mm": {
+      "surface": 122.4,
+      "backbone": 128
+    },
+    "raster_ppi": {
+      "surface": 332.02614379084963,
+      "backbone": 317.5
+    },
+    "svg_label_font_px": 42,
+    "effective_label_pt": {
+      "surface": 9.107716535433072,
+      "backbone": 9.524409448818897
+    },
+    "external_key_min_pt": 10,
+    "plan": "Two print pages intended: compact header plus surface153mm with9.1pt vector labels; backbone160mm with9.52pt labels on nextpage. SourceSVG/render unchanged, whitehtml/body. Actual revisedPDFpagecount/legibility pending root test. No measured physicalfigurewidth inferred from renderpixels.",
+    "repair_date": "2026-11-09"
+  },
+  "reproduction": {
+    "scope": "Composition only: publictwoPNGs+inputsJSON+generator/template. No privateworkdata required on rebuild; first-copy fallback documents acquiredrenders. Fullcoordinate/SAS/trace render method and exactsourceinputhashes remain distinct in publicinputs, with officialacquisition URLs; noGPU rerun claimed.",
+    "python": "3.13.5",
+    "pillow": "11.0.0",
+    "source_input_manifest": "ch02-v2-pump-inputs.json",
+    "scripts": [
+      "figures/molecular_surface_v2.py",
+      "figures/molecular_render_v4.py",
+      "figures/molecular_backbone_v3.py",
+      "figures/ch02_pump_plate_v2.py"
+    ],
+    "metadata_helper": {
+      "path": "figures/png_metadata.py",
+      "sha256": "e11b613f180ea0baafb2dcff682680364a50f8cde4a2ff9ff6987509cb273271"
+    }
+  },
+  "limitations": [
+    "Staticarchitecture, not transportcycle/trajectory/kineticrate",
+    "22alpha and31FXYD residues absent and notinvented",
+    "Ligands/glycans/lipids/waters not shown; no bilayer",
+    "Per-chainSAS overlaps cannot establish pores or functionalinterface geometry",
+    "Amber FXYD trace partially overlaps alpha at thiscamera; surfaceprimary isclearer",
+    "No domain/site labels withoutsource-residue mapping"
+  ],
+  "pending": [
+    "Independent molecular/source labels/orientation review of finalplate",
+    "Separate V05 appearance/teaching review atnative/intendedsizes",
+    "Rootdesktop650390pan/native-fit/keyboardproof",
+    "Actual twofigurePDFsource/labellegibility andpagination",
+    "Canonicalchapterintegration/release outside scope"
+  ],
+  "lineage": {
+    "prior_public_inputs_sha256": "578460a224cef8570e01a50383cf9ccbc412b9e9d4822fb0bb24c6bb9c10ba79",
+    "previous_surface_png_sha256": "36223d0ef5862b4c8eee5b8d33fa95b8bc503b77a77c461466211d727a462366",
+    "previous_backbone_png_sha256": "a04cb34ffb10211856bffe3e3e2623dc3c4495a738375e7bbe1db18b28a9055c",
+    "preserved_backup": "work/visual-v2/ch02/molecular/plate-layout/v4-promotion/before/",
+    "change": "Same geometry/camera/frame; intentional illustrative palette/material/lighting update, then one matching CPU C-alpha render. No new anatomy, motion, missing segments or extra coordinate transformation.",
+    "beta_trace_contrast_revision": {
+      "date": "2026-11-09",
+      "prior_public_inputs_sha256": "8082ecff3aa0c87bed3f1613aa2311a445ea0f68b8078d950fe2f2afe296e208",
+      "previous_backbone_png_sha256": "635962f647846698f05f9600d161e9d0826403ca48c9d78ba76558ac8bcd3078",
+      "preserved_backup": "work/visual-v2/ch02/molecular/backbone-03-beta-contrast/before",
+      "change": "One CPU48spp companion render; beta sRGB(.13,.30,.46) to(.36,.63,.84) only. Same1331CA positions/segments/tube.20A/camera/guides/lights/material/alpha/FXYD. Source surface stays exact4f77533...; chain-color families remain matched, not identical beta RGB. Actual print review pending."
+    }
+  },
+  "companion_contrast_repair": {
+    "date": "2026-11-09",
+    "only_change": "beta diffuse material sRGB(.13,.30,.46) to(.36,.63,.84); all1331positions/segments/.20A/camera/guides/lights/alpha/FXYD unchanged",
+    "new_backbone_sha256": "26b4f6d4c2d84434fb91055afc57fec3b1c30d4ca22264c1d8c9c04596f5d2d1",
+    "actual_print_review": "PENDING fresh root/B PDF; no V11 acceptance inferred from render."
+  },
+  "render_scenes": {
+    "surface": {
+      "sha256": "86a83fad4d1cc38435ed7c59cb2aaa89332449c284b49b68e44cda5189c79c13",
+      "acquired": "work/visual-v2/ch02/molecular/render-03-fill-pilot/molecular-scene.blend",
+      "distributed": "Private editable scene retained; public code + native inputs/manifest reproduce composition separately."
+    },
+    "backbone": {
+      "sha256": "0bbe845bf09726a63c6ef3e6c02853327c7b5db21889871ad1aae8c80b450f05",
+      "acquired": "work/visual-v2/ch02/molecular/backbone-03-beta-contrast/backbone-scene.blend",
+      "distributed": "Private editable scene retained; public code + native inputs/manifest reproduce composition separately."
+    }
+  },
+  "native_surface_review": {
+    "reviewer": "/root/visual_audit_v2",
+    "date": "2026-11-08",
+    "verdict": "PASS, private native1600x1400surface V05 only",
+    "reviewed_png_sha256": "4f77533eb24349afe26c88aa2b5bf7126cc4fcfd414a59238ebbb5bfdba5c51a",
+    "report_sha256": "fc49f99776ae369079f30e3ec8e158a57bd8fc6a4d79e797e18df2d4f949f37c",
+    "scope_limit": "Not final labelled two-panel composition, C-alpha appearance, responsive/phone, enlargement or print acceptance."
+  },
+  "inline_pan": "Only focused .plate-scroll regions handle ArrowLeft/Right by60px; Home resetsbothaxes, End reaches horizontalend. Other pagekeys untouched; default browser panning not relied upon.",
+  "canvas_background": "#0b0b0b neutral surround; source PNG pixels unchanged",
+  "metadata_sanitization": {
+    "date": "2026-11-10",
+    "scope": "Remove local scene filename text fields only; original decoded pixels and image chunks unchanged. Private source renders are retained separately.",
+    "images": [
+      {
+        "file": "ch02-v2-pump-surface.png",
+        "source_sha256": "4f77533eb24349afe26c88aa2b5bf7126cc4fcfd414a59238ebbb5bfdba5c51a",
+        "published_sha256": "b846ca287dd96233476f6a04c1a806a4d2b85b8cd6e767e03162f7adac8c975a",
+        "identical_decoded_pixels": true,
+        "pixel_sha256": "44b600269cec6b6f572bb76e56bb116effc70c0d96720181a09f1411a204fca6",
+        "removed_field": "PNG text keyword File",
+        "compressed_image_chunks_unchanged": true
+      },
+      {
+        "file": "ch02-v2-pump-backbone.png",
+        "source_sha256": "d1c6713c825711f3bfe0a12f30cb741dc2a3a354778309b0c3310b068f2b074b",
+        "published_sha256": "26b4f6d4c2d84434fb91055afc57fec3b1c30d4ca22264c1d8c9c04596f5d2d1",
+        "identical_decoded_pixels": true,
+        "pixel_sha256": "db66c0298f2390d3845b2503f962da15d35a8c19547cacdd095c613a4f6ac5cf",
+        "removed_field": "PNG text keyword File",
+        "compressed_image_chunks_unchanged": true
+      }
+    ]
+  },
+  "matching_palette": {
+    "surface": {
+      "A": [
+        0.63,
+        0.67,
+        0.7
+      ],
+      "B": [
+        0.13,
+        0.3,
+        0.46
+      ],
+      "G": [
+        0.85,
+        0.48,
+        0.12
+      ]
+    },
+    "companion": {
+      "A": [
+        0.63,
+        0.67,
+        0.7
+      ],
+      "B": [
+        0.36,
+        0.63,
+        0.84
+      ],
+      "G": [
+        0.85,
+        0.48,
+        0.12
+      ]
+    },
+    "guides": [
+      0.5,
+      0.55,
+      0.57
+    ],
+    "convention": "Same chain-color families, intentionally lighter beta only in thin trace for print contrast; not identical RGB."
+  },
+  "artifacts": {
+    "ch02-v2-pump-inputs.json": "f0e8bc87f1d2399ded50ea5c9eab79f6ed38f682b7f59a006e67c1a8ae206196",
+    "ch02-v2-pump-surface.png": "b846ca287dd96233476f6a04c1a806a4d2b85b8cd6e767e03162f7adac8c975a",
+    "ch02-v2-pump-backbone.png": "26b4f6d4c2d84434fb91055afc57fec3b1c30d4ca22264c1d8c9c04596f5d2d1",
+    "ch02-v2-pump-surface-labelled.svg": "5526a0406182c0b80bcbd9b8a69326f00535cd013e6411ca7e5155f9a953272a",
+    "ch02-v2-pump-backbone-labelled.svg": "0f4f98ef30f41f152915774f5196ef3720bc6a48414e01e58ba46c046d5396fb",
+    "ch02-v2-pump-architecture.html": "c0ca5dd4777ea371f106bd55dc640b42f44a319e431a49d910a186d69880efb5",
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  }
+}

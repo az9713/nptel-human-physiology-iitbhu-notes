@@ -1,0 +1,61 @@
+{
+  "source_acquisition_date": "2026-11-08",
+  "sources": [
+    {
+      "id": "cranial-upper-cervical",
+      "file": "ch01-v2-cranial-pleural-mri.jpg",
+      "owning": "https://wellcomecollection.org/works/cxzcadnc",
+      "accession": "N0023480",
+      "download": "https://iiif.wellcomecollection.org/image/N0023480/full/full/0/default.jpg",
+      "creator_credit": "Wellcome Collection",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "dimensions_px": [
+        1443,
+        1448
+      ],
+      "source_description": "Normal brain.6.Sagittal MRI scan; T1 weighted, side view, midline, normal anatomy",
+      "calibration": "Original5cm ruler retained. Nominal digitized pixels are not MR voxel resolution.",
+      "orientation": "Anterior image-left,posterior image-right,superior up from actual head anatomy; source midsagittal. No R/L marker inferred.",
+      "unknown": [
+        "age/sex",
+        "field strength",
+        "voxel size",
+        "slice thickness",
+        "scanner",
+        "acquisition date",
+        "normality beyond catalogue description"
+      ],
+      "geometry_limit": "Cranial compartment and transition to upper cervical neural canal only; no whole spine, meningeal segmentation or traced CSF boundary.",
+      "acquired_filename": "N0023480-native.jpg",
+      "sha256": "05c36e3420b462ba544133b8cb3362e23e8fdd2e8a74442f9c13198ad97f532e",
+      "bytes": 232503,
+      "modifications": "Complete native JPEG bytes unchanged."
+    },
+    {
+      "id": "pleural-sliding",
+      "file": "ch01-v2-cranial-pleural-sliding.mp4",
+      "owning": "https://link.springer.com/article/10.1186/s13089-020-00185-4#MOESM1",
+      "doi": "10.1186/s13089-020-00185-4",
+      "creator_credit": "Vetrugno et al.(2020),The Ultrasound Journal12:39,Additionalfile1 ClipS1",
+      "download": "https://static-content.springer.com/esm/art%3A10.1186%2Fs13089-020-00185-4/MediaObjects/13089_2020_185_MOESM1_ESM.m4v",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "specimen": "Clinical human thorax,anterior parasagittal; normal-aeration pattern in COVIDreview, not established healthy donor",
+      "dimensions_px": [
+        1920,
+        1080
+      ],
+      "encoded_duration_seconds": 8.216542,
+      "encoded_frames": 197,
+      "encoded_fps": "24000/1001",
+      "motion_limit": "Includes source-labelled sliding,plus transducer rocking/tilting. No exact source acquisitionrate confirmed; encoded fps is delivery cadence.",
+      "anatomical_limit": "Pleural acoustic interface/A-lines, not resolved separate parietal/fluid/visceral layers; deeper A-lines are reverberation artifacts.",
+      "rights": "OwningCCBY4 includes images absent exclusion; nonefoundClipS1. Publication institutionalunidentifiableimagingpolicy stated. No invented consent/donor details.",
+      "acquired_filename": "13089_2020_185_MOESM1_ESM.m4v",
+      "sha256": "496fc2f2ff2263a822947eab7a77f6d94f5e1109685b802ebea4e34dd03dea8e",
+      "bytes": 5281352,
+      "modifications": "Complete source bytes unchanged; video extension M4V to MP4 only."
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "date": "2026-11-09",
+  "citation": "Mungunchimeg Chultemsuren,Soo-Jin Song,Ki-Hwan Han,Jung-A Shin.(2025). Iron Overload Accelerates Aging-Associated Kidney Injury in Mice: Implications for Iron Supplementation in the Elderly. Nutrients17:2580.",
+  "doi": "10.3390/nu17162580",
+  "owning": "https://www.mdpi.com/2072-6643/17/16/2580",
+  "archive": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12389422/",
+  "license": "CC BY4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_figure": "Figure7A young-controlTEM; wholeFigures6/7 retained with disease/age panels distinctly labelled.",
+  "specimen": "Female C57BL/6J mice; youngcontrolgroup described2months, 0.9%saline control injections5timesweekly4weeks. Do not infer exactterminalage from thisdescription or measuredmouseGFR. Not human tissue.",
+  "preparation": "Renalcortex;2.5%glutaraldehyde/Epon812;70–80nmsections,10%uranylacetate;HitachiH7650TEM.",
+  "method_extracts": [
+    "2.1. Animals Female C57BL/6J mice were used in this study. Old mice were obtained from the Korea Research Institute of Bioscience and Biotechnology (Daejeon, Republic of Korea), whereas young mice were acquired from Orient Bio (Seongnam-si, Republic of Korea). All mice were specific-pathogen-free (SPF), non-genetically modified, and had not undergone any previous experimental procedures. Mice were randomly assigned to four groups (n = 30 per group): young control (2 months), old control (22 months), young iron overload, and old iron overload. In the animal experiments, iron overload was induced by intraperitoneal injection of iron dextran (Sigma-Aldrich, MO, US; iron content 95–105 mg/mL), which was diluted in 0.9% NaCl to a final concentration of 10 mg/mL elemental iron. Mice received injections at a dose of 500 mg/kg body weight (elemental iron), five times per week for four consecutive weeks [ 35 , 36 , 37 , 38 , 39 ]. The control group received 0.9% saline, while the iron-overloaded group received iron dextran at the same dosage and schedule. The injections were performed at the same time each day. Before sacrifice, the mice were placed in metabolic cages with free access to food and water, and urine collected for 19 h was obtained. Urinary albumin levels were measured using the Cobas c702 analyzer (Roche Diagnostics, Basel, Switzerland) with the ALBT2 reagent kit (Cat. No. 5167043190), according to the manufacturer’s instructions. Urinary iron levels were measured by a laboratory (SCL Healthcare Central Laboratory, Gyeonggi-do, Korea) using a colorimetric assay with the IRON2 reagent on the Cobas c 702 module (Roche Diagnostics, Basel, Switzerland) (n = 4). Albuminuria and urinary iron excretion were evaluated using total urine collected over a 19 h collection period. The mice were anesthetized using 20% isoflurane in propylene glycol solution (Samchun, Seoul, Korea). Blood samples were collected from the heart before sacrifice. The blood was then separated into serum by centrifugation for 20 min at 4 °C. The serum iron level, total iron-binding capacity (TIBC), unsaturated iron-binding capacity (UIBC), and TF saturation were measured using the Pointe Scientific Iron/TIBC Reagent Kit (MedTest Dx, Canton, MI, USA). Serum creatinine levels were measured using the DetectX ®  Serum Creatinine Detection Kit (KB02-H, Arbor Assays, Ann Arbor, MI, USA), which is based on a modified Jaffe colorimetric method. Optical density was measured at 490 nm using a microplate reader according to the manufacturer’s instructions (n = 5). This study was approved by the Institutional Animal Care and Use Committee of Ewha Womans University College of Medicine (EWHA MEDIACUC 21-003-8).",
+    "2.6. Transmission Electron Microscopy (TEM) Kidney tissue containing the cortex was sectioned into 1 mm × 1 mm pieces and examined using an electron microscope as previously described [ 43 ]. In summary, the kidney tissue was fixed in 2.5% glutaraldehyde and then embedded in epoxy resin (Epon 812, Sigma-Aldrich, St. Louis, MO, USA). Next, 70–80-nm-thick sections were prepared using a diamond knife and an ultramicrotome. The sections were then stained with 10% uranyl acetate and examined using a transmission electron microscope (H-7650, Hitachi, Tokyo, Japan). The thickness of the GBM was measured from 30 randomly selected GBMs, and the width of the foot process was measured from 60–80 processes in TEM images at 10,000× magnification. All measurements were performed using ImageJ software."
+  ],
+  "source_caption7": "Structural changes in the GBM and foot process width induced by iron overload. A young control, C old control, B/D ironoverload. Sourcecommon1µmbar printedinD; notcopiedintoA. E/Fquantification notusedasourmodeldata.",
+  "acquisition": "OfficialNLMCloudService finalpublishedPDF MD5verified. Sourcefigures encodedashorizontalRGBstrips; exactcontiguousPDFbboxorder concatenation, noresampling/color/missingpixelrepair. OriginalPDFprivate, sourceURL/hash/reassemblymanifestrecorded. Publiccomposition startsfromimmutablewholefigurePNG.",
+  "pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12389422.1/PMC12389422.1.pdf?md5=7f32210905efa20ef9790bf2ffe06eb2",
+  "pdf_sha256": "5d21950f0167ee3025a553265eb5fdfdcd3640645cc5f6368adc474e2ecb9bfc",
+  "pdf_extraction_audit": [
+    {
+      "figure": 6,
+      "page": 10,
+      "pixels": [
+        1627,
+        1176
+      ],
+      "file": "figure6-pdf-native.png",
+      "source_pdf_strips": [
+        {
+          "xref": 567,
+          "source_pdf_rect": [
+            163.40200805664062,
+            63.9429931640625,
+            553.916015625,
+            89.50299072265625
+          ],
+          "pixel_y": 0,
+          "height": 107,
+          "width": 1627,
+          "source_extracted_sha256": "7a0e465c395f40fe9896f474f540c340d10c0cc6b36ca8e9b8a8c7e90dcf9153"
+        },
+        {
+          "xref": 568,
+          "source_pdf_rect": [
+            163.40200805664062,
+            89.50299072265625,
+            553.916015625,
+            115.06298828125
+          ],
+          "pixel_y": 107,
+          "height": 107,
+          "width": 1627,
+          "source_extracted_sha256": "07d6bb228c30a79e536e706a07469c5c046bf90a21172e67e51841a9edf206ff"
+        },
+        {
+          "xref": 572,
+          "source_pdf_rect": [
+            163.40200805664062,
+            115.06298828125,
+            553.916015625,
+            140.62298583984375
+          ],
+          "pixel_y": 214,
+          "height": 107,
+          "width": 1627,
+          "source_extracted_sha256": "3bb45ecf0fd2284610c80da7d2d361cf8ded82e4e1e33b473ebf148c8f8061f1"
+        },
+        {
+          "xref": 573,
+          "source_pdf_rect": [
+            163.40200805664062,
+            140.62298583984375,
+            553.916015625,
+            166.1829833984375
+          ],
+          "pixel_y": 321,
+          "height": 107,
+          "width": 1627,
+          "source_extracted_sha256": "95dffd387ad88b1776efe2ac7a282b61397cdab2e61ae6743e696d75712cb567"
+        },
+        {
+          "xref": 570,
+          "source_pdf_rect": [
+            163.40200805664062,
+            166.1829833984375,
+            553.916015625,
+            191.74298095703125
+          ],
+          "pixel_y": 428,
+          "height": 107,
+          "width": 1627,
+          "source_extracted_sha256": "6f42df7fc3c6fa1f8b1d08d44832f6a3efa9d3fa3ea6b4db3aba3e4986dab7b5"
+        },
+        {
+          "xref": 571,
+          "source_pdf_rect": [
+            163.40200805664062,
+            191.74298095703125,
+            553.916015625,
+            217.302978515625
+          ],
+          "pixel_y": 535,
+          "height": 107,
+          "width": 1627,
+          "source_extracted_sha256": "43583961fb749d2657435f22120f774a128910670c0e034db10e66c7f1303ced"
+        },
+        {
+          "xref": 576,
+          "source_pdf_rect": [
+            163.40200805664062,
+            217.30300903320312,
+            553.916015625,
+            242.86300659179688
+          ],
+          "pixel_y": 642,
+          "height": 107,
+          "width": 1627,
+          "source_extracted_sha256": "a55b506b2bcb32fa5affc3e3d316615da93b03ff80b8894c9a387f23457b0c17"
+        },
+        {
+          "xref": 577,
+          "source_pdf_rect": [
+            163.40200805664062,
+            242.86300659179688,
+            553.916015625,
+            268.4230041503906
+          ],
+          "pixel_y": 749,
+          "height": 107,
+          "width": 1627,
+          "source_extracted_sha256": "72c194489bcdf69234d3f9fc75d31c513cc84f3df8ef715097b28cf4bfc55929"
+        },
+        {
+          "xref": 574,
+          "source_pdf_rect": [
+            163.40200805664062,
+            268.4230041503906,
+            553.916015625,
+            293.9830017089844
+          ],
+          "pixel_y": 856,
+          "height": 107,
+          "width": 1627,
+          "source_extracted_sha256": "78f785f9b20656e5eb62d80d38eaf40330c62249f7046ff7c03906d0a2d63bc8"
+        },
+        {
+          "xref": 575,
+          "source_pdf_rect": [
+            163.40200805664062,
+            293.9830017089844,
+            553.916015625,
+            319.5429992675781
+          ],
+          "pixel_y": 963,
+          "height": 107,
+          "width": 1627,
+          "source_extracted_sha256": "012d114fa7b37beaf3f6561a6ce5683102a9a17ef751b1b74bbaec7df8802972"
+        },
+        {
+          "xref": 569,
+          "source_pdf_rect": [
+            163.40200805664062,
+            319.5429992675781,
+            553.916015625,
+            344.7430114746094
+          ],
+          "pixel_y": 1070,
+          "height": 106,
+          "width": 1627,
+          "source_extracted_sha256": "838a9f0089834e6b32733242c9902273e43917af07a7610398ede690ec38ef64"
+        }
+      ],
+      "operation": "Exact decodedRGBstrip concatenation in verified contiguousPDForder; no resampling/recolor/missingpixelrepair. OriginalPDFpreserved.",
+      "sha256": "c373084d9525861b484504049622ed3cb2e0a140ffe858ccb5dc67fe59de4931"
+    },
+    {
+      "figure": 7,
+      "page": 11,
+      "pixels": [
+        1623,
+        1696
+      ],
+      "file": "figure7-pdf-native.png",
+      "source_pdf_strips": [
+        {
+          "xref": 649,
+          "source_pdf_rect": [
+            163.6999969482422,
+            98.52295684814453,
+            553.2650146484375,
+            123.84295654296875
+          ],
+          "pixel_y": 0,
+          "height": 106,
+          "width": 1623,
+          "source_extracted_sha256": "420d1d9cd43efc5a9055ef4def477aef46299bf0b4b2b2b3c6a0135b18447997"
+        },
+        {
+          "xref": 651,
+          "source_pdf_rect": [
+            163.6999969482422,
+            123.84296417236328,
+            553.2650146484375,
+            149.1629638671875
+          ],
+          "pixel_y": 106,
+          "height": 106,
+          "width": 1623,
+          "source_extracted_sha256": "7b3b58da9221cf24f019ee6bb2afb5dcd16d8901e235ffffb986bcb7994e3825"
+        },
+        {
+          "xref": 642,
+          "source_pdf_rect": [
+            163.6999969482422,
+            149.1629638671875,
+            553.2650146484375,
+            174.48297119140625
+          ],
+          "pixel_y": 212,
+          "height": 106,
+          "width": 1623,
+          "source_extracted_sha256": "7d58d6a1c1ba10a6db1bdae25ddd7175abc0bba2615e116f120109027679d56d"
+        },
+        {
+          "xref": 644,
+          "source_pdf_rect": [
+            163.6999969482422,
+            174.48297119140625,
+            553.2650146484375,
+            199.802978515625
+          ],
+          "pixel_y": 318,
+          "height": 106,
+          "width": 1623,
+          "source_extracted_sha256": "4224108879c917c595c8283193bcc3be42be345f28fd1d36d00d7d3c17de6a57"
+        },
+        {
+          "xref": 639,
+          "source_pdf_rect": [
+            163.6999969482422,
+            199.802978515625,
+            553.2650146484375,
+            225.12298583984375
+          ],
+          "pixel_y": 424,
+          "height": 106,
+          "width": 1623,
+          "source_extracted_sha256": "4f0b5435bea38c67a78da65bd2e5fa4e4f0e92da41599dfd593691fb7d514514"
+        },
+        {
+          "xref": 641,
+          "source_pdf_rect": [
+            163.6999969482422,
+            225.12298583984375,
+            553.2650146484375,
+            250.4429931640625
+          ],
+          "pixel_y": 530,
+          "height": 106,
+          "width": 1623,
+          "source_extracted_sha256": "c30dc9acfab97a856662676903aae284c8f6808bcb9fb107bd94af01d2af4a78"
+        },
+        {
+          "xref": 647,
+          "source_pdf_rect": [
+            163.6999969482422,
+            250.4429931640625,
+            553.2650146484375,
+            275.76300048828125
+          ],
+          "pixel_y": 636,
+          "height": 106,
+          "width": 1623,
+          "source_extracted_sha256": "a54bca84df22c484eb4df468d84de24a7e26e7731d2b6d89fd6f194686b1f0f1"
+        },
+        {
+          "xref": 648,
+          "source_pdf_rect": [
+            163.6999969482422,
+            275.76300048828125,
+            553.2650146484375,
+            301.0830078125
+          ],
+          "pixel_y": 742,
+          "height": 106,
+          "width": 1623,
+          "source_extracted_sha256": "f6b637e2f52607a9e024974e6613007c9339226abb7dd887e5652cd10fba2309"
+        },
+        {
+          "xref": 646,
+          "source_pdf_rect": [
+            163.6999969482422,
+            301.08294677734375,
+            553.2650146484375,
+            326.4029541015625
+          ],
+          "pixel_y": 848,
+          "height": 106,
+          "width": 1623,
+          "source_extracted_sha256": "abf8b58b4c03ff16bef7cf5f1aa43de6aabde7b526a7be31326a46e794f581ea"
+        },
+        {
+          "xref": 653,
+          "source_pdf_rect": [
+            163.6999969482422,
+            326.4029846191406,
+            553.2650146484375,
+            351.7229919433594
+          ],
+          "pixel_y": 954,
+          "height": 106,
+          "width": 1623,
+          "source_extracted_sha256": "f09a00d56fede3453784d4bfff41a2adc5e9bb40a278f49fb26c41f212bc0084"
+        },
+        {
+          "xref": 654,
+          "source_pdf_rect": [
+            163.6999969482422,
+            351.72296142578125,
+            553.2650146484375,
+            377.04296875
+          ],
+          "pixel_y": 1060,
+          "height": 106,
+          "width": 1623,
+          "source_extracted_sha256": "5db84cb3edbb0dea03ed144eb73dc88dd38f9878baebef02a744531f5403af58"
+        },
+        {
+          "xref": 650,
+          "source_pdf_rect": [
+            163.6999969482422,
+            377.04296875,
+            553.2650146484375,
+            402.36297607421875
+          ],
+          "pixel_y": 1166,
+          "height": 106,
+          "width": 1623,
+          "source_extracted_sha256": "173977a5aa5b005cea3580f47b974c9460b31457810b6630dce8df13b1e3e0f6"
+        },
+        {
+          "xref": 652,
+          "source_pdf_rect": [
+            163.6999969482422,
+            402.36297607421875,
+            553.2650146484375,
+            427.6829833984375
+          ],
+          "pixel_y": 1272,
+          "height": 106,
+          "width": 1623,
+          "source_extracted_sha256": "5282dff58b3010f5a3ce523a5a780aaa3ef31163179b6036026bf07534f2da4d"
+        },
+        {
+          "xref": 643,
+          "source_pdf_rect": [
+            163.6999969482422,
+            427.6829833984375,
+            553.2650146484375,
+            453.00299072265625
+          ],
+          "pixel_y": 1378,
+          "height": 106,
+          "width": 1623,
+          "source_extracted_sha256": "dfec3d2e7850fa3132ef583b4c3d012104af0efec1fe583aae1d4ff8ac698d6d"
+        },
+        {
+          "xref": 645,
+          "source_pdf_rect": [
+            163.6999969482422,
+            453.00299072265625,
+            553.2650146484375,
+            478.322998046875
+          ],
+          "pixel_y": 1484,
+          "height": 106,
+          "width": 1623,
+          "source_extracted_sha256": "b30a5c09916e19a535ed4cba924bb528467660506f1975b98b5c8bad45de4710"
+        },
+        {
+          "xref": 640,
+          "source_pdf_rect": [
+            163.6999969482422,
+            478.3229675292969,
+            553.2650146484375,
+            503.5829772949219
+          ],
+          "pixel_y": 1590,
+          "height": 106,
+          "width": 1623,
+          "source_extracted_sha256": "9aa8b4ada4c4a7f2a11cc77f988eb0bc6c93c89250192fb51a9090241b70dc0e"
+        }
+      ],
+      "operation": "Exact decodedRGBstrip concatenation in verified contiguousPDForder; no resampling/recolor/missingpixelrepair. OriginalPDFpreserved.",
+      "sha256": "626e313c04f87bf60bc8f4bc2d144e17b626c1825130a2b30a887fc0ea5b5691"
+    }
+  ],
+  "inputs": [
+    {
+      "file": "ch16-v2-filtration-source-figure7.png",
+      "sha256": "626e313c04f87bf60bc8f4bc2d144e17b626c1825130a2b30a887fc0ea5b5691",
+      "pixels": [
+        1623,
+        1696
+      ]
+    },
+    {
+      "file": "ch16-v2-filtration-source-figure6.png",
+      "sha256": "c373084d9525861b484504049622ed3cb2e0a140ffe858ccb5dc67fe59de4931",
+      "pixels": [
+        1627,
+        1176
+      ]
+    }
+  ],
+  "crop": {
+    "source_file": "ch16-v2-filtration-source-figure7.png",
+    "rect_xyxy": [
+      169,
+      102,
+      890,
+      621
+    ],
+    "file": "ch16-v2-filtration-control7a.png",
+    "pixels": [
+      721,
+      519
+    ],
+    "sha256": "bb76a61869cfb7229b3fce0fcbe46003a0d93c44ac5cb476f40f79c7fd4acce3",
+    "rgb_sha256": "cfc303344356a0fb8b36c3af0ba0d200b58ca5427c4c38127407c49c85d0d654",
+    "operation": "Integer full-panelAfieldcrop; originalAletterretained; noresampling/recolor. No local scale bar added."
+  },
+  "anatomical_anchors_crop_pixels": {
+    "capillary_side": [
+      270,
+      400
+    ],
+    "urinary_space_side": [
+      300,
+      120
+    ],
+    "GBM": [
+      320,
+      290
+    ],
+    "foot_process_profiles": [
+      430,
+      273
+    ]
+  },
+  "anatomical_limits": [
+    "Urinary-spaceSIDE/subpodocytespace profile, not proof of fullyconnectedBowmanlumen",
+    "No individualslitdiaphragm/glycocalyx/nephrinlabels fromthispreparedimage",
+    "SourceFigures6A/7A notregisteredfields or continuouszoom",
+    "No measuredTEMpressure/flow/biologicaltime; no deformation/moleculartrajectory"
+  ],
+  "controlled_model": {
+    "equations": "NFP=Pgc−Pbs−πgc+πbs; signedQ=Kf*NFP",
+    "Pgc_mmHg": 55,
+    "pi_gc_mmHg": 30,
+    "pi_bs_mmHg": 0,
+    "Kf_mL_min_mmHg": 12.5,
+    "Pbs_sweep_mmHg": [
+      15,
+      20
+    ],
+    "NFP_sweep_mmHg": [
+      10,
+      5
+    ],
+    "Q_sweep_mL_min": [
+      125,
+      62.5
+    ],
+    "duration_presentation_s": 12,
+    "assumptions": "Uniformeffectivepressures,Kfconstant,reflectioncoefficientone,nobiologicaltransit/obstructiontime,notmeasuredintheseTEMmice. Pressurefigures illustrativechaptermodel only."
+  },
+  "review_basis": "Bactualnativegeometry/storyboardcritique: keep pressuresscalar/external, neutral compartmentleaders, no insideforcevectors/particles, sourcebarcontextnotcopied. Finallabel/composition/sourcehashreviewstillpending. B native endpoint review: original GBM(320,268) fell at foot-process base; corrected to dense band(320,290).",
+  "print": {
+    "crop_width_mm": 85,
+    "crop_height_mm": 61.18585298196949,
+    "ppi": 215.45176470588234,
+    "source_limited_exception": "215.45ppi at85mm; sourcephoto/notupscaled; actuallabel/native/PDFproofrequired",
+    "label_key_min_pt": 9.5,
+    "credits_min_pt": 9
+  }
+}

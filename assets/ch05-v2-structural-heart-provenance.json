@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-09",
+  "status": "Candidate; independent anatomy/appearance, actual responsive/native-Fit/print review pending",
+  "sources": "ch05-v2-structural-heart-sources.json",
+  "teaching_purpose": "Fixed human anterior/greatvesselRVOT, opened pulmonary/tricuspid apparatus and sectionalRVOT/RV/LV relationships; no livevalvephase or conduction.",
+  "images": [
+    {
+      "figure": 1,
+      "file": "ch05-v2-structural-heart-figure1.png",
+      "dimensions": [
+        1890,
+        1896
+      ],
+      "sha256": "630df684fc68688f0cced7bdb9c94b9009bf6eb8051ddd3421622da6574ae9d4",
+      "owning_figure_url": "https://www.nature.com/articles/s41598-025-06663-w/figures/1",
+      "native_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-025-06663-w/MediaObjects/41598_2025_6663_Fig1_HTML.png",
+      "source_bars": "1cm",
+      "crop": "None; whole native PNG unchanged; one private nativeinspectioncrop forFig2 only",
+      "actual_viewing": "Actualwholeoverview toolresized",
+      "rgb_sha256": "0a7c507624136c49294c7ea5c80187c746ecc63e9f514480fd038f4a0d33c50d",
+      "print_width_mm": 120,
+      "print_ppi": 400.04999999999995
+    },
+    {
+      "figure": 2,
+      "file": "ch05-v2-structural-heart-figure2.png",
+      "dimensions": [
+        1890,
+        1970
+      ],
+      "sha256": "d66cf3bdabb1d7d07a2e0b961232f23c797785f776f3801fca3b293f99130d51",
+      "owning_figure_url": "https://www.nature.com/articles/s41598-025-06663-w/figures/2",
+      "native_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-025-06663-w/MediaObjects/41598_2025_6663_Fig2_HTML.png",
+      "source_bars": "1cm",
+      "crop": "None; whole native PNG unchanged; one private nativeinspectioncrop forFig2 only",
+      "actual_viewing": "Wholeoverview toolresized;Fig2 also actualnative1200x1200inspectioncrop",
+      "rgb_sha256": "dd5c60fd8612f213a596e2d3bc7f29d150f7852a9b4961904f3868e1d6248128",
+      "print_width_mm": 130,
+      "print_ppi": 369.276923076923
+    },
+    {
+      "figure": 4,
+      "file": "ch05-v2-structural-heart-figure4.png",
+      "dimensions": [
+        1890,
+        1692
+      ],
+      "sha256": "b0156a50488d06452cc3cfe74ef315187c1b83a475613210570e571739fc35b3",
+      "owning_figure_url": "https://www.nature.com/articles/s41598-025-06663-w/figures/4",
+      "native_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-025-06663-w/MediaObjects/41598_2025_6663_Fig4_HTML.png",
+      "source_bars": "5mmA/1cmB",
+      "crop": "None; whole native PNG unchanged; one private nativeinspectioncrop forFig2 only",
+      "actual_viewing": "Actualwholeoverview toolresized",
+      "rgb_sha256": "0ed76155743168d68893b9cd386cff85374339fda2aac34228e613b4f32bbeca",
+      "print_width_mm": 145,
+      "print_ppi": 331.0758620689655
+    }
+  ],
+  "derived_views": [
+    {
+      "id": "wall-detail",
+      "figure": 4,
+      "panel": "A",
+      "file": "ch05-v2-structural-heart-figure4-panel-a.png",
+      "source_file": "ch05-v2-structural-heart-figure4.png",
+      "source_sha256": "b0156a50488d06452cc3cfe74ef315187c1b83a475613210570e571739fc35b3",
+      "crop_rect_xyxy": [
+        0,
+        0,
+        811,
+        1692
+      ],
+      "crop_operation": "Exact integer source-pixel rectangle, left/top inclusive, right/bottom exclusive; RGB values unchanged. Excludes separator starting antialias x811/fullwhite812–820; complete PanelA field retained, full5mm text/bar included.",
+      "dimensions": [
+        811,
+        1692
+      ],
+      "sha256": "d67b58a5c90632b3d8c5407ef331fac94c9cad72ba1b0c73cfd14c4513963082",
+      "rgb_sha256": "fd7110949e590a18b1cf5d523253c49ebd60367feea6d79cd692e49e5dd8f5b7",
+      "print_width_mm": null,
+      "print_height_mm": null,
+      "print_ppi": null,
+      "source_limited_print_exception": "Previous97mm full A print failed embedded-glyph legibility; retained only as full web/native view.",
+      "source_bars": "Original5mm applies PanelA only; fullFigure4 preserves separatePanelB1cm bar.",
+      "license": "CC BY4; Jakiel et al.2025; sourceDOI10.1038/s41598-025-06663-w; crop disclosed.",
+      "print_use": "web-only full Panel A context; print uses lower measurement detail",
+      "previous_print_width_mm": 97,
+      "previous_print_ppi": 212.36494845360824
+    },
+    {
+      "id": "wall-measurements-print",
+      "figure": 4,
+      "panel": "A lower cut-wall region",
+      "file": "ch05-v2-structural-heart-figure4-wall-measurements.png",
+      "source_file": "ch05-v2-structural-heart-figure4.png",
+      "source_sha256": "b0156a50488d06452cc3cfe74ef315187c1b83a475613210570e571739fc35b3",
+      "crop_rect_xyxy": [
+        165,
+        830,
+        805,
+        1680
+      ],
+      "crop_operation": "Exact integer RGB rectangle from unchanged publisher Figure4; no resampling/retouch/repaint/new bar. Removes upper PA/PV area, panelA tag and verticalRVOT label; fullA/fullFigure4 retained separately.",
+      "dimensions": [
+        640,
+        850
+      ],
+      "sha256": "f6d198d25cd0ef4d38ec2cfab89ae806d09669b55c5bb2fe4529b18ecfd3992d",
+      "rgb_sha256": "539747850fea9b0ce8b1cf48e78a2009bb45f1d1a4e6668206d19fc521ec427c",
+      "print_use": "Dedicated lower detail replaces full-A print on fourth plate; not an extra fifth plate",
+      "print_width_mm": 140,
+      "print_height_mm": 185.9375,
+      "print_ppi": 116.11428571428571,
+      "source_limited_print_exception": "116.1ppi at140mm: deliberate source-limited enlargement, not300ppi/detail recovery. Source glyphs grow1.829x relative to811px/fullA at97mm; actualPDF legibility/pagination pending root/B.",
+      "retained_source_marks": [
+        "W/M/E coloured glyphs and all original measurement endpoints",
+        "dis/mid/prox text and dashed guides",
+        "RV",
+        "Complete original5mm text, bar and endpoint ticks"
+      ],
+      "source_bars": "Original5mm applies sourcePanelA only; fullFigure4 retains separatePanelB1cm bar.",
+      "license": "CC BY4.0; Jakiel et al.2025; DOI10.1038/s41598-025-06663-w; exact crop disclosed."
+    }
+  ],
+  "image_integrity": "Three whole native source PNGs and full PanelA crop unchanged; exact lower PanelA crop added for print, with original W/M/E endpoints, sampling guides and5mm bar. Disclosed rectangles and identical RGB. No resampling/recolor/newleaders/arrow/scale.",
+  "independence": "Same study/preparation does not establish same photographed individual or registered views; only Figure1 has source-certified anterior/anatomical orientation. No live valve phase, pressure, flow or conduction inferred.",
+  "preparation": "220 adult human forensic-autopsy hearts without macrostructural cardiac abnormalities; fixed10%formaldehyde for2months. Not a globally healthy-donor certification or live geometry. Photograph-specific donor age/sex/identity not supplied.",
+  "source_cautions": [
+    "Fig2 actualTV versus captionRAVV synonyms; do not claimRAVV printed",
+    "Captionwhitearrow notclearlypresent inFig2; notused",
+    "No sameindividualspecimen registration acrossfigures established"
+  ],
+  "coverage_gaps": [
+    "Four complete chambers/mitral/aortic equivalent detail",
+    "Complete coronary tree and ambiguousSAA locator excluded",
+    "Normal livevalveopening/closure and hemodynamic phases",
+    "Conduction/ECG-mechanical registration"
+  ],
+  "controls": "Native/Fit/Close; source1890px restored in explicitly height-clamped containedviewport, focus/keyboardpan sharedadapter and openerreturn. No outerdialog-only pan. Actualphone/allcorners test pending.",
+  "print": {
+    "figures": 4,
+    "widths_mm": [
+      120,
+      130,
+      145,
+      140
+    ],
+    "output_ppi": [
+      400.04999999999995,
+      369.276923076923,
+      331.0758620689655,
+      116.11428571428571
+    ],
+    "external_key_min_pt": 9.5,
+    "credits_min_pt": 9,
+    "source_labels": "Original labels/bars unchanged; external readable key includingTV/RAVV distinction. Actual original glyph recognition must be checked in PDF.",
+    "plan": "Three whole sourcefigures plus one replacement lower-PanelA detail page on whitehtml/body, not a fifth plate. FullA retained web/native; print lowercrop640x850 at140mm/185.94mm height,116.1ppi source-limited enlargement. Actual4pagecount/glyph/bar/credit legibility pending root/B."
+  },
+  "reproduction": {
+    "builder": "figures/ch05_structural_heart_v2.py",
+    "template": "figures/ch05_structural_heart_v2.template.html",
+    "builder_sha256": "5dbd700799ddf2228d6f59b9fc4e0c13cb20d697abc4dd4dc9f7819f8b36c860",
+    "template_sha256": "041a7c932f430017e86981e4e512a3ee87f69d03be9501c48737d1e636b54598",
+    "python": "3.13.5",
+    "pillow": "11.0.0",
+    "scope": "Deterministic composition using publicimmutablePNGs/sourceJSON/template and sharedmodal. Initial acquisition separate; no privatework/network/Blender requirement."
+  },
+  "shared_dependencies": {
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "pending": [
+    "Independent anatomy/source-label and separate appearance/teaching review",
+    "Root desktop650390 Native/Fit/End/allcorners/focus/keyboard pan",
+    "Root actual4platePDF including PanelA native source glyph/bar/key/credit/pagebreaks",
+    "No acceptance inferred from source integrity; canonicalintegration separately recorded"
+  ],
+  "artifacts": {
+    "ch05-v2-structural-heart-figure1.png": "630df684fc68688f0cced7bdb9c94b9009bf6eb8051ddd3421622da6574ae9d4",
+    "ch05-v2-structural-heart-figure2.png": "d66cf3bdabb1d7d07a2e0b961232f23c797785f776f3801fca3b293f99130d51",
+    "ch05-v2-structural-heart-figure4.png": "b0156a50488d06452cc3cfe74ef315187c1b83a475613210570e571739fc35b3",
+    "ch05-v2-structural-heart-figure4-panel-a.png": "d67b58a5c90632b3d8c5407ef331fac94c9cad72ba1b0c73cfd14c4513963082",
+    "ch05-v2-structural-heart-figure4-wall-measurements.png": "f6d198d25cd0ef4d38ec2cfab89ae806d09669b55c5bb2fe4529b18ecfd3992d",
+    "ch05-v2-structural-heart-sources.json": "68b4283a10faff8d93789aeba23a22e77593cf401183e7ebc0b303b115bbfe7c",
+    "ch05-v2-structural-heart-reference.html": "041a7c932f430017e86981e4e512a3ee87f69d03be9501c48737d1e636b54598",
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  }
+}

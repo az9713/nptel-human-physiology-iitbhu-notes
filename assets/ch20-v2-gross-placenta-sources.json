@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-09",
+  "role": "Whole unmodified source gross human placental surface plate; not attachment or perfusion geometry",
+  "primary": {
+    "authors": "Quaye, Appiah, Obiri, Ahenkorah and Adu-Bonsaffoh",
+    "title": "The human placenta development and anatomy",
+    "doi": "10.1007/s00404-026-08382-7",
+    "url": "https://link.springer.com/article/10.1007/s00404-026-08382-7",
+    "figure_page": "https://link.springer.com/article/10.1007/s00404-026-08382-7/figures/6",
+    "published": "2026-05-28",
+    "version_of_record": "2026-07-24",
+    "source_kind": "Review article author-presented specimen photo; not an experimental donor cohort"
+  },
+  "image": {
+    "file": "ch20-v2-gross-placenta-whole.jpg",
+    "sha256": "3a20bbb834418d4a6f552c8a57697ce1d856a1e34d26527f50f36a84e26514e5",
+    "dimensions": [
+      1500,
+      1165
+    ],
+    "source_pdf_url": "https://link.springer.com/content/pdf/10.1007/s00404-026-08382-7.pdf",
+    "source_pdf_sha256": "7ee4608c46e4008b537c83ea860ea0d7d580f858d0abf62212bb5152f401b9bd",
+    "pdf_page_index": 7,
+    "xref": 370,
+    "filter": "DCTDecode",
+    "operations": "Exact complete whole-Figure6 raw JPEG stream; no recompression/crop/pixel/label modification. Publisher served1499×1164PNG acquired separately, no pixel-equivalence claimed."
+  },
+  "rights": {
+    "licence": "CC BY-NC-ND4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "scope": "Complete unchanged image only; noncommercial educational component, no adaptation or blanket relicensing",
+    "owning_credit_check": "Article current rights includes images unless excluded; no excluded Figure6 credit. CC deed unchanged sharing/format reproduction checked2026-11-09."
+  },
+  "limits": "Authors assign term human placenta. No exact donor/case/preparation/health/delivery time/physical calibration supplied. A/B registration unreported. Original source labels retained; no local artery/vein/flow/depth inference.",
+  "print_candidate": {
+    "width_mm": 160,
+    "source_ppi": 238.125,
+    "actual_pdf": "Pending root and independent reviewer"
+  }
+}

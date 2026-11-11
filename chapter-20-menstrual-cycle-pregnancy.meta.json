@@ -1,7 +1,7 @@
 {
   "chapter": 20,
   "title": "Menstrual regulation, fertilization and pregnancy",
-  "status": "accepted",
+  "status": "revised",
   "coverage_complete": true,
   "source_recordings": [
     46,
@@ -380,7 +380,7 @@
       "coverage_status": "located in developed draft; author evidence, not review acceptance"
     }
   ],
-  "body_sha256": "b88411192ec3b3b9e25b10e69cb179fc29194e47cb14f7300c9c4b4f0477ca54",
+  "body_sha256": "d3f3b0a79e428f7b30b0c6581a1272946d2ac2130dc4696f0ed2e6fc3b2b8e87",
   "body_hash_definition": "Raw on-disk bytes between BEGIN CHAPTER BODY and END CHAPTER BODY markers; no newline normalization",
   "artifact_sha256": {
     "assets/ch20-chorionic-villus-term.jpg": "dd885787ec8bdfe2e57201ab269edc704acec8f0206a3fae43b1aef19903f80c",
@@ -398,7 +398,54 @@
     "assets/ch20-microscopy-provenance.json": "23c35ed6657d2d3bcd9aab54514713cac9be5aba07870b797c0dd61576548651",
     "assets/ch20-placenta.svg": "82fd8461a8991be34c0a911649a2fe61a346511b439c12678259419e9242b1fc",
     "code/ch20_timeline.py": "5b29431259d1d3cc339cfee3325ed34a6493e2d4a3319dc4b856964fa6f3986d",
-    "code/ch20_visuals.py": "d013a7d66d3df6a861397043222802af0a2bffac3375af1f8b41a923fc01b9fa"
+    "code/ch20_visuals.py": "d013a7d66d3df6a861397043222802af0a2bffac3375af1f8b41a923fc01b9fa",
+    "assets/ch20-v2-embryo-observed-reference.html": "b20c0b64fda93a3dea80fac35d4a9226ef9e615fe7f89c948bd0f6f56a9c7121",
+    "figures/ch20_embryo_observed_v2.template.html": "b20c0b64fda93a3dea80fac35d4a9226ef9e615fe7f89c948bd0f6f56a9c7121",
+    "figures/ch20_embryo_observed_v2.py": "2c995e2e9e2316d20412e472dd0426b10c64fd566559d7799daaba545b840a85",
+    "assets/ch20-v2-embryo-observed-sources.json": "adaf00dadd3781790ad0db0a5315c750afc621cd7c47440b0eb6364771c84eeb",
+    "assets/ch20-v2-embryo-observed-well5.webm": "3c8b3afb17d95adc526b7662fe439bb15f460e75a77e7f86f366b9a3d36cacbe",
+    "assets/ch20-v2-embryo-observed-rgb-proof.json": "f6c81ce87e0b3d37a94ef9700d237b5418cb59f7982ba0de64b56b60cefd6ab2",
+    "assets/ch20-v2-embryo-observed-well5-frame-0000.png": "ed76b0b92704ff3d5d05006feb85d99fc4080f75bf2d7da8bd5e87396200cb65",
+    "assets/ch20-v2-embryo-observed-well5-frame-0330.png": "bd04b250a9407a6c500179c9a445ef41196abb96b71fa6266444ebebe47d3e06",
+    "assets/ch20-v2-embryo-observed-well5-frame-0664.png": "f7c0da250a397c8bb99118c95fe4fe36fd36002a115f871b717838b433814528",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "assets/observed-video-controls.css": "55144b39d16e8f1096f0cf1d534c817076d1b8c1e137320291f9e8a46b852c9b",
+    "assets/observed-video-controls.js": "1136584777fdb340619dab2527e02e647c95d12fa4a5d8af847148a60f42341f",
+    "assets/ch20-v2-embryo-observed-provenance.json": "dcb025a5b2c1c52863798febcd67ab84e484a3a9b2187f91dd13b1b5ce5d7108",
+    "assets/ch20-v2-villus-gas-reference.html": "7acc2472ed8dbfe2ac39b695af416005f2eab215b8cb948d23b88dfdb724ef9c",
+    "figures/ch20_villus_gas_v2.template.html": "7acc2472ed8dbfe2ac39b695af416005f2eab215b8cb948d23b88dfdb724ef9c",
+    "figures/ch20_villus_gas_v2.py": "1271511c59392f00b2f84f21a2a4c2dcb7fd9e4c0afd9086c8ff6573c993e8d1",
+    "assets/ch20-v2-villus-gas-sources.json": "d06dddbf2e3e77b06426a2a4c46806539c30a5005be571fb39afe4c8fbc6e35c",
+    "assets/ch20-v2-villus-gas-model.js": "c6637675129b7e452443231135651fa3accdef0c83531dc65cd5a06a3913a9a1",
+    "assets/ch20-v2-villus-gas-controls.js": "86154c0e0d025025e3847f732dc35cf7b9c332a87b4c9430467c60c4bc1f0d99",
+    "assets/ch20-v2-villus-gas-provenance.json": "c585e5943a9eba715ebd6ef85a1f00ae3cc0f64a10aea2605122613469be2124",
+    "assets/ch20-v2-labor-mri-source.jpg": "deacab17d0d18d2eb3aee48f7b08ef2c81c101cb9611d4ec8e8e210bf941d5cf",
+    "assets/ch20-v2-labor-mri-sources.json": "fdbde676956e7730ff93cc3d5aa42b1c8a86c69c7e48501e7587e5fd76038bdd",
+    "figures/ch20_labor_mri_v2.template.html": "6ccb4906c1ae9852653625c00a3a15303b3da51e1eaab03b1cd1db82fedb927c",
+    "assets/ch20-v2-labor-mri-reference.html": "6ccb4906c1ae9852653625c00a3a15303b3da51e1eaab03b1cd1db82fedb927c",
+    "figures/ch20_labor_mri_v2.py": "cca2e29c37eae7ff6a54bfec79a5f4933a4a43710a5d2d5f922dba43423cd46d",
+    "assets/ch20-v2-labor-mri-provenance.json": "b5c2f2c7f39f7a1e60ec9f7d731122be35f46ae725ea53a46795022ac759f51d",
+    "chapter-20-menstrual-cycle-pregnancy.html": "89e71858f58f6af5efa7c2ef0e616a938077b0507d9c33606e3156e869950388",
+    "assets/ch20-v2-gross-placenta-reference.html": "94558fde51b16affef264868be2592ce15655bdd2d133076b7b86936e85ec8d7",
+    "figures/ch20_gross_placenta_v2.template.html": "94558fde51b16affef264868be2592ce15655bdd2d133076b7b86936e85ec8d7",
+    "figures/ch20_gross_placenta_v2.py": "915fef27dbae6db12f382e4b6cee19d10dd21d769182c61a5f5c2c00a32a5296",
+    "assets/ch20-v2-gross-placenta-whole.jpg": "3a20bbb834418d4a6f552c8a57697ce1d856a1e34d26527f50f36a84e26514e5",
+    "assets/ch20-v2-gross-placenta-sources.json": "aa454b9183b9c8d137da706c9f94db0c2bc8341ee3b99f951bc8334a656554dc",
+    "assets/ch20-v2-gross-placenta-provenance.json": "7ed2f3318156c33c1b5bf2d702849c338afa54c118f32bf05150ecae273c0bdf",
+    "assets/ch20-v2-placental-mri-movie-1.mp4": "8bd212937a34fb6d593fd164a8a000d56af907b9a6f2e7b183b2430497009a44",
+    "assets/ch20-v2-placental-mri-HC29-frame-0000.png": "cd12874e9743409a91d19e09a5424fe376b52a0cc7c184da7749d645c8311f7e",
+    "assets/ch20-v2-placental-mri-HC29-frame-0090.png": "c4d4cfc31396726e1f0fd4106e79f9c206b331531ed515973292e41fb5bd2d9b",
+    "assets/ch20-v2-placental-mri-HC29-frame-0181.png": "1632b8cc66e678cfc0eabc4253e38362f285ad2404ad8dfaed131ead1c1fd3a0",
+    "assets/ch20-v2-placental-mri-movie-3.mp4": "724f36db8d4fbcaa7cfba32e54c6c96309d8047114415e1b85e577c4c168a4f1",
+    "assets/ch20-v2-placental-mri-HC11-frame-0000.png": "c15603dd2e011f2c6194f0de2ac1589efb8056a76bec7f6a851cf831d9683a4c",
+    "assets/ch20-v2-placental-mri-HC11-frame-0086.png": "4f4aa5a3ad3795b0affe1c3942842d8fbb3daf76b9de1df90f99e43fa58b11bd",
+    "assets/ch20-v2-placental-mri-HC11-frame-0172.png": "14187781e0441eb56fa2399fcdc085d1aa00de6a2b385cf9efd366a6b553c8cf",
+    "assets/ch20-v2-placental-mri-reference.html": "16e68a56e83e5a24bf378118ddee71ead4e123bd9d8352c5b7d93e9e663da7ee",
+    "figures/ch20_placental_mri_v2.template.html": "16e68a56e83e5a24bf378118ddee71ead4e123bd9d8352c5b7d93e9e663da7ee",
+    "figures/ch20_placental_mri_v2.py": "b3784a19291061655647e97a5b6234a265e324555a7c5d0fd377fe5146015e3b",
+    "assets/ch20-v2-placental-mri-sources.json": "a58809ca9c52e690882ff0dd0ff222ba747f29bcd318cc7df87a0545684cc902",
+    "assets/ch20-v2-placental-mri-provenance.json": "9a308bc707a13bcbcd9232a1dad8f083095112571c44b65fdb3a2e76cb3ec02f"
   },
   "reviews": [
     {
@@ -475,89 +522,116 @@
   "figures": [
     {
       "id": "ch20-fig1",
-      "path": "assets/ch20-context.svg",
-      "status": "accepted"
+      "path": "chapter-20-menstrual-cycle-pregnancy.html#ch20-fig1",
+      "status": "integrated-pending-parent-ui-print",
+      "historical_revision_required_entry": {
+        "id": "ch20-fig1",
+        "path": "assets/ch20-context.svg",
+        "status": "revision-required"
+      },
+      "scope": "Whole immutable CC BY-NC-ND source gross surfaces only; attachment/perfusion geometry incomplete"
     },
     {
       "id": "ch20-fig2",
       "path": "assets/ch20-human-blastocyst.jpg",
-      "paired_diagram": "assets/ch20-fertilization.svg",
-      "status": "accepted"
+      "status": "observed-source-retained-pending-current-parent-print",
+      "historical_paired_diagram": "assets/ch20-fertilization.svg",
+      "scope": "Original hatching blastocyst image only; rejected paired cartoon removed from current reader"
     },
     {
       "id": "ch20-fig4",
-      "path": "assets/ch20-chorionic-villus-term.jpg",
-      "paired_diagram": "assets/ch20-placenta.svg",
-      "status": "accepted"
+      "path": "chapter-20-menstrual-cycle-pregnancy.html#ch20-fig4",
+      "status": "integrated-pending-parent-ui-print",
+      "historical_revision_required_entry": {
+        "id": "ch20-fig4",
+        "path": "assets/ch20-chorionic-villus-term.jpg",
+        "paired_diagram": "assets/ch20-placenta.svg",
+        "status": "revision-required"
+      },
+      "scope": "Bounded role only; see current caption and exact source records"
     },
     {
       "id": "ch20-fig6",
       "path": "assets/ch20-clocks.svg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch20-anim1",
       "path": "chapter-20-menstrual-cycle-pregnancy.html#ch20-anim1",
       "embedded_panel": "assets/ch20-mechanisms.html?mode=cycle",
       "print_fallback": "assets/ch20-cycle.svg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch20-anim2",
       "path": "chapter-20-menstrual-cycle-pregnancy.html#ch20-anim2",
-      "embedded_panel": "assets/ch20-mechanisms.html?mode=implantation",
-      "print_fallback": "assets/ch20-fertilization.svg",
-      "status": "accepted"
+      "status": "integrated-pending-parent-ui-print",
+      "historical_revision_required_entry": {
+        "id": "ch20-anim2",
+        "path": "chapter-20-menstrual-cycle-pregnancy.html#ch20-anim2",
+        "embedded_panel": "assets/ch20-mechanisms.html?mode=implantation",
+        "print_fallback": "assets/ch20-fertilization.svg",
+        "status": "revision-required"
+      },
+      "scope": "Bounded role only; see current caption and exact source records"
     },
     {
       "id": "ch20-anim3",
       "path": "chapter-20-menstrual-cycle-pregnancy.html#ch20-anim3",
-      "embedded_panel": "assets/ch20-mechanisms.html?mode=placenta",
-      "print_fallback": "assets/ch20-placenta.svg",
-      "status": "accepted"
+      "status": "integrated-pending-parent-ui-print",
+      "historical_revision_required_entry": {
+        "id": "ch20-anim3",
+        "path": "chapter-20-menstrual-cycle-pregnancy.html#ch20-anim3",
+        "embedded_panel": "assets/ch20-mechanisms.html?mode=placenta",
+        "print_fallback": "assets/ch20-placenta.svg",
+        "status": "revision-required"
+      },
+      "scope": "Bounded role only; see current caption and exact source records"
     },
     {
       "id": "ch20-anim4",
       "path": "chapter-20-menstrual-cycle-pregnancy.html#ch20-anim4",
-      "embedded_panel": "assets/ch20-mechanisms.html?mode=labor",
-      "print_fallback": "assets/ch20-labor.svg",
-      "status": "accepted"
+      "status": "integrated-pending-parent-ui-print",
+      "historical_revision_required_entry": {
+        "id": "ch20-anim4",
+        "path": "chapter-20-menstrual-cycle-pregnancy.html#ch20-anim4",
+        "embedded_panel": "assets/ch20-mechanisms.html?mode=labor",
+        "print_fallback": "assets/ch20-labor.svg",
+        "status": "revision-required"
+      },
+      "scope": "Bounded role only; see current caption and exact source records"
+    },
+    {
+      "id": "ch20-v2-observed-uterine-placental-motion",
+      "path": "chapter-20-menstrual-cycle-pregnancy.html#ch20-v2-observed-uterine-placental-motion",
+      "embedded_panel": "assets/ch20-v2-placental-mri-reference.html",
+      "status": "integrated-pending-parent-ui-print",
+      "scope": "Independent source-marked research MRI configurations, no pressure/flow/time conversion/labor claim"
     }
   ],
   "realistic_asset_gate": {
-    "status": "accepted",
-    "mode": "observed-reference-plus-schematic",
-    "scene_family": "Endocrine cycle, fertilization/implantation, term placental compartments and labor sequence",
-    "rationale": "Verified human hatching blastocyst light micrograph and human term-villus H&E supply directly relevant prepared appearance. Separate source-checked topology diagrams and controlled causal sequences preserve gamete/embryo locations and separate blood compartments without inventing photographic transport or labor timing.",
-    "appearance_references": [
-      "assets/ch20-human-blastocyst.jpg",
-      "assets/ch20-chorionic-villus-term.jpg"
-    ],
-    "mechanism_files": [
-      "assets/ch20-mechanisms.html",
-      "assets/ch20-mechanisms.js"
-    ],
-    "report_path": "work/browser/ch20-visual-modality.json",
-    "report_sha256": "d9fb2ac5c82b23dce4630d330f2d8a6114e5def46370858f14a510dd0d360d59"
+    "status": "incomplete",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "current": false
   },
   "quality": {
-    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
-    "browser": "Actual root current reader and all18 selectable phases across4controlled modes, live placental exchange playback/Pause, settled reduced-motion pause, desktop/390px/650px and keyboard panning, 16-page browser print proof",
+    "scientific_reviews": "Historical chapter prose reviews retained; new bounded source/model reports under work/visual-v2/ch18–21; current parent review pending.",
+    "browser": "Pending actual root UI/print on the new canonical bytes; earlier production/browser reviews are historical.",
     "coverage": "All36 L46–47 topics dispositioned using full captions and attributed bounded source still audit; exactly two actual independent full reviews and targeted union repair checks."
   },
-  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
   "author_report": "work/ch20-author-report.md",
   "research_ledger": "work/ch20-research-ledger.md",
   "production_validation": {
-    "report_path": "work/browser/ch20-production-final.json",
-    "report_sha256": "56264a4219c7062730656ef78d3e0149cd3dab5e5c454f1dbebb9b181f125761",
-    "scope": "Actual root current reader and all18 selectable phases across4controlled modes, live placental exchange playback/Pause, settled reduced-motion pause, desktop/390px/650px and keyboard panning, 16-page browser print proof"
+    "status": "pending",
+    "scope": "New canonical reader UI/print and source review; no actual browser claim inherited"
   },
   "limitations": [
     "Publisher captions and sampled slides are partial source evidence, not continuous audio/video.",
     "The two micrographs are static prepared observations at distinct developmental stages; neither proves live dynamics or transport rates.",
     "Controlled diagrams show conceptual order and compartment topology, not measured velocities, hormone concentrations or fetal outcomes.",
-    "Due dates and urine assay thresholds in code are synthetic teaching examples, not individual clinical advice."
+    "Due dates and urine assay thresholds in code are synthetic teaching examples, not individual clinical advice.",
+    "2026-11-09: newly integrated observed fields/quantitative labs cover bounded roles only. Duct/HPG/reflex, implantation, complete placental/birth geometry and contraceptive/PID mechanisms are not supplied by nearby specimens; current visual coverage remains incomplete."
   ],
   "lab": {
     "path": "code/ch20_timeline.py",
@@ -630,9 +704,53 @@
     }
   ],
   "coverage_basis": "All36 L46–47 topics dispositioned using full captions and attributed bounded source still audit; exactly two actual independent full reviews and targeted union repair checks.",
-  "accepted_at_utc": "2026-11-05T04:01:35.628Z",
+  "accepted_at_utc": null,
   "public_acceptance": {
     "path": "validation/acceptance/chapter-20.json",
-    "sha256": "75d2af96c56b5425877dc4eb85041e9083722bd5e0e256b88b2cda779ebae2f9"
-  }
+    "sha256": "75d2af96c56b5425877dc4eb85041e9083722bd5e0e256b88b2cda779ebae2f9",
+    "current": false,
+    "scope": "Historical record only; new reader acceptance incomplete"
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "incomplete",
+    "date": "2026-11-09",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false,
+    "visual_coverage_complete": false,
+    "reader_scope": "Bounded independently source-reviewed observed/quantitative roles integrated; actual parent/gallery UI and print pending, broader mechanisms remain incomplete",
+    "snapshot": "work/visual-v2/ch19/reader-freeze/snapshot-v4.json",
+    "css_dependency_repair": "2026-11-09; standalone bodies/science/source unchanged, malformed inherited CSS repaired; parent HTML unchanged",
+    "gross_mri_integration": "Bounded gross surfaces and independent pretermMRI source observations; complete anatomical/perfusion/birth roles not covered"
+  },
+  "prior_visual_gate": {
+    "status": "accepted",
+    "mode": "observed-reference-plus-schematic",
+    "scene_family": "Endocrine cycle, fertilization/implantation, term placental compartments and labor sequence",
+    "rationale": "Verified human hatching blastocyst light micrograph and human term-villus H&E supply directly relevant prepared appearance. Separate source-checked topology diagrams and controlled causal sequences preserve gamete/embryo locations and separate blood compartments without inventing photographic transport or labor timing.",
+    "appearance_references": [
+      "assets/ch20-human-blastocyst.jpg",
+      "assets/ch20-chorionic-villus-term.jpg"
+    ],
+    "mechanism_files": [
+      "assets/ch20-mechanisms.html",
+      "assets/ch20-mechanisms.js"
+    ],
+    "report_path": "work/browser/ch20-visual-modality.json",
+    "report_sha256": "d9fb2ac5c82b23dce4630d330f2d8a6114e5def46370858f14a510dd0d360d59"
+  },
+  "visual_coverage_complete": false,
+  "prior_reader_validation_binding": {
+    "html_sha256": "3c61c5e3dc1104fa95c0440ef74358bd2f0dfaf66e00081c26d97efdab36af9a",
+    "body_sha256": "b88411192ec3b3b9e25b10e69cb179fc29194e47cb14f7300c9c4b4f0477ca54",
+    "reviews": "Existing reviews/reviewed_artifacts and prior acceptance retained unchanged as historical records; not new-reader proof",
+    "production_validation": {
+      "report_path": "work/browser/ch20-production-final.json",
+      "report_sha256": "56264a4219c7062730656ef78d3e0149cd3dab5e5c454f1dbebb9b181f125761",
+      "scope": "Actual root current reader and all18 selectable phases across4controlled modes, live placental exchange playback/Pause, settled reduced-motion pause, desktop/390px/650px and keyboard panning, 16-page browser print proof"
+    }
+  },
+  "prior_accepted_at_utc": "2026-11-05T04:01:35.628Z"
 }

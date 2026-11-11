@@ -1,7 +1,7 @@
 {
   "chapter": 18,
   "title": "Male reproduction and spermatogenesis",
-  "status": "accepted",
+  "status": "revised",
   "coverage_complete": true,
   "source_recordings": [
     41,
@@ -332,7 +332,7 @@
       "disposition": "Answer impairedSertoli support/inhibin activity conditionally: impaired germ support,FSH disinhibition if other influences intact, no obligatoryLH/testosterone direction. Toy counterexample isolatesb froma; no implied Leydig destruction. Full captions through23:48 closing read."
     }
   ],
-  "body_sha256": "6d4751c253d6ec7c93bb868fd6a256015efd0ef368abf56d4f2891c0521fa603",
+  "body_sha256": "3fff30e6b668ff80242453990cf424a0a117f7b27e1c6261f682be5dcbc955f2",
   "body_hash_definition": "SHA256 of exact raw bytes strictly between unique BEGIN/END CHAPTER BODY markers; all newlines retained, no trim or DOM normalization.",
   "reviewed_artifacts": [
     {
@@ -406,7 +406,42 @@
     "assets/ch18-rabbit-testis.jpg": "e3a57d4480b9a468600a280e7b687cd7f1d6b49ef1589e4a9a547f2140ebd8ad",
     "assets/ch18-routes.svg": "00a1519f856f044c9d26e7ba851d673d3b4c0e7d4b597aa9cd1717f7c1ec00d7",
     "assets/ch18-stages.svg": "a816a99da63d8dfb7d9e6c825ed57f1d54987bb2b8696d5600d7749feeb866b0",
-    "code/ch18_reproduction.py": "8b9619ba84e0d11e6315995d105628b69c370ffc1b43f9887f6d08cb6c7d085f"
+    "code/ch18_reproduction.py": "8b9619ba84e0d11e6315995d105628b69c370ffc1b43f9887f6d08cb6c7d085f",
+    "assets/ch18-v2-regional-mri-sources.json": "a9120a094496a4ec6434ce64bc11ced8a471d4439635b8bb4b403aa8750838ff",
+    "assets/ch18-v2-regional-mri-penile-a.png": "303aebe406bef818e85bfb2835e7417fece7616256cd84bf598668d851be3756",
+    "assets/ch18-v2-regional-mri-scrotal-a.jpg": "cc98388e28f7322cab776f325e138dc071c4e78e13fdd61e8d87296625f2616d",
+    "assets/ch18-v2-regional-mri-reference.html": "ae269fff1167dd154ecb5f365b8d1a8ca49e19c638f09963537a9f04c4d77536",
+    "figures/ch18_regional_mri_v2.template.html": "ae269fff1167dd154ecb5f365b8d1a8ca49e19c638f09963537a9f04c4d77536",
+    "figures/ch18_regional_mri_v2.py": "a3e37f78c1e499a3b705a434cc2fc895cdc842ee68db95422db54dde567fc95d",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "assets/ch18-v2-regional-mri-provenance.json": "dfac0032205f96c795d1c991d62b1a94bc7aef2659aad83c7a4583b6774196be",
+    "assets/ch18-v2-testis-observed-ab.png": "df018bdd5d98dacc1e3210fc5964a6d16be4f712cfe0702c789a6605c9983e82",
+    "assets/ch18-v2-testis-observed-sources.json": "e374b8abfeb4faca038767e9f62e534c973a07283e21167942106e7df206d4c7",
+    "figures/ch18_testis_observed_v2.template.html": "53b2646751a38480aed654f3cc5b02dc6e53fc5c96f963385f7ed81234379ba9",
+    "assets/ch18-v2-testis-observed-reference.html": "53b2646751a38480aed654f3cc5b02dc6e53fc5c96f963385f7ed81234379ba9",
+    "figures/ch18_testis_observed_v2.py": "8cb6ba25bb81a3397a77ff4aa5f833da21d302ea18b72fe88828c176b6352f67",
+    "assets/ch18-v2-testis-observed-provenance.json": "c5087cf87dcebaa0359676176993b5d5ea1b51378db3393efd7247fe979b946f",
+    "assets/ch18-v2-meiosis-reference.html": "89803481d77daacfe1008c69d71eb437b09b45ed02e9a42d24926595dc6c4c56",
+    "figures/ch18_meiosis_inventory_v2.template.html": "89803481d77daacfe1008c69d71eb437b09b45ed02e9a42d24926595dc6c4c56",
+    "figures/ch18_meiosis_inventory_v2.py": "59d75139d591328057a1a2809927de10c86cdc1531c5da153bcb6e462936e21b",
+    "assets/ch18-v2-meiosis-sources.json": "41cf4ffc122e8cda9b74f5814914146bae02408b7e3f570d9fe545caac8dfb6f",
+    "assets/ch18-v2-meiosis-model.js": "127c019a4ed090fc124f15640c8f04902b75b67ddf6a523ed50e2400b9ec5cee",
+    "assets/ch18-v2-meiosis-controls.js": "78bb54f9d0391597effa5a83116c3da179e1f670d86675d9100dfde75faa43d2",
+    "assets/ch18-v2-meiosis-provenance.json": "f2b54d82f63362c8ae2f24d690efb959a50fff509c4cf995b8c10ce93de92e87",
+    "assets/ch18-v2-sperm-observed-reference.html": "92bd5c07bc9629f6262d93ad07994b032d2d7fe006c02dae0e9129846fb2b2d8",
+    "figures/ch18_sperm_observed_v2.template.html": "92bd5c07bc9629f6262d93ad07994b032d2d7fe006c02dae0e9129846fb2b2d8",
+    "figures/ch18_sperm_observed_v2.py": "c7c0e0ada7d45fcdb7f14d6ae11f107e6939ec8d27cf2f38d5aad6c7b41ef47b",
+    "assets/ch18-v2-sperm-observed-sources.json": "6cdbd62fdcb39a1cc75e4ff09088e914e6e1a960cd79a4076aa23e8781a196e0",
+    "assets/ch18-v2-sperm-observed-movie.webm": "06f95e64379c71cf24cb5116cee55e4addf91203fc6d97aa4c723dda54631ba9",
+    "assets/ch18-v2-sperm-observed-rgb-proof.json": "928952001ca1d9621147ff9c72ad4ff13c85ee692a3e2a2282e09db4968a32ce",
+    "assets/ch18-v2-sperm-observed-frame-0050.png": "2d43f9d1569f99eaa72d99840b6733235355d794de2471b4296aa432ac055e09",
+    "assets/ch18-v2-sperm-observed-frame-0087.png": "108a067a835046f7a1caf058afc36cc48f9678abd7441cde4fd0de7286637d26",
+    "assets/ch18-v2-sperm-observed-frame-0174.png": "c589c47d6f75c412d564453ffcd32c623f6c25bcd8768ecc87cca963db86122f",
+    "assets/observed-video-controls.css": "55144b39d16e8f1096f0cf1d534c817076d1b8c1e137320291f9e8a46b852c9b",
+    "assets/observed-video-controls.js": "1136584777fdb340619dab2527e02e647c95d12fa4a5d8af847148a60f42341f",
+    "assets/ch18-v2-sperm-observed-provenance.json": "bacd09d73c0138901b8db14bcba2b4814dd3a7a1168ca4d4b31a02b69fe71e4c",
+    "chapter-18-male-reproduction-spermatogenesis.html": "4d74af8994c8f7b3aec95b33005f88746c6706484ee61ebc9c7222b58036f45f"
   },
   "reviews": [
     {
@@ -479,24 +514,42 @@
   "figures": [
     {
       "id": "ch18-fig1",
-      "path": "assets/ch18-context.svg",
-      "status": "accepted"
+      "path": "chapter-18-male-reproduction-spermatogenesis.html#ch18-fig1",
+      "status": "integrated-pending-parent-ui-print",
+      "historical_revision_required_entry": {
+        "id": "ch18-fig1",
+        "path": "assets/ch18-context.svg",
+        "status": "revision-required"
+      },
+      "scope": "Bounded role only; see current caption and exact source records"
     },
     {
       "id": "ch18-tissue",
-      "path": "assets/ch18-rabbit-testis.jpg",
-      "status": "accepted"
+      "path": "chapter-18-male-reproduction-spermatogenesis.html#ch18-tissue",
+      "status": "integrated-pending-parent-ui-print",
+      "historical_revision_required_entry": {
+        "id": "ch18-tissue",
+        "path": "assets/ch18-rabbit-testis.jpg",
+        "status": "revision-required"
+      },
+      "scope": "Bounded role only; see current caption and exact source records"
     },
     {
       "id": "ch18-ultrastructure",
       "path": "assets/ch18-bovine-sperm-tem.jpg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch18-anim1",
       "path": "chapter-18-male-reproduction-spermatogenesis.html#ch18-anim1",
-      "embedded_panel": "assets/ch18-mechanisms.html?mode=stages",
-      "status": "accepted"
+      "status": "integrated-pending-parent-ui-print",
+      "historical_revision_required_entry": {
+        "id": "ch18-anim1",
+        "path": "chapter-18-male-reproduction-spermatogenesis.html#ch18-anim1",
+        "embedded_panel": "assets/ch18-mechanisms.html?mode=stages",
+        "status": "revision-required"
+      },
+      "scope": "Bounded role only; see current caption and exact source records"
     },
     {
       "id": "ch18-anim2",
@@ -505,10 +558,63 @@
       "equivalent_views": [
         "assets/ch18-mechanisms.html?mode=feedback"
       ],
-      "status": "accepted"
+      "status": "revision-required"
+    },
+    {
+      "id": "ch18-v2-observed-motility",
+      "path": "chapter-18-male-reproduction-spermatogenesis.html#ch18-v2-observed-motility",
+      "embedded_panel": "assets/ch18-v2-sperm-observed-reference.html",
+      "status": "integrated-pending-parent-ui-print",
+      "scope": "Bounded observed artificial-dish motility"
     }
   ],
   "realistic_asset_gate": {
+    "status": "incomplete",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "current": false
+  },
+  "quality": {
+    "scientific_reviews": "Historical chapter prose reviews retained; new bounded source/model reports under work/visual-v2/ch18–21; current parent review pending.",
+    "browser": "Pending actual root UI/print on the new canonical bytes; earlier production/browser reviews are historical.",
+    "coverage": "All26 assigned L41–42 topics and both closing activities disposed; full publisher captions; bounded6contact sheets92sampled stills plus16native frame repeats, not continuous video/audio."
+  },
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
+  "author_report": "work/ch18-author-report.md",
+  "research_ledger": "work/ch18-research-ledger.md",
+  "production_validation": {
+    "status": "pending",
+    "scope": "New canonical reader UI/print and source review; no actual browser claim inherited"
+  },
+  "limitations": [
+    "n/C table reports completed euploid states; no literal chromosome count from drawn one-pair glyphs or human stage kinetics.",
+    "Cohort attrition and equilibrium parameters are synthetic; separate feedback loops omit steroid influence onFSH and all temporal dynamics, no patient model.",
+    "Observed rabbit/bovine images are prepared cross-species references with unverified physical scale, not human sperm/tissue trajectories.",
+    "Forensic fructose specificity unverified; chemical/DNA findings do not alone establish consent/assault.",
+    "No uniform risk coefficient or causal magnitude verified for every named exposure/lifestyle factor; clinical descriptions are conceptual, no dose/diagnostic algorithm.",
+    "2026-11-09: newly integrated observed fields/quantitative labs cover bounded roles only. Duct/HPG/reflex, implantation, complete placental/birth geometry and contraceptive/PID mechanisms are not supplied by nearby specimens; current visual coverage remains incomplete."
+  ],
+  "coverage_basis": "All26 assigned L41–42 topics and both closing activities disposed; full publisher captions; bounded6contact sheets92sampled stills plus16native frame repeats, not continuous video/audio.",
+  "accepted_at_utc": null,
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-18.json",
+    "sha256": "5d09ac7c78a565e7f3a6ca8f5a9816ddebe0a4d611d7b974b4fdf5391056d85f",
+    "current": false,
+    "scope": "Historical record only; new reader acceptance incomplete"
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "incomplete",
+    "date": "2026-11-09",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false,
+    "visual_coverage_complete": false,
+    "reader_scope": "Bounded independently source-reviewed observed/quantitative roles integrated; actual parent/gallery UI and print pending, broader mechanisms remain incomplete",
+    "snapshot": "work/visual-v2/ch19/reader-freeze/snapshot-v4.json",
+    "css_dependency_repair": "2026-11-09; standalone bodies/science/source unchanged, malformed inherited CSS repaired; parent HTML unchanged"
+  },
+  "prior_visual_gate": {
     "status": "accepted",
     "mode": "observed-reference-plus-schematic",
     "scene_family": "Seminiferous tissue, germ-cell chromosome/DNA states, reproductive ducts and endocrine feedback",
@@ -524,30 +630,16 @@
     "report_path": "work/browser/ch18-visual-modality.json",
     "report_sha256": "f9a6b688b8ae03d33b7204a97310a1369c68ed17330f3b567e9847914c71c24f"
   },
-  "quality": {
-    "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
-    "browser": "Actual root current reader, three controlled views, all six completed cell states, selected duct/hormone cases, active playback and reduced-motion pause, desktop/650px/390px access, print generation and 22-page PDF inspection",
-    "coverage": "All26 assigned L41–42 topics and both closing activities disposed; full publisher captions; bounded6contact sheets92sampled stills plus16native frame repeats, not continuous video/audio."
+  "visual_coverage_complete": false,
+  "prior_reader_validation_binding": {
+    "html_sha256": "8610341139180c3d95f889d4dcb648d70ab00d30bb72d0a169da0f94b520078e",
+    "body_sha256": "6d4751c253d6ec7c93bb868fd6a256015efd0ef368abf56d4f2891c0521fa603",
+    "reviews": "Existing reviews/reviewed_artifacts and prior acceptance retained unchanged as historical records; not new-reader proof",
+    "production_validation": {
+      "report_path": "work/browser/ch18-production-final.json",
+      "report_sha256": "d8c1febcf9d6fb09bad12a6a572f7f0617c7d245822ded0fcd7b733dd4d77606",
+      "scope": "Actual root current reader, three controlled views, all six completed cell states, selected duct/hormone cases, active playback and reduced-motion pause, desktop/650px/390px access, print generation and 22-page PDF inspection"
+    }
   },
-  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
-  "author_report": "work/ch18-author-report.md",
-  "research_ledger": "work/ch18-research-ledger.md",
-  "production_validation": {
-    "report_path": "work/browser/ch18-production-final.json",
-    "report_sha256": "d8c1febcf9d6fb09bad12a6a572f7f0617c7d245822ded0fcd7b733dd4d77606",
-    "scope": "Actual root current reader, three controlled views, all six completed cell states, selected duct/hormone cases, active playback and reduced-motion pause, desktop/650px/390px access, print generation and 22-page PDF inspection"
-  },
-  "limitations": [
-    "n/C table reports completed euploid states; no literal chromosome count from drawn one-pair glyphs or human stage kinetics.",
-    "Cohort attrition and equilibrium parameters are synthetic; separate feedback loops omit steroid influence onFSH and all temporal dynamics, no patient model.",
-    "Observed rabbit/bovine images are prepared cross-species references with unverified physical scale, not human sperm/tissue trajectories.",
-    "Forensic fructose specificity unverified; chemical/DNA findings do not alone establish consent/assault.",
-    "No uniform risk coefficient or causal magnitude verified for every named exposure/lifestyle factor; clinical descriptions are conceptual, no dose/diagnostic algorithm."
-  ],
-  "coverage_basis": "All26 assigned L41–42 topics and both closing activities disposed; full publisher captions; bounded6contact sheets92sampled stills plus16native frame repeats, not continuous video/audio.",
-  "accepted_at_utc": "2026-11-05T02:05:57.232Z",
-  "public_acceptance": {
-    "path": "validation/acceptance/chapter-18.json",
-    "sha256": "5d09ac7c78a565e7f3a6ca8f5a9816ddebe0a4d611d7b974b4fdf5391056d85f"
-  }
+  "prior_accepted_at_utc": "2026-11-05T02:05:57.232Z"
 }

@@ -1,3 +1,7 @@
+# Current human-figure display (9 November 2026)
+
+The body hierarchy and plane lesson now display clothed anatomical sketches in place of unclothed photographic or rendered human figures. See [current sketch credits](ch01-v2-plane-credits.html) and [prompts/provenance](ch01-body-sketch-provenance.json). Historical source and render notices below are retained for provenance; they do not describe the current human-figure display.
+
 # Third-party visual and reader components
 
 This register describes the current development assets. It does not certify scientific or visual acceptance. Original schematics and explanatory text are separate from the referenced photographs and geometry.

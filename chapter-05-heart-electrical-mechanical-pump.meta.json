@@ -1,8 +1,8 @@
 {
   "chapter": 5,
   "title": "The heart as an electrical and mechanical pump",
-  "status": "accepted",
-  "coverage_complete": true,
+  "status": "revised",
+  "coverage_complete": false,
   "reviews": [
     {
       "reviewer_id": "/root/ch01_review_a",
@@ -64,7 +64,7 @@
     14
   ],
   "source_evidence": "Complete L13–14 caption texts and root-owned existing bounded source-visual audit: seven contact sheets and seven individual frames. Author reused audit without claiming continuous video/audio inspection.",
-  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, targeted repairs and separate actual browser/print checks.",
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
   "code": [
     "code/ch05_cardiac_cycle.py"
   ],
@@ -74,43 +74,62 @@
       "id": "ch5-fig1",
       "path": "chapter-05-heart-electrical-mechanical-pump.html#ch5-fig1",
       "figure_number": "5.1",
-      "status": "accepted",
-      "role": "Direct eager intrinsic HRA1200x1200 render and1988x2304 unmodified CC0 autopsy photograph; separate geometry/appearance roles and preparation/orientation limits.",
+      "status": "partial-observed-structure-candidate-review-pending",
+      "role": "Three unchanged Jakiel2025 fixedhumanautopsy photographs with originalauthor labels/bars andexternalkeys; independent anterior/opened/sectional regional views, no normal-livegeometry/valvephase. Old rejectedrender removed from canonical delivery, sourcefiles retainedhistorically.",
       "provenance": [
-        "assets/ch05-heart-render-provenance.json",
-        "assets/ch05-heart-reference-provenance.json"
-      ]
+        "assets/ch05-v2-structural-heart-provenance.json"
+      ],
+      "assets": [
+        "assets/ch05-v2-structural-heart-reference.html",
+        "assets/ch05-v2-structural-heart-figure1.png",
+        "assets/ch05-v2-structural-heart-figure2.png",
+        "assets/ch05-v2-structural-heart-figure4.png",
+        "assets/ch05-v2-structural-heart-figure4-panel-a.png",
+        "assets/ch05-v2-structural-heart-figure4-wall-measurements.png"
+      ],
+      "print_detail": "Source4A lower measurement region printed140mm; fullA remains web/native. Actual embedded label/bar legibility pending."
     },
     {
       "id": "ch5-fig2",
       "path": "chapter-05-heart-electrical-mechanical-pump.html#ch5-fig2",
       "figure_number": "5.2",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Original electrode-difference triangle and separate projection analogy; not anatomical placement or forward ECG field."
     },
     {
       "id": "ch5-anim1",
       "path": "assets/ch05-cardiac-lab.html?view=heart",
       "figure_number": "5.3",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Four-chamber topology with left-sided ideal-diode valve motion and flow markers only through actual designated apertures."
     },
     {
       "id": "ch5-anim2",
       "path": "assets/ch05-cardiac-lab.html?view=sync",
       "figure_number": "5.4",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Prescribed electrical timing/conduction annotations and synthetic ECG; mechanical pressure/flow/volume/valves share one analytic phase state."
     },
     {
       "id": "ch5-anim3",
       "path": "assets/ch05-cardiac-lab.html?view=regional",
       "figure_number": "5.5",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Route-reveal and fixed-pressure regional network with conserved portal+hepaticartery=liveroutflow; no measured transit time."
+    },
+    {
+      "id": "ch5-observed-cardiac-mri-support",
+      "path": "chapter-05-heart-electrical-mechanical-pump.html#ch5-observed-cardiac-mri",
+      "status": "partial-observed-motion-candidate-review-pending",
+      "role": "Unnumbered source volunteerMRI gatedrest67/real-timerest70/exercise131bpm separateconditions. Gatedphase reconstruction not onecontinuousbeat; official480p distribution not acquisitionnative; no EF/pressure/fullvalvecycle.",
+      "assets": [
+        "assets/ch05-v2-cardiac-observed-reference.html",
+        "assets/ch05-v2-cardiac-observed.mp4",
+        "assets/ch05-v2-cardiac-observed-frame-0000.png"
+      ]
     }
   ],
-  "body_sha256": "83f927b0e155b3f13c30cd56e8a1564ef2ed3c363583d6d769453e4e4c084e43",
+  "body_sha256": "bd15dedb177c7c9f00607df241463044301c373346541174f0af2981d23b8476",
   "body_digest_convention": "SHA256 of raw bytes strictly between exact body markers, preserving enclosed line endings",
   "quality": {
     "scientific_reviews": "Two actual independent full reviews plus targeted current-digest approvals",
@@ -125,9 +144,12 @@
     "Ideal fixed pressure reservoirs and diode valves omit arterial compliance, closing dynamics, regurgitation, closed-loop redistribution and shunts.",
     "ECG is synthetic illustrative timing, not measured data or a solved electrical/ECG forward model.",
     "Regional animation is a route-reveal sequence with independent steady fixed-pressure network, not physiological parcel transit.",
-    "Actual HRA and photograph donors/views are different, unregistered; orientation landmark-inferred, source seams/openends and absent fat geometry retained.",
+    "Fixed10%formaldehyde2monthhumanautopsy views have no source-proven sameindividualregistration; onlyFig1 anterior certified. Different MRIvolunteer and protocolscannotregister tospecimenphotos orsyntheticcycle.",
     "No current numerical BP diagnostic bands, fetalreferencevalues, prescribinghierarchy, dosing or treatment algorithm supplied.",
-    "Failed initial NCBI/PMC opens not treated as full reads; successful alternate/owning endpoints individually disclosed."
+    "Failed initial NCBI/PMC opens not treated as full reads; successful alternate/owning endpoints individually disclosed.",
+    "ActualTV bitmaplabel versus captionRAVV retained as tricuspid/rightAV synonym; absent white roughnessarrow notinvented. Fixedleafletpositions not live systole/diastole.",
+    "CardiacMRI threeconditions notsynchronous, leftgatedcinephase composite notisolatedbeat;25encodedfps/file7.6s not acquisitiontime. Official480p rendition/sourcepanelresolution limited.",
+    "Observedregionalanatomy and cavitywallmotion do not waive fullcardiac/conduction/valvemechanism/coronary gaps or validate old schematic animation anatomy."
   ],
   "reviewed_artifacts": [
     {
@@ -181,5 +203,92 @@
   "public_acceptance": {
     "path": "validation/acceptance/chapter-05.json",
     "sha256": "65502b6ba1499cb5491fa524ac9811f7e66c697f9a95533f120652c909197509"
-  }
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "local-fixed-structure-and-independent-cardiac-mri-integration-pending-review",
+    "date": "2026-11-09",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false,
+    "integration_report": "work/visual-v2/ch05/integration/HANDOFF.md",
+    "pending": [
+      "Independent current structure/source-label/timing and appearance/teaching review",
+      "Root standalone and canonical desktop650390/nativeFit/End/playback/focus and actualPDF label/bar/key/sourcecredit/pagebreak proof",
+      "Allfourcompletechambers and equivalentmitral/aorticvalve detail; complete coronarytree remain unfilled",
+      "Livevalveopening/closure/pressure-driven mechanism and conduction/electromechanical registration not supplied by fixedphotos or shortaxismovie",
+      "Existing cardiac/conduction/regional schematic anatomical modes remain revision-required; exact quantitative models preserved"
+    ],
+    "print_detail_repair": {
+      "date": "2026-11-09",
+      "report": "work/visual-v2/ch05/print-detail-repair/HANDOFF.md",
+      "trigger": "B current-print-heart-vascular-ch08-independent.md: fullA at97mm failed original W/M/E/5mm glyph readability",
+      "figure": "5.1 / source4A lower detail",
+      "source_rect_xyxy": [
+        165,
+        830,
+        805,
+        1680
+      ],
+      "source_dimensions": [
+        1890,
+        1692
+      ],
+      "crop_dimensions": [
+        640,
+        850
+      ],
+      "print_width_mm": 140,
+      "print_height_mm": 185.9375,
+      "ppi": 116.11428571428571,
+      "fullA_web_retained": true,
+      "fullFigure4_context_retained": true,
+      "operations": "Exact pixel crop only; no resampling/retouch/repaint/new bar or label endpoints. New print-only detail replaces previous fullA print, not an addedplate.",
+      "source_limited_exception": "116.1ppi enlargement deliberately permits larger original source glyphs; source dimensions do not certify optical resolution or actual print legibility.",
+      "pending": "Root actual standalone/canonical PDF pagination and B physical-size embedded glyph/key/bar/credit review; no V11 acceptance."
+    },
+    "print_detail_repair_history": [
+      {
+        "date": "2026-11-09",
+        "report": "work/visual-v2/ch05/structural-heart-layout/print-repair/HANDOFF.md",
+        "figure": "5.1 / source4A",
+        "source_rect_xyxy": [
+          0,
+          0,
+          811,
+          1692
+        ],
+        "print_width_mm": 97,
+        "print_height_mm": 202.3723797780518,
+        "ppi": 212.36494845360824,
+        "pending": "Root actual fifth blank page found after readable detail; trailing break-after removed. Root/B reprint pagination proof pending."
+      }
+    ],
+    "current_body_sha256": "7a941377aee10855b03de1803b00be7d180dd86a9e522bb23a68d72c32784520"
+  },
+  "realistic_asset_gate": {
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
+  },
+  "current_chapter_sha256": "eef63fcb6708cb55c56208f3f91ebdfe26ffa7297495e1ac7f8498348501ae46",
+  "review_history_scope": "Historical reviews/reviewed_artifacts/production_validation/accepted_at_utc/public_acceptance bind prior hashes only; they do not accept current visual-v2 chapter bytes.",
+  "current_visual_artifacts": {
+    "assets/ch05-v2-structural-heart-figure1.png": "630df684fc68688f0cced7bdb9c94b9009bf6eb8051ddd3421622da6574ae9d4",
+    "assets/ch05-v2-structural-heart-figure2.png": "d66cf3bdabb1d7d07a2e0b961232f23c797785f776f3801fca3b293f99130d51",
+    "assets/ch05-v2-structural-heart-figure4.png": "b0156a50488d06452cc3cfe74ef315187c1b83a475613210570e571739fc35b3",
+    "assets/ch05-v2-structural-heart-provenance.json": "f34b3bfc8f399aa95cc6658eebdebee0eabfaaab55f5bc6039aec1dfa783e0c9",
+    "assets/ch05-v2-structural-heart-reference.html": "041a7c932f430017e86981e4e512a3ee87f69d03be9501c48737d1e636b54598",
+    "assets/ch05-v2-structural-heart-sources.json": "68b4283a10faff8d93789aeba23a22e77593cf401183e7ebc0b303b115bbfe7c",
+    "assets/ch05-v2-cardiac-observed-frame-0000.png": "ca834e2cd320f19426e1100c1463fbea8e7307891cd7641eadb7e8602f4d8774",
+    "assets/ch05-v2-cardiac-observed-provenance.json": "c8daa70e9b70c8bdc5705c085e6db84086953fbb1d2d75ce687b25ea6146257b",
+    "assets/ch05-v2-cardiac-observed-reference.html": "d7840e0d496b4f6c926343555480265668ee54d40c550a3eb0a99bad28fbee76",
+    "assets/ch05-v2-cardiac-observed-sources.json": "132900ce6908c4ec0ea127210831f7e68592c87558331169a530e1fb5364f951",
+    "assets/ch05-v2-cardiac-observed.mp4": "b641c8ee613d4d381264f2c5832c9fdc32bca73e10a053124add1cb663abd34c",
+    "assets/ch05-v2-structural-heart-figure4-panel-a.png": "d67b58a5c90632b3d8c5407ef331fac94c9cad72ba1b0c73cfd14c4513963082",
+    "figures/ch05_structural_heart_v2.py": "5dbd700799ddf2228d6f59b9fc4e0c13cb20d697abc4dd4dc9f7819f8b36c860",
+    "figures/ch05_structural_heart_v2.template.html": "041a7c932f430017e86981e4e512a3ee87f69d03be9501c48737d1e636b54598",
+    "assets/ch05-v2-structural-heart-figure4-wall-measurements.png": "f6d198d25cd0ef4d38ec2cfab89ae806d09669b55c5bb2fe4529b18ecfd3992d"
+  },
+  "current_body_sha256": "7a941377aee10855b03de1803b00be7d180dd86a9e522bb23a68d72c32784520"
 }

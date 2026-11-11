@@ -1,0 +1,148 @@
+{
+  "status": "PROVISIONAL partial observation; S1 transport retired after failed appearance review; full airway/mucus coverage pending",
+  "date": "2026-11-09",
+  "sources": [
+    {
+      "id": "sem",
+      "file": "ch07-v2-cilia-bronchus-sem.jpg",
+      "sha256": "2e6f3920b5e716c7ea890da3c01c2a9ec3d176b18ab5e943f3465fac212fdeff",
+      "dimensions": [
+        2900,
+        3657
+      ],
+      "owning_url": "https://wellcomecollection.org/works/e33svu68",
+      "download_url": "https://iiif.wellcomecollection.org/image/B0000713/full/full/0/default.jpg",
+      "accession": "B0000713",
+      "creator": "David Gregory & Debbie Marshall",
+      "rights": "CC BY4.0 at owning image location",
+      "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+      "specimen": "Bronchial ciliated columnar epithelium, SEM; species/donor/clinical status/exact preparation unreported",
+      "source_scale": "Original instrument bar labelled10.0µ; source footer retained; no added scale or measurements",
+      "operation": "Whole original native JPEG bytes unchanged; no crop/rotation/recolour/contrast adjustment."
+    },
+    {
+      "id": "beating",
+      "file": "ch07-v2-cilia-beating.webm",
+      "owning_url": "https://www.nature.com/articles/s41598-020-64695-w",
+      "doi": "10.1038/s41598-020-64695-w",
+      "creator": "Gsell, Loiseau, D’Ortona, Viallat & Favier (2020)",
+      "rights": "CC BY4.0; author supplementary movie with no separate exclusion found",
+      "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+      "movie": "S2",
+      "download_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-020-64695-w/MediaObjects/41598_2020_64695_MOESM2_ESM.avi",
+      "supplement_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-020-64695-w/MediaObjects/41598_2020_64695_MOESM6_ESM.pdf",
+      "specimen": "MucilAir reconstituted human primary bronchial epithelium at air-liquid interface;6mm Transwell; donor age/sex/clinical status unreported",
+      "imaging": "Brightfield Nikon Eclipse Ti20x/LumineraInfinity,37C humidified5%CO2",
+      "calibration": "Sourcebars20µm; no new bar",
+      "timing": "S2 source2.5s acquired100frames40fps;export5sat20fps~half-speed. Panelsinitial/+24h withmucus/+3daysaftermucuswash,notcontinuousdayssequence",
+      "poster_frame_index_zero_based": 50,
+      "acquisition_boundary": "Original AVI separately acquired and retained immutable in private research. Validated browser derivative, source poster and proof are public immutable composition inputs; no private original or network required on rebuild.",
+      "original_sha256": "c8bf7fe21ac3e784f866e1a78464365b5cc90691a88d516a9182cbfda401c932",
+      "original_file_storage": "Immutable original AVI retained separately in private research; composition requires only public derivative, poster and proof.",
+      "sha256": "a2fd308a9cc1ac24b82bb242c98451eb5bec4572671a5c7a3732d3b936a69750",
+      "derivative": "Lossless VP9 profile1 full-range planarRGB, no crop/resampling/interpolation/colour grading; exact original frame order and publication cadence",
+      "proof_file": "ch07-v2-cilia-beating-rgb-proof.json",
+      "poster_file": "ch07-v2-cilia-beating-poster.png",
+      "poster_sha256": "66ccb5401effd1b60b832be360a59bf04238645e9ad067d9b5c55fe0592f8279",
+      "proof_sha256": "44e4d766858547dd4c4485980c21ce0a3b1a99e6621cced5b7c811315c3c6487",
+      "dimensions": [
+        1337,
+        344
+      ],
+      "frames": 100
+    }
+  ],
+  "purpose": "Prepared bronchial ciliated morphology and separate human-culture ciliary motion; no direct mucus-transport demonstration or continuous whole-airway zoom.",
+  "scientific_limits": [
+    "SEM species/preparation/clinical context unreported; not assigned human",
+    "Reconstituted human bronchial ALI culture is not normal intact airway",
+    "S2 acquired2.5s at40fps, delivered5s at20fps; separate panels at initial,+24h,and3days after mucus wash",
+    "The retired S1 movie failed intended-size mucus-transport legibility and is absent from the reader. S2 does not replace that transport evidence.",
+    "No synthetic anatomical direction, periciliary thickness, normal clearance rate or causal hydrodynamic-mechanism proof"
+  ],
+  "operations": "Whole SEM original unchanged; validated lossless S2 browser movie and original decoded-frame poster copied unchanged. Failed S1 assets retained in private quarantine, not a reader dependency. No anatomical overlays/crops/resampling or invented clocks.",
+  "movie_verification": {
+    "beating": {
+      "all_frames_rgb_equal": true,
+      "frames": 100,
+      "proof": "ch07-v2-cilia-beating-rgb-proof.json",
+      "poster": {
+        "frame_index_zero_based": 50,
+        "dimensions": [
+          1337,
+          344
+        ],
+        "rgb_sha256": "0a1f9b2ef9e670670d1d76ef4ee33d2fe7ddec37e7e89bf201ce81cd5bcb6170",
+        "png_sha256": "66ccb5401effd1b60b832be360a59bf04238645e9ad067d9b5c55fe0592f8279",
+        "source_derivative_equal": true
+      },
+      "max_pts_rounding_s": 0.0,
+      "stream": {
+        "codec_name": "vp9",
+        "profile": "Profile 1",
+        "width": 1337,
+        "height": 344,
+        "pix_fmt": "gbrp",
+        "color_range": "pc",
+        "color_space": "gbr",
+        "r_frame_rate": "20/1",
+        "avg_frame_rate": "20/1",
+        "time_base": "1/1000",
+        "nb_read_frames": "100",
+        "duration_s": 5.0
+      }
+    }
+  },
+  "print_candidate": {
+    "sem_width_mm": 100,
+    "sem_ppi": 736.6,
+    "S2_poster_width_mm": 160,
+    "S2_ppi": 212.24875,
+    "external_key_min_pt": 9.5,
+    "actual_pdf": "PENDING"
+  },
+  "reproduction": {
+    "builder": "figures/ch07_cilia_observed_v2.py",
+    "template": "figures/ch07_cilia_observed_v2.template.html",
+    "builder_sha256": "9db2537a47e0875d82c4665813572f649ab5375b56a9969efd70eecf40f92c12",
+    "template_sha256": "74af70ad5320b9590babafe85f7c4ad2708d03377aab1a7b32cb66d85ff28275",
+    "python": "3.13.5",
+    "pillow": "11.0.0",
+    "public_inputs": [
+      "ch07-v2-cilia-sources.json",
+      "ch07-v2-cilia-bronchus-sem.jpg",
+      "ch07-v2-cilia-beating.webm",
+      "ch07-v2-cilia-beating-rgb-proof.json",
+      "ch07-v2-cilia-beating-poster.png",
+      "observed-image-dialog.css",
+      "observed-image-dialog.js",
+      "observed-video-controls.js",
+      "observed-video-controls.css"
+    ],
+    "private_network_dependencies": "None for composition. Original AVI acquisition and lossless encoding are separately documented inputs, not silently repeated by the composer.",
+    "seed": "N/A; deterministic composition"
+  },
+  "verification": {
+    "immutable_input_hashes_and_poster_pixels": "PASS integrity only",
+    "all_movie_rgb_frames": "PASS pinned FFmpeg equality in linked records; no browser colour-management claim",
+    "browser_vp9_readyState_playback": "PENDING current S2-only retest",
+    "responsive_native_fit_pan_seek_focus": "PENDING",
+    "independent_anatomy_appearance": "PENDING",
+    "actual_print": "PENDING current S2-only retest",
+    "canonical_integration_release": "PENDING"
+  },
+  "shared_dependencies": {
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "observed-video-controls.js": "1136584777fdb340619dab2527e02e647c95d12fa4a5d8af847148a60f42341f",
+    "observed-video-controls.css": "55144b39d16e8f1096f0cf1d534c817076d1b8c1e137320291f9e8a46b852c9b"
+  },
+  "artifacts": {
+    "ch07-v2-cilia-sources.json": "2e1979df5e5a07b5de561ca97fbdca12c7d058cf72007e3bfeeef2d7cb9e7125",
+    "ch07-v2-cilia-bronchus-sem.jpg": "2e6f3920b5e716c7ea890da3c01c2a9ec3d176b18ab5e943f3465fac212fdeff",
+    "ch07-v2-cilia-beating.webm": "a2fd308a9cc1ac24b82bb242c98451eb5bec4572671a5c7a3732d3b936a69750",
+    "ch07-v2-cilia-beating-rgb-proof.json": "44e4d766858547dd4c4485980c21ce0a3b1a99e6621cced5b7c811315c3c6487",
+    "ch07-v2-cilia-beating-poster.png": "66ccb5401effd1b60b832be360a59bf04238645e9ad067d9b5c55fe0592f8279",
+    "ch07-v2-cilia-reference.html": "74af70ad5320b9590babafe85f7c4ad2708d03377aab1a7b32cb66d85ff28275"
+  }
+}

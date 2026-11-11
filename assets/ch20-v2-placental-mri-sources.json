@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-09",
+  "role": "Separate source-attributed regional uterine/placental configuration change; no measured blood-flow/pressure mechanism",
+  "primary": {
+    "authors": "Dellschaft et al.",
+    "doi": "10.1371/journal.pbio.3000676",
+    "year": 2020,
+    "rights": "CC BY4.0",
+    "xml_sha256": "60376fe225d9d7d6f8bbca04fd69cdfe4f4bd385876a5cd7508d775c06d20f05",
+    "source_data": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7255609.1/pbio.3000676.s012.xlsx?md5=dc56d26c194b440adbf2383c52b27e55"
+  },
+  "cases": [
+    {
+      "number": 1,
+      "case": "HC29",
+      "age_years": 23,
+      "gestational_age_weeks_days": "27+2",
+      "source_label": "Source-called Braxton Hicks example",
+      "movie": {
+        "file": "ch20-v2-placental-mri-movie-1.mp4",
+        "sha256": "8bd212937a34fb6d593fd164a8a000d56af907b9a6f2e7b183b2430497009a44",
+        "dimensions": [
+          668,
+          462
+        ],
+        "frames": 182,
+        "duration_seconds": 8.371663,
+        "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7255609.1/pbio.3000676.s013.mp4?md5=e522e3267de9eca4eaec3652bc384687",
+        "operations": "NONE: byte-identical complete original publisher H264 screen-recording export"
+      },
+      "stills": [
+        {
+          "file": "ch20-v2-placental-mri-HC29-frame-0000.png",
+          "frame_index": 0,
+          "sha256": "cd12874e9743409a91d19e09a5424fe376b52a0cc7c184da7749d645c8311f7e",
+          "dimensions": [
+            668,
+            462
+          ]
+        },
+        {
+          "file": "ch20-v2-placental-mri-HC29-frame-0090.png",
+          "frame_index": 90,
+          "sha256": "c4d4cfc31396726e1f0fd4106e79f9c206b331531ed515973292e41fb5bd2d9b",
+          "dimensions": [
+            668,
+            462
+          ]
+        },
+        {
+          "file": "ch20-v2-placental-mri-HC29-frame-0181.png",
+          "frame_index": 181,
+          "sha256": "1632b8cc66e678cfc0eabc4253e38362f285ad2404ad8dfaed131ead1c1fd3a0",
+          "dimensions": [
+            668,
+            462
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "case": "HC11",
+      "age_years": 35,
+      "gestational_age_weeks_days": "32+5",
+      "source_label": "Source-called utero-placental-pump example",
+      "movie": {
+        "file": "ch20-v2-placental-mri-movie-3.mp4",
+        "sha256": "724f36db8d4fbcaa7cfba32e54c6c96309d8047114415e1b85e577c4c168a4f1",
+        "dimensions": [
+          668,
+          462
+        ],
+        "frames": 173,
+        "duration_seconds": 7.561686,
+        "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7255609.1/pbio.3000676.s015.mp4?md5=cd725766d3770a6f3ad2830c93c4dd75",
+        "operations": "NONE: byte-identical complete original publisher H264 screen-recording export"
+      },
+      "stills": [
+        {
+          "file": "ch20-v2-placental-mri-HC11-frame-0000.png",
+          "frame_index": 0,
+          "sha256": "c15603dd2e011f2c6194f0de2ac1589efb8056a76bec7f6a851cf831d9683a4c",
+          "dimensions": [
+            668,
+            462
+          ]
+        },
+        {
+          "file": "ch20-v2-placental-mri-HC11-frame-0086.png",
+          "frame_index": 86,
+          "sha256": "4f4aa5a3ad3795b0affe1c3942842d8fbb3daf76b9de1df90f99e43fa58b11bd",
+          "dimensions": [
+            668,
+            462
+          ]
+        },
+        {
+          "file": "ch20-v2-placental-mri-HC11-frame-0172.png",
+          "frame_index": 172,
+          "sha256": "14187781e0441eb56fa2399fcdc085d1aa00de6a2b385cf9efd366a6b553c8cf",
+          "dimensions": [
+            668,
+            462
+          ]
+        }
+      ]
+    }
+  ],
+  "timing": {
+    "date": "2026-11-09",
+    "records": [
+      {
+        "movie": 1,
+        "frames": 182,
+        "strictly_increasing_best_effort_pts": true,
+        "first_last_pts_seconds": [
+          0.100016,
+          8.430013
+        ],
+        "minimum_maximum_interval_seconds": [
+          0.019938000000000233,
+          0.09000699999999995
+        ],
+        "decode_note": "All frames decoded. FFmpeg default null muxer printed DTS-rounding warnings; original fine-grained PTS retained separately, no retime or interpolation."
+      },
+      {
+        "movie": 3,
+        "frames": 173,
+        "strictly_increasing_best_effort_pts": true,
+        "first_last_pts_seconds": [
+          0.100016,
+          7.620036
+        ],
+        "minimum_maximum_interval_seconds": [
+          0.029948000000000086,
+          0.07006900000000016
+        ],
+        "decode_note": "All frames decoded. FFmpeg default null muxer printed DTS-rounding warnings; original fine-grained PTS retained separately, no retime or interpolation."
+      }
+    ],
+    "interpretation": "Variable-rate publication screen recording, not scanner acquisition cadence. No biological-time conversion."
+  },
+  "preparation": "Research MRI Philips3TIngenia, lateral decubitus; respiratory-gated minimum9s repetition/10min protocol plus oxygen challenge. Case-specific frame mapping unverified.",
+  "representation": "Publisher-distributed screen recordings668×462, not acquisition-native DICOM matrix; original watermark/contours/arrows retained. No tissue-colour key transplanted from differentFigure5case.",
+  "print_candidate": "Two complete independent case sheets; original frame0/middle/last with external source-case keys, actualPDFpending",
+  "acceptance": false
+}

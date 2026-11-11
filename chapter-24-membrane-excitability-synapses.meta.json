@@ -1,7 +1,7 @@
 {
   "chapter": 24,
   "title": "Membrane excitability and synaptic transmission",
-  "status": "accepted",
+  "status": "revised",
   "coverage_complete": true,
   "source_recordings": [
     56,
@@ -223,7 +223,7 @@
       "coverage_status": "located in author draft; independent review pending"
     }
   ],
-  "body_sha256": "601137d8bddf4a40b7c0dffb39486f8bd7ea96c1f58a503910789a2d39e2b743",
+  "body_sha256": "2ba990f1d32e8955c1b3c31ff88ed7059c238ecd9df39e7996c90a9384ddd118",
   "body_hash_definition": "Raw on-disk bytes between unique BEGIN/END CHAPTER BODY markers; no newline normalization",
   "artifact_sha256": {
     "assets/ch24-ap.svg": "a1e563f3f446927890e3fd918062836e8d30cef7cb63df373a526fb8666362fb",
@@ -251,48 +251,38 @@
       "path": "chapter-24-membrane-excitability-synapses.html#ch24-anim1",
       "embedded_panel": "assets/ch24-mechanisms.html?mode=rest",
       "print_fallback": "assets/ch24-rest.svg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch24-anim2",
       "path": "chapter-24-membrane-excitability-synapses.html#ch24-anim2",
       "embedded_panel": "assets/ch24-mechanisms.html?mode=ap",
       "print_fallback": "assets/ch24-ap.svg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch24-fig1",
       "path": "assets/ch24-context.svg",
-      "status": "accepted"
+      "status": "revision-required"
     },
     {
       "id": "ch24-anim3",
       "path": "chapter-24-membrane-excitability-synapses.html#ch24-anim3",
       "embedded_panel": "assets/ch24-mechanisms.html?mode=synapse",
       "print_fallback": "assets/ch24-synapse.svg",
-      "status": "accepted"
+      "status": "revision-required"
     }
   ],
   "realistic_asset_gate": {
-    "status": "accepted",
-    "mode": "conceptual-quantitative",
-    "scene_family": "Membrane voltage, Hodgkin–Huxley gating/conductance and synthetic RC synapses",
-    "rationale": "The central subject is quantitative state evolution and compartment topology. Controlled saved-state animations and shared plots expose voltage/current/gating relationships; arbitrary tissue photorealism would not validate a numerical law. Anatomy/kinetic limitations are explicit.",
-    "no_anatomical_appearance_claim": true,
-    "mechanism_files": [
-      "assets/ch24-mechanisms.html",
-      "assets/ch24-mechanisms.js",
-      "assets/ch24-model.json"
-    ],
-    "report_path": "work/browser/ch24-visual-modality.json",
-    "report_sha256": "7fda57f9a815f4d6e5d669ba53591d91ddf74bfec1f90b3e7b2455a7e75a24ea"
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
   },
   "quality": {
     "scientific_reviews": "Two actual independent full reviews bound to current content; targeted repairs checked where needed",
     "browser": "Actual agent CUA reader/control/motion/responsive/access checks plus independent root all-page print-contact and quantitative/topological visual assessment; exactly two original scientific reviews and bounded targets separately recorded",
     "coverage": "Complete L56–57 captions and29topic/closing dispositions, attributed bounded source still audit; exactly two actual independent full reviews and bounded union/domain/access checks. Root original HH52 table/rates and numerical comparison scope retained; no continuous lecture viewing claim."
   },
-  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
   "author_report": "work/ch24-author-report.md",
   "research_ledger": "work/ch24-research-ledger.md",
   "limitations": [
@@ -408,5 +398,58 @@
   "public_acceptance": {
     "path": "validation/acceptance/chapter-24.json",
     "sha256": "722381d2877ace230b3ec02e964b83dcb5ffddab88673797f399786aad448ea4"
-  }
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "reopened",
+    "date": "2026-11-08",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false
+  },
+  "prior_visual_gate": {
+    "status": "accepted",
+    "mode": "conceptual-quantitative",
+    "scene_family": "Membrane voltage, Hodgkin–Huxley gating/conductance and synthetic RC synapses",
+    "rationale": "The central subject is quantitative state evolution and compartment topology. Controlled saved-state animations and shared plots expose voltage/current/gating relationships; arbitrary tissue photorealism would not validate a numerical law. Anatomy/kinetic limitations are explicit.",
+    "no_anatomical_appearance_claim": true,
+    "mechanism_files": [
+      "assets/ch24-mechanisms.html",
+      "assets/ch24-mechanisms.js",
+      "assets/ch24-model.json"
+    ],
+    "report_path": "work/browser/ch24-visual-modality.json",
+    "report_sha256": "7fda57f9a815f4d6e5d669ba53591d91ddf74bfec1f90b3e7b2455a7e75a24ea"
+  },
+  "chapter_sha256": "7e32756cbfdbb148bc886dcd4ab03672299664ea66aab38de74d810f0a791ebe",
+  "current_visual_artifacts": {
+    "assets/ch24-v2-ribbon-controls.js": "a510b6d6659efcc3ba4b3a128c76e2eb51064f265546b54c2b05555752c6392b",
+    "assets/ch24-v2-ribbon-live-frame-000.png": "81be6fd8f65bd9a3eff97462eb1e17cfefc98db4a9d734981328c47b9a450096",
+    "assets/ch24-v2-ribbon-live-frame-033.png": "5eb5d1cd30a4c65279422787b66defde49fc683c1480bc33dc74143fdc95b2ca",
+    "assets/ch24-v2-ribbon-live-frame-065.png": "2cb6f8e47bd4de1c6796be862ab2c98e2486cd16f3391a0c97e1b67527a7e432",
+    "assets/ch24-v2-ribbon-live-poster.png": "81be6fd8f65bd9a3eff97462eb1e17cfefc98db4a9d734981328c47b9a450096",
+    "assets/ch24-v2-ribbon-live.mp4": "c7a8993e893cc4af5009801efac7e05fa03e3d9841b39e3d2e31da6b8a884b12",
+    "assets/ch24-v2-ribbon-observed.html": "bb6798f226a346d44c4d7eea26bf7d718c932a11b97177e5cee172df60d7ea6c",
+    "assets/ch24-v2-ribbon-provenance.json": "7271d424ed47c39821083f0bde38569ce43bd0d4f1c4858cd9c8dd71cb0a8fb2",
+    "assets/ch24-v2-ribbon-space-frame-000.png": "5d7ef7289fc24822e33fa313d9caf984b994cbecb6a513cb29157647762fa592",
+    "assets/ch24-v2-ribbon-space-frame-018.png": "9b3e6aa6e944a6ff47709189cfc73a94b363e17ccac83a9743c9a9e2ad0824cf",
+    "assets/ch24-v2-ribbon-space-frame-035.png": "eb732805a75cb8b89a270ec88f40042eafd093c97f519f6b4be3cfa22dd04aac",
+    "assets/ch24-v2-ribbon-space-poster.png": "5d7ef7289fc24822e33fa313d9caf984b994cbecb6a513cb29157647762fa592",
+    "assets/ch24-v2-ribbon-space.mp4": "b993b6d35c1c9d0e3f3e3a9c1b8c79fbc4f744daab379c2e4cc469dffd00fc2f",
+    "figures/ch24_ribbon_observed.py": "d5e8d9bed9f721653e1c26f5fa5936427ec6d2d99fed8805f563a9ffe8ca3d96",
+    "figures/ch24_ribbon_observed.template.html": "bb6798f226a346d44c4d7eea26bf7d718c932a11b97177e5cee172df60d7ea6c"
+  },
+  "ribbon_observation_revision": {
+    "date": "2026-11-09",
+    "status": "Integrated locally; source/native/media/integrity checked; actual browser and independent review pending",
+    "use": "Figure24.3a; observed supplement to current topology and quantitative models",
+    "source": "assets/ch24-v2-ribbon-provenance.json",
+    "evidence": "work/visual-v2/ch24/ribbon-observed/source-and-appearance-review.md",
+    "scientific_review_history": "Unchanged. Historical reviews do not approve the new reference.",
+    "current_visual_acceptance": false
+  },
+  "current_chapter_sha256": "7e32756cbfdbb148bc886dcd4ab03672299664ea66aab38de74d810f0a791ebe",
+  "current_body_sha256": "2ba990f1d32e8955c1b3c31ff88ed7059c238ecd9df39e7996c90a9384ddd118",
+  "current_hash_definition": "Raw file bytes; body bytes strictly between BEGIN/END CHAPTER BODY comments, no normalization. Historical review bindings are retained separately and are not new approval."
 }

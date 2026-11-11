@@ -1,0 +1,34 @@
+/* Fit contains the whole native image without a viewport-height white card. */
+dialog#enlargement.observed-fit {
+  height: auto;
+  height: fit-content;
+  max-height: 94vh;
+  max-height: 94dvh;
+}
+dialog#enlargement.observed-fit .viewport {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  max-height: calc(94vh - 180px);
+  max-height: calc(94dvh - 180px);
+  overflow: hidden;
+  background: transparent;
+}
+dialog#enlargement.observed-fit .viewport img {
+  width: auto !important;
+  max-width: 100% !important;
+  max-height: calc(94vh - 180px);
+  max-height: calc(94dvh - 180px);
+  height: auto;
+  object-fit: contain;
+}
+@media (max-width: 450px) {
+  dialog#enlargement.observed-fit .viewport,
+  dialog#enlargement.observed-fit .viewport img {
+    max-height: calc(94vh - 230px);
+    max-height: calc(94dvh - 230px);
+  }
+}
+@media print {
+  dialog#enlargement { display: none !important; }
+}

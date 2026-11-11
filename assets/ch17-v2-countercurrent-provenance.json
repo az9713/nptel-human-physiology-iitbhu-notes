@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-09",
+  "status": "Candidate; actual UI/PDF and final independent review pending",
+  "source_anatomy": "Li et al. 2024 DOI10.1364/BOE.515527, Figure6c exact published-PDF crop; prepared mouse tracing and optical morphology, not photographed intact wall. Optica OA noncommercial attribution terms, not CC BY. See immutable renal source record.",
+  "model": {
+    "data_sha256": "25fe59fa85bef7e06673e56d5e6b2cd5235b2f52234e449247f2116dbfa1f422",
+    "saved_states": 201,
+    "interpolation": false,
+    "presentation_seconds": 24,
+    "scope": {
+      "ascending_bins": "active TAL surrogate at every level",
+      "depth": "four ordered outer-medullary model levels, not papillary depth",
+      "omitted": "thin ascending limb and anatomical bend",
+      "return_boundary": "deepest D connects to deepest A without modeled exchange"
+    },
+    "units": "arbitrary osmoles, water units, and model time",
+    "parameters": {
+      "pump": 0.12,
+      "dt": 0.01,
+      "steps": 20000,
+      "inflow": 0.2,
+      "water_conductance": 0.03,
+      "axial_diffusion": 0.003
+    },
+    "invariant": "M+B+O-F=12; M=sum of12 unit-water compartment concentrations; B removed to sink; O discharged; F supplied.",
+    "no_pump": "Exact uniform solution, reset common initial condition; F=O=0.2t, B=0, M=12; not midhistory intervention",
+    "max_saved_mass_residual": 6.775024985472555e-12
+  },
+  "print": {
+    "anatomy_width_mm": 130,
+    "source_ppi": 139.7,
+    "source_limited_exception": true,
+    "profile_width_mm": 145,
+    "profile_axis_min_pt": 11.303149606299211,
+    "external_key_pt": 9.5,
+    "credit_pt": 9,
+    "proof_pending": true
+  },
+  "reproduction": {
+    "builder": "figures\\ch17_countercurrent_v2.py",
+    "builder_sha256": "409277d9897c7cc2b31e0a5d39fe07ea698fa2c44f3504f25af6d6d6d4b31d90",
+    "template_sha256": "1a6e303d6e2f7add1f55ef3b1e8b39de341b3cb9259bcc9b9f990147efcb5678",
+    "offline": "Public inputs/template/JS only; no private work dependency"
+  },
+  "inputs": {
+    "ch17-countercurrent-data.json": "25fe59fa85bef7e06673e56d5e6b2cd5235b2f52234e449247f2116dbfa1f422",
+    "ch16-v2-renal-anatomy-nephron-c.png": "16c76b323eceb92a8e046c29489d85f9f87af2e8e4a1706d044da5b1ad24ce7e",
+    "ch16-v2-renal-anatomy-sources.json": "b821c8b3255f2338250173f14faf56c3669bd9888cf7d59f1b463237a40eb252"
+  },
+  "artifacts": {
+    "ch17-v2-countercurrent-reference.html": "359580730cc1db2221e86f2683182d7a6abb4087e934106a3720be4d3ef1eec7",
+    "ch17-v2-countercurrent.js": "d41355394485751bcc3402d253c49f14cc03069e34259b70070b1ca11054f1e2",
+    "ch17-v2-countercurrent-final-profiles.svg": "8edba50d393db83ec7bc9a9afe191b1c403bd3108f69495c7e310623ad2c8da5",
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "remaining_gaps": [
+    "No photoreal tubule wall or vascular exchange",
+    "No thin ascending limb, anatomical bend, inner-medullary urea or complete concentrating mechanism",
+    "Actual phone/keyboard/modal/print and appearance proof pending"
+  ]
+}

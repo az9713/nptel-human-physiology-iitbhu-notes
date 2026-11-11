@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-09",
+  "title": "In situ structural insights into the excitation-contraction coupling mechanism of skeletal muscle",
+  "doi": "10.1126/sciadv.adl1126",
+  "creators": [
+    "Jiashu Xu",
+    "Chenyi Liao",
+    "Chang-Cheng Yin",
+    "Guohui Li",
+    "Yun Zhu",
+    "Fei Sun"
+  ],
+  "year": 2024,
+  "archive": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10954225/",
+  "rights": "CC BY-NC4.0, copyright2024Authors; exclusive licenseeAAAS. Localnoncommercial educational adaptation; component-specific attribution/NCterms, no blanketCCBY or commercialpermission.",
+  "rights_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "specimen": "MaleKMmouse,2–3weeks,EDLmuscle; not adultnormalhuman.",
+  "preparation": "0.2%collagenase37°C≈30min,DMEM;10%glycerol3–5min,liquidethaneplungefreezing;cryoFIB≈120nmlamella. CryoETsnapshot and authorMIBsegmentation, notlivecontraction movie.",
+  "input": {
+    "file": "ch15-v2-triad-calcium-source-figure1.png",
+    "sha256": "4abf7b8a90fea6f3b31cf65695ae03246dbaafd749b50637ee36278badbeb4a4",
+    "pixels": [
+      1500,
+      1831
+    ],
+    "rgb_sha256": "3dc56e56e8b275a5326fe25c92dc754039121e84b9b114b27eb68a6c5cd694d9",
+    "source_pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10954225.1/PMC10954225.1.pdf?md5=7ad9825e2f660d76a5c219248f51a8ad",
+    "source_pdf_sha256": "8e9e99cf5c7fc73d2294ff98a417014f42a0f35edb8fb45d3d6982cfb26a9bda",
+    "extraction": "PublishedPDFpage3xref60 decodedRGBPNG1500×1831; no resampling,recolororimagerepair. FullPDF andcloudfigure preservedprivately."
+  },
+  "crops": [
+    {
+      "file": "ch15-v2-triad-calcium-d.png",
+      "source_panel": "D",
+      "rect": [
+        0,
+        542,
+        609,
+        1118
+      ],
+      "pixels": [
+        609,
+        576
+      ],
+      "sha256": "6e9af260bd3e822db680778a045f616cbd8a9f6b869654db0459d498fbb216d7",
+      "rgb_sha256": "3c57130ac4e4e919f80bd1598848cc4813bd48a2f36abf6f2f7d2e896bc8ee77"
+    },
+    {
+      "file": "ch15-v2-triad-calcium-e.png",
+      "source_panel": "E",
+      "rect": [
+        622,
+        542,
+        1500,
+        1118
+      ],
+      "pixels": [
+        878,
+        576
+      ],
+      "sha256": "40390d1f272b806188e1a319f846973dc4b97c2ef5e071cb0f641f7a15f7b30b",
+      "rgb_sha256": "44cb7df5d3513b64c74c1ffc4c9c76b4c0c05a04da776e6818d405ca3360b805"
+    }
+  ],
+  "geometry": {
+    "D": "Tomogram slice, sourcehorizontal/vertical triadboxes and originalblack100nmbar retained. Directionsareimage-local, notbodyaxes.",
+    "E": "Author MIBsegmentation aroundsameDvolume, fullsourcelegend retained; reconstructed3Dgeometry and2Dslice notclaimed pixelregisteredprojection.",
+    "source_colors": {
+      "RyR1": "red",
+      "DHPR": "pink",
+      "SR": "cyan",
+      "T-tubule": "blue",
+      "ribosome": "purple",
+      "mitochondrion": "green",
+      "thick filament": "yellow",
+      "thin filament": "orange"
+    },
+    "limits": "Sourcecomponentassignment, not intrinsic tissuecolor, directly observedCa ions, open/closedpore or simulatedgating. No newleader/metricbar or volume inferred."
+  },
+  "controlled_model": {
+    "tracked_pool": "Normalizedredistributable perturbationpool=1 aboveunspecifiedrestingbackground; not allcellularCa or freeCa concentration. c0=0 doesNOTmeanzerobasalcytosolicCa.",
+    "law": "dc/du=krel*(1-c)-kup*c duringreleasecommandu0..1; afteru1releaseoff,dc/du=-kup*c. SRtrackedamount=1-c.",
+    "model_time_u": [
+      0,
+      4
+    ],
+    "release_rate_per_u": 3,
+    "uptake_rate_per_u": 1,
+    "presentation_duration_s": 12,
+    "presets": [
+      "Release+uptake",
+      "Releasewithuptakeoff",
+      "Norelease"
+    ],
+    "assumptions": "Closedtwopooltrackedperturbation, no buffers/volumes/extracellularentry/troponin/force or sourceRyRgatekinetics. Sourcegeometryfixed; parametersprescribed, notfit. Scenariochangesrecomputefromsameinitialstate, notmidcourseinterventions."
+  },
+  "print": {
+    "D_width_mm": 85,
+    "D_ppi": 181.9835294117647,
+    "E_width_mm": 95,
+    "E_ppi": 234.7494736842105,
+    "source_limited_exception": true,
+    "external_key_min_pt": 9.5,
+    "credits_min_pt": 9
+  },
+  "review_basis": "BactualsourceD/E andperturbation-pool analyticlaw preimplementation scopedapproval inwork/visual-v2/ch15/triad-source/review-independent-precode.md; finalUI/print/sourcecomposition pending."
+}

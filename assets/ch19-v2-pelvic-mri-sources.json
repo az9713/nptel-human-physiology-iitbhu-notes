@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-09",
+  "primary": {
+    "authors": "Ferreira et al.",
+    "year": 2015,
+    "doi": "10.1590/0100-3984.2013.1726",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4567364/",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "pdf_sha256": "0f6eb35eef02b603a073f2d95d0c184bc4bc9aacd9f3f176bdf315b0db5ada2b",
+    "xml_sha256": "5f0a8caeafcc5a0d9bc8030c30ae47d1762aecbddcd2eeabe380997b43400460"
+  },
+  "file": {
+    "file": "ch19-v2-pelvic-mri-image.jpg",
+    "sha256": "f6d733fdeb4d6db64a67ade8ff5cb0bb25c8c4dee1ce24ae84412f916dc06ed9",
+    "dimensions": [
+      780,
+      442
+    ]
+  },
+  "extraction": {
+    "xref": 5,
+    "pdf_page_index": 1,
+    "raw_DCT_byte_equal": true,
+    "whole_figure_retained": true,
+    "crop": null,
+    "retouch": null
+  },
+  "public_reproduction": "Immutable source JPEG and native extraction record are public composition inputs; original PDF/XML retained privately, no network or private input required.",
+  "acceptance": {
+    "current": false,
+    "source_native": "B bounded precode PASS",
+    "actual_browser_print": "Pending root"
+  },
+  "specimen": "Source-caption normal female pelvis; age, parity, cycle stage and global health unreported. Vagina artificially distended with gel, not a physiological empty lumen.",
+  "sequence": "Axial left / sagittal right, T2 MRI per Figure 1 caption; general 1.5 T GE protocol, exact image-specific parameters unreported.",
+  "key": {
+    "Ur": "urethral ostium",
+    "B": "bladder ostium",
+    "U": "uterus",
+    "C": "cervix",
+    "V": "gel-distended vagina",
+    "AW": "anterior vaginal wall",
+    "PW": "posterior vaginal wall",
+    "VI": "vaginal vestibule",
+    "R": "rectum"
+  },
+  "print": {
+    "width_mm": 150,
+    "source_ppi": 132.07999999999998,
+    "limit": "Source-limited labels; external key/native access and actual print test required."
+  },
+  "limits": [
+    "No ovaries, tubes or uterine-tubal junction depicted",
+    "No ovulation, transport, endometrial cycle or pressure",
+    "No global health or registration claim"
+  ],
+  "calibration": "No source bar or new metric scale/axes. Original PDF 780×442 slightly larger than official 771×437 image; no upsampling."
+}

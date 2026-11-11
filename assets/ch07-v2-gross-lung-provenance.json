@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-09",
+  "status": "Candidate; source/anatomy, native appearance and actual browser/print review pending, no acceptance inferred",
+  "source_record": "ch07-v2-gross-lung-sources.json",
+  "input": {
+    "file": "ch07-v2-gross-lung-source.webp",
+    "sha256": "9571a6d8b558aead80065dd6ec8ec2bd64146ef41ed928003c6d18ba7da4cc9d",
+    "bytes": 201766,
+    "pixels": [
+      967,
+      654
+    ],
+    "rgb_sha256": "793123eb4ca543369071eb9ee87349b71970ffcb21bee17c9339b7049fb5f168"
+  },
+  "acquisition": {
+    "route": "Ordinary user-visible in-app browser image download from owning full-size figure resource; publisher negotiated WebP.",
+    "publisher_image_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs44411-025-00182-w/MediaObjects/44411_2025_182_Fig1_HTML.jpg",
+    "actual_format": "WebP, notwithstanding JPG URL suffix",
+    "native_limit": "Exact967×654 browser-delivered published figure; not claimed original JPEG, raw camera acquisition or finest possible publisher input.",
+    "local_modifications": "None; complete acquired WebP bytes retained, no crop, resampling, recoloring, scale bar or added anatomical leaders."
+  },
+  "source_caption": "A Right lungs normal anatomical fissures and lobe features. B Left lungs normal anatomical fissures and lobe features.",
+  "panel_key": {
+    "A": "Right lung. Source general reference: superior,middle,inferior lobes separated by horizontal/oblique fissures. No separate lobe leaders supplied here.",
+    "B": "Left lung. Source general reference: superior,inferior lobes separated by an oblique fissure. No separate lobe leaders supplied here."
+  },
+  "preparation": "35pairs of adult human lungs(right35,left35) from formalin-fixed cadavers:3female,32male. Initial42cadavers;7excluded with lungcancer,tuberculosis,congenitalmalformations/thoracicsurgery; damaged/pathologic/fibrotic/necrotic specimens excluded. Some cadavers unidentified, so exact mean age unknown. Individual photographed donor identity/age/sex and same-donor pair registration unreported.",
+  "context_limit": "The source calls the selected fissural/lobar morphology normal. This is not global health, normal live tissue color, function or a breathing phase. Isolated fixed specimens, no chest orientation or patient-side viewing axis asserted.",
+  "scale_limit": "Scalpels/rulers are visible source objects, not an independently calibrated image scale. No instrument measurements, bar or pixel-to-mm mapping invented.",
+  "print": {
+    "whole_figure_width_mm": 130,
+    "whole_figure_height_mm": 87.92140641158221,
+    "ppi": 188.93692307692308,
+    "source_limited_exception": "Approximately189ppi, below300ppi target, to retain whole two-panel context and readable original A/B labels without fabricated pixels. No upscaling. Actual PDF A/B/fissure/key/credit legibility required.",
+    "external_key_min_pt": 9.5,
+    "credit_min_pt": 9,
+    "intent": "One coherent white-page whole-source photograph with external A/B/reference-pattern key, preparation caption, attached source/rights credit."
+  },
+  "coverage_gaps": [
+    "No complete trachea/main/lobar/segmental bronchial tree",
+    "No in-situ thoracic or precise photographic orientation map",
+    "No pleural apposition/fluid film, alveoli/capillary barrier or ventilation mechanics",
+    "No physiological live color/function/phase or registered zoom"
+  ],
+  "independence": "Two source panels; photographed donor correspondence/registration unreported. Not registered with airway histology, mucus movie, breathing MRI or alveolar microscopy.",
+  "controls": "Native/Fit/Close sourceimage modal; explicit inner contained-height region, shared target-region keyboardpan and openerfocusreturn. Source967×654 restored without adding pixels. Actual phone/allcorners tests pending.",
+  "reproduction": {
+    "builder": "figures/ch07_gross_lung_v2.py",
+    "template": "figures/ch07_gross_lung_v2.template.html",
+    "builder_sha256": "00c7838979747e0458a1355c7af128fd70485da61f79950db36feb03add9d441",
+    "template_sha256": "23eb6e22aa9dd1e8d1ead8e79fac738144d0529356027931541274364707290f",
+    "python": "3.13.5",
+    "pillow": "11.0.0",
+    "scope": "Exact public acquiredWebP/sourceJSON/template/sharedmodal only. Acquisition separately browser-observed; no privatework/network/resampling on rebuild."
+  },
+  "shared_dependencies": {
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "pending": [
+    "Independent source panel A/right B/left and fixed-specimen limit check",
+    "Native appearance/teaching proof; no new leader or measured-scale claim",
+    "Actual desktop650390 NativeFit/focus/End/allcorners/keyboardpan",
+    "Actual130mm PDF sourceA/B/fissures/externalkey/attachedcredit/readable189ppi exception/pagebreaks",
+    "No canonical Chapter7 integration"
+  ],
+  "artifacts": {
+    "ch07-v2-gross-lung-source.webp": "9571a6d8b558aead80065dd6ec8ec2bd64146ef41ed928003c6d18ba7da4cc9d",
+    "ch07-v2-gross-lung-sources.json": "45b4ef381701c4fa39d314c2231854ef10c342e7ae3205ec9b3e659fd9a4e1cf",
+    "ch07-v2-gross-lung-reference.html": "23eb6e22aa9dd1e8d1ead8e79fac738144d0529356027931541274364707290f",
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  }
+}

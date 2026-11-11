@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-09",
+  "status": "LOCAL; actual browser/print and independent review pending",
+  "title": "Observed cortical and median-eminence capillary ultrastructure",
+  "authors": "Sarah J. Pfau, Urs H. Langen and colleagues",
+  "article": "https://doi.org/10.1038/s41593-024-01743-y",
+  "publication_date": "2024-08-29",
+  "figure": "Extended Data Figure2, all panels unchanged",
+  "source_pdf": {
+    "url": "https://gu.hms.harvard.edu/sites/gu.hms.harvard.edu/files/images/Pfau_et_al-2024-Nature_Neuroscience.pdf",
+    "sha256": "d75bce16c33aadd59d30f254b83d93731ec84a32b40747a826cbf7f04c9b42be",
+    "page_count": 41,
+    "image_page_1based": 19,
+    "caption_page_1based": 20,
+    "license_page_1based": 12,
+    "image_xref": 4397
+  },
+  "license": "CC BY-NC-ND4.0, exact acquired author PDF; noncommercial unchanged reproduction only",
+  "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "license_version_note": "PMC HTML of the same article currently statesCCBY4.0. This asset is extracted from the acquired authorPDF that explicitly statesCCBY-NC-ND4.0; its exact notice is retained. No inference of broader rights for these bytes.",
+  "source_image": {
+    "path": "assets/ch25-v2-barrier-observed-native.jpeg",
+    "sha256": "f2293c7a5d01a06eb9435b41df1e0f302cbac6beabff29e4ea285551c7bdca71",
+    "dimensions": [
+      2162,
+      2686
+    ],
+    "modifications": "None. Complete original JPEG stream extracted without decode/re-encode, crop, annotation, colour change or resampling."
+  },
+  "specimen": "Study used8\u201314week mice; both sexes unless stated otherwise. Exact sex/strain of this displayed capillary not assigned. TEM tissue chemically perfusion-fixed, osmicated, resin-embedded,80nmsections, lead-citrate counterstain, JEOL1200EX with2kCCD.",
+  "orientation_scale": "Source section views only; no body orientation or registration inferred. Original1\u00b5m cortical/ME main-image bars,4\u00b5m panelc bars,20\u00b5m paneld bar retained. Insets have source bars without a new numerical calibration.",
+  "appearance": "Source pseudocolours: endothelialpurple, pericyteteal, astrocyteendfootcyan, fibroblastred, lumenwhite, neuropilyellow. Lower confocal signals CD31white/AQP4green. Not natural living colours.",
+  "teaching_scope": "Identify cortical lumen/endothelium/junction/pericyte/endfoot relationships, compare specialised medianeminence. Does not measure live permeability, glucose flux, transporter kinetics, basement-membrane composition or junction dynamics.",
+  "print": "Full plate160mmwide yields~343ppi; external reading key remains text. Actual PDF composition pending.",
+  "reproduction": {
+    "script": "figures/ch25_barrier_observed.py",
+    "template": "figures/ch25_barrier_observed.template.html",
+    "tool": "PyMuPDF",
+    "version": "1.27.1",
+    "inputs": "Separately acquired original PDF, identified by source URL and exact hash. Supply --pdf; no embedded local personal path."
+  }
+}

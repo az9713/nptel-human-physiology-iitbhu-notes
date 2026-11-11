@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-09",
+  "citation": "Meng Li,TRLeonard,SWHan,EKMoo,WHerzog.(2024). Gaining new understanding of sarcomere length non-uniformities in skeletal muscles. Frontiers in Physiology14:1242177. Published11January2024, volume2023.",
+  "doi": "10.3389/fphys.2023.1242177",
+  "article": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2023.1242177/full",
+  "archive": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10808998/",
+  "rights": "CC BY4.0, Copyright2024Li,Leonard,Han,Moo,Herzog; sourcearticle and supplements",
+  "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+  "clips": [
+    {
+      "key": "activation",
+      "source_file": "Video1.MP4",
+      "public_file": "ch15-v2-sarcomere-observed-activation.mp4",
+      "sha256": "be4971af65493b61084cbfd0d374bb9fc7886e0d1b009421ba91d6bc70404449",
+      "bytes": 4252082,
+      "codec": "h264",
+      "pixels": [
+        1920,
+        1080
+      ],
+      "rate": "30/1",
+      "frames": 116,
+      "start_pts_s": 0,
+      "duration_s": 3.866633,
+      "sample_frames": [
+        {
+          "frame": 0,
+          "pts_s": 0
+        },
+        {
+          "frame": 58,
+          "pts_s": 1.933333
+        },
+        {
+          "frame": 115,
+          "pts_s": 3.833333
+        }
+      ],
+      "source_caption_role": "Video1activation / Video2deactivation explicitly identified in articleexperimentalprotocol; not a stitched cycle or declared matching specimen",
+      "browser_rendition": "None; original complete unchanged publication bytes. ActualHEVC browserdecode pending.",
+      "video_stream_duration_s": 3.866633,
+      "container_duration_s": 3.925313,
+      "audio_stream_duration_s": 3.925312,
+      "clock_note": "Browser denominator followscontainerduration, which may exceedvideoduration due tounchanged sourceAAC. Frame labels usevideoPTS."
+    },
+    {
+      "key": "deactivation",
+      "source_file": "Video2.MOV",
+      "public_file": "ch15-v2-sarcomere-observed-deactivation.mov",
+      "sha256": "00a611f086c126a4bda630da56bf0e0dce49922187b72b64a5d55a1c70d017ac",
+      "bytes": 1218720,
+      "codec": "hevc",
+      "pixels": [
+        1920,
+        1080
+      ],
+      "rate": "30/1",
+      "frames": 116,
+      "start_pts_s": 0,
+      "duration_s": 3.866667,
+      "sample_frames": [
+        {
+          "frame": 0,
+          "pts_s": 0
+        },
+        {
+          "frame": 58,
+          "pts_s": 1.933333
+        },
+        {
+          "frame": 115,
+          "pts_s": 3.833333
+        }
+      ],
+      "source_caption_role": "Video1activation / Video2deactivation explicitly identified in articleexperimentalprotocol; not a stitched cycle or declared matching specimen",
+      "browser_rendition": {
+        "file": "ch15-v2-sarcomere-observed-deactivation-browser.mp4",
+        "sha256": "fa4b7fec77a7c532ef3da7b901bdfdfe8cf56503a5cefeafeae50fdf94a33138",
+        "operation": "Container-only HEVC/AACMP4 remux, hvc1sampletag; sourceMOVunchanged, no decoding/reencoding. OriginalMOVremainsdownload.",
+        "command": "ffmpeg -v error -y -i ORIGINAL.mov -map 0 -c copy -tag:v hvc1 -map_metadata -1 -movflags +faststart BROWSER.mp4",
+        "packet_identity": "PASS perstream video/audio codedpacketSHA256,PTS,DTS exact;116video packetdurations exact. Interleaving changed; lastAAC reportedpacketduration0.001451→0.001950s duecontainerreporting.",
+        "browser_decode": "ActualrootHEVCMP4testpending, supportnotpresumed."
+      },
+      "video_stream_duration_s": 3.866667,
+      "container_duration_s": 3.866667,
+      "audio_stream_duration_s": 3.854512,
+      "clock_note": "Browser denominator followscontainerduration, which may exceedvideoduration due tounchanged sourceAAC. Frame labels usevideoPTS."
+    }
+  ],
+  "specimen": "20myofibrils/412sarcomeres from8female rabbits,psoas. Specific depictedclip lengthgroup and pairedspecimenidentity not newly inferred. Not live human or NMJ activation.",
+  "preparation": "Euthanizedanimal psoas strips held near in-situ length; rigor-glycerol+proteaseinhibitors,−20°C10–14days; homogenized in4°Crigor, experimentalchamber20°C. Myofibril attached between glassneedle/motor and reinforcednano-levers; isometric activation/deactivation,pCa4.0 maximalactivation. Solutions referred to earlier papers, not newly reconstructed.",
+  "modality": "Phasecontrast video microscopy; observed striationpattern, not resolved molecularactin/myosin powerstrokes.",
+  "timing": "FilePTS only, verifiedeachframe. Both116frames30fps, firstPTS0,lastPTS3.833333, streamduration≈3.8666 includinglastframedwell. Source acquisitioninterval/publisher speed conversion not specified in reviewedmethod; no biological-time conversion. Activationvideo3.866633s versus AAC3.925312s/container3.925313s, so browsermaydisplay3.93s. Deactivationoriginalvideo/container3.866667s, AAC3.854512s; remuxcontainer3.867s roundsmilliseconds. FramePTS unchanged; no biologicaltimeconversion.",
+  "cropping": {
+    "rect": [
+      400,
+      140,
+      1410,
+      220
+    ],
+    "pixels": [
+      1010,
+      80
+    ],
+    "purpose": "Unchanged decodedpixel striationstrip for readable native/detail and print; full originalvideo and wholeframe0poster retained. No resampling, color/contrast edits, scale or anatomicalleader.",
+    "video_detail_view": "Display-only native1920px view scrolled toward visiblemyofibril; wholeframe Native/Fit available. No media crop/reencode."
+  },
+  "assay_limits": [
+    "Fixed total myofibril length: individual striation spacing can change nonuniformly; not every sarcomere shortens together.",
+    "Chemical isolatedpreparation not intact nerve/NMJ excitation, wholemuscle contraction or voluntaryhuman movement.",
+    "No clip-specificµmcalibration, measuredstrain/speed/force/activationcurve or timebase newly assigned.",
+    "Activation and deactivation clips remain separate observations, not registered into one measuredcycle.",
+    "No inferred assignment of exact individualbands asZ/A/I markers without source-specific anatomicalreview."
+  ],
+  "source_inputs": {
+    "xml_sha256": "639c9e25fa153f9c78b00291b1fbcc55afacd3302f6c9dff645129ca6db3244b",
+    "supplement_docx_sha256": "258072aaca692ef28f60d78b2e2cb13119ba53d67b2d4f42404e3da982b6e7ae",
+    "metadata_sha256": "da3c2b7eabf1211e1c3eccbf0e2c962f8b75fa41637bad37e02e94ebb0206e81",
+    "acquisition": "OfficialNLM cloudmetadata prescribedsourceURLs, allmedia MD5verified; fullframePTS+decodedframemd5 retained privately."
+  },
+  "print": {
+    "strip_width_mm": 170,
+    "strip_height_mm": 13.465346534653465,
+    "ppi": 150.90588235294118,
+    "source_limited_exception": "151ppi sourcepixelstrip; sourcepixelnative and actualphysicalPDF legibility review required, no newµmbar.",
+    "key_body_min_pt": 9.5,
+    "credits_min_pt": 9
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "status": "PROVISIONAL local candidate; independent anatomy/appearance, browser codec/playback and print review pending",
+  "date": "2026-11-09",
+  "sources": [
+    {
+      "id": "CIL221",
+      "file": "ch03-v2-rbc-clot-rbc-original.tif",
+      "sha256": "385687d4d4e46f4225154cc7871f96f8b2a96f6ad9e30748ad0929b0b22c1065",
+      "url": "https://cildata.crbs.ucsd.edu/media/images/221/221.zip",
+      "archive_member": "221/221_orig.tif",
+      "owning_url": "https://www.cellimagelibrary.org/images/221",
+      "doi": "10.7295/W9CIL221",
+      "creator": "Tina Carvalho",
+      "rights": "Public domain, explicitly stated by owning CIL record",
+      "specimen": "Homo sapiens erythrocytes; donor clinical normality unreported",
+      "preparation": "Prepared SEM; critical-point dried; shadowing/plating and metal-shadow contrast. Exact fixation/coating chemistry unreported.",
+      "dimensions": [
+        899,
+        843
+      ],
+      "source_calibration": "Physical pixel size and scale bar unavailable",
+      "original_acquisition": "Original ZIP separately acquired and CRC-checked; original TIFF copied unchanged as public rebuild input."
+    },
+    {
+      "id": "elife110286v2-video1",
+      "file": "ch03-v2-rbc-clot-retraction.webm",
+      "sha256": "5a6c09ff3e86a53b1d2838965c6d77b716ab5b67c02b747967de990d61faa410",
+      "creator": "Grichine et al.",
+      "owning_url": "https://elifesciences.org/reviewed-preprints/110286v2",
+      "doi": "10.7554/eLife.110286.2",
+      "version": "Reviewed preprint v2,2026-09-18",
+      "rights": "CC BY4.0; author-linked Video1; no third-party exclusion found",
+      "rights_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_url": "https://prod--epp.elifesciences.org/api/files/110286/v2/content/elife-preprint-110286-v2-video1.avi",
+      "original_sha256": "33bed4ea246f5bc9c90a4fd58f548919b2cd2d1e506806cd52f18a94f20ba41c",
+      "original_bytes": 17102910,
+      "original_storage": "Immutable separately acquired original AVI retained in private research; not required for public composition rebuild.",
+      "supplement_url": "https://prod--epp.elifesciences.org/api/files/110286/v2/content/supplements/705975_file02.pdf",
+      "derivative": "Lossless VP9 profile1 planarRGB full-range;1640x1072,120frames nominal7fps; no audio, crop, scaling, grading or interpolation",
+      "rgb_validation": "ch03-v2-rbc-clot-rgb-proof.json",
+      "timebase": "AVI1/7 to WebM1/1000; maximum absolute framePTS rounding0.000428571429s",
+      "biological_clock_limit": "Source left/right panel clocks differ at the same publisher frame; no single experiment-time conversion",
+      "specimen": "Human citrated blood-bank PRP;0.4ml50%plasma/50%PBS,1e8platelets/ml,Alexa488-fibrinogen12.5ug/ml,erythrocytes4ul/ml for colour contrast,thrombin2.5U/ml;2%Pluronic-coated8wellLabTek; static unconstrained retraction. Video1-specific imaging temperature unverified.",
+      "acquisition": "Confocal61zplanes,0.5umsteps,start100umabovebottom; caption reports100timepoints12.5sinterval,20:27min, not identical to120encodedframes.",
+      "assessment_limit": "Review assessment says causal link between cytoskeletal swirling and fibrin winding/compaction remains incomplete; only observed redistribution/node accumulation is taught here."
+    },
+    {
+      "id": "poster",
+      "file": "ch03-v2-rbc-clot-poster.png",
+      "sha256": "23ed490ca788d1402982da21e503755fe733f08b23cc87fb874282b8d090c600",
+      "rights": "CC BY4.0, same Video1 source",
+      "frame_index_zero_based": 75,
+      "dimensions": [
+        1640,
+        1072
+      ],
+      "publisher_file_time_s": 10.714285714285714,
+      "source_clocks": "left12:53/right15:30",
+      "operation": "Full decoded RGB of original AVI frame75, saved losslessPNG, equal to derivative frameRGB; no transform."
+    }
+  ],
+  "teaching_purpose": "Qualitative biconcave human RBC morphology and independent observed fibrin redistribution during human PRP clot retraction.",
+  "operations": {
+    "rbc": "Full original TIFF decoded to lossless PNG; identical L-mode pixels, no crop, resize or contrast transform.",
+    "movie": "Previously validated immutable VP9 lossless RGB derivative copied unchanged; original AVI remains separately acquired private input.",
+    "poster": "Unchanged full RGB source frame75; decoded pixels match validated source and derivative."
+  },
+  "pixel_verification": {
+    "rbc_original_png_decoded_pixels_equal": true,
+    "rbc_grayscale_pixel_sha256": "911cd0245bcdf15e0989d45bd24ef0eca7b3ad1488b6ec56bde147a8ef048b1b",
+    "poster_rgb_equal_record": true,
+    "movie_all_120_rgb_equal_proof": "ch03-v2-rbc-clot-rgb-proof.json",
+    "movie_pts_max_rounding_s": 0.00042857142857142855
+  },
+  "scientific_limits": [
+    "Independent specimens/modalities; no complete normal-human differential",
+    "SEM donor health and calibration unavailable; not living colour/oxygenation/flow",
+    "Static PRP retraction assay without imposed flow; citrated collection plus exogenous thrombin",
+    "Panel clocks diverge; publisher-file seconds are not one experiment clock",
+    "Source reviewed-preprint assessment does not establish causal winding/swirl mechanism"
+  ],
+  "print_candidate": {
+    "rbc_width_mm": 110,
+    "rbc_output_ppi": 207.5872727272727,
+    "poster_width_mm": 145,
+    "poster_output_ppi": 287.2827586206896,
+    "external_text_min_pt": 9.5,
+    "actual_pdf": "PENDING",
+    "pagination_repair": "Independent-observation scope integrated in first-page intro and provenance/RGB links beside SEM credit; print omits screen-only access footer. RBC110mm/poster145mm and source graphics unchanged; actual revised PDF pending root test."
+  },
+  "reproduction": {
+    "builder": "figures/ch03_rbc_clot_v2.py",
+    "template": "figures/ch03_rbc_clot_v2.template.html",
+    "builder_sha256": "3c3cbed4c54840b50448378227c7d8f3473368452997227791074af0c654a3b0",
+    "template_sha256": "43ea705fe2ace58b9bf60c08a000f21b89d380d72f1ca738f7259b837525d125",
+    "python": "3.13.5",
+    "pillow": "11.0.0",
+    "public_inputs": [
+      "ch03-v2-rbc-clot-sources.json",
+      "ch03-v2-rbc-clot-rbc-original.tif",
+      "ch03-v2-rbc-clot-retraction.webm",
+      "ch03-v2-rbc-clot-poster.png",
+      "ch03-v2-rbc-clot-rgb-proof.json",
+      "observed-image-dialog.css",
+      "observed-image-dialog.js",
+      "observed-video-controls.js",
+      "observed-video-controls.css"
+    ],
+    "private_network_dependencies": "None for composition rebuild. Original source acquisition/derivative encode was separately performed and documented.",
+    "seed": "N/A; deterministic composition"
+  },
+  "verification": {
+    "source_hashes_and_decoded_image_equality": "PASS integrity only",
+    "browser_vp9_profile1_readyState_playback": "PENDING root test",
+    "responsive_enlargement_controls_seek_keyboard_focus": "PENDING",
+    "independent_anatomy_appearance": "PENDING",
+    "actual_print": "PENDING",
+    "chapter_integration_release": "PENDING"
+  },
+  "shared_dependencies": {
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "observed-video-controls.js": "1136584777fdb340619dab2527e02e647c95d12fa4a5d8af847148a60f42341f",
+    "observed-video-controls.css": "55144b39d16e8f1096f0cf1d534c817076d1b8c1e137320291f9e8a46b852c9b"
+  },
+  "artifacts": {
+    "ch03-v2-rbc-clot-sources.json": "b9b00c2f5e1069c1b90d1626debec388e1f32c145970d31015b2c8d42c044ecf",
+    "ch03-v2-rbc-clot-rbc-original.tif": "385687d4d4e46f4225154cc7871f96f8b2a96f6ad9e30748ad0929b0b22c1065",
+    "ch03-v2-rbc-clot-rbc.png": "dcb7a7e2a30c14c2a880482f86de117016562e08c2173a9e7577c8c34ca7e656",
+    "ch03-v2-rbc-clot-retraction.webm": "5a6c09ff3e86a53b1d2838965c6d77b716ab5b67c02b747967de990d61faa410",
+    "ch03-v2-rbc-clot-poster.png": "23ed490ca788d1402982da21e503755fe733f08b23cc87fb874282b8d090c600",
+    "ch03-v2-rbc-clot-rgb-proof.json": "e9dc38ec737637d8a1ba3c0e679ee8020a6c98d0c14197ef0ce3250b1629bcdf",
+    "ch03-v2-rbc-clot-reference.html": "43ea705fe2ace58b9bf60c08a000f21b89d380d72f1ca738f7259b837525d125"
+  }
+}

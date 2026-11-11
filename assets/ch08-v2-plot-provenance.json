@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-09",
+  "status": "Candidate; actual plot/PDF review pending",
+  "purpose": "Print alternatives for two quantitative explorers; no anatomical imagery",
+  "source": "Original synthetic Chapter8 model, not patient measurements",
+  "parameters": {
+    "vt_L": 0.5,
+    "irv_L": 3,
+    "erv_L": 1.1,
+    "rv_L": 1.2,
+    "Hb_g_dL": [
+      15,
+      7.5
+    ],
+    "saturation": 0.98,
+    "Q_L_min": 5,
+    "extraction": 0.25,
+    "pressure_mmHg": 100,
+    "capacity_mL_g": 1.31
+  },
+  "time": "Lung x is presentation phase; oxygen panels are independent states",
+  "display_rate_rounding_mL_min": 0.001,
+  "tools": {
+    "python": "3.13.5",
+    "matplotlib": "3.9.3",
+    "node": "v22.22.0"
+  },
+  "reproduction": "python figures/ch08_static_plots_v2.py; model hash pinned; SVG salt/metadata fixed",
+  "artifacts": {
+    "assets/ch08-models.js": "f47ce20be72ee276aa61032c0b9af61c365f3ffe0b639e083db570d4c4e31b78",
+    "assets/ch08-v2-plot-data.json": "90d269f14d107f009d35f896860692d9f25fbeba451fafbbd11f133555896b6a",
+    "assets/ch08-v2-lung-volumes-print.svg": "f643e175c31a10b0e66b612b0879806c9e46746aae8953ce2bf4dbf81aaf0385",
+    "assets/ch08-v2-oxygen-accounting-print.svg": "93c54813537f047bc6ccea6aef4dc2972dcdc4c831a6be0de5f2cdf10b85aa4d",
+    "figures/ch08_static_plots_v2.py": "5afba7674749fd453855afe105411ef3004baec72a39f28ce45bbc28545f41be"
+  }
+}

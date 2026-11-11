@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-09",
+  "repair": "Earlier2175\u00d7666inputwasupperDCTtileonly,notwholeFigure1. RepairedcompletephotographbyjoiningoriginalcontiguousPDFtiles.",
+  "sourcePDFsha256": "143092cc0ff83a7242d228c68fc3230cf51baeae2f1301122c364ed1585f0915",
+  "PDFgeometry": [
+    {
+      "bbox": [
+        41.587284088134766,
+        198.68804931640625,
+        553.1472778320312,
+        355.2136535644531
+      ],
+      "width": 2175,
+      "height": 666,
+      "xref": 58
+    },
+    {
+      "bbox": [
+        41.587284088134766,
+        355.2136535644531,
+        553.1472778320312,
+        433.41766357421875
+      ],
+      "width": 2175,
+      "height": 332,
+      "xref": 61
+    }
+  ],
+  "tiles": [
+    {
+      "xref": 58,
+      "sourceJPEGsha256": "bd465cc5e946ab2419ca4de4e8e7bf340db0c0cfb0715aa7fe46e4072bd52731",
+      "destination_rect": [
+        0,
+        0,
+        2175,
+        666
+      ],
+      "decoded_RGB_exact": true
+    },
+    {
+      "xref": 61,
+      "sourceJPEGsha256": "ca368ab3edcb87b80b0ec056e274f4362cd87d63b8dbf645bcf47bb81cf37334",
+      "destination_rect": [
+        0,
+        666,
+        2175,
+        998
+      ],
+      "decoded_RGB_exact": true
+    }
+  ],
+  "file": "ch13-v2-pancreatic-gross.png",
+  "sha256": "9d361ff72086f6a0004bac81ce0f57190f531497ee2d39fb8e8e384d1a3aa659",
+  "dimensions": [
+    2175,
+    998
+  ],
+  "decoded_rgb_sha256": "1c4b7c5018d59c6e5824b614d1d6fe37929428a3d6269b77d427d09ff4589c83",
+  "operations": "PillowdecodedoriginalDCTtileslaidverticallyinoriginalPDForder;norescaling,colour/contrastchange,inpainting,registrationguessornewanatomicalmarks. PNGsave. SmallPDFpoint-to-rasterroundingnotusedtoinventnewscale.",
+  "current_acceptance": false
+}

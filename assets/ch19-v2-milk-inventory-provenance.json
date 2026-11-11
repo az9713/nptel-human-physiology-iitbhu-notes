@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-09",
+  "purpose": "Pure quantitative stored/delivered one-pool inventory, independent fixed mouse image",
+  "reproduction": {
+    "builder": "figures/ch19_milk_inventory_v2.py",
+    "template": "figures/ch19_milk_inventory_v2.template.html",
+    "private_network_required": false,
+    "static_graph": "Public editable model.js plot(2,0.2,0), exact SVG included in template and immutable default.svg"
+  },
+  "artifacts": {
+    "assets/ch19-v2-milk-inventory-reference.html": "cd963f546f55e309e5395f753e17ec4382f6f64526c617a9fa1a5e4a3c17ded4",
+    "figures/ch19_milk_inventory_v2.template.html": "cd963f546f55e309e5395f753e17ec4382f6f64526c617a9fa1a5e4a3c17ded4",
+    "figures/ch19_milk_inventory_v2.py": "59f75145d6dc2fb1ae178592d80962671ee512da3be0955bc9e216a6e9c3805e",
+    "assets/ch19-v2-lactation-observed-frame-0600.png": "cacdc84ba6a6c06c76756485524989e18ca6b5263961b29d4d27323389fbc76b",
+    "assets/ch19-v2-milk-inventory-sources.json": "5f0f00c131467796c7242925299cfc2fd80cc0eccc7809cd516942780d89c037",
+    "assets/ch19-v2-milk-inventory-model.js": "afc2f29ab6766d60eea16231ac84a9c57f4521e51e08e7cbe6595e617deda829",
+    "assets/ch19-v2-milk-inventory-controls.js": "71535a048f6f872406bc237e93bc7c669af43972193114c4ccb8a72c7a5f5e80",
+    "assets/ch19-v2-milk-inventory-default.svg": "d3c5b70cc8003520428ffedaed0e233a917a332b4fda9b12ac21438ad632414d",
+    "assets/ch19-v2-lactation-observed-sources.json": "8b275fb85345669bf4601132977f70faff70111028c0305c5adec3db95bfc419",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "acceptance": {
+    "current": false,
+    "source_model": "Pending independent assembled review",
+    "actual_browser_print": "Pending root"
+  }
+}

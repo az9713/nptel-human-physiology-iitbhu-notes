@@ -1,0 +1,47 @@
+{
+  "artifact": "d3-animate-libs.js",
+  "artifact_path": "assets/vendor/d3-animate-libs.js",
+  "bytes": 105400,
+  "sha256": "856c40d8d4f055dd6daca2120538cdfec476d28894b04e0db9ebb88080714ea2",
+  "git_blob_sha1_recomputed_from_local_bytes": "93ab9daf94ecd8dd7788c1bdb00140045df6ff14",
+  "source": {
+    "repository": "https://github.com/az9713/animate-libs",
+    "repository_path": "plugins/animate-libs/skills/animate-libs/libs/d3.js",
+    "source_file_url": "https://github.com/az9713/animate-libs/blob/main/plugins/animate-libs/skills/animate-libs/libs/d3.js",
+    "repository_license_url": "https://github.com/az9713/animate-libs/blob/main/LICENSE",
+    "repository_license": "MIT",
+    "repository_notice": "Copyright (c) 2026 cth9191",
+    "installed_skill_copy_sha256": "856c40d8d4f055dd6daca2120538cdfec476d28894b04e0db9ebb88080714ea2",
+    "file_identity_method": "SHA-256 of the local vendored and installed copies matched; Git blob SHA-1 was recomputed from local bytes and matched the source blob reported by the repository fetch.",
+    "source_readme_url": "https://github.com/az9713/animate-libs/blob/main/plugins/animate-libs/skills/animate-libs/libs/README.md"
+  },
+  "build_description_from_source_readme": {
+    "declared_direct_modules": ["d3-scale", "d3-shape", "d3-interpolate", "d3-array", "d3-ease", "d3-path"],
+    "declared_line": "7.9.0 line",
+    "declared_format": "esbuild iife; global d3",
+    "verified_exact_module_versions": null,
+    "version_limit": "No package lock, source map, version banner, or module-version manifest was supplied with the minified vendor file. The README's line description is not an independently verified exact bill of materials."
+  },
+  "notice": {
+    "path": "assets/vendor/animate-libs-D3-NOTICE.txt",
+    "sha256": "18372af46ae3b8c1fb137c46e95770df6905b72e18b0886cd4f0ce03d4f40ead",
+    "module_license_sources_checked_2026_11_08": {
+      "d3-array": "https://github.com/d3/d3-array/blob/main/LICENSE",
+      "d3-scale": "https://github.com/d3/d3-scale/blob/main/LICENSE",
+      "d3-shape": "https://github.com/d3/d3-shape/blob/main/LICENSE",
+      "d3-interpolate": "https://github.com/d3/d3-interpolate/blob/main/LICENSE",
+      "d3-ease": "https://github.com/d3/d3-ease/blob/main/LICENSE",
+      "d3-path": "https://github.com/d3/d3-path/blob/main/LICENSE",
+      "d3-color": "https://github.com/d3/d3-color/blob/main/LICENSE",
+      "d3-format": "https://github.com/d3/d3-format/blob/main/LICENSE",
+      "d3-time": "https://github.com/d3/d3-time/blob/main/LICENSE",
+      "d3-time-format": "https://github.com/d3/d3-time-format/blob/main/LICENSE",
+      "internmap": "https://github.com/mbostock/internmap/blob/main/LICENSE"
+    },
+    "license_distinction": "The animate-libs README summarizes the bundle as ISC, but upstream d3-ease carries BSD-3-Clause and is given its own notice. The other listed D3 modules/dependencies use ISC in the owning upstream license files. The MIT project notice is separate and does not replace third-party notices.",
+    "dependency_scope": "d3-color, d3-format, d3-time, d3-time-format and internmap are covered conservatively as transitive dependencies or exports of the described curated D3 build; exact included code and versions have not been audited from a build manifest.",
+    "upstream_main_limit": "The copyright-year lines were read from current upstream main LICENSE files, not from pinned versions matching this bundle; the original exact module-version notices cannot be proven from the available minified artifact."
+  },
+  "integration_scope": "The host intends to call d3.interpolateNumber for deterministic, pure interpolation. This record does not assert that D3 timers or any other library API are used by the host, nor does it validate the host runtime or visual output.",
+  "checked_date": "2026-11-08"
+}

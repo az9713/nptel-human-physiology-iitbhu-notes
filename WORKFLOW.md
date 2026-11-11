@@ -1,11 +1,13 @@
 # Human Physiology: production workflow
 
+**2026-11-08 correction:** visual acceptance for every chapter is reopened. The [version-2 rubric](spec/physiology-visual-rubric.md) overrides earlier allowances for crude schematic anatomy. Historical scientific and production records are retained as history, not current visual approval.
+
 ## Scope and current state
 Independent study notes following [NPTEL102106670](https://nptel.ac.in/courses/102106670), Prof. Sudip Mukherjee, IIT (BHU) Varanasi. The NPTEL-NOC IITM channel hosts the videos. The supplied playlist is reordered, omits official lecture20 and includes a supplementary introduction. The official60-lecture order is canonical.
 
-All 25 chapters are accepted after exactly two actual independent full scientific/editorial reviews each, necessary bounded repairs and separate actual browser/print assessments. Complete publisher captions and bounded source-visual audits cover all 60 recordings; no continuous viewing claim is made. The plan records 25 chapters, 101 section nodes, 73 animations and 35 supporting illustrations. Final release validation and actual remote/live publication are recorded separately in completion.json.
+The previous edition recorded acceptance of 25 chapters after exactly two actual independent full scientific/editorial reviews each, necessary bounded repairs and separate actual browser/print assessments. Complete publisher captions and bounded source-visual audits cover all 60 recordings; no continuous viewing claim is made. The plan records 25 chapters, 101 section nodes, 73 animations and 36 supporting illustrations. Final release validation and actual remote/live publication are recorded separately in completion.json.
 
-The user authorized autonomous completion and GitHub publication using the established lecture-repository workflow. Do not invent author approval or claim a review happened when it did not.
+On 10 November 2026 the user explicitly authorized committing and pushing the current revision to the existing GitHub course repository, using the established NPTEL/Stanford reader structure. This supersedes the earlier local-only restriction. The revision is published as a development edition with visual acceptance still reopened. Do not invent author approval of scientific or visual quality, or claim a review happened when it did not.
 
 ## Skills and responsibilities
 - **analyze-sources:** source identity, acquisition, provenance, partial-coverage labels and source/verification separation.
@@ -37,6 +39,9 @@ Place timestamps beside major headings. Distinguish lecture coverage, verified c
 Exercises have fully worked solutions. About six per chapter is a reference default, with a flexible mix of conceptual reasoning, meaningful derivations and computation/data interpretation. Do not invent simulations or proof quotas for descriptive biology.
 
 ## Visual policy
+
+**Human-figure exception (9 November 2026):** By explicit user request, replace photorealistic unclothed human figures with anatomical sketches, including anterior position and median sagittal/coronal/transverse plane examples and their full-size, print and credit displays. This exception does not replace CT/MRI, microscopy or isolated organ-specimen references. Label synthetic sketches as illustrations, preserve directional accuracy and do not treat them as observed specimens.
+
 ### Realistic visual production and new rendered styles
 Record the visual modality and its evidence for Chapters9–25. Preserve the accepted scientific snapshots of Chapters1–8; any later visual replacement needs its own scoped checks. These are production procedures for implementing the user’s request, not a user-imposed quota of new 3D renders per chapter.
 
@@ -87,8 +92,10 @@ Use the local reader assets and MathJax. Check math, definitions, links, anchors
 Regenerate planning views with `python -X utf8 tools/export_plan.py`, reader pages with `python -X utf8 tools/build_book.py`, and development integrity with `python -X utf8 tools/validate_book.py`. Development validation explicitly reports pending work. `--release` must fail until all required acceptance evidence is present. Browser interaction checks are separate.
 
 ## Release
-Publish only accepted chapters/assets, their provenance/licenses, reproducible code, reader tools and truthful validation reports. Exclude raw captions/videos/slides, private work/reviews, local paths, credentials and unrelated files. Preserve every third-party asset/dependency license; the animate-libs repository license does not replace the custom GSAP license.
+Final accepted releases require accepted chapters/assets, their provenance/licenses, reproducible code, reader tools and truthful validation reports. The explicit 10 November request authorizes publication of the current development edition without representing it as an accepted release. Exclude raw lecture captions/videos/slides, private work/reviews, personal absolute paths, credentials and unrelated files. Preserve every third-party asset/dependency license; the animate-libs repository license does not replace the custom GSAP license.
 
 After full-course acceptance, inspect the staged diff, push to the intended course repository, and verify the actual remote commit and live reader. User authorization to publish does not justify claiming incomplete work is complete.
+
+The development edition retains root chapter HTML, the dark reader, source map, code lab, metadata and attribution structure. Two lossless WebM files exceed the Git file limit: `publication-media.json` pins their exact release-asset bytes. `tools/prepare_pages.py` restores them for fresh clones and assembles the public Pages artifact. The Pages workflow checks development integrity, including pending status, and does not replace or bypass the final `--release` acceptance gate. Raw visual-review records and internal production notes remain private.
 
 Portable acceptance records are exported with `python -X utf8 tools/export_acceptance.py` only after actual private producer checks pass. At release run both `tools/validate_book.py --producer --release` and `tools/validate_book.py --public --release`. Public mode checks the current files against sanitized records under validation/acceptance without claiming access to private reports; producer mode requires the actual private reports. Never fall back from either failed mode to the other. See validation/README.md for evidence limits and reader commands.

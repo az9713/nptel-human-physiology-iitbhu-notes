@@ -1,0 +1,122 @@
+{
+  "status": "PROVISIONAL observed-only candidate; no all-rubric acceptance or release approval.",
+  "date": "2026-11-08",
+  "scope": "Two static observed-microscopy figures: primary complete rat TEM with external vector key, then independent unlabelled SEM surface field.",
+  "tem": {
+    "file": "ch07-v2-barrier-tem.jpg",
+    "source_file": "assets\\ch07-v2-barrier-tem.jpg",
+    "sha256": "0fdb34f80dfd8a8a2dfee01df808753927fd6cc4605c5d92314197f656d3a7fd",
+    "dimensions_px": [
+      1059,
+      540
+    ],
+    "bytes": 126408,
+    "modifications": "None; original source JPEG bytes retained.",
+    "source_record": {
+      "date": "2026-11-08",
+      "reviewer": "source-research agent",
+      "file": "fphys-14-1142221-g001.jpg",
+      "sha256": "0fdb34f80dfd8a8a2dfee01df808753927fd6cc4605c5d92314197f656d3a7fd",
+      "bytes": 126408,
+      "dimensions": [
+        1059,
+        540
+      ],
+      "source_url": "https://www.frontiersin.org/files/Articles/1142221/fphys-14-1142221-HTML/image_m/fphys-14-1142221-g001.jpg",
+      "owning_article": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2023.1142221/full",
+      "doi": "https://doi.org/10.3389/fphys.2023.1142221",
+      "figure": "Figure 1 panels A/B",
+      "creator_credit": "Knudsen, Hummel, Wrede, Zimmermann, Perlman and Smith",
+      "year": 2023,
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": "Owning article permissions metadata explicitly links CC BY 4.0. Complete Figure 1 caption inspected in publisher HTML; no figure-specific third-party/reprint/permission-only exclusion found. Author contribution statement credits article authors with preparation/interpretation of figures. Caption cites Knudsen 2018 in connection with preparation, not a separate rights grant.",
+      "rights_limits": "Original publisher-supplied figure JPEG, not raw microscope acquisition or proof that the micrographs were first published in 2023. No ownership beyond actual article notice asserted.",
+      "modifications": "None to JPEG; panel letters, annotations and 0.5 micrometre bars retained.",
+      "specimen": "Rat lung; age/sex/strain and disease status not stated in Figure 1 caption.",
+      "preparation": "In-vivo vascular-perfusion fixation via vena cava caudalis; airway opening pressure 5 cmH2O during expiration after two recruitment maneuvers, each 3-second pause at 30 cmH2O.",
+      "modality": "Transmission electron microscopy",
+      "observation": "Actual 1059x540 JPEG viewed at original resolution. Panel A has continuous thin Endo/BM*/AEC1 stack between Cap above and Alv below. Panel B has separated basal laminae and thicker interstitium with Col and IC labels.",
+      "scale": "Publisher bars 0.5 micrometre in both panels; retain bars if resized uniformly. No measurement performed.",
+      "pair_use": "Primary observed rat TEM layer reference with unchanged whole Figure1A/B and external vector key; separate observed alveolar SEM provides surface context. No medical-CG role, common specimen, shared scale or registration.",
+      "article_snapshot": "frontiers-1142221.html",
+      "article_snapshot_sha256": "40aa9fa960d0913d947d137578999181bcad4bc226b9933f3bea6cef7eafee72",
+      "dimension_verification": "JPEG SOF marker read directly on2026-11-08; width1059,height540. Prior1060was incorrect. Image bytes/hash unchanged."
+    },
+    "display": "Complete original pair, no crops or pixel edits. Original tags/annotations/bars retained; external vector key only.",
+    "crop_decision": "B source tag occupiesx526–538,y1–19: proposed B535 crop clips it and A540 crop duplicates it. Whole pair used instead, authorized by root."
+  },
+  "sem": {
+    "file": "ch07-v2-alveolar-sem.jpg",
+    "source_file": "assets\\ch07-v2-alveolar-sem.jpg",
+    "sha256": "5e181861c3c1dbe5aa14ab407191ce11b8360f58a849649431a1db050a638d7a",
+    "dimensions_px": [
+      3966,
+      2753
+    ],
+    "bytes": 1592191,
+    "modifications": "None; original source JPEG bytes retained.",
+    "title": "Alveoli. SEM",
+    "creator": "David Gregory & Debbie Marshall",
+    "owning_record": "https://wellcomecollection.org/works/md3e2shq",
+    "accession": "B0000716",
+    "download": "https://iiif.wellcomecollection.org/image/B0000716/full/full/0/default.jpg",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "unknown": [
+      "species",
+      "physical field width",
+      "fixation",
+      "drying/coating",
+      "normal/pathological status"
+    ],
+    "claims": "Whole alveolar field only. No particular pore, cell, nucleus, capillary or scale identified."
+  },
+  "relationships": "Independent specimens, preparations, modalities and scales; no registered zoom or measured transport. No CG in reader page.",
+  "vector_key": {
+    "file": "ch07-v2-barrier-reference.svg",
+    "viewBox": [
+      1200,
+      940
+    ],
+    "minimum_external_font_px": 23,
+    "leaders": "None. Source annotations identify structures; assembled claims await independent anatomy review."
+  },
+  "print": {
+    "two_figures": "TEM/legend together on first page; SEM begins new page. Actual PDF proof pending.",
+    "plate_width_mm": 180,
+    "source_image_width_mm": 165.6,
+    "tem_effective_ppi": 162.43115942028984,
+    "minimum_external_key_points": 9.779527559055119,
+    "sem_width_mm": 140,
+    "sem_effective_ppi": 719.5457142857143,
+    "exception": "Source-limited TEM ~162ppi at165.6mm original-image width inside180mm vector plate. No pixel resampling/upscaling file; actual source-annotation/diagnostic-detail print legibility pending. External vector key designed≥9pt."
+  },
+  "rejected_cg": {
+    "private_archive": "work/visual-v2/alveolus/rejected-cg",
+    "use": "No CG image/link/source key or generation narrative in this observed-only reader flow. Failed prototypes and old builder preserved separately.",
+    "legacy_assets": "Old default CG files retained unmodified but unlinked; root must exclude them from release/acceptance."
+  },
+  "brief": {
+    "file": "work/visual-v2/alveolus/observed-layout-brief.md",
+    "sha256": "ffec5a7235f51f1e73d5affefebe35290907d2acb4327ba87d9391dabfd3e3eb"
+  },
+  "tools": {
+    "python": "3.13.5",
+    "pillow": "11.0.0"
+  },
+  "builder": "figures/ch07_visual_v2.py; public original source JPEGs and public provenance are rebuild inputs",
+  "pending": [
+    "Independent assembled anatomical/appearance review",
+    "Root IAB desktop/650px/390px native/fit/all-corners pan/keyboard",
+    "Actual two-figure PDF,≥9pt external type and source-limited diagnostic detail review"
+  ],
+  "delivered_artifacts": {
+    "ch07-v2-barrier-tem.jpg": "0fdb34f80dfd8a8a2dfee01df808753927fd6cc4605c5d92314197f656d3a7fd",
+    "ch07-v2-alveolar-sem.jpg": "5e181861c3c1dbe5aa14ab407191ce11b8360f58a849649431a1db050a638d7a",
+    "ch07-v2-barrier-reference.svg": "5a07bcbf71d3fbd9c9911568c0f66306b645b94aeef9ad532f03e96ec93ef46e",
+    "ch07-v2-alveolar-reference.html": "0607ce5e6ccfebf49e5cc964cd3fbfbb527b401c318ee1e9ae42e92420c7745f",
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "chapter": 12,
   "title": "Digestive organization and carbohydrate absorption",
-  "status": "accepted",
-  "coverage_complete": true,
+  "status": "revised",
+  "coverage_complete": false,
   "reviews": [
     {
       "reviewer_id": "/root/ch12_review_a",
@@ -60,7 +60,7 @@
     27
   ],
   "source_evidence": "Complete captions through L26 19:48 and L27 24:43, all37 topic-ledger entries and SCI-011 read. Relies on attributed work/visual-review-ch12.md bounded audit of five sheets90 sampled stills and five repeat native frames; author does not claim continuous or inherited viewing.",
-  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
   "code": [
     "code/ch12_absorption.py"
   ],
@@ -69,39 +69,53 @@
     {
       "id": "ch12-fig1",
       "path": "chapter-12-digestion-carbohydrate-absorption.html#ch12-routes",
-      "status": "accepted",
-      "role": "Original inline connectivity map; bound by body digest."
+      "status": "partial-observed-candidate-review-pending",
+      "role": "Observed separate human pancreas/duodenum source-labelled dissection. Full biliary/liver/duct confluence and whole gut remain pending."
     },
     {
       "id": "ch12-villus-photo",
       "path": "assets/ch12-villi-reference.jpg",
       "provenance": "assets/ch12-villi-reference.json",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Unchanged actual human cryosection, S.Schuller, CC BY4.0; no scale, donor condition or transporter identity inferred."
     },
     {
       "id": "ch12-anim1",
-      "path": "assets/ch12-peristalsis.html",
-      "script": "assets/ch12-models.js",
-      "status": "accepted",
-      "role": "One local unrolled tube segment, synthetic phase; bolus remains luminal."
+      "path": "assets/ch12-v2-colon-observed-reference.html",
+      "script": "assets/observed-video-controls.js",
+      "status": "candidate-observed-contractions-final-UI-print-pending",
+      "role": "Original unchanged Pendse2023C1qafl/fl control mouse exvivocolon movie;sourceperistalsis/qualitativeoutercontours. No bolusdirection/globalhumantransit or export-biologicalclockconversion."
     },
     {
       "id": "ch12-anim2",
-      "path": "assets/ch12-hydrolysis.html",
-      "script": "assets/ch12-models.js",
-      "status": "accepted",
-      "role": "Ten tracked glucose residues; α1,4 amylase cut separated from branch, α1,6 remains until brush-border step."
+      "path": "assets/ch12-v2-hydrolysis-reference.html",
+      "script": "assets/ch12-v2-hydrolysis-controls.js",
+      "status": "candidate-source-state-static-approved-actual-runtime-print-pending",
+      "role": "ActualPubChem/RDKitchemicalgraphs:separate7residuealpha14and2residuealpha16substrates,selected3+4cut,9glucosecompletion;notonebranchedpolymer/kinetics.",
+      "model": "assets/ch12-v2-hydrolysis-model.js"
     },
     {
       "id": "ch12-anim3",
-      "path": "assets/ch12-absorption.html",
-      "script": "assets/ch12-models.js",
-      "status": "accepted",
-      "role": "Staged polarized sugar entry/exit; pump-maintenance directions. No measured kinetics."
+      "path": "assets/ch12-v2-epithelial-reference.html",
+      "script": "assets/ch12-v2-epithelial-controls.js",
+      "status": "candidate-source-state-approved-final-UI-print-pending",
+      "role": "Untouched observed mouse SEM plus separate idealized sugar/Na ledger; source-spatial static composition independently reviewed by B before motion implementation. No particle over specimen pixels, no measured kinetics.",
+      "model": "assets/ch12-v2-epithelial-model.js"
+    },
+    {
+      "id": "ch12-vessels-observed-reference",
+      "path": "chapter-12-digestion-carbohydrate-absorption.html#ch12-vessels-observed-reference",
+      "status": "partial-observed-candidate-review-pending",
+      "role": "Separate mouse duodenal wholemountconfocal podocalyxin/LYVE1 architecture; not human or observed nutrient transport."
+    },
+    {
+      "id": "ch12-biliary-observed-reference",
+      "path": "chapter-12-digestion-carbohydrate-absorption.html#ch12-biliary-observed-reference",
+      "status": "source-native-candidate-final-review-pending",
+      "role": "IndependentJaganathan2023livingdonorplanningMRCPsource-labelledhepatic/cystic/commonbile/pancreaticducttopology;CCBY3.0,no diameter/flow/terminalpapillaregistration."
     }
   ],
-  "body_sha256": "ed73d6825a59f16893fc5697adb3f0da28420a86cbc8111cfe27c1bba1457cfa",
+  "body_sha256": "ceff0de8a0a69b4b68749980653e9588c6db5c3af2fe7ddfe14233e9a46972a7",
   "reviewed_artifacts": [
     {
       "path": "code/ch12_absorption.py",
@@ -155,6 +169,37 @@
   "author_report": "work/ch12-author-report.md",
   "coverage_basis": "All37 L26–27 source topics dispositioned using complete captions and bounded source-still audit; exactly two full scientific reviews plus targeted localized repair checks. Continuous video viewing is not claimed.",
   "realistic_asset_gate": {
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
+  },
+  "production_validation": {
+    "report_path": "work/browser/ch12-production-final.json",
+    "report_sha256": "19a58e87e2550a86206ca33147bcae3664f9ad6fa116a3d1895c735adfc29440",
+    "scope": "Actual browser/control/responsive/reduced-motion checks and bounded root print inspection; relevant observed imagery or justified conceptual diagrams, with source limits and separate failed CG prototypes preserved."
+  },
+  "accepted_at_utc": "2026-11-04T22:48:15.246Z",
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-12.json",
+    "sha256": "bcda69d005b3754df1bcad5899fcc7ea1b119f6f89c14a47cf22d248cc122f06"
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "local-observed-and-controlled-chemical-mechanisms-pending-final-review",
+    "date": "2026-11-09",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false,
+    "current_body_sha256": "ceff0de8a0a69b4b68749980653e9588c6db5c3af2fe7ddfe14233e9a46972a7",
+    "remaining": [
+      "Full source-grounded alimentary-organ spatial context and terminal papillary/duct microgeometry",
+      "Current independent source/anatomy/appearance and actual browser/print evidence for all new families; pure quantitative failure plot remains separate",
+      "Any rubric item not yet verified stays pending; no complete-chapter acceptance inferred from source availability"
+    ],
+    "integration_report": "work/visual-v2/ch12-13/integration/HANDOFF.md",
+    "frozen_snapshot": "work/visual-v2/ch12-13/frozen-review/snapshot.json"
+  },
+  "prior_visual_gate": {
     "status": "accepted",
     "reason": "Chapter-specific visual modality and delivered artifacts inspected under the user-selected workflow.",
     "mode": "observed-reference-plus-schematic",
@@ -172,14 +217,78 @@
     "report_path": "work/browser/ch12-visual-modality.json",
     "report_sha256": "8e5b19d593910fcc862d5e7323c6088d68b316f3a0789f8f5c6288edf3f0159a"
   },
-  "production_validation": {
-    "report_path": "work/browser/ch12-production-final.json",
-    "report_sha256": "19a58e87e2550a86206ca33147bcae3664f9ad6fa116a3d1895c735adfc29440",
-    "scope": "Actual browser/control/responsive/reduced-motion checks and bounded root print inspection; relevant observed imagery or justified conceptual diagrams, with source limits and separate failed CG prototypes preserved."
+  "current_chapter_sha256": "cb9a7e786b575599fd51d229065b0a820e9bf4d45e3832a79549f2581f0fbd66",
+  "current_body_sha256": "ceff0de8a0a69b4b68749980653e9588c6db5c3af2fe7ddfe14233e9a46972a7",
+  "current_visual_artifacts": {
+    "assets/ch12-v2-enteric-human-villus.jpg": "d1c2b3c6346ea37e4497bc42d7cbfc11f155513cab83689fdda337031988f204",
+    "assets/ch12-v2-enteric-mouse-enterocyte.png": "a046439e3c71853f550d653801aa5def23e29290be0ef256ebf9c085b7d2a6a8",
+    "assets/ch12-v2-enteric-mouse-vessels.jpg": "4dee6792afc721ebe8c7f2141beccb1d8c1def8842201e46d0213e2e82b8703f",
+    "assets/ch12-v2-enteric-provenance.json": "b85b36974273995bc01cd63172ad394605a1b0c8e08cb680a569cd40f0549a20",
+    "assets/ch12-v2-enteric-reference.html": "6f25173e06c5344304c2206a5cd18ef3641bffdec3d9167e8d41cecac407476d",
+    "assets/ch12-v2-enteric-sources.json": "d5eb7bfb1962120b7b3bf920d147c186daa3a6fa7d73629ad0458fe61bd40737",
+    "assets/ch13-v2-pancreatic-gross.jpg": "bd465cc5e946ab2419ca4de4e8e7bf340db0c0cfb0715aa7fe46e4072bd52731",
+    "assets/ch13-v2-pancreatic-provenance.json": "7c0bb757b09b885a8741c41d9c88b0f6c3d1fa6c73c63187ac9fa05695e93d10",
+    "assets/ch13-v2-pancreatic-reference.html": "548b5aa78b7dfd66996b3ff7b7225ff7aeee778c93a04f6b2af5acb38df30a16",
+    "assets/ch13-v2-pancreatic-sources.json": "8c682b8b0df63fa0a767c3120b47fe3fa04ca4c8c6828cad6717572691ff1f49",
+    "assets/ch12-v2-epithelial-controls.js": "995447394248667ff4bde668163946529493eb962bc733bf688e8fe069cd1568",
+    "assets/ch12-v2-epithelial-model.js": "11b7bd86d8dcd833d606830d02fa904819a44beb5a6e56f2046b0743888aa8fb",
+    "assets/ch12-v2-epithelial-provenance.json": "356b26f77806f62b77bdcfa6f391080d0856bf82b51291f69783e99f81ba7ebe",
+    "assets/ch12-v2-epithelial-reference.html": "e8b22274c795336eb5e4c67dbe7b69d82d7c12f2f3940a19a756b317fd59128d",
+    "assets/ch12-v2-enteric-extraction-proof.json": "8534437d3caeef093bd1d9ddb7694aba958fe799fefc15af807a48e57e7833dd",
+    "assets/ch13-v2-pancreatic-extraction-proof.json": "0f5b8c252cc26fed486ccbf3fcc216546827c598a85536b911898426fa891eb3",
+    "assets/ch13-v2-pancreatic-gross.png": "9d361ff72086f6a0004bac81ce0f57190f531497ee2d39fb8e8e384d1a3aa659",
+    "assets/ch12-v2-colon-observed-decode-framemd5.txt": "5e2fd287b00ce667fe1d811d1f000eb2a4e8ee162b31e19d4366fad6a55af9af",
+    "assets/ch12-v2-colon-observed-frame-0000.png": "d77b01ba535935ba64ecc0cc67f2d6bb5ec29b2741286a49af9621e38e2d27c6",
+    "assets/ch12-v2-colon-observed-frame-0810.png": "21d0d81ae13ecba4c1355732c5874846f09a6724adbf1a3a7d61e745ab38d857",
+    "assets/ch12-v2-colon-observed-frame-1619.png": "19c97d0c8349047fa78edbf4d7973c2e121bc9e4f0514ebb33e40be1fe9906b1",
+    "assets/ch12-v2-colon-observed-movie.mp4": "5a535e3bb2fa3bbb5a3e2687ab2c6875a07714092d95bf0c30cd6cf7ef8f0ae7",
+    "assets/ch12-v2-colon-observed-provenance.json": "1c0b5e1efaa6e0839f9a7de2142325c9b1337f11432223cde067bce733206078",
+    "assets/ch12-v2-colon-observed-reference.html": "dc72f241a8faa4ce3cb65d9060e432066539edca72a95ad6da1266d74aba6526",
+    "assets/ch12-v2-colon-observed-sources.json": "1b4def34b0dc1a7190dc504e9e2b624ea9163f22492dbddc524e96e983a9e5c1",
+    "assets/ch12-v2-hydrolysis-compounds.json": "1a41ced0343878e1951c8bcfe9bed3ba664a7770c89ae16719a73d8027984e73",
+    "assets/ch12-v2-hydrolysis-controls.js": "354a544a17ce47cece2d40530b1b80e12078574087dbe2294870f962b723bfb8",
+    "assets/ch12-v2-hydrolysis-D-glucose.svg": "deee635798e3390a274770f5dc0dd504719a20d6d9ff6afb30f82f1b0faf8fd8",
+    "assets/ch12-v2-hydrolysis-isomaltose.svg": "00488fb956a8a23a19b40da31678eed542fb74767955dfcbfdaa5dc1819146c2",
+    "assets/ch12-v2-hydrolysis-maltoheptaose.svg": "64efcd47ad7ae685704689f317b39dcae58d24941a7cc356701c5321d6ea8536",
+    "assets/ch12-v2-hydrolysis-maltotetraose.svg": "907d19184c466af21bd4fffa79b6c412d63ad9bec26b740ddf354dcedd953494",
+    "assets/ch12-v2-hydrolysis-maltotriose.svg": "b21cd55eaebcd010d786d967123f46366d913c11f06c21a6d0ef9664d8d4b51e",
+    "assets/ch12-v2-hydrolysis-model.js": "2b8c2f06563918acb87c17739396fb01702d902d654d5a83daf1b5b79f7a0d1c",
+    "assets/ch12-v2-hydrolysis-provenance.json": "87d0e4f17bd91e883361a9daf39af60a28c6bc0fe3bc9be84b1748514d1b3b50",
+    "assets/ch12-v2-hydrolysis-reference.html": "1b3b4e4cc598132b495f8e7512a12a064ea66a67f71ace35ebe3ba923143c1f5",
+    "assets/ch12-v2-hydrolysis-sources.json": "b382b876d953f19855beb661409df619014716621e4d985f594c63d4a8343094",
+    "assets/ch13-v2-digestion-controls.js": "1858eed61dd2cbb56465b30cf2889acd832e45141fe559a55a479e1b40e5e432",
+    "assets/ch13-v2-digestion-model.js": "422f0f3e574c29f4bd8258905db253c1b6a369c2f3581776b4f231d7b16de1a3",
+    "assets/ch13-v2-digestion-provenance.json": "d7d3180e7d7a39fc2f7fa4f72031443710c0463868a13d0c02d072eb1b5ece1d",
+    "assets/ch13-v2-digestion-sources.json": "d478f8bc4e1884e953fc9b9a1d10baf69c0a7171007ae7698cb21c9fe8004984",
+    "assets/ch13-v2-protein-reference.html": "790804965bbc48b20ef71b02607dc92f1b3168be35d7ddf867e6aedb59b922b6",
+    "assets/ch13-v2-lipid-products.svg": "48b33beb2a815dad57420d306c5d75536967a41aca2a0ac4bcfd89ab1f848f0a",
+    "assets/ch13-v2-lipid-reference.html": "1e5e977ad292d44fce18dd7a6ebee310f73a42de76bbd75e3215b8c8043acea2",
+    "assets/ch13-v2-lipid-tag.svg": "c58317b2d669cac36b1a1c514e3989483716ccdc1f293eaa6550eb82f4c1204f",
+    "assets/ch13-v2-glycine.svg": "3b2fe8608c8b284d646fe063cc83d0833732a22c41bf8a21668e8939a424144e",
+    "assets/ch13-v2-glycylglycine.svg": "1fe7e1f45166f8271408cb9d8144037869960c762775151db80c35feb61c92db",
+    "assets/ch13-v2-biliary-mrcp.jpg": "4949737e5e0ebcee52c5dbeec9c1ee1e6b22bf2836ba1fb90b669e7f2ae86254",
+    "assets/ch13-v2-biliary-provenance.json": "fc5fb0a2055772d54c31cf4a00af168ee215250b57529c870ab14ab33a1435ff",
+    "assets/ch13-v2-biliary-reference.html": "dccd6ffa0e610d926c7faaba7c8016d65b9e0aa512ed7012fff9f4d0be582371",
+    "assets/ch13-v2-biliary-sources.json": "bc4b17885a8601e82307fc5fcc49c70f548f53895f69caa80559189c7c120027",
+    "assets/ch12-v2-hydrolysis.css": "be49b77a2087c283138a97d224318ac44103bd25f704fdc5191a84662ce2c370",
+    "assets/ch13-v2-chemical-records.json": "9e92d1a8c80286c206e433f2af5b611dd51c6c86e10bbec2ff187500f0b4458e",
+    "assets/ch13-v2-digestion.css": "8432bd65487723d8aa4139bf5b7e4804b055a51250303a2269839e3f44068438",
+    "assets/ch12-v2-hydrolysis-maltotriose-print.svg": "e75075c3baed40963db3298897e04637447b90797ccb542a7fbeca35499a7f90",
+    "assets/ch12-v2-hydrolysis-maltotetraose-print.svg": "b3a559cdcc0d511618dae0191f45f0193451bc645718b1fb7ff8e2b1ae97d800",
+    "assets/ch12-v2-hydrolysis-isomaltose-print.svg": "90f201f01a01729f7b9a18b69666bae6978b6476481f994963eca12c5244e118",
+    "assets/ch12-v2-hydrolysis-D-glucose-print.svg": "0e0d654ffe4f462b5ccd221c956bcb2c0594e6e51c83b606c77cd39e578299be",
+    "assets/ch12-v2-hydrolysis-print-layout.json": "3e8864ef4678128c140deac94da43a0e485c10c791daddea144832217b4ef6a1",
+    "figures/ch13_biliary_observed_v2.py": "8aed78c6275dc175f5751b82dc83c6a3c140685e15985b8a9b99c93d4686fc43",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "figures/ch13_biliary_observed_v2.template.html": "dccd6ffa0e610d926c7faaba7c8016d65b9e0aa512ed7012fff9f4d0be582371",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
   },
-  "accepted_at_utc": "2026-11-04T22:48:15.246Z",
-  "public_acceptance": {
-    "path": "validation/acceptance/chapter-12.json",
-    "sha256": "bcda69d005b3754df1bcad5899fcc7ea1b119f6f89c14a47cf22d248cc122f06"
+  "review_history_scope": "Original review/code_validation/production/public_acceptance records bind their retained old hashes; current observed/chemical replacement hosts require fresh source/runtime/print evidence.",
+  "current_hash_definition": "Exact raw current file/body marker bytes; historical scientific-review bindings preserved.",
+  "biliary_alt_revision": {
+    "date": "2026-11-10",
+    "scope": "One readablealternative-text correction; sourceimage/science/styleunchanged",
+    "actual_browser_verification": "PENDING",
+    "current_visual_acceptance": false
   }
 }

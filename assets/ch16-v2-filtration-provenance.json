@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-09",
+  "status": "Candidate; exact composition, anatomy, appearance and actual UI/print review pending; no acceptance inferred",
+  "source_record": "ch16-v2-filtration-sources.json",
+  "source_record_sha256": "71994f552ee658fdc88460c0b9cfb157b81a03e25778843b942c1befe8144067",
+  "model": {
+    "equations": "NFP=Pgc−Pbs−πgc+πbs; signedQ=Kf*NFP",
+    "Pgc_mmHg": 55,
+    "pi_gc_mmHg": 30,
+    "pi_bs_mmHg": 0,
+    "Kf_mL_min_mmHg": 12.5,
+    "Pbs_sweep_mmHg": [
+      15,
+      20
+    ],
+    "NFP_sweep_mmHg": [
+      10,
+      5
+    ],
+    "Q_sweep_mL_min": [
+      125,
+      62.5
+    ],
+    "duration_presentation_s": 12,
+    "assumptions": "Uniformeffectivepressures,Kfconstant,reflectioncoefficientone,nobiologicaltransit/obstructiontime,notmeasuredintheseTEMmice. Pressurefigures illustrativechaptermodel only."
+  },
+  "crop": {
+    "source_file": "ch16-v2-filtration-source-figure7.png",
+    "rect_xyxy": [
+      169,
+      102,
+      890,
+      621
+    ],
+    "file": "ch16-v2-filtration-control7a.png",
+    "pixels": [
+      721,
+      519
+    ],
+    "sha256": "bb76a61869cfb7229b3fce0fcbe46003a0d93c44ac5cb476f40f79c7fd4acce3",
+    "rgb_sha256": "cfc303344356a0fb8b36c3af0ba0d200b58ca5427c4c38127407c49c85d0d654",
+    "operation": "Integer full-panelAfieldcrop; originalAletterretained; noresampling/recolor. No local scale bar added."
+  },
+  "anatomical_anchors_crop_pixels": {
+    "capillary_side": [
+      270,
+      400
+    ],
+    "urinary_space_side": [
+      300,
+      120
+    ],
+    "GBM": [
+      320,
+      290
+    ],
+    "foot_process_profiles": [
+      430,
+      273
+    ]
+  },
+  "limits": [
+    "Urinary-spaceSIDE/subpodocytespace profile, not proof of fullyconnectedBowmanlumen",
+    "No individualslitdiaphragm/glycocalyx/nephrinlabels fromthispreparedimage",
+    "SourceFigures6A/7A notregisteredfields or continuouszoom",
+    "No measuredTEMpressure/flow/biologicaltime; no deformation/moleculartrajectory"
+  ],
+  "print": {
+    "crop_width_mm": 85,
+    "crop_height_mm": 61.18585298196949,
+    "ppi": 215.45176470588234,
+    "source_limited_exception": "215.45ppi at85mm; sourcephoto/notupscaled; actuallabel/native/PDFproofrequired",
+    "label_key_min_pt": 9.5,
+    "credits_min_pt": 9
+  },
+  "rights": "Source TEM CC BY 4.0; exact integer crop and external vector labels disclosed. No photograph relabelled as human or measured-pressure experiment.",
+  "reproduction": {
+    "builder": "figures/ch16_filtration_v2.py",
+    "builder_sha256": "fac8ab10357760486352b77618edad07df625578219382fd240af3cf4f2ff058",
+    "template": "figures/ch16_filtration_v2.template.html",
+    "template_sha256": "24abe219de66d36ae35d07371ce12ebd690fa7033d93d7d2a1591813af66d772",
+    "python": "3.13.5",
+    "pillow": "11.0.0",
+    "input_scope": "Public immutable source figure PNGs, source JSON, template and shared modal dependencies only; original PDF acquisition separately documented, no private work/network required"
+  },
+  "shared_dependencies": {
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "pending": [
+    "B actual leader endpoint/composition check",
+    "Root actual 390/650/desktop play/seek/step/pan/modal/reduced-motion checks",
+    "Actual 85mm source-limited 215ppi PDF and attached external key/credit/pagebreak checks",
+    "Gross kidney/nephron architecture and segment mechanisms remain separate unfinished work"
+  ],
+  "artifacts": {
+    "ch16-v2-filtration-source-figure7.png": "626e313c04f87bf60bc8f4bc2d144e17b626c1825130a2b30a887fc0ea5b5691",
+    "ch16-v2-filtration-source-figure6.png": "c373084d9525861b484504049622ed3cb2e0a140ffe858ccb5dc67fe59de4931",
+    "ch16-v2-filtration-control7a.png": "bb76a61869cfb7229b3fce0fcbe46003a0d93c44ac5cb476f40f79c7fd4acce3",
+    "ch16-v2-filtration-anatomy.svg": "e3f8ee95edbcbc3a4a33a6e8e6a2680a5c0f71010ce55b4f0c721814bbe6e2d9",
+    "ch16-v2-filtration-reference.html": "bcc5e7be0aae7445c2cdf57d9f867a17c480bde4a44f4afdf59a950f2abfa3b1",
+    "ch16-v2-filtration.js": "e38de66790e3ddd3bbd78abc216c543fc44005899432302b5e0ac00f6aed0097"
+  }
+}

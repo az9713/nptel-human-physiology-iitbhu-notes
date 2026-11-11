@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-09",
+  "purpose": "Separate source-attributed observed ovarian cell-rim/antrum/theca morphology; not a serial human stage sequence",
+  "licence": "CC BY-NC-SA4.0; manualp1 explicitly covers manual and Michigan virtualslides. Noncommercial educational local use; no ND adaptation or third-party slide artwork used.",
+  "reproduction": {
+    "builder": "figures/ch19_follicle_observed_v2.py",
+    "template": "figures/ch19_follicle_observed_v2.template.html",
+    "private_network_required": false,
+    "acquisition": "Original complete source JPEGs acquired separately from exact manual URI links; public immutable files and records suffice for composition, full manual remains private"
+  },
+  "artifacts": {
+    "assets/ch19-v2-follicle-observed-reference.html": "53a1309a8115b7244c64235c739bf511dec3ff8f8ea8d174974d8160ac06a559",
+    "figures/ch19_follicle_observed_v2.template.html": "53a1309a8115b7244c64235c739bf511dec3ff8f8ea8d174974d8160ac06a559",
+    "figures/ch19_follicle_observed_v2.py": "2295292d4b7e5922a311b3fd067620ba7e38bfce2260492634783983b886a6e1",
+    "assets/ch19-v2-follicle-observed-sources.json": "9e3671c313c753c7860290462732ea473da4ca70f34b5e1aa8c537941f653fa2",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "assets/ch19-v2-follicle-observed-field-2.jpg": "f8ba946994b88a38162c852452fc8fdba917da88ff79d280df2069f2d14335fe",
+    "assets/ch19-v2-follicle-observed-field-3.jpg": "c6a228bdda8a349ee89f9180637434c856833ea3e83e7b58407cf6a138421ed3",
+    "assets/ch19-v2-follicle-observed-field-5.jpg": "ccd13abc397ca4750272d08a3ecf6489e3e3603e0eb1898a247b59981d12677f",
+    "assets/ch19-v2-follicle-observed-field-6.jpg": "8af3fc9ff8ef7b088686581c1d0d4b13a2e28ae1c5b576f3924c5a5a273b131b",
+    "assets/ch19-v2-follicle-observed-field-7.jpg": "06cba4acffbaa89373fa9dbf6cee78c69309f9b1ecb276423626373e96bd3ab5"
+  },
+  "acceptance": {
+    "current": false,
+    "source_native": "Pending independent assembled review",
+    "actual_browser_print": "Pending root"
+  }
+}

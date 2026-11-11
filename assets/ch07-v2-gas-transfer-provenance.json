@@ -1,0 +1,65 @@
+{
+  "status": "PROVISIONAL; final V01-V20 checks pending",
+  "purpose": "Teach independent down-partial-pressure NET O2/CO2 transfer across observed tissue, equality and reversal; not gas content, kinetics or perfusion.",
+  "microscopy": {
+    "source": "https://doi.org/10.3389/fphys.2023.1142221",
+    "figure": "1A from original complete Figure1A/B",
+    "species": "rat",
+    "preparation": "vascular-perfusion fixed; source describes blood-cell-free capillaries",
+    "creator": "Knudsen, Hummel, Wrede, Zimmermann, Perlman and Smith (2023)",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "original_dimensions_px": [
+      1059,
+      540
+    ],
+    "display_crop_ltrb": [
+      24,
+      26,
+      536,
+      538
+    ],
+    "modification": "Source JPEG unchanged. SVG viewport crop omits source panel letters; internal source labels and 0.5 micrometre bar retained. Transparent symbolic gas packets/dashed routes added without white tissue-erasing halo."
+  },
+  "mechanism_sources": [
+    "https://doi.org/10.1002/cphy.c150028",
+    "https://doi.org/10.1152/japplphysiol.00318.2016"
+  ],
+  "representation": {
+    "coordinates": "original TEM pixels, top-left origin",
+    "O2_source_path": {
+      "x": 180,
+      "air_y": 390,
+      "barrier_y": 240,
+      "blood_y": 165
+    },
+    "CO2_source_path": {
+      "x": 330,
+      "air_y": 430,
+      "barrier_y": 350,
+      "blood_y": 180
+    },
+    "time": "8 illustration seconds, arbitrary piecewise linear presentation, not biological seconds",
+    "flux": "No molar flux, molecule count, diffusivity, conductance or kinetic prediction",
+    "partial_pressures": "Chosen fixed ideal-reservoir boundary conditions in mmHg; gas content, haemoglobin saturation and pH not computed",
+    "equilibrium": "Zero NET-transfer symbols at equal pressures; microscopic exchange continues for positive gas pressures. At zero pressure on both sides, the model specifies no gas and does not assert molecular exchange.",
+    "spatial_limits": "Route and symbol size are illustrative; no literal channel, pore, trajectory, fluid-film resolution or cell transit is claimed"
+  },
+  "library": {
+    "repository": "https://github.com/az9713/animate-libs",
+    "path": "plugins/animate-libs/skills/animate-libs/libs/d3.js",
+    "git_blob": "93ab9daf94ecd8dd7788c1bdb00140045df6ff14",
+    "sha256": "856c40d8d4f055dd6daca2120538cdfec476d28894b04e0db9ebb88080714ea2",
+    "usage": "Pure d3.interpolateNumber; no D3 timers or randomness",
+    "notices": "vendor/animate-libs-D3-NOTICE.txt"
+  },
+  "artifacts_sha256": {
+    "assets/ch07-v2-gas-transfer.html": "037fa9a2405d121d1fc7927c5ed59c912b386dbed674bb1c8ea1b2bacdec61ae",
+    "assets/ch07-v2-gas-model.js": "027526fb3f87f6c60aec80c9f5b67b9313dce73fef2aaf46a293c132ae79f029",
+    "assets/ch07-v2-gas-transfer.js": "141ac2052b7dc2fc5d46313ad6be025fc4a0a9375a1658f1f963fe44fe9820ca",
+    "assets/vendor/d3-animate-libs.js": "856c40d8d4f055dd6daca2120538cdfec476d28894b04e0db9ebb88080714ea2",
+    "assets/ch07-v2-barrier-tem.jpg": "0fdb34f80dfd8a8a2dfee01df808753927fd6cc4605c5d92314197f656d3a7fd"
+  },
+  "reproduction": "Authored HTML/SVG/JS with local D3 and exact separately sourced JPEG. Deterministic computeState(time, pressures); renderFrame(time) seeks presentation state. Source model is not an empirical dynamic simulation.",
+  "print_resolution": "PanelA crop512px at designed105mm is about124ppi, a source-limited exception requiring actual print/detail review; original raster has no synthetic detail added."
+}

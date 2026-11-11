@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-09",
+  "role": "Observed confocal-volume reconstruction of one human fallopian-tube organoid local infection response; no whole-PID mechanism",
+  "reproduction": {
+    "builder": "figures/ch21_organoid_observed_v2.py",
+    "template": "figures/ch21_organoid_observed_v2.template.html",
+    "private_network_required": false,
+    "inputs": "Original MOV, lossless WebM, full-field decoded PNGs, RGB/PTS proof and source JSON are immutable public composition inputs. Original acquisition and optional ffmpeg re-encoding are separate documented steps."
+  },
+  "artifacts": {
+    "assets/ch21-v2-organoid-observed-original.mov": "93be3cdcf528645b6da16daa87678178791ddd0bd1db462d93f69f43f8c9bf99",
+    "assets/ch21-v2-organoid-observed-movie.webm": "17875906b997fbbecf60ceee376ac1f7ccb87f969e023a7ff1785ce64656ad39",
+    "assets/ch21-v2-organoid-observed-frame-0000.png": "bc0d626a580a5103e17bf5a0c4c6ce91398a3d4dcf265ad6f942ac0a37be7e32",
+    "assets/ch21-v2-organoid-observed-frame-0250.png": "34a8aa064fde459ad578ccf63c773e1872e19d555982aaaeea9fd080b95a4461",
+    "assets/ch21-v2-organoid-observed-frame-0500.png": "de138e2f2078d64404a7a8f50aef12aeae27dfc71c07ab9106a59baf19bcbbb6",
+    "assets/ch21-v2-organoid-observed-frame-0748.png": "44860c48140d2d08d40d6ea530edf70415060f8ea097be8f6c71ac6dcf6cdb36",
+    "assets/ch21-v2-organoid-observed-proof-native-yuv-rgb-proof.json": "54c7afadf18e13286897212bde546eae7f7464995ace7a823e134585b165d7e0",
+    "assets/ch21-v2-organoid-observed-proof-original.framemd5": "56b1a4af85a2cd90aa71c3d5905580aca4d88ce5e5249bf6f19b6b01613bfce5",
+    "assets/ch21-v2-organoid-observed-proof-native-yuv.framemd5": "56b1a4af85a2cd90aa71c3d5905580aca4d88ce5e5249bf6f19b6b01613bfce5",
+    "assets/ch21-v2-organoid-observed-proof-original-pts.json": "1777f12c8eaf379376dac5ce68adc88785281934b42c80559c7b28ac6d21350d",
+    "assets/ch21-v2-organoid-observed-proof-browser-pts.json": "6e5842b01bb92235fab73d242fec477af59b9235757259e48c12e48da9817da1",
+    "assets/ch21-v2-organoid-observed-reference.html": "2c89133a30d5ee377efa04101815220ef21d3471406d2cd74c4392a5a099ad15",
+    "figures/ch21_organoid_observed_v2.template.html": "2c89133a30d5ee377efa04101815220ef21d3471406d2cd74c4392a5a099ad15",
+    "figures/ch21_organoid_observed_v2.py": "0cd13f371b9400a4a2132c5042e7eab49590c564ca17d2b0698024cca0c9bd03",
+    "assets/ch21-v2-organoid-observed-sources.json": "ebd558d4fa20858c4fcf0cf037325e5219963d25640317f8843c8d591201bda8",
+    "assets/observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "assets/observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211",
+    "assets/observed-video-controls.css": "55144b39d16e8f1096f0cf1d534c817076d1b8c1e137320291f9e8a46b852c9b",
+    "assets/observed-video-controls.js": "1136584777fdb340619dab2527e02e647c95d12fa4a5d8af847148a60f42341f"
+  },
+  "acceptance": {
+    "current": false,
+    "source_claims": "Pending independent assembled retarget",
+    "actual_browser_print": "Pending root; native codec, event playback and physical still visibility unverified"
+  }
+}

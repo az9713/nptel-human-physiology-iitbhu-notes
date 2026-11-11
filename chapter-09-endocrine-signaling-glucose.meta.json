@@ -1,7 +1,7 @@
 {
   "chapter": 9,
   "title": "Endocrine signaling and glucose homeostasis",
-  "status": "accepted",
+  "status": "revised",
   "coverage_complete": true,
   "reviews": [
     {
@@ -62,7 +62,7 @@
     21
   ],
   "source_evidence": "Both complete private caption texts read. Separate audit reused: six contact sheets/102 sampled stills plus eight individual frames, not continuous audio/video. Author directly inspected delivered islet JPEG; no repeat source-frame inspection claimed.",
-  "prose_status": "Accepted after two actual independent full scientific/editorial reviews, required targeted repairs and separate actual browser/print verification.",
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
   "code": [
     "code/ch09_glucose_balance.py"
   ],
@@ -84,35 +84,35 @@
       "id": "ch9-anim1",
       "path": "assets/ch09-axis.html",
       "figure_number": "9.2",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Staged HPA feedback; selectable calcium/PTH coordination. Presentation phase,not physical kinetics."
     },
     {
       "id": "ch9-anim2",
       "path": "assets/ch09-insulin.html",
       "figure_number": "9.4",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Receptor/signaling/GLUT4 sequence in muscle/adipose; tissue-specific comparison. No insulin-glucose carrier."
     },
     {
       "id": "ch9-anim3",
       "path": "assets/ch09-meal.html",
       "figure_number": "9.5",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Physical synthetic0–240min trajectory with synchronized stocks,fluxes,time cursor,glucose and separate action-index plots."
     },
     {
       "id": "ch9-fig1",
       "path": "assets/ch09-gland-map.svg",
       "figure_number": "9.1",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Original reference-informed schematic regional locator with separate sagittalbrain/posterior-thyroid insets and alternative gonadal locators."
     },
     {
       "id": "ch9-fig2",
       "path": "assets/ch09-islet-reference.jpg",
       "figure_number": "9.3",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Unchanged1600x1200 prepared human section; uploader identifies red glucagon/blue insulin antibody signals. CC BY-SA3.0; no universal architecture inference."
     }
   ],
@@ -195,6 +195,23 @@
     "resolved_by": "Explicit user-selected modality and hash-bound chapter-specific visual inspection."
   },
   "realistic_asset_gate": {
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
+  },
+  "public_acceptance": {
+    "path": "validation/acceptance/chapter-09.json",
+    "sha256": "9006170b5cc5bb582661137e306e60cc1de6d8c24855ffe0eca3688ec042d5f8"
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "reopened",
+    "date": "2026-11-08",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false
+  },
+  "prior_visual_gate": {
     "status": "accepted",
     "reason": "Chapter-specific visual modality and delivered artifacts inspected under the user-selected workflow.",
     "mode": "observed-reference-plus-schematic",
@@ -212,8 +229,16 @@
     "report_path": "work/browser/ch09-visual-modality.json",
     "report_sha256": "ecd9efaca2427f6555efea5fea3cdfbd857099a241f5c74f20305fae0fa73a76"
   },
-  "public_acceptance": {
-    "path": "validation/acceptance/chapter-09.json",
-    "sha256": "9006170b5cc5bb582661137e306e60cc1de6d8c24855ffe0eca3688ec042d5f8"
+  "current_chapter_sha256": "5ac4075492653f7a4b5c9f83402ff92a3a0e288bc7d143be56c298d8dec1e787",
+  "current_body_sha256": "b881f90cd416d1e23cfbe3b9343afe6e3a86635ec7ec882bf7c8abcc8c170631",
+  "current_visual_acceptance": false,
+  "current_visual_artifacts": {
+    "assets/ch09-v2-glut4-provenance.json": "83340e10732dde62accfda5dbcc682f081a5a4302e84156490c48a9374fbe5df",
+    "assets/ch09-v2-glut4-redistribution-frame-0000.png": "a036ce359def2d36e258d84e23d6975f8a7f910bec40950981342742f22c706a",
+    "assets/ch09-v2-glut4-redistribution-frame-0066.png": "69aec4154ec0e208276c653a4a4b4cdefad4e3186f9ebf3ef557e467aca15c88",
+    "assets/ch09-v2-glut4-redistribution-frame-0131.png": "c1a3a1ba042aaa6ae814a81ab00c7d25bfb4b2cf113012411668a07471ac1758",
+    "assets/ch09-v2-glut4-redistribution.mp4": "0adce60b7582231e0537387a3335c4dec6a6620608eb6d55e2bdbd1148ab8ee8",
+    "assets/ch09-v2-glut4-reference.html": "1ca75312c497818ea201aedf00bc87c9ede257dfe45ff4bb775cd994c74b9b6a",
+    "assets/ch09-v2-glut4-sources.json": "6637509a261693066443c9b34215a8c3e10892c921e1b261731231037bccbe95"
   }
 }

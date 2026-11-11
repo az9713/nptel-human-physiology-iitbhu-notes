@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-09",
+  "status": "Candidate; final source/anatomy/appearance/UI/print review pending, no acceptance inferred",
+  "source_record": "ch16-v2-renal-anatomy-sources.json",
+  "source_record_sha256": "b821c8b3255f2338250173f14faf56c3669bd9888cf7d59f1b463237a40eb252",
+  "component_rights": {
+    "ultrasound": "CC BY4.0",
+    "nephron": "Copyright2024 Optica Publishing Group; article-specific Optica Open Access Publishing Agreement. Noncommercial use/reuse/building upon with appropriate attribution; NOT a CC BY source. Separate component terms retained; no commercial permission presumed."
+  },
+  "crop": {
+    "file": "ch16-v2-renal-anatomy-nephron-c.png",
+    "source": "ch16-v2-renal-anatomy-nephron-source.png",
+    "rect": [
+      0,
+      365,
+      715,
+      725
+    ],
+    "pixels": [
+      715,
+      360
+    ],
+    "operation": "Exact integer sourcepanel crop, no resampling or pixel/color modification"
+  },
+  "independence": "Adult human ultrasound and prepared mouse HD-fMOST reconstruction are independent specimens/modalities/scales, not registered zoom or same kidney. TEM pressure lesson is also independent.",
+  "print": {
+    "ultrasound_width_mm": 110,
+    "ultrasound_ppi": 204.81636363636363,
+    "nephron_detail_width_mm": 145,
+    "nephron_detail_ppi": 125.24827586206897,
+    "source_limited_exception": "Source-preserving125ppi detail prioritizes readable existing segment labels and30µm bar; no upscaled bitmap. Actual native/print review required.",
+    "external_key_min_pt": 9.5,
+    "credit_min_pt": 9
+  },
+  "coverage_limits": [
+    "No source-observed fluid or solute movement",
+    "No transporter molecular localization in these image fields",
+    "No renal artery/vein/ureter route identified from ultrasound alone",
+    "Different selected nephron examples, not a universal measured human geometry",
+    "Source-shaped trace is reconstruction, not intrinsic color or full-cell photographic wall"
+  ],
+  "controls": "Contained Native/Fit/Close keyboardpan modal; focusreturn; target-only inline arrow60/Home/End/Page pan. Actual browser tests pending.",
+  "reproduction": {
+    "builder": "figures/ch16_renal_anatomy_v2.py",
+    "builder_sha256": "92b7a5763fc561ee24497fa1cccbf84a3bbfeb6bc83ade49aa4c7570406f35b9",
+    "template": "figures/ch16_renal_anatomy_v2.template.html",
+    "template_sha256": "9b669a0afb0e1a1c2572a18c67033b476af09cb56801fb486962ba94997102ab",
+    "python": "3.13.5",
+    "pillow": "11.0.0",
+    "inputs": "Immutable public acquired PNGs/sourceJSON/template/sharedmodal; no privatework or network dependency. SourcePDF acquisitions separately documented."
+  },
+  "shared_dependencies": {
+    "observed-image-dialog.css": "fe4ddfd8ee5108943d2cf0b14ce376d66cb8392b7857b796875090272462211b",
+    "observed-image-dialog.js": "5523431062e21f8cd36f63547b1eb79412c4d840fd912d7cd443809faedaf211"
+  },
+  "pending": [
+    "B actual source/rights and new layout",
+    "Root desktop650390 Native/Fit/pan and actual125ppi source-limited print legibility/pagebreaks",
+    "No molecular transporter or complete countercurrent coverage inferred"
+  ],
+  "artifacts": {
+    "ch16-v2-renal-anatomy-reference.html": "9b669a0afb0e1a1c2572a18c67033b476af09cb56801fb486962ba94997102ab",
+    "ch16-v2-renal-anatomy-nephron-c.png": "16c76b323eceb92a8e046c29489d85f9f87af2e8e4a1706d044da5b1ad24ce7e",
+    "ch16-v2-renal-anatomy-nephron-source.png": "4b32b7eb7cc5317ca8d2d28eff586f7c8b5fd2e65a2bae7e33c70a64b8c2432a",
+    "ch16-v2-renal-anatomy-ultrasound-source.png": "6387e77a55a7e231e43e238225f1c021dbec1ab0e5939c2d8b63ea7da6175a0b"
+  }
+}

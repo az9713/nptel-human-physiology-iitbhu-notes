@@ -1,8 +1,8 @@
 {
   "chapter": 2,
   "title": "Membrane transport and homeostasis",
-  "status": "accepted",
-  "coverage_complete": true,
+  "status": "revised",
+  "coverage_complete": false,
   "reviews": [
     {
       "reviewer_id": "/root/ch01_review_a",
@@ -51,7 +51,7 @@
     6
   ],
   "source_evidence": "Publisher captions plus an existing bounded sampled-still review; no continuous-video/audio review claimed. Source discrepancy between L5 printed heart-failure slide and cardiac-arrest captions is preserved.",
-  "prose_status": "Accepted manuscript after two independent full scientific/editorial reviews, targeted repairs and specified production checks.",
+  "prose_status": "Prior scientific/editorial reviews retained; current visual and release acceptance withdrawn pending version-2 rebuild.",
   "code": [
     "code/ch02_transport_feedback.py"
   ],
@@ -60,32 +60,51 @@
     {
       "id": "ch2-anim1",
       "path": "assets/ch02-transport-lab.html",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Controlled exact neutral-solute diffusion with conductance adjustment and a separate voltage-dependent K energy check; fixed volumes and synthetic parameters."
     },
     {
       "id": "ch2-anim2",
       "path": "assets/ch02-transport-lab.html",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Controlled Na/K pump phase sequence, three Na out/two K in, with a distinct sodium-dependent symporter. Shapes and presentation timings are schematic."
     },
     {
       "id": "ch2-anim3",
       "path": "assets/ch02-transport-lab.html",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Controlled one-state negative-feedback trace and sensor/controller/effector display from one shared state, gain adjustment, no-feedback comparison and nonzero steady error."
     },
     {
       "id": "ch2-fig1",
-      "path": "chapter-02-membrane-transport-homeostasis.html#selectivity",
-      "status": "accepted",
-      "role": "Inline original membrane sectional reconstruction; no atomic geometry, physical scale or photorealism claim."
+      "path": "chapter-02-membrane-transport-homeostasis.html#fig-membrane-context",
+      "status": "partial-observed-candidate-review-pending",
+      "role": "Figure2.1 replaces flat inline anatomy with separate Torpedo map2 leaflet-associated bands, neighboring-cell TEM and observed HeLa FXm assay. No normal-human bilayer/raw-leaflet, channel/carrier-route visualization or registered scales claimed.",
+      "assets": [
+        "assets/ch02-v2-bilayer-reconstruction-reference.html",
+        "assets/ch02-v2-bilayer-reconstruction-source.png",
+        "assets/ch02-v2-cell-boundary-osmosis-reference.html",
+        "assets/ch02-v2-cell-boundary-osmosis-detail.png",
+        "assets/ch02-v2-cell-boundary-osmosis-poster.png",
+        "assets/ch02-v2-cell-boundary-osmosis-hela.mp4"
+      ]
     },
     {
       "id": "ch2-fig2",
       "path": "chapter-02-membrane-transport-homeostasis.html#organelle-failure",
-      "status": "accepted",
+      "status": "revision-required",
       "role": "Original causal failure-mode comparison; no accepted anatomical render claimed."
+    },
+    {
+      "id": "ch2-pump-architecture-reference",
+      "path": "chapter-02-membrane-transport-homeostasis.html#pump-architecture-reference",
+      "status": "static-architecture-candidate-review-pending",
+      "role": "Unnumbered section2.7 source-coordinate pigkidney3WGU one-state SAS reference with matching C-alpha full-gallery access. Does not fulfill ch2-anim2 cycle/transport mechanics.",
+      "assets": [
+        "assets/ch02-v2-pump-architecture.html",
+        "assets/ch02-v2-pump-surface-labelled.svg",
+        "assets/ch02-v2-pump-backbone-labelled.svg"
+      ]
     }
   ],
   "limitations": [
@@ -94,10 +113,14 @@
     "All numerical trajectories and phase representations are synthetic teaching constructions; no patient fitting or measured protein kinetics is claimed.",
     "Scranton et al. 2025 mouse/myocyte evidence is a bounded research extension, not a demonstrated human therapy.",
     "Some Bookshelf/IUPHAR sources were accessible only as indexed excerpts, and the CFTR original study at indexed-abstract depth; exact source access limits remain in the reader.",
-    "Source-frame inspection is bounded sampling, not continuous video/audio. Private browser PDF proofs include an installed extension overlay and are not public PDF deliverables."
+    "Source-frame inspection is bounded sampling, not continuous video/audio. Private browser PDF proofs include an installed extension overlay and are not public PDF deliverables.",
+    "Figure2.1 sources are independent specimens/scales: specialized extracted Torpedo AChR membrane reconstruction, uncalibrated adjacent-cell TEM of unspecified species, and human HeLa FXm osmotic assay; not a normal-human or RBC bilayer/movie.",
+    "HeLa movie source clocks are minutes with separate segments; publisher seconds/30fps are not acquisition timing. FXm volume uses calibrated integrated fluorescence deficit, not projected footprint alone.",
+    "3WGU is one pigkidney ADP/AlF4 analogue precedingE1P; protein-only per-chainSAS can overlap at buried interfaces, missing22alpha31FXYD remain absent, no bilayer or complete transport cycle follows.",
+    "Existing transport-lab pump/symporter schematic and biological imagery remain revision-required; quantitative formulas/model trajectories are retained unchanged and are not measured observations."
   ],
   "coverage_basis": "Core source-topic spans and reasoned exclusions checked in the two independent full reviews; evidence is publisher captions plus bounded sampled-still audits, not continuous audio/video inspection.",
-  "body_sha256": "7ab83a1690387b1041b0c1c09e675fcebba629ccd67da6eaad94722ac473e940",
+  "body_sha256": "db0ac4223f132afb9c3ffd925e03192d1ec4346f6064d64968f64176fa839139",
   "reviewed_artifacts": [
     {
       "path": "code/ch02_transport_feedback.py",
@@ -121,5 +144,60 @@
   "public_acceptance": {
     "path": "validation/acceptance/chapter-02.json",
     "sha256": "7079e20f971f05c50acc1572875d890d51ca51ff0cf24e47ceca5dfa81f124ea"
-  }
+  },
+  "visual_revision": {
+    "version": 2,
+    "status": "local-observed-structure-and-osmotic-assay-integration-pending-review",
+    "date": "2026-11-09",
+    "rubric": "spec/physiology-visual-rubric.md",
+    "reason": "User rejected crude symbolic anatomy; prior functioning schematics did not meet accurate photorealistic illustration requirements.",
+    "scientific_review_history_retained": true,
+    "current_visual_acceptance": false,
+    "integration_report": "work/visual-v2/ch02/integration/HANDOFF.md",
+    "pending": [
+      "Independent current source/anatomy/timing and appearance/teaching review",
+      "Actual root desktop650390/contained pump pan/gallery access and canonical PDF proof",
+      "Existing transport-lab schematic anatomy/pump cycle still revision-required; exact quantitative diffusion/feedback models retained",
+      "No normal-human raw calibrated leaflet micrograph or actual RBC osmotic assay supplied",
+      "No source-grounded complete molecular pump/secondary-transport trajectory or measured kinetic cycle"
+    ],
+    "current_body_sha256": "ba96876c933064f09882b8e8c9a0be3a4a1f7db95c355031f6644410b98ddd06",
+    "parent_pump_print_repair": {
+      "date": "2026-11-09",
+      "report": "work/visual-v2/ch02/parent-pump-print-repair/HANDOFF.md",
+      "trigger": "B current parentPDFp11 pump render separated from p12 key/captions/source",
+      "scope": "Head print-only CSS plus one authorised source-rights footer correction; all science/math/table/labs/sourcepixels and160mm molecular plate unchanged.",
+      "operations": "Fresh-page start, keep entireaside/plate together, remove outerprint margins and reduce blank paragraph/key spacing without font/image reduction.",
+      "plate_width_mm": 160,
+      "pending": "Root actualPDF page count and full key/caption/credit grouping; B targeted print review; no acceptance.",
+      "footer_correction": "Course/OpenStax artwork not reproduced; separately licensed primary-source imagery credited with preparation/reuse terms. Historical review hashes unchanged."
+    }
+  },
+  "realistic_asset_gate": {
+    "status": "reopened",
+    "rubric": "spec/physiology-visual-rubric.md"
+  },
+  "current_chapter_sha256": "5518c6d8405dd8c0e071075fec11bc8a7a177ca96025c76e6e9508ce760448c4",
+  "review_history_scope": "reviews, reviewed_artifacts, production_validation, accepted_at_utc and public_acceptance describe prior hashes only; they do not accept current visual-v2 chapter bytes.",
+  "current_visual_artifacts": {
+    "assets/ch02-v2-bilayer-reconstruction-provenance.json": "359c262e5fdebc2c552ab36376b376881e05299ebb86c085764a36d6ae41ec2d",
+    "assets/ch02-v2-bilayer-reconstruction-reference.html": "4f9105fa2ead61034e5324d5c7e7dacbde4ceb7c98b2605fc4a5576fba3c7f39",
+    "assets/ch02-v2-bilayer-reconstruction-source.png": "e6935259e2f36da0a7d4e14826207039aa9feb5c36e5ce30e0c90028f22102a6",
+    "assets/ch02-v2-bilayer-reconstruction-sources.json": "b32bf896d4e5a8c61b56b7b60765469cedf0cefc2552a76608be00320d382798",
+    "assets/ch02-v2-cell-boundary-osmosis-detail.png": "eb6d03cf55dea936114b0ffdc07df9fcd2ce89a765f1c0db59cd0b082840de8b",
+    "assets/ch02-v2-cell-boundary-osmosis-hela.mp4": "3a4b8057ecad08dc2ff555c5bc925d933245e86c7d63b5ea4bd720e9a87a35ca",
+    "assets/ch02-v2-cell-boundary-osmosis-poster.png": "468efbca5f7ea935b69729703f7f5edbd73965d54747b6e228b7a1095d88518e",
+    "assets/ch02-v2-cell-boundary-osmosis-provenance.json": "f27814e9ae95aed3cbe4b0b771d6dc1bf646f1dcdde5993cfc0ff19ae2c858a1",
+    "assets/ch02-v2-cell-boundary-osmosis-reference.html": "4e2421cb492ff64d67d43952d9fab126ca65aa2ce4928d0f435e1475b457573f",
+    "assets/ch02-v2-cell-boundary-osmosis-sources.json": "d7c35fc7818ef0cd813d02914c007645b8f2464531fbb5f224a833b249c7a846",
+    "assets/ch02-v2-cell-boundary-osmosis-tem.jpg": "df3ded339876a430c54348a4dc925bb44d0b60465034ba607392183880d3a4ff",
+    "assets/ch02-v2-pump-architecture.html": "c0ca5dd4777ea371f106bd55dc640b42f44a319e431a49d910a186d69880efb5",
+    "assets/ch02-v2-pump-backbone-labelled.svg": "5644f26ca874331d6a851c90626f50299c7f127de38349e24b398fc52244e221",
+    "assets/ch02-v2-pump-backbone.png": "d1c6713c825711f3bfe0a12f30cb741dc2a3a354778309b0c3310b068f2b074b",
+    "assets/ch02-v2-pump-inputs.json": "26e6885bdbc0d9db3d3378dc1a00d9ba025cb13f36f559c362ba0380533e4d7d",
+    "assets/ch02-v2-pump-provenance.json": "2bd28e36bb44600da00e5a0498db72417be04c9c4dbb928623ed69a7a995a22e",
+    "assets/ch02-v2-pump-surface-labelled.svg": "357ee0008a850473d66d24466d48b0a1e6b49cd07565347d6a60b57bb0dd95be",
+    "assets/ch02-v2-pump-surface.png": "4f77533eb24349afe26c88aa2b5bf7126cc4fcfd414a59238ebbb5bfdba5c51a"
+  },
+  "current_body_sha256": "ba96876c933064f09882b8e8c9a0be3a4a1f7db95c355031f6644410b98ddd06"
 }
